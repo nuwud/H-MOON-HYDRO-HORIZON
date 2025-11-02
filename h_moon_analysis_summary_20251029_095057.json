@@ -1,0 +1,223 @@
+{
+  "overview": {
+    "total_products": 1259,
+    "active_products": 1193,
+    "published_products": 0,
+    "total_inventory_value": 1347035.09
+  },
+  "inventory_alerts": {
+    "out_of_stock": 1235,
+    "low_stock": 2,
+    "critical_products": [
+      {
+        "title": "Zero Tolerance <b>Pest Control</b> gal",
+        "sku": "hmh00555",
+        "price": 75.0,
+        "handle": "zero-tolerance-pest-control-gal"
+      },
+      {
+        "title": "Yield Up 9-47-9 2 kg",
+        "sku": "hmh00311",
+        "price": 94.99,
+        "handle": "yield-up-9-47-9-2-kg"
+      },
+      {
+        "title": "UNO-2 Speed 10\" in line Blower 845 cfm",
+        "sku": "hmh01587",
+        "price": 129.0,
+        "handle": "uno-2-speed-10-in-line-blower-845-cfm"
+      },
+      {
+        "title": "Zero Tolerance <b>Herbal Fungicide</b> gal",
+        "sku": "hmh00554",
+        "price": 60.0,
+        "handle": "zero-tolerance-herbal-fungicide-gal"
+      },
+      {
+        "title": "Yield Up 9-47-9 500 gm",
+        "sku": "hmh00310",
+        "price": 26.95,
+        "handle": "yield-up-9-47-9-500-gm"
+      },
+      {
+        "title": "Scietetics Ful V Tech Element Transfer System 5 Gallon",
+        "sku": "",
+        "quantity": 3,
+        "price": 250.0,
+        "value": 750.0
+      },
+      {
+        "title": "Scietetics Ful V Tech Element Transfer System 255 Gallon",
+        "sku": "",
+        "quantity": 3,
+        "price": 14000.0,
+        "value": 42000.0
+      }
+    ]
+  },
+  "pricing_insights": {
+    "average_price": 141.66924559932943,
+    "price_range": {
+      "min": 0.33,
+      "max": 19000.0
+    },
+    "sale_items_count": 148,
+    "average_discount": 29.248283953286606,
+    "no_price_count": 66,
+    "no_price_items": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "HydroDynamics Clonex Mist 100 ml",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "content_quality": {
+    "missing_descriptions": {
+      "count": 1223,
+      "products": [
+        "Yield Up 9-47-9 2 kg",
+        "UNO-2 Speed 10\" in line Blower 845 cfm",
+        "Zero Tolerance <b>Herbal Fungicide</b> gal",
+        "Yield Up 9-47-9 500 gm",
+        "Ultra-premium Connoisseur Part-B (1 lt)",
+        "Xtreme Tea Brews 90 gm pack",
+        "Vortex 12 in., 2050 cfm - V-Series",
+        "Ultragrow A/C 8 in. with saftey glass & socket set w/ 15 ft cord",
+        "Verde Growth Catalyst 1 qt",
+        "Yield Up 9-47-9 10 kg"
+      ]
+    },
+    "missing_images": {
+      "count": 337,
+      "products": [
+        "Tritan's Trawl Gallon",
+        "Winter Frost Quart",
+        "Vitamino Amino Acid Supplement Gallon",
+        "TRIMPRO XL replacement bag",
+        "TRIMBOX replacement bag",
+        "Winter Frost Gallon",
+        "UNO-2 Speed 4\" in line Blower 190 cfm",
+        "UNO 4' x 8 ' (48\" X 96\" X 78\") Grow Tent",
+        "UNO Single Mechanical Timer",
+        "Vitamino Amino Acid Supplement Quart"
+      ]
+    },
+    "missing_seo": {
+      "count": 1259,
+      "products": [
+        "Zero Tolerance <b>Pest Control</b> gal",
+        "Yield Up 9-47-9 2 kg",
+        "UNO-2 Speed 10\" in line Blower 845 cfm",
+        "Zero Tolerance <b>Herbal Fungicide</b> gal",
+        "Yield Up 9-47-9 500 gm",
+        "Ultra-premium Connoisseur Part-B (1 lt)",
+        "Xtreme Tea Brews 90 gm pack",
+        "Vortex 12 in., 2050 cfm - V-Series",
+        "Ultragrow A/C 8 in. with saftey glass & socket set w/ 15 ft cord",
+        "Verde Growth Catalyst 1 qt"
+      ]
+    },
+    "missing_types": {
+      "count": 65,
+      "products": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "categorization": {
+    "vendors": {
+      "H Moon Hydro": 1194
+    },
+    "types": {
+      "simple": 1194
+    },
+    "popular_tags": {
+      "GREENHOUSE SEED": 36,
+      "GROW LARGE": 20,
+      "Atlas Seed": 14,
+      "monosilicic acid": 2,
+      "MagCaL": 2,
+      "Performance Soil": 2,
+      "Clone Gell": 2,
+      "Stop PM": 2,
+      "Athena CaMg": 2,
+      "Two Way Splitter 3_8 inch": 1
+    },
+    "status_distribution": {
+      "active": 1193,
+      "": 65,
+      "draft": 1
+    }
+  }
+}

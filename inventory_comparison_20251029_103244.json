@@ -1,0 +1,23 @@
+{
+  "analysis_date": "2025-10-29T10:32:44.809326",
+  "woocommerce": {
+    "total_products": 1259,
+    "zero_stock_count": 1235,
+    "zero_stock_percentage": 98.09372517871327,
+    "inventory_value": 1347035.09,
+    "products_with_inventory": 24
+  },
+  "shopify": {
+    "total_products": 1259,
+    "zero_stock_count": 1259,
+    "zero_stock_percentage": 100.0,
+    "inventory_value": 0
+  },
+  "comparison": {
+    "common_products": 0,
+    "woo_only_products": 1194,
+    "shopify_only_products": 0,
+    "inventory_discrepancies": 0,
+    "price_discrepancies": 0
+  }
+}

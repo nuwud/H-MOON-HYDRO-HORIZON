@@ -1,0 +1,22 @@
+{
+  "analysis_date": "2025-10-29T10:18:36.222557",
+  "total_products": 1259,
+  "total_inventory_value": 1347035.09,
+  "inventory_stats": {
+    "zero_stock": 1235,
+    "low_stock": 2,
+    "medium_stock": 6,
+    "high_stock": 16,
+    "no_tracking": 0
+  },
+  "price_ranges": {
+    "$50-99": 272,
+    "$100-499": 286,
+    "$10-49": 501,
+    "$500+": 37,
+    "$0": 66,
+    "$1-9": 97
+  },
+  "zero_stock_count": 1235,
+  "high_value_threshold": 1178000.0
+}
