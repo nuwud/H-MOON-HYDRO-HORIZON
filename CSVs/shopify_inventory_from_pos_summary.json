@@ -1,0 +1,15 @@
+{
+  "shopify_rows": 1259,
+  "aligned_variants": 976,
+  "pos_items_available": 2550,
+  "updates": {
+    "inventory": 915,
+    "price": 936,
+    "compare_at": 75,
+    "cost": 949,
+    "barcode": 927,
+    "vendor": 0,
+    "taxable": 0
+  },
+  "output_csv": "CSVs\\shopify_inventory_from_pos.csv"
+}

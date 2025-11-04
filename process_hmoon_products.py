@@ -4,6 +4,7 @@ H-Moon-Hydro Product Data Processor
 Processes the exported CSV data and creates enhanced analytics and reports
 """
 
+import argparse
 import pandas as pd
 import numpy as np
 from datetime import datetime
@@ -178,6 +179,9 @@ class HMoonProductProcessor:
             timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
             output_file = f"h_moon_hydro_enhanced_analysis_{timestamp}.xlsx"
         
+        if 'content_score' not in self.df.columns:
+            self.analyze_content_quality()
+
         # Calculate additional metrics
         self.df['Inventory_Value'] = self.df['Variant Price'] * self.df['Variant Inventory Qty']
         self.df['Profit_Margin'] = np.where(
@@ -264,9 +268,16 @@ def main():
     """Main execution function"""
     print("🌙 H-Moon-Hydro Product Data Processor")
     print("=" * 50)
-    
-    # Use the downloaded CSV file
-    csv_file = "products_export_1.csv"
+
+    parser = argparse.ArgumentParser(description="Analyze Shopify product export data")
+    parser.add_argument(
+        "--csv",
+        default="products_export_1.csv",
+        help="Path to the Shopify product export CSV (default: products_export_1.csv)",
+    )
+    args = parser.parse_args()
+
+    csv_file = args.csv
     
     try:
         # Initialize processor

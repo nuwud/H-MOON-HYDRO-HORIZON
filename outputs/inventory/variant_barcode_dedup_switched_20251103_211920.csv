@@ -1,0 +1,8 @@
+Barcode,Keep SKU,Cleared SKU,Handle,Title,Reason
+8718104122048,hmh01690,hmh01684,plagron-cocos-a-liter,Plagron Cocos A liter,Dedup within switched set (keep single/smallest unit)
+8718104122048,hmh01690,hmh01685,plagron-cocos-a-5-liter,Plagron Cocos A 5 liter,Dedup within switched set (keep single/smallest unit)
+0722540001018,hmh00170,hmh00418,mayan-microzyme-16-oz,Mayan Microzyme 16 oz,Dedup within switched set (keep single/smallest unit)
+0722540001018,hmh00170,hmh00442,humboldt-sticky-foliar-feed-16-oz,Humboldt Sticky Foliar Feed 16 oz,Dedup within switched set (keep single/smallest unit)
+0722540001018,hmh00170,hmh00185,floranova-grow-16-oz,FloraNova Grow 16 oz,Dedup within switched set (keep single/smallest unit)
+0722540001018,hmh00170,hmh00189,floranova-bloom-16-oz,FloraNova Bloom 16 oz,Dedup within switched set (keep single/smallest unit)
+0722540001018,hmh00170,hmh00180,flora-bloom-16-oz,Flora Bloom 16 oz,Dedup within switched set (keep single/smallest unit)
