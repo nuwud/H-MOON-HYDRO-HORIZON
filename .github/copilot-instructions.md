@@ -1,143 +1,42 @@
-# Shopify Horizon Theme - AI Coding Guide
+# H-Moon Hydro Horizon - AI Guide
 
-## Architecture Overview
+## Repo Shape
+- Shopify Horizon theme (v3.0.1) lives under `assets/`, `sections/`, `snippets/`, `templates/`; analytics automation scripts and CSV exports sit at repo root.
+- Section groups (`sections/header-group.json`, `sections/footer-group.json`) compose header/footer from multiple subsections.
+- Reusable fragments belong in `blocks/_*.liquid`; add new entries via section block schemas rather than duplicating markup.
+- Type tooling comes from `assets/global.d.ts` and `assets/jsconfig.json`; update both when adding new module aliases.
 
-This is a **Shopify Horizon theme** (v3.0.1) - a modern, component-based theme with advanced web standards. Key architectural patterns:
+## Theme Architecture
+- `snippets/scripts.liquid` owns the ES module import map (`@theme/*`) and preload ordering; register new modules there so hydration works in production.
+- All interactive components extend `Component` (`assets/component.js`) to gain `refs` autowiring (`ref` / `ref[]` attributes) and `on:event` declarative handlers; missing required refs throw `MissingRefError`.
+- Render-blocking primitives (e.g. `DeclarativeShadowElement`, `OverflowList`) live in `assets/critical.js` and rely on `Theme.utilities.scheduler.schedule` for batched layout work.
+- `assets/utilities.js` centralizes performance helpers (`requestIdleCallback`, `startViewTransition`, `prefersReducedMotion`, low-power checks); call these before kicking off heavy DOM or animation work.
+- When extending the Theme global, merge into `Theme.*` (see `snippets/scripts.liquid`) instead of overwriting the object so existing consumers keep their hooks.
 
-- **Section Groups**: Header/footer use JSON group files (`header-group.json`, `footer-group.json`) that compose multiple sections
-- **Component-Based JS**: All JS follows ES6 modules with import maps defined in `snippets/scripts.liquid`
-- **Block-Based Sections**: Sections use Liquid blocks (`_block-name.liquid`) for modular content composition
-- **TypeScript-Ready**: Full type definitions in `assets/global.d.ts` with `jsconfig.json` configuration
+## Liquid & Styling Patterns
+- Every section ultimately renders through `snippets/section.liquid`, which applies color scheme classes, overlay toggles, and CSS custom properties for width/height/padding.
+- Global section schema in `sections/section.liquid` defines alignment controls reused across feature sections; extend those options rather than reimplementing layout knobs.
+- Header/footer behavior depends on section group JSON; edit the nested sections (`sections/header.liquid`, etc.) instead of touching `layout/theme.liquid` directly.
+- Maintain `data-testid="ui-test-*"` hooks when adding customer-facing content so editor smoke tests keep working.
+- Color and overlay logic flow through `snippets/color-schemes.liquid`, `snippets/overlay.liquid`, and shared classes like `section-wrapper`, `layout-panel-flex`.
 
-## Critical File Structure
+## Performance & UX Notes
+- Modulepreload entries in `snippets/scripts.liquid` control critical path; preload new modules there if they gatefold above-the-fold UI.
+- View transitions are toggled by settings (`page_transition_enabled`, `transition_to_main_product`); pass a transition type string already registered in `assets/utilities.js` when calling `startViewTransition`.
+- `Theme.utilities.scheduler` and `requestYieldCallback` help defer DOM mutations after frame commits; prefer them over raw `setTimeout` for synchronized updates.
+- Respect reduced motion and low-power guards before running animations; many components check `prefersReducedMotion()` and `isLowPowerDevice()`—follow suit for new behavior.
+- Custom elements should register once (`customElements.get(...)`) to avoid double-definition when Shopify’s Section Rendering API rehydrates a section.
 
-```
-assets/
-  component.js           # Base Component class for all custom elements
-  utilities.js          # Core utilities (view transitions, performance)
-  critical.js           # Critical rendering scripts
-  global.d.ts           # TypeScript definitions for Shopify/Theme globals
-blocks/
-  _*.liquid            # Reusable content blocks (prefix with underscore)
-sections/
-  *-group.json         # Section group compositions
-snippets/
-  section.liquid       # Universal section wrapper with background/overlay logic
-templates/
-  *.json              # Page templates using section references
-```
-
-## JavaScript Patterns
-
-### Component Architecture
-All interactive elements extend the `Component` class from `assets/component.js`:
-
-```javascript
-import { Component } from '@theme/component';
-
-class MyComponent extends Component {
-  connectedCallback() {
-    super.connectedCallback();
-    // Component logic here
-  }
-}
-```
-
-### Module Import System
-Use import maps defined in `snippets/scripts.liquid`. Always import from `@theme/` namespace:
-- `@theme/utilities` - Core utility functions
-- `@theme/component` - Base component class
-- `@theme/events` - Event handling utilities
-
-### Performance Patterns
-- Use `requestIdleCallback` from utilities for non-critical tasks
-- Implement view transitions with `startViewTransition()` for smooth page changes
-- Check `isLowPowerDevice()` before enabling heavy animations
-
-## Liquid Development
-
-### Section Structure
-Every section should use the `section.liquid` snippet wrapper:
-```liquid
-{% render 'section', section: section %}
-  <!-- Section content here -->
-{% endrender %}
-```
-
-### Block Composition
-Create reusable blocks in `/blocks/` with underscore prefix. Reference in sections:
-```liquid
-{% for block in section.blocks %}
-  {% render block.type, block: block %}
-{% endfor %}
-```
-
-### Settings Schema
-Settings use nested structure with type presets. Common patterns:
-- `color_scheme` for consistent theming
-- `section_width` options: `page-width`, `full-width`
-- `padding-block-start/end` for consistent spacing
-
-## Theme-Specific Conventions
-
-### Color Schemes
-- Use `color-{{ section.settings.color_scheme }}` classes
-- Scheme names: `scheme-1`, `scheme-4`, etc.
-- Support inverse color schemes for overlays
-
-### Responsive Design
-- Mobile-first approach with `mobile_*` setting variants
-- Use CSS custom properties for responsive values
-- Container queries for component-level responsiveness
-
-### View Transitions API
-This theme uses native View Transitions API:
-- Enable with `settings.page_transition_enabled`
-- Product-specific transitions via `settings.transition_to_main_product`
-- Custom transition types in `utilities.js` (e.g., 'product-grid')
+## Data & Inventory Tooling
+- Python scripts (`sync_inventory.py`, `process_hmoon_products.py`, `align_pos_inventory.py`, etc.) expect Shopify and WooCommerce CSVs under `CSVs/` and emit enhanced files into `CSVs/` and `reports/`.
+- Install dependencies from `requirements.txt`; run `python sync_inventory.py --help` for CLI options including Shopify API pushes (`--update-shopify`, `--dry-run`, `--throttle`).
+- `sync_inventory.py` rewrites Shopify export rows in place, produces timestamped reports (`missing_shopify_fields_*.csv`, `price_updates_*.csv`, `barcode_backfill_*.csv`), and requires env vars `SHOPIFY_DOMAIN`, `SHOPIFY_ACCESS_TOKEN`, `SHOPIFY_LOCATION_ID` when hitting the Admin API.
+- `process_hmoon_products.py` builds Excel/JSON analytics (`h_moon_hydro_enhanced_analysis_*.xlsx`, `h_moon_hydro_reports_*.json`) and scores content completeness; keep numeric/date parsing consistent with its cleaning steps.
+- `scripts/shopify_full_audit.mjs` (Node 18+) uses GraphQL to generate `CSVs/shopify_export_after_prod__INCLUDE_ALL.csv` plus `reports/coverage_report.csv` with an appended problem shortlist; requires `SHOPIFY_DOMAIN`, `SHOPIFY_ACCESS_TOKEN`, optional `SHOPIFY_LOCATION_ID`.
 
 ## Development Workflow
-
-### Asset Development
-- JavaScript uses ES6 modules with strict TypeScript checking
-- CSS uses modern features (container queries, custom properties)
-- Import maps handle module resolution
-
-### Section Development
-1. Create section file in `/sections/`
-2. Add blocks in `/blocks/` if reusable
-3. Define schema with proper settings structure
-4. Use `section.liquid` wrapper for consistency
-
-### Testing Patterns
-- Test with `request.design_mode` for Shopify editor
-- Check `Shopify.designMode` in JavaScript
-- Use `data-testid="ui-test-*"` attributes for testing
-
-## Key Integrations
-
-### Shopify Features
-- Section Groups for header/footer composition
-- Predictive Search with dedicated endpoints
-- Cart API with drawer implementation
-- Product recommendations engine
-
-### Performance Features
-- Critical CSS/JS loading patterns
-- Lazy loading for non-critical components
-- Resource hints and preloading
-- View transitions for smooth navigation
-
-### Accessibility
-- Proper focus management via `@theme/focus`
-- Skip links and ARIA patterns
-- Reduced motion support throughout
-
-## Common Tasks
-
-- **Add new section**: Create in `/sections/`, add schema, render blocks
-- **Create component**: Extend `Component` class, register custom element
-- **Style updates**: Use CSS custom properties, follow color scheme patterns
-- **Performance optimization**: Use utilities for idle callbacks and low-power detection
-
-This theme prioritizes modern web standards, component reusability, and performance optimization while maintaining Shopify theme conventions.
+- Theme preview/build relies on Shopify CLI conventions; the `.shopify/` directory is ready for `shopify theme dev --path .` against the `h-moon-hydro` store after authenticating.
+- In JavaScript, guard against `request.design_mode` and `Shopify.designMode` when running editor-only logic so components behave during Section Rendering API reloads.
+- Keep additions aligned with existing utility classes (`layout-panel-*`, `spacing-style`, `border-style`) defined in `assets/base.css` to preserve spacing and chroma tokens.
+- When adding modules, update import maps, ensure they export ES6 modules, and add `modulepreload` hints if they participate in fold-critical UI.
+- Regenerate typings (`assets/global.d.ts`) when introducing new globals or custom element definitions so type-aware tooling remains accurate.
