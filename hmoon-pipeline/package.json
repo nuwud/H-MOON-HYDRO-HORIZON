@@ -1,0 +1,23 @@
+{
+  "name": "hmoon-pipeline",
+  "version": "0.2.0",
+  "description": "HMoonHydro product audit, enrichment, and competitor scraping toolbelt",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "sync:pull": "ts-node src/cli/syncPull.ts",
+    "score": "ts-node src/cli/scoreProducts.ts",
+    "scrape:demo": "ts-node src/cli/scrapeDemo.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
