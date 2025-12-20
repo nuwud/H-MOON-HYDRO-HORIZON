@@ -1,0 +1,72 @@
+id,handle,title,brand,vendor,bulb_type,wattage,lumens,color_temp,spectrum,size,price,sources,shopify,woo,inventory
+hid-ultragrow-a-c-8-in-w,ultragrow-a-c-8-in-with-saftey-glass-socket-set-w-15-ft-cord,"Ultragrow A/C 8 in. with saftey glass & socket set w/ 15 ft cord",Ultragrow,H Moon Hydro,socket,,,,unknown,15ft,164.99,shopify,yes,no,no
+hid-ultragrow-a-c-6-in-w,ultragrow-a-c-6-in-with-saftey-glass-socket-set-w-15-ft-cord,"Ultragrow A/C 6 in. with saftey glass & socket set w/ 15 ft cord",Ultragrow,H Moon Hydro,socket,,,,unknown,15ft,75.00,shopify,yes,no,no
+hid-uno-8-big-boy-a-c-re,uno-8-big-boy-a-c-reflector,"UNO 8"" Big Boy A/C Reflector",UNO,H Moon Hydro,cmh,,,,unknown,8in,89.99,shopify,yes,no,no
+hid-solarmax-400w-mht-ve,solarmax-400w-mht-veg-conversion-w-32000-lumens,"SolarMax 400W. MHT veg/Conversion w/32,000 Lumens",SolarMax,H Moon Hydro,conversion,400W,32000,,veg,,39.00,shopify,yes,no,no
+hid-solarmax-600w-hps-w-,solarmax-600w-hps-w-95000-lumens,"SolarMax 600W. HPS W/ 95,000 Lumens",SolarMax,H Moon Hydro,hps,600W,95000,,bloom,,29.00,shopify,yes,no,no
+hid-sunsoaker-parabolic-,sunsoaker-parabolic-reflector-w-horizonal-socket-bracket,"SunSoaker Parabolic Reflector w/ Horizonal Socket bracket",Unknown,H Moon Hydro,cmh,,,,unknown,,99.00,shopify,yes,no,no
+hid-solarmax-1000w-mht-v,solarmax-1000w-mht-veg-conversion-w-90000-lumens,"SolarMax 1000W. MHT veg/Conversion w/ 90,000 Lumens",SolarMax,H Moon Hydro,conversion,1000W,90000,,veg,,135.95,shopify,yes,no,no
+hid-solarmax-1000w-hps-w,solarmax-1000w-hps-w-147000-lumens,"SolarMax 1000W. HPS w/ 147,000 Lumens",SolarMax,H Moon Hydro,hps,1000W,147000,,bloom,,39.00,shopify,yes,no,no
+hid-smmh1000wv-solarmax-,smmh1000wv-solarmax-1000w-mht-metal-hailde-veg-85000-lumens,"SMMH1000WV SolarMax 1000W MHT Metal Hailde Veg. 85,000 Lumens",SolarMax,H Moon Hydro,accessory,1000W,85000,,veg,,123.95,shopify,yes,no,no
+hid-sunblaster-25-watt-g,sunblaster-25-watt-green-visual-lamp-standard-socket,"SunBlaster 25 watt green Visual lamp-standard socket",SunBlaster,H Moon Hydro,socket,25W,,,unknown,,9.88,shopify,yes,no,no
+hid-sunblaster-200w-cf-6,sunblaster-200w-cf-6400k-2,"Sunblaster 200W CF 6400k",SunBlaster,H Moon Hydro,accessory,200W,,6400K,unknown,,109.95,shopify,yes,no,no
+hid-t5-cfl-2-plantmax-da,t5-cfl-2-plantmax-day-24w-6500k-tube-2520-lumens,"T5 CFL 2' Plantmax Day 24W. 6500K tube 2520 lumens",PlantMax,H Moon Hydro,t5,24W,2520,6500K,veg,2ft,8.95,shopify,yes,no,no
+hid-t5-high-output-fluor,t5-high-output-fluorescent-lamps,"T5 High Output Fluorescent Lamps",Unknown,H Moon Hydro,t5,,,,unknown,,14.95,shopify,yes,no,no
+hid-t5-cfl-4-plantmax-wa,t5-cfl-4-plantmax-warm-54w-3000k-tube-4800-lumens,"T5 CFL 4' Plantmax Warm 54W. 3000K tube 4800 lumens",PlantMax,H Moon Hydro,t5,54W,4800,3000K,bloom,4ft,10.95,shopify,yes,no,no
+hid-t5-cfl-2-plantmax-wa,t5-cfl-2-plantmax-warm-24w-3000k-tube-2280-lumens,"T5 CFL 2' Plantmax Warm 24W 3000K tube 2,280 lumens",PlantMax,H Moon Hydro,t5,24W,2280,3000K,bloom,2ft,8.95,shopify,yes,no,no
+hid-solarmax-400w-mh-gol,solarmax-400w-mh-gold-36000-lumens,"SolarMax 400W. MH Gold 36,000 Lumens",SolarMax,H Moon Hydro,mh,400W,36000,,unknown,,39.00,shopify,yes,no,no
+hid-solarmax-400w-mht-me,solarmax-400w-mht-metal-halide-veg-32000-lumens,"SolarMax 400W. MHT Metal Halide Veg. 32,000 Lumens",SolarMax,H Moon Hydro,mh,400W,32000,,veg,,115.95,shopify,yes,no,no
+hid-sunblaster-nanodome,sunblaster-nanodome,"Sunblaster Nanodome",SunBlaster,H Moon Hydro,accessory,,,,unknown,,6.95,shopify,yes,no,no
+hid-solarmax-600w-mht-ve,solarmax-600w-mht-veg-conversion-w-55000-lumens,"SolarMax 600W. MHT veg/Conversion w/ 55,000 Lumens",SolarMax,H Moon Hydro,conversion,600W,55000,,veg,,129.95,shopify,yes,no,no
+hid-solarmax-400w-hps-w-,solarmax-400w-hps-w-55000-lumens,"SolarMax 400W. HPS W/ 55,000 Lumens",SolarMax,H Moon Hydro,hps,400W,55000,,bloom,,39.00,shopify,yes,no,no
+hid-solarmax-1000w-mh-go,solarmax-1000w-mh-gold-110000-lumens,"SolarMax 1000W. MH Gold 110,000 Lumens",SolarMax,H Moon Hydro,mh,1000W,110000,,unknown,,70.00,shopify,yes,no,no
+hid-socket-set-w-15-cord,socket-set-w-15-cord,"Socket Set w/ 15' Cord",Unknown,H Moon Hydro,socket,,,,unknown,15ft,19.95,shopify,yes,no,no
+hid-sunblaster-t5-strip-,sunblaster-t5-strip-connector,"Sunblaster T5 Strip Connector",SunBlaster,H Moon Hydro,t5,,,,unknown,,9.95,shopify,yes,no,no
+hid-sunblaster-125w-cf-2,sunblaster-125w-cf-2500k-2,"Sunblaster 125W CF 2500k",SunBlaster,H Moon Hydro,accessory,125W,,2500K,unknown,,59.95,shopify,yes,no,no
+hid-revolt-digital-dimmi,revolt-digital-dimming-ballast,"ReVolt Digital 1000 Watt Dimming Ballast",Unknown,H Moon Hydro,ballast,1000W,,,unknown,,99.00,shopify,yes,no,no
+hid-pulse-start-metal-ha,pulse-start-metal-halide-3000k-for-flowering-growth,"Pulse Start Metal Halide 3,000K for Flowering Growth",Unknown,H Moon Hydro,mh,,,,bloom,,59.95,shopify,yes,no,no
+hid-pulse-start-metal-ha,pulse-start-metal-halide-7000k-for-vegative-growth,"Pulse Start Metal Halide 7,000K for Vegative Growth",Unknown,H Moon Hydro,mh,,,,unknown,,59.95,shopify,yes,no,no
+hid-pulse-start-metal-ha,pulse-start-metal-halide-10000k-for-final-flowering-2,"Pulse Start Metal Halide 10,000K for Final Flowering",Unknown,H Moon Hydro,mh,,,,bloom,,59.95,shopify,yes,no,no
+hid-pulse-start-metal-ha,pulse-start-metal-halide-10000k-for-final-flowering,"Pulse Start Metal Halide 10,000K for Final Flowering",Unknown,H Moon Hydro,mh,,,,bloom,,59.95,shopify,yes,no,no
+hid-plantmax-dual-arc-tu,plantmax-dual-arc-tube-lamps-2,"Plantmax Dual Arc Tube Lamps",PlantMax,H Moon Hydro,accessory,,,,full,,159.95,shopify,yes,no,no
+hid-plantmax-dual-arc-tu,plantmax-dual-arc-tube-lamps,"Plantmax Dual Arc Tube Lamps",PlantMax,H Moon Hydro,accessory,,,,full,,55.00,shopify,yes,no,no
+hid-plantmax-940w-hps-co,plantmax-940w-hps-conversion-130000-lumens,"Plantmax 940W. HPS Conversion 130,000 lumens",PlantMax,H Moon Hydro,hps,940W,130000,,bloom,,39.95,shopify,yes,no,no
+hid-plantmax-super-metal,plantmax-super-metal-halide,"Plantmax SUPER Metal Halide",PlantMax,H Moon Hydro,mh,,,,unknown,,29.95,shopify,yes,no,no
+hid-plantmax-750w-hps-hi,plantmax-750w-hps-high-output-106000-lumens,"Plantmax 750W. HPS High Output 106,000 lumens",PlantMax,H Moon Hydro,hps,750W,106000,,bloom,,79.95,shopify,yes,no,no
+hid-plantmax-1000w-mh-co,plantmax-1000w-mh-conversion-110000-lumens,"Plantmax 1000W. MH Conversion 110,000 lumens",PlantMax,H Moon Hydro,mh,1000W,110000,,conversion,,39.95,shopify,yes,no,no
+hid-plantmax-600w-hps-hi,plantmax-600w-hps-high-output-90000-lumens,"Plantmax 600W. HPS High Output 90,000 lumens",PlantMax,H Moon Hydro,hps,600W,90000,,bloom,,79.95,shopify,yes,no,no
+hid-plantmax-1000w-72k-m,plantmax-1000w-72k-mh-high-output-90000-lumens-2,"Plantmax 1000W. 72K MH High Output 90,000 lumens",PlantMax,H Moon Hydro,mh,1000W,90000,,unknown,,79.99,shopify,yes,no,no
+hid-plantmax-400w-hps-hi,plantmax-400w-hps-high-output-50000-lumens,"Plantmax 400W. HPS High Output 50,000 lumens",PlantMax,H Moon Hydro,hps,400W,50000,,bloom,,29.95,shopify,yes,no,no
+hid-plantmax-400w-72k-mh,plantmax-400w-72k-mh-high-output-32000-lumens,"Plantmax 400W. 72K MH High Output 32,000 lumens",PlantMax,H Moon Hydro,mh,400W,32000,,unknown,,19.99,shopify,yes,no,no
+hid-plantmax-250w-mh-con,plantmax-250w-mh-conversion,"Plantmax 250W. MH Conversion",PlantMax,H Moon Hydro,mh,250W,,,conversion,,39.95,shopify,yes,no,no
+hid-plantmax-430w-hps-hi,plantmax-430w-hps-high-output-58000-lumens,"Plantmax 430W. HPS High Output 58,000 lumens",PlantMax,H Moon Hydro,hps,430W,58000,,bloom,,39.95,shopify,yes,no,no
+hid-plantmax-1000w-72k-m,plantmax-1000w-72k-mh-high-output-90000-lumens,"Plantmax 1000W. 72K MH High Output 90,000 lumens",PlantMax,H Moon Hydro,mh,1000W,90000,,unknown,,79.99,shopify,yes,no,no
+hid-plantmax-400w-mh-con,plantmax-400w-mh-conversion-36000-lumens,"Plantmax 400W. MH Conversion 36,000 lumens",PlantMax,H Moon Hydro,mh,400W,36000,,conversion,,39.95,shopify,yes,no,no
+hid-plantmax-400w-mh-hig,plantmax-400w-mh-high-output-39000-lumens,"Plantmax 400W. MH High Output 39,000 lumens",PlantMax,H Moon Hydro,mh,400W,39000,,unknown,,29.95,shopify,yes,no,no
+hid-plantmax-600w-mh-con,plantmax-600w-mh-conversion-57000-lumens,"Plantmax 600W. MH Conversion 57,000 lumens",PlantMax,H Moon Hydro,mh,600W,57000,,conversion,,39.95,shopify,yes,no,no
+hid-plantmax-220w-hps-co,plantmax-220w-hps-conversion-25000-lumens,"Plantmax 220W. HPS Conversion 25,000 lumens",PlantMax,H Moon Hydro,hps,220W,25000,,bloom,,39.95,shopify,yes,no,no
+hid-plantmax-250w-hps-hi,plantmax-250w-hps-high-output-29000-lumens,"Plantmax 250W. HPS High Output 29,000 lumens",PlantMax,H Moon Hydro,hps,250W,29000,,bloom,,29.95,shopify,yes,no,no
+hid-plantmax-250w-mh-hig,plantmax-250w-mh-high-output-24000-lumens,"Plantmax 250W. MH High Output 24,000 lumens",PlantMax,H Moon Hydro,mh,250W,24000,,unknown,,29.95,shopify,yes,no,no
+hid-plantmax-360w-hps-co,plantmax-360w-hps-conversion-45000-lumens,"Plantmax 360W. HPS Conversion 45,000 lumens",PlantMax,H Moon Hydro,hps,360W,45000,,bloom,,39.95,shopify,yes,no,no
+hid-plantmax-150w-hps-hi,plantmax-150w-hps-high-output-16000-lumens,"Plantmax 150W. HPS High Output 16,000 lumens",PlantMax,H Moon Hydro,hps,150W,16000,,bloom,,19.95,shopify,yes,no,no
+hid-plantmax-1000w-mh-hi,plantmax-1000w-mh-high-output-120000-lumens,"Plantmax 1000W. MH High Output 120,000 lumens",PlantMax,H Moon Hydro,mh,1000W,120000,,unknown,,59.95,shopify,yes,no,no
+hid-hortilux-1000-w-blue,hortilux-1000-w-blue-daylight-metal-halide,"Hortilux- 1000 W Blue Daylight Metal Halide",Eye Hortilux,H Moon Hydro,mh,1000W,,,veg,,110.00,shopify,yes,no,no
+hid-hortilux-lu600-watt-,hortilux-lu600-watt-htl-en-hps,"Hortilux LU600 Watt/HTL/EN HPS",Eye Hortilux,H Moon Hydro,hps,600W,,,bloom,,45.50,shopify,yes,no,no
+hid-greenpowerlunimaires,greenpowerlunimaires-315-remote-ballast-2,"GREENPOWERLUNIMAIRES -315 REMOTE ballast",Unknown,H Moon Hydro,ballast,,,,unknown,,169.00,shopify,yes,no,no
+hid-greenpowerlunimaires,greenpowerlunimaires-315-remote-ballast,"GREENPOWERLUNIMAIRES -315 REMOTE ballast",Unknown,H Moon Hydro,ballast,,,,unknown,,80.00,shopify,yes,no,no
+hid-eye-hortilux-e-start,eye-hortilux-e-start-metal-halide-lamps-2,"Eye Hortilux e-Start Metal Halide Lamps",Eye Hortilux,H Moon Hydro,mh,,,,unknown,,50.00,shopify,yes,no,no
+hid-eye-hortilux-lu-1000,eye-hortilux-lu-1000-de-htl-double-ended-2,"Eye Hortilux® LU 1000 DE/HTL Double-Ended",Eye Hortilux,H Moon Hydro,accessory,,,,unknown,,60.50,shopify,yes,no,no
+hid-eye-hortilux-cmh-315,eye-hortilux-cmh-315-lamp-4,"Eye Hortilux® CMH 315 Lamp",Eye Hortilux,H Moon Hydro,cmh,,,,unknown,,99.00,shopify,yes,no,no
+hid-eye-hortilux-e-start,eye-hortilux-e-start-metal-halide-1000watt,"Eye Hortilux e-Start Metal Halide  1000Watt",Eye Hortilux,H Moon Hydro,mh,1000W,,,unknown,,45.50,shopify,yes,no,no
+hid-cri-series-dli-cri-s,cri-series-dli-cri-series-630w-cmh-240v,"CRI-Series DLI CRI-Series 630W CMH 120V-240V",Unknown,H Moon Hydro,cmh,630W,,,unknown,,395.00,shopify,yes,no,no
+hid-basic-1000w-mh-hps-s,basic-1000w-mh-hps-switchable-ballast,"Basic 1000W MH/HPS Switchable Ballast",Unknown,H Moon Hydro,hps,1000W,,,bloom,,50.00,shopify,yes,no,no
+hid-basic-600w-hps-balla,basic-600w-hps-ballast,"Basic 600w HPS Ballast",Unknown,H Moon Hydro,hps,600W,,,bloom,,50.00,shopify,yes,no,no
+hid-air-tight-6-a-c-w-15,air-tight-6-a-c-w-15-socket-set,"Air Tight 6 A/C - w/15' Socket Set",Unknown,H Moon Hydro,socket,,,,unknown,15ft,75.00,shopify,yes,no,no
+hid-8-in-cool-tube-with-,8-in-cool-tube-with-reflector-socket-w-15-ft-cord-24-long,"8 in. Cool Tube with reflector socket w/ 15 ft cord - 24"" long",Unknown,H Moon Hydro,cmh,,,,unknown,15ft,89.00,shopify,yes,no,no
+hid-6-in-cool-tube-with-,6-in-cool-tube-with-reflector-socket-w-15-ft-cord-24-long,"6 in. Cool Tube with reflector socket w/ 15 ft cord - 24"" long",Unknown,H Moon Hydro,cmh,,,,unknown,15ft,69.95,shopify,yes,no,no
+hid-430-sodium-son-agro-,430-sodium-son-agro-54000-lumens,"430 Sodium Son-Agro 54000 lumens",Unknown,H Moon Hydro,accessory,,54000,,unknown,,89.95,shopify,yes,no,no
+hid-4-t5-fixture-54w-502,4-t5-fixture-54w-5022-lumens,"4' T5 Fixture 54W (5022 Lumens)",Unknown,H Moon Hydro,t5,54W,5022,,unknown,4ft,35.95,shopify,yes,no,no
+hid-4-nanotech-reflector,4-nanotech-reflector-for-sunblaster-t5,"4' Nanotech Reflector for Sunblaster T5",SunBlaster,H Moon Hydro,cmh,,,,unknown,4ft,19.95,shopify,yes,no,no
+hid-2-nanotech-reflector,2-nanotech-reflector-for-sunblaster-t5,"2' Nanotech Reflector for Sunblaster T5",SunBlaster,H Moon Hydro,cmh,,,,unknown,2ft,14.95,shopify,yes,no,no
+hid-2-sunblaster-t5-comb,2-sunblaster-t5-combo-6400k-2232-lumens,"2' Sunblaster T5 Combo 6400k (2232 Lumens)",SunBlaster,H Moon Hydro,t5,,2232,6400K,unknown,2ft,40.50,shopify,yes,no,no
+hid-1000-w-hps-alto-agro,1000-w-hps-alto-agrolite-xt-140000-lumens,"1000 W HPS Alto Agrolite XT 140000 lumens",Unknown,H Moon Hydro,hps,1000W,140000,,bloom,,99.95,shopify,yes,no,no

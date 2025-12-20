@@ -35,7 +35,7 @@ export async function fetchAllProducts(limit = 250): Promise<ShopifyProduct[]> {
             productType
             vendor
             tags
-            bodyHtml
+            descriptionHtml
             images(first: 10) {
               edges { node { id } }
             }
@@ -58,7 +58,7 @@ export async function fetchAllProducts(limit = 250): Promise<ShopifyProduct[]> {
     const edges = data.products.edges;
 
     for (const { node } of edges) {
-      const descriptionHtml: string | undefined = (node.bodyHtml as string | undefined) ?? undefined;
+      const descriptionHtml: string | undefined = (node.descriptionHtml as string | undefined) ?? undefined;
       const words = descriptionHtml
         ? descriptionHtml
             .replace(/<[^>]+>/g, ' ')

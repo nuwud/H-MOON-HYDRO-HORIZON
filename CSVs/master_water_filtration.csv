@@ -1,0 +1,34 @@
+id,handle,title,brand,vendor,filter_type,gpd_rating,stage,size,price,sources,shopify,woo,inventory
+water-tall-boy-de-chlorina,tall-boy-de-chlorinator-sediment-filter,"Tall Boy De-Chlorinator & Sediment Filter",Hydro-Logic,H Moon Hydro,dechlorinator,,,,115.00,shopify,yes,no,no
+water-tall-boy-blue-carbon,tall-boy-blue-carbon-replacement-filter,"TALL BOY BLUE CARBON REPLACEMENT FILTER",Hydro-Logic,H Moon Hydro,carbon_filter,,,,31.00,shopify,yes,no,no
+water-tall-boy-blue-sedime,tall-boy-blue-sediment-replacement,"TALL BOY BLUE SEDIMENT REPLACEMENT",Hydro-Logic,H Moon Hydro,sediment_filter,,,,14.00,shopify,yes,no,no
+water-small-boy-carbon-rep,small-boy-carbon-replacement-filter,"SMALL BOY CARBON REPLACEMENT FILTER",Hydro-Logic,H Moon Hydro,carbon_filter,,,,14.00,shopify,yes,no,no
+water-stealth-ro-100-200-s,stealth-ro-100-200-sediment-filter,"STEALTH RO 100/200 SEDIMENT FILTER",Hydro-Logic,H Moon Hydro,ro_system,,,100,14.50,shopify,yes,no,no
+water-stealth-ro-100-200-c,stealth-ro-100-200-carbon-filter,"STEALTH RO 100/200 CARBON FILTER",Hydro-Logic,H Moon Hydro,ro_system,,,100,16.50,shopify,yes,no,no
+water-stealth-ro-300-custo,stealth-ro-300-customized-reverse-osmosis-filter,"Stealth RO 300 Customized Reverse Osmosis filter",Hydro-Logic,H Moon Hydro,ro_system,,,300,299.00,shopify,yes,no,no
+water-stealth-ro-100-custo,stealth-ro-100-customized-reverse-osmosis-filter,"Stealth RO 150 Customized Reverse Osmosis filter",Hydro-Logic,H Moon Hydro,ro_system,,,150,250.00,shopify,yes,no,no
+water-stealth-ro-100-200-p,stealth-ro-100-200-pressure-booster-pump,"STEALTH RO 100/200/ PRESSURE BOOSTER PUMP",Hydro-Logic,H Moon Hydro,ro_system,,,100,189.00,shopify,yes,no,no
+water-small-boy-sediment-r,small-boy-sediment-replacement,"SMALL BOY SEDIMENT REPLACEMENT",Hydro-Logic,H Moon Hydro,sediment_filter,,,,11.00,shopify,yes,no,no
+water-stealth-ro-100-200-m,stealth-ro-100-200-membrane-filter,"STEALTH RO 150/300 MEMBRANE FILTER",Hydro-Logic,H Moon Hydro,ro_system,,,150,83.00,shopify,yes,no,no
+water-profilter-replacemen,profilter-replacement-carbon,"ProFilter Replacement Carbon",Unknown,H Moon Hydro,replacement,,,,51.95,shopify,yes,no,no
+water-pre-filter-for-model,pre-filter-for-model-pro-70s,"Pre-Filter for Model Pro 70s",Unknown,H Moon Hydro,accessory,,,,9.56,shopify,yes,no,no
+water-pre-filter-for-model,pre-filter-for-model-pro-75,"Pre-Filter for Model Pro 75",Unknown,H Moon Hydro,accessory,,,,12.56,shopify,yes,no,no
+water-pre-filter-for-model,pre-filter-for-model-pro-100,"Pre-Filter for Model Pro 100",Unknown,H Moon Hydro,accessory,,,100,14.33,shopify,yes,no,no
+water-pre-filter-for-model,pre-filter-for-model-pro-50,"Pre-Filter for Model Pro 50",Unknown,H Moon Hydro,accessory,,,,9.56,shopify,yes,no,no
+water-pre-filter-for-model,pre-filter-for-model-pro-125,"Pre-Filter for Model Pro 125",Unknown,H Moon Hydro,accessory,,,,19.78,shopify,yes,no,no
+water-pre-filter-for-model,pre-filter-for-model-pro-45s,"Pre-Filter for Model Pro 45s",Unknown,H Moon Hydro,accessory,,,,8.11,shopify,yes,no,no
+water-hydro-logic-preevolu,hydro-logic-preevolution-high-capacity-pre-filter,"Hydro-Logic® PreEvolution™ High Capacity Pre-Filter",Hydro-Logic,,accessory,,,,,shopify,yes,no,no
+water-hydro-logic-evolutio,hydro-logic-evolution-ro1000-1000-gpd,"Hydro-Logic® Evolution RO1000™ - 1000 GPD",Hydro-Logic,H Moon Hydro,ro_system,1000 GPD,,1000,700.00,shopify,yes,no,no
+water-float-valve-3-8-in-q,float-valve-3-8-in-qc-tall-boy,"FLOAT VALVE 3/8 in. QC -TALL BOY",Hydro-Logic,H Moon Hydro,accessory,,,,19.00,shopify,yes,no,no
+water-can-50-pre-filter,can-50-pre-filter,"CAN 50 Pre-Filter",Unknown,H Moon Hydro,accessory,,,,12.22,shopify,yes,no,no
+water-can-125-pre-filter,can-125-pre-filter,"CAN 125 Pre-Filter",Unknown,H Moon Hydro,accessory,,,,21.11,shopify,yes,no,no
+water-can-33-pre-filter,can-33-pre-filter,"CAN 33 Pre-Filter",Unknown,H Moon Hydro,accessory,,,,6.67,shopify,yes,no,no
+water-can-700-pre-filter,can-700-pre-filter,"CAN 700 Pre-Filter",Unknown,H Moon Hydro,accessory,,,,7.78,shopify,yes,no,no
+water-can-75-pre-filter,can-75-pre-filter,"CAN 75 Pre-Filter",Unknown,H Moon Hydro,accessory,,,,13.33,shopify,yes,no,no
+water-can-66-pre-filter,can-66-pre-filter,"CAN 66 Pre-Filter",Unknown,H Moon Hydro,accessory,,,,12.22,shopify,yes,no,no
+water-can-100-pre-filter,can-100-pre-filter,"CAN 100 Pre-Filter",Unknown,H Moon Hydro,accessory,,,,15.55,shopify,yes,no,no
+water-can-150-pre-filter,can-150-pre-filter,"CAN 150 Pre-Filter",Unknown,H Moon Hydro,accessory,,,,23.33,shopify,yes,no,no
+water-big-boy-kdf-85-carbo,big-boy-kdf-85-carbon-filter-well-water-chloramines,"BIG BOY KDF-85 CARBON FILTER- WELL WATER & CHLORAMINES",Hydro-Logic,H Moon Hydro,carbon_filter,,,,129.00,shopify,yes,no,no
+water-big-boy-pleated-sedi,big-boy-pleated-sediment-filter-cleanable,"BIG BOY PLEATED SEDIMENT FILTER (CLEANABLE)",Hydro-Logic,H Moon Hydro,sediment_filter,,,,55.00,shopify,yes,no,no
+water-big-boy-carbon-filte,big-boy-carbon-filter,"Big Boy Carbon filter",Hydro-Logic,H Moon Hydro,carbon_filter,,,,63.00,shopify,yes,no,no
+water-1-4-in-qc-stealth-sm,1-4-in-qc-stealth-small-boy,"1/4 in. QC -STEALTH & SMALL BOY",Hydro-Logic,H Moon Hydro,accessory,,,,19.00,shopify,yes,no,no

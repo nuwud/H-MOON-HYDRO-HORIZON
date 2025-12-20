@@ -1,0 +1,18 @@
+id,handle,title,brand,vendor,trim_type,part_type,price,sources,shopify,woo,inventory
+trim-trimpro-rotor-exit-c,trimpro-rotor-exit-chute,"TRIMPRO ROTOR Exit Chute",TrimPro,H Moon Hydro,replacement,chute,17.00,shopify,yes,no,no
+trim-trimpro-xl-replaceme,trimpro-xl-replacement-bag,"TRIMPRO XL replacement bag",TrimPro,H Moon Hydro,replacement,bag,155.00,shopify,yes,no,no
+trim-trimbox-replacement-,trimbox-replacement-bag,"TRIMBOX replacement bag",TrimBox,H Moon Hydro,replacement,bag,39.00,shopify,yes,no,no
+trim-trolley-wheel-replac,trolley-wheel-replacement-kit,"Trolley wheel replacement kit",Unknown,H Moon Hydro,replacement,wheel,4.50,shopify,yes,no,no
+trim-trimpro-rotor-grate-,trimpro-rotor-grate-size-1-4,"TRIMPRO ROTOR - grate size 1/4""",TrimPro,H Moon Hydro,replacement,rotor,1795.00,shopify,yes,no,no
+trim-trimpro-workstation-,trimpro-workstation-grate-mixed,"TRIMPRO Workstation grate mixed",TrimPro,H Moon Hydro,replacement,stand,439.00,shopify,yes,no,no
+trim-trimbox-workstation-,trimbox-workstation-stand-only,"TRIMBOX Workstation STAND ONLY",TrimBox,H Moon Hydro,workstation,stand,395.00,shopify,yes,no,no
+trim-trimpro-replacement-,trimpro-replacement-grate-original-1-4,"TRIMPRO replacement grate original 1/4""",TrimPro,H Moon Hydro,replacement,grate,260.00,shopify,yes,no,no
+trim-trimpro-rotor-replac,trimpro-rotor-replacement-motor,"TRIMPRO ROTOR replacement motor",TrimPro,H Moon Hydro,replacement,motor,395.00,shopify,yes,no,no
+trim-trimpro-rotor-work-s,trimpro-rotor-work-station-w-rotor,"TRIMPRO ROTOR Work Station w/ Rotor",TrimPro,H Moon Hydro,machine,rotor,2050.00,shopify,yes,no,no
+trim-trimpro-replacement-,trimpro-replacement-grate-mixed,"TRIMPRO replacement grate mixed",TrimPro,H Moon Hydro,replacement,grate,177.00,shopify,yes,no,no
+trim-trimbox,trimbox,"TRIMBOX",TrimBox,H Moon Hydro,accessory,,895.00,shopify,yes,no,no
+trim-trimbox-replacement-,trimbox-replacement-grate,"TRIMBOX replacement grate",TrimBox,H Moon Hydro,replacement,grate,48.00,shopify,yes,no,no
+trim-small-5-gallon-repla,small-5-gallon-replacement-bag,"Small 5 Gallon Replacement Bag",Unknown,H Moon Hydro,replacement,bag,70.00,shopify,yes,no,no
+trim-spin-pro-wire-replac,spin-pro-wire-replacments,"Spin Pro Wire Replacments",Spin Pro,H Moon Hydro,replacement,,17.95,shopify,yes,no,no
+trim-spin-pro-manual-trim,spin-pro-manual-trimmer,"Spin Pro Manual Trimmer",Spin Pro,H Moon Hydro,machine,,199.00,shopify,yes,no,no
+trim-centurion-pro-tablet,centurion-pro-tabletop-trimming-machine-wet-or-dry,"Centurion Pro Tabletop Trimming Machine Wet or Dry",Centurion,H Moon Hydro,machine,,2999.00,shopify,yes,no,no

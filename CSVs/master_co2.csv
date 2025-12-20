@@ -1,0 +1,4 @@
+id,handle,title,brand,vendor,co2_type,fuel_type,burner_count,btu_rating,price,sources,shopify,woo,inventory
+co2-uno-gen-1-elp-propan,uno-gen-1-elp-propane,"UNO GEN-1 elp Propane",UNO,H Moon Hydro,generator,propane,1-burner,,175.00,shopify,yes,no,no
+co2-uno-gen-2eng,uno-gen-2eng,"UNO GEN-2eNG",UNO,H Moon Hydro,generator,natural gas,2-burner,,200.00,shopify,yes,no,no
+co2-co2d-0-5000-ppm-dual,co2d-0-5000-ppm-dual-zone-co2-controller,"CO2D: 0-5000 ppm Dual Zone CO2 Controller",Unknown,H Moon Hydro,controller,,,,500.00,shopify,yes,no,no

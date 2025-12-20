@@ -68,16 +68,21 @@ function convertToShopifyProduct(rows: CsvRow[]): ShopifyProduct[] {
   const productMap = new Map<string, ShopifyProduct>();
 
   for (const row of rows) {
-    // Support multiple CSV formats
+    // Support multiple CSV formats (including normalized exports)
     const handle = row['Handle'] || row['handle'] || row['product_handle'] || '';
     if (!handle) continue;
 
     if (!productMap.has(handle)) {
-      // Count images by checking Image Src columns
+      // Count images - check various column names
       let imageCount = 0;
-      for (const key of Object.keys(row)) {
-        if (key.toLowerCase().includes('image') && key.toLowerCase().includes('src') && row[key]) {
-          imageCount++;
+      const totalImages = row['Total_Images'] || row['total_images'];
+      if (totalImages) {
+        imageCount = parseInt(totalImages, 10) || 0;
+      } else {
+        for (const key of Object.keys(row)) {
+          if (key.toLowerCase().includes('image') && key.toLowerCase().includes('src') && row[key]) {
+            imageCount++;
+          }
         }
       }
 
@@ -85,31 +90,32 @@ function convertToShopifyProduct(rows: CsvRow[]): ShopifyProduct[] {
       const tagsStr = row['Tags'] || row['tags'] || row['product_tags'] || '';
       const tags = tagsStr ? tagsStr.split(',').map(t => t.trim()).filter(Boolean) : [];
 
-      // Check for SEO
-      const seoTitle = row['SEO Title'] || row['seo_title'] || row['meta_title'] || '';
-      const seoDesc = row['SEO Description'] || row['seo_description'] || row['meta_description'] || '';
+      // Check for SEO (various column names)
+      const seoTitle = row['SEO_Title'] || row['SEO Title'] || row['seo_title'] || row['meta_title'] || '';
+      const seoDesc = row['SEO_Description'] || row['SEO Description'] || row['seo_description'] || row['meta_description'] || '';
       const hasSeo = Boolean(seoTitle || seoDesc);
 
       // Support multiple column naming conventions
       const product: ShopifyProduct = {
-        id: row['ID'] || row['id'] || row['product_id'] || handle,
-        title: row['Title'] || row['title'] || row['product_title'] || '',
+        id: row['Product_ID'] || row['ID'] || row['id'] || row['product_id'] || handle,
+        title: row['Product_Name'] || row['Title'] || row['title'] || row['product_title'] || '',
         handle,
         status: row['Status'] || row['status'] || row['product_status'] || 'active',
-        productType: row['Type'] || row['Product Type'] || row['product_type'] || '',
+        productType: row['Product_Type'] || row['Type'] || row['Product Type'] || row['product_type'] || '',
         vendor: row['Vendor'] || row['vendor'] || row['product_vendor'] || '',
         tags,
-        descriptionHtml: row['Body (HTML)'] || row['Body HTML'] || row['body_html'] || row['description'] || '',
-        imagesCount: imageCount || (row['Image Src'] ? 1 : 0),
+        descriptionHtml: row['Description'] || row['Body (HTML)'] || row['Body HTML'] || row['body_html'] || row['description'] || '',
+        imagesCount: imageCount || (row['Image_URL'] || row['Image Src'] ? 1 : 0),
         hasSeo,
       };
 
       productMap.set(handle, product);
     } else {
-      // Additional variant row - count additional images
+      // Additional variant row - count additional images if present
       const existing = productMap.get(handle)!;
-      if (row['Image Src'] || row['image_src']) {
-        existing.imagesCount = (existing.imagesCount || 0) + 1;
+      const imgUrl = row['Image_URL'] || row['Image Src'] || row['image_src'];
+      if (imgUrl && existing.imagesCount === 0) {
+        existing.imagesCount = 1;
       }
     }
   }
@@ -120,8 +126,9 @@ function convertToShopifyProduct(rows: CsvRow[]): ShopifyProduct[] {
 async function main() {
   console.log('📥 Importing products from CSV...\n');
 
-  // Find the most comprehensive CSV
+  // Find the most comprehensive CSV (prefer normalized with full fields)
   const csvFiles = [
+    'shopify_export_after_prod__NORMALIZED.csv',  // Has Product_ID, Product_Name, Handle, Description, Tags, Images
     'shopify_export_after_prod__INCLUDE_ALL.csv',
     'shopify_export_after_prod.csv',
     'shopify_products_h-moon-hydro_20251029_094151.csv',
@@ -167,30 +174,3 @@ async function main() {
 }
 
 main().catch(console.error);
-- **Expandable patterns** that grow without rewrites
-- **Explicit types** and interfaces over implicit any
-
-## Copilot Workflow (Every Chat)
-1. **Understand** - Read relevant files before suggesting changes
-2. **Plan** - Explain approach before editing
-3. **Execute** - Make incremental changes (<50 lines per edit preferred)
-4. **Verify** - Build/lint/test after changes
-
-## Safety Rules
-- Never delete files without explicit confirmation
-- Never rewrite entire files—edit surgically
-- Preserve existing imports and exports
-- Ask before changing shared types or interfaces
-- Commit logical units of work separately
-
-## Code Style
-- **TypeScript**: explicit return types, interfaces over type aliases, named exports
-- **Python**: type hints, docstrings on public functions, snake_case
-- **Liquid**: use existing snippets, follow section schema patterns
-- **Naming**: camelCase (functions/variables), PascalCase (types/classes/components)
-
-## When in Doubt
-- Prefer adding new files over modifying existing ones
-- Prefer extending interfaces over changing them
-- Prefer composition over inheritance
-- Ask clarifying questions rather than assuming

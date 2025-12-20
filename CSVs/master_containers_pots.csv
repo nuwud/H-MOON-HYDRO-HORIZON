@@ -1,0 +1,34 @@
+master_sku,handle,title,brand,category,container_type,volume_value,volume_unit,dimensions,material,is_food_grade,color,cost,retail_price,inventory_qty,needs_volume,needs_dims,needs_images,needs_description,spec_source,match_confidence,match_notes
+hmh00503,waterfarm-reservoir-4-gal,WaterFarm Reservoir - 4 gal,Unknown,Containers & Pots,reservoir,4,gal,,plastic,unknown,,,20.00,0,no,yes,yes,no,woo|shopify,80,Woo matched
+hmh01136,the-root-pouch-30-gallon-w-handle,The Root Pouch 30 Gallon w/ Handle,Root Pouch,Containers & Pots,fabric_pot,30,gal,,fabric,unknown,,,15.95,0,no,yes,no,no,woo|shopify,80,Woo matched
+hmh01128,the-root-pouch-2-gallon,The Root Pouch 2 Gallon,Root Pouch,Containers & Pots,fabric_pot,2,gal,,fabric,unknown,,,1.41,0,no,yes,no,no,woo|shopify,80,Woo matched
+hmh01129,the-root-pouch-3-gallon,The Root Pouch 3 Gallon,Root Pouch,Containers & Pots,fabric_pot,3,gal,,fabric,unknown,,,1.94,0,no,yes,no,no,woo|shopify,80,Woo matched
+hmh01133,the-root-pouch-15-gallon-w-handle,The Root Pouch 15 gallon w/ Handle,Root Pouch,Containers & Pots,fabric_pot,15,gal,,fabric,unknown,,,8.79,0,no,yes,no,no,woo|shopify,80,Woo matched
+hmh01132,the-root-pouch-10-gallon,The Root Pouch 10 Gallon,Root Pouch,Containers & Pots,fabric_pot,10,gal,,fabric,unknown,,,4.69,0,no,yes,no,no,woo|shopify,80,Woo matched
+hmh01137,the-root-pouch-35-gallon-w-handle,The Root Pouch 35 Gallon w/ Handle,Root Pouch,Containers & Pots,fabric_pot,35,gal,,fabric,unknown,,,25.71,0,no,yes,no,no,woo|shopify,80,Woo matched
+hmh01138,the-root-pouch-45-gallon-w-handle,The Root Pouch 45 Gallon w/ Handle,Root Pouch,Containers & Pots,fabric_pot,45,gal,,fabric,unknown,,,28.26,0,no,yes,no,no,woo|shopify,80,Woo matched
+hmh01140,the-root-pouch-100-gallon-w-handle,The Root Pouch 100 Gallon w/ Handle,Root Pouch,Containers & Pots,fabric_pot,100,gal,,fabric,unknown,,,36.33,0,no,yes,no,no,woo|shopify,80,Woo matched
+hmh01131,the-root-pouch-7-gallon,The Root Pouch 7 Gallon,Root Pouch,Containers & Pots,fabric_pot,7,gal,,fabric,unknown,,,3.59,0,no,yes,no,no,woo|shopify,80,Woo matched
+hmh01134,the-root-pouch-20-gallon-w-handle,The Root Pouch 20 Gallon w/ Handle,Root Pouch,Containers & Pots,fabric_pot,20,gal,,fabric,unknown,,,13.01,0,no,yes,no,no,woo|shopify,80,Woo matched
+hmh01139,the-root-pouch-65-gallon-w-handle,The Root Pouch 65 Gallon w/ Handle,Root Pouch,Containers & Pots,fabric_pot,65,gal,,fabric,unknown,,,30.20,0,no,yes,no,no,woo|shopify,80,Woo matched
+hmh01135,the-root-pouch-25-gallon-w-handle,The Root Pouch 25 Gallon w/ Handle,Root Pouch,Containers & Pots,fabric_pot,25,gal,,fabric,unknown,,,14.80,0,no,yes,no,no,woo|shopify,80,Woo matched
+hmh01127,the-root-pouch-1-gallon,The Root Pouch 1 Gallon,Root Pouch,Containers & Pots,fabric_pot,1,gal,,fabric,unknown,,,1.00,0,no,yes,no,no,woo|shopify,80,Woo matched
+hmh01759,standard-black-bucket-lid,Standard Black Bucket lid,Unknown,Containers & Pots,lid,,,,plastic,unknown,black,,1.98,0,yes,yes,yes,no,woo|shopify,80,Woo matched
+hmh01757,standard-3-5-gallon-black-bucket,standard 3.5 gallon black bucket,Unknown,Containers & Pots,bucket,3.5,gal,,plastic,unknown,black,,8.99,0,no,yes,yes,no,woo|shopify,80,Woo matched
+hmh01758,standard-5-gallon-black-bucket,Standard 5 Gallon Black Bucket,Unknown,Containers & Pots,bucket,5,gal,,plastic,unknown,black,,8.99,0,no,yes,yes,no,woo|shopify,80,Woo matched
+self-watering-fabric-pot-base-4-pack,self-watering-fabric-pot-base-4-pack,"Self-Watering Fabric Pot Base, 4-Pack",Unknown,Containers & Pots,fabric_pot,,,,fabric,unknown,,,25.13,0,yes,yes,no,yes,shopify,60,Shopify only
+hmh01193,mondi-super-saucer-14,"Mondi Super Saucer 14""",Unknown,Containers & Pots,saucer,,,,unknown,unknown,,,2.50,0,yes,yes,no,no,woo|shopify,80,Woo matched
+hmh01192,mondi-super-saucer-12,"Mondi Super Saucer 12""",Unknown,Containers & Pots,saucer,,,,unknown,unknown,,,2.00,0,yes,yes,no,no,woo|shopify,80,Woo matched
+hmh01191,mondi-super-saucer-10,"Mondi Super Saucer 10""",Unknown,Containers & Pots,saucer,,,,unknown,unknown,,,1.50,0,yes,yes,no,no,woo|shopify,80,Woo matched
+hmh01760,gro-pro-12-air-pot,"GRO PRO 12"" AIR POT",Gro Pro,Containers & Pots,fabric_pot,,,,unknown,unknown,,,8.95,0,yes,yes,yes,no,woo|shopify,80,Woo matched
+hmh01190,f-h-d-super-saucer-8,"F.H.D. Super Saucer 8""",Unknown,Containers & Pots,saucer,,,,unknown,unknown,,,1.00,0,yes,yes,no,no,woo|shopify,80,Woo matched
+hmh00115,cocotek-planter-14-in,CocoTek Planter 14 in.,Unknown,Containers & Pots,planter,,,,unknown,unknown,,,18.70,0,yes,yes,no,no,woo|shopify,80,Woo matched
+ac-infinity-self-watering-fabric-pot-base-xl-4-pack,ac-infinity-self-watering-fabric-pot-base-xl-4-pack,"AC Infinity -Self-Watering Fabric Pot Base XL, 4-Pack",AC Infinity,Containers & Pots,fabric_pot,,,,fabric,unknown,,,89.99,0,yes,yes,no,yes,shopify,60,Shopify only
+hmh01322,6-net-pot,"6"" Net Pot",Unknown,Containers & Pots,net_pot,,,,plastic,unknown,,,1.50,0,yes,yes,yes,no,woo|shopify,80,Woo matched
+hmh00843,6-in-net-pot-case-of-50,6 in. Net-Pot (case of 50),Unknown,Containers & Pots,pot,,,,unknown,unknown,,,97.00,0,yes,yes,no,no,woo|shopify,80,Woo matched
+hmh00831,6-in-bucket-basket,6 in. Bucket Basket,Unknown,Containers & Pots,bucket,,,,plastic,unknown,,,3.90,0,yes,yes,no,no,woo|shopify,80,Woo matched
+hmh01323,5-net-pot,"5"" Net Pot",Unknown,Containers & Pots,net_pot,,,,plastic,unknown,,,1.00,0,yes,yes,yes,no,woo|shopify,80,Woo matched
+hmh00833,4-76-gallon-bucket-no-handle,4.76 Gallon Bucket - No Handle,Unknown,Containers & Pots,bucket,4.76,gal,,plastic,unknown,,,7.95,0,no,yes,no,no,woo|shopify,80,Woo matched
+hmh00842,3-in-net-pot-case-of-100,3 in. Net-Pot (case of 100),Unknown,Containers & Pots,pot,,,,unknown,unknown,,,56.00,0,yes,yes,no,no,woo|shopify,80,Woo matched
+hmh00832,10-in-bucket-basket,10 in. Bucket Basket,Unknown,Containers & Pots,bucket,,,,plastic,unknown,,,5.10,0,yes,yes,no,no,woo|shopify,80,Woo matched
+hmh00621,1-1-4-reservoir-filter,"1 1/4"" reservoir filter",Unknown,Containers & Pots,reservoir,,,,plastic,unknown,,,7.59,0,yes,yes,no,no,woo|shopify,80,Woo matched

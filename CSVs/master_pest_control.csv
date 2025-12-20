@@ -1,0 +1,9 @@
+id,handle,title,brand,vendor,pest_type,target,application,organic,size,price,sources,shopify,woo,inventory
+pest-zero-tolerance-pest-,zero-tolerance-pest-control-gal,"Zero Tolerance Pest Control gal",Zero Tolerance,H Moon Hydro,pesticide,"general",unknown,no,,75.00,shopify,yes,no,no
+pest-zero-tolerance-herba,zero-tolerance-herbal-fungicide-gal,"Zero Tolerance Herbal Fungicide gal",Zero Tolerance,H Moon Hydro,fungicide,"general",unknown,no,,60.00,shopify,yes,no,no
+pest-timemist-plus-progra,timemist-plus-programmable-dispenser-2,"TimeMist Plus Programmable Dispenser",TimeMist,H Moon Hydro,dispenser,"general",dispenser,no,,74.95,shopify,yes,no,no
+pest-timemist-purge-i-3-2,timemist-purge-i-3-2-oz,"TimeMist Purge I - 3.2 oz",TimeMist,H Moon Hydro,dispenser,"general",dispenser,no,2oz,15.95,shopify,yes,no,no
+pest-stick-thrip-leafmine,stick-thrip-leafminer-trap-5-pack,"Stick Thrip Leafminer Trap 5/Pack",Unknown,H Moon Hydro,trap,"thrips, leafminer",trap,no,5pk,6.49,shopify,yes,no,no
+pest-garden-fungicide-32-,garden-fungicide-32-oz,"Garden Fungicide 32 oz",Unknown,H Moon Hydro,fungicide,"general",unknown,no,32oz,9.95,shopify,yes,no,no
+pest-garden-fungicide-1-g,garden-fungicide-1-gal,"Garden Fungicide 1 gal",Unknown,H Moon Hydro,fungicide,"general",unknown,no,1gal,16.95,shopify,yes,no,no
+pest-doktor-doom-spider-m,doktor-doom-spider-mite-knock-out,"Doktor Doom Spider Mite Knock Out",Unknown,H Moon Hydro,pesticide,"mites",unknown,no,,14.99,shopify,yes,no,no

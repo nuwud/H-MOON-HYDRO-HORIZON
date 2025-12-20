@@ -1,0 +1,97 @@
+sku,handle,title,brand,vendor,product_type,diameter,cfm,volume,source,shopify,woo,inventory,needs_images,needs_description,work_queue
+hmh01785,the-ozone-generator,"The Ozone Generator 5,000 cu.ft.",H Moon Hydro,H Moon Hydro,ozone_generator,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00957,stealth-ro-100-200-carbon-filter,STEALTH RO 100/200 CARBON FILTER,H Moon Hydro,H Moon Hydro,carbon_filter,,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
+hmh01114,ona-pro-gel-1-gal,ONA Pro Gel (1 gal),ONA,H Moon Hydro,ona_gel,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh01354,ona-pro-spray-8oz,ONA Pro Spray 8oz,ONA,H Moon Hydro,ona_spray,,,8 oz,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
+hmh01111,ona-gel-fresh-linen-1-gal,ONA Gel Fresh Linen (1 gal),ONA,H Moon Hydro,ona_gel,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh01113,ona-pro-gel-1-qt,ONA Pro Gel (1 qt),ONA,H Moon Hydro,ona_gel,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh01115,ona-pro-gel-bucket-5-gal,ONA Pro Gel Bucket (5 gal),ONA,H Moon Hydro,ona_gel,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh01116,ona-mist-dispenser,ONA Mist Dispenser,ONA,H Moon Hydro,ona_spray,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh01118,ona-mist-polar-crystal-6oz,ONA Mist Polar Crystal 6oz,ONA,H Moon Hydro,ona_spray,,,6 oz,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00147,ona-storm,ONA Storm,ONA,H Moon Hydro,other,,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+hmh01110,ona-gel-fresh-linen-1-qt,ONA Gel Fresh Linen (1 qt),ONA,H Moon Hydro,ona_gel,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh01117,ona-mist-fresh-linen-mist-6oz,ONA Mist Fresh Linen Mist 6oz,ONA,H Moon Hydro,ona_spray,,,6 oz,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh01109,ona-liquid-polar-crystal-1-gal,ONA Liquid Polar Crystal (1 gal),ONA,H Moon Hydro,ona_liquid,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh01493,ona-pro-gel-pail-1-gal,Ona Pro Gel Pail (1 Gal),ONA,H Moon Hydro,ona_gel,,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
+hmh01106,ona-pro-block-6oz,ONA Pro Block 6oz,ONA,H Moon Hydro,ona_block,,,6 oz,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh01108,ona-liquid-polar-crystal-1-qt,ONA Liquid Polar Crystal (1 qt),ONA,H Moon Hydro,ona_liquid,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh01112,ona-gel-fresh-linen-bucket-5-gal,ONA Gel Fresh Linen Bucket (5 gal),ONA,H Moon Hydro,ona_gel,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh01494,ona-gel-fresh-linen-pail-1gal,ONA Gel Fresh Linen Pail (1Gal),ONA,H Moon Hydro,ona_gel,,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
+hmh01353,ona-fresh-linen-spray-8oz,ONA Fresh Linen Spray 8oz,ONA,H Moon Hydro,ona_spray,,,8 oz,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
+hmh01105,ona-block-crystal-6oz,ONA Block Crystal 6oz,ONA,H Moon Hydro,ona_block,,,6 oz,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00146,ona-breeze,ONA Breeze,ONA,H Moon Hydro,other,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,"needs_description, needs_classification"
+,hydro-logic-preevolution-high-capacity-pre-filter,Hydro-Logic® PreEvolution™ High Capacity Pre-Filter,H Moon Hydro,H Moon Hydro,pre_filter,,,,shopify,TRUE,FALSE,FALSE,FALSE,FALSE,
+,hydro-logic-evolution-ro1000-1000-gpd,Hydro-Logic® Evolution RO1000™ - 1000 GPD,H Moon Hydro,H Moon Hydro,carbon_filter,,,,shopify,TRUE,FALSE,FALSE,FALSE,FALSE,
+hmh00699,can-filter-75-w-8-ho-559-cfm-fan-combo-freight-shipping-only,"Can-Filter 75 W/ 8"" HO 559 CFM Fan Combo (freight shipping ONLY)",Can-Filter,H Moon Hydro,carbon_filter,,559 CFM,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
+hmh00700,can-filter-100-w-8-ho-620-cfm-fan-combo-freight-shipping-only,"Can-Filter 100 W/ 8"" HO 620 CFM Fan Combo (freight shipping ONLY)",Can-Filter,H Moon Hydro,carbon_filter,,620 CFM,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
+hmh01240,can-lite-14-w-flange-attached-2200-cfm,"Can-Lite 14"" w/ Flange attached (2200 cfm)",Can-Lite,H Moon Hydro,carbon_filter,,2200 CFM,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00962,big-boy-kdf-85-carbon-filter-well-water-chloramines,BIG BOY KDF-85 CARBON FILTER- WELL WATER & CHLORAMINES,H Moon Hydro,H Moon Hydro,carbon_filter,,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
+hmh00960,big-boy-carbon-filter,Big Boy Carbon filter,H Moon Hydro,H Moon Hydro,carbon_filter,,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
+hmh00724,6-can-filter-flange,"6"" CAN Filter Flange",Can-Filter,H Moon Hydro,carbon_filter,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00731,20-can-filter-flange-max,"20"" Can Filter Flange Max",Can-Filter,H Moon Hydro,carbon_filter,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00730,18-can-filter-flange-max,"18"" Can Filter Flange Max",Can-Filter,H Moon Hydro,carbon_filter,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00729,16-can-filter-flange-max,"16"" Can Filter Flange Max",Can-Filter,H Moon Hydro,carbon_filter,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00728,14-can-filter-flange-max,"14"" Can Filter Flange Max",Can-Filter,H Moon Hydro,carbon_filter,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00727,12-can-filter-flange,"12"" CAN Filter Flange",Can-Filter,H Moon Hydro,carbon_filter,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00726,10-can-filter-flange,"10"" CAN Filter Flange",Can-Filter,H Moon Hydro,carbon_filter,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+1969,ona-odor-neutralizer,ONA Odor Neutralizer,ONA,,neutralizer,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1915,1236-cfm-carbon-filter,1236 CFM Carbon Filter,CAN,CAN,carbon_filter,,1236 CFM,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1716,ona-odor-control,Ona Odor Control,ONA,,neutralizer,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1717,ona-mist-dispenser,Ona Mist Dispenser,ONA,Ona,ona_spray,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1876,odor-neutralizing-agent-spray,Odor Neutralizing agent Spray,ona,ona,other,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+1861,ona-mist-fresh-linen-scent,Ona Mist fresh Linen Scent,ONA,Ona,ona_spray,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1862,ona-fresh-linen-gel,Ona Fresh Linen Gel,ONA,Ona,ona_gel,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1890,europonic-rockwool-neutralizer,Europonic Rockwool neutralizer,Hydrodynamics,Hydrodynamics,neutralizer,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1920,fresh-linen,Fresh Linen,ona,ona,other,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+1909,pro-gel-for-breeze,Pro Gel for breeze,ONA,ONA,other,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+1996,600cfm-6-canlite-carbon-filter,"600cfm 6""  canlite carbon filter",Can-Lite,CAN,carbon_filter,,600 CFM,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1997,1000cfm-8-canlite-carbon-filter,"1000cfm 8"" canlite Carbon Filter",Can-Lite,CAN,carbon_filter,,1000 CFM,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1998,1500cfm-10-canlite-carbon-filter,"1500cfm 10"" canlite Carbon Filter",Can-Lite,CAN,carbon_filter,,1500 CFM,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1947,1400-cfm-canlite-carbon-filter,1400 CFM canlite  Carbon filter,Can-Lite,can,carbon_filter,,1400 CFM,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1999,1800cfm-12-canlite-carbon-fiter,"1800cfm 12"" canlite Carbon Fiter",Can-Lite,CAN,carbon_filter,,1800 CFM,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+2137,ona-pro-mist-time-spray,ONA Pro mist time spray,ONA,ONA,ona_spray,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+168,ona-gel-fresh-linen-scent,Ona Gel Fresh Linen Scent,ONA,Odorchem,ona_gel,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+169,ona-gel-fresh-linen-scent,Ona gel Fresh Linen Scent,ONA,Odorchem,ona_gel,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+170,ona-block-fresh-linen-scent,Ona Block Fresh Linen Scent,ONA,Odorchem,ona_block,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+171,ona-pro-block-odor-neutralizer,Ona Pro Block Odor Neutralizer,ONA,Odorchem,ona_block,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+172,ona-block-polar-crystal-scent,Ona Block Polar Crystal Scent,ONA,Odorchem,ona_block,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+173,ona-breeze-gel-dispenser,Ona Breeze Gel Dispenser,ONA,Odorchem,ona_gel,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+182,ona-liquid-fesh-linen-scent,Ona Liquid Fesh Linen Scent,ONA,Odorchem,ona_liquid,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+183,ona-gel-fresh-linen-scent,Ona Gel Fresh Linen Scent,ONA,Odorchem,ona_gel,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+535,4-flange-for-can-filter-for-model-2600-9000-filters,"4"" Flange for CAN Filter for model 2600, 9000 filters",Can-Filter,CAN,carbon_filter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+536,6-flange-for-can-filter,"6"" Flange for CAN Filter",Can-Filter,CAN,carbon_filter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+537,8-flange-for-can-filter,"8"" Flange for CAN Filter",Can-Filter,CAN,carbon_filter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+539,12-flange-for-can-filter,"12"" Flange for CAN Filter",Can-Filter,CAN,carbon_filter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1003,carbon-filter-replacement-for-stealth-ro-100-200-small-boy-greenblock-,Carbon Filter Replacement for Stealth RO 100/200 & Small Boy (Greenblock),,,carbon_filter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1023,replacement-carbon-filter-for-big-boy,Replacement Carbon Filter for Big Boy,Hydrologic,Hydrologic,carbon_filter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1027,replacement-carbon-filter-for-tall-boy-tall-blue,Replacement Carbon Filter for Tall Boy & Tall Blue,Hydrologic,Hydrologic,carbon_filter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1437,big-boy-de-chlorinator-sediment-filter-w-upgraded-kdf85-catalytic-carbon-filter,Big Boy De-Chlorinator & Sediment Filter w/ Upgraded KDF85 Catalytic Carbon Filter,Hydrologic,Hydrologic,carbon_filter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1438,small-boy-de-chlorinator-sediment-filter-w-upgraded-kdf85-catalytic-carbon-filter,Small Boy De-Chlorinator & Sediment Filter w/ upgraded KDF85 Catalytic Carbon Filter,Hydrologic,Hydrologic,carbon_filter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1439,tall-boy-outdoor-de-chlorinator-sediment-filter-w-upgrade-kdf85-catalytic-carbon-filter,Tall Boy Outdoor De-Chlorinator & Sediment Filter w/ Upgrade KDF85 Catalytic Carbon Filter,Hydrologic,Hydrologic,carbon_filter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1913,ona-gallon-polar-crystal-liquid,ONA gallon Polar Crystal Liquid,ONA,ONA,ona_liquid,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+2119,4-canlite-filter-225-cfm,"4"" canlite filter 225 CFM",Can-Lite,can,carbon_filter,,225 CFM,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+2122,2200-cfm-canlite-carbon-filter-14-,"2200 CFM canlite carbon filter 14""",Can-Lite,CAN,carbon_filter,,2200 CFM,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+2164,ona-pro-gel-gallon,Ona pro gel gallon,ONA,ONA,ona_gel,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+2305,one-spray,one spray,ONA,ONA,other,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+2444,canlite-6-mini-filter-420-cfm,"canlite 6"" mini filter 420 CFM",Can-Lite,CAN,carbon_filter,,420 CFM,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+2481,8-inch-can-lite-pre-filter,8 inch can lite pre filter,Can-Lite,,pre_filter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+2482,6-inch-pre-filter-can-lite,6 inch pre filter can lite,Can-Lite,CAN,pre_filter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+2488,ona-gel-apple,ona gel apple,ONA,ONA,ona_gel,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+2489,ona-gel-apple-for-odorstop,ONA gel Apple for odorstop,ONA,ONA,ona_gel,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+2669,mufflers-are-used-to-reduce-outlet-or-inlet-noise-available-in-2-sizes-the-original-sized-muffler-will-fit-your-8-12-fans-and-the-new-mini-muffler-will-fit-your-4-8-fans-original-muffler-diameter-14-5-length-46-insulation-bed-depth-2-5-mini-muffler-diameter-11-7-8-length-24-insulation-bed-depth-2-,"Mufflers are used to reduce outlet or inlet noise. Available in 2 sizes, the Original sized Muffler will fit your 8""-12"" fans, and the new Mini Muffler will fit your 4""-8"" fans .
+Original Muffler: 
+Diameter: 14.5""
+Length: 46""
+Insulation Bed Depth: 2.5""
+
+Mini Muffler:
+Diameter: 11 7/8""
+Length: 24"" 
+Insulation Bed Depth: 2""",Can-Filter,Can-Filter,other,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+2523,ona-spray-spple-crumble-scent,ona spray spple crumble scent,ONA,ona,ona_spray,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+2799,,,ONA,ONA,other,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+2718,the-ona-gel-is-our-most-popular-product-we-spent-many-years-developing-a-blend-of-ona-liquid-and-various-suspension-elements-to-result-in-a-product-that-has-excellent-dispersion-qualities-the-ona-odor-agents-are-released-in-a-controlled-manner-so-that-every-drop-of-this-excellent-product-is-fully-optimized-,The Ona Gel is our most popular product. We spent many years developing a blend of Ona Liquid and various suspension elements to result in a product that has excellent dispersion qualities. The Ona odor agents are released in a controlled manner so that every drop of this excellent product is fully optimized.,ONA,Ona,ona_gel,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+2719,the-ona-gel-is-our-most-popular-product-we-spent-many-years-developing-a-blend-of-ona-liquid-and-various-suspension-elements-to-result-in-a-product-that-has-excellent-dispersion-qualities-the-ona-odor-agents-are-released-in-a-controlled-manner-so-that-every-drop-of-this-excellent-product-is-fully-optimized-,The Ona Gel is our most popular product. We spent many years developing a blend of Ona Liquid and various suspension elements to result in a product that has excellent dispersion qualities. The Ona odor agents are released in a controlled manner so that every drop of this excellent product is fully optimized.,ONA,Ona,ona_gel,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+3047,ozone-generator-5-500-cu-ft-,"Ozone Generator 5,500 cu.Ft.",,,ozone_generator,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+399,can-lite-pre-filter-10-,"Can-Lite pre filter 10""",Can-Lite,,pre_filter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+453,big-boy-kdf85-catalytic-carbon-filter,Big Boy KDF85/Catalytic Carbon filter,,,carbon_filter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"

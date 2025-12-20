@@ -1,0 +1,292 @@
+{
+  "timestamp": "2025-12-20T03:06:58.503Z",
+  "totalProducts": 1578,
+  "categorized": {
+    "total": 1122,
+    "percentage": "71.1",
+    "byCategory": {
+      "airflow": 43,
+      "lights": 24,
+      "tents": 3,
+      "vent_accessories": 34,
+      "grow_media": 30,
+      "nutrients": 695,
+      "controllers": 17,
+      "containers": 17,
+      "harvesting": 5,
+      "seeds": 52,
+      "ph_meters": 5,
+      "irrigation": 40,
+      "propagation": 11,
+      "odor_control": 18,
+      "hid_bulbs": 59,
+      "pest_control": 5,
+      "water_filtration": 11,
+      "co2": 2,
+      "trimming": 13,
+      "environmental_monitors": 8,
+      "electrical_supplies": 6,
+      "books": 1,
+      "grow_room_materials": 18,
+      "extraction": 5
+    }
+  },
+  "uncategorized": {
+    "total": 456,
+    "percentage": "28.9"
+  },
+  "multiCategory": 153,
+  "topKeywords": [
+    [
+      "air",
+      5
+    ],
+    [
+      "kit",
+      4
+    ],
+    [
+      "seed",
+      4
+    ],
+    [
+      "pack",
+      4
+    ],
+    [
+      "pro",
+      3
+    ],
+    [
+      "storage",
+      3
+    ],
+    [
+      "system",
+      3
+    ],
+    [
+      "led",
+      3
+    ],
+    [
+      "skunk",
+      3
+    ],
+    [
+      "feminised",
+      3
+    ],
+    [
+      "socket",
+      3
+    ],
+    [
+      "gallon",
+      3
+    ],
+    [
+      "grow",
+      3
+    ],
+    [
+      "eco",
+      3
+    ],
+    [
+      "series",
+      3
+    ],
+    [
+      "light",
+      3
+    ],
+    [
+      "car",
+      3
+    ],
+    [
+      "beau",
+      3
+    ],
+    [
+      "naria",
+      3
+    ],
+    [
+      "gall",
+      3
+    ],
+    [
+      "bag",
+      3
+    ],
+    [
+      "athena",
+      3
+    ],
+    [
+      "mesh",
+      3
+    ],
+    [
+      "basket",
+      3
+    ],
+    [
+      "rail",
+      3
+    ],
+    [
+      "trolley",
+      2
+    ],
+    [
+      "wheel",
+      2
+    ],
+    [
+      "replacement",
+      2
+    ],
+    [
+      "snapture",
+      2
+    ],
+    [
+      "foot",
+      2
+    ],
+    [
+      "base",
+      2
+    ],
+    [
+      "auto",
+      2
+    ],
+    [
+      "production",
+      2
+    ],
+    [
+      "per",
+      2
+    ],
+    [
+      "plant",
+      2
+    ],
+    [
+      "large",
+      2
+    ],
+    [
+      "when",
+      2
+    ],
+    [
+      "set",
+      2
+    ],
+    [
+      "scietetics",
+      2
+    ],
+    [
+      "powder",
+      2
+    ],
+    [
+      "bloom",
+      2
+    ],
+    [
+      "self",
+      2
+    ],
+    [
+      "watering",
+      2
+    ],
+    [
+      "meter",
+      2
+    ],
+    [
+      "double",
+      2
+    ],
+    [
+      "feeder",
+      2
+    ],
+    [
+      "packs",
+      2
+    ],
+    [
+      "watt",
+      2
+    ],
+    [
+      "rice",
+      2
+    ],
+    [
+      "cooker",
+      2
+    ]
+  ],
+  "suggestedNextCategories": [
+    {
+      "name": "pH/EC Meters & Testing",
+      "score": 7,
+      "keywords": [
+        "meter(2)",
+        "digital(1)",
+        "probe(1)",
+        "storage(3)"
+      ]
+    },
+    {
+      "name": "Harvesting & Processing",
+      "score": 5,
+      "keywords": [
+        "dry(2)",
+        "bag(3)"
+      ]
+    },
+    {
+      "name": "Containers & Pots",
+      "score": 5,
+      "keywords": [
+        "pot(1)",
+        "fabric(1)",
+        "gallon(3)"
+      ]
+    },
+    {
+      "name": "HVAC & Climate",
+      "score": 5,
+      "keywords": [
+        "air(5)"
+      ]
+    },
+    {
+      "name": "Hydroponic Systems",
+      "score": 5,
+      "keywords": [
+        "system(3)",
+        "ebb(1)",
+        "drain(1)"
+      ]
+    }
+  ],
+  "sourceBreakdown": {
+    "shopifyOnly": 229,
+    "wooOnly": 309,
+    "inventoryOnly": 0,
+    "multiSource": 1040
+  }
+}

@@ -1,0 +1,56 @@
+sku,handle,title,brand,vendor,product_type,volume,volume_unit,source,shopify,woo,inventory,needs_images,needs_description,work_queue
+hmh00978,replacemnt-probe-for-control-wizard-accurate-ph3-meter,Replacemnt probe for Control Wizard Accurate pH3 Meter,H Moon Hydro,H Moon Hydro,other,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+hmh00974,ph-200-waterproof-ph-meter-2,PH-200: Waterproof pH Meter,H Moon Hydro,H Moon Hydro,ph_meter,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00976,ph-probe-electrode-3-lead-wire,pH probe electrode 3' lead wire,H Moon Hydro,H Moon Hydro,combo_meter,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
+hmh00982,ph-up-dry-1-5-lb,pH Up Dry 1.5 lb,H Moon Hydro,H Moon Hydro,other,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,"needs_description, needs_classification"
+hmh00985,ph-down-8-oz,pH Down 8 oz.,H Moon Hydro,H Moon Hydro,other,8,oz,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,"needs_description, needs_classification"
+hmh00984,ph-up-dry-16-lb,pH Up Dry 16 lb,H Moon Hydro,H Moon Hydro,other,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,"needs_description, needs_classification"
+hmh00988,ph-down-dry-1-5-lb,pH Down Dry 1.5 lb,H Moon Hydro,H Moon Hydro,other,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,"needs_description, needs_classification"
+hmh00995,ph-test-kit-1-oz,pH Test Kit 1 oz,H Moon Hydro,H Moon Hydro,test_kit,1,oz,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00991,ph-7-0-calibration-solution-8-oz,pH 7.0 Calibration Solution 8 oz.,H Moon Hydro,H Moon Hydro,calibration_solution,8,oz,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00986,ph-down-1-qt,pH Down 1 qt,H Moon Hydro,H Moon Hydro,other,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,"needs_description, needs_classification"
+hmh00992,ph-7-0-calibration-solution-qt,pH 7.0 Calibration Solution qt.,H Moon Hydro,H Moon Hydro,calibration_solution,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00989,ph-4-01-calibration-solution-8-oz,pH 4.01 Calibration Solution 8 oz.,H Moon Hydro,H Moon Hydro,calibration_solution,8,oz,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00990,ph-4-01-calibration-solution-qt,pH 4.01 Calibration Solution qt.,H Moon Hydro,H Moon Hydro,calibration_solution,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh01233,nutradip-ph-meter,Nutradip pH Meter,H Moon Hydro,H Moon Hydro,ph_meter,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh01232,nutradip-ec-tds-ppm-meter,Nutradip EC TDS PPM Meter,H Moon Hydro,H Moon Hydro,ec_meter,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00966,8-oz-twin-pack-electrode-cleaning-solution-a-b,8 oz twin pack electrode cleaning solution #A & #B,H Moon Hydro,H Moon Hydro,cleaning_solution,8,oz,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00967,8oz-electrode-storage-solution,8oz electrode storage solution,H Moon Hydro,H Moon Hydro,storage_solution,8,oz,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+hmh00993,1500-ppm-calibration-solution-8-oz,1500 ppm Calibration Solution 8 oz.,H Moon Hydro,H Moon Hydro,calibration_solution,8,oz,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
+1950,probe-replacement-for-ph-3-pen,Probe Replacement for pH-3 Pen,Control Wizard,Control Wizard,electrode,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1977,ph-up-formula-pouch,pH up formula pouch,General Hydroponics,General Hydroponics,other,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+337,4-01-meter-calibration-solution,4.01 Meter Calibration Solution,General Hydroponics,General Hydroponics,calibration_solution,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+338,7-0-meter-calibration-solution,7.0 Meter Calibration Solution,General Hydroponics,General Hydroponics,calibration_solution,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+120,ph-down-dry-soluable-pouch,pH Down Dry Soluable pouch,General Hydroponics,General Hydroponics,other,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+121,ph-up-dry-soluable,pH Up Dry Soluable,General Hydroponics,General Hydroponics,other,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+303,4-01-meter-calibration-solution,4.01 Meter Calibration Solution,General Hydroponics,General Hydroponics,calibration_solution,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+305,7-0-meter-calibration-solution,7.0 Meter Calibration Solution,General Hydroponics,General Hydroponics,calibration_solution,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+649,g-h-ph-down-qt,G.H. ph Down Qt,G.H.,G.H.,other,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+150,ph-up,pH Up,General Hydroponics,General Hydroponics,other,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+652,ph-test-kit,pH Test Kit,General Hydroponics,General Hydroponics,test_kit,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1433,-2-8oz-bottles-electrode-cleaner,(2)-8oz Bottles Electrode Cleaner,,,electrode,8,oz,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1035,milwaukee-ph-meter,Milwaukee pH Meter,Milwaukee Instruments,Milwaukee,ph_meter,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1208,calibration-solution,Calibration Solution,,,calibration_solution,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1047,tds-meter,TDS Meter,HM Digital,HM Digital,ec_meter,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1209,calibration-solution-2-8oz-bottles,Calibration Solution (2)-8oz Bottles,,,calibration_solution,8,oz,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1210,ph-7-01-buffer-calibration-solution,pH 7.01 Buffer Calibration Solution,,,calibration_solution,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1049,milwaukee-ph-ec-tds-meter,Milwaukee pH/EC/TDS Meter,Milwaukee Instruments,Milwaukee,combo_meter,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1211,calibration-solution,Calibration Solution,,,calibration_solution,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1212,calibration-solution,Calibration Solution,,,calibration_solution,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1213,calibration-solution,Calibration Solution,,,calibration_solution,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1040,-ma73600-replace-probe-ph-51,(MA73600)REPLACE.PROBE/PH 51,Milwaukee,Milwaukee,other,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+1510,probe-only-for-ph-3-handheld-meter,Probe Only for pH-3 handheld meter,HM Digital,HM Digital,other,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+2134,battery-for-cwp-ph-3-handheld-ph-meter,Battery for CWP ph-3 handheld pH meter,,,ph_meter,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+2400,ph-up-dry-soluable,pH up dry soluable,General Hydroponics,General Hydroponics,other,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+2222,cw-ph-meter-w-remote-probe-495,CW pH meter w/ remote probe 495,,,ph_meter,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+1461,ph-down-non-corrosive-2-5-g,pH Down Non-Corrosive 2.5 G,GH,GH,other,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+3154,ph-up-16-oz,ph up 16 oz,,,other,16,oz,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+3339,ccg-ph-down-32-oz,CCG ph down 32 oz,,,other,32,oz,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+3394,soil-ph-tester-test-ph-levels,Soil pH Tester - Test pH levels,rapist,rapist,ph_meter,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
+3403,fox-farm-ph-down-qt-,Fox Farm Ph Down qt.,,,other,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+3425,dyna-ph-up-32oz,Dyna Ph UP 32oz,,,other,32,oz,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+3426,fox-farm-ph-up-32oz,Fox Farm  Ph UP 32oz,,,other,32,oz,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+3427,dyna-ph-down-32-oz-,Dyna Ph Down 32 oz.,,,other,32,oz,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+3515,dyna-ph-down-8oz-,Dyna Ph Down 8oz.,super thrive,super thrive,other,8,oz,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+3526,ph-up-g-h-qt-,ph up G.H. qt.,G.H.,G.H.,other,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+3555,luster-leaf-digital-ph-meter,Luster Leaf Digital Ph meter,luster Leaf,luster Leaf,ph_meter,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
