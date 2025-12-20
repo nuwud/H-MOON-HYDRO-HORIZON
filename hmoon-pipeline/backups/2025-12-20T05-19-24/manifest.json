@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-12-20T05:19:25.235Z",
+  "store": "h-moon-hydro.myshopify.com",
+  "counts": {
+    "products": 0,
+    "collections": 82
+  },
+  "files": [
+    "products.json",
+    "collections.json"
+  ]
+}

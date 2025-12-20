@@ -6,8 +6,16 @@
  * - Automatic retries with exponential backoff
  * - Error logging
  * 
- * No external dependencies - uses native fetch()
+ * Loads from .env file automatically
  */
+
+import { config } from 'dotenv';
+import { resolve, dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+// Load .env from hmoon-pipeline directory
+const __dirname = dirname(fileURLToPath(import.meta.url));
+config({ path: resolve(__dirname, '../../.env') });
 
 export interface GraphQLResponse<T = unknown> {
   data?: T;
@@ -42,14 +50,16 @@ const BASE_DELAY_MS = 1000;
 
 /**
  * Load Shopify config from environment variables
+ * Supports both SHOPIFY_DOMAIN and SHOPIFY_SHOP_DOMAIN
  */
 export function loadShopifyConfig(): ShopifyConfig {
-  const shopDomain = process.env.SHOPIFY_SHOP_DOMAIN;
+  // Support both naming conventions
+  const shopDomain = process.env.SHOPIFY_DOMAIN || process.env.SHOPIFY_SHOP_DOMAIN;
   const adminToken = process.env.SHOPIFY_ADMIN_TOKEN;
   const apiVersion = process.env.SHOPIFY_API_VERSION || DEFAULT_API_VERSION;
 
   if (!shopDomain) {
-    throw new Error('Missing SHOPIFY_SHOP_DOMAIN environment variable');
+    throw new Error('Missing SHOPIFY_DOMAIN environment variable');
   }
   if (!adminToken) {
     throw new Error('Missing SHOPIFY_ADMIN_TOKEN environment variable');
