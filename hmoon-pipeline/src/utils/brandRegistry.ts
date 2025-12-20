@@ -688,6 +688,59 @@ const TITLE_BRAND_PATTERNS: Array<{ pattern: RegExp; brand: string }> = [
   { pattern: /\bFlavor-?Ful\b/i, brand: 'H Moon Hydro' },
   { pattern: /\bDecision\b/i, brand: 'H Moon Hydro' },
   
+  // More Nectar for the Gods
+  { pattern: /\bPegasus\s*Potion\b/i, brand: 'Nectar' },
+  { pattern: /\bDemeter'?s?\s*Destiny\b/i, brand: 'Nectar' },
+  
+  // Hygrozyme
+  { pattern: /\bHYGROZYME\b/i, brand: 'Hygrozyme' },
+  { pattern: /\bHygrozyme\b/i, brand: 'Hygrozyme' },
+  
+  // Can-Fan products
+  { pattern: /\bCan-?Duct\b/i, brand: 'Can-Fan' },
+  
+  // Earth Juice / Natural products
+  { pattern: /\bBloom\s*Natural\b/i, brand: 'Earth Juice' },
+  { pattern: /\bGrow\s*Natural\b/i, brand: 'Earth Juice' },
+  { pattern: /\bEarth\s*Juice\b/i, brand: 'Earth Juice' },
+  { pattern: /\bSugar\s*Peak\b/i, brand: 'Earth Juice' },
+  { pattern: /\bCatalyst\b/i, brand: 'Earth Juice' },
+  { pattern: /\bMeta-?K\b/i, brand: 'Earth Juice' },
+  { pattern: /\bMicroBlast\b/i, brand: 'Earth Juice' },
+  
+  // Carbo products
+  { pattern: /\bCarbo\s*Blast\b/i, brand: 'Carbo Blast' },
+  { pattern: /\bLiquid\s*Carbo\b/i, brand: 'Carbo Blast' },
+  
+  // Prop-O-Gator
+  { pattern: /\bProp-?O-?Gator\b/i, brand: 'Prop-O-Gator' },
+  
+  // Bud Start / Quick Roots
+  { pattern: /\bBud\s*Start\b/i, brand: 'Bud Start' },
+  { pattern: /\bQuick\s*Roots\b/i, brand: 'Quick Roots' },
+  
+  // Better Bloom
+  { pattern: /\bBetter\s*Bloom\b/i, brand: 'Better Bloom' },
+  
+  // Ton-O-Bud
+  { pattern: /\bTon-?O-?Bud\b/i, brand: 'Ton-O-Bud' },
+  
+  // Yield Up
+  { pattern: /\bYield\s*Up\b/i, brand: 'Yield Up' },
+  
+  // CalCarb / Calnesium
+  { pattern: /\bCalCarb\b/i, brand: 'CalCarb' },
+  { pattern: /\bCalnesium\b/i, brand: 'Calnesium' },
+  
+  // Double Super B+
+  { pattern: /\bDouble\s*Super\s*B\+?\b/i, brand: 'Double Super B+' },
+  
+  // SunSoaker
+  { pattern: /\bSunSoaker\b/i, brand: 'SunSoaker' },
+  
+  // Jacto sprayers
+  { pattern: /\bJacto\b/i, brand: 'Jacto' },
+  
   // HID/Lighting brands
   { pattern: /\bSolarmax\b/i, brand: 'Solarmax' },
   { pattern: /\bPlantmax\b/i, brand: 'Plantmax' },
