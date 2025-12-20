@@ -1,0 +1,33 @@
+handle,title,rules_summary,product_count,published
+category-airflow,"Airflow & Ventilation","type equals "Airflow"",29,true
+category-books,"Books & Education","type equals "Books"",7,true
+category-controllers-timers,"Controllers Timers","type equals "Controllers Timers"",13,true
+category-containers-pots,"Containers & Pots","type equals "Containers Pots"",33,true
+category-electrical-supplies,"Electrical Supplies","type equals "Electrical Supplies"",12,true
+category-hid-bulbs,"HID Bulbs & Lamps","type equals "Hid Bulbs"",64,true
+category-grow-lights,"Grow Lights","type equals "Grow Lights"",65,true
+category-grow-media,"Grow Media","type equals "Grow Media"",16,true
+category-grow-room-materials,"Grow Room Materials","type equals "Grow Room Materials"",12,true
+category-irrigation,"Irrigation & Watering","type equals "Irrigation"",189,true
+category-harvesting,"Harvesting","type equals "Harvesting"",39,true
+category-trimming,"Trimming","type equals "Trimming"",15,true
+category-water-filtration,"Water Filtration","type equals "Water Filtration"",28,true
+category-nutrients,"Nutrients & Supplements","type equals "Nutrients"",703,true
+category-odor-control,"Odor Control","type equals "Odor Control"",83,true
+category-pest-control,"Pest Control","type equals "Pest Control"",8,true
+category-ph-meters,"pH & Water Testing","type equals "Ph Meters"",35,true
+category-propagation,"Propagation & Cloning","type equals "Propagation"",79,true
+category-seeds,"Seeds","type equals "Seeds"",57,true
+category-ventilation-accessories,"Ventilation Accessories","type equals "Ventilation Accessories"",23,true
+brand-general-hydroponics,"General Hydroponics","vendor equals "General Hydroponics"",138,true
+brand-advanced-nutrients,"Advanced Nutrients","vendor equals "Advanced Nutrients"",82,true
+brand-botanicare,"Botanicare","vendor equals "Botanicare"",33,true
+brand-fox-farm,"Fox Farm","vendor equals "Fox Farm"",9,true
+brand-humboldt,"Humboldt","vendor equals "Humboldt"",73,true
+brand-ona,"ONA","vendor equals "ONA"",42,true
+brand-hydro-logic,"Hydro-Logic","vendor equals "Hydro-Logic"",26,true
+brand-can-fan,"Can-Fan","vendor equals "Can-Fan"",10,true
+brand-can-filter,"Can-Filter","vendor equals "Can-Filter"",15,true
+brand-ecoplus,"EcoPlus","vendor equals "EcoPlus"",42,true
+new-arrivals,"New Arrivals","tag equals "new-arrival"",?,true
+sale,"On Sale","variant_compare_at_price greater_than "0"",?,true
