@@ -653,6 +653,41 @@ const TITLE_BRAND_PATTERNS: Array<{ pattern: RegExp; brand: string }> = [
   { pattern: /\bHades\s*Down\b/i, brand: 'Nectar' },
   { pattern: /\bZeus\s*Juice\b/i, brand: 'Nectar' },
   
+  // Advanced Nutrients product lines
+  { pattern: /\bNirvana\b/i, brand: 'Advanced Nutrients' },
+  { pattern: /\bCarboLoad\b/i, brand: 'Advanced Nutrients' },
+  { pattern: /\bVoodoo\s*Juice\b/i, brand: 'Advanced Nutrients' },
+  { pattern: /\bPiranha\b/i, brand: 'Advanced Nutrients' },
+  { pattern: /\bTarantula\b/i, brand: 'Advanced Nutrients' },
+  { pattern: /\bBud\s*Candy\b/i, brand: 'Advanced Nutrients' },
+  { pattern: /\bBud\s*Ignitor\b/i, brand: 'Advanced Nutrients' },
+  { pattern: /\bBud\s*Factor\s*X\b/i, brand: 'Advanced Nutrients' },
+  { pattern: /\bRhino\s*Skin\b/i, brand: 'Advanced Nutrients' },
+  { pattern: /\bConnoisseur\b/i, brand: 'Advanced Nutrients' },
+  { pattern: /\bSensi\b/i, brand: 'Advanced Nutrients' },
+  { pattern: /\bpH\s*Perfect\b/i, brand: 'Advanced Nutrients' },
+  
+  // Plagron products
+  { pattern: /\bGreen\s*Sensation\b/i, brand: 'Plagron' },
+  { pattern: /\bPower\s*Roots\b/i, brand: 'Plagron' },
+  { pattern: /\bSugar\s*Royal\b/i, brand: 'Plagron' },
+  
+  // Humboldt products
+  { pattern: /\bRuby\s*Ful\b/i, brand: 'Humboldt' },
+  { pattern: /\bDiamond\s*Black\b/i, brand: 'Humboldt' },
+  { pattern: /\bEquinox\b/i, brand: 'Humboldt' },
+  { pattern: /\bAurora\s*Soul\b/i, brand: 'Humboldt' },
+  { pattern: /\bHydro-?Deuce\b/i, brand: 'Humboldt' },
+  { pattern: /\bCrystal\s*Burst\b/i, brand: 'Humboldt' },
+  { pattern: /\bHumboldt'?s?\s*Secret\b/i, brand: 'Humboldt Secret' },
+  { pattern: /\bHumboldt'?s?\s*Own\b/i, brand: 'Humboldt' },
+  
+  // Seasonal nutrients (likely house brand)
+  { pattern: /\b(Spring|Summer|Autumn|Winter)\s*(Frost|Quart|Gallon|2\.5)?\b/i, brand: 'H Moon Hydro' },
+  { pattern: /\bLightning\s*Start\b/i, brand: 'H Moon Hydro' },
+  { pattern: /\bFlavor-?Ful\b/i, brand: 'H Moon Hydro' },
+  { pattern: /\bDecision\b/i, brand: 'H Moon Hydro' },
+  
   // HID/Lighting brands
   { pattern: /\bSolarmax\b/i, brand: 'Solarmax' },
   { pattern: /\bPlantmax\b/i, brand: 'Plantmax' },
