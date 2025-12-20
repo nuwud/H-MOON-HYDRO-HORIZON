@@ -534,6 +534,180 @@ const TITLE_BRAND_PATTERNS: Array<{ pattern: RegExp; brand: string }> = [
   { pattern: /\bEZ\s*Clone\b/i, brand: 'EZ Clone' },
   { pattern: /\bTurbo\s*Klone\b/i, brand: 'Turbo Klone' },
   { pattern: /\bSuper\s*Sprouter\b/i, brand: 'Super Sprouter' },
+  
+  // Ventilation/Airflow brands
+  { pattern: /\bMax-?Fan\b/i, brand: 'Max-Fan' },
+  { pattern: /\bJet\s*Fan\b/i, brand: 'JetFan' },
+  { pattern: /\bPROfilter\b/i, brand: 'PROfilter' },
+  { pattern: /\bCan-?Filter\b/i, brand: 'Can-Filter' },
+  { pattern: /\bVortex\b/i, brand: 'Vortex' },
+  { pattern: /\bHyperfan\b/i, brand: 'Hyperfan' },
+  { pattern: /\bHurricane\b/i, brand: 'Hurricane' },
+  { pattern: /\bActive\s*Air\b/i, brand: 'Active Air' },
+  
+  // Water/Reservoir brands
+  { pattern: /\bWater\s*Farm\b/i, brand: 'WaterFarm' },
+  { pattern: /\bAeroFlo\b/i, brand: 'AeroFlo' },
+  { pattern: /\bPowerGrower\b/i, brand: 'PowerGrower' },
+  { pattern: /\bRainForest\b/i, brand: 'RainForest' },
+  { pattern: /\bHydro-?Logic\b/i, brand: 'Hydro-Logic' },
+  { pattern: /\bIdeal\s*H2O\b/i, brand: 'Ideal H2O' },
+  { pattern: /\bStealth\s*RO\b/i, brand: 'Stealth RO' },
+  
+  // Container brands
+  { pattern: /\bRoot\s*Pouch\b/i, brand: 'Root Pouch' },
+  { pattern: /\bSmart\s*Pot\b/i, brand: 'Smart Pot' },
+  { pattern: /\bGeoPot\b/i, brand: 'GeoPot' },
+  { pattern: /\bGro\s*Bags?\b/i, brand: 'Gro Pro' },
+  { pattern: /\bViagrow\b/i, brand: 'Viagrow' },
+  { pattern: /\bMondi\b/i, brand: 'Mondi' },
+  { pattern: /\bCocoTek\b/i, brand: 'CocoTek' },
+  
+  // Propagation brands  
+  { pattern: /\bClonex\b/i, brand: 'Clonex' },
+  { pattern: /\bClone\s*King\b/i, brand: 'Clone King' },
+  { pattern: /\bRoot\s*Riot\b/i, brand: 'Root Riot' },
+  { pattern: /\bRapid\s*Rooter\b/i, brand: 'Rapid Rooter' },
+  { pattern: /\bJiffy\b/i, brand: 'Jiffy' },
+  
+  // Odor control
+  { pattern: /\bONA\b/, brand: 'ONA' },
+  { pattern: /\bPure\s*Filter\b/i, brand: 'Pure Filter' },
+  
+  // Nutrient brands
+  { pattern: /\bPlagron\b/i, brand: 'Plagron' },
+  { pattern: /\bIonic\b/i, brand: 'Ionic' },
+  { pattern: /\bB'?Cuzz\b/i, brand: 'BCuzz' },
+  { pattern: /\bAtami\b/i, brand: 'Atami' },
+  { pattern: /\bAptus\b/i, brand: 'Aptus' },
+  { pattern: /\bRemo\b/i, brand: 'Remo' },
+  { pattern: /\bMills\b/i, brand: 'Mills' },
+  { pattern: /\bHeavy\s*16\b/i, brand: 'Heavy 16' },
+  { pattern: /\bGreen\s*Planet\b/i, brand: 'Green Planet' },
+  { pattern: /\bGrotek\b/i, brand: 'Grotek' },
+  { pattern: /\bTechnaflora\b/i, brand: 'Technaflora' },
+  { pattern: /\bCutting\s*Edge\b/i, brand: 'Cutting Edge' },
+  { pattern: /\bBio\s*Bizz\b/i, brand: 'BioBizz' },
+  
+  // Additional nutrient brand patterns
+  { pattern: /\bTerpinator\b/i, brand: 'Terpinator' },
+  { pattern: /\bSpray\s*N\s*Grow\b/i, brand: 'Spray N Grow' },
+  { pattern: /\bSensizym\b/i, brand: 'Advanced Nutrients' },
+  { pattern: /\bBig\s*Bud\b/i, brand: 'Advanced Nutrients' },
+  { pattern: /\bOverdrive\b/i, brand: 'Advanced Nutrients' },
+  { pattern: /\bSledge\s*Hammer\b/i, brand: 'Fox Farm' },
+  { pattern: /\bSilica\s*Blast\b/i, brand: 'Botanicare' },
+  { pattern: /\bHolland\s*Secret\b/i, brand: 'Holland Secret' },
+  { pattern: /\bBioThrive\b/i, brand: 'General Hydroponics' },
+  { pattern: /\bMedusa'?s?\s*Magic\b/i, brand: 'Medusa' },
+  { pattern: /\bHerculean\s*Harvest\b/i, brand: 'Nectar' },
+  { pattern: /\bSilicium\b/i, brand: 'Silicium' },
+  { pattern: /\bScietetics\b/i, brand: 'Scietetics' },
+  { pattern: /\bVerde\b/i, brand: 'Verde' },
+  { pattern: /\bVitamino\b/i, brand: 'Vitamino' },
+  { pattern: /\bSuck\s*it\s*Up\b/i, brand: 'Suck it Up' },
+  { pattern: /\bTon\s*O\s*Bud\b/i, brand: 'Ton-O-Bud' },
+  { pattern: /\bMaxi\s*Series\b/i, brand: 'General Hydroponics' },
+  { pattern: /\bBloom\s*Khaos\b/i, brand: 'Bloom Khaos' },
+  
+  // More GH product lines
+  { pattern: /\bFloraDuo\b/i, brand: 'General Hydroponics' },
+  { pattern: /\bFloraNectar\b/i, brand: 'General Hydroponics' },
+  { pattern: /\bFlora\s*Series\b/i, brand: 'General Hydroponics' },
+  { pattern: /\bFloraKleen\b/i, brand: 'General Hydroponics' },
+  { pattern: /\bFloraBlend\b/i, brand: 'General Hydroponics' },
+  { pattern: /\bRapid\s*Start\b/i, brand: 'General Hydroponics' },
+  { pattern: /\bCALiMAGic\b/i, brand: 'General Hydroponics' },
+  { pattern: /\bKoolBloom\b/i, brand: 'General Hydroponics' },
+  { pattern: /\bLiquid\s*Kool\s*Bloom\b/i, brand: 'General Hydroponics' },
+  { pattern: /\bDry\s*Kool\s*Bloom\b/i, brand: 'General Hydroponics' },
+  { pattern: /\bArmor\s*Si\b/i, brand: 'General Hydroponics' },
+  { pattern: /\bDiamond\s*Nectar\b/i, brand: 'General Hydroponics' },
+  
+  // General Organics / Aurora products
+  { pattern: /\bBioWeed\b/i, brand: 'General Organics' },
+  { pattern: /\bBioBud\b/i, brand: 'General Organics' },
+  { pattern: /\bBioMarine\b/i, brand: 'General Organics' },
+  { pattern: /\bBioRoot\b/i, brand: 'General Organics' },
+  { pattern: /\bGeneral\s*Organics?\b/i, brand: 'General Organics' },
+  { pattern: /\bCaMg\+\b/i, brand: 'General Organics' },
+  
+  // Mycorrhizae brands
+  { pattern: /\bMykos\b/i, brand: 'Xtreme Gardening' },
+  { pattern: /\bAzos\b/i, brand: 'Xtreme Gardening' },
+  { pattern: /\bXtreme\s*Gardening\b/i, brand: 'Xtreme Gardening' },
+  { pattern: /\bMyco\s*Madness\b/i, brand: 'Myco Madness' },
+  { pattern: /\bGreat\s*White\b/i, brand: 'Great White' },
+  
+  // Nectar for the Gods products
+  { pattern: /\bHygeia'?s?\b/i, brand: 'Nectar' },
+  { pattern: /\bPoseidon'?s?\s*zyme\b/i, brand: 'Nectar' },
+  { pattern: /\bTritan'?s?\s*Trawl\b/i, brand: 'Nectar' },
+  { pattern: /\bMedusa\b/i, brand: 'Nectar' },
+  { pattern: /\bMayan\s*Microzyme\b/i, brand: 'Nectar' },
+  { pattern: /\bOlympus\s*Up\b/i, brand: 'Nectar' },
+  { pattern: /\bGaia\s*Mania\b/i, brand: 'Nectar' },
+  { pattern: /\bDemeters?\s*Destiny\b/i, brand: 'Nectar' },
+  { pattern: /\bBloom\s*Khaos\b/i, brand: 'Nectar' },
+  { pattern: /\bAphrodite'?s?\b/i, brand: 'Nectar' },
+  { pattern: /\bHades\s*Down\b/i, brand: 'Nectar' },
+  { pattern: /\bZeus\s*Juice\b/i, brand: 'Nectar' },
+  
+  // HID/Lighting brands
+  { pattern: /\bSolarmax\b/i, brand: 'Solarmax' },
+  { pattern: /\bPlantmax\b/i, brand: 'Plantmax' },
+  { pattern: /\bXtrasun\b/i, brand: 'Xtrasun' },
+  { pattern: /\bSunmaster\b/i, brand: 'Sunmaster' },
+  { pattern: /\bPhantom\b/i, brand: 'Phantom' },
+  { pattern: /\bIluminar\b/i, brand: 'Iluminar' },
+  { pattern: /\bDimlux\b/i, brand: 'Dimlux' },
+  { pattern: /\bHLG\b/, brand: 'HLG' },
+  { pattern: /\bOptic\s*LED\b/i, brand: 'Optic LED' },
+  { pattern: /\bKind\s*LED\b/i, brand: 'Kind LED' },
+  { pattern: /\bFluence\b/i, brand: 'Fluence' },
+  { pattern: /\bGrowers?\s*Choice\b/i, brand: 'Growers Choice' },
+  
+  // Measurement brands
+  { pattern: /\bBluelab\b/i, brand: 'Bluelab' },
+  { pattern: /\bMilwaukee\b/i, brand: 'Milwaukee' },
+  { pattern: /\bApera\b/i, brand: 'Apera' },
+  { pattern: /\bHanna\b/i, brand: 'Hanna Instruments' },
+  { pattern: /\bOakton\b/i, brand: 'Oakton' },
+  { pattern: /\bNutradip\b/i, brand: 'Nutradip' },
+  
+  // CO2/Controllers
+  { pattern: /\bSentinel\b/i, brand: 'Sentinel' },
+  { pattern: /\bInkbird\b/i, brand: 'Inkbird' },
+  { pattern: /\bDosatron\b/i, brand: 'Dosatron' },
+  
+  // Equipment brands
+  { pattern: /\bEcoPlus\b/i, brand: 'EcoPlus' },
+  { pattern: /\bSunleaves\b/i, brand: 'Sunleaves' },
+  
+  // Additional lighting brands
+  { pattern: /\bSunBlaster\b/i, brand: 'SunBlaster' },
+  { pattern: /\bBADBOY\b/i, brand: 'BADBOY' },
+  { pattern: /\bReVolt\b/i, brand: 'ReVolt' },
+  { pattern: /\bLEC\b/, brand: 'LEC' },
+  { pattern: /\bGREENPOWER/i, brand: 'GreenPower' },
+  { pattern: /\bPanda\b/i, brand: 'Panda' },
+  { pattern: /\bAgrolite\b/i, brand: 'Agrolite' },
+  { pattern: /\bNanotech\b/i, brand: 'SunBlaster' },
+  { pattern: /\bUshio\b/i, brand: 'Ushio' },
+  { pattern: /\bVenture\b/i, brand: 'Venture' },
+  { pattern: /\bPhilips\b/i, brand: 'Philips' },
+  { pattern: /\bSylvania\b/i, brand: 'Sylvania' },
+  { pattern: /\bOsram\b/i, brand: 'Osram' },
+  { pattern: /\bCool\s*Tube\b/i, brand: 'Cool Tube' },
+  
+  // Can-lite separate from Can-Filter  
+  { pattern: /\bCan-?lite\b/i, brand: 'Can-lite' },
+  
+  // Additional container brands
+  { pattern: /\bF\.?H\.?D\.?\b/i, brand: 'FHD' },
+  
+  // Store house brand
+  { pattern: /\bH[\s-]*Moon[\s-]*Hydro\b/i, brand: 'H Moon Hydro' },
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────
