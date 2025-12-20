@@ -8,16 +8,9 @@ hmh01745,hydrodyamics-clonex-mist-300ml,Hydrodyamics Clonex Mist 300Ml,Clonex,H 
 hmh01418,heat-mat-dual-tray,Heat Mat Dual Tray,H Moon Hydro,H Moon Hydro,tray,,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
 hmh01417,heat-mat-single-tray,Heat Mat Single Tray,H Moon Hydro,H Moon Hydro,tray,,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
 hmh01419,heat-mat-thermostat,Heat Mat Thermostat,H Moon Hydro,H Moon Hydro,heat_mat,,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
-hmh01356,clonex-solution-32oz,Clonex Solution 32oz,Clonex,H Moon Hydro,cloning_solution,32 oz,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
 hmh01746,clonex-mist-750ml-rtu,Clonex mist 750ml RTU,Clonex,H Moon Hydro,other,750 ml,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,"needs_description, needs_classification"
-hmh01357,clonex-solution-gallon,Clonex Solution Gallon,Clonex,H Moon Hydro,cloning_solution,,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
-hmh01749,clonex-mycorrhizae-root-maximizer-4-oz-soluble,Clonex Mycorrhizae Root Maximizer 4 OZ Soluble,Clonex,H Moon Hydro,other,4 oz,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
-hmh01752,clonex-mycorrhizae-root-maximizer-4-oz-soluble-2,Clonex Mycorrhizae Root Maximizer 4 OZ Soluble,Clonex,H Moon Hydro,other,4 oz,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
 hmh01747,clonex-mist-concentrate-qt,Clonex Mist Concentrate Qt.,Clonex,H Moon Hydro,other,,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
-hmh01753,clonex-mycorrhizae-root-maximizer-8-oz-soluble-2,Clonex Mycorrhizae Root Maximizer 8 OZ Soluble,Clonex,H Moon Hydro,other,8 oz,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
 hmh01359,clonex-mist-100ml-spray-bottle,Clonex Mist 100ml Spray Bottle,Clonex,H Moon Hydro,other,100 ml,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
-hmh01750,clonex-mycorrhizae-root-maximizer-8-oz-soluble,Clonex Mycorrhizae Root Maximizer 8 OZ Soluble,Clonex,H Moon Hydro,other,8 oz,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
-hmh01754,clonex-mycorrhizae-root-maximizer-1-pound-soluble,Clonex Mycorrhizae Root Maximizer 1 pound Soluble,Clonex,H Moon Hydro,other,,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
 ,athena-cuts-rooting-gel-7-oz,Athena Cuts Rooting Gel 7 oz.,H Moon Hydro,H Moon Hydro,cloning_gel,7 oz,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
 ,athena-cuts-rooting-gel-compound-14oz,Athena Cuts Rooting Gel Compound - 14oz,H Moon Hydro,H Moon Hydro,cloning_gel,14 oz,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
 1856,propagation-solution,Propagation solution,FHD,FHD,other,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
@@ -65,11 +58,9 @@ hmh01754,clonex-mycorrhizae-root-maximizer-1-pound-soluble,Clonex Mycorrhizae Ro
 2503,ez-clone-cloner-64-site-sites,ez-clone cloner 64 site sites,ez clone,ez clone,clone_machine,,64,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
 2651,use-this-individually-wrapped-sterilized-scalpel-for-all-your-plant-cuttings-a-sterile-scalpel-will-help-prevent-disease-and-damage-to-any-cutting-,Use this individually wrapped sterilized scalpel for all your plant cuttings. A sterile scalpel will help prevent disease and damage to any cutting.,Growers Edge,Growers Edge,cutting_tool,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
 2688,rx-green-cloning-solution-gall,RX Green Cloning Solution Gall,rx solutions,rx solutions,other,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
-2892,clonex-mist-300-gram-boost-propagation,"Clonex Mist 300 gram
-Boost propagation",Clonex,,other,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
-2992,clonex-mycorrhizae-root-maximizer-4-oz-soil,Clonex Mycorrhizae Root Maximizer 4 OZ -Soil,Clonex,hydrodymamics,other,4 oz,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+2892,clonex-mist-300-gram-boost-propagation,Clonex Mist 300 gram
+"Boost propagation,Clonex,,other,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,needs_images", needs_description, needs_classification
 2993,clonex-mist-750-ml,Clonex Mist 750 ML,Clonex,hydrodymanics,other,750 ml,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
-3003,clonex-root-maximizer-4oz-soluable,Clonex Root Maximizer 4oz soluable,Clonex,,other,4 oz,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
 3009,turboklone-t24-cloner-turbo-mini-with-dome,TurboKlone T24 Cloner Turbo Mini with dome,TurboKlone,turbo clone,clone_machine,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
 3010,turboklone-t48-klone-dome,TurboKlone T48 Klone & Dome,TurboKlone,turbo clone,clone_machine,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
 3011,turboklone-klone-collars-1-52-pack-1-6-,"TurboKlone Klone Collars (1=52/Pack)-1.6""",TurboKlone,turbo clone,clone_machine,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"

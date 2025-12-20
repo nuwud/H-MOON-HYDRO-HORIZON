@@ -1,18 +1,8 @@
 file,sku,handle,title,rule
-master_nutrients.csv,,ona-pro-gel-1-gal,ONA Pro Gel (1 gal),ONA is odor control brand
-master_nutrients.csv,,ona-gel-fresh-linen-1-gal,ONA Gel Fresh Linen (1 gal),ONA is odor control brand
-master_nutrients.csv,,ona-pro-gel-1-qt,ONA Pro Gel (1 qt),ONA is odor control brand
-master_nutrients.csv,,ona-pro-gel-bucket-5-gal,ONA Pro Gel Bucket (5 gal),ONA is odor control brand
-master_nutrients.csv,,ona-gel-fresh-linen-1-qt,ONA Gel Fresh Linen (1 qt),ONA is odor control brand
-master_nutrients.csv,,ona-liquid-polar-crystal-1-gal,ONA Liquid Polar Crystal (1 gal),ONA is odor control brand
-master_nutrients.csv,,ona-pro-gel-pail-1-gal,Ona Pro Gel Pail (1 Gal),ONA is odor control brand
-master_nutrients.csv,,ona-liquid-polar-crystal-1-qt,ONA Liquid Polar Crystal (1 qt),ONA is odor control brand
-master_nutrients.csv,,ona-gel-fresh-linen-bucket-5-gal,ONA Gel Fresh Linen Bucket (5 gal),ONA is odor control brand
-master_nutrients.csv,,ona-gel-fresh-linen-pail-1gal,ONA Gel Fresh Linen Pail (1Gal),ONA is odor control brand
-master_containers_pots.csv,,ona-pro-gel-bucket-5-gal,ONA Pro Gel Bucket (5 gal),ONA is odor control brand
-master_containers_pots.csv,,ona-pro-gel-pail-1-gal,Ona Pro Gel Pail (1 Gal),ONA is odor control brand
-master_containers_pots.csv,,ona-gel-fresh-linen-bucket-5-gal,ONA Gel Fresh Linen Bucket (5 gal),ONA is odor control brand
-master_containers_pots.csv,,ona-gel-fresh-linen-pail-1gal,ONA Gel Fresh Linen Pail (1Gal),ONA is odor control brand
-master_nutrients.csv,,the-root-pouch-1-gallon,The Root Pouch 1 Gallon,Root Pouch is container brand
-master_nutrients.csv,,standard-3-5-gallon-black-bucket,standard 3.5 gallon black bucket,Generic bucket is container
-master_nutrients.csv,,standard-5-gallon-black-bucket,Standard 5 Gallon Black Bucket,Generic bucket is container
+master_books.csv,,Contrary to many people’s first impression,the Source Turbo is the most affordable option for at-home extraction,Garbage row with description as handle
+master_books.csv,,The fixture is fully compatible with all other products in our portfolio. This fixture communicates perfectly with the DLI controller,"allowing you to easily replace or extend your existing installation with this new fixture.,H Moon Hydro,,simple,LED Multilayer 630 FS-DC,false,Title,Default Title,,,,,,,,,918.52454925,,0,deny,manual,659.00,729.00,true,true,,,,,,https://cdn.shopify.com/s/files/1/0672/5730/3114/files/e-pap-660-led.jpg?v=1761678862,1,"",false,,,,oz,,,active",Garbage row with description as handle
+master_books.csv,,This clip fan features a robust EC motor specially redesigned in size and construction to lengthen the oscillation lifespan. Its clamp is re-engineered with a compact metal build that saves space in your grow tent and uses a vise grip-like design for greater security on tent poles. Other reinforced features include a brushless motor design,resilient carbon steel gears,Garbage row with description as handle
+master_controllers_timers.csv,,This clip fan features a robust EC motor specially redesigned in size and construction to lengthen the oscillation lifespan. Its clamp is re-engineered with a compact metal build that saves space in your grow tent and uses a vise grip-like design for greater security on tent poles. Other reinforced features include a brushless motor design,resilient carbon steel gears,Garbage row with description as handle
+master_ventilation_accessories.csv,,This clip fan features a robust EC motor specially redesigned in size and construction to lengthen the oscillation lifespan. Its clamp is re-engineered with a compact metal build that saves space in your grow tent and uses a vise grip-like design for greater security on tent poles. Other reinforced features include a brushless motor design,resilient carbon steel gears,Garbage row with description as handle
+master_extraction.csv,,meet-source-turbo,Meet Source Turbo,Garbage row with description as handle
+master_extraction.csv,,Contrary to many people’s first impression,the Source Turbo is the most affordable option for at-home extraction,Garbage row with description as handle

@@ -24,16 +24,11 @@ hmh00571,dual-diaphragm-air-pump,Dual Diaphragm Air Pump,H Moon Hydro,H Moon Hyd
 hmh01310,ecoplus-large-pump-filter-bag,EcoPlus Large Pump Filter Bag,EcoPlus,H Moon Hydro,pump_water,,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
 hmh00911,dual-diaphram-air-pump,Dual Diaphram Air Pump,H Moon Hydro,H Moon Hydro,pump_air,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
 ,ac-wsa20-b-automatic-water-sprayer-2-liter,"AC-WSA20-B Automatic Water Sprayer, 2-Liter",H Moon Hydro,H Moon Hydro,emitter,,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
-hmh00805,8-in-hose-clamps,8 in. hose clamps,H Moon Hydro,H Moon Hydro,hose,"8""",,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
-hmh00804,6-in-hose-clamps,6 in. hose clamps,H Moon Hydro,H Moon Hydro,hose,"6""",,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
 hmh00830,5-8-shut-off-barbed-valve-bag-of-10,"5/8"" shut-off barbed valve (bag of 10)",H Moon Hydro,H Moon Hydro,fitting,"5/8""",,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
 hmh00914,40-micron-filter-for-tnc-pump,40 micron filter for TNC pump,H Moon Hydro,H Moon Hydro,pump_water,,,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
-hmh00803,4-in-hose-clamps,4 in. hose clamps,H Moon Hydro,H Moon Hydro,hose,"4""",,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
 hmh00944,3-8-in-tubing-blue-500-ft-roll,3/8 in. TUBING BLUE (500 FT. ROLL),H Moon Hydro,H Moon Hydro,tubing,"3/8""",500 ft,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
 hmh00943,3-8-in-tubing-white-500-ft-roll,3/8 in. TUBING WHITE (500 FT. ROLL),H Moon Hydro,H Moon Hydro,tubing,"3/8""",500 ft,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
-hmh01327,12-in-hose-clamps,12 in. hose clamps,H Moon Hydro,H Moon Hydro,hose,"12""",,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
 hmh00814,10-x-10-x-10-y-connector,"10"" X 10"" X 10"" ""Y"" Connector",H Moon Hydro,H Moon Hydro,fitting,"10""",,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
-hmh01326,10-in-hose-clamps,10 in. hose clamps,H Moon Hydro,H Moon Hydro,hose,"10""",,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
 hmh00945,1-2-in-tubing-neutral-250-ft-roll,1/2 in. TUBING NEUTRAL (250 FT. ROLL),H Moon Hydro,H Moon Hydro,tubing,"1/2""",250 ft,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
 hmh00837,1-2-fill-drain-fitting-bag-of-10,"1/2"" Fill & Drain Fitting (Bag of 10)",H Moon Hydro,H Moon Hydro,fitting,"1/2""",,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
 hmh00822,1-2-grommet-bag-of-25,"1/2"" Grommet (bag of 25)",H Moon Hydro,H Moon Hydro,fitting,"1/2""",,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
@@ -113,7 +108,6 @@ hmh00942,1-4-in-tubing-black-500-ft-roll,1/4 in. TUBING BLACK (500 FT. ROLL),H M
 1010,booster-pump-for-stealth-100-200,Booster Pump for Stealth 100/200,Hydrologic,Hydrologic,pump_water,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
 1432,1-5qt-pump-mist-sprayer,1.5Qt Pump Mist sprayer,Mondi,Mondi,pump_water,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
 913,185-gph-submersible-pump,185 GPH Submersible Pump,EcoPlus,EcoPlus,pump_submersible,,,185 GPH,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
-833,360-aeroponic-sprayer-for-ez-clone-machine,360 Aeroponic Sprayer for EZ Clone Machine,EZ Clone,EZ Clone,emitter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
 914,264-gph-submersible-pump,264 GPH Submersible Pump,EcoPlus,EcoPlus,pump_submersible,,,264 GPH,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
 915,396-gph-submersible-pump,396 GPH Submersible Pump,EcoPlus,EcoPlus,pump_submersible,,,396 GPH,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
 1257,crossover-valve-for-propane,Crossover Valve for Propane,Greenair Products,Greenair Products,valve,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
@@ -178,8 +172,8 @@ hmh00942,1-4-in-tubing-black-500-ft-roll,1/4 in. TUBING BLACK (500 FT. ROLL),H M
 2548,floraflex-8-in-floracap-2-0,FloraFlex 8 in FloraCap 2.0,Floraflex,,other,"8""",,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
 2549,floraflex-floraclip-2-0-1-12-pk,FloraFlex FloraClip 2.0 (1=12/pk,Floraflex,,other,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
 2470,irrigation-riser-assembly-w-tee,Irrigation Riser Assembly/W-Tee,,,fitting,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
-2472,irrigation-octa-bubbler-6-gph-8-outlets,"Irrigation Octa-Bubbler 6 gph
-8 outlets",,,other,,,6 GPH,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+2472,irrigation-octa-bubbler-6-gph-8-outlets,Irrigation Octa-Bubbler 6 gph
+"8 outlets,,,other,,,6 GPH,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,needs_images", needs_description, needs_classification
 1707,aeroflo-drain-valve,AeroFlo drain valve,,,valve,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
 1774,rainmaker-trigger-sprayer-qt-,Rainmaker® Trigger Sprayer qt.,,,emitter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
 2997,1-2-hydrologic-hose-50-ft-,"1/2"" hydrologic hose 50 ft.",hydrologic,hydrologic,hose,"1/2""",50 ft,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"

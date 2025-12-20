@@ -21,7 +21,6 @@ hmh01353,ona-fresh-linen-spray-8oz,ONA Fresh Linen Spray 8oz,ONA,H Moon Hydro,on
 hmh01105,ona-block-crystal-6oz,ONA Block Crystal 6oz,ONA,H Moon Hydro,ona_block,,,6 oz,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
 hmh00146,ona-breeze,ONA Breeze,ONA,H Moon Hydro,other,,,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,"needs_description, needs_classification"
 ,hydro-logic-preevolution-high-capacity-pre-filter,Hydro-Logic® PreEvolution™ High Capacity Pre-Filter,H Moon Hydro,H Moon Hydro,pre_filter,,,,shopify,TRUE,FALSE,FALSE,FALSE,FALSE,
-,hydro-logic-evolution-ro1000-1000-gpd,Hydro-Logic® Evolution RO1000™ - 1000 GPD,H Moon Hydro,H Moon Hydro,carbon_filter,,,,shopify,TRUE,FALSE,FALSE,FALSE,FALSE,
 hmh00699,can-filter-75-w-8-ho-559-cfm-fan-combo-freight-shipping-only,"Can-Filter 75 W/ 8"" HO 559 CFM Fan Combo (freight shipping ONLY)",Can-Filter,H Moon Hydro,carbon_filter,,559 CFM,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
 hmh00700,can-filter-100-w-8-ho-620-cfm-fan-combo-freight-shipping-only,"Can-Filter 100 W/ 8"" HO 620 CFM Fan Combo (freight shipping ONLY)",Can-Filter,H Moon Hydro,carbon_filter,,620 CFM,,shopify,TRUE,FALSE,FALSE,TRUE,TRUE,"needs_images, needs_description"
 hmh01240,can-lite-14-w-flange-attached-2200-cfm,"Can-Lite 14"" w/ Flange attached (2200 cfm)",Can-Lite,H Moon Hydro,carbon_filter,,2200 CFM,,shopify,TRUE,FALSE,FALSE,FALSE,TRUE,needs_description
@@ -78,16 +77,15 @@ hmh00726,10-can-filter-flange,"10"" CAN Filter Flange",Can-Filter,H Moon Hydro,c
 2482,6-inch-pre-filter-can-lite,6 inch pre filter can lite,Can-Lite,CAN,pre_filter,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
 2488,ona-gel-apple,ona gel apple,ONA,ONA,ona_gel,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
 2489,ona-gel-apple-for-odorstop,ONA gel Apple for odorstop,ONA,ONA,ona_gel,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
-2669,mufflers-are-used-to-reduce-outlet-or-inlet-noise-available-in-2-sizes-the-original-sized-muffler-will-fit-your-8-12-fans-and-the-new-mini-muffler-will-fit-your-4-8-fans-original-muffler-diameter-14-5-length-46-insulation-bed-depth-2-5-mini-muffler-diameter-11-7-8-length-24-insulation-bed-depth-2-,"Mufflers are used to reduce outlet or inlet noise. Available in 2 sizes, the Original sized Muffler will fit your 8""-12"" fans, and the new Mini Muffler will fit your 4""-8"" fans .
+2669,mufflers-are-used-to-reduce-outlet-or-inlet-noise-available-in-2-sizes-the-original-sized-muffler-will-fit-your-8-12-fans-and-the-new-mini-muffler-will-fit-your-4-8-fans-original-muffler-diameter-14-5-length-46-insulation-bed-depth-2-5-mini-muffler-diameter-11-7-8-length-24-insulation-bed-depth-2-,"Mufflers are used to reduce outlet or inlet noise. Available in 2 sizes, the Original sized Muffler will fit your 8""-12"" fans, and the new Mini Muffler will fit your 4""-8"" fans ."
 Original Muffler: 
-Diameter: 14.5""
-Length: 46""
-Insulation Bed Depth: 2.5""
-
+Diameter: 14.5
+Length: 46
+Insulation Bed Depth: 2.5
 Mini Muffler:
-Diameter: 11 7/8""
-Length: 24"" 
-Insulation Bed Depth: 2""",Can-Filter,Can-Filter,other,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
+Diameter: 11 7/8
+Length: 24 
+"Insulation Bed Depth: 2"",Can-Filter,Can-Filter,other,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,needs_images", needs_description, needs_classification
 2523,ona-spray-spple-crumble-scent,ona spray spple crumble scent,ONA,ona,ona_spray,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
 2799,,,ONA,ONA,other,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description, needs_classification"
 2718,the-ona-gel-is-our-most-popular-product-we-spent-many-years-developing-a-blend-of-ona-liquid-and-various-suspension-elements-to-result-in-a-product-that-has-excellent-dispersion-qualities-the-ona-odor-agents-are-released-in-a-controlled-manner-so-that-every-drop-of-this-excellent-product-is-fully-optimized-,The Ona Gel is our most popular product. We spent many years developing a blend of Ona Liquid and various suspension elements to result in a product that has excellent dispersion qualities. The Ona odor agents are released in a controlled manner so that every drop of this excellent product is fully optimized.,ONA,Ona,ona_gel,,,,inventory,FALSE,FALSE,TRUE,TRUE,TRUE,"needs_images, needs_description"
