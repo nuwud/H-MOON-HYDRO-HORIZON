@@ -1,6 +1,13 @@
 node_modules
 dist
 .env
+.env.*
 data/*.json
 data/*.csv
 data/*.log
+
+# Backups contain product data - don't commit
+backups/
+
+# Wipe logs contain deletion audit trail
+CSVs/wipe_log.csv
