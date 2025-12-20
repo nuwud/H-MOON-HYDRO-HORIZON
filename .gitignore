@@ -53,3 +53,18 @@ reports/archive/
 # CSVs/
 # reports/*.xlsx
 # exports/
+
+# Pipeline generated outputs (do NOT commit)
+CSVs/category_index_draft.csv
+CSVs/category_conflicts.csv
+CSVs/malformed_rows.csv
+CSVs/master_catalog_index.csv
+CSVs/shopify_import_ready.csv
+CSVs/shopify_import_draft.csv
+CSVs/sku_resolution_report.csv
+CSVs/shopify_collections.json
+**/wipe_log.csv
+**/collections_apply_log.csv
+
+# Backups contain store data - never commit
+backups/
