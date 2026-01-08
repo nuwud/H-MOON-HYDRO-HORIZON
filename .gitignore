@@ -1,19 +1,28 @@
-# Shopify Theme Development
-*.log
-.DS_Store
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# ============================================================================
+# H-MOON-HYDRO GITIGNORE - Updated 2026-01-08
+# ============================================================================
 
-# Node modules (if using any build tools)
+# ==========================
+# NODE MODULES & DEPENDENCIES
+# ==========================
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
 
-# Python
+# ==========================
+# ENVIRONMENT FILES
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# PYTHON
+# ==========================
 __pycache__/
 *.pyc
 *.pyo
@@ -21,50 +30,85 @@ __pycache__/
 .Python
 venv/
 .venv/
+*.egg-info/
+dist/
+build/
 
-# Editor directories and files
-.vscode/settings.json
-.idea/
-*.swp
-*.swo
-*~
+# ==========================
+# WOOCOMMERCE SITE (LARGE ~500MB+)
+# ==========================
+hmoonhydro.com/
+*.sql
+*.sql.gz
 
-# Shopify CLI
-.shopify
+# ==========================
+# IMAGES & MEDIA (LARGE)
+# ==========================
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+*.ico
+*.bmp
+*.tiff
+!assets/*.svg
+exports/images/
+CSVs/images/
+**/*_images/
 
-# OS generated files
-Thumbs.db
-Desktop.ini
+# ==========================
+# LARGE CSV DATA FILES
+# ==========================
+CSVs/*.csv
+!CSVs/HMoonHydro_Inventory.csv
+outputs/*.csv
+exports/*.csv
+**/wipe_log.csv
+**/collections_apply_log.csv
 
-# Theme development
-*.zip
-*.tar.gz
-
-# Temporary files
+# ==========================
+# GENERATED/TEMPORARY FILES
+# ==========================
 tmp/
 temp/
 outputs/tmp/
 outputs/backups/
-
-# Generated reports (keep originals, ignore timestamped duplicates)
 reports/archive/
+*.zip
+*.tar.gz
+*.7z
+*.rar
+consolidate_output.txt
+nul
 
-# Large data files (optional - uncomment if you don't want to track)
-# CSVs/
-# reports/*.xlsx
-# exports/
+# ==========================
+# SYSTEM & EDITOR FILES
+# ==========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/settings.json
 
-# Pipeline generated outputs (do NOT commit)
-CSVs/category_index_draft.csv
-CSVs/category_conflicts.csv
-CSVs/malformed_rows.csv
-CSVs/master_catalog_index.csv
-CSVs/shopify_import_ready.csv
-CSVs/shopify_import_draft.csv
-CSVs/sku_resolution_report.csv
-CSVs/shopify_collections.json
-**/wipe_log.csv
-**/collections_apply_log.csv
+# ==========================
+# SHOPIFY CLI
+# ==========================
+.shopify
 
-# Backups contain store data - never commit
+# ==========================
+# LOGS
+# ==========================
+*.log
+logs/
+
+# ==========================
+# BACKUP DIRECTORIES
+# ==========================
 backups/
+**/backup/
+**/bak/
