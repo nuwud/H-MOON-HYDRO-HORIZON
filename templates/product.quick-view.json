@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "quick-view": {
+      "type": "quick-view-content",
+      "settings": {}
+    }
+  },
+  "order": ["quick-view"]
+}

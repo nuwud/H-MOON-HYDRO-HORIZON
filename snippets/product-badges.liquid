@@ -1,0 +1,110 @@
+{%- comment -%}
+  THEME-001: Product Badges
+  Displays Sale, New, and Low Stock badges on product cards
+  
+  Usage: {% render 'product-badges', product: product %}
+  
+  Badge types:
+  - sale: Shows % off when compare_at_price exists
+  - new: Shows "New" if product created within 30 days
+  - low-stock: Shows "Only X left" when inventory ≤5
+  - sold-out: Shows "Sold Out" when unavailable
+{%- endcomment -%}
+
+{%- liquid
+  assign show_sale_badge = false
+  assign show_new_badge = false
+  assign show_low_stock = false
+  assign show_sold_out = false
+  
+  # Sale badge - check for compare_at_price
+  if product.compare_at_price > product.price
+    assign show_sale_badge = true
+    assign sale_percent = product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | round
+  endif
+  
+  # New badge - product created within 30 days
+  assign now_timestamp = 'now' | date: '%s' | plus: 0
+  assign created_timestamp = product.created_at | date: '%s' | plus: 0
+  assign thirty_days_seconds = 2592000
+  assign age_seconds = now_timestamp | minus: created_timestamp
+  if age_seconds < thirty_days_seconds
+    assign show_new_badge = true
+  endif
+  
+  # Stock badges
+  if product.available == false
+    assign show_sold_out = true
+  elsif product.variants.size == 1
+    assign variant = product.variants.first
+    if variant.inventory_management != blank and variant.inventory_quantity <= 5 and variant.inventory_quantity > 0
+      assign show_low_stock = true
+      assign stock_qty = variant.inventory_quantity
+    endif
+  endif
+-%}
+
+{%- if show_sale_badge or show_new_badge or show_low_stock or show_sold_out -%}
+  <div class="product-badges">
+    {%- if show_sold_out -%}
+      <span class="badge badge--sold-out">{{ 'products.product.sold_out' | t | default: 'Sold Out' }}</span>
+    {%- else -%}
+      {%- if show_sale_badge -%}
+        <span class="badge badge--sale">-{{ sale_percent }}%</span>
+      {%- endif -%}
+      
+      {%- if show_new_badge -%}
+        <span class="badge badge--new">{{ 'products.product.new' | t | default: 'New' }}</span>
+      {%- endif -%}
+      
+      {%- if show_low_stock -%}
+        <span class="badge badge--low-stock">Only {{ stock_qty }} left</span>
+      {%- endif -%}
+    {%- endif -%}
+  </div>
+{%- endif -%}
+
+<style>
+  .product-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 2;
+    pointer-events: none;
+  }
+  
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 3px;
+    line-height: 1;
+  }
+  
+  .badge--sale {
+    background-color: var(--color-sale, #e53935);
+    color: white;
+  }
+  
+  .badge--new {
+    background-color: var(--color-new, #43a047);
+    color: white;
+  }
+  
+  .badge--low-stock {
+    background-color: var(--color-warning, #ff9800);
+    color: white;
+  }
+  
+  .badge--sold-out {
+    background-color: var(--color-sold-out, #757575);
+    color: white;
+  }
+</style>

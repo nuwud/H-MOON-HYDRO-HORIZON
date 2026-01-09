@@ -21,6 +21,13 @@
     >
 
     {%- render 'meta-tags' -%}
+    {%- render 'json-ld-organization' -%}
+    {%- if template contains 'product' -%}
+      {%- render 'json-ld-product', product: product -%}
+      {%- render 'json-ld-breadcrumb', product: product -%}
+    {%- elsif template contains 'collection' -%}
+      {%- render 'json-ld-breadcrumb', collection: collection -%}
+    {%- endif -%}
     {%- render 'stylesheets' -%}
     {%- render 'fonts' -%}
     {%- render 'scripts' -%}
@@ -65,5 +72,8 @@
     {% if settings.quick_add or settings.mobile_quick_add %}
       {% render 'quick-add-modal' %}
     {% endif %}
+    
+    {%- comment -%} THEME-001: Quick View Modal {%- endcomment -%}
+    {% render 'quick-view-modal' %}
   </body>
 </html>

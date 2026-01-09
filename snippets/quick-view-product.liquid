@@ -1,0 +1,194 @@
+{%- comment -%}
+  THEME-001: Quick View Product Template
+  Minimal product view loaded into the quick view modal
+  
+  This is an alternate product template for AJAX quick view.
+  To use: Create templates/product.quick-view.json or use ?view=quick-view
+{%- endcomment -%}
+
+<div class="quick-view-product">
+  <div class="quick-view-product__media">
+    {%- if product.featured_media -%}
+      <img 
+        src="{{ product.featured_media | image_url: width: 600 }}"
+        alt="{{ product.featured_media.alt | escape | default: product.title }}"
+        width="600"
+        height="{{ 600 | divided_by: product.featured_media.aspect_ratio | round }}"
+        loading="eager"
+      >
+    {%- else -%}
+      {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
+    {%- endif -%}
+    
+    {%- comment -%} Image thumbnails for products with multiple images {%- endcomment -%}
+    {%- if product.media.size > 1 -%}
+      <div class="quick-view-product__thumbnails">
+        {%- for media in product.media limit: 5 -%}
+          <button 
+            class="quick-view-product__thumbnail{% if forloop.first %} active{% endif %}"
+            onclick="this.closest('.quick-view-product').querySelector('.quick-view-product__media > img').src = '{{ media | image_url: width: 600 }}'"
+          >
+            <img 
+              src="{{ media | image_url: width: 100 }}"
+              alt="{{ media.alt | escape | default: product.title }}"
+              width="60"
+              height="60"
+              loading="lazy"
+            >
+          </button>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  </div>
+  
+  <div class="quick-view-product__info">
+    {%- if product.vendor -%}
+      <p class="quick-view-product__vendor">{{ product.vendor }}</p>
+    {%- endif -%}
+    
+    <h2 class="quick-view-product__title" id="quick-view-title">{{ product.title }}</h2>
+    
+    <div class="quick-view-product__price">
+      {%- if product.compare_at_price > product.price -%}
+        {{ product.price | money }}
+        <span class="compare-at">{{ product.compare_at_price | money }}</span>
+      {%- else -%}
+        {{ product.price | money }}
+      {%- endif -%}
+    </div>
+    
+    {%- if product.description != blank -%}
+      <div class="quick-view-product__description">
+        {{ product.description | strip_html | truncate: 250 }}
+      </div>
+    {%- endif -%}
+    
+    <div class="quick-view-product__actions">
+      {%- form 'product', product -%}
+        <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+        
+        {%- comment -%} Variant selector for products with multiple variants {%- endcomment -%}
+        {%- if product.variants.size > 1 -%}
+          <div class="quick-view-product__variants">
+            {%- for option in product.options_with_values -%}
+              <div class="quick-view-product__option">
+                <label for="quick-view-option-{{ forloop.index }}">{{ option.name }}</label>
+                <select 
+                  id="quick-view-option-{{ forloop.index }}"
+                  name="options[{{ option.name }}]"
+                  class="quick-view-product__select"
+                  onchange="updateQuickViewVariant(this.closest('form'))"
+                >
+                  {%- for value in option.values -%}
+                    <option 
+                      value="{{ value }}"
+                      {% if option.selected_value == value %}selected{% endif %}
+                    >
+                      {{ value }}
+                    </option>
+                  {%- endfor -%}
+                </select>
+              </div>
+            {%- endfor -%}
+          </div>
+          
+          <script>
+            window.quickViewVariants = {{ product.variants | json }};
+            
+            function updateQuickViewVariant(form) {
+              const selects = form.querySelectorAll('.quick-view-product__select');
+              const selectedOptions = Array.from(selects).map(s => s.value);
+              
+              const variant = window.quickViewVariants.find(v => {
+                return selectedOptions.every((opt, i) => v['option' + (i + 1)] === opt);
+              });
+              
+              if (variant) {
+                form.querySelector('input[name="id"]').value = variant.id;
+                const button = form.querySelector('button[type="submit"]');
+                
+                if (variant.available) {
+                  button.disabled = false;
+                  button.textContent = '{{ "products.product.add_to_cart" | t | default: "Add to Cart" }}';
+                } else {
+                  button.disabled = true;
+                  button.textContent = '{{ "products.product.sold_out" | t | default: "Sold Out" }}';
+                }
+              }
+            }
+          </script>
+        {%- endif -%}
+        
+        <button 
+          type="submit" 
+          class="quick-view-product__add-to-cart"
+          {% unless product.available %}disabled{% endunless %}
+        >
+          {%- if product.available -%}
+            {{ 'products.product.add_to_cart' | t | default: 'Add to Cart' }}
+          {%- else -%}
+            {{ 'products.product.sold_out' | t | default: 'Sold Out' }}
+          {%- endif -%}
+        </button>
+      {%- endform -%}
+      
+      <a href="{{ product.url }}" class="quick-view-product__view-full">
+        {{ 'products.product.view_full_details' | t | default: 'View full details' }}
+      </a>
+    </div>
+  </div>
+</div>
+
+<style>
+  .quick-view-product__thumbnails {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .quick-view-product__thumbnail {
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.2s, border-color 0.2s;
+  }
+  
+  .quick-view-product__thumbnail:hover,
+  .quick-view-product__thumbnail.active {
+    opacity: 1;
+    border-color: var(--color-primary, #000);
+  }
+  
+  .quick-view-product__thumbnail img {
+    display: block;
+    border-radius: 2px;
+    object-fit: cover;
+  }
+  
+  .quick-view-product__variants {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  
+  .quick-view-product__option label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  
+  .quick-view-product__select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--color-border, #e5e5e5);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    background: var(--color-background, #fff);
+  }
+</style>

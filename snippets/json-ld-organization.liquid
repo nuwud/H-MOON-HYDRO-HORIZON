@@ -1,0 +1,48 @@
+{%- comment -%}
+  JSON-LD Organization Structured Data
+  Part of SEO-001: Product SEO & Structured Data
+  
+  Usage: Include in theme.liquid once
+  {% render 'json-ld-organization' %}
+{%- endcomment -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": {{ shop.name | json }},
+  "url": {{ shop.url | json }},
+  {%- if shop.brand.logo -%}
+  "logo": {{ shop.brand.logo | image_url: width: 600 | prepend: 'https:' | json }},
+  {%- endif -%}
+  {%- if shop.brand.short_description -%}
+  "description": {{ shop.brand.short_description | json }},
+  {%- endif -%}
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": {{ shop.address.city | default: "Phoenix" | json }},
+    "addressRegion": {{ shop.address.province | default: "AZ" | json }},
+    "addressCountry": {{ shop.address.country | default: "US" | json }}
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "email": {{ shop.email | json }},
+    {%- if shop.phone != blank -%}
+    "telephone": {{ shop.phone | json }},
+    {%- endif -%}
+    "availableLanguage": "English"
+  },
+  "sameAs": [
+    {%- if settings.social_facebook_link != blank -%}
+    {{ settings.social_facebook_link | json }}{% if settings.social_instagram_link != blank or settings.social_twitter_link != blank %},{% endif %}
+    {%- endif -%}
+    {%- if settings.social_instagram_link != blank -%}
+    {{ settings.social_instagram_link | json }}{% if settings.social_twitter_link != blank %},{% endif %}
+    {%- endif -%}
+    {%- if settings.social_twitter_link != blank -%}
+    {{ settings.social_twitter_link | json }}
+    {%- endif -%}
+  ]
+}
+</script>

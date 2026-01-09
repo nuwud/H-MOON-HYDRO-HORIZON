@@ -1,0 +1,281 @@
+{%- comment -%}
+  THEME-001: Quick View Modal
+  Displays product details in a modal without leaving the page
+  
+  Usage: 
+  1. Include modal once in theme.liquid or footer: {% render 'quick-view-modal' %}
+  2. Add trigger button to product cards: {% render 'quick-view-trigger', product: product %}
+{%- endcomment -%}
+
+<dialog id="quick-view-modal" class="quick-view-modal" aria-labelledby="quick-view-title">
+  <div class="quick-view-modal__overlay" data-quick-view-close></div>
+  <div class="quick-view-modal__content">
+    <button class="quick-view-modal__close" data-quick-view-close aria-label="Close quick view">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    
+    <div class="quick-view-modal__loading" id="quick-view-loading">
+      <div class="spinner"></div>
+      <span>Loading...</span>
+    </div>
+    
+    <div class="quick-view-modal__body" id="quick-view-body" style="display: none;">
+      <!-- Content loaded dynamically -->
+    </div>
+  </div>
+</dialog>
+
+<style>
+  .quick-view-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    padding: 0;
+    border: none;
+    background: transparent;
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .quick-view-modal::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .quick-view-modal__overlay {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+  }
+  
+  .quick-view-modal__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--color-background, #fff);
+    border-radius: 8px;
+    max-width: 900px;
+    width: 90%;
+    max-height: 85vh;
+    overflow-y: auto;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
+  
+  .quick-view-modal__close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 10;
+    background: var(--color-background, #fff);
+    border: 1px solid var(--color-border, #e5e5e5);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+  }
+  
+  .quick-view-modal__close:hover {
+    background: var(--color-background-secondary, #f5f5f5);
+    transform: scale(1.1);
+  }
+  
+  .quick-view-modal__loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    gap: 16px;
+    color: var(--color-foreground-secondary, #666);
+  }
+  
+  .spinner {
+    width: 32px;
+    height: 32px;
+    border: 3px solid var(--color-border, #e5e5e5);
+    border-top-color: var(--color-primary, #000);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  
+  .quick-view-modal__body {
+    padding: 24px;
+  }
+  
+  .quick-view-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+  
+  @media (max-width: 768px) {
+    .quick-view-product {
+      grid-template-columns: 1fr;
+    }
+    
+    .quick-view-modal__content {
+      width: 95%;
+      max-height: 90vh;
+    }
+  }
+  
+  .quick-view-product__media img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .quick-view-product__title {
+    font-size: 1.5rem;
+    margin: 0 0 8px;
+  }
+  
+  .quick-view-product__vendor {
+    color: var(--color-foreground-secondary, #666);
+    font-size: 0.875rem;
+    margin-bottom: 16px;
+  }
+  
+  .quick-view-product__price {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .quick-view-product__price .compare-at {
+    text-decoration: line-through;
+    color: var(--color-foreground-secondary, #666);
+    margin-left: 8px;
+    font-weight: normal;
+  }
+  
+  .quick-view-product__description {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    color: var(--color-foreground-secondary, #444);
+  }
+  
+  .quick-view-product__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .quick-view-product__add-to-cart {
+    background: var(--color-primary, #000);
+    color: var(--color-primary-contrast, #fff);
+    border: none;
+    padding: 14px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  
+  .quick-view-product__add-to-cart:hover {
+    opacity: 0.9;
+  }
+  
+  .quick-view-product__add-to-cart:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .quick-view-product__view-full {
+    text-align: center;
+    color: var(--color-foreground-secondary, #666);
+    text-decoration: underline;
+    font-size: 0.875rem;
+  }
+</style>
+
+<script>
+  (function() {
+    const modal = document.getElementById('quick-view-modal');
+    const loadingEl = document.getElementById('quick-view-loading');
+    const bodyEl = document.getElementById('quick-view-body');
+    
+    // Close handlers
+    modal.querySelectorAll('[data-quick-view-close]').forEach(el => {
+      el.addEventListener('click', () => modal.close());
+    });
+    
+    modal.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') modal.close();
+    });
+    
+    // Global open function
+    window.openQuickView = async function(productUrl) {
+      modal.showModal();
+      loadingEl.style.display = 'flex';
+      bodyEl.style.display = 'none';
+      
+      try {
+        const response = await fetch(productUrl + '?view=quick-view');
+        const html = await response.text();
+        
+        bodyEl.innerHTML = html;
+        loadingEl.style.display = 'none';
+        bodyEl.style.display = 'block';
+        
+        // Re-bind add to cart forms
+        bindQuickViewForms();
+      } catch (error) {
+        console.error('Quick view error:', error);
+        bodyEl.innerHTML = '<p style="padding: 40px; text-align: center;">Error loading product. <a href="' + productUrl + '">View product page</a></p>';
+        loadingEl.style.display = 'none';
+        bodyEl.style.display = 'block';
+      }
+    };
+    
+    function bindQuickViewForms() {
+      const forms = bodyEl.querySelectorAll('form[action*="/cart/add"]');
+      forms.forEach(form => {
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const formData = new FormData(form);
+          const button = form.querySelector('button[type="submit"]');
+          const originalText = button.textContent;
+          
+          button.disabled = true;
+          button.textContent = 'Adding...';
+          
+          try {
+            await fetch('/cart/add.js', {
+              method: 'POST',
+              body: formData
+            });
+            
+            button.textContent = 'Added!';
+            setTimeout(() => {
+              modal.close();
+              // Trigger cart update if using dynamic cart
+              document.dispatchEvent(new CustomEvent('cart:refresh'));
+            }, 800);
+          } catch (error) {
+            button.textContent = 'Error';
+            setTimeout(() => {
+              button.textContent = originalText;
+              button.disabled = false;
+            }, 1500);
+          }
+        });
+      });
+    }
+  })();
+</script>

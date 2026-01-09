@@ -1,0 +1,60 @@
+{%- comment -%}
+  JSON-LD Structured Data for Product Pages
+  Part of SEO-001: Product SEO & Structured Data
+  
+  Usage: Include in product template or main-product section
+  {% render 'json-ld-product', product: product %}
+{%- endcomment -%}
+
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign product_price = current_variant.price | divided_by: 100.0
+  assign compare_price = current_variant.compare_at_price | divided_by: 100.0
+-%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": {{ product.title | json }},
+  "description": {{ product.description | strip_html | truncate: 5000 | json }},
+  "url": {{ canonical_url | json }},
+  "sku": {{ current_variant.sku | default: current_variant.id | json }},
+  {%- if current_variant.barcode != blank -%}
+  "gtin": {{ current_variant.barcode | json }},
+  {%- endif -%}
+  "brand": {
+    "@type": "Brand",
+    "name": {{ product.vendor | default: shop.name | json }}
+  },
+  "image": [
+    {%- for image in product.images limit: 5 -%}
+      {{ image | image_url: width: 1200 | prepend: 'https:' | json }}{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": {{ canonical_url | json }},
+    "priceCurrency": {{ cart.currency.iso_code | json }},
+    "price": {{ product_price | json }},
+    {%- if compare_price > product_price -%}
+    "priceValidUntil": "{{ 'now' | date: '%Y' | plus: 1 }}-12-31",
+    {%- endif -%}
+    "availability": "https://schema.org/{% if current_variant.available %}InStock{% else %}OutOfStock{% endif %}",
+    "seller": {
+      "@type": "Organization",
+      "name": {{ shop.name | json }}
+    },
+    "itemCondition": "https://schema.org/NewCondition"
+  }
+  {%- if product.metafields.reviews.rating.value != blank -%}
+  ,"aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{ product.metafields.reviews.rating.value | json }},
+    "reviewCount": {{ product.metafields.reviews.rating_count.value | default: 1 | json }},
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+  {%- endif -%}
+}
+</script>

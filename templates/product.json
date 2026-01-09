@@ -404,10 +404,18 @@
         "padding-block-start": 48,
         "padding-block-end": 48
       }
+    },
+    "recently_viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "heading": "Recently Viewed",
+        "max_products": 6
+      }
     }
   },
   "order": [
     "main",
-    "product_recommendations_qggXJq"
+    "product_recommendations_qggXJq",
+    "recently_viewed"
   ]
 }
