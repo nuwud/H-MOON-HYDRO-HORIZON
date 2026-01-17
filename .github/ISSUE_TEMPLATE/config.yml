@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://github.com/YOUR_ORG/h-moon-hydro/tree/main/docs
+    about: Check our documentation for guides and references
+  - name: Pipeline Docs
+    url: https://github.com/YOUR_ORG/h-moon-hydro/tree/main/hmoon-pipeline/docs
+    about: HMoon Pipeline specific documentation

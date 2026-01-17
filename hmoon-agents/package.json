@@ -1,0 +1,94 @@
+{
+  "name": "hmoon-agents",
+  "displayName": "H-Moon Hydro Agents",
+  "description": "Custom GitHub Copilot chat participants for H-Moon Hydro migration pipeline",
+  "version": "0.1.0",
+  "publisher": "hmoon-hydro",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "AI",
+    "Chat"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "chatParticipants": [
+      {
+        "id": "hmoon.product-health-auditor",
+        "fullName": "Product Health Auditor",
+        "name": "health-auditor",
+        "description": "Score products and generate prioritized enrichment tasks",
+        "isSticky": false
+      },
+      {
+        "id": "hmoon.pos-shopify-matcher",
+        "fullName": "POS-Shopify Matcher",
+        "name": "pos-matcher",
+        "description": "Align POS inventory to Shopify variants with fuzzy matching",
+        "isSticky": false
+      },
+      {
+        "id": "hmoon.brand-normalizer",
+        "fullName": "Brand Normalizer",
+        "name": "brand-normalizer",
+        "description": "Detect and normalize brand names from 250+ registry",
+        "isSticky": false
+      },
+      {
+        "id": "hmoon.category-classifier",
+        "fullName": "Category Classifier",
+        "name": "category-classifier",
+        "description": "Assign products to categories with priority conflict resolution",
+        "isSticky": false
+      },
+      {
+        "id": "hmoon.safe-shopify-operator",
+        "fullName": "Safe Shopify Operator",
+        "name": "safe-operator",
+        "description": "Execute Shopify mutations with dry-run guardrails",
+        "isSticky": false
+      },
+      {
+        "id": "hmoon.variant-consolidator",
+        "fullName": "Variant Consolidator",
+        "name": "variant-consolidator",
+        "description": "Convert WooCommerce grouped to Shopify multi-variant",
+        "isSticky": false
+      },
+      {
+        "id": "hmoon.liquid-theme-helper",
+        "fullName": "Liquid Theme Helper",
+        "name": "theme-helper",
+        "description": "Assist with Shopify Horizon theme development",
+        "isSticky": false
+      },
+      {
+        "id": "hmoon.repo-archeologist",
+        "fullName": "Repo Archeologist",
+        "name": "repo-archeologist",
+        "description": "Index existing tooling to prevent redundant work",
+        "isSticky": false
+      },
+      {
+        "id": "hmoon.shopify-compliance-auditor",
+        "fullName": "Shopify Compliance Auditor",
+        "name": "compliance-auditor",
+        "description": "Final gate for Shopify compliance and accessibility",
+        "isSticky": false
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.93.0",
+    "typescript": "^5.3.0"
+  }
+}

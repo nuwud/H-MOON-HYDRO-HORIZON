@@ -1,196 +1,327 @@
-/**
- * Import products from existing Shopify CSV export
- * Converts CSV data to ShopifyProduct format for health scoring
- */
+# H-Moon Hydro: Shopify Theme + WooCommerce Migration Pipeline
 
-import { readFileSync, writeFileSync, existsSync } from 'fs';
-import { resolve, dirname } from 'path';
-import { fileURLToPath } from 'url';
-import type { ShopifyProduct } from '../types/Product.js';
+## Architecture Overview
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = resolve(__dirname, '../../data');
-const CSV_DIR = resolve(__dirname, '../../../CSVs');
+**Hydroponics ecommerce migration** from WooCommerce to Shopify with three components:
 
-interface CsvRow {
-  [key: string]: string;
+| Component | Location | Purpose |
+|-----------|----------|---------|
+| **Shopify Horizon Theme** | `/` (root) | Liquid templates, sections, snippets, assets |
+| **HMoon Pipeline** | `hmoon-pipeline/` | TypeScript CLI for product auditing, category building, Shopify GraphQL sync |
+| **Legacy WooCommerce** | `hmoonhydro.com/` | WordPress site + SQL dump for data archaeology |
+
+**SpecKit** (`.speckit/`) contains specs, plans, and templates — check `.speckit/specs/` for active feature specifications.
+
+---
+
+## 🎯 BEST CSV FOR IMPORT
+
+**USE:** `outputs/shopify_complete_import.csv`
+
+| Metric | Value |
+|--------|-------|
+| Unique Products | 2,579 |
+| Total Rows | 4,727 (includes variants) |
+| Image Coverage | 87% (2,199 products) |
+| Description Coverage | 100% |
+| Header Format | ✅ Shopify-compatible (34 columns) |
+
+**⚠️ AVOID the 23,947-row files** (`shopify_final_fixed.csv`, `shopify_100percent.csv`, etc.) — they have bloated row counts with only 17% image coverage due to variant explosion issues.
+
+### Quick Comparison
+| File | Products | Image Coverage | Status |
+|------|----------|----------------|--------|
+| `outputs/shopify_complete_import.csv` | 2,579 | 87% | ✅ **RECOMMENDED** |
+| `CSVs/shopify_import_ready.csv` | ~1,250 | Good | ⚠️ Missing ~half |
+| `outputs/shopify_final_fixed.csv` | 2,870 | 17% | ❌ Bloated/broken |
+
+---
+
+## ⚠️ Critical Safety Rules
+
+### 1. Search Before Creating
+**80+ scripts exist** in `scripts/` and `hmoon-pipeline/src/cli/`. Use `@repo-archeologist` agent or search before creating new tooling.
+
+### 2. Dry-Run Default Pattern
+ALL destructive scripts default to safe mode:
+```typescript
+const dryRun = args.includes('--dry-run') || !args.includes('--confirm');
+```
+Destructive scripts requiring `--confirm`: `wipeShopifyStore.ts`, `enrichShopifyProducts.ts`, `attachProductImages.ts`
+
+### 3. Protected Files (Never modify without backup)
+- `CSVs/products_export_1.csv` — Canonical Shopify export
+- `CSVs/HMoonHydro_Inventory.csv` — POS master inventory
+- `outputs/pos_shopify_alignment.csv` — Manual SKU mappings
+
+### 4. Rate Limiting
+Use 200-500ms pause between Shopify API mutations to avoid throttling.
+
+---
+
+## 📋 GitHub Issues Workflow
+
+**ALL issues, bugs, and tasks MUST be tracked in GitHub Issues.**
+
+### Issue Templates
+| Type | Template | Use For |
+|------|----------|---------|
+| Bug | `.github/ISSUE_TEMPLATE/bug_report.md` | Broken functionality, errors |
+| Feature | `.github/ISSUE_TEMPLATE/feature_request.md` | New capabilities |
+| Migration | `.github/ISSUE_TEMPLATE/migration_task.md` | Import/export tasks |
+
+### Workflow
+1. Check GitHub Issues before starting any task
+2. Create issue if one doesn't exist
+3. Reference in commits: `Fixes #123` or `Relates to #123`
+4. Close only when verified complete
+
+---
+
+## 📚 Shopify Documentation Requirement
+
+### ⚠️ ALWAYS CHECK OFFICIAL DOCS BEFORE API WORK
+
+**Shopify's GraphQL API changes frequently.** Verify against official documentation:
+
+| Resource | URL |
+|----------|-----|
+| Product API | https://shopify.dev/docs/api/admin-graphql/latest/mutations/productCreate |
+| Bulk Operations | https://shopify.dev/docs/api/usage/bulk-operations |
+| Rate Limits | https://shopify.dev/docs/api/usage/rate-limits |
+| CSV Import | https://help.shopify.com/en/manual/products/import-export |
+
+### API Version: `2024-01`
+
+### Known API Changes (Jan 2026)
+| Old (Deprecated) | New (Current) |
+|------------------|---------------|
+| `productCreate(input:)` | `productCreate(product:)` |
+| `ProductInput.variants` | `productVariantsBulkCreate` after product |
+| `variant.sku` | `variant.inventoryItem.sku` |
+
+---
+
+## Category Priority System
+
+When a product matches multiple categories, use strict priority:
+
+```typescript
+CATEGORY_PRIORITY = {
+  nutrients: 100,        // Highest
+  grow_media: 95,
+  seeds: 90,
+  propagation: 85,
+  irrigation: 80,
+  ph_meters: 75,
+  environmental_monitors: 70,
+  controllers: 65,
+  grow_lights: 60,
+  hid_bulbs: 55,
+  airflow: 50,
+  odor_control: 45,
+  water_filtration: 40,
+  containers: 35,
+  harvesting: 30,
+  trimming: 25,
+  pest_control: 20,
+  co2: 15,
+  grow_room_materials: 10,
+  books: 5,
+  electrical_supplies: 3,
+  extraction: 1,         // Lowest
 }
+```
 
-function parseCsv(content: string): CsvRow[] {
-  const lines = content.split('\n');
-  if (lines.length < 2) return [];
+### Category Codes
+`NUT` nutrients, `GRO` grow_media, `IRR` irrigation, `PHM` ph_meters, `LIT` lights, `HID` hid_bulbs, `AIR` airflow, `ODR` odor, `POT` containers, `PRO` propagation, `SED` seeds, `HAR` harvesting, `TRM` trimming, `PES` pest, `CO2` co2, `BOK` books
 
-  const headers = parseCsvLine(lines[0]);
-  const rows: CsvRow[] = [];
+---
 
-  for (let i = 1; i < lines.length; i++) {
-    const line = lines[i].trim();
-    if (!line) continue;
+## Key Workflows
 
-    const values = parseCsvLine(line);
-    const row: CsvRow = {};
-    headers.forEach((header, idx) => {
-      row[header] = values[idx] || '';
-    });
-    rows.push(row);
-  }
+### Full Import Pipeline
+```bash
+cd hmoon-pipeline
+npx tsx src/cli/runFullImportPipeline.ts  # Generates shopify_import_ready.csv
+```
+Pipeline: `buildCategoryIndexDraft.ts` → `buildMasterCatalogIndex.ts` → `buildShopifyImport.ts`
 
-  return rows;
-}
+### Category Builders (22 total)
+```bash
+npm run build:nutrients   # → CSVs/master_nutrients.csv
+npm run build:lights      # → CSVs/master_grow_lights.csv
+npm run build:airflow     # etc.
+```
 
-function parseCsvLine(line: string): string[] {
-  const result: string[] = [];
-  let current = '';
-  let inQuotes = false;
+### Python Scripts (in `scripts/`)
+```bash
+python scripts/align_pos_inventory.py      # POS ↔ Shopify fuzzy matching
+python scripts/consolidate_variants.py     # WooCommerce grouped → Shopify variants
+python scripts/analyze_woocommerce_inventory.py  # Inventory analysis
+```
 
-  for (let i = 0; i < line.length; i++) {
-    const char = line[i];
-    if (char === '"') {
-      if (inQuotes && line[i + 1] === '"') {
-        current += '"';
-        i++;
-      } else {
-        inQuotes = !inQuotes;
-      }
-    } else if (char === ',' && !inQuotes) {
-      result.push(current.trim());
-      current = '';
-    } else {
-      current += char;
-    }
-  }
-  result.push(current.trim());
-  return result;
-}
+---
 
-function convertToShopifyProduct(rows: CsvRow[]): ShopifyProduct[] {
-  // Group by product handle (Shopify CSVs have one row per variant)
-  const productMap = new Map<string, ShopifyProduct>();
+## Data Sources & Priority
 
-  for (const row of rows) {
-    // Support multiple CSV formats
-    const handle = row['Handle'] || row['handle'] || row['product_handle'] || '';
-    if (!handle) continue;
+### SKU Resolution Order
+1. Existing Shopify Variant SKU (never change)
+2. POS Item Number (vendor SKU)
+3. WooCommerce SKU
+4. Derived: `HMH-{CATEGORY}-{HASH}` (e.g., `HMH-NUT-A3F2B1`)
 
-    if (!productMap.has(handle)) {
-      // Count images by checking Image Src columns
-      let imageCount = 0;
-      for (const key of Object.keys(row)) {
-        if (key.toLowerCase().includes('image') && key.toLowerCase().includes('src') && row[key]) {
-          imageCount++;
-        }
-      }
+---
 
-      // Parse tags - support multiple formats
-      const tagsStr = row['Tags'] || row['tags'] || row['product_tags'] || '';
-      const tags = tagsStr ? tagsStr.split(',').map(t => t.trim()).filter(Boolean) : [];
+## Brand Registry (`hmoon-pipeline/src/utils/brand.ts`)
 
-      // Check for SEO
-      const seoTitle = row['SEO Title'] || row['seo_title'] || row['meta_title'] || '';
-      const seoDesc = row['SEO Description'] || row['seo_description'] || row['meta_description'] || '';
-      const hasSeo = Boolean(seoTitle || seoDesc);
+### Blocklist (NOT valid brands)
+`h moon hydro`, `hmoonhydro`, `unknown`, `default`, `other`, `n/a`
 
-      // Support multiple column naming conventions
-      const product: ShopifyProduct = {
-        id: row['ID'] || row['id'] || row['product_id'] || handle,
-        title: row['Title'] || row['title'] || row['product_title'] || '',
-        handle,
-        status: row['Status'] || row['status'] || row['product_status'] || 'active',
-        productType: row['Type'] || row['Product Type'] || row['product_type'] || '',
-        vendor: row['Vendor'] || row['vendor'] || row['product_vendor'] || '',
-        tags,
-        descriptionHtml: row['Body (HTML)'] || row['Body HTML'] || row['body_html'] || row['description'] || '',
-        imagesCount: imageCount || (row['Image Src'] ? 1 : 0),
-        hasSeo,
-      };
+### House Brand
+**UNO** is a valid private label brand (like Kirkland/Costco) — do NOT blocklist.
 
-      productMap.set(handle, product);
-    } else {
-      // Additional variant row - count additional images
-      const existing = productMap.get(handle)!;
-      if (row['Image Src'] || row['image_src']) {
-        existing.imagesCount = (existing.imagesCount || 0) + 1;
-      }
-    }
-  }
+### Brand Aliases Example
+```typescript
+'gh' → 'General Hydroponics'
+'cloudline' → 'AC Infinity'
+'fox farm' → 'FoxFarm'
+```
 
-  return Array.from(productMap.values());
-}
+---
 
-async function main() {
-  console.log('📥 Importing products from CSV...\n');
+## Liquid Theme Patterns
 
-  // Find the most comprehensive CSV
-  const csvFiles = [
-    'shopify_export_after_prod__INCLUDE_ALL.csv',
-    'shopify_export_after_prod.csv',
-    'shopify_products_h-moon-hydro_20251029_094151.csv',
-  ];
+### Internal Blocks (prefixed with `_`)
+```liquid
+{% content_for 'block', type: '_product-details', id: 'product-details' %}
+```
 
-  let csvPath: string | null = null;
-  for (const file of csvFiles) {
-    const path = resolve(CSV_DIR, file);
-    if (existsSync(path)) {
-      csvPath = path;
-      break;
-    }
-  }
+### Template JSON Warning
+`templates/*.json` files are **auto-generated by Shopify admin** — never manually edit.
 
-  if (!csvPath) {
-    console.error('❌ No Shopify CSV found in CSVs/ folder');
-    console.log('Expected one of:', csvFiles.join(', '));
-    process.exit(1);
-  }
+---
 
-  console.log(`📄 Reading: ${csvPath.split(/[/\\]/).pop()}`);
+## ⚡ Shopify API Evolution (CRITICAL)
 
-  const content = readFileSync(csvPath, 'utf-8');
-  const rows = parseCsv(content);
-  console.log(`   Found ${rows.length} CSV rows`);
+**Shopify GraphQL API changes frequently.** Always verify mutation/query structure against current docs.
 
-  const products = convertToShopifyProduct(rows);
-  console.log(`   Converted to ${products.length} unique products\n`);
+### API 2024-01 Breaking Changes
+| Old (Deprecated) | New (Current) |
+|------------------|---------------|
+| `productCreate(input: ProductInput!)` | `productCreate(product: ProductCreateInput!)` |
+| `ProductInput.options` (string array) | `ProductCreateInput.productOptions` (with values) |
+| `ProductInput.variants` | Use `productVariantsBulkCreate` after product creation |
+| `productVariantUpdate` | `productVariantsBulkUpdate` |
+| `variant.sku` directly | `variant.inventoryItem.sku` |
 
-  // Write to data folder
-  const outputPath = resolve(DATA_DIR, 'products_raw.json');
-  writeFileSync(outputPath, JSON.stringify(products, null, 2));
-  console.log(`✅ Saved to: data/products_raw.json`);
+### Current Working Pattern (Jan 2025)
+```typescript
+// 1. Create product with options (no variants)
+productCreate(product: { title, productOptions: [{name, values}] }, media)
 
-  // Show sample
-  console.log('\n📊 Sample products:');
-  products.slice(0, 5).forEach(p => {
-    console.log(`   - ${p.title} (${p.handle})`);
-    console.log(`     Type: ${p.productType || 'none'}, Vendor: ${p.vendor || 'none'}, Images: ${p.imagesCount}`);
-  });
+// 2. Update default variant with SKU/price  
+productVariantsBulkUpdate(productId, variants: [{id, price, inventoryItem: {sku}}])
 
-  console.log(`\n🎯 Next: Run 'npm run score' to analyze product health`);
-}
+// 3. Create additional variants
+productVariantsBulkCreate(productId, variants: [{price, optionValues, inventoryItem}])
+```
 
-main().catch(console.error);
-- **Expandable patterns** that grow without rewrites
-- **Explicit types** and interfaces over implicit any
+### Rate Limits
+- **Standard**: 2 requests/second burst, 1/second sustained
+- **Bulk operations**: Use `bulkOperationRunQuery` for 10,000+ items
+- **50,000 variant threshold**: Max 1,000 new variants/day after
 
-## Copilot Workflow (Every Chat)
-1. **Understand** - Read relevant files before suggesting changes
-2. **Plan** - Explain approach before editing
-3. **Execute** - Make incremental changes (<50 lines per edit preferred)
-4. **Verify** - Build/lint/test after changes
+---
 
-## Safety Rules
-- Never delete files without explicit confirmation
-- Never rewrite entire files—edit surgically
-- Preserve existing imports and exports
-- Ask before changing shared types or interfaces
-- Commit logical units of work separately
+## Common Gotchas
 
-## Code Style
-- **TypeScript**: explicit return types, interfaces over type aliases, named exports
-- **Python**: type hints, docstrings on public functions, snake_case
-- **Liquid**: use existing snippets, follow section schema patterns
-- **Naming**: camelCase (functions/variables), PascalCase (types/classes/components)
+| Issue | Solution |
+|-------|----------|
+| WooCommerce grouped products delimiter | Use `\|~\|` NOT `\|` |
+| Weight conversion | WooCommerce lbs → Shopify grams (×453.592) |
+| CSV import fails | Check 34-column header matches exactly |
+| GraphQL "THROTTLED" | Wait based on `throttleStatus.restoreRate` |
+| Large CSVs with low image % | Variant explosion — use `shopify_complete_import.csv` instead |
 
-## When in Doubt
-- Prefer adding new files over modifying existing ones
-- Prefer extending interfaces over changing them
-- Prefer composition over inheritance
-- Ask clarifying questions rather than assuming
+---
+
+## Environment Setup
+
+```bash
+cd hmoon-pipeline
+cp .env.example .env
+# Fill: SHOPIFY_DOMAIN, SHOPIFY_ADMIN_TOKEN, SHOPIFY_LOCATION_ID
+npm install
+```
+
+---
+
+## Custom Agents (`agents/`)
+
+| Agent | Use Case |
+|-------|----------|
+| `@repo-archeologist` | Search existing scripts before creating new ones |
+| `@safe-shopify-operator` | Verify dry-run guardrails for API mutations |
+| `@brand-normalizer` | Normalize brand names using registry |
+| `@category-classifier` | Handle category priority conflicts |
+| `@shopify-compliance-auditor` | Validate CSV/Liquid changes before deploy |
+
+---
+
+## Key File Locations
+
+| Purpose | Path |
+|---------|------|
+| **Best import CSV** | `outputs/MASTER_IMPORT.csv` |
+| **CSV Reference Guide** | `docs/CSV_DATA_REFERENCE.md` |
+| Wave files (categories) | `outputs/waves/wave_*.csv` |
+| Import pipeline | `hmoon-pipeline/src/cli/runFullImportPipeline.ts` |
+| **Test import (API)** | `hmoon-pipeline/src/cli/testImport.ts` |
+| Brand normalization | `hmoon-pipeline/src/utils/brand.ts` |
+| Health scoring rules | `hmoon-pipeline/src/config/productRules.ts` |
+| Import runbook | `hmoon-pipeline/docs/IMPORT_RUNBOOK.md` |
+| Feature specs | `.speckit/specs/` |
+
+---
+
+## 🖼️ Local Image Sources
+
+**10,967 images available locally** in WooCommerce backup:
+
+| Path | Description |
+|------|-------------|
+| `hmoonhydro.com/wp-content/uploads/2019/` | 2019 uploads |
+| `hmoonhydro.com/wp-content/uploads/2020/` | 2020 uploads |
+| `hmoonhydro.com/wp-content/uploads/2021/` | 2021 uploads |
+| `hmoonhydro.com/wp-content/uploads/2022/` | 2022 uploads |
+| `hmoonhydro.com/wp-content/uploads/2023/` | 2023 uploads |
+| `hmoonhydro.com/wp-content/uploads/2024/` | 2024 uploads |
+
+### Image Matching Strategy
+1. Match by SKU/handle to WooCommerce product
+2. Extract image URLs from WooCommerce export
+3. Map to local file path: `hmoonhydro.com/wp-content/uploads/YYYY/MM/filename.jpg`
+4. Upload to Shopify Files API or use in `media` input
+
+---
+
+## 🔄 Variant Consolidation Rules
+
+### WooCommerce → Shopify Mapping
+| WooCommerce Type | Shopify Structure |
+|------------------|-------------------|
+| `variable` product | Parent with `Option1 Name` (Size/Color) |
+| `variation` records | Variant rows (blank Title, same Handle) |
+| `simple` with size in name | **SHOULD** become variant under parent |
+| `grouped` product | Kit/bundle OR manual variants |
+
+### Consolidation Logic
+Products with similar base names differing only by size should share a handle:
+- `Big Bud (1 Lt)` → Handle: `big-bud`, Option1 Value: `1 Lt`
+- `Big Bud (4 Lt)` → Handle: `big-bud`, Option1 Value: `4 Lt`
+- `Big Bud Powder` → Handle: `big-bud`, Option1 Value: `Powder`
+
+### Files for Review
+- `outputs/variant_consolidation/potential_variant_groups.csv` — Candidates needing consolidation
+- `outputs/VARIANT_CONSOLIDATION_COMPLETE.md` — What was done

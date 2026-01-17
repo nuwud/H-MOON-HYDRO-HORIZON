@@ -1,5 +1,8 @@
 # ============================================================================
-# H-MOON-HYDRO GITIGNORE - Updated 2026-01-08
+# H-MOON-HYDRO GITIGNORE - Updated 2026-01-17
+# ============================================================================
+# PURPOSE: Keep repo lean (~few MB) - NO large data files, images, or WooCommerce
+# WHAT GOES TO GITHUB: Theme code, scripts, config, documentation, specs
 # ============================================================================
 
 # ==========================
@@ -12,6 +15,7 @@ yarn-error.log*
 pnpm-debug.log*
 package-lock.json
 yarn.lock
+pnpm-lock.yaml
 
 # ==========================
 # ENVIRONMENT FILES
@@ -36,6 +40,7 @@ build/
 
 # ==========================
 # WOOCOMMERCE SITE (LARGE ~500MB+)
+# DO NOT UPLOAD - Contains 10k+ images
 # ==========================
 hmoonhydro.com/
 *.sql
@@ -49,39 +54,70 @@ hmoonhydro.com/
 *.png
 *.gif
 *.webp
-*.svg
 *.ico
 *.bmp
 *.tiff
+# Allow theme SVGs
 !assets/*.svg
+# Block all image folders
 exports/images/
 CSVs/images/
 **/*_images/
+outputs/downloaded_images/
+outputs/canonical-images/
+hmoon-pipeline/outputs/
 
 # ==========================
-# LARGE CSV DATA FILES
+# LARGE DATA FILES - CSV/JSON/XML
 # ==========================
+# CSVs - all data files (large)
 CSVs/*.csv
-!CSVs/HMoonHydro_Inventory.csv
+CSVs/*.json
+CSVs/*.xml
+CSVs/*.txt
+CSVs/WooExport/
+
+# Outputs - all generated data (except documentation)
 outputs/*.csv
+outputs/*.json
+outputs/*.html
+outputs/*.txt
+!outputs/*.md
+outputs/audit/
+outputs/image_sourcing/
+outputs/scraped/
+outputs/waves/
+outputs/wave1_nutrients/
+outputs/woo_grouped/
+
+# Exports
 exports/*.csv
-**/wipe_log.csv
-**/collections_apply_log.csv
+exports/*.json
+
+# ==========================
+# ROOT LEVEL SCRIPTS (temporary/one-off)
+# Keep in scripts/ folder for organization
+# ==========================
+/*.js
+!requirements.txt
 
 # ==========================
 # GENERATED/TEMPORARY FILES
 # ==========================
 tmp/
 temp/
-outputs/tmp/
-outputs/backups/
-reports/archive/
-*.zip
-*.tar.gz
-*.7z
-*.rar
-consolidate_output.txt
 nul
+consolidate_output.txt
+*.md.bak
+IMPORT_QUALITY_ANALYSIS.md
+IMPORT_STATUS_REPORT.md
+
+# ==========================
+# REPORTS (generated, large)
+# ==========================
+reports/*.md
+reports/*.json
+reports/archive/
 
 # ==========================
 # SYSTEM & EDITOR FILES
@@ -112,3 +148,9 @@ logs/
 backups/
 **/backup/
 **/bak/
+
+# ==========================
+# EXTENSION BUILD OUTPUT
+# ==========================
+hmoon-agents/out/
+hmoon-agents/*.vsix

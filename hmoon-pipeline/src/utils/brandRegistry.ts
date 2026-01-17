@@ -39,6 +39,9 @@ export const KNOWN_BRANDS = new Set<string>([
   'himalaya',
   'Himalaya',
   
+  // Grease brand (growwithgrease.com) - fermented plant nutrients
+  'Grease',
+  
   // Common hydroponic brands (expanded list)
   'AC Infinity',
   'AC INFINITY',
@@ -322,6 +325,16 @@ export const BRAND_ALIASES = new Map<string, string>([
   ['pure blend', 'Botanicare'],
   ['cal-mag', 'Botanicare'],
   ['hydroguard', 'Botanicare'],
+  
+  // Grease (growwithgrease.com)
+  ['grease', 'Grease'],
+  ['grow grease', 'Grease'],
+  ['bloom grease', 'Grease'],
+  ['og grease', 'Grease'],
+  ['alfa grease', 'Grease'],
+  ['blue grease', 'Grease'],
+  ['super grease', 'Grease'],
+  ['grow with grease', 'Grease'],
   
   // Mars Hydro
   ['mars hydro', 'Mars Hydro'],

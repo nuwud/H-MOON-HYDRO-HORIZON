@@ -35,13 +35,30 @@
     "build:electrical": "node --loader ts-node/esm src/cli/buildElectricalSuppliesMaster.ts",
     "build:books": "node --loader ts-node/esm src/cli/buildBooksMaster.ts",
     "build:extraction": "node --loader ts-node/esm src/cli/buildExtractionMaster.ts",
-    "scan:coverage": "node --loader ts-node/esm src/cli/scanCatalogCoverage.ts"
+    "scan:coverage": "node --loader ts-node/esm src/cli/scanCatalogCoverage.ts",
+    "rewrite:final-csv": "tsx src/cli/rewriteFinalImportCsvWithFilesManifest.ts",
+    "upload:gap-files": "tsx src/cli/uploadGapFilesToShopify.ts",
+    "scrape:grease": "tsx src/cli/scrapeProducts.ts --source=grease --output=outputs/scraped/grease.json",
+    "scrape:growgen": "tsx src/cli/scrapeProducts.ts --source=growgeneration --output=outputs/scraped/growgen.json",
+    "scrape:hydrobuilder": "tsx src/cli/scrapeProducts.ts --source=hydrobuilder --output=outputs/scraped/hydrobuilder.json",
+    "scrape:all": "tsx src/cli/scrapeProducts.ts --source=all",
+    "enrich:grease": "tsx src/cli/enrichFromScrape.ts --source=grease --dry-run",
+    "enrich:apply": "tsx src/cli/enrichFromScrape.ts --source=all --confirm",
+    "match:report": "tsx src/cli/generateMatchReport.ts",
+    "seo:preview": "tsx src/cli/enrichCsvSeo.ts --dry-run",
+    "seo:apply": "tsx src/cli/enrichCsvSeo.ts --confirm",
+    "csv:enrich-scrape": "tsx src/cli/enrichCsvFromScrape.ts",
+    "logos:download": "tsx src/cli/downloadBrandLogos.ts",
+    "logos:upload": "tsx src/cli/uploadBrandLogos.ts"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "csv-parse": "^6.1.0",
+    "csv-stringify": "^6.6.0",
     "dotenv": "^16.4.5",
-    "node-fetch": "^3.3.2"
+    "fuse.js": "^7.1.0",
+    "node-fetch": "^3.3.2",
+    "p-queue": "^8.0.1"
   },
   "devDependencies": {
     "@types/node": "^22.9.3",

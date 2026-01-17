@@ -40,6 +40,7 @@ const CSV_DIR = resolve(__dirname, '../../../CSVs');
 interface WipeOptions {
   dryRun: boolean;
   confirm: boolean;
+  force: boolean;  // Skip interactive confirmation
   scope: 'products' | 'collections' | 'all';
   limit: number;
   pauseMs: number;
@@ -88,6 +89,7 @@ Usage:
 Options:
   --dry-run         Preview what would be deleted (DEFAULT, safe mode)
   --confirm         Actually perform deletions (requires typing domain to confirm)
+  --force           Skip interactive confirmation (use with --confirm for scripting)
   --scope <type>    What to delete: products, collections, or all (default: all)
   --limit <n>       Maximum number of items to delete (default: unlimited)
   --pause-ms <n>    Pause between batches in milliseconds (default: 200)
@@ -124,6 +126,7 @@ function parseArgs(): WipeOptions {
   const options: WipeOptions = {
     dryRun: !args.includes('--confirm'),
     confirm: args.includes('--confirm'),
+    force: args.includes('--force'),  // Skip interactive confirmation
     scope: 'all',
     limit: Infinity,
     pauseMs: 200,
@@ -520,12 +523,17 @@ async function main(): Promise<void> {
   
   // Confirmation for live mode
   if (options.confirm && !options.dryRun) {
-    const confirmed = await promptConfirmation(config.shopDomain);
-    if (!confirmed) {
-      console.log('\n❌ Confirmation failed. Aborting.');
-      process.exit(1);
+    if (options.force) {
+      console.log('\n⚡ Force mode - skipping interactive confirmation');
+      console.log('✓ Proceeding with deletion...');
+    } else {
+      const confirmed = await promptConfirmation(config.shopDomain);
+      if (!confirmed) {
+        console.log('\n❌ Confirmation failed. Aborting.');
+        process.exit(1);
+      }
+      console.log('\n✓ Confirmed. Proceeding with deletion...');
     }
-    console.log('\n✓ Confirmed. Proceeding with deletion...');
   }
   
   // Initialize log file
