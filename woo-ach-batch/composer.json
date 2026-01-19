@@ -1,0 +1,75 @@
+{
+    "name": "nuwud/woo-ach-batch",
+    "description": "WooCommerce ACH Batch Payment Gateway with NACHA file generation and SFTP upload",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Nuwud Multimedia",
+            "email": "dev@nuwud.com",
+            "homepage": "https://nuwud.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "revenuewire/ach-file": "^1.0",
+        "phpseclib/phpseclib": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "squizlabs/php_codesniffer": "^3.7",
+        "wp-coding-standards/wpcs": "^3.0",
+        "phpstan/phpstan": "^1.10",
+        "szepeviktor/phpstan-wordpress": "^1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nuwud\\WooAchBatch\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nuwud\\WooAchBatch\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "phpcs": "phpcs --standard=WordPress src/",
+        "phpcbf": "phpcbf --standard=WordPress src/",
+        "phpstan": "phpstan analyse src/ --level=6",
+        "build": [
+            "composer install --no-dev --optimize-autoloader",
+            "@php -r \"copy('woo-ach-batch.php', 'dist/woo-ach-batch.php');\"",
+            "@php -r \"mkdir('dist/src', 0755, true);\"",
+            "@php -r \"mkdir('dist/vendor', 0755, true);\"",
+            "@php -r \"shell_exec('xcopy /E /I src dist\\\\src');\"",
+            "@php -r \"shell_exec('xcopy /E /I vendor dist\\\\vendor');\"",
+            "composer install"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../ach-file-library",
+            "options": {
+                "symlink": false
+            }
+        }
+    ],
+    "extra": {
+        "installer-name": "woo-ach-batch"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

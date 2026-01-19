@@ -166,3 +166,95 @@ Fixes #123
 3. Backup `products_export_1.csv` before any bulk import
 4. Create GitHub Issue before starting any migration phase
 5. Verify Shopify API documentation before any API code changes
+
+---
+
+## WooCommerce ACH Batch Plugin (`woo-ach-batch/`)
+
+### ⚠️ SECURITY-FIRST DEVELOPMENT
+
+**MANDATORY**: Read `woo-ach-batch/docs/SENSITIVE_DATA_STORAGE_PLAN.md` before ANY code changes.
+
+### Sensitive Data Categories
+
+| Data | Sensitivity | Storage |
+|------|-------------|---------|
+| Bank Routing Number | 🔴 HIGH | AES-256-GCM encrypted in order meta |
+| Bank Account Number | 🔴 HIGH | AES-256-GCM encrypted in order meta |
+| KYC Documents | 🔴 HIGH | Protected directory (`/kyc/`) with `.htaccess` deny |
+| NACHA Files | 🔴 HIGH | Protected directory with `.htaccess` deny |
+| Plaid Access Tokens | 🔴 HIGH | Encrypted in order meta |
+| SFTP Credentials | 🔴 HIGH | Encrypted in wp_options |
+
+### NEVER Do These Things
+
+```php
+// ❌ NEVER log bank details
+error_log($routing_number);
+\Nuwud\WooAchBatch\log_message($account_number);
+
+// ❌ NEVER return full bank details in API
+return ['account' => $bank_details['account']];
+
+// ❌ NEVER display full bank details in admin
+echo $bank_details['routing'];
+
+// ❌ NEVER store plaintext bank data
+$order->update_meta_data('_ach_routing', $routing_number);
+```
+
+### ALWAYS Do These Things
+
+```php
+// ✅ Encrypt before storage
+$encrypted = $encryption->encrypt($routing_number);
+$order->update_meta_data('_ach_routing_encrypted', $encrypted);
+
+// ✅ Only expose last4
+return ['account_last4' => $bank_details['last4']];
+
+// ✅ Audit log significant actions
+$audit_log->log('bank_details_accessed', 'order', $order_id);
+
+// ✅ Clear after settlement (if configured)
+$order_meta->clear_bank_details($order);
+```
+
+### ACH Plugin Architecture
+
+| Directory | Purpose |
+|-----------|---------|
+| `src/Security/` | Encryption, AuditLog |
+| `src/Order/` | OrderMeta (encrypted storage), OrderStatuses |
+| `src/Gateway/` | WooCommerce payment gateway |
+| `src/Nacha/` | NachaBuilder, **MappingConfig** |
+| `src/Batch/` | BatchRunner, BatchRepository |
+| `src/Sftp/` | SFTP client abstraction |
+| `src/Verification/` | Bank verification methods |
+| `src/Kyc/` | Document upload handling |
+
+### MappingConfig Profiles
+
+For processor-specific NACHA formatting:
+
+```php
+// Switch profile
+$mapping = service('mapping_config');
+$mapping->set_active_profile('dan_processor');
+
+// Get field value with formatting
+$value = $mapping->get_field_value('entry_detail', 'dfi_account_number', $order, [
+    'bank_details' => $bank_details,
+]);
+```
+
+Available profiles: `default`, `dan_processor`, `test`
+
+### Key Rotation
+
+When rotating encryption keys:
+1. Define `WOO_ACH_BATCH_ENCRYPTION_KEY_NEW` in wp-config.php
+2. Run `$encryption->rotate_key($old_key, $new_key)`
+3. Verify all orders decrypt successfully
+4. Update constant name to remove `_NEW` suffix
+5. Audit log the rotation event

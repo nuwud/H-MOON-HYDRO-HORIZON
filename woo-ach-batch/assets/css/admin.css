@@ -1,0 +1,208 @@
+/**
+ * WooCommerce ACH Batch - Admin Styles
+ *
+ * @package Nuwud\WooAchBatch
+ */
+
+/* Stats Cards */
+.woo-ach-stats-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.woo-ach-stat-card {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    min-width: 150px;
+    flex: 1;
+    max-width: 200px;
+}
+
+.woo-ach-stat-card .stat-value {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1d2327;
+}
+
+.woo-ach-stat-card .stat-label {
+    display: block;
+    font-size: 12px;
+    color: #646970;
+    margin-top: 5px;
+}
+
+/* Status Badges */
+.batch-status,
+.verification-status,
+.return-status {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Batch statuses */
+.batch-status.status-pending { background: #f0f0f1; color: #646970; }
+.batch-status.status-generated { background: #dff0d8; color: #3c763d; }
+.batch-status.status-uploaded { background: #d9edf7; color: #31708f; }
+.batch-status.status-failed { background: #f2dede; color: #a94442; }
+.batch-status.status-processed { background: #d9edf7; color: #31708f; }
+
+/* Verification statuses */
+.verification-status.status-pending_review { background: #fff3cd; color: #856404; }
+.verification-status.status-pending_deposits { background: #d1ecf1; color: #0c5460; }
+.verification-status.status-pending_plaid { background: #d1ecf1; color: #0c5460; }
+.verification-status.status-verified { background: #d4edda; color: #155724; }
+.verification-status.status-rejected { background: #f8d7da; color: #721c24; }
+.verification-status.status-cancelled { background: #e2e3e5; color: #383d41; }
+.verification-status.status-expired { background: #f8d7da; color: #721c24; }
+
+/* Return codes */
+.return-code {
+    font-family: monospace;
+    background: #f8d7da;
+    color: #721c24;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+/* Tables */
+.woo-ach-batch-admin .wp-list-table .column-id { width: 60px; }
+.woo-ach-batch-admin .wp-list-table .column-reference { width: 180px; }
+.woo-ach-batch-admin .wp-list-table .column-status { width: 100px; }
+.woo-ach-batch-admin .wp-list-table .column-orders { width: 80px; }
+.woo-ach-batch-admin .wp-list-table .column-amount { width: 120px; }
+.woo-ach-batch-admin .wp-list-table .column-actions { width: 200px; }
+
+/* Utility classes */
+.not-uploaded {
+    color: #999;
+    font-style: italic;
+}
+
+/* Modal */
+.woo-ach-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.woo-ach-modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.woo-ach-modal-content h2 {
+    margin-top: 0;
+}
+
+.woo-ach-modal-content .submit {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Detail view */
+.woo-ach-detail-section {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.woo-ach-detail-section h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.woo-ach-detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.woo-ach-detail-item {
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 3px;
+}
+
+.woo-ach-detail-item label {
+    display: block;
+    font-size: 11px;
+    color: #666;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.woo-ach-detail-item span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Settings page */
+.woo-ach-batch-settings .notice.inline {
+    margin: 10px 0;
+}
+
+.woo-ach-batch-settings .form-table th {
+    width: 250px;
+}
+
+/* Audit log */
+.woo-ach-audit-log .event-type {
+    font-family: monospace;
+    font-size: 11px;
+    background: #e7f3ff;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.woo-ach-audit-log .event-data {
+    font-family: monospace;
+    font-size: 11px;
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.woo-ach-audit-log .event-data:hover {
+    white-space: normal;
+    overflow: visible;
+}
+
+/* Responsive */
+@media screen and (max-width: 782px) {
+    .woo-ach-stats-cards {
+        flex-direction: column;
+    }
+
+    .woo-ach-stat-card {
+        max-width: none;
+    }
+
+    .woo-ach-detail-grid {
+        grid-template-columns: 1fr;
+    }
+}

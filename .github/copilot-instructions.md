@@ -325,3 +325,88 @@ Products with similar base names differing only by size should share a handle:
 ### Files for Review
 - `outputs/variant_consolidation/potential_variant_groups.csv` — Candidates needing consolidation
 - `outputs/VARIANT_CONSOLIDATION_COMPLETE.md` — What was done
+
+---
+
+## 🔐 WooCommerce ACH Batch Plugin (`woo-ach-batch/`)
+
+### ⚠️ SECURITY-FIRST DEVELOPMENT
+
+**MANDATORY READING BEFORE ANY CODE CHANGES:**
+- `woo-ach-batch/docs/SENSITIVE_DATA_STORAGE_PLAN.md`
+- `.speckit/specs/ACH_SECURITY_SPEC.md`
+
+### Sensitive Data Rules
+
+| Data Type | How to Handle |
+|-----------|--------------|
+| Bank Routing/Account | **ALWAYS** use `Encryption::encrypt()` before storage |
+| KYC Documents | Store in protected `/kyc/` directory with `.htaccess` |
+| NACHA Files | Store in protected `/nacha/` directory |
+| Full Bank Numbers | **NEVER** log, display, or return in API |
+| Last 4 Digits | OK to display for reference |
+
+### What NEVER to Do
+
+```php
+// ❌ NEVER log sensitive data
+error_log($routing_number);
+\Nuwud\WooAchBatch\log_message("Routing: $routing_number");
+
+// ❌ NEVER return full bank details in API
+return new WP_REST_Response(['account' => $account_number]);
+
+// ❌ NEVER display full bank details in admin
+echo "Account: {$bank_details['account']}";
+
+// ❌ NEVER store plaintext bank data
+$order->update_meta_data('_ach_routing', $routing_number);
+```
+
+### What ALWAYS to Do
+
+```php
+// ✅ ALWAYS encrypt before storage
+$encrypted = $this->encryption->encrypt($routing_number);
+$order->update_meta_data('_ach_routing_encrypted', $encrypted);
+
+// ✅ ALWAYS only expose last4
+return new WP_REST_Response(['last4' => substr($account_number, -4)]);
+
+// ✅ ALWAYS audit log sensitive operations
+$audit_log->log('bank_details_accessed', 'order', $order_id);
+
+// ✅ ALWAYS use rate limiting for verification attempts
+$rate_limiter = service('rate_limiter');
+$check = $rate_limiter->check('verification_attempt', $ip_address);
+if (!$check['allowed']) { /* block request */ }
+```
+
+### Processor Field Mapping
+
+Use `MappingConfig` for processor-specific NACHA formatting:
+
+```php
+// Get mapping service
+$mapping = \Nuwud\WooAchBatch\service('mapping_config');
+
+// Switch to processor profile
+$mapping->set_active_profile('dan_processor');  // 'default', 'dan_processor', 'test'
+
+// Get formatted field value
+$value = $mapping->get_field_value('entry_detail', 'dfi_account_number', $order, [
+    'bank_details' => $decrypted_bank_details,
+]);
+```
+
+### Key ACH Plugin Files
+
+| File | Purpose |
+|------|---------|
+| `src/Security/Encryption.php` | AES-256-GCM encryption |
+| `src/Security/RateLimiter.php` | Rate limiting for sensitive ops |
+| `src/Security/AuditLog.php` | Compliance audit trail |
+| `src/Order/OrderMeta.php` | Encrypted bank details storage |
+| `src/Nacha/MappingConfig.php` | Processor field mapping |
+| `src/Kyc/DocumentHandler.php` | Secure document uploads |
+| `docs/SENSITIVE_DATA_STORAGE_PLAN.md` | **MANDATORY** security doc |

@@ -47,6 +47,15 @@ hmoonhydro.com/
 *.sql.gz
 
 # ==========================
+# WOO-ACH-BATCH PLUGIN
+# Track: src/, templates/, docs/, assets/
+# Ignore: vendor/, build artifacts
+# ==========================
+woo-ach-batch/vendor/
+woo-ach-batch/*.zip
+*.zip
+
+# ==========================
 # IMAGES & MEDIA (LARGE)
 # ==========================
 *.jpg
