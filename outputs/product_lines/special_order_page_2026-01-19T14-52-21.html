@@ -1,0 +1,2326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Special Order Catalog - H Moon Hydro</title>
+  <style>
+    :root {
+      --primary: #2e7d32;
+      --primary-dark: #1b5e20;
+      --accent: #4caf50;
+      --bg: #f5f5f5;
+      --card-bg: #ffffff;
+      --text: #333333;
+      --text-light: #666666;
+    }
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    
+    .header {
+      background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    
+    .header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    
+    .header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    
+    .info-banner {
+      background: #e8f5e9;
+      border-left: 4px solid var(--primary);
+      padding: 20px;
+      margin: 20px;
+      border-radius: 4px;
+    }
+    
+    .info-banner h3 {
+      color: var(--primary-dark);
+      margin-bottom: 10px;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .brand-section {
+      background: var(--card-bg);
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+      overflow: hidden;
+    }
+    
+    .brand-name {
+      background: var(--primary);
+      color: white;
+      padding: 15px 20px;
+      font-size: 1.4rem;
+    }
+    
+    .product-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    .product-table th {
+      background: #f0f0f0;
+      padding: 12px 15px;
+      text-align: left;
+      font-weight: 600;
+      border-bottom: 2px solid #ddd;
+    }
+    
+    .product-table td {
+      padding: 12px 15px;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .product-table tr:hover {
+      background: #f9f9f9;
+    }
+    
+    .product-line { font-weight: 500; }
+    .sizes { color: var(--primary-dark); }
+    .type { text-transform: capitalize; }
+    .notes { color: var(--text-light); font-size: 0.9rem; }
+    
+    .request-btn {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: background 0.2s;
+    }
+    
+    .request-btn:hover {
+      background: var(--primary-dark);
+    }
+    
+    .footer {
+      text-align: center;
+      padding: 30px;
+      color: var(--text-light);
+    }
+    
+    @media (max-width: 768px) {
+      .product-table { font-size: 0.9rem; }
+      .product-table th, .product-table td { padding: 8px; }
+      .header h1 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🌱 Special Order Catalog</h1>
+    <p>Can't find the size you need? We can order it for you!</p>
+  </div>
+  
+  <div class="info-banner">
+    <h3>📋 How Special Orders Work</h3>
+    <p>
+      <strong>Lead Time:</strong> Most items ship within 3-7 business days<br>
+      <strong>Minimum Order:</strong> No minimum for most items<br>
+      <strong>Pricing:</strong> Request a quote for current pricing<br>
+      <strong>Bulk Discounts:</strong> Available on case quantities and commercial orders
+    </p>
+  </div>
+  
+  <div class="container">
+    
+      <div class="brand-section">
+        <h2 class="brand-name">General Hydroponics</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Flora Series (FloraGro, FloraBloom, FloraMicro)</td>
+          <td class="sizes">Pint, Quart, Gallon, 2.5 Gallon, 6 Gallon, 15 Gallon, 55 Gallon Drum, 275 Gallon Tote</td>
+          <td class="type">liquid</td>
+          <td class="notes">Core 3-part - essential stock</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('General Hydroponics', 'Flora Series (FloraGro, FloraBloom, FloraMicro)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">FloraNova (Grow & Bloom)</td>
+          <td class="sizes">Pint, Quart, Gallon, 2.5 Gallon, 6 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('General Hydroponics', 'FloraNova (Grow & Bloom)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">CALiMAGic</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 6 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Very popular supplement</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('General Hydroponics', 'CALiMAGic')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Armor Si</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 6 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('General Hydroponics', 'Armor Si')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Diamond Nectar</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 6 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('General Hydroponics', 'Diamond Nectar')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Liquid KoolBloom</td>
+          <td class="sizes">Pint, Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Bloom booster</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('General Hydroponics', 'Liquid KoolBloom')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Dry KoolBloom</td>
+          <td class="sizes">2.2 lb, 6 lb, 25 lb</td>
+          <td class="type">dry</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('General Hydroponics', 'Dry KoolBloom')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">MaxiGro & MaxiBloom</td>
+          <td class="sizes">2.2 lb, 16 lb</td>
+          <td class="type">dry</td>
+          <td class="notes">Budget-friendly 1-part dry</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('General Hydroponics', 'MaxiGro & MaxiBloom')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">RapidStart</td>
+          <td class="sizes">125ml, Pint, Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('General Hydroponics', 'RapidStart')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Floralicious Plus</td>
+          <td class="sizes">Pint, Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('General Hydroponics', 'Floralicious Plus')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">FloraNectar (Sugar/Pineapple/Fruit)</td>
+          <td class="sizes">Pint, Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('General Hydroponics', 'FloraNectar (Sugar/Pineapple/Fruit)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">BioThrive (Grow & Bloom)</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 6 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Organic line</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('General Hydroponics', 'BioThrive (Grow & Bloom)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">pH Up & pH Down</td>
+          <td class="sizes">8 oz, Pint, Quart, Gallon, 2.5 Gallon, 6 Gallon, 15 Gallon, 55 Gallon Drum</td>
+          <td class="type">liquid</td>
+          <td class="notes">Always stock - essential</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('General Hydroponics', 'pH Up & pH Down')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Advanced Nutrients</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">pH Perfect Sensi (Grow/Bloom A&B)</td>
+          <td class="sizes">500ml, 1L, 23L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Core 2-part with pH buffering</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Advanced Nutrients', 'pH Perfect Sensi (Grow/Bloom A&B)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">pH Perfect Connoisseur (Grow/Bloom A&B)</td>
+          <td class="sizes">500ml, 1L, 10L, 23L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Premium line</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Advanced Nutrients', 'pH Perfect Connoisseur (Grow/Bloom A&B)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Big Bud</td>
+          <td class="sizes">250ml, 500ml, 1L, 4L, 23L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Bloom booster - top seller</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Advanced Nutrients', 'Big Bud')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">B-52</td>
+          <td class="sizes">250ml, 500ml, 1L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Advanced Nutrients', 'B-52')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Bud Candy</td>
+          <td class="sizes">250ml, 500ml, 4L, 10L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Advanced Nutrients', 'Bud Candy')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Overdrive</td>
+          <td class="sizes">250ml, 500ml, 4L, 10L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Advanced Nutrients', 'Overdrive')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Bud Ignitor</td>
+          <td class="sizes">500ml, 1L, 4L, 10L, 23L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Advanced Nutrients', 'Bud Ignitor')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Voodoo Juice</td>
+          <td class="sizes">250ml, 500ml, 1L, 4L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Beneficial bacteria</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Advanced Nutrients', 'Voodoo Juice')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Piranha</td>
+          <td class="sizes">250ml, 500ml, 1L, 4L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Advanced Nutrients', 'Piranha')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Tarantula</td>
+          <td class="sizes">250ml, 1L, 4L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Advanced Nutrients', 'Tarantula')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Rhino Skin</td>
+          <td class="sizes">250ml, 500ml, 1L, 10L, 23L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Silica - popular add-on</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Advanced Nutrients', 'Rhino Skin')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Nirvana</td>
+          <td class="sizes">250ml, 4L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Advanced Nutrients', 'Nirvana')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Sensizym</td>
+          <td class="sizes">250ml, 500ml, 1L, 4L, 10L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Advanced Nutrients', 'Sensizym')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Flawless Finish</td>
+          <td class="sizes">250ml, 500ml, 1L, 4L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Advanced Nutrients', 'Flawless Finish')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Fox Farm</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Trio (Grow Big, Big Bloom, Tiger Bloom)</td>
+          <td class="sizes">Pint, Quart, Gallon, 2.5 Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Best-selling liquid trio</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Fox Farm', 'Trio (Grow Big, Big Bloom, Tiger Bloom)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Sledgehammer</td>
+          <td class="sizes">Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Fox Farm', 'Sledgehammer')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Open Sesame</td>
+          <td class="sizes">6 oz, 1 lb, 5 lb</td>
+          <td class="type">dry</td>
+          <td class="notes">Soluble - early bloom</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Fox Farm', 'Open Sesame')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Beastie Bloomz</td>
+          <td class="sizes">6 oz, 1 lb, 5 lb</td>
+          <td class="type">dry</td>
+          <td class="notes">Soluble - mid bloom</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Fox Farm', 'Beastie Bloomz')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Cha Ching</td>
+          <td class="sizes">6 oz, 1 lb, 5 lb</td>
+          <td class="type">dry</td>
+          <td class="notes">Soluble - late bloom</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Fox Farm', 'Cha Ching')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Kangaroots</td>
+          <td class="sizes">Pint, Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Fox Farm', 'Kangaroots')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Microbe Brew</td>
+          <td class="sizes">Pint, Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Fox Farm', 'Microbe Brew')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Happy Frog Jump Start</td>
+          <td class="sizes">3 lb, 18 lb</td>
+          <td class="type">dry</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Fox Farm', 'Happy Frog Jump Start')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Dirty Dozen Starter Kit</td>
+          <td class="sizes">Kit</td>
+          <td class="type">kit</td>
+          <td class="notes">Great entry point</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Fox Farm', 'Dirty Dozen Starter Kit')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Botanicare</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Pure Blend Pro (Grow & Bloom)</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 5 Gallon, 15 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Botanicare', 'Pure Blend Pro (Grow & Bloom)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">CNS17 (Grow, Bloom, Ripe)</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 5 Gallon, 15 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Professional 1-part formula</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Botanicare', 'CNS17 (Grow, Bloom, Ripe)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Cal-Mag Plus</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Very popular - essential supplement</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Botanicare', 'Cal-Mag Plus')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Hydroplex</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Botanicare', 'Hydroplex')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Sweet (Raw, Berry, Citrus, Grape)</td>
+          <td class="sizes">Pint, Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Botanicare', 'Sweet (Raw, Berry, Citrus, Grape)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Clearex</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Botanicare', 'Clearex')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Rhizo Blast</td>
+          <td class="sizes">Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Botanicare', 'Rhizo Blast')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Liquid Karma</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Organic supplement</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Botanicare', 'Liquid Karma')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Hydroguard</td>
+          <td class="sizes">8 oz, Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Root zone protection</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Botanicare', 'Hydroguard')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Silica Blast</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Botanicare', 'Silica Blast')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Canna</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Coco A&B</td>
+          <td class="sizes">1L, 5L, 10L, 20L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Industry standard for coco</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Canna', 'Coco A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Terra Vega & Flores</td>
+          <td class="sizes">1L, 5L, 10L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Canna', 'Terra Vega & Flores')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Aqua Vega/Flores A&B</td>
+          <td class="sizes">1L, 5L, 10L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Canna', 'Aqua Vega/Flores A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Boost</td>
+          <td class="sizes">250ml, 1L, 5L, 10L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Canna', 'Boost')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Cannazym</td>
+          <td class="sizes">250ml, 1L, 5L, 10L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Canna', 'Cannazym')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Rhizotonic</td>
+          <td class="sizes">250ml, 1L, 5L, 10L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Canna', 'Rhizotonic')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">PK 13/14</td>
+          <td class="sizes">250ml, 1L, 5L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Bloom booster</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Canna', 'PK 13/14')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Bio Vega/Flores</td>
+          <td class="sizes">250ml, 1L, 5L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Organic line</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Canna', 'Bio Vega/Flores')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">House & Garden</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Aqua Flakes A&B</td>
+          <td class="sizes">1L, 5L, 10L, 20L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('House & Garden', 'Aqua Flakes A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Coco A&B</td>
+          <td class="sizes">1L, 5L, 10L, 20L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('House & Garden', 'Coco A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Roots Excelurator Gold</td>
+          <td class="sizes">100ml, 250ml, 500ml, 1L, 5L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Premium root stimulator - high margin</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('House & Garden', 'Roots Excelurator Gold')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Top Booster</td>
+          <td class="sizes">250ml, 500ml, 1L, 5L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('House & Garden', 'Top Booster')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Bud-XL</td>
+          <td class="sizes">250ml, 500ml, 1L, 5L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('House & Garden', 'Bud-XL')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Shooting Powder</td>
+          <td class="sizes">sachet (5g), 65g, 500g, 1kg</td>
+          <td class="type">dry</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('House & Garden', 'Shooting Powder')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Multi Zen</td>
+          <td class="sizes">250ml, 500ml, 1L, 5L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('House & Garden', 'Multi Zen')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Drip Clean</td>
+          <td class="sizes">250ml, 500ml, 1L, 5L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('House & Garden', 'Drip Clean')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Athena</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Pro Line Core</td>
+          <td class="sizes">Gallon, 5 Gallon, 15 Gallon, 55 Gallon, 275 Gallon Tote</td>
+          <td class="type">liquid</td>
+          <td class="notes">Commercial focus - bulk pricing</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Athena', 'Pro Line Core')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Grow A&B</td>
+          <td class="sizes">Gallon, 5 Gallon, 15 Gallon, 55 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Athena', 'Grow A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Bloom A&B</td>
+          <td class="sizes">Gallon, 5 Gallon, 15 Gallon, 55 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Athena', 'Bloom A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Balance</td>
+          <td class="sizes">Quart, Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Athena', 'Balance')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Cleanse</td>
+          <td class="sizes">Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Athena', 'Cleanse')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">IPM</td>
+          <td class="sizes">Quart, Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Athena', 'IPM')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Stack</td>
+          <td class="sizes">Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">PK booster</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Athena', 'Stack')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Nectar for the Gods</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">One Shot Granules</td>
+          <td class="sizes">3 lb, 6 lb, 25 lb, 50 lb</td>
+          <td class="type">dry</td>
+          <td class="notes">Slow-release amendment</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Nectar for the Gods', 'One Shot Granules')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Gaia Mania (Grow)</td>
+          <td class="sizes">Quart, Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Nectar for the Gods', 'Gaia Mania (Grow)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Medusa's Magic (Grow)</td>
+          <td class="sizes">Quart, Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Nectar for the Gods', 'Medusa's Magic (Grow)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Zeus Juice (Nitrogen)</td>
+          <td class="sizes">Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Nectar for the Gods', 'Zeus Juice (Nitrogen)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Athena's Aminas</td>
+          <td class="sizes">Quart, Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Protein breakdown</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Nectar for the Gods', 'Athena's Aminas')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Bloom Khaos</td>
+          <td class="sizes">Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Foliar spray</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Nectar for the Gods', 'Bloom Khaos')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Herculean Harvest</td>
+          <td class="sizes">Quart, Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Bone meal calcium</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Nectar for the Gods', 'Herculean Harvest')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Demeter's Destiny</td>
+          <td class="sizes">Quart, Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Nectar for the Gods', 'Demeter's Destiny')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">The Kraken (Kelp)</td>
+          <td class="sizes">Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Nectar for the Gods', 'The Kraken (Kelp)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Triton's Trawl (Fish)</td>
+          <td class="sizes">Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Nectar for the Gods', 'Triton's Trawl (Fish)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Mega Morpheus (Bloom)</td>
+          <td class="sizes">Quart, Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Nectar for the Gods', 'Mega Morpheus (Bloom)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Starter Kit (Roman Regime)</td>
+          <td class="sizes">Kit</td>
+          <td class="type">kit</td>
+          <td class="notes">Great entry point</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Nectar for the Gods', 'Starter Kit (Roman Regime)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Roots Organics</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Buddha Grow</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Roots Organics', 'Buddha Grow')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Buddha Bloom</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Roots Organics', 'Buddha Bloom')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Trinity (Catalyst)</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Roots Organics', 'Trinity (Catalyst)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">HPK (Bat Guano)</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Bloom booster</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Roots Organics', 'HPK (Bat Guano)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Soul Synthetics (Grow & Bloom)</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Mineral line</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Roots Organics', 'Soul Synthetics (Grow & Bloom)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Terp Tea (Grow & Bloom)</td>
+          <td class="sizes">3 lb, 9 lb, 40 lb</td>
+          <td class="type">dry</td>
+          <td class="notes">Compost tea base</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Roots Organics', 'Terp Tea (Grow & Bloom)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Elemental</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Cal-Mag</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Roots Organics', 'Elemental')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Ancient Amber</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Roots Organics', 'Ancient Amber')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Original Potting Soil</td>
+          <td class="sizes">1.5 cu ft, 3 cu ft</td>
+          <td class="type">soil</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Roots Organics', 'Original Potting Soil')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Greenfields Potting Mix</td>
+          <td class="sizes">1.5 cu ft, 3 cu ft</td>
+          <td class="type">soil</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Roots Organics', 'Greenfields Potting Mix')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Earth Juice</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Grow</td>
+          <td class="sizes">Pint, Quart, Gallon, 2.5 Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Earth Juice', 'Grow')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Bloom</td>
+          <td class="sizes">Pint, Quart, Gallon, 2.5 Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Earth Juice', 'Bloom')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Catalyst</td>
+          <td class="sizes">Pint, Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Earth Juice', 'Catalyst')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Meta-K</td>
+          <td class="sizes">Pint, Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Potassium boost</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Earth Juice', 'Meta-K')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Microblast</td>
+          <td class="sizes">Pint, Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Earth Juice', 'Microblast')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Sugar Peak (Grand/Vegetative/Transition/Flowering)</td>
+          <td class="sizes">Pint, Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Stage-specific line</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Earth Juice', 'Sugar Peak (Grand/Vegetative/Transition/Flowering)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">OilyCann</td>
+          <td class="sizes">Pint, Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Essential oils supplement</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Earth Juice', 'OilyCann')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">SeaBlast (Grow & Bloom)</td>
+          <td class="sizes">Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Earth Juice', 'SeaBlast (Grow & Bloom)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Technaflora</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">BC Boost</td>
+          <td class="sizes">1L, 4L, 10L, 20L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Technaflora', 'BC Boost')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">BC Grow</td>
+          <td class="sizes">1L, 4L, 10L, 20L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Technaflora', 'BC Grow')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">BC Bloom</td>
+          <td class="sizes">1L, 4L, 10L, 20L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Technaflora', 'BC Bloom')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">MagiCal</td>
+          <td class="sizes">500ml, 1L, 4L, 10L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Cal-Mag supplement</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Technaflora', 'MagiCal')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Thrive Alive B-1 (Green & Red)</td>
+          <td class="sizes">250ml, 500ml, 1L, 4L</td>
+          <td class="type">liquid</td>
+          <td class="notes">B-1 vitamin supplement</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Technaflora', 'Thrive Alive B-1 (Green & Red)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Sugar Daddy</td>
+          <td class="sizes">500ml, 1L, 4L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Technaflora', 'Sugar Daddy')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Awesome Blossoms</td>
+          <td class="sizes">500ml, 1L, 4L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Bloom enhancer</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Technaflora', 'Awesome Blossoms')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Root 66</td>
+          <td class="sizes">250ml, 500ml, 1L, 4L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Technaflora', 'Root 66')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Recipe for Success Starter Kit</td>
+          <td class="sizes">Kit</td>
+          <td class="type">kit</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Technaflora', 'Recipe for Success Starter Kit')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Dutch Master</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Advance Grow A&B</td>
+          <td class="sizes">1L, 5L, 20L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Dutch Master', 'Advance Grow A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Advance Flower A&B</td>
+          <td class="sizes">1L, 5L, 20L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Dutch Master', 'Advance Flower A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Gold Range Grow A&B</td>
+          <td class="sizes">1L, 5L, 20L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Premium line</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Dutch Master', 'Gold Range Grow A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Gold Range Flower A&B</td>
+          <td class="sizes">1L, 5L, 20L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Premium line</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Dutch Master', 'Gold Range Flower A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Silica</td>
+          <td class="sizes">1L, 5L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Dutch Master', 'Silica')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Add.27 (Zone/Saturator)</td>
+          <td class="sizes">250ml, 1L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Penetrant additive</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Dutch Master', 'Add.27 (Zone/Saturator)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Potash Plus</td>
+          <td class="sizes">1L, 5L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Dutch Master', 'Potash Plus')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Max Flower</td>
+          <td class="sizes">1L, 5L</td>
+          <td class="type">liquid</td>
+          <td class="notes">PK booster</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Dutch Master', 'Max Flower')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Greenplanet</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Dual Fuel (1&2)</td>
+          <td class="sizes">1L, 4L, 10L, 23L</td>
+          <td class="type">liquid</td>
+          <td class="notes">2-part base</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Greenplanet', 'Dual Fuel (1&2)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Medi One</td>
+          <td class="sizes">1L, 4L, 10L, 23L</td>
+          <td class="type">liquid</td>
+          <td class="notes">1-part complete</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Greenplanet', 'Medi One')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Massive Bloom Formulation</td>
+          <td class="sizes">500ml, 1L, 4L, 10L</td>
+          <td class="type">liquid</td>
+          <td class="notes">PK booster</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Greenplanet', 'Massive Bloom Formulation')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">GP3 (Grow, Micro, Bloom)</td>
+          <td class="sizes">1L, 4L, 10L, 23L</td>
+          <td class="type">liquid</td>
+          <td class="notes">3-part like GH Flora</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Greenplanet', 'GP3 (Grow, Micro, Bloom)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Vitathrive</td>
+          <td class="sizes">500ml, 1L, 4L</td>
+          <td class="type">liquid</td>
+          <td class="notes">B-vitamin</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Greenplanet', 'Vitathrive')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Ocean Magic</td>
+          <td class="sizes">500ml, 1L, 4L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Kelp extract</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Greenplanet', 'Ocean Magic')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Pro Cal</td>
+          <td class="sizes">1L, 4L, 10L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Cal-Mag</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Greenplanet', 'Pro Cal')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Rezin</td>
+          <td class="sizes">500ml, 1L, 4L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Terpene enhancer</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Greenplanet', 'Rezin')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Finisher</td>
+          <td class="sizes">500ml, 1L, 4L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Late bloom ripener</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Greenplanet', 'Finisher')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Remo Nutrients</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Grow</td>
+          <td class="sizes">1L, 4L, 10L, 20L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Remo Nutrients', 'Grow')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Micro</td>
+          <td class="sizes">1L, 4L, 10L, 20L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Remo Nutrients', 'Micro')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Bloom</td>
+          <td class="sizes">1L, 4L, 10L, 20L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Remo Nutrients', 'Bloom')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">VeloKelp</td>
+          <td class="sizes">500ml, 1L, 4L, 10L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Kelp supplement</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Remo Nutrients', 'VeloKelp')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">MagNifiCal</td>
+          <td class="sizes">1L, 4L, 10L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Cal-Mag</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Remo Nutrients', 'MagNifiCal')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Nature's Candy</td>
+          <td class="sizes">1L, 4L, 10L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Carbs supplement</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Remo Nutrients', 'Nature's Candy')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">AstroFlower</td>
+          <td class="sizes">500ml, 1L, 4L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Bloom booster</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Remo Nutrients', 'AstroFlower')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">SuperCharged Starter Kit</td>
+          <td class="sizes">Kit</td>
+          <td class="type">kit</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Remo Nutrients', 'SuperCharged Starter Kit')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Heavy 16</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Veg A&B</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 6 Gallon, 15 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Professional grade</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Heavy 16', 'Veg A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Bud A&B</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 6 Gallon, 15 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Professional grade</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Heavy 16', 'Bud A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Fire</td>
+          <td class="sizes">Pint, Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">PK booster</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Heavy 16', 'Fire')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Finish</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Heavy 16', 'Finish')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Foliar</td>
+          <td class="sizes">Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Heavy 16', 'Foliar')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Roots</td>
+          <td class="sizes">Pint, Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Heavy 16', 'Roots')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Prime</td>
+          <td class="sizes">Pint, Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Enzyme/vitamin</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Heavy 16', 'Prime')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Cultured Solutions</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Veg A&B</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 5 Gallon, 15 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Cultured Solutions', 'Veg A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Bloom A&B</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 5 Gallon, 15 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Cultured Solutions', 'Bloom A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">UC Roots</td>
+          <td class="sizes">Pint, Quart, Gallon, 2.5 Gallon, 5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Hypochlorous acid - system cleaner</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Cultured Solutions', 'UC Roots')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Bud Booster Early</td>
+          <td class="sizes">8 oz, 1 lb, 5 lb, 25 lb</td>
+          <td class="type">dry</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Cultured Solutions', 'Bud Booster Early')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Bud Booster Mid</td>
+          <td class="sizes">8 oz, 1 lb, 5 lb, 25 lb</td>
+          <td class="type">dry</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Cultured Solutions', 'Bud Booster Mid')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Bud Booster Late</td>
+          <td class="sizes">8 oz, 1 lb, 5 lb, 25 lb</td>
+          <td class="type">dry</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Cultured Solutions', 'Bud Booster Late')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Cal Mag Pro</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Cultured Solutions', 'Cal Mag Pro')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Cutting Edge Solutions</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Grow (1-2-3 or Micro-Grow-Bloom)</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 6 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Cutting Edge Solutions', 'Grow (1-2-3 or Micro-Grow-Bloom)')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Micro</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 6 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Cutting Edge Solutions', 'Micro')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Bloom</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 6 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Cutting Edge Solutions', 'Bloom')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Uncle John's Blend</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Sugar/carb supplement</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Cutting Edge Solutions', 'Uncle John's Blend')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Plant Amp</td>
+          <td class="sizes">Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Cutting Edge Solutions', 'Plant Amp')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Sour-Dee</td>
+          <td class="sizes">Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">pH Down</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Cutting Edge Solutions', 'Sour-Dee')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Sugaree</td>
+          <td class="sizes">Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Cutting Edge Solutions', 'Sugaree')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Mills Nutrients</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Basis A&B</td>
+          <td class="sizes">1L, 5L, 10L, 20L</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Mills Nutrients', 'Basis A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">C4</td>
+          <td class="sizes">250ml, 1L, 5L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Humic/fulvic</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Mills Nutrients', 'C4')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Start</td>
+          <td class="sizes">100ml, 250ml, 1L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Root/seedling starter</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Mills Nutrients', 'Start')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Ultimate PK</td>
+          <td class="sizes">250ml, 1L, 5L</td>
+          <td class="type">liquid</td>
+          <td class="notes">PK booster</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Mills Nutrients', 'Ultimate PK')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Vitalize</td>
+          <td class="sizes">250ml, 1L, 5L</td>
+          <td class="type">liquid</td>
+          <td class="notes">Silica supplement</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Mills Nutrients', 'Vitalize')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="brand-section">
+        <h2 class="brand-name">Emerald Harvest</h2>
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Product Line</th>
+              <th>Available Sizes</th>
+              <th>Type</th>
+              <th>Notes</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+        <tr>
+          <td class="product-line">Cali Pro A&B</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon, 6 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Emerald Harvest', 'Cali Pro A&B')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Grow/Micro/Bloom</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">3-part option</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Emerald Harvest', 'Grow/Micro/Bloom')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">King Kola</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Bloom booster</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Emerald Harvest', 'King Kola')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Honey Chome</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Emerald Harvest', 'Honey Chome')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Root Wizard</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Emerald Harvest', 'Root Wizard')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Emerald Goddess</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Humic/kelp</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Emerald Harvest', 'Emerald Goddess')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Cal-Mag</td>
+          <td class="sizes">Quart, Gallon, 2.5 Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes"></td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Emerald Harvest', 'Cal-Mag')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="product-line">Sturdy Stalk</td>
+          <td class="sizes">Quart, Gallon</td>
+          <td class="type">liquid</td>
+          <td class="notes">Silica</td>
+          <td class="action">
+            <button class="request-btn" onclick="requestQuote('Emerald Harvest', 'Sturdy Stalk')">
+              Request Quote
+            </button>
+          </td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+  
+  <div class="footer">
+    <p>Questions? Contact us at <strong>orders@hmoonhydro.com</strong></p>
+    <p>© 2026 H Moon Hydro - Your Local Hydroponic Supply</p>
+  </div>
+  
+  <script>
+    function requestQuote(brand, product) {
+      const subject = encodeURIComponent(`Special Order Request: ${brand} ${product}`);
+      const body = encodeURIComponent(`Hi,\n\nI would like to request a quote for:\n\nBrand: ${brand}\nProduct: ${product}\n\nPlease let me know pricing and availability.\n\nThank you!`);
+      window.location.href = `mailto:orders@hmoonhydro.com?subject=${subject}&body=${body}`;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,1794 @@
+{
+  "generated": "2026-01-19T14:44:00.058Z",
+  "summary": {
+    "total": 72,
+    "complete": 0,
+    "partial": 0,
+    "minimal": 72,
+    "withCommercial": 12,
+    "missingCommercial": 60
+  },
+  "productLines": [
+    {
+      "brand": "General Hydroponics",
+      "product": "Rapid Start",
+      "currentSizes": [
+        "4 oz / 120ml"
+      ],
+      "currentSizesRaw": [
+        "125 ml"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Ripen® 0.5",
+      "currentSizes": [
+        "6 Gallon / 23L"
+      ],
+      "currentSizesRaw": [
+        "6 qt",
+        "6 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Bat guano 7",
+      "currentSizes": [],
+      "currentSizesRaw": [
+        "1 lb"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "BioThrive Bloom 1",
+      "currentSizes": [
+        "32 oz / Quart / 1L"
+      ],
+      "currentSizesRaw": [
+        "1 qt"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "BioThrive Bloom 2.5",
+      "currentSizes": [
+        "2.5 Gallon / 10L"
+      ],
+      "currentSizesRaw": [
+        "2.5 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "BioThrive Bloom 6",
+      "currentSizes": [
+        "6 Gallon / 23L"
+      ],
+      "currentSizesRaw": [
+        "6 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "BioThrive Grow 1",
+      "currentSizes": [
+        "32 oz / Quart / 1L"
+      ],
+      "currentSizesRaw": [
+        "1 qt"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "BioThrive Grow 2.5",
+      "currentSizes": [
+        "2.5 Gallon / 10L"
+      ],
+      "currentSizesRaw": [
+        "2.5 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "BioThrive Grow 6",
+      "currentSizes": [
+        "6 Gallon / 23L"
+      ],
+      "currentSizesRaw": [
+        "6 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "CALiMAGic",
+      "currentSizes": [],
+      "currentSizesRaw": [],
+      "missingSizes": [
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "6 Gallon / 23L"
+      ],
+      "expectedSizes": [
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "6 Gallon / 23L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "D.T.E. Bat Guano 9",
+      "currentSizes": [],
+      "currentSizesRaw": [
+        "1 lb"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "D.T.E.High Nitrogen Bat 25",
+      "currentSizes": [],
+      "currentSizesRaw": [
+        "1 lb"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Down To Earth Bat Guano 9",
+      "currentSizes": [],
+      "currentSizesRaw": [],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Down To Earth Bio-Live",
+      "currentSizes": [],
+      "currentSizesRaw": [
+        "1 lb"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Down To Earth High Nitrogen Bat Guano",
+      "currentSizes": [],
+      "currentSizesRaw": [
+        "1 lb",
+        "1 lb"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Down To Earth™ Greensand 25",
+      "currentSizes": [],
+      "currentSizesRaw": [
+        "1 lb"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Flora Bloom 1",
+      "currentSizes": [
+        "32 oz / Quart / 1L"
+      ],
+      "currentSizesRaw": [
+        "1 qt"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Flora Bloom 15",
+      "currentSizes": [
+        "15 Gallon / 55L"
+      ],
+      "currentSizesRaw": [
+        "15 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Flora Bloom 16",
+      "currentSizes": [
+        "1 oz / 30ml (Sample)"
+      ],
+      "currentSizesRaw": [
+        "1 oz"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Flora Bloom 2.5",
+      "currentSizes": [
+        "2.5 Gallon / 10L"
+      ],
+      "currentSizesRaw": [
+        "2.5 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Flora Bloom 275",
+      "currentSizes": [
+        "275 Gallon IBC Tote"
+      ],
+      "currentSizesRaw": [
+        "275 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Flora Bloom 6",
+      "currentSizes": [
+        "6 Gallon / 23L"
+      ],
+      "currentSizesRaw": [
+        "6 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Flora Micro 1",
+      "currentSizes": [
+        "32 oz / Quart / 1L"
+      ],
+      "currentSizesRaw": [
+        "1 qt"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Flora Micro 15",
+      "currentSizes": [
+        "15 Gallon / 55L"
+      ],
+      "currentSizesRaw": [
+        "15 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Flora Micro 16",
+      "currentSizes": [
+        "1 oz / 30ml (Sample)"
+      ],
+      "currentSizesRaw": [
+        "1 oz"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Flora Micro 2.5",
+      "currentSizes": [
+        "2.5 Gallon / 10L"
+      ],
+      "currentSizesRaw": [
+        "2.5 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Flora Micro 55",
+      "currentSizes": [
+        "55 Gallon Drum / 208L"
+      ],
+      "currentSizesRaw": [
+        "55 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Flora Micro 6",
+      "currentSizes": [
+        "6 Gallon / 23L"
+      ],
+      "currentSizesRaw": [
+        "6 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Flora Series",
+      "currentSizes": [],
+      "currentSizesRaw": [],
+      "missingSizes": [
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "6 Gallon / 23L",
+        "15 Gallon / 55L",
+        "55 Gallon Drum / 208L"
+      ],
+      "expectedSizes": [
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "6 Gallon / 23L",
+        "15 Gallon / 55L",
+        "55 Gallon Drum / 208L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Flora Series Performance Pack (Complete 8 week grow/bloom starter kit)",
+      "currentSizes": [],
+      "currentSizesRaw": [],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraDuo Complete",
+      "currentSizes": [],
+      "currentSizesRaw": [],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraGro 275",
+      "currentSizes": [
+        "275 Gallon IBC Tote"
+      ],
+      "currentSizesRaw": [
+        "275 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Floralicious Bloom 1",
+      "currentSizes": [
+        "32 oz / Quart / 1L"
+      ],
+      "currentSizesRaw": [
+        "1 qt"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Floralicious Bloom 2.5",
+      "currentSizes": [
+        "2.5 Gallon / 10L"
+      ],
+      "currentSizesRaw": [
+        "2.5 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Floralicious Grow 1",
+      "currentSizes": [
+        "32 oz / Quart / 1L"
+      ],
+      "currentSizesRaw": [
+        "1 qt"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Floralicious Grow 2.5",
+      "currentSizes": [
+        "2.5 Gallon / 10L"
+      ],
+      "currentSizesRaw": [
+        "2.5 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Floralicious Plus",
+      "currentSizes": [
+        "1 oz / 30ml (Sample)"
+      ],
+      "currentSizesRaw": [
+        "1 oz"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L"
+      ],
+      "completeness": 25,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Floralicious Plus 1",
+      "currentSizes": [
+        "1 Gallon / 4L"
+      ],
+      "currentSizesRaw": [
+        "1 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Floralicious Plus 16",
+      "currentSizes": [
+        "1 oz / 30ml (Sample)"
+      ],
+      "currentSizesRaw": [
+        "1 oz"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Floralicious Plus 32",
+      "currentSizes": [
+        "1 oz / 30ml (Sample)"
+      ],
+      "currentSizesRaw": [
+        "1 oz"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Floralicious Plus 8",
+      "currentSizes": [
+        "1 oz / 30ml (Sample)"
+      ],
+      "currentSizesRaw": [
+        "1 oz"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraNectar Coconut 1",
+      "currentSizes": [
+        "32 oz / Quart / 1L"
+      ],
+      "currentSizesRaw": [
+        "1 qt"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraNectar Coconut 2.5",
+      "currentSizes": [
+        "2.5 Gallon / 10L"
+      ],
+      "currentSizesRaw": [
+        "2.5 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraNectar FruitnFusion 1",
+      "currentSizes": [
+        "32 oz / Quart / 1L"
+      ],
+      "currentSizesRaw": [
+        "1 qt"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraNectar FruitnFusion 2.5",
+      "currentSizes": [
+        "2.5 Gallon / 10L"
+      ],
+      "currentSizesRaw": [
+        "2.5 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraNectar Natural Sugar 1",
+      "currentSizes": [
+        "1 Gallon / 4L"
+      ],
+      "currentSizesRaw": [
+        "1 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraNectar Natural Sugar 2.5",
+      "currentSizes": [
+        "2.5 Gallon / 10L"
+      ],
+      "currentSizesRaw": [
+        "2.5 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraNectar Pineapple 1",
+      "currentSizes": [
+        "32 oz / Quart / 1L"
+      ],
+      "currentSizesRaw": [
+        "1 qt"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraNova Bloom 1",
+      "currentSizes": [
+        "32 oz / Quart / 1L"
+      ],
+      "currentSizesRaw": [
+        "1 qt"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraNova Bloom 16",
+      "currentSizes": [
+        "1 oz / 30ml (Sample)"
+      ],
+      "currentSizesRaw": [
+        "1 oz"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraNova Bloom 2.5",
+      "currentSizes": [
+        "2.5 Gallon / 10L"
+      ],
+      "currentSizesRaw": [
+        "2.5 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraNova Grow 1",
+      "currentSizes": [
+        "32 oz / Quart / 1L"
+      ],
+      "currentSizesRaw": [
+        "1 qt"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraNova Grow 16",
+      "currentSizes": [
+        "1 oz / 30ml (Sample)"
+      ],
+      "currentSizesRaw": [
+        "1 oz"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraNova Grow 2.5",
+      "currentSizes": [
+        "2.5 Gallon / 10L"
+      ],
+      "currentSizesRaw": [
+        "2.5 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "FloraNova Series",
+      "currentSizes": [],
+      "currentSizesRaw": [],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "General Hydroponics® CocoTek® Grow - A 3",
+      "currentSizes": [],
+      "currentSizesRaw": [],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Granular Root Zone",
+      "currentSizes": [
+        "8 oz / 250ml"
+      ],
+      "currentSizesRaw": [
+        "8 oz"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Hard Water Flora Micro 1",
+      "currentSizes": [
+        "16 oz / Pint / 500ml"
+      ],
+      "currentSizesRaw": [
+        "1 pt"
+      ],
+      "missingSizes": [
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Hard Water Flora Micro 2.5",
+      "currentSizes": [
+        "2.5 Gallon / 10L"
+      ],
+      "currentSizesRaw": [
+        "2.5 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Hard Water Flora Micro 6",
+      "currentSizes": [
+        "6 Gallon / 23L"
+      ],
+      "currentSizesRaw": [
+        "6 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "KoolBloom",
+      "currentSizes": [
+        "4 oz / 120ml"
+      ],
+      "currentSizesRaw": [
+        "4 oz"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Liquid KoolBloom 1",
+      "currentSizes": [
+        "1 Gallon / 4L"
+      ],
+      "currentSizesRaw": [
+        "1 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Liquid KoolBloom 2.5",
+      "currentSizes": [
+        "2.5 Gallon / 10L"
+      ],
+      "currentSizesRaw": [
+        "2.5 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Liquid KoolBloom 6",
+      "currentSizes": [
+        "6 Gallon / 23L"
+      ],
+      "currentSizesRaw": [
+        "6 gal"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Liquid KoolBloom™ 0",
+      "currentSizes": [],
+      "currentSizesRaw": [],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Maxi Series",
+      "currentSizes": [],
+      "currentSizesRaw": [],
+      "missingSizes": [
+        "1 kg / 2.2 lb",
+        "2.2_lb",
+        "16_lb"
+      ],
+      "expectedSizes": [
+        "1 kg / 2.2 lb",
+        "2.2_lb",
+        "16_lb"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Rapid Start 1",
+      "currentSizes": [
+        "16 oz / Pint / 500ml"
+      ],
+      "currentSizesRaw": [
+        "1 pt"
+      ],
+      "missingSizes": [
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 20,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Rare Earth",
+      "currentSizes": [],
+      "currentSizesRaw": [
+        "1 lb"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Rare Earth 1.5",
+      "currentSizes": [],
+      "currentSizesRaw": [
+        "1 lb"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "Rare Earth 16",
+      "currentSizes": [],
+      "currentSizesRaw": [
+        "1 lb"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "SubCulture B 200gm. Bag",
+      "currentSizes": [],
+      "currentSizesRaw": [
+        "200 g"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    },
+    {
+      "brand": "General Hydroponics",
+      "product": "SubCulture M 200gm. Bag",
+      "currentSizes": [],
+      "currentSizesRaw": [
+        "200 g"
+      ],
+      "missingSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "expectedSizes": [
+        "16 oz / Pint / 500ml",
+        "32 oz / Quart / 1L",
+        "1 Gallon / 4L",
+        "2.5 Gallon / 10L",
+        "5 Gallon / 20L"
+      ],
+      "completeness": 0,
+      "note": ""
+    }
+  ]
+}

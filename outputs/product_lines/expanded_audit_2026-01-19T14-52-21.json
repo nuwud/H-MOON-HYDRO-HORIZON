@@ -1,0 +1,3694 @@
+{
+  "generated": "2026-01-19T14:52:21.794Z",
+  "brandsAnalyzed": 19,
+  "productLinesAnalyzed": 167,
+  "summary": {
+    "complete": 0,
+    "partial": 10,
+    "notStocked": 157
+  },
+  "results": [
+    {
+      "brand": "General Hydroponics",
+      "line": "Flora Series (FloraGro, FloraBloom, FloraMicro)",
+      "type": "liquid",
+      "note": "Core 3-part - essential stock",
+      "priority": 1,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon",
+        "15 Gallon",
+        "55 Gallon Drum",
+        "275 Gallon Tote"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon",
+        "15 Gallon",
+        "55 Gallon Drum",
+        "275 Gallon Tote"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "General Hydroponics",
+      "line": "FloraNova (Grow & Bloom)",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "General Hydroponics",
+      "line": "CALiMAGic",
+      "type": "liquid",
+      "note": "Very popular supplement",
+      "priority": 2,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "General Hydroponics",
+      "line": "Armor Si",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "General Hydroponics",
+      "line": "Diamond Nectar",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "General Hydroponics",
+      "line": "Liquid KoolBloom",
+      "type": "liquid",
+      "note": "Bloom booster",
+      "priority": 2,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "General Hydroponics",
+      "line": "Dry KoolBloom",
+      "type": "dry",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "2.2 lb",
+        "6 lb",
+        "25 lb"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "2.2 lb",
+        "6 lb",
+        "25 lb"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "General Hydroponics",
+      "line": "MaxiGro & MaxiBloom",
+      "type": "dry",
+      "note": "Budget-friendly 1-part dry",
+      "priority": 3,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "2.2 lb",
+        "16 lb"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "2.2 lb",
+        "16 lb"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "General Hydroponics",
+      "line": "RapidStart",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "125ml",
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "125ml",
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "General Hydroponics",
+      "line": "Floralicious Plus",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "General Hydroponics",
+      "line": "FloraNectar (Sugar/Pineapple/Fruit)",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "General Hydroponics",
+      "line": "BioThrive (Grow & Bloom)",
+      "type": "liquid",
+      "note": "Organic line",
+      "priority": 3,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "General Hydroponics",
+      "line": "pH Up & pH Down",
+      "type": "liquid",
+      "note": "Always stock - essential",
+      "priority": 1,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "8 oz",
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon",
+        "15 Gallon",
+        "55 Gallon Drum"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "8 oz",
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon",
+        "15 Gallon",
+        "55 Gallon Drum"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Advanced Nutrients",
+      "line": "pH Perfect Sensi (Grow/Bloom A&B)",
+      "type": "liquid",
+      "note": "Core 2-part with pH buffering",
+      "priority": 1,
+      "distributor": "Advanced Nutrients Direct",
+      "allSizes": [
+        "500ml",
+        "1L",
+        "4L",
+        "10L",
+        "23L"
+      ],
+      "haveSizes": [
+        "10L",
+        "4L"
+      ],
+      "missingSizes": [
+        "500ml",
+        "1L",
+        "23L"
+      ],
+      "coverage": 40,
+      "status": "partial"
+    },
+    {
+      "brand": "Advanced Nutrients",
+      "line": "pH Perfect Connoisseur (Grow/Bloom A&B)",
+      "type": "liquid",
+      "note": "Premium line",
+      "priority": 3,
+      "distributor": "Advanced Nutrients Direct",
+      "allSizes": [
+        "500ml",
+        "1L",
+        "4L",
+        "10L",
+        "23L"
+      ],
+      "haveSizes": [
+        "4L"
+      ],
+      "missingSizes": [
+        "500ml",
+        "1L",
+        "10L",
+        "23L"
+      ],
+      "coverage": 20,
+      "status": "partial"
+    },
+    {
+      "brand": "Advanced Nutrients",
+      "line": "Big Bud",
+      "type": "liquid",
+      "note": "Bloom booster - top seller",
+      "priority": 1,
+      "distributor": "Advanced Nutrients Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L",
+        "10L",
+        "23L"
+      ],
+      "haveSizes": [
+        "10L"
+      ],
+      "missingSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L",
+        "23L"
+      ],
+      "coverage": 17,
+      "status": "partial"
+    },
+    {
+      "brand": "Advanced Nutrients",
+      "line": "B-52",
+      "type": "liquid",
+      "note": "",
+      "priority": 2,
+      "distributor": "Advanced Nutrients Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L",
+        "10L",
+        "23L"
+      ],
+      "haveSizes": [
+        "23L",
+        "4L",
+        "10L",
+        "52L"
+      ],
+      "missingSizes": [
+        "250ml",
+        "500ml",
+        "1L"
+      ],
+      "coverage": 67,
+      "status": "partial"
+    },
+    {
+      "brand": "Advanced Nutrients",
+      "line": "Bud Candy",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Advanced Nutrients Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "haveSizes": [
+        "1L"
+      ],
+      "missingSizes": [
+        "250ml",
+        "500ml",
+        "4L",
+        "10L"
+      ],
+      "coverage": 20,
+      "status": "partial"
+    },
+    {
+      "brand": "Advanced Nutrients",
+      "line": "Overdrive",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Advanced Nutrients Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "haveSizes": [
+        "1L"
+      ],
+      "missingSizes": [
+        "250ml",
+        "500ml",
+        "4L",
+        "10L"
+      ],
+      "coverage": 20,
+      "status": "partial"
+    },
+    {
+      "brand": "Advanced Nutrients",
+      "line": "Bud Ignitor",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Advanced Nutrients Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L",
+        "10L",
+        "23L"
+      ],
+      "haveSizes": [
+        "250ml"
+      ],
+      "missingSizes": [
+        "500ml",
+        "1L",
+        "4L",
+        "10L",
+        "23L"
+      ],
+      "coverage": 17,
+      "status": "partial"
+    },
+    {
+      "brand": "Advanced Nutrients",
+      "line": "Voodoo Juice",
+      "type": "liquid",
+      "note": "Beneficial bacteria",
+      "priority": 2,
+      "distributor": "Advanced Nutrients Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Advanced Nutrients",
+      "line": "Piranha",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Advanced Nutrients Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Advanced Nutrients",
+      "line": "Tarantula",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Advanced Nutrients Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "haveSizes": [
+        "500ml"
+      ],
+      "missingSizes": [
+        "250ml",
+        "1L",
+        "4L"
+      ],
+      "coverage": 25,
+      "status": "partial"
+    },
+    {
+      "brand": "Advanced Nutrients",
+      "line": "Rhino Skin",
+      "type": "liquid",
+      "note": "Silica - popular add-on",
+      "priority": 2,
+      "distributor": "Advanced Nutrients Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L",
+        "10L",
+        "23L"
+      ],
+      "haveSizes": [
+        "4L"
+      ],
+      "missingSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "10L",
+        "23L"
+      ],
+      "coverage": 17,
+      "status": "partial"
+    },
+    {
+      "brand": "Advanced Nutrients",
+      "line": "Nirvana",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Advanced Nutrients Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "haveSizes": [
+        "500ml",
+        "1L"
+      ],
+      "missingSizes": [
+        "250ml",
+        "4L"
+      ],
+      "coverage": 50,
+      "status": "partial"
+    },
+    {
+      "brand": "Advanced Nutrients",
+      "line": "Sensizym",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Advanced Nutrients Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Advanced Nutrients",
+      "line": "Flawless Finish",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Advanced Nutrients Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Fox Farm",
+      "line": "Trio (Grow Big, Big Bloom, Tiger Bloom)",
+      "type": "liquid",
+      "note": "Best-selling liquid trio",
+      "priority": 1,
+      "distributor": "Sunlight Supply",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Fox Farm",
+      "line": "Sledgehammer",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Sunlight Supply",
+      "allSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Fox Farm",
+      "line": "Open Sesame",
+      "type": "dry",
+      "note": "Soluble - early bloom",
+      "priority": 2,
+      "distributor": "Sunlight Supply",
+      "allSizes": [
+        "6 oz",
+        "1 lb",
+        "5 lb"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "6 oz",
+        "1 lb",
+        "5 lb"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Fox Farm",
+      "line": "Beastie Bloomz",
+      "type": "dry",
+      "note": "Soluble - mid bloom",
+      "priority": 2,
+      "distributor": "Sunlight Supply",
+      "allSizes": [
+        "6 oz",
+        "1 lb",
+        "5 lb"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "6 oz",
+        "1 lb",
+        "5 lb"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Fox Farm",
+      "line": "Cha Ching",
+      "type": "dry",
+      "note": "Soluble - late bloom",
+      "priority": 2,
+      "distributor": "Sunlight Supply",
+      "allSizes": [
+        "6 oz",
+        "1 lb",
+        "5 lb"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "6 oz",
+        "1 lb",
+        "5 lb"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Fox Farm",
+      "line": "Kangaroots",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Sunlight Supply",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Fox Farm",
+      "line": "Microbe Brew",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Sunlight Supply",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Fox Farm",
+      "line": "Happy Frog Jump Start",
+      "type": "dry",
+      "note": "",
+      "priority": 3,
+      "distributor": "Sunlight Supply",
+      "allSizes": [
+        "3 lb",
+        "18 lb"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "3 lb",
+        "18 lb"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Fox Farm",
+      "line": "Dirty Dozen Starter Kit",
+      "type": "kit",
+      "note": "Great entry point",
+      "priority": 3,
+      "distributor": "Sunlight Supply",
+      "allSizes": [
+        "Kit"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Kit"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Botanicare",
+      "line": "Pure Blend Pro (Grow & Bloom)",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon",
+        "15 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon",
+        "15 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Botanicare",
+      "line": "CNS17 (Grow, Bloom, Ripe)",
+      "type": "liquid",
+      "note": "Professional 1-part formula",
+      "priority": 2,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon",
+        "15 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon",
+        "15 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Botanicare",
+      "line": "Cal-Mag Plus",
+      "type": "liquid",
+      "note": "Very popular - essential supplement",
+      "priority": 1,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Botanicare",
+      "line": "Hydroplex",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Botanicare",
+      "line": "Sweet (Raw, Berry, Citrus, Grape)",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Botanicare",
+      "line": "Clearex",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Botanicare",
+      "line": "Rhizo Blast",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Botanicare",
+      "line": "Liquid Karma",
+      "type": "liquid",
+      "note": "Organic supplement",
+      "priority": 2,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Botanicare",
+      "line": "Hydroguard",
+      "type": "liquid",
+      "note": "Root zone protection",
+      "priority": 2,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "8 oz",
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "8 oz",
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Botanicare",
+      "line": "Silica Blast",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hawthorne",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Canna",
+      "line": "Coco A&B",
+      "type": "liquid",
+      "note": "Industry standard for coco",
+      "priority": 1,
+      "distributor": "Hydrofarm",
+      "allSizes": [
+        "1L",
+        "5L",
+        "10L",
+        "20L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "5L",
+        "10L",
+        "20L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Canna",
+      "line": "Terra Vega & Flores",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hydrofarm",
+      "allSizes": [
+        "1L",
+        "5L",
+        "10L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "5L",
+        "10L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Canna",
+      "line": "Aqua Vega/Flores A&B",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hydrofarm",
+      "allSizes": [
+        "1L",
+        "5L",
+        "10L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "5L",
+        "10L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Canna",
+      "line": "Boost",
+      "type": "liquid",
+      "note": "",
+      "priority": 2,
+      "distributor": "Hydrofarm",
+      "allSizes": [
+        "250ml",
+        "1L",
+        "5L",
+        "10L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "1L",
+        "5L",
+        "10L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Canna",
+      "line": "Cannazym",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hydrofarm",
+      "allSizes": [
+        "250ml",
+        "1L",
+        "5L",
+        "10L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "1L",
+        "5L",
+        "10L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Canna",
+      "line": "Rhizotonic",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hydrofarm",
+      "allSizes": [
+        "250ml",
+        "1L",
+        "5L",
+        "10L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "1L",
+        "5L",
+        "10L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Canna",
+      "line": "PK 13/14",
+      "type": "liquid",
+      "note": "Bloom booster",
+      "priority": 3,
+      "distributor": "Hydrofarm",
+      "allSizes": [
+        "250ml",
+        "1L",
+        "5L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "1L",
+        "5L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Canna",
+      "line": "Bio Vega/Flores",
+      "type": "liquid",
+      "note": "Organic line",
+      "priority": 3,
+      "distributor": "Hydrofarm",
+      "allSizes": [
+        "250ml",
+        "1L",
+        "5L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "1L",
+        "5L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "House & Garden",
+      "line": "Aqua Flakes A&B",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "House & Garden Direct",
+      "allSizes": [
+        "1L",
+        "5L",
+        "10L",
+        "20L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "5L",
+        "10L",
+        "20L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "House & Garden",
+      "line": "Coco A&B",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "House & Garden Direct",
+      "allSizes": [
+        "1L",
+        "5L",
+        "10L",
+        "20L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "5L",
+        "10L",
+        "20L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "House & Garden",
+      "line": "Roots Excelurator Gold",
+      "type": "liquid",
+      "note": "Premium root stimulator - high margin",
+      "priority": 1,
+      "distributor": "House & Garden Direct",
+      "allSizes": [
+        "100ml",
+        "250ml",
+        "500ml",
+        "1L",
+        "5L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "100ml",
+        "250ml",
+        "500ml",
+        "1L",
+        "5L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "House & Garden",
+      "line": "Top Booster",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "House & Garden Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "5L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "5L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "House & Garden",
+      "line": "Bud-XL",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "House & Garden Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "5L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "5L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "House & Garden",
+      "line": "Shooting Powder",
+      "type": "dry",
+      "note": "",
+      "priority": 2,
+      "distributor": "House & Garden Direct",
+      "allSizes": [
+        "sachet (5g)",
+        "65g",
+        "500g",
+        "1kg"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "sachet (5g)",
+        "65g",
+        "500g",
+        "1kg"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "House & Garden",
+      "line": "Multi Zen",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "House & Garden Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "5L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "5L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "House & Garden",
+      "line": "Drip Clean",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "House & Garden Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "5L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "5L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Athena",
+      "line": "Pro Line Core",
+      "type": "liquid",
+      "note": "Commercial focus - bulk pricing",
+      "priority": 1,
+      "distributor": "Athena Direct",
+      "allSizes": [
+        "Gallon",
+        "5 Gallon",
+        "15 Gallon",
+        "55 Gallon",
+        "275 Gallon Tote"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Gallon",
+        "5 Gallon",
+        "15 Gallon",
+        "55 Gallon",
+        "275 Gallon Tote"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Athena",
+      "line": "Grow A&B",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Athena Direct",
+      "allSizes": [
+        "Gallon",
+        "5 Gallon",
+        "15 Gallon",
+        "55 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Gallon",
+        "5 Gallon",
+        "15 Gallon",
+        "55 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Athena",
+      "line": "Bloom A&B",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Athena Direct",
+      "allSizes": [
+        "Gallon",
+        "5 Gallon",
+        "15 Gallon",
+        "55 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Gallon",
+        "5 Gallon",
+        "15 Gallon",
+        "55 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Athena",
+      "line": "Balance",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Athena Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Athena",
+      "line": "Cleanse",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Athena Direct",
+      "allSizes": [
+        "Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Athena",
+      "line": "IPM",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Athena Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Athena",
+      "line": "Stack",
+      "type": "liquid",
+      "note": "PK booster",
+      "priority": 3,
+      "distributor": "Athena Direct",
+      "allSizes": [
+        "Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Nectar for the Gods",
+      "line": "One Shot Granules",
+      "type": "dry",
+      "note": "Slow-release amendment",
+      "priority": 3,
+      "distributor": "Oregon's Only Direct",
+      "allSizes": [
+        "3 lb",
+        "6 lb",
+        "25 lb",
+        "50 lb"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "3 lb",
+        "6 lb",
+        "25 lb",
+        "50 lb"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Nectar for the Gods",
+      "line": "Gaia Mania (Grow)",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Oregon's Only Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Nectar for the Gods",
+      "line": "Medusa's Magic (Grow)",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Oregon's Only Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Nectar for the Gods",
+      "line": "Zeus Juice (Nitrogen)",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Oregon's Only Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Nectar for the Gods",
+      "line": "Athena's Aminas",
+      "type": "liquid",
+      "note": "Protein breakdown",
+      "priority": 3,
+      "distributor": "Oregon's Only Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Nectar for the Gods",
+      "line": "Bloom Khaos",
+      "type": "liquid",
+      "note": "Foliar spray",
+      "priority": 2,
+      "distributor": "Oregon's Only Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Nectar for the Gods",
+      "line": "Herculean Harvest",
+      "type": "liquid",
+      "note": "Bone meal calcium",
+      "priority": 2,
+      "distributor": "Oregon's Only Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Nectar for the Gods",
+      "line": "Demeter's Destiny",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Oregon's Only Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Nectar for the Gods",
+      "line": "The Kraken (Kelp)",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Oregon's Only Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Nectar for the Gods",
+      "line": "Triton's Trawl (Fish)",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Oregon's Only Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Nectar for the Gods",
+      "line": "Mega Morpheus (Bloom)",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Oregon's Only Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Nectar for the Gods",
+      "line": "Starter Kit (Roman Regime)",
+      "type": "kit",
+      "note": "Great entry point",
+      "priority": 1,
+      "distributor": "Oregon's Only Direct",
+      "allSizes": [
+        "Kit"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Kit"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Roots Organics",
+      "line": "Buddha Grow",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Aurora Innovations",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Roots Organics",
+      "line": "Buddha Bloom",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Aurora Innovations",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Roots Organics",
+      "line": "Trinity (Catalyst)",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Aurora Innovations",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Roots Organics",
+      "line": "HPK (Bat Guano)",
+      "type": "liquid",
+      "note": "Bloom booster",
+      "priority": 3,
+      "distributor": "Aurora Innovations",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Roots Organics",
+      "line": "Soul Synthetics (Grow & Bloom)",
+      "type": "liquid",
+      "note": "Mineral line",
+      "priority": 3,
+      "distributor": "Aurora Innovations",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Roots Organics",
+      "line": "Terp Tea (Grow & Bloom)",
+      "type": "dry",
+      "note": "Compost tea base",
+      "priority": 2,
+      "distributor": "Aurora Innovations",
+      "allSizes": [
+        "3 lb",
+        "9 lb",
+        "40 lb"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "3 lb",
+        "9 lb",
+        "40 lb"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Roots Organics",
+      "line": "Elemental",
+      "type": "liquid",
+      "note": "Cal-Mag",
+      "priority": 3,
+      "distributor": "Aurora Innovations",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Roots Organics",
+      "line": "Ancient Amber",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Aurora Innovations",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Roots Organics",
+      "line": "Original Potting Soil",
+      "type": "soil",
+      "note": "",
+      "priority": 1,
+      "distributor": "Aurora Innovations",
+      "allSizes": [
+        "1.5 cu ft",
+        "3 cu ft"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1.5 cu ft",
+        "3 cu ft"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Roots Organics",
+      "line": "Greenfields Potting Mix",
+      "type": "soil",
+      "note": "",
+      "priority": 3,
+      "distributor": "Aurora Innovations",
+      "allSizes": [
+        "1.5 cu ft",
+        "3 cu ft"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1.5 cu ft",
+        "3 cu ft"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Earth Juice",
+      "line": "Grow",
+      "type": "liquid",
+      "note": "",
+      "priority": 2,
+      "distributor": "Hydro-Organics Wholesale",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Earth Juice",
+      "line": "Bloom",
+      "type": "liquid",
+      "note": "",
+      "priority": 2,
+      "distributor": "Hydro-Organics Wholesale",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Earth Juice",
+      "line": "Catalyst",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hydro-Organics Wholesale",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Earth Juice",
+      "line": "Meta-K",
+      "type": "liquid",
+      "note": "Potassium boost",
+      "priority": 3,
+      "distributor": "Hydro-Organics Wholesale",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Earth Juice",
+      "line": "Microblast",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hydro-Organics Wholesale",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Earth Juice",
+      "line": "Sugar Peak (Grand/Vegetative/Transition/Flowering)",
+      "type": "liquid",
+      "note": "Stage-specific line",
+      "priority": 3,
+      "distributor": "Hydro-Organics Wholesale",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Earth Juice",
+      "line": "OilyCann",
+      "type": "liquid",
+      "note": "Essential oils supplement",
+      "priority": 3,
+      "distributor": "Hydro-Organics Wholesale",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Earth Juice",
+      "line": "SeaBlast (Grow & Bloom)",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Hydro-Organics Wholesale",
+      "allSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Technaflora",
+      "line": "BC Boost",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Technaflora Direct",
+      "allSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "20L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "20L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Technaflora",
+      "line": "BC Grow",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Technaflora Direct",
+      "allSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "20L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "20L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Technaflora",
+      "line": "BC Bloom",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Technaflora Direct",
+      "allSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "20L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "20L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Technaflora",
+      "line": "MagiCal",
+      "type": "liquid",
+      "note": "Cal-Mag supplement",
+      "priority": 2,
+      "distributor": "Technaflora Direct",
+      "allSizes": [
+        "500ml",
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "500ml",
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Technaflora",
+      "line": "Thrive Alive B-1 (Green & Red)",
+      "type": "liquid",
+      "note": "B-1 vitamin supplement",
+      "priority": 3,
+      "distributor": "Technaflora Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Technaflora",
+      "line": "Sugar Daddy",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Technaflora Direct",
+      "allSizes": [
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Technaflora",
+      "line": "Awesome Blossoms",
+      "type": "liquid",
+      "note": "Bloom enhancer",
+      "priority": 3,
+      "distributor": "Technaflora Direct",
+      "allSizes": [
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Technaflora",
+      "line": "Root 66",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Technaflora Direct",
+      "allSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Technaflora",
+      "line": "Recipe for Success Starter Kit",
+      "type": "kit",
+      "note": "",
+      "priority": 1,
+      "distributor": "Technaflora Direct",
+      "allSizes": [
+        "Kit"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Kit"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Dutch Master",
+      "line": "Advance Grow A&B",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Dutch Master Direct",
+      "allSizes": [
+        "1L",
+        "5L",
+        "20L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "5L",
+        "20L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Dutch Master",
+      "line": "Advance Flower A&B",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Dutch Master Direct",
+      "allSizes": [
+        "1L",
+        "5L",
+        "20L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "5L",
+        "20L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Dutch Master",
+      "line": "Gold Range Grow A&B",
+      "type": "liquid",
+      "note": "Premium line",
+      "priority": 3,
+      "distributor": "Dutch Master Direct",
+      "allSizes": [
+        "1L",
+        "5L",
+        "20L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "5L",
+        "20L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Dutch Master",
+      "line": "Gold Range Flower A&B",
+      "type": "liquid",
+      "note": "Premium line",
+      "priority": 3,
+      "distributor": "Dutch Master Direct",
+      "allSizes": [
+        "1L",
+        "5L",
+        "20L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "5L",
+        "20L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Dutch Master",
+      "line": "Silica",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Dutch Master Direct",
+      "allSizes": [
+        "1L",
+        "5L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "5L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Dutch Master",
+      "line": "Add.27 (Zone/Saturator)",
+      "type": "liquid",
+      "note": "Penetrant additive",
+      "priority": 3,
+      "distributor": "Dutch Master Direct",
+      "allSizes": [
+        "250ml",
+        "1L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "1L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Dutch Master",
+      "line": "Potash Plus",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Dutch Master Direct",
+      "allSizes": [
+        "1L",
+        "5L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "5L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Dutch Master",
+      "line": "Max Flower",
+      "type": "liquid",
+      "note": "PK booster",
+      "priority": 3,
+      "distributor": "Dutch Master Direct",
+      "allSizes": [
+        "1L",
+        "5L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "5L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Greenplanet",
+      "line": "Dual Fuel (1&2)",
+      "type": "liquid",
+      "note": "2-part base",
+      "priority": 1,
+      "distributor": "Greenplanet Direct",
+      "allSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "23L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "23L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Greenplanet",
+      "line": "Medi One",
+      "type": "liquid",
+      "note": "1-part complete",
+      "priority": 3,
+      "distributor": "Greenplanet Direct",
+      "allSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "23L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "23L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Greenplanet",
+      "line": "Massive Bloom Formulation",
+      "type": "liquid",
+      "note": "PK booster",
+      "priority": 2,
+      "distributor": "Greenplanet Direct",
+      "allSizes": [
+        "500ml",
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "500ml",
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Greenplanet",
+      "line": "GP3 (Grow, Micro, Bloom)",
+      "type": "liquid",
+      "note": "3-part like GH Flora",
+      "priority": 3,
+      "distributor": "Greenplanet Direct",
+      "allSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "23L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "23L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Greenplanet",
+      "line": "Vitathrive",
+      "type": "liquid",
+      "note": "B-vitamin",
+      "priority": 3,
+      "distributor": "Greenplanet Direct",
+      "allSizes": [
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Greenplanet",
+      "line": "Ocean Magic",
+      "type": "liquid",
+      "note": "Kelp extract",
+      "priority": 3,
+      "distributor": "Greenplanet Direct",
+      "allSizes": [
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Greenplanet",
+      "line": "Pro Cal",
+      "type": "liquid",
+      "note": "Cal-Mag",
+      "priority": 2,
+      "distributor": "Greenplanet Direct",
+      "allSizes": [
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Greenplanet",
+      "line": "Rezin",
+      "type": "liquid",
+      "note": "Terpene enhancer",
+      "priority": 3,
+      "distributor": "Greenplanet Direct",
+      "allSizes": [
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Greenplanet",
+      "line": "Finisher",
+      "type": "liquid",
+      "note": "Late bloom ripener",
+      "priority": 3,
+      "distributor": "Greenplanet Direct",
+      "allSizes": [
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Remo Nutrients",
+      "line": "Grow",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Remo Direct",
+      "allSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "20L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "20L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Remo Nutrients",
+      "line": "Micro",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Remo Direct",
+      "allSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "20L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "20L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Remo Nutrients",
+      "line": "Bloom",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Remo Direct",
+      "allSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "20L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "4L",
+        "10L",
+        "20L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Remo Nutrients",
+      "line": "VeloKelp",
+      "type": "liquid",
+      "note": "Kelp supplement",
+      "priority": 3,
+      "distributor": "Remo Direct",
+      "allSizes": [
+        "500ml",
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "500ml",
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Remo Nutrients",
+      "line": "MagNifiCal",
+      "type": "liquid",
+      "note": "Cal-Mag",
+      "priority": 2,
+      "distributor": "Remo Direct",
+      "allSizes": [
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Remo Nutrients",
+      "line": "Nature's Candy",
+      "type": "liquid",
+      "note": "Carbs supplement",
+      "priority": 3,
+      "distributor": "Remo Direct",
+      "allSizes": [
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "4L",
+        "10L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Remo Nutrients",
+      "line": "AstroFlower",
+      "type": "liquid",
+      "note": "Bloom booster",
+      "priority": 3,
+      "distributor": "Remo Direct",
+      "allSizes": [
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "500ml",
+        "1L",
+        "4L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Remo Nutrients",
+      "line": "SuperCharged Starter Kit",
+      "type": "kit",
+      "note": "",
+      "priority": 1,
+      "distributor": "Remo Direct",
+      "allSizes": [
+        "Kit"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Kit"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Heavy 16",
+      "line": "Veg A&B",
+      "type": "liquid",
+      "note": "Professional grade",
+      "priority": 1,
+      "distributor": "Heavy 16 Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon",
+        "15 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon",
+        "15 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Heavy 16",
+      "line": "Bud A&B",
+      "type": "liquid",
+      "note": "Professional grade",
+      "priority": 1,
+      "distributor": "Heavy 16 Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon",
+        "15 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon",
+        "15 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Heavy 16",
+      "line": "Fire",
+      "type": "liquid",
+      "note": "PK booster",
+      "priority": 3,
+      "distributor": "Heavy 16 Direct",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Heavy 16",
+      "line": "Finish",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Heavy 16 Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Heavy 16",
+      "line": "Foliar",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Heavy 16 Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Heavy 16",
+      "line": "Roots",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Heavy 16 Direct",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Heavy 16",
+      "line": "Prime",
+      "type": "liquid",
+      "note": "Enzyme/vitamin",
+      "priority": 3,
+      "distributor": "Heavy 16 Direct",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Cultured Solutions",
+      "line": "Veg A&B",
+      "type": "liquid",
+      "note": "",
+      "priority": 1,
+      "distributor": "Cultured Solutions Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon",
+        "15 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon",
+        "15 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Cultured Solutions",
+      "line": "Bloom A&B",
+      "type": "liquid",
+      "note": "",
+      "priority": 1,
+      "distributor": "Cultured Solutions Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon",
+        "15 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon",
+        "15 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Cultured Solutions",
+      "line": "UC Roots",
+      "type": "liquid",
+      "note": "Hypochlorous acid - system cleaner",
+      "priority": 1,
+      "distributor": "Cultured Solutions Direct",
+      "allSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Pint",
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Cultured Solutions",
+      "line": "Bud Booster Early",
+      "type": "dry",
+      "note": "",
+      "priority": 3,
+      "distributor": "Cultured Solutions Direct",
+      "allSizes": [
+        "8 oz",
+        "1 lb",
+        "5 lb",
+        "25 lb"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "8 oz",
+        "1 lb",
+        "5 lb",
+        "25 lb"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Cultured Solutions",
+      "line": "Bud Booster Mid",
+      "type": "dry",
+      "note": "",
+      "priority": 3,
+      "distributor": "Cultured Solutions Direct",
+      "allSizes": [
+        "8 oz",
+        "1 lb",
+        "5 lb",
+        "25 lb"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "8 oz",
+        "1 lb",
+        "5 lb",
+        "25 lb"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Cultured Solutions",
+      "line": "Bud Booster Late",
+      "type": "dry",
+      "note": "",
+      "priority": 3,
+      "distributor": "Cultured Solutions Direct",
+      "allSizes": [
+        "8 oz",
+        "1 lb",
+        "5 lb",
+        "25 lb"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "8 oz",
+        "1 lb",
+        "5 lb",
+        "25 lb"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Cultured Solutions",
+      "line": "Cal Mag Pro",
+      "type": "liquid",
+      "note": "",
+      "priority": 2,
+      "distributor": "Cultured Solutions Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Cutting Edge Solutions",
+      "line": "Grow (1-2-3 or Micro-Grow-Bloom)",
+      "type": "liquid",
+      "note": "",
+      "priority": 1,
+      "distributor": "Cutting Edge Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Cutting Edge Solutions",
+      "line": "Micro",
+      "type": "liquid",
+      "note": "",
+      "priority": 1,
+      "distributor": "Cutting Edge Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Cutting Edge Solutions",
+      "line": "Bloom",
+      "type": "liquid",
+      "note": "",
+      "priority": 1,
+      "distributor": "Cutting Edge Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Cutting Edge Solutions",
+      "line": "Uncle John's Blend",
+      "type": "liquid",
+      "note": "Sugar/carb supplement",
+      "priority": 3,
+      "distributor": "Cutting Edge Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Cutting Edge Solutions",
+      "line": "Plant Amp",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Cutting Edge Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Cutting Edge Solutions",
+      "line": "Sour-Dee",
+      "type": "liquid",
+      "note": "pH Down",
+      "priority": 3,
+      "distributor": "Cutting Edge Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Cutting Edge Solutions",
+      "line": "Sugaree",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Cutting Edge Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Mills Nutrients",
+      "line": "Basis A&B",
+      "type": "liquid",
+      "note": "",
+      "priority": 1,
+      "distributor": "Mills Direct",
+      "allSizes": [
+        "1L",
+        "5L",
+        "10L",
+        "20L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "1L",
+        "5L",
+        "10L",
+        "20L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Mills Nutrients",
+      "line": "C4",
+      "type": "liquid",
+      "note": "Humic/fulvic",
+      "priority": 3,
+      "distributor": "Mills Direct",
+      "allSizes": [
+        "250ml",
+        "1L",
+        "5L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "1L",
+        "5L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Mills Nutrients",
+      "line": "Start",
+      "type": "liquid",
+      "note": "Root/seedling starter",
+      "priority": 3,
+      "distributor": "Mills Direct",
+      "allSizes": [
+        "100ml",
+        "250ml",
+        "1L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "100ml",
+        "250ml",
+        "1L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Mills Nutrients",
+      "line": "Ultimate PK",
+      "type": "liquid",
+      "note": "PK booster",
+      "priority": 2,
+      "distributor": "Mills Direct",
+      "allSizes": [
+        "250ml",
+        "1L",
+        "5L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "1L",
+        "5L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Mills Nutrients",
+      "line": "Vitalize",
+      "type": "liquid",
+      "note": "Silica supplement",
+      "priority": 3,
+      "distributor": "Mills Direct",
+      "allSizes": [
+        "250ml",
+        "1L",
+        "5L"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "250ml",
+        "1L",
+        "5L"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Emerald Harvest",
+      "line": "Cali Pro A&B",
+      "type": "liquid",
+      "note": "",
+      "priority": 1,
+      "distributor": "Emerald Harvest Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon",
+        "6 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Emerald Harvest",
+      "line": "Grow/Micro/Bloom",
+      "type": "liquid",
+      "note": "3-part option",
+      "priority": 3,
+      "distributor": "Emerald Harvest Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Emerald Harvest",
+      "line": "King Kola",
+      "type": "liquid",
+      "note": "Bloom booster",
+      "priority": 2,
+      "distributor": "Emerald Harvest Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Emerald Harvest",
+      "line": "Honey Chome",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Emerald Harvest Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Emerald Harvest",
+      "line": "Root Wizard",
+      "type": "liquid",
+      "note": "",
+      "priority": 3,
+      "distributor": "Emerald Harvest Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Emerald Harvest",
+      "line": "Emerald Goddess",
+      "type": "liquid",
+      "note": "Humic/kelp",
+      "priority": 3,
+      "distributor": "Emerald Harvest Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Emerald Harvest",
+      "line": "Cal-Mag",
+      "type": "liquid",
+      "note": "",
+      "priority": 2,
+      "distributor": "Emerald Harvest Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon",
+        "2.5 Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    },
+    {
+      "brand": "Emerald Harvest",
+      "line": "Sturdy Stalk",
+      "type": "liquid",
+      "note": "Silica",
+      "priority": 3,
+      "distributor": "Emerald Harvest Direct",
+      "allSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "haveSizes": [],
+      "missingSizes": [
+        "Quart",
+        "Gallon"
+      ],
+      "coverage": 0,
+      "status": "not_stocked"
+    }
+  ]
+}
