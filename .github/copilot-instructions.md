@@ -8,6 +8,7 @@
 1. **WooCommerce Product Enhancement** - Apply Shopify-quality improvements to WooCommerce products
 2. **WordPress/BeaverBuilder Design** - Stack design improvements
 3. **ACH Payment Plugin** - Now in separate repo: https://github.com/nuwud/woo-ach-batch
+4. **Product Line Manager Plugin** - Now in separate repo: https://github.com/nuwud/woo-product-line-manager
 
 ### Archived Components
 | Component | Status | Notes |
