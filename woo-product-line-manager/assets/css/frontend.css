@@ -1,0 +1,470 @@
+/**
+ * PLM Frontend Styles
+ * 
+ * @package WooProductLineManager
+ */
+
+/* Special Order Catalog */
+.plm-catalog {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.plm-catalog-header {
+    margin-bottom: 30px;
+}
+
+.plm-catalog-header h2 {
+    margin: 0 0 10px 0;
+}
+
+.plm-catalog-description {
+    color: #666;
+    font-size: 15px;
+}
+
+/* Filters */
+.plm-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 8px;
+}
+
+.plm-filter-group {
+    flex: 1;
+    min-width: 200px;
+}
+
+.plm-filter-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.plm-filter-group select,
+.plm-filter-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Accordion Layout */
+.plm-accordion {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.plm-accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.plm-accordion-item:last-child {
+    border-bottom: none;
+}
+
+.plm-accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.plm-accordion-header:hover {
+    background: #f9f9f9;
+}
+
+.plm-accordion-header h3 {
+    margin: 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.plm-accordion-header .brand-logo {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.plm-accordion-header .meta {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.plm-accordion-toggle {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.plm-accordion-item.open .plm-accordion-toggle {
+    transform: rotate(180deg);
+}
+
+.plm-accordion-content {
+    display: none;
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.plm-accordion-item.open .plm-accordion-content {
+    display: block;
+}
+
+/* Product Grid */
+.plm-product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.plm-product-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.plm-product-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.plm-product-card .image {
+    aspect-ratio: 1;
+    background: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plm-product-card .image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.plm-product-card .details {
+    padding: 15px;
+}
+
+.plm-product-card .line-name {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+    color: #333;
+}
+
+.plm-product-card .size {
+    font-size: 13px;
+    color: #666;
+    margin: 0 0 10px 0;
+}
+
+.plm-product-card .price {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2c5530;
+}
+
+.plm-product-card .actions {
+    padding: 15px;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    gap: 10px;
+}
+
+.plm-product-card .btn {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.plm-product-card .btn-primary {
+    background: #2c5530;
+    color: #fff;
+}
+
+.plm-product-card .btn-primary:hover {
+    background: #1e3d22;
+}
+
+.plm-product-card .btn-secondary {
+    background: #f0f0f0;
+    color: #333;
+}
+
+/* Table Layout */
+.plm-table-layout {
+    overflow-x: auto;
+}
+
+.plm-table-layout table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.plm-table-layout th,
+.plm-table-layout td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.plm-table-layout th {
+    background: #f5f5f5;
+    font-weight: 600;
+}
+
+.plm-table-layout tr:hover {
+    background: #fafafa;
+}
+
+/* Other Sizes Notice */
+.plm-other-sizes {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f0f7ff;
+    border: 1px solid #cce5ff;
+    border-radius: 6px;
+}
+
+.plm-other-sizes h4 {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #004085;
+}
+
+.plm-other-sizes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.plm-other-sizes-list li a {
+    display: inline-block;
+    padding: 5px 12px;
+    background: #fff;
+    border: 1px solid #cce5ff;
+    border-radius: 4px;
+    color: #004085;
+    text-decoration: none;
+    font-size: 13px;
+    transition: all 0.2s ease;
+}
+
+.plm-other-sizes-list li a:hover {
+    background: #cce5ff;
+}
+
+.plm-other-sizes .special-order-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #004085;
+    font-size: 13px;
+}
+
+/* Essentials Grid */
+.plm-essentials {
+    padding: 20px 0;
+}
+
+.plm-essentials-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.plm-essentials-header h3 {
+    margin: 0;
+}
+
+.plm-essentials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.plm-essential-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.2s ease;
+}
+
+.plm-essential-item:hover {
+    border-color: #2c5530;
+}
+
+.plm-essential-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.plm-essential-item .info {
+    flex: 1;
+}
+
+.plm-essential-item .name {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 0 3px 0;
+}
+
+.plm-essential-item .brand {
+    font-size: 11px;
+    color: #666;
+    margin: 0;
+}
+
+/* Product Filter Widget */
+.plm-filter-widget {
+    padding: 15px;
+    background: #f7f7f7;
+    border-radius: 8px;
+}
+
+.plm-filter-widget h4 {
+    margin: 0 0 15px 0;
+    font-size: 16px;
+}
+
+.plm-filter-widget .filter-section {
+    margin-bottom: 15px;
+}
+
+.plm-filter-widget .filter-section:last-child {
+    margin-bottom: 0;
+}
+
+.plm-filter-widget label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.plm-filter-widget select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Badges */
+.plm-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.plm-badge-essential {
+    background: #fef3cd;
+    color: #856404;
+}
+
+.plm-badge-special-order {
+    background: #d4edda;
+    color: #155724;
+}
+
+.plm-badge-out-of-stock {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+/* Loading */
+.plm-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.plm-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #e0e0e0;
+    border-top-color: #2c5530;
+    border-radius: 50%;
+    animation: plm-spin 0.8s linear infinite;
+}
+
+@keyframes plm-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .plm-filters {
+        flex-direction: column;
+    }
+    
+    .plm-filter-group {
+        min-width: 100%;
+    }
+    
+    .plm-product-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .plm-essentials-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .plm-accordion-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .plm-accordion-header .meta {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .plm-product-grid {
+        grid-template-columns: 1fr;
+    }
+}
