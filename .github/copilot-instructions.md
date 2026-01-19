@@ -1,22 +1,40 @@
-# H-Moon Hydro: Shopify Theme + WooCommerce Migration Pipeline
+# H-Moon Hydro: Product Data & WooCommerce Enhancement
+
+## 🚨 PROJECT STATUS UPDATE (January 2026)
+
+**Shopify migration CANCELLED** - Staying on WooCommerce/WordPress/BeaverBuilder stack.
+
+### Active Development Focus
+1. **WooCommerce Product Enhancement** - Apply Shopify-quality improvements to WooCommerce products
+2. **WordPress/BeaverBuilder Design** - Stack design improvements
+3. **ACH Payment Plugin** - Now in separate repo: https://github.com/nuwud/woo-ach-batch
+
+### Archived Components
+| Component | Status | Notes |
+|-----------|--------|-------|
+| `hmoon-pipeline/` | 📦 ARCHIVED | Shopify TypeScript CLI - use data only |
+| Shopify Horizon Theme | 📦 ARCHIVED | Liquid templates not needed |
+| `hmoonhydro.com/` | 🔒 LOCAL ONLY | Not tracked (10k+ images) |
+
+---
 
 ## Architecture Overview
 
-**Hydroponics ecommerce migration** from WooCommerce to Shopify with three components:
+**Hydroponics ecommerce** on WooCommerce with product data improvements:
 
 | Component | Location | Purpose |
 |-----------|----------|---------|
-| **Shopify Horizon Theme** | `/` (root) | Liquid templates, sections, snippets, assets |
-| **HMoon Pipeline** | `hmoon-pipeline/` | TypeScript CLI for product auditing, category building, Shopify GraphQL sync |
-| **Legacy WooCommerce** | `hmoonhydro.com/` | WordPress site + SQL dump for data archaeology |
+| **Product Data** | `CSVs/`, `outputs/` | Cleaned/enriched product catalog |
+| **HMoon Pipeline** | `hmoon-pipeline/` | (ARCHIVED) TypeScript CLI for data processing |
+| **Scripts** | `scripts/` | Python utilities for data transformation |
 
 **SpecKit** (`.speckit/`) contains specs, plans, and templates — check `.speckit/specs/` for active feature specifications.
 
 ---
 
-## 🎯 BEST CSV FOR IMPORT
+## 🎯 BEST CSV FOR WOOCOMMERCE UPDATES
 
-**USE:** `outputs/shopify_complete_import.csv`
+**USE:** `outputs/shopify_complete_import.csv` (rename/transform for WooCommerce)
 
 | Metric | Value |
 |--------|-------|
@@ -24,16 +42,12 @@
 | Total Rows | 4,727 (includes variants) |
 | Image Coverage | 87% (2,199 products) |
 | Description Coverage | 100% |
-| Header Format | ✅ Shopify-compatible (34 columns) |
 
-**⚠️ AVOID the 23,947-row files** (`shopify_final_fixed.csv`, `shopify_100percent.csv`, etc.) — they have bloated row counts with only 17% image coverage due to variant explosion issues.
-
-### Quick Comparison
-| File | Products | Image Coverage | Status |
-|------|----------|----------------|--------|
-| `outputs/shopify_complete_import.csv` | 2,579 | 87% | ✅ **RECOMMENDED** |
-| `CSVs/shopify_import_ready.csv` | ~1,250 | Good | ⚠️ Missing ~half |
-| `outputs/shopify_final_fixed.csv` | 2,870 | 17% | ❌ Bloated/broken |
+This data can be transformed to update WooCommerce products with:
+- Improved descriptions
+- Better categorization
+- Standardized SKUs
+- Brand normalization
 
 ---
 
@@ -47,15 +61,11 @@ ALL destructive scripts default to safe mode:
 ```typescript
 const dryRun = args.includes('--dry-run') || !args.includes('--confirm');
 ```
-Destructive scripts requiring `--confirm`: `wipeShopifyStore.ts`, `enrichShopifyProducts.ts`, `attachProductImages.ts`
 
 ### 3. Protected Files (Never modify without backup)
-- `CSVs/products_export_1.csv` — Canonical Shopify export
+- `CSVs/products_export_1.csv` — Original Shopify export
 - `CSVs/HMoonHydro_Inventory.csv` — POS master inventory
 - `outputs/pos_shopify_alignment.csv` — Manual SKU mappings
-
-### 4. Rate Limiting
-Use 200-500ms pause between Shopify API mutations to avoid throttling.
 
 ---
 
@@ -79,6 +89,8 @@ Use 200-500ms pause between Shopify API mutations to avoid throttling.
 ---
 
 ## 📚 Shopify Documentation Requirement
+
+> ⚠️ **ARCHIVED SECTION** - Shopify migration cancelled. Kept for reference if needed.
 
 ### ⚠️ ALWAYS CHECK OFFICIAL DOCS BEFORE API WORK
 
@@ -140,14 +152,16 @@ CATEGORY_PRIORITY = {
 
 ## Key Workflows
 
-### Full Import Pipeline
+> ⚠️ **ARCHIVED SECTION** - hmoon-pipeline archived. Use data outputs only.
+
+### Full Import Pipeline (ARCHIVED)
 ```bash
 cd hmoon-pipeline
 npx tsx src/cli/runFullImportPipeline.ts  # Generates shopify_import_ready.csv
 ```
 Pipeline: `buildCategoryIndexDraft.ts` → `buildMasterCatalogIndex.ts` → `buildShopifyImport.ts`
 
-### Category Builders (22 total)
+### Category Builders (22 total - ARCHIVED)
 ```bash
 npm run build:nutrients   # → CSVs/master_nutrients.csv
 npm run build:lights      # → CSVs/master_grow_lights.csv
@@ -328,85 +342,10 @@ Products with similar base names differing only by size should share a handle:
 
 ---
 
-## 🔐 WooCommerce ACH Batch Plugin (`woo-ach-batch/`)
+## 🔐 WooCommerce ACH Batch Plugin
 
-### ⚠️ SECURITY-FIRST DEVELOPMENT
+> ⚠️ **MOVED TO SEPARATE REPO**: https://github.com/nuwud/woo-ach-batch
 
-**MANDATORY READING BEFORE ANY CODE CHANGES:**
-- `woo-ach-batch/docs/SENSITIVE_DATA_STORAGE_PLAN.md`
-- `.speckit/specs/ACH_SECURITY_SPEC.md`
+The ACH payment plugin has been moved to its own standalone repository for cleaner separation of concerns. This plugin is for a different WooCommerce site, not H-Moon Hydro.
 
-### Sensitive Data Rules
-
-| Data Type | How to Handle |
-|-----------|--------------|
-| Bank Routing/Account | **ALWAYS** use `Encryption::encrypt()` before storage |
-| KYC Documents | Store in protected `/kyc/` directory with `.htaccess` |
-| NACHA Files | Store in protected `/nacha/` directory |
-| Full Bank Numbers | **NEVER** log, display, or return in API |
-| Last 4 Digits | OK to display for reference |
-
-### What NEVER to Do
-
-```php
-// ❌ NEVER log sensitive data
-error_log($routing_number);
-\Nuwud\WooAchBatch\log_message("Routing: $routing_number");
-
-// ❌ NEVER return full bank details in API
-return new WP_REST_Response(['account' => $account_number]);
-
-// ❌ NEVER display full bank details in admin
-echo "Account: {$bank_details['account']}";
-
-// ❌ NEVER store plaintext bank data
-$order->update_meta_data('_ach_routing', $routing_number);
-```
-
-### What ALWAYS to Do
-
-```php
-// ✅ ALWAYS encrypt before storage
-$encrypted = $this->encryption->encrypt($routing_number);
-$order->update_meta_data('_ach_routing_encrypted', $encrypted);
-
-// ✅ ALWAYS only expose last4
-return new WP_REST_Response(['last4' => substr($account_number, -4)]);
-
-// ✅ ALWAYS audit log sensitive operations
-$audit_log->log('bank_details_accessed', 'order', $order_id);
-
-// ✅ ALWAYS use rate limiting for verification attempts
-$rate_limiter = service('rate_limiter');
-$check = $rate_limiter->check('verification_attempt', $ip_address);
-if (!$check['allowed']) { /* block request */ }
-```
-
-### Processor Field Mapping
-
-Use `MappingConfig` for processor-specific NACHA formatting:
-
-```php
-// Get mapping service
-$mapping = \Nuwud\WooAchBatch\service('mapping_config');
-
-// Switch to processor profile
-$mapping->set_active_profile('dan_processor');  // 'default', 'dan_processor', 'test'
-
-// Get formatted field value
-$value = $mapping->get_field_value('entry_detail', 'dfi_account_number', $order, [
-    'bank_details' => $decrypted_bank_details,
-]);
-```
-
-### Key ACH Plugin Files
-
-| File | Purpose |
-|------|---------|
-| `src/Security/Encryption.php` | AES-256-GCM encryption |
-| `src/Security/RateLimiter.php` | Rate limiting for sensitive ops |
-| `src/Security/AuditLog.php` | Compliance audit trail |
-| `src/Order/OrderMeta.php` | Encrypted bank details storage |
-| `src/Nacha/MappingConfig.php` | Processor field mapping |
-| `src/Kyc/DocumentHandler.php` | Secure document uploads |
-| `docs/SENSITIVE_DATA_STORAGE_PLAN.md` | **MANDATORY** security doc |
+**For ACH plugin development, clone:** `git clone https://github.com/nuwud/woo-ach-batch.git`
