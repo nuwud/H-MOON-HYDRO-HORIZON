@@ -1,0 +1,3341 @@
+[
+  {
+    "id": "13230",
+    "slug": "the-hammer",
+    "name": "The Hammer",
+    "category": "Nutrients & Supplements",
+    "type": "grouped"
+  },
+  {
+    "id": "13265",
+    "slug": "mykos-30-mycorrhizal-inoculant-2-2-lb",
+    "name": "Mykos 30 Mycorrhizal inoculant 2.2 lb.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13279",
+    "slug": "rapid-rooter-rooting-plugs",
+    "name": "Rapid Rooter Rooting Plugs",
+    "category": "Growing Medium, Propagation Supplies",
+    "type": "grouped"
+  },
+  {
+    "id": "13337",
+    "slug": "flora-micro-16-oz",
+    "name": "Flora Micro 16 oz",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13342",
+    "slug": "floragro-16-oz",
+    "name": "FloraGro 16 oz",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13347",
+    "slug": "flora-bloom-16-oz",
+    "name": "Flora Bloom 16 oz",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13352",
+    "slug": "floranova-grow-16-oz",
+    "name": "FloraNova Grow 16 oz",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13357",
+    "slug": "floranova-bloom-16-oz",
+    "name": "FloraNova Bloom 16 oz",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13361",
+    "slug": "maxigro-2-2-lb",
+    "name": "MaxiGro 2.2 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13362",
+    "slug": "maxigro-16-lb",
+    "name": "MaxiGro 16 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13363",
+    "slug": "maxigro-50-lb",
+    "name": "MaxiGro 50 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13364",
+    "slug": "maxibloom-2-2-lb",
+    "name": "MaxiBloom 2.2 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13365",
+    "slug": "maxibloom-16-lb",
+    "name": "MaxiBloom 16 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13366",
+    "slug": "maxibloom-50-lb",
+    "name": "MaxiBloom 50 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13372",
+    "slug": "floraduo-a-16-oz",
+    "name": "FloraDuo A 16 oz",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13378",
+    "slug": "floraduo-b-16-oz",
+    "name": "FloraDuo B 16 oz",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13401",
+    "slug": "flora-shield-1-pt",
+    "name": "Flora Shield 1 pt",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13421",
+    "slug": "rapid-start-1-pt",
+    "name": "Rapid Start 1 pt",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13499",
+    "slug": "better-bloom-2-kg",
+    "name": "Better Bloom 2 kg",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13500",
+    "slug": "better-bloom-10-kg",
+    "name": "Better Bloom 10 kg",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13503",
+    "slug": "jungle-green-2-5-kg",
+    "name": "Jungle Green 2.5 kg",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13504",
+    "slug": "jungle-green-10-kg",
+    "name": "Jungle Green 10 kg",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13505",
+    "slug": "royal-black-1-liter",
+    "name": "Royal Black 1 liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13507",
+    "slug": "royal-black-4-liter",
+    "name": "Royal Black 4 liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13508",
+    "slug": "royal-gold-1-liter",
+    "name": "Royal Gold 1 liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13510",
+    "slug": "royal-gold-4-liter",
+    "name": "Royal Gold 4 liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13513",
+    "slug": "yield-up-9-47-9-2-kg",
+    "name": "Yield Up 9-47-9 2 kg",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13514",
+    "slug": "yield-up-9-47-9-10-kg",
+    "name": "Yield Up 9-47-9 10 kg",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13522",
+    "slug": "carbo-blast-2-5-kg",
+    "name": "Carbo Blast 2.5 kg",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13527",
+    "slug": "prop-o-gator-1-liter",
+    "name": "Prop-O-Gator 1 liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13528",
+    "slug": "prop-o-gator-4-liter",
+    "name": "Prop-O-Gator 4 liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13529",
+    "slug": "quick-roots-gel-2-oz",
+    "name": "Quick Roots Gel 2 oz",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13531",
+    "slug": "quick-roots-gel-4-oz",
+    "name": "Quick Roots Gel 4 oz",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13532",
+    "slug": "quick-roots-gel-8-oz",
+    "name": "Quick Roots Gel 8 oz",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13535",
+    "slug": "suck-it-up-1-liter",
+    "name": "Suck it Up 1 liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13536",
+    "slug": "suck-it-up-4-liter",
+    "name": "Suck it Up 4 liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13537",
+    "slug": "double-super-b-1-liter",
+    "name": "Double Super B+ 1 liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13539",
+    "slug": "double-super-b-4-liter",
+    "name": "Double Super B+ 4 liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13540",
+    "slug": "double-super-b-10-liter",
+    "name": "Double Super B+ 10 liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13541",
+    "slug": "double-super-b-23-liter",
+    "name": "Double Super B+ 23 liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13548",
+    "slug": "ton-o-bud-1-kg",
+    "name": "Ton O Bud 1 kg",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13549",
+    "slug": "the-hammer-20-gm",
+    "name": "The Hammer 20 gm",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13551",
+    "slug": "the-hammer-100-gm",
+    "name": "The Hammer 100 gm",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13649",
+    "slug": "mayan-microzyme-1-qt",
+    "name": "Mayan Microzyme 1 qt",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "13710",
+    "slug": "miniblocks-1-5-x-1-5-x-1-5-6-15mm-hole98-plugs-per-matt",
+    "name": "Miniblocks 1.5 x 1.5 x 1.5, 6/15mm hole<br>(98 plugs per matt)",
+    "category": "Growing Medium",
+    "type": "simple"
+  },
+  {
+    "id": "13759",
+    "slug": "waterfarm-reservoir-4-gal",
+    "name": "WaterFarm Reservoir - 4 gal",
+    "category": "Hydroponic Gardens",
+    "type": "simple"
+  },
+  {
+    "id": "13760",
+    "slug": "waterfarm-growing-chamber-2-gal",
+    "name": "WaterFarm Growing chamber - 2 gal",
+    "category": "Hydroponic Gardens",
+    "type": "simple"
+  },
+  {
+    "id": "13780",
+    "slug": "8-in-cool-tube-with-reflector-socket-w-15-ft-cord-24-long",
+    "name": "8 in. Cool Tube with reflector socket w/ 15 ft cord - 24 long",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "13782",
+    "slug": "6-in-cool-tube-with-reflector-socket-w-15-ft-cord-24-long",
+    "name": "6 in. Cool Tube with reflector socket w/ 15 ft cord - 24 long",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "13783",
+    "slug": "ultragrow-a-c-6-in-with-saftey-glass-socket-set-w-15-ft-cord",
+    "name": "Ultragrow A/C 6 in. with saftey glass & socket set w/ 15 ft cord",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "13785",
+    "slug": "ultragrow-a-c-8-in-with-saftey-glass-socket-set-w-15-ft-cord",
+    "name": "Ultragrow A/C 8 in. with saftey glass & socket set w/ 15 ft cord",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "13795",
+    "slug": "4-t5-fixture-54w-5022-lumens",
+    "name": "4' T5 Fixture 54W (5022 Lumens)",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "13817",
+    "slug": "doktor-doom-total-fogger-5-5-oz",
+    "name": "Doktor Doom Total Fogger 5.5 oz",
+    "category": "Pest Control",
+    "type": "simple"
+  },
+  {
+    "id": "13827",
+    "slug": "zero-tolerance-herbal-fungicide-gal",
+    "name": "Zero Tolerance <b>Herbal Fungicide</b> gal",
+    "category": "Pest Control",
+    "type": "simple"
+  },
+  {
+    "id": "13829",
+    "slug": "zero-tolerance-pest-control-gal",
+    "name": "Zero Tolerance <b>Pest Control</b> gal",
+    "category": "Pest Control",
+    "type": "simple"
+  },
+  {
+    "id": "13834",
+    "slug": "timemist-purge-i-3-2-oz",
+    "name": "TimeMist Purge I - 3.2 oz",
+    "category": "Pest Control",
+    "type": "simple"
+  },
+  {
+    "id": "13839",
+    "slug": "garden-fungicide-32-oz",
+    "name": "Garden Fungicide 32 oz",
+    "category": "Pest Control",
+    "type": "simple"
+  },
+  {
+    "id": "13845",
+    "slug": "2-heavy-duty-neoprene-collars-case-of-200",
+    "name": "2 heavy duty neoprene collars (case of 200)",
+    "category": "Propagation Supplies",
+    "type": "simple"
+  },
+  {
+    "id": "13862",
+    "slug": "flowmaster-gallon-meter-3-8-in",
+    "name": "Flowmaster - Gallon Meter 3/8 in",
+    "category": "Water Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "13896",
+    "slug": "spigot-for-6-gal-container",
+    "name": "Spigot for 6 Gal container",
+    "category": "Fittings & Parts",
+    "type": "simple"
+  },
+  {
+    "id": "13899",
+    "slug": "1-1-4-drain-overflow-tube",
+    "name": "1 1/4 drain overflow tube",
+    "category": "Fittings & Parts",
+    "type": "simple"
+  },
+  {
+    "id": "13900",
+    "slug": "1-1-4-reservoir-filter",
+    "name": "1 1/4 reservoir filter",
+    "category": "Fittings & Parts",
+    "type": "simple"
+  },
+  {
+    "id": "13902",
+    "slug": "1-2-barb-connectors",
+    "name": "1/2 Barb Connectors",
+    "category": "Fittings & Parts",
+    "type": "grouped"
+  },
+  {
+    "id": "13903",
+    "slug": "the-bucket-basket",
+    "name": "The Bucket Basket",
+    "category": "Fittings & Parts",
+    "type": "grouped"
+  },
+  {
+    "id": "13915",
+    "slug": "on-off-switcher-120v",
+    "name": "ON /OFF Switcher 120V",
+    "category": "Timers",
+    "type": "grouped"
+  },
+  {
+    "id": "13942",
+    "slug": "the-rack-collapsible-drying-system",
+    "name": "The Rack - Collapsible Drying System",
+    "category": "Drying & Extraction",
+    "type": "grouped"
+  },
+  {
+    "id": "13944",
+    "slug": "the-trimpro",
+    "name": "The TRIMPRO",
+    "category": "Trimmers",
+    "type": "grouped"
+  },
+  {
+    "id": "13945",
+    "slug": "the-trimpro-workstation",
+    "name": "The TRIMPRO WORKSTATION",
+    "category": "Trimmers",
+    "type": "grouped"
+  },
+  {
+    "id": "13970",
+    "slug": "38-special-50-15-od-26-high-6-flange-size-420-cfm",
+    "name": "38 Special 50, 15 OD, 26 High, 6 flange size, 420 CFM",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "13972",
+    "slug": "38-special-75-15-od-29-5-high-8-flange-size-600-cfm",
+    "name": "38 Special 75, 15 OD, 29.5 High, 8 flange size, 600 CFM",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "13973",
+    "slug": "38-special-100-15-od-39-4-high-8-flange-size-840-cfm",
+    "name": "38 Special 100, 15 OD, 39.4 High, 8 flange size, 840 CFM",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "13976",
+    "slug": "combo-max-8-w-can-75-8-flange-675-cfm",
+    "name": "COMBO Max 8 w/Can 75 & 8 Flange, 675 CFM",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "13982",
+    "slug": "can-filter-75-w-8-ho-559-cfm-fan-combo-freight-shipping-only",
+    "name": "Can-Filter 75 W/ 8 HO 559 CFM Fan Combo (freight shipping ONLY)",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "13983",
+    "slug": "can-filter-100-w-8-ho-620-cfm-fan-combo-freight-shipping-only",
+    "name": "Can-Filter 100 W/ 8 HO 620 CFM Fan Combo (freight shipping ONLY)",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "13989",
+    "slug": "can-33-filter-12-od-13-high-6-flange-size-200-cfm",
+    "name": "CAN 33 Filter 12 OD, 13 high, 6 flange size, 200 CFM",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "13990",
+    "slug": "can-50-filter-16-5-od-19-8-high-8-flange-size-420-cfm",
+    "name": "CAN 50 Filter 16.5 OD, 19.8 high, 8 flange size, 420 CFM",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "13991",
+    "slug": "can-66-filter-12-od-26-high-8-flange-size-412-cfm",
+    "name": "CAN 66 Filter 12 OD, 26 high, 8 flange size, 412 CFM",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "13992",
+    "slug": "can-75-filter-16-5-od-29-5-high-8-flange-size-600-cfm",
+    "name": "CAN 75 Filter 16.5 OD, 29.5 high, 8 flange size, 600 CFM",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "13993",
+    "slug": "can-100-filter-16-5-od-39-4-high-8-flange-size-840-cfm",
+    "name": "CAN 100 Filter 16.5 OD, 39.4 high, 8 flange size, 840 CFM",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "13994",
+    "slug": "can-125-filter-16-5-od-49-2-high-10-flange-size-1110-cfm",
+    "name": "CAN 125 Filter 16.5 OD, 49.2 high, 10 flange size, 1110 CFM",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "14010",
+    "slug": "6-can-filter-flange",
+    "name": "6 CAN Filter Flange",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "14012",
+    "slug": "10-can-filter-flange",
+    "name": "10 CAN Filter Flange",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "14013",
+    "slug": "12-can-filter-flange",
+    "name": "12 CAN Filter Flange",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "14020",
+    "slug": "pro-50-6-reversible-450-cfm",
+    "name": "PRO 50 - 6 Reversible-450 cfm.",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "14021",
+    "slug": "pro-70s-6-non-rev-400-cfm",
+    "name": "PRO 70s - 6 Non-rev.-400 cfm.",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "14022",
+    "slug": "pro-75-6-reversible-640-cfm",
+    "name": "PRO 75 - 6 Reversible - 640 cfm.",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "14023",
+    "slug": "pro-100-8-reversible-900-cfmfreight-shipping-only",
+    "name": "PRO 100 - 8 Reversible - 900 cfm(freight shipping ONLY)",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "14024",
+    "slug": "pro-125-10-reversible-1140-cfm-freight-shipping-only",
+    "name": "PRO 125 - 10 Reversible - 1140 cfm (freight shipping ONLY)",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "14027",
+    "slug": "6-flange",
+    "name": "6 Flange",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "14028",
+    "slug": "8-flange",
+    "name": "8 Flange",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "14029",
+    "slug": "10-flange",
+    "name": "10 Flange",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "14030",
+    "slug": "12-flange",
+    "name": "12 Flange",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "14082",
+    "slug": "6-in-backdraft-damper",
+    "name": "6 in. Backdraft Damper",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14083",
+    "slug": "8-in-backdraft-damper",
+    "name": "8 in. Backdraft Damper",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14084",
+    "slug": "10-in-backdraft-damper",
+    "name": "10 in. Backdraft Damper",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14085",
+    "slug": "12-in-backdraft-damper",
+    "name": "12 in. Backdraft Damper",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14091",
+    "slug": "can-fan-4-standard-output-142-cfm",
+    "name": "Can-Fan 4 standard output 142 CFM",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14092",
+    "slug": "can-fan-4-high-output-178-cfm",
+    "name": "Can-Fan 4 high output 178 CFM",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14093",
+    "slug": "can-fan-6-standard-output-270-cfm",
+    "name": "Can-Fan 6 standard output 270 CFM",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14094",
+    "slug": "can-fan-6-high-output-440-cfm",
+    "name": "Can-Fan 6 high output 440 CFM",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14095",
+    "slug": "can-fan-8-standard-output-493-cfm",
+    "name": "Can-Fan 8 standard output 493 CFM",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14096",
+    "slug": "can-fan-10-high-output-781-cfm",
+    "name": "Can-Fan 10 high output 781 CFM",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14097",
+    "slug": "can-fan-12-high-output-971-cfm",
+    "name": "Can-Fan 12 high output 971 CFM",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14098",
+    "slug": "4-in-x-25-ft-flexible-duct-w-2-clamps-included",
+    "name": "4 in. x 25 ft flexible duct w/ 2 clamps included",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14100",
+    "slug": "6-in-x-25-ft-flexible-duct-w-2-clamps-included",
+    "name": "6 in. x 25 ft flexible duct W/ 2 clamps included",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14101",
+    "slug": "8-in-x-25-ft-flexible-duct-w-2-clamps-included",
+    "name": "8 in. x 25 ft flexible duct w / 2 clamps included",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14102",
+    "slug": "10-in-x-25-ft-flexible-duct-w-2-clamps-included",
+    "name": "10 in. x 25 ft flexible duct w/ 2 clamps included",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14103",
+    "slug": "12-in-x-25-ft-flexible-duct-w-2-clamps-included",
+    "name": "12 in. x 25 ft flexible duct w/ 2 clamps included",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14104",
+    "slug": "4-in-hose-clamps",
+    "name": "4 in. hose clamps",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14105",
+    "slug": "6-in-hose-clamps",
+    "name": "6 in. hose clamps",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14106",
+    "slug": "8-in-hose-clamps",
+    "name": "8 in. hose clamps",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14107",
+    "slug": "8-max-fan-675-cfm",
+    "name": "8 Max-Fan, 675 CFM",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14109",
+    "slug": "10-max-fan-1023-cfm",
+    "name": "10 Max-Fan, 1023 CFM",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14110",
+    "slug": "12-max-fan-1709-cfm",
+    "name": "12 Max-Fan, 1709 CFM",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14116",
+    "slug": "10-x-10-x-10-y-connector",
+    "name": "10 X 10 X 10 Y Connector",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14120",
+    "slug": "guano-filtration-220u-washer-bag-5-gallon",
+    "name": "Guano Filtration 220U Washer Bag - 5 gallon",
+    "category": "Drying & Extraction",
+    "type": "simple"
+  },
+  {
+    "id": "14122",
+    "slug": "the-rack-collapsible-drying-system-2",
+    "name": "The Rack- Collapsible Drying System",
+    "category": "Drying & Extraction",
+    "type": "simple"
+  },
+  {
+    "id": "14125",
+    "slug": "5-gal-4-bag-kit-w-12-x-10-pressing-screen",
+    "name": "5 Gal, 4 bag Kit w/12 x 10 pressing screen",
+    "category": "Drying & Extraction",
+    "type": "simple"
+  },
+  {
+    "id": "14127",
+    "slug": "5-gal-9-bag-kit-w-12-x-10-pressing-screen",
+    "name": "5 Gal, 9 bag Kit w/12 x 10 pressing screen",
+    "category": "Drying & Extraction",
+    "type": "simple"
+  },
+  {
+    "id": "14128",
+    "slug": "1-2-grommet-bag-of-25",
+    "name": "1/2 Grommet (bag of 25)",
+    "category": "Fittings & Parts",
+    "type": "simple"
+  },
+  {
+    "id": "14131",
+    "slug": "1-1-4-grommet-bag-of-10",
+    "name": "1 1/4 Grommet (bag of 10)",
+    "category": "Fittings & Parts",
+    "type": "simple"
+  },
+  {
+    "id": "14132",
+    "slug": "4-laser-sprayline",
+    "name": "4' Laser Sprayline",
+    "category": "Fittings & Parts",
+    "type": "simple"
+  },
+  {
+    "id": "14138",
+    "slug": "5-8-shut-off-barbed-valve-bag-of-10",
+    "name": "5/8 shut-off barbed valve (bag of 10)",
+    "category": "Fittings & Parts",
+    "type": "simple"
+  },
+  {
+    "id": "14139",
+    "slug": "6-in-bucket-basket",
+    "name": "6 in. Bucket Basket",
+    "category": "Fittings & Parts",
+    "type": "simple"
+  },
+  {
+    "id": "14141",
+    "slug": "10-in-bucket-basket",
+    "name": "10 in. Bucket Basket",
+    "category": "Fittings & Parts",
+    "type": "simple"
+  },
+  {
+    "id": "14142",
+    "slug": "4-76-gallon-bucket-no-handle",
+    "name": "4.76 Gallon Bucket - No Handle",
+    "category": "Fittings & Parts",
+    "type": "simple"
+  },
+  {
+    "id": "14145",
+    "slug": "6-mesh-basket",
+    "name": "6 Mesh Basket",
+    "category": "Fittings & Parts",
+    "type": "simple"
+  },
+  {
+    "id": "14146",
+    "slug": "1-2-fill-drain-fitting-bag-of-10",
+    "name": "1/2 Fill & Drain Fitting (Bag of 10)",
+    "category": "Fittings & Parts",
+    "type": "simple"
+  },
+  {
+    "id": "14156",
+    "slug": "4-in-site-plug-case-of-10",
+    "name": "4 in. Site Plug (case of 10)",
+    "category": "Fittings & Parts",
+    "type": "simple"
+  },
+  {
+    "id": "14157",
+    "slug": "6-in-site-plug-case-of-10",
+    "name": "6 in. Site Plug (case of 10)",
+    "category": "Fittings & Parts",
+    "type": "simple"
+  },
+  {
+    "id": "14163",
+    "slug": "basic-1000w-mh-hps-switchable-ballast",
+    "name": "Basic 1000W MH/HPS Switchable Ballast",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "14169",
+    "slug": "1000-w-hps-alto-agrolite-xt-140000-lumens",
+    "name": "1000 W HPS Alto Agrolite XT 140000 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14174",
+    "slug": "pulse-start-m-h-600w-7000k-for-vegative-growth",
+    "name": "Pulse Start M.H.600W. 7,000K for Vegative Growth",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14175",
+    "slug": "pulse-start-m-h-600w-3000k-for-flowering-growth",
+    "name": "Pulse Start M.H.600W. 3,000K for Flowering Growth",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14176",
+    "slug": "pulse-start-m-h-600w-10000k-for-final-flowering",
+    "name": "Pulse Start M.H.600W. 10,000K for Final Flowering",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14177",
+    "slug": "pulse-start-m-h-1000w-7000k-for-vegative-growth",
+    "name": "Pulse Start M.H.1000W. 7,000K for Vegative Growth",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14178",
+    "slug": "pulse-start-m-h-1000w-3000k-for-flowering-growth",
+    "name": "Pulse Start M.H.1000W. 3,000K for Flowering Growth",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14179",
+    "slug": "pulse-start-m-h-1000w-10000k-for-final-flowering",
+    "name": "Pulse Start M.H.1000W. 10,000K for Final Flowering",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14180",
+    "slug": "plantmax-250w-mh-high-output-24000-lumens",
+    "name": "Plantmax 250W. MH High Output 24,000 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14181",
+    "slug": "plantmax-400w-mh-high-output-39000-lumens",
+    "name": "Plantmax 400W. MH High Output 39,000 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14182",
+    "slug": "plantmax-1000w-mh-high-output-120000-lumens",
+    "name": "Plantmax 1000W. MH High Output 120,000 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14183",
+    "slug": "plantmax-400w-72k-mh-high-output-32000-lumens",
+    "name": "Plantmax 400W. 72K MH High Output 32,000 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14184",
+    "slug": "plantmax-1000w-72k-mh-high-output-90000-lumens",
+    "name": "Plantmax 1000W. 72K MH High Output 90,000 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14185",
+    "slug": "plantmax-250w-hps-high-output-29000-lumens",
+    "name": "Plantmax 250W. HPS High Output 29,000 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14186",
+    "slug": "plantmax-400w-hps-high-output-50000-lumens",
+    "name": "Plantmax 400W. HPS High Output 50,000 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14188",
+    "slug": "plantmax-600w-hps-high-output-90000-lumens",
+    "name": "Plantmax 600W. HPS High Output 90,000 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14192",
+    "slug": "plantmax-400w-mh-conversion-36000-lumens",
+    "name": "Plantmax 400W. MH Conversion 36,000 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14193",
+    "slug": "plantmax-600w-mh-conversion-57000-lumens",
+    "name": "Plantmax 600W. MH Conversion 57,000 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14194",
+    "slug": "plantmax-1000w-mh-conversion-110000-lumens",
+    "name": "Plantmax 1000W. MH Conversion 110,000 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14195",
+    "slug": "t5-cfl-2-plantmax-warm-24w-3000k-tube-2280-lumens",
+    "name": "T5 CFL 2' Plantmax Warm 24W 3000K tube 2,280 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14197",
+    "slug": "t5-cfl-2-plantmax-day-24w-6500k-tube-2520-lumens",
+    "name": "T5 CFL 2' Plantmax Day 24W. 6500K tube 2520 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14198",
+    "slug": "t5-cfl-4-plantmax-warm-54w-3000k-tube-4800-lumens",
+    "name": "T5 CFL 4' Plantmax Warm 54W. 3000K tube 4800 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14200",
+    "slug": "solarmax-400w-hps-w-55000-lumens",
+    "name": "SolarMax 400W. HPS W/ 55,000 Lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14202",
+    "slug": "solarmax-600w-hps-w-95000-lumens",
+    "name": "SolarMax 600W. HPS W/ 95,000 Lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14203",
+    "slug": "solarmax-1000w-hps-w-147000-lumens",
+    "name": "SolarMax 1000W. HPS w/ 147,000 Lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14204",
+    "slug": "solarmax-400w-mht-veg-conversion-w-32000-lumens",
+    "name": "SolarMax 400W. MHT veg/Conversion w/32,000 Lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14206",
+    "slug": "solarmax-600w-mht-veg-conversion-w-55000-lumens",
+    "name": "SolarMax 600W. MHT veg/Conversion w/ 55,000 Lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14207",
+    "slug": "solarmax-1000w-mht-veg-conversion-w-90000-lumens",
+    "name": "SolarMax 1000W. MHT veg/Conversion w/ 90,000 Lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14208",
+    "slug": "solarmax-400w-mht-metal-halide-veg-32000-lumens",
+    "name": "SolarMax 400W. MHT Metal Halide Veg. 32,000 Lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14210",
+    "slug": "smmh1000wv-solarmax-1000w-mht-metal-hailde-veg-85000-lumens",
+    "name": "SMMH1000WV SolarMax 1000W MHT Metal Hailde Veg. 85,000 Lumens",
+    "category": "Uncategorized",
+    "type": "simple"
+  },
+  {
+    "id": "14211",
+    "slug": "solarmax-400w-mh-gold-36000-lumens",
+    "name": "SolarMax 400W. MH Gold 36,000 Lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14214",
+    "slug": "light-rail-5-motor-crossbar-8-rail",
+    "name": "Light Rail 5 Motor, Crossbar, 8' rail",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "14244",
+    "slug": "mag-drive-pump-filter",
+    "name": "mag drive pump filter",
+    "category": "Water Pumps",
+    "type": "simple"
+  },
+  {
+    "id": "14247",
+    "slug": "block-ir-4-x-25-roll",
+    "name": "Block-IR 4' x 25' Roll",
+    "category": "Reflective Wall Fabric",
+    "type": "simple"
+  },
+  {
+    "id": "14249",
+    "slug": "block-ir-4-x-50-roll",
+    "name": "Block-IR 4' x 50' Roll",
+    "category": "Reflective Wall Fabric",
+    "type": "simple"
+  },
+  {
+    "id": "14250",
+    "slug": "block-ir-4-x-100-roll",
+    "name": "Block-IR 4' x 100' Roll",
+    "category": "Reflective Wall Fabric",
+    "type": "simple"
+  },
+  {
+    "id": "14275",
+    "slug": "on-off-switcher-120v-3",
+    "name": "ON/OFF Switcher 120V",
+    "category": "Timers",
+    "type": "simple"
+  },
+  {
+    "id": "14309",
+    "slug": "8-oz-twin-pack-electrode-cleaning-solution-a-b",
+    "name": "8 oz twin pack electrode cleaning solution #A & #B",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14310",
+    "slug": "8oz-electrode-storage-solution",
+    "name": "8oz electrode storage solution",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14311",
+    "slug": "ph-4-01-16-oz",
+    "name": "pH 4.01 - 16 oz",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14312",
+    "slug": "ph-7-0-16-oz",
+    "name": "pH 7.0 /16 oz",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14313",
+    "slug": "ppm-1500-tds-2-142-ms-8-oz",
+    "name": "PPM-1500 TDS / 2.142 ms 8 oz",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14314",
+    "slug": "ppm-1500-tds-2-142-ms-16-oz",
+    "name": "PPM-1500 TDS / 2.142 ms 16 oz",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14323",
+    "slug": "ph-probe-electrode-3-lead-wire",
+    "name": "pH probe electrode 3' lead wire",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14327",
+    "slug": "ph-up-8-oz",
+    "name": "pH-Up 8 oz",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14329",
+    "slug": "ph-up-1-qt",
+    "name": "pH-Up 1 qt",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14330",
+    "slug": "ph-up-1-gal",
+    "name": "pH-Up 1 gal",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14331",
+    "slug": "ph-up-dry-1-5-lb",
+    "name": "pH Up Dry 1.5 lb",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14333",
+    "slug": "ph-up-dry-16-lb",
+    "name": "pH Up Dry 16 lb",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14334",
+    "slug": "ph-down-8-oz",
+    "name": "pH Down 8 oz.",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14335",
+    "slug": "ph-down-1-qt",
+    "name": "pH Down 1 qt",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14336",
+    "slug": "ph-down-1-gal",
+    "name": "pH Down 1 gal",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14337",
+    "slug": "ph-down-dry-1-5-lb",
+    "name": "pH Down Dry 1.5 lb",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14338",
+    "slug": "ph-4-01-calibration-solution-8-oz",
+    "name": "pH 4.01 Calibration Solution 8 oz.",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14339",
+    "slug": "ph-4-01-calibration-solution-qt",
+    "name": "pH 4.01 Calibration Solution qt.",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14340",
+    "slug": "ph-7-0-calibration-solution-8-oz",
+    "name": "pH 7.0 Calibration Solution 8 oz.",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14341",
+    "slug": "ph-7-0-calibration-solution-qt",
+    "name": "pH 7.0 Calibration Solution qt.",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14342",
+    "slug": "1500-ppm-calibration-solution-8-oz",
+    "name": "1500 ppm Calibration Solution 8 oz.",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14344",
+    "slug": "ph-test-kit-1-oz",
+    "name": "pH Test Kit 1 oz",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14345",
+    "slug": "ph-test-indicator-8-oz",
+    "name": "pH Test indicator 8 oz",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "14419",
+    "slug": "sensi-grow-part-a-1-gal",
+    "name": "Sensi Grow part A (1 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14421",
+    "slug": "sensi-grow-part-a-2-5-gal",
+    "name": "Sensi Grow part A (2.5 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14433",
+    "slug": "ultra-premium-connoisseur-part-a-1-gal",
+    "name": "Ultra-premium Connoisseur Part-A (1 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14435",
+    "slug": "ultra-premium-connoisseur-part-b-1-gal",
+    "name": "Ultra-premium Connoisseur Part-B (1 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14451",
+    "slug": "big-bloom-liquid-plant-food-1-qt",
+    "name": "Big Bloom Liquid Plant Food (1 qt)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14453",
+    "slug": "big-bloom-liquid-plant-food-1-gal",
+    "name": "Big Bloom Liquid Plant Food (1 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14456",
+    "slug": "grow-big-liquid-plant-food-1-qt",
+    "name": "Grow Big Liquid Plant Food (1 qt)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14458",
+    "slug": "grow-big-liquid-plant-food-1-gal",
+    "name": "Grow Big Liquid Plant Food (1 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14461",
+    "slug": "tiger-bloom-liquid-plant-food-1-qt",
+    "name": "Tiger Bloom Liquid Plant Food (1 qt)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14463",
+    "slug": "tiger-bloom-liquid-plant-food-1-gal",
+    "name": "Tiger Bloom Liquid Plant Food (1 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14478",
+    "slug": "sledgehammer-1-qt",
+    "name": "SledgeHammer (1 qt)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14486",
+    "slug": "ona-liquid-polar-crystal-1-qt",
+    "name": "ONA Liquid Polar Crystal (1 qt)",
+    "category": "Odor Control",
+    "type": "simple"
+  },
+  {
+    "id": "14487",
+    "slug": "ona-liquid-polar-crystal-1-gal",
+    "name": "ONA Liquid Polar Crystal (1 gal)",
+    "category": "Odor Control",
+    "type": "simple"
+  },
+  {
+    "id": "14488",
+    "slug": "ona-gel-fresh-linen-1-qt",
+    "name": "ONA Gel Fresh Linen (1 qt)",
+    "category": "Odor Control",
+    "type": "simple"
+  },
+  {
+    "id": "14490",
+    "slug": "ona-gel-fresh-linen-1-gal",
+    "name": "ONA Gel Fresh Linen (1 gal)",
+    "category": "Odor Control",
+    "type": "simple"
+  },
+  {
+    "id": "14491",
+    "slug": "ona-gel-fresh-linen-bucket-5-gal",
+    "name": "ONA Gel Fresh Linen Bucket (5 gal)",
+    "category": "Odor Control",
+    "type": "simple"
+  },
+  {
+    "id": "14492",
+    "slug": "ona-pro-gel-1-qt",
+    "name": "ONA Pro Gel (1 qt)",
+    "category": "Odor Control",
+    "type": "simple"
+  },
+  {
+    "id": "14493",
+    "slug": "ona-pro-gel-1-gal",
+    "name": "ONA Pro Gel (1 gal)",
+    "category": "Odor Control",
+    "type": "simple"
+  },
+  {
+    "id": "14494",
+    "slug": "ona-pro-gel-bucket-5-gal",
+    "name": "ONA Pro Gel Bucket (5 gal)",
+    "category": "Odor Control",
+    "type": "simple"
+  },
+  {
+    "id": "14504",
+    "slug": "plantmax-150w-hps-high-output-16000-lumens",
+    "name": "Plantmax 150W. HPS High Output 16,000 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14509",
+    "slug": "the-root-pouch-1-gallon",
+    "name": "The Root Pouch 1 Gallon",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "14511",
+    "slug": "the-root-pouch-2-gallon",
+    "name": "The Root Pouch 2 Gallon",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "14512",
+    "slug": "the-root-pouch-3-gallon",
+    "name": "The Root Pouch 3 Gallon",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "14514",
+    "slug": "the-root-pouch-7-gallon",
+    "name": "The Root Pouch 7 Gallon",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "14515",
+    "slug": "the-root-pouch-10-gallon",
+    "name": "The Root Pouch 10 Gallon",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "14516",
+    "slug": "the-root-pouch-15-gallon-w-handle",
+    "name": "The Root Pouch 15 gallon w/ Handle",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "14517",
+    "slug": "the-root-pouch-20-gallon-w-handle",
+    "name": "The Root Pouch 20 Gallon w/ Handle",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "14518",
+    "slug": "the-root-pouch-25-gallon-w-handle",
+    "name": "The Root Pouch 25 Gallon w/ Handle",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "14519",
+    "slug": "the-root-pouch-30-gallon-w-handle",
+    "name": "The Root Pouch 30 Gallon w/ Handle",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "14520",
+    "slug": "the-root-pouch-35-gallon-w-handle",
+    "name": "The Root Pouch 35 Gallon w/ Handle",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "14521",
+    "slug": "the-root-pouch-45-gallon-w-handle",
+    "name": "The Root Pouch 45 Gallon w/ Handle",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "14522",
+    "slug": "the-root-pouch-65-gallon-w-handle",
+    "name": "The Root Pouch 65 Gallon w/ Handle",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "14523",
+    "slug": "the-root-pouch-100-gallon-w-handle",
+    "name": "The Root Pouch 100 Gallon w/ Handle",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "14556",
+    "slug": "pure-blend-pro-grow-qt",
+    "name": "Pure Blend Pro Grow Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14558",
+    "slug": "pure-blend-pro-grow-gal",
+    "name": "Pure Blend Pro Grow Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14559",
+    "slug": "pure-blend-pro-bloom-qt",
+    "name": "Pure Blend Pro Bloom Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14561",
+    "slug": "pure-blend-pro-bloom-gal",
+    "name": "Pure Blend Pro Bloom Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14562",
+    "slug": "pure-blend-pro-soil-qt",
+    "name": "Pure Blend Pro Soil Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14564",
+    "slug": "pure-blend-pro-soil-gal",
+    "name": "Pure Blend Pro Soil Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14565",
+    "slug": "hydroplex-qt",
+    "name": "Hydroplex Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14567",
+    "slug": "hydroplex-gal",
+    "name": "Hydroplex Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14568",
+    "slug": "liquid-karma-qt",
+    "name": "Liquid Karma Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14570",
+    "slug": "liquid-karma-gal",
+    "name": "Liquid Karma Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14571",
+    "slug": "aquashield-qt",
+    "name": "AquaShield Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14573",
+    "slug": "cal-mag-plus-qt",
+    "name": "Cal-Mag Plus Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14575",
+    "slug": "cal-mag-plus-gal",
+    "name": "Cal-Mag Plus Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14576",
+    "slug": "clearex-qt",
+    "name": "Clearex Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14578",
+    "slug": "clearex-gal",
+    "name": "Clearex Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14579",
+    "slug": "silica-blast-qt",
+    "name": "Silica Blast Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14581",
+    "slug": "silica-blast-gal",
+    "name": "Silica Blast Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14585",
+    "slug": "plantmax-250w-mh-conversion",
+    "name": "Plantmax 250W. MH Conversion",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "14593",
+    "slug": "mondi-mini-greenhouse-4-and-7-propagation-domes",
+    "name": "Mondi Mini Greenhouse 4 and 7 Propagation Domes",
+    "category": "Propagation Supplies",
+    "type": "grouped"
+  },
+  {
+    "id": "14594",
+    "slug": "mondi-mini-greenhouse-humidity-dome-4-with-vents",
+    "name": "Mondi Mini Greenhouse Humidity Dome 4 with vents",
+    "category": "Propagation Supplies",
+    "type": "simple"
+  },
+  {
+    "id": "14607",
+    "slug": "ph-perfect-sensi-bloom-2-part",
+    "name": "pH Perfect Sensi Bloom 2-Part",
+    "category": "Nutrients & Supplements",
+    "type": "grouped"
+  },
+  {
+    "id": "14608",
+    "slug": "ph-perfect-sensi-grow-2-part",
+    "name": "pH Perfect Sensi Grow 2-Part",
+    "category": "Nutrients & Supplements",
+    "type": "grouped"
+  },
+  {
+    "id": "14609",
+    "slug": "ph-perfect-connoisseur-part-a-1-lt",
+    "name": "pH Perfect Connoisseur part A (1 lt)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14611",
+    "slug": "ph-perfect-connoisseur-part-a-1-gal",
+    "name": "pH Perfect Connoisseur part A (1 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14612",
+    "slug": "ph-perfect-connoisseur-part-b-1-lt",
+    "name": "pH Perfect Connoisseur part B (1 lt)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14613",
+    "slug": "ph-perfect-connoisseur-part-b-1-gal",
+    "name": "pH Perfect Connoisseur part B (1 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14614",
+    "slug": "ph-perfect-sensi-bloom-part-a-1-lt",
+    "name": "pH Perfect Sensi Bloom part A (1 lt)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14615",
+    "slug": "ph-perfect-sensi-bloom-part-a-1-gal",
+    "name": "pH Perfect Sensi Bloom part A (1 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14616",
+    "slug": "ph-perfect-sensi-bloom-part-a-2-5-gal",
+    "name": "pH Perfect Sensi Bloom part A (2.5 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14617",
+    "slug": "ph-perfect-sensi-bloom-part-b-1-lt",
+    "name": "pH Perfect Sensi Bloom part B (1 lt)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14618",
+    "slug": "ph-perfect-sensi-bloom-part-b-1-gal",
+    "name": "pH Perfect Sensi Bloom part B (1 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14619",
+    "slug": "ph-perfect-sensi-bloom-part-b-2-5-gal",
+    "name": "pH Perfect Sensi Bloom part B (2.5 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14620",
+    "slug": "ph-perfect-sensi-grow-part-a-1-lt",
+    "name": "pH Perfect Sensi Grow part A (1 lt)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14622",
+    "slug": "ph-perfect-sensi-grow-part-a-1-gal",
+    "name": "pH Perfect Sensi Grow part A (1 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14623",
+    "slug": "ph-perfect-sensi-grow-part-a-2-5-gal",
+    "name": "pH Perfect Sensi Grow part A (2.5 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14624",
+    "slug": "ph-perfect-sensi-grow-part-b-1-lt",
+    "name": "pH Perfect Sensi Grow part B (1 lt)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14625",
+    "slug": "ph-perfect-sensi-grow-part-b-1-gal",
+    "name": "pH Perfect Sensi Grow part B (1 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14626",
+    "slug": "ph-perfect-sensi-grow-part-b-2-5-gal",
+    "name": "pH Perfect Sensi Grow part B (2.5 gal)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14655",
+    "slug": "basic-600w-hps-ballast",
+    "name": "Basic 600w HPS Ballast",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "14680",
+    "slug": "uno-8-big-boy-a-c-reflector",
+    "name": "UNO 8 Big Boy A/C Reflector",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "14689",
+    "slug": "dyna-grow-quart",
+    "name": "Dyna Grow Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14691",
+    "slug": "dyna-grow-gallon",
+    "name": "Dyna Grow Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14692",
+    "slug": "dyna-bloom-quart",
+    "name": "Dyna Bloom Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14694",
+    "slug": "dyna-bloom-gallon",
+    "name": "Dyna Bloom Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14704",
+    "slug": "ej-meta-k-quart",
+    "name": "EJ Meta K Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14753",
+    "slug": "digital-timers",
+    "name": "Digital Timers",
+    "category": "Timers",
+    "type": "grouped"
+  },
+  {
+    "id": "14756",
+    "slug": "6-net-pot",
+    "name": "6 Net Pot",
+    "category": "Fittings & Parts",
+    "type": "simple"
+  },
+  {
+    "id": "14760",
+    "slug": "10-in-hose-clamps",
+    "name": "10 in. hose clamps",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14761",
+    "slug": "12-in-hose-clamps",
+    "name": "12 in. hose clamps",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "14770",
+    "slug": "12-x-18-x-3-storage-bag-ziploc",
+    "name": "12 x 18 x 3 Storage Bag (ziploc)",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "14787",
+    "slug": "carbo-blast-300g",
+    "name": "Carbo Blast 300g",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14795",
+    "slug": "clonex-solution-gallon",
+    "name": "Clonex Solution Gallon",
+    "category": "Propagation Supplies",
+    "type": "simple"
+  },
+  {
+    "id": "14803",
+    "slug": "vitamino-amino-acid-supplement-quart",
+    "name": "Vitamino Amino Acid Supplement Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14805",
+    "slug": "vitamino-amino-acid-supplement-gallon",
+    "name": "Vitamino Amino Acid Supplement Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14809",
+    "slug": "uno-xxl-8-piper",
+    "name": "UNO XXL 8 Piper",
+    "category": "Grow Lights Ballast",
+    "type": "grouped"
+  },
+  {
+    "id": "14815",
+    "slug": "aphrodites-extraction-quart",
+    "name": "Aphrodite's Extraction Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14817",
+    "slug": "aphrodites-extraction-gallon",
+    "name": "Aphrodite's Extraction Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14819",
+    "slug": "athenas-aminas-quart",
+    "name": "Athena's Aminas Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14821",
+    "slug": "athenas-aminas-gallon",
+    "name": "Athena's Aminas Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14828",
+    "slug": "uno-2-x-4-48-x-24-x-60-grow-tent",
+    "name": "UNO 2' x 4' (48 X 24 X 60) Grow Tent",
+    "category": "Grow Tents AC INFINITY",
+    "type": "simple"
+  },
+  {
+    "id": "14830",
+    "slug": "uno-4-x-8-48-x-96-x-78-grow-tent",
+    "name": "UNO 4' x 8 ' (48 X 96 X 78) Grow Tent",
+    "category": "Grow Tents AC INFINITY",
+    "type": "simple"
+  },
+  {
+    "id": "14832",
+    "slug": "bloom-khaos-quart",
+    "name": "Bloom Khaos Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14834",
+    "slug": "bloom-khaos-gallon",
+    "name": "Bloom Khaos Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14836",
+    "slug": "demeters-destiny-quart",
+    "name": "Demeter's Destiny Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14838",
+    "slug": "demeters-destiny-gallon",
+    "name": "Demeter's Destiny Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14840",
+    "slug": "gaia-mania-quart",
+    "name": "Gaia Mania Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14842",
+    "slug": "gaia-mania-gallon",
+    "name": "Gaia Mania Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14843",
+    "slug": "gaia-mania-2-5-gallon",
+    "name": "Gaia Mania 2.5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14845",
+    "slug": "herculean-harvest-quart",
+    "name": "Herculean Harvest Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14847",
+    "slug": "herculean-harvest-gallon",
+    "name": "Herculean Harvest Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14848",
+    "slug": "herculean-harvest-2-5-gallon",
+    "name": "Herculean Harvest 2.5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14850",
+    "slug": "hygeias-hydration-quart",
+    "name": "Hygeia's Hydration Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14852",
+    "slug": "hygeias-hydration-gallon",
+    "name": "Hygeia's Hydration Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14854",
+    "slug": "medusas-magic-quart",
+    "name": "Medusa's Magic Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14856",
+    "slug": "medusas-magic-gallon",
+    "name": "Medusa's Magic Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14857",
+    "slug": "medusas-magic-2-5-gallon",
+    "name": "Medusa's Magic 2.5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14859",
+    "slug": "mega-morpheus-quart",
+    "name": "Mega Morpheus Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14861",
+    "slug": "mega-morpheus-gallon",
+    "name": "Mega Morpheus Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14863",
+    "slug": "pegasus-potion-quart",
+    "name": "Pegasus Potion Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14865",
+    "slug": "pegasus-potion-gallon",
+    "name": "Pegasus Potion Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14866",
+    "slug": "posiedonzyme-quart",
+    "name": "Posiedonzyme Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14872",
+    "slug": "tritans-trawl-gallon",
+    "name": "Tritan's Trawl Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14885",
+    "slug": "bud-ignitor-1-lt",
+    "name": "Bud Ignitor 1 Lt",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14893",
+    "slug": "atami-rootblastic-80-ml",
+    "name": "Atami RootBlastic 80 ml.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14910",
+    "slug": "mighty-bomb-32-oz-bottle-rtu-16-cs",
+    "name": "Mighty Bomb 32 oz, Bottle RTU (16/cs)",
+    "category": "Pest Control",
+    "type": "simple"
+  },
+  {
+    "id": "14914",
+    "slug": "decision-quart",
+    "name": "Decision Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14916",
+    "slug": "decision-gallon",
+    "name": "Decision Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14917",
+    "slug": "decision-2-5-gallon",
+    "name": "Decision 2.5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14919",
+    "slug": "equinox-quart",
+    "name": "Equinox Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14921",
+    "slug": "equinox-gallon",
+    "name": "Equinox Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14923",
+    "slug": "equinox-2-5-gallon",
+    "name": "Equinox 2.5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14926",
+    "slug": "lightning-start-quart",
+    "name": "Lightning Start Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14928",
+    "slug": "lightning-start-gallon",
+    "name": "Lightning Start Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14929",
+    "slug": "lightning-start-2-5-gallon",
+    "name": "Lightning Start 2.5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14931",
+    "slug": "ruby-ful-quart",
+    "name": "Ruby Ful#$% Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14933",
+    "slug": "ruby-ful-gallon",
+    "name": "Ruby Ful#$% Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14934",
+    "slug": "ruby-ful-2-5-gallon",
+    "name": "Ruby Ful#$% 2.5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14936",
+    "slug": "spring-quart",
+    "name": "Spring Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14938",
+    "slug": "spring-gallon",
+    "name": "Spring Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14939",
+    "slug": "spring-2-5-gallon",
+    "name": "Spring 2.5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14941",
+    "slug": "summer-quart",
+    "name": "Summer Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14943",
+    "slug": "summer-gallon",
+    "name": "Summer Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14945",
+    "slug": "summer-2-5-gallon",
+    "name": "Summer 2.5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14947",
+    "slug": "autumn-quart",
+    "name": "Autumn Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14949",
+    "slug": "autumn-gallon",
+    "name": "Autumn Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14950",
+    "slug": "autumn-2-5-gallon",
+    "name": "Autumn 2.5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14952",
+    "slug": "winter-frost-quart",
+    "name": "Winter Frost Quart",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14954",
+    "slug": "winter-frost-gallon",
+    "name": "Winter Frost Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14955",
+    "slug": "winter-frost-2-5-gallon",
+    "name": "Winter Frost 2.5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "14956",
+    "slug": "2-nanotech-reflector-for-sunblaster-t5",
+    "name": "2' Nanotech Reflector for Sunblaster T5",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "14959",
+    "slug": "4-nanotech-reflector-for-sunblaster-t5",
+    "name": "4' Nanotech Reflector for Sunblaster T5",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "14960",
+    "slug": "2-sunblaster-t5-combo-6400k-2232-lumens",
+    "name": "2' Sunblaster T5 Combo 6400k (2232 Lumens)",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "14976",
+    "slug": "ona-pro-gel-pail-1-gal",
+    "name": "Ona Pro Gel Pail (1 Gal)",
+    "category": "Odor Control",
+    "type": "simple"
+  },
+  {
+    "id": "15001",
+    "slug": "nanolux-cube-600-watt-dimmable",
+    "name": "NanoLux Cube 600 Watt Dimmable",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "15012",
+    "slug": "hortilux-1000-w-blue-daylight-metal-halide",
+    "name": "Hortilux- 1000 W Blue Daylight Metal Halide",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "15018",
+    "slug": "pk-apatite-qt",
+    "name": "PK APATITE Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15021",
+    "slug": "pk-apatite-2-5-gal",
+    "name": "PK APATITE 2.5 Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15023",
+    "slug": "5-gallon-electric-washing-machine-w-220-micro-bag",
+    "name": "5 Gallon Electric Washing Machine w/220 micro bag",
+    "category": "Drying & Extraction",
+    "type": "simple"
+  },
+  {
+    "id": "15025",
+    "slug": "small-5-gallon-replacement-bag",
+    "name": "Small 5 Gallon Replacement Bag",
+    "category": "Drying & Extraction",
+    "type": "simple"
+  },
+  {
+    "id": "15027",
+    "slug": "5-gallon-3-bag-kit",
+    "name": "5 gallon /3 Bag Kit",
+    "category": "Drying & Extraction",
+    "type": "simple"
+  },
+  {
+    "id": "15065",
+    "slug": "cocotek-grow-a-gal",
+    "name": "CocoTek Grow A Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15066",
+    "slug": "cocotek-grow-b-gal",
+    "name": "CocoTek Grow B Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15067",
+    "slug": "cocotek-bloom-a-gal",
+    "name": "CocoTek Bloom A Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15068",
+    "slug": "cocotek-bloom-b-gal",
+    "name": "CocoTek Bloom B Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15095",
+    "slug": "uno-2-speed-4-in-line-blower-190-cfm",
+    "name": "UNO-2 Speed 4 in line Blower 190 cfm",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "15097",
+    "slug": "uno-2-speed-6-in-line-blower-440-cfm",
+    "name": "UNO-2 Speed 6 in line Blower 440  cfm",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "15098",
+    "slug": "uno-2-speed-8-in-line-blower-750-cfm",
+    "name": "UNO-2 Speed 8 in line Blower 750 cfm",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "15099",
+    "slug": "uno-2-speed-10-in-line-blower-845-cfm",
+    "name": "UNO-2 Speed 10 in line Blower 845 cfm",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "15120",
+    "slug": "ionic-bloom-3-2-6-premium-plant-nutrient-qt",
+    "name": "Ionic® Bloom 3-2-6 Premium Plant Nutrient Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15122",
+    "slug": "ionic-bloom-3-2-6-premium-plant-nutrient-gallon",
+    "name": "Ionic® Bloom 3-2-6 Premium Plant Nutrient Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15123",
+    "slug": "ionic-bloom-3-2-6-premium-plant-nutrient-2-5-gallon",
+    "name": "Ionic® Bloom 3-2-6 Premium Plant Nutrient 2.5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15125",
+    "slug": "hydrodynamics-ionic-grow-3-1-5-premium-plant-nutrient-qt",
+    "name": "HydroDynamics Ionic® Grow 3-1-5 Premium Plant Nutrient Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15127",
+    "slug": "hydrodynamics-ionic-grow-3-1-5-premium-plant-nutrient-gallon",
+    "name": "HydroDynamics Ionic® Grow 3-1-5 Premium Plant Nutrient Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15128",
+    "slug": "hydrodynamics-ionic-grow-3-1-5-premium-plant-nutrient-2-5-gallon",
+    "name": "HydroDynamics Ionic® Grow 3-1-5 Premium Plant Nutrient 2.5 gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15133",
+    "slug": "ionic-pk-boost-0-5-6-premium-plant-nutrient-qt",
+    "name": "Ionic® PK Boost 0-5-6 Premium Plant Nutrient Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15135",
+    "slug": "ionic-pk-boost-0-5-6-premium-plant-nutrient-gallon",
+    "name": "Ionic® PK Boost 0-5-6 Premium Plant Nutrient Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15136",
+    "slug": "ionic-pk-boost-0-5-6-premium-plant-nutrient-2-5-gallon",
+    "name": "Ionic® PK Boost 0-5-6 Premium Plant Nutrient 2.5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15138",
+    "slug": "ionic-coco-bloom-soil-hydro-qt",
+    "name": "Ionic Coco Bloom Soil/hydro Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15142",
+    "slug": "ionic-coco-grow-soil-hydro-gal",
+    "name": "Ionic Coco Grow Soil/Hydro Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15150",
+    "slug": "plagron-terra-bloom-qt",
+    "name": "Plagron Terra Bloom Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15152",
+    "slug": "plagron-terra-bloom-gal",
+    "name": "Plagron Terra Bloom Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15153",
+    "slug": "plagron-terra-grow-qt",
+    "name": "Plagron Terra grow Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15154",
+    "slug": "plagron-terra-grow-gallon",
+    "name": "Plagron Terra Grow Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15160",
+    "slug": "e-papillon-600-watt-240v-w-lamp-2",
+    "name": "E-Papillon 600 Watt 240V. W / Lamp",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "15165",
+    "slug": "d‐papillon-315w-full-spectrum-240v",
+    "name": "D‐Papillon 315W FULL SPECTRUM 240V",
+    "category": "Grow Lights Ballast",
+    "type": "grouped"
+  },
+  {
+    "id": "15185",
+    "slug": "terpinator-0-0-4-qt",
+    "name": "Terpinator 0 - 0 - 4 Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15187",
+    "slug": "terpinator-0-0-4-gallon",
+    "name": "Terpinator 0 - 0 - 4 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15196",
+    "slug": "humboldt-nutrients-s-i-structural-integrity-qt",
+    "name": "Humboldt Nutrients S.I. Structural Integrity qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15198",
+    "slug": "humboldt-nutrients-s-i-structural-integrity-gal",
+    "name": "Humboldt Nutrients S.I. Structural Integrity Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15200",
+    "slug": "humboldt-nutrients-calyx-magnum-2-0-0-qt",
+    "name": "Humboldt Nutrients Calyx Magnum 2 - 0 - 0/Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15202",
+    "slug": "humboldt-nutrients-calyx-magnum-2-0-0-gal",
+    "name": "Humboldt Nutrients Calyx Magnum 2 - 0 - 0/Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15222",
+    "slug": "plagron-royal-rush-1-liter",
+    "name": "Plagron Royal Rush 1 Liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15226",
+    "slug": "plagron-power-roots-liter",
+    "name": "Plagron Power Roots Liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15228",
+    "slug": "plagron-cocos-a-liter",
+    "name": "Plagron Cocos A liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15230",
+    "slug": "plagron-cocos-a-5-liter",
+    "name": "Plagron Cocos A 5 liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15231",
+    "slug": "plagron-cocos-b-liter",
+    "name": "Plagron Cocos B  liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15232",
+    "slug": "plagron-cocos-b-5-liter",
+    "name": "Plagron Cocos B  5 liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15233",
+    "slug": "plagron-hydro-ab",
+    "name": "plagron Hydro A&B",
+    "category": "Nutrients & Supplements",
+    "type": "grouped"
+  },
+  {
+    "id": "15234",
+    "slug": "plagron-hydro-a-liter",
+    "name": "Plagron Hydro A Liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15236",
+    "slug": "plagron-hydro-a-5-liter",
+    "name": "Plagron Hydro A  5 Liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15237",
+    "slug": "plagron-hydro-b-liter",
+    "name": "Plagron Hydro B Liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15238",
+    "slug": "plagron-hydro-b-5-liter",
+    "name": "Plagron Hydro B  5 Liter",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15261",
+    "slug": "eye-hortilux-e-start-metal-halide-lamps",
+    "name": "Eye Hortilux e-Start Metal Halide Lamps",
+    "category": "Philips",
+    "type": "grouped"
+  },
+  {
+    "id": "15262",
+    "slug": "eye-hortilux-e-start-metal-halide-1000watt",
+    "name": "Eye Hortilux e-Start Metal Halide  1000Watt",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "15264",
+    "slug": "eye-hortilux-e-start-metal-halide-lamps-2",
+    "name": "Eye Hortilux e-Start Metal Halide Lamps",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "15278",
+    "slug": "pulse-start-m-h-600w-3000k-for-flowering-growth-2",
+    "name": "Pulse Start M.H.600W. 3,000K for Flowering Growth",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "15280",
+    "slug": "pulse-start-m-h-600w-3000k-for-flowering-growth-3",
+    "name": "Pulse Start M.H.600W. 3,000K for Flowering Growth",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "15286",
+    "slug": "plantmax-1000w-72k-mh-high-output-90000-lumens-2",
+    "name": "Plantmax 1000W. 72K MH High Output 90,000 lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "15301",
+    "slug": "hydrodynamics-clonex-mist-100-ml",
+    "name": "HydroDynamics Clonex Mist 100 ml",
+    "category": "Propagation Supplies",
+    "type": "simple"
+  },
+  {
+    "id": "15305",
+    "slug": "clonex-mist-concentrate-qt",
+    "name": "Clonex Mist Concentrate Qt.",
+    "category": "Propagation Supplies",
+    "type": "simple"
+  },
+  {
+    "id": "15307",
+    "slug": "clonex-mycorrhizae-root-maximizer-4-oz-soluble",
+    "name": "Clonex Mycorrhizae Root Maximizer 4 OZ Soluble",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15308",
+    "slug": "clonex-mycorrhizae-root-maximizer-8-oz-soluble",
+    "name": "Clonex Mycorrhizae Root Maximizer 8 OZ Soluble",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15310",
+    "slug": "clonex-mycorrhizae-root-maximizer-4-oz-soluble-2",
+    "name": "Clonex Mycorrhizae Root Maximizer 4 OZ Soluble",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15312",
+    "slug": "clonex-mycorrhizae-root-maximizer-8-oz-soluble-2",
+    "name": "Clonex Mycorrhizae Root Maximizer 8 OZ Soluble",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15315",
+    "slug": "black-plastic-buckets-3-5-gallon",
+    "name": "Black Plastic Buckets - 3 & 5 Gallon",
+    "category": "Pots & Containers",
+    "type": "grouped"
+  },
+  {
+    "id": "15316",
+    "slug": "standard-3-5-gallon-black-bucket",
+    "name": "standard 3.5 gallon black bucket",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "15318",
+    "slug": "standard-5-gallon-black-bucket",
+    "name": "Standard 5 Gallon Black Bucket",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "15320",
+    "slug": "gro-pro-12-air-pot",
+    "name": "GRO PRO 12 AIR POT",
+    "category": "Pots & Containers",
+    "type": "simple"
+  },
+  {
+    "id": "15324",
+    "slug": "silicium-qts",
+    "name": "SiLICIUM QTS.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15354",
+    "slug": "the-ozone-generator-5000-cu-ft",
+    "name": "The Ozone Generator 5,000 cu. ft.",
+    "category": "Odor Control",
+    "type": "grouped"
+  },
+  {
+    "id": "15355",
+    "slug": "the-ozone-generator",
+    "name": "The Ozone Generator 5,000 cu.ft.",
+    "category": "Air Filtration",
+    "type": "simple"
+  },
+  {
+    "id": "15364",
+    "slug": "botanicare-growilla-bud-12-lb",
+    "name": "Botanicare Growilla Bud 12 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15369",
+    "slug": "down-to-earth-high-nitrogen-bat-guano-2-lb",
+    "name": "Down To Earth High Nitrogen Bat Guano - 2 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15371",
+    "slug": "down-to-earth-high-nitrogen-bat-guano-10-lb",
+    "name": "Down To Earth High Nitrogen Bat Guano - 10 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15373",
+    "slug": "down-to-earth-neem-seed-meal-5-lb",
+    "name": "Down To Earth Neem Seed Meal - 5 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15381",
+    "slug": "down-to-earth-bone-meal-6-lb",
+    "name": "Down To Earth Bone Meal - 6 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15383",
+    "slug": "down-to-earth-bone-meal-25-lb",
+    "name": "Down To Earth Bone Meal - 25 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15385",
+    "slug": "down-to-earth-vegan-mix-6-lb",
+    "name": "Down To Earth Vegan Mix - 6 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15387",
+    "slug": "down-to-earth-vegan-mix-25-lb",
+    "name": "Down To Earth Vegan Mix - 25 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15389",
+    "slug": "down-to-earth-kelp-meal-5-lb",
+    "name": "Down To Earth Kelp Meal - 5 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15391",
+    "slug": "down-to-earth-kelp-meal-20-lb",
+    "name": "Down To Earth Kelp Meal - 20 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15393",
+    "slug": "down-to-earth-fish-bone-meal-6-lb",
+    "name": "Down To Earth Fish Bone Meal - 6 lb",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15438",
+    "slug": "calnesium-defficiency-correction-supplemnt-qt",
+    "name": "CALNESIUM Defficiency Correction Supplemnt Qt.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15446",
+    "slug": "liquid-carbo-blast-6-gal",
+    "name": "Liquid Carbo Blast 6 Gal.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15500",
+    "slug": "microbiometer�-refill-kit",
+    "name": "microBIOMETER® Refill Kit",
+    "category": "pH/EC/TDS Meters & Solutions",
+    "type": "simple"
+  },
+  {
+    "id": "15504",
+    "slug": "carbonaria-0-0-03-qt-12-cs",
+    "name": "CAR_BEAU_NARIA 0-0-.03  Qt. (12/cs)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "15551",
+    "slug": "ripen-0-5-7-6-gallon",
+    "name": "Ripen® 0.5-7-6 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "16627",
+    "slug": "q-max-ultra-quiet-10-fan",
+    "name": "Q-Max Ultra Quiet 10 Fan",
+    "category": "Environmental Control",
+    "type": "simple"
+  },
+  {
+    "id": "61541",
+    "slug": "ed-rosenthal-marijuana-growers-handbook-2",
+    "name": "Ed Rosenthal Marijuana Grower's Handbook",
+    "category": "Books",
+    "type": "grouped"
+  },
+  {
+    "id": "62526",
+    "slug": "dutch-lighting-innovations-joule-series-1000w-de-220v-240v",
+    "name": "“Dutch Lighting Innovations”  JOULE-SERIES 1000W DE 120V – 240V/ Skid (62 Fixtures)",
+    "category": "COMPLETE LIGHT SYSTEMS, Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "62531",
+    "slug": "dutch-lighting-innovations-joule-series-1000w-de-120v-240v",
+    "name": "“Dutch Lighting Innovations”  JOULE-SERIES 1000W DE 120V – 240V",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "62641",
+    "slug": "blended-line",
+    "name": "Athena Blended Line",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "62658",
+    "slug": "athena-pk-bloom-booster",
+    "name": "Athena PK Bloom Booster-1 gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "62663",
+    "slug": "athena-grow-a",
+    "name": "Athena Grow A 1 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "62675",
+    "slug": "athena-grow-b",
+    "name": "Athena Grow B 1 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "62688",
+    "slug": "athena-camg-1-gallon",
+    "name": "Athena CaMg 1 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "62699",
+    "slug": "athena-bloom-a-1-gallon-2",
+    "name": "Athena Bloom A 1- Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "62703",
+    "slug": "athena-bloom-b",
+    "name": "Athena Bloom B 1 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "62712",
+    "slug": "athena-stack-32-oz",
+    "name": "Athena Stack 32 oz",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "62719",
+    "slug": "athena-balance-1-gallon",
+    "name": "Athena Balance 1 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "62726",
+    "slug": "athena-bloom-a-1-gallon",
+    "name": "Athena Bloom A - 1 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "62732",
+    "slug": "athena-pro-core-10-lb",
+    "name": "Athena Pro Core 10 lb.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "62736",
+    "slug": "athena-pro-grow-10-lb",
+    "name": "Athena Pro Grow 10 lb.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "62738",
+    "slug": "athena-pro-bloom-10-lb",
+    "name": "Athena Pro Bloom 10 lb.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "62740",
+    "slug": "athena-mildew-control-32-oz",
+    "name": "Athena Mildew Control 32 oz.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "62743",
+    "slug": "athena-ipm-32-oz",
+    "name": "Athena IPM 32 oz.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "62784",
+    "slug": "athena-cuts-rooting-gel-7-oz",
+    "name": "Athena Cuts Rooting Gel 7 oz.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63059",
+    "slug": "teaming-with-bacteria-the-organic-gardeners-guide-to-endophytic-bacteria-and-the-rhizophagy-cycle",
+    "name": "Teaming with Bacteria: The Organic Gardener’s Guide to Endophytic Bacteria and the Rhizophagy Cycle",
+    "category": "Books",
+    "type": "simple"
+  },
+  {
+    "id": "63074",
+    "slug": "spray-n-grow-micronutrients-8-oz",
+    "name": "Spray-N-Grow Micronutrients 8 oz",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63076",
+    "slug": "spray-n-grow-16oz",
+    "name": "Spray N Grow 16oz.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63078",
+    "slug": "spray-n-grow-32-oz",
+    "name": "Spray N Grow 32 oz.",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63139",
+    "slug": "dli-cri-series-uv-150w-de",
+    "name": "DLI CRI-Series UV 150W DE",
+    "category": "Grow Lights Ballast",
+    "type": "simple"
+  },
+  {
+    "id": "63514",
+    "slug": "solarmax-1000w-mh-gold-110000-lumens",
+    "name": "SolarMax 1000W. MH Gold 110,000 Lumens",
+    "category": "Philips",
+    "type": "simple"
+  },
+  {
+    "id": "63530",
+    "slug": "",
+    "name": "Scietetics Ful V Tech Element Transfer System 15 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63531",
+    "slug": "scietetics-ful-v-tech-element-transfer-system-gallon",
+    "name": "Scietetics Ful V Tech Element Transfer System Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63532",
+    "slug": "scietetics-ful-v-tech-element-transfer-system-55-gallon",
+    "name": "Scietetics Ful V Tech Element Transfer System 55 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63533",
+    "slug": "scietetics-ful-v-tech-element-transfer-system-2-5-gallon",
+    "name": "Scietetics Ful V Tech Element Transfer System 2.5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63534",
+    "slug": "scietetics-ful-v-tech-element-transfer-system-5-gallon",
+    "name": "Scietetics Ful V Tech Element Transfer System 5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63535",
+    "slug": "scietetics-ful-v-tech-element-transfer-system-255-gallon",
+    "name": "Scietetics Ful V Tech Element Transfer System 255 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63672",
+    "slug": "grodan-gro-block-improved-gr22-jumbo-with-hole-6-x-6-x-4-case-of-64",
+    "name": "Grodan Gro-Block Improved  Jumbo with Hole, 6 x 6 x 4 - Case of 64",
+    "category": "Growing Medium",
+    "type": "simple"
+  },
+  {
+    "id": "63830",
+    "slug": "bio-365-start-1-5-cu-ft",
+    "name": "Bio 365 Start 1.5 cu ft.",
+    "category": "Growing Medium",
+    "type": "simple"
+  },
+  {
+    "id": "63831",
+    "slug": "bio365-bioall-all-purpose-hp-blend-1-5-cu-ft",
+    "name": "bio365™ BIOALL™ All Purpose HP Blend 1.5 cu.ft.",
+    "category": "Growing Medium",
+    "type": "simple"
+  },
+  {
+    "id": "63832",
+    "slug": "bio365-bioblend-high-porosity-blend-1-5cu-ft-bag-blend-of-fine-coir-coarse-peat-super-coarse-perlite",
+    "name": "bio365™ BIOBLEND™ High Porosity Blend - 1.5cu ft - Bag - Blend of Fine Coir, Coarse Peat, & Super Coarse Perlite",
+    "category": "Growing Medium",
+    "type": "simple"
+  },
+  {
+    "id": "63833",
+    "slug": "microbiometer-10-test-starter-kit",
+    "name": "microBIOMETER® 10 Test Starter Kit",
+    "category": "Grow Tents AC INFINITY",
+    "type": "simple"
+  },
+  {
+    "id": "63851",
+    "slug": "scietetics-foundation-powder",
+    "name": "Scietetics Foundation Powder",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63856",
+    "slug": "scietetics-magcal-gallon",
+    "name": "Scietetics MagCal Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63857",
+    "slug": "scietetics-magcal-2-5gal",
+    "name": "Scietetics MagCal  2.5Gal.",
+    "category": "Grow Tents AC INFINITY",
+    "type": "simple"
+  },
+  {
+    "id": "63858",
+    "slug": "scietetics-magcal-5-gallon",
+    "name": "Scietetics MagCal 5 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63859",
+    "slug": "scietetics-magcal-15-gallon",
+    "name": "Scietetics MagCal 15 Gallon",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63860",
+    "slug": "scietetics-grow-powder-12-oz-340g",
+    "name": "Scietetics Grow Powder 12 OZ (340g)",
+    "category": "Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63863",
+    "slug": "scietetics-bloom-powder-12-oz-340g",
+    "name": "Scietetics Bloom Powder 12 OZ (340g)",
+    "category": "Grow Tents AC INFINITY",
+    "type": "simple"
+  },
+  {
+    "id": "63870",
+    "slug": "cannabis-growers-handbook-the-complete-guide-to-marijuana-and-hemp-cultivationcannabis-growers-handbook-the-complete-guide-to-marijuana-and-hemp-cultivationcannabis-growers-handbook-the-compl",
+    "name": "Cannabis Grower's Handbook: The Complete Guide to Marijuana and Hemp CultivationCannabis Grower's Handbook: The Complete Guide to Marijuana and Hemp CultivationCannabis Grower's Handbook: The Complete Guide to Marijuana and Hemp Cultivation",
+    "category": "Books",
+    "type": "simple"
+  },
+  {
+    "id": "63885",
+    "slug": "63885",
+    "name": "Multi 8 oz",
+    "category": "Pest Control",
+    "type": "simple"
+  },
+  {
+    "id": "63890",
+    "slug": "scietetics-coco-8-block-1-5gal",
+    "name": "SCIETETICS COCO 8 BLOCK /1.5Gal",
+    "category": "Growing Medium, Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63907",
+    "slug": "agrowlyte-stop-pm-5-gallon",
+    "name": "Agrowlyte Stop PM 5 Gallon",
+    "category": "Pest Control",
+    "type": "simple"
+  },
+  {
+    "id": "63910",
+    "slug": "agrowlyte-plant-wash-qt",
+    "name": "AgrowLyte Plant Wash qt.",
+    "category": "Pest Control",
+    "type": "simple"
+  },
+  {
+    "id": "63915",
+    "slug": "agrowlyte-plant-wash-gallon",
+    "name": "AgrowLyte Plant Wash Gallon",
+    "category": "Pest Control",
+    "type": "simple"
+  },
+  {
+    "id": "63922",
+    "slug": "agrowlyte-5-gallon",
+    "name": "AGrowLyte 5 gallon",
+    "category": "Grow Tents AC INFINITY",
+    "type": "simple"
+  },
+  {
+    "id": "63926",
+    "slug": "agrowlyte-plant-wash-30-gallon",
+    "name": "AGrowlyte Plant Wash 30 gallon",
+    "category": "Pest Control",
+    "type": "simple"
+  },
+  {
+    "id": "63943",
+    "slug": "bio365-bioflower-nutrient-dense-mix-1-5cu-ft-bag-blend-of-fine-coir-coarse-peat-super-coarse-perlite",
+    "name": "bio365™ BIOFLOWER™ Nutrient Dense Mix - 1.5cu ft - Bag - Blend of Fine Coir, Coarse Peat, & Super Coarse Perlite",
+    "category": "Growing Medium",
+    "type": "simple"
+  },
+  {
+    "id": "63951",
+    "slug": "block-cocos-nucifera-1-5-gal-8",
+    "name": "Block Cocos Nucifera 1.5 GAL 8",
+    "category": "Growing Medium, Nutrients & Supplements",
+    "type": "simple"
+  },
+  {
+    "id": "63979",
+    "slug": "seeds",
+    "name": "Seeds",
+    "category": "Cannabis Seeds",
+    "type": "simple"
+  },
+  {
+    "id": "64082",
+    "slug": "super-lemon-haze-feminised-lemon-skunk-x-super-silver-haze5-seed",
+    "name": "Super Lemon Haze (Feminised) Lemon Skunk x Super Silver Haze5 Seed",
+    "category": "Cannabis Seeds",
+    "type": "simple"
+  },
+  {
+    "id": "64146",
+    "slug": "introducing-the-scietetics-coco-8-block-1-5gal",
+    "name": "Introducing the SCIETETICS COCO 8 BLOCK / 1.5Gal,",
+    "category": "Growing Medium",
+    "type": "simple"
+  }
+]

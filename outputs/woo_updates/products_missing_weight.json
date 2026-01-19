@@ -1,0 +1,3150 @@
+{
+  "canFix": [
+    {
+      "id": "14541",
+      "name": "CALiMAGic",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "1.00 lbs"
+    },
+    {
+      "id": "14547",
+      "name": "Pure Blend Pro Grow",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "3.00 lbs"
+    },
+    {
+      "id": "14548",
+      "name": "Pure Blend Pro Bloom",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "3.00 lbs"
+    },
+    {
+      "id": "14549",
+      "name": "Pure Blend Pro Soil",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "3.00 lbs"
+    },
+    {
+      "id": "14550",
+      "name": "Hydroplex",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "3.00 lbs"
+    },
+    {
+      "id": "14551",
+      "name": "Liquid Karma",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "3.00 lbs"
+    },
+    {
+      "id": "14552",
+      "name": "AquaShield",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "3.00 lbs"
+    },
+    {
+      "id": "14553",
+      "name": "Cal-Mag Plus",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "3.00 lbs"
+    },
+    {
+      "id": "14554",
+      "name": "Clearex",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "3.00 lbs"
+    },
+    {
+      "id": "14555",
+      "name": "Silica Blast",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "3.00 lbs"
+    },
+    {
+      "id": "14814",
+      "name": "Aphrodite's Extraction",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "3.00 lbs"
+    },
+    {
+      "id": "14818",
+      "name": "Athena's Aminas",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "3.00 lbs"
+    },
+    {
+      "id": "14831",
+      "name": "Bloom Khaos",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "3.00 lbs"
+    },
+    {
+      "id": "14835",
+      "name": "Demeter's Destiny",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "14839",
+      "name": "Gaia Mania",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "14844",
+      "name": "Herculean Harvest",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "14849",
+      "name": "Hygeia's Hydration",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "14853",
+      "name": "Medusa's Magic",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "14858",
+      "name": "Mega Morpheus",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "14862",
+      "name": "Pegasus Potion",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "14913",
+      "name": "Decision",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "14918",
+      "name": "Equinox",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "14925",
+      "name": "Lightning Start",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "14930",
+      "name": "Ruby Ful#$%",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "14935",
+      "name": "Spring",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "14940",
+      "name": "Summer",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "14946",
+      "name": "Autumn",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "14951",
+      "name": "Winter Frost",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "15022",
+      "name": "PK APATITE",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "10.00 lbs"
+    },
+    {
+      "id": "15062",
+      "name": "CocoTek Grow B Qts.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": true,
+      "enrichedWeight": "10.00 lbs"
+    },
+    {
+      "id": "15124",
+      "name": "HydroDynamics Ionic® Grow 3 - 1 - 5 Premium Plant Nutrient",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "5.00 lbs"
+    },
+    {
+      "id": "15274",
+      "name": "Plantmax Dual Arc Tube Lamps",
+      "category": "Philips",
+      "type": "simple",
+      "canFix": true,
+      "enrichedWeight": "1814.00 lbs"
+    },
+    {
+      "id": "15338",
+      "name": "ROSIN PRO PRESS CO. Pneumatic Dual Element",
+      "category": "ROSIN PRO PRESS COMPANY",
+      "type": "simple",
+      "canFix": true,
+      "enrichedWeight": "150.00 lbs"
+    },
+    {
+      "id": "15396",
+      "name": "Down To Earth Bat Guano 9-3-1",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": true,
+      "enrichedWeight": "2.00 lbs"
+    }
+  ],
+  "cannotFix": [
+    {
+      "id": "13172",
+      "name": "FloraBlend",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13173",
+      "name": "FloraBlend qt",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13178",
+      "name": "BioThrive",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13179",
+      "name": "Flora Series",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13180",
+      "name": "FloraNova Series",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13181",
+      "name": "Maxi Series",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13182",
+      "name": "BioBud",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13183",
+      "name": "BioMarine",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13185",
+      "name": "BioWeed",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13186",
+      "name": "CaMg+",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13187",
+      "name": "Diamond Black",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13188",
+      "name": "Diamond Nectar",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13189",
+      "name": "FloraDuo Complete",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13190",
+      "name": "Floralicious Series",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13191",
+      "name": "Floralicious Plus",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13192",
+      "name": "FloraNectar",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13193",
+      "name": "Flora Shield",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13194",
+      "name": "FloraKleen",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13195",
+      "name": "KoolBloom",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13196",
+      "name": "Liquid KoolBloom™ 0 - 10 - 10",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13197",
+      "name": "Rapid Start",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13202",
+      "name": "B'Cuzz BIO-NRG Bloom-C",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13203",
+      "name": "B'Cuzz BIO-NRG Flavor",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13204",
+      "name": "B'Cuzz BIO-NRG Growth-C",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13205",
+      "name": "B'Cuzz Hydro Nutrients",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13206",
+      "name": "B'Cuzz PK 13/14",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13210",
+      "name": "B'Cuzz Growth Stimulator",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13213",
+      "name": "B'Cuzz Root Stimulator",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13215",
+      "name": "Better Bloom 12-34-12",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13216",
+      "name": "Jungle Green 17-15-17",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13217",
+      "name": "Royal Black",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13218",
+      "name": "Royal Gold",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13219",
+      "name": "Yield Up 9-47-9",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13220",
+      "name": "Bud Boom",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13221",
+      "name": "Bud Start",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13222",
+      "name": "Carbo Blast",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13223",
+      "name": "Prop-O-Gator Plant Food",
+      "category": "Propagation Supplies",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13227",
+      "name": "Suck it Up",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13228",
+      "name": "Double Super B+ Extra Strength",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13229",
+      "name": "Ton O Bud 0-10-6",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13230",
+      "name": "The Hammer",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13231",
+      "name": "Humboldt Grow 2-1-6",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13232",
+      "name": "Humboldt Micro 5-0-1",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13233",
+      "name": "Humboldt Bloom 0-6-5",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13234",
+      "name": "Big Up Powder 0-33-23",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13235",
+      "name": "Sea Cal 3-2-8",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13236",
+      "name": "Sea Mag 0.2-0.2-3",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13237",
+      "name": "Master A",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13238",
+      "name": "Master B",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13239",
+      "name": "DueceDuece",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13241",
+      "name": "Equilibrium Natural",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13242",
+      "name": "Hydro-Deuce",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13243",
+      "name": "Royal Flush",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13244",
+      "name": "Ginormous",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13245",
+      "name": "Grow Natural",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13246",
+      "name": "Bloom Natural",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13247",
+      "name": "Hum-Bolt",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13248",
+      "name": "Flavor-Ful",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13249",
+      "name": "Verde Growth Catalyst",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13250",
+      "name": "Oneness 5-9-4",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13251",
+      "name": "Mayan Microzyme",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13252",
+      "name": "Prozyme",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13253",
+      "name": "Myco Madness Soluble",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13254",
+      "name": "Myco Maximum Granular",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13255",
+      "name": "Humboldt Honey Hydro Carbs",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13256",
+      "name": "Humboldt Honey ES",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13257",
+      "name": "Humboldt Roots",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13259",
+      "name": "Humboldt Sticky Foliar Feed",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13264",
+      "name": "Mykos - Mycorrhizal Inoculant Granular",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13267",
+      "name": "CalCarb Calcium Carbonate Foliar Spray",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13275",
+      "name": "CocoTek Caps",
+      "category": "Pots & Containers",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13276",
+      "name": "CocoTek Liners",
+      "category": "Pots & Containers",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13281",
+      "name": "BASIC Magnetic Ballast",
+      "category": "Grow Lights Ballast",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13300",
+      "name": "Ultragrow Cool Tube",
+      "category": "Grow Lights Ballast",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13309",
+      "name": "ONA Liquid",
+      "category": "Odor Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13310",
+      "name": "ONA Gel",
+      "category": "Odor Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13313",
+      "name": "ONA Mist",
+      "category": "Odor Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13315",
+      "name": "Doktor Doom Fogger",
+      "category": "Pest Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13317",
+      "name": "Plantacillin",
+      "category": "Propagation Supplies",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13320",
+      "name": "Ed Rosenthal's Zero Tolerance Herbal Pesticide-Fungicide",
+      "category": "Pest Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13321",
+      "name": "TimeMist Plus Programmable Dispenser",
+      "category": "Pest Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13323",
+      "name": "Safer Garden Fungicide 32oz RTU Spray",
+      "category": "Pest Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13324",
+      "name": "Block-IR Infra-Red Barrier",
+      "category": "Reflective Wall Fabric",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13705",
+      "name": "B'cuzZ Roxx Propagation Trays and Matts",
+      "category": "Growing Medium, Propagation Supplies",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13711",
+      "name": "B'cuzZ Roxx Rooting Blocks",
+      "category": "Growing Medium",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13718",
+      "name": "B'cuzZ Roxx Bimatrix Growing Slabs",
+      "category": "Growing Medium",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13759",
+      "name": "WaterFarm Reservoir - 4 gal",
+      "category": "Hydroponic Gardens",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13763",
+      "name": "Texas Controller 16 units",
+      "category": "Hydroponic Gardens",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13764",
+      "name": "Ebb & Gro Monster System Controller",
+      "category": "Hydroponic Gardens",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13771",
+      "name": "240 Volt Power cord 8 ft .",
+      "category": "Grow Lights Ballast",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13772",
+      "name": "SunSoaker Parabolic Reflector w/ Horizonal Socket bracket",
+      "category": "Grow Lights Ballast",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13783",
+      "name": "Ultragrow A/C 6 in. with saftey glass & socket set w/ 15 ft cord",
+      "category": "Grow Lights Ballast",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13803",
+      "name": "BADBOY T-5 4 ft - 16 Lamp Fixture 864 W",
+      "category": "Grow Lights Ballast",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13817",
+      "name": "Doktor Doom Total Fogger 5.5 oz",
+      "category": "Pest Control",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13826",
+      "name": "Plantacillin 1 liter",
+      "category": "Pest Control",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13827",
+      "name": "Zero Tolerance <b>Herbal Fungicide</b> gal",
+      "category": "Pest Control",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13832",
+      "name": "TimeMist Plus Programmable Dispenser",
+      "category": "Pest Control",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13839",
+      "name": "Garden Fungicide 32 oz",
+      "category": "Pest Control",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13841",
+      "name": "Garden Fungicide 1 gal",
+      "category": "Pest Control",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13845",
+      "name": "2 heavy duty neoprene collars (case of 200)",
+      "category": "Propagation Supplies",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13850",
+      "name": "Dual Diaphragm Air Pump",
+      "category": "Air Pumps",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13851",
+      "name": "TNC Water Pump",
+      "category": "Water Pumps",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13852",
+      "name": "Mag Drive Pumps",
+      "category": "Water Pumps",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13854",
+      "name": "Reflective Mylar Rolls",
+      "category": "Reflective Wall Fabric",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13856",
+      "name": "Stealth RO 300 Customized Reverse Osmosis filter",
+      "category": "Water Filtration",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13861",
+      "name": "TDS Monitor DM-2 Industrial Dual TDS Monitor",
+      "category": "Water Filtration",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13862",
+      "name": "Flowmaster - Gallon Meter 3/8 in",
+      "category": "Water Filtration",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13863",
+      "name": "Accessories & Components",
+      "category": "Water Filtration",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13868",
+      "name": "Green Air Genesis Calibration Solutions",
+      "category": "pH/EC/TDS Meters & Solutions",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13870",
+      "name": "COM-100: Waterproof EC / TDS / Temp Combo Meter",
+      "category": "pH/EC/TDS Meters & Solutions",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13871",
+      "name": "PH-200: Waterproof pH Meter",
+      "category": "pH/EC/TDS Meters & Solutions",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13872",
+      "name": "PH / Calibration Solutions",
+      "category": "pH/EC/TDS Meters & Solutions",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13874",
+      "name": "Control Wizard Accurate pH3",
+      "category": "pH/EC/TDS Meters & Solutions",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13875",
+      "name": "Philips Lighting",
+      "category": "Philips",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13876",
+      "name": "Plantmax Pulse Start Metal Halide Lamps",
+      "category": "Philips",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13877",
+      "name": "BADBOY HO Triphosphor Lamps",
+      "category": "Philips",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13879",
+      "name": "Plantmax SUPER Metal Halide",
+      "category": "Philips",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13880",
+      "name": "Plantmax SUPER High Pressure Sodium",
+      "category": "Philips",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13881",
+      "name": "Plantmax HPS Conversion (MH Ballast)",
+      "category": "Philips",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13882",
+      "name": "Plantmax MH Conversion (HPS Ballast)",
+      "category": "Philips",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13885",
+      "name": "VEGETATIVE - HPS Ballast",
+      "category": "Philips",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13886",
+      "name": "VEGETATIVE - MH Ballast",
+      "category": "Philips",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13887",
+      "name": "ALL PHASE High Output Metal Halide Horticultural Lamp",
+      "category": "Philips",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13888",
+      "name": "Light Rail 5",
+      "category": "Grow Lights Ballast",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13890",
+      "name": "Light Rail Accessories",
+      "category": "Grow Lights Ballast",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13891",
+      "name": "Mondi Mist & Spray Premium Compression Sprayer 1.5 qt",
+      "category": "Grow Tents AC INFINITY",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13892",
+      "name": "Mondi Mist & Spray Delux Compression Sprayer 1.2 qt",
+      "category": "Grow Tents AC INFINITY",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13894",
+      "name": "Bypass Hand Shears",
+      "category": "Grow Tents AC INFINITY",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13895",
+      "name": "Grommets",
+      "category": "Fittings & Parts",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13896",
+      "name": "Spigot for 6 Gal container",
+      "category": "Fittings & Parts",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13899",
+      "name": "1 1/4 drain overflow tube",
+      "category": "Fittings & Parts",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13902",
+      "name": "1/2 Barb Connectors",
+      "category": "Fittings & Parts",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13903",
+      "name": "The Bucket Basket",
+      "category": "Fittings & Parts",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13904",
+      "name": "Netpots",
+      "category": "Pots & Containers",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13905",
+      "name": "Site Plugs",
+      "category": "Fittings & Parts",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13906",
+      "name": "Snapture SnapStand",
+      "category": "Fittings & Parts",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13911",
+      "name": "24-DT-1 -- 24 Hour Clock Timer",
+      "category": "Timers",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13912",
+      "name": "LT4 - 4 Light Timer (120 or 240 V)",
+      "category": "Timers",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13914",
+      "name": "LS Series Light and High Load Switcher",
+      "category": "Timers",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13915",
+      "name": "ON /OFF Switcher 120V",
+      "category": "Timers",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13916",
+      "name": "Vortex Powerfans",
+      "category": "Environmental Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13918",
+      "name": "Backdraft Dampers",
+      "category": "Environmental Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13919",
+      "name": "Thermostatically Controlled Centrifugal Fans",
+      "category": "Environmental Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13924",
+      "name": "Original Can Fans",
+      "category": "Environmental Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13925",
+      "name": "Can Filters",
+      "category": "Air Filtration",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13926",
+      "name": "Can Filter Pre-Filters",
+      "category": "Air Filtration",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13927",
+      "name": "Can Filter Flanges",
+      "category": "Air Filtration",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13928",
+      "name": "Ducting",
+      "category": "Environmental Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13929",
+      "name": "Max-Fan",
+      "category": "Environmental Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13940",
+      "name": "PROfilter reversible carbon filters",
+      "category": "Air Filtration",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13941",
+      "name": "38-Special by Can-Filters",
+      "category": "Air Filtration",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13942",
+      "name": "The Rack - Collapsible Drying System",
+      "category": "Drying & Extraction",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13944",
+      "name": "The TRIMPRO",
+      "category": "Trimmers",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13945",
+      "name": "The TRIMPRO WORKSTATION",
+      "category": "Trimmers",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13949",
+      "name": "TRIMPRO ROTOR",
+      "category": "Trimmers",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "13965",
+      "name": "Rare Earth",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14317",
+      "name": "COM-100: Waterproof EC / TDS / Temp Combo Meter",
+      "category": "pH/EC/TDS Meters & Solutions",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14319",
+      "name": "PH-200: Waterproof pH Meter",
+      "category": "pH/EC/TDS Meters & Solutions",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14324",
+      "name": "Control Wizard Accurate Handheld pH3 Meter",
+      "category": "pH/EC/TDS Meters & Solutions",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14326",
+      "name": "Replacemnt probe for Control Wizard Accurate pH3 Meter",
+      "category": "pH/EC/TDS Meters & Solutions",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14346",
+      "name": "3-pack 1.5 V batteries for HM Digital Meters",
+      "category": "pH/EC/TDS Meters & Solutions",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14348",
+      "name": "Can-Lite Filters",
+      "category": "Air Filtration",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14354",
+      "name": "B-52 Vitamin",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14355",
+      "name": "Big Bud Bloom Booster",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14356",
+      "name": "Bud Blood Bloom Stimulator",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14357",
+      "name": "Bud Candy",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14358",
+      "name": "Bud Factor X",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14359",
+      "name": "CarboLoad",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14360",
+      "name": "Final Phase",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14362",
+      "name": "Mother Earth Organic Super Tea",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14363",
+      "name": "Nirvana",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14364",
+      "name": "Overdrive",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14365",
+      "name": "Piranha Beneficial Fungi",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14367",
+      "name": "Sensi Grow Two-part",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14368",
+      "name": "Sensizym",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14369",
+      "name": "Tarantula Beneficial Bacteria",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14370",
+      "name": "Ultra-premium Connoisseur",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14371",
+      "name": "VooDoo Juice Root Booster",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14441",
+      "name": "Grow Big Liquid Plant Food (6-4-4)",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14442",
+      "name": "Tiger Bloom Liquid Plant Food (2-8-4)",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14451",
+      "name": "Big Bloom Liquid Plant Food (1 qt)",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14453",
+      "name": "Big Bloom Liquid Plant Food (1 gal)",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14458",
+      "name": "Grow Big Liquid Plant Food (1 gal)",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14461",
+      "name": "Tiger Bloom Liquid Plant Food (1 qt)",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14463",
+      "name": "Tiger Bloom Liquid Plant Food (1 gal)",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14478",
+      "name": "SledgeHammer (1 qt)",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14508",
+      "name": "Root Pouch",
+      "category": "Pots & Containers",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14524",
+      "name": "Socket Sets",
+      "category": "Grow Lights Ballast",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14587",
+      "name": "Mondi Super Saucers",
+      "category": "Propagation Supplies",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14593",
+      "name": "Mondi Mini Greenhouse 4 and 7 Propagation Domes",
+      "category": "Propagation Supplies",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14606",
+      "name": "PH Perfect Ultra-premium Connoisseur",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14607",
+      "name": "pH Perfect Sensi Bloom 2-Part",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14608",
+      "name": "pH Perfect Sensi Grow 2-Part",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14628",
+      "name": "B'CuzZ CoCo Nutrients",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14664",
+      "name": "TRIMPRO UNPLUGGED",
+      "category": "Trimmers",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14688",
+      "name": "Dyna-Gro Grow",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14693",
+      "name": "Dyna-Gro Bloom",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14696",
+      "name": "Dyna-Gro Pro Tekt",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14719",
+      "name": "UNO Rope Ratchets",
+      "category": "Grow Tents AC INFINITY",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14722",
+      "name": "Bond 3-Way Soil Meter",
+      "category": "pH/EC/TDS Meters & Solutions",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14736",
+      "name": "EcoPlus Pump Filter Bags",
+      "category": "Water Pumps",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14746",
+      "name": "EcoPlus Commercial Air Pumps",
+      "category": "Air Pumps",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14750",
+      "name": "UNO Grow Tents",
+      "category": "Grow Tents AC INFINITY",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14770",
+      "name": "12 x 18 x 3 Storage Bag (ziploc)",
+      "category": "Air Filtration",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14788",
+      "name": "ONA Spray",
+      "category": "Odor Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14792",
+      "name": "Clonex Clone Solution",
+      "category": "Propagation Supplies",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14796",
+      "name": "Hydrodyamics Clonex Mist",
+      "category": "Propagation Supplies",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14802",
+      "name": "Vitamino",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14869",
+      "name": "Tritan's Trawl",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14876",
+      "name": "Heat Mat Single Tray",
+      "category": "Propagation Supplies",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14892",
+      "name": "Atami RootBlastic",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14899",
+      "name": "B1Cuss BlossomBuilder 946 ml.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14905",
+      "name": "SunBlaster 25 watt green Visual lamp-standard socket",
+      "category": "Grow Lights Ballast",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "14970",
+      "name": "Drying Rack 4 Tier",
+      "category": "Drying & Extraction",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15011",
+      "name": "Hortilux-Blue Daylight Metal Halide Lamps",
+      "category": "Philips",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15036",
+      "name": "Black & White Panda Film (poly)",
+      "category": "Reflective Wall Fabric",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15037",
+      "name": "Diamond Silver White Film",
+      "category": "Reflective Wall Fabric",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15059",
+      "name": "General Hydroponics® CocoTek® Grow - A 3 - 0 - 1 & B 1 - 2 - 4",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15060",
+      "name": "CocoTek grow A Qts.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15063",
+      "name": "CocoTek Bloom A Qts.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15064",
+      "name": "Cocotek Bloom B Qts",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15065",
+      "name": "CocoTek Grow A Gal.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15066",
+      "name": "CocoTek Grow B Gal.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15067",
+      "name": "CocoTek Bloom A Gal.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15068",
+      "name": "CocoTek Bloom B Gal.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15077",
+      "name": "B'Cuzz® Blossom Builder 0 - 9 - 19",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15094",
+      "name": "UNO-2 Speed Controled in line blowers",
+      "category": "Environmental Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15106",
+      "name": "Dual Lamp Fixture",
+      "category": "Grow Lights Ballast",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15110",
+      "name": "240V.LEC®Emitting Ceramic® Fixture 630 Light",
+      "category": "Grow Lights Ballast",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15112",
+      "name": "Accurate pH 4 w/remote probe",
+      "category": "pH/EC/TDS Meters & Solutions",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15113",
+      "name": "Accurate pH 4 w/remote probe",
+      "category": "pH/EC/TDS Meters & Solutions",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15115",
+      "name": "Accurate pH 4 replacement /remote probe",
+      "category": "pH/EC/TDS Meters & Solutions",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15117",
+      "name": "LEC 315 240V",
+      "category": "Grow Lights Ballast",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15120",
+      "name": "Ionic® Bloom 3-2-6 Premium Plant Nutrient Qt.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15122",
+      "name": "Ionic® Bloom 3-2-6 Premium Plant Nutrient Gallon",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15123",
+      "name": "Ionic® Bloom 3-2-6 Premium Plant Nutrient 2.5 Gallon",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15128",
+      "name": "HydroDynamics Ionic® Grow 3-1-5 Premium Plant Nutrient 2.5 gallon",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15132",
+      "name": "HydroDynamics Ionic® PK Boost 0-5-6 Premium Plant Nutrient",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15137",
+      "name": "Hydrodynamics int. Coco/Soil Grow & Bloom",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15138",
+      "name": "Ionic Coco Bloom Soil/hydro Qt.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15140",
+      "name": "Ionic Coco Grow Soil/Hydro Qt",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15141",
+      "name": "Ionic Coco Bloom Soil/hydro Gal",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15149",
+      "name": "Plagron Terra Bloom & Grow",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15150",
+      "name": "Plagron Terra Bloom Qt.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15152",
+      "name": "Plagron Terra Bloom Gal.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15153",
+      "name": "Plagron Terra grow Qt.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15154",
+      "name": "Plagron Terra Grow Gallon",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15160",
+      "name": "E-Papillon 600 Watt 240V. W / Lamp",
+      "category": "Grow Lights Ballast",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15165",
+      "name": "D‐Papillon 315W FULL SPECTRUM 240V",
+      "category": "Grow Lights Ballast",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15170",
+      "name": "Green Sensation",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15185",
+      "name": "Terpinator 0 - 0 - 4 Qt.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15187",
+      "name": "Terpinator 0 - 0 - 4 Gallon",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15195",
+      "name": "Humboldt Nutrients S.I. Structural Integrity",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15196",
+      "name": "Humboldt Nutrients S.I. Structural Integrity qt.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15200",
+      "name": "Humboldt Nutrients Calyx Magnum 2 - 0 - 0/Qt.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15202",
+      "name": "Humboldt Nutrients Calyx Magnum 2 - 0 - 0/Gal.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15215",
+      "name": "Pure Clean Natural Enzymes",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15219",
+      "name": "Plagron Royal Rush",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15223",
+      "name": "Plagron Power Roots",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15227",
+      "name": "Cocos A & B",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15231",
+      "name": "Plagron Cocos B  liter",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15232",
+      "name": "Plagron Cocos B  5 liter",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15233",
+      "name": "plagron Hydro A&B",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15234",
+      "name": "Plagron Hydro A Liter",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15236",
+      "name": "Plagron Hydro A  5 Liter",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15238",
+      "name": "Plagron Hydro B  5 Liter",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15250",
+      "name": "BADBOY T5 lighting System",
+      "category": "Grow Lights Ballast",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15254",
+      "name": "Sunblaster 125W CF 2500k",
+      "category": "Grow Lights Ballast",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15255",
+      "name": "Sunblaster 200W CF 6400k",
+      "category": "Grow Lights Ballast",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15258",
+      "name": "315 CHM 4K GREENPOWER LUMINAIRES",
+      "category": "Grow Lights Ballast",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15259",
+      "name": "BadBoy HO T-5 Triphosphor Bloom 54W 2900K",
+      "category": "Philips",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15261",
+      "name": "Eye Hortilux e-Start Metal Halide Lamps",
+      "category": "Philips",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15264",
+      "name": "Eye Hortilux e-Start Metal Halide Lamps",
+      "category": "Philips",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15269",
+      "name": "315 CHM 3K GREENPOWER LUMINAIRES",
+      "category": "Grow Lights Ballast",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15283",
+      "name": "BadBoy HO T-5 4 ft Triphosphor Grow 54 W, 6500 K",
+      "category": "Philips",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15284",
+      "name": "8 Pack of BadBoy HO T-5 4 ft Triphosphor Bloom",
+      "category": "Philips",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15301",
+      "name": "HydroDynamics Clonex Mist 100 ml",
+      "category": "Propagation Supplies",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15303",
+      "name": "Hydrodyamics Clonex Mist 300Ml",
+      "category": "Propagation Supplies",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15304",
+      "name": "Clonex mist 750ml RTU",
+      "category": "Propagation Supplies",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15305",
+      "name": "Clonex Mist Concentrate Qt.",
+      "category": "Propagation Supplies",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15306",
+      "name": "Clonex Root Maximizer - Granular/ for soil applications",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15307",
+      "name": "Clonex Mycorrhizae Root Maximizer 4 OZ Soluble",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15308",
+      "name": "Clonex Mycorrhizae Root Maximizer 8 OZ Soluble",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15309",
+      "name": "Clonex Root Maximizer Mycorrhizae-Soluble for Hydro",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15310",
+      "name": "Clonex Mycorrhizae Root Maximizer 4 OZ Soluble",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15312",
+      "name": "Clonex Mycorrhizae Root Maximizer 8 OZ Soluble",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15313",
+      "name": "Clonex Mycorrhizae Root Maximizer 1 pound Soluble",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15314",
+      "name": "Gro Pro® Root Master Pots",
+      "category": "Pots & Containers",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15315",
+      "name": "Black Plastic Buckets - 3 & 5 Gallon",
+      "category": "Pots & Containers",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15316",
+      "name": "standard 3.5 gallon black bucket",
+      "category": "Pots & Containers",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15318",
+      "name": "Standard 5 Gallon Black Bucket",
+      "category": "Pots & Containers",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15319",
+      "name": "Standard Black Bucket lid",
+      "category": "Pots & Containers",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15320",
+      "name": "GRO PRO 12 AIR POT",
+      "category": "Pots & Containers",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15326",
+      "name": "BI-PIN Socket adpter for PGZX18",
+      "category": "Grow Lights Ballast",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15328",
+      "name": "315 Socket adapter for 38 mogal - 315 Socket Adapter for Lamp Base: PGZX18",
+      "category": "Grow Lights Ballast",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15348",
+      "name": "GREENPOWERLUMINAIRES 630 Remote",
+      "category": "Grow Lights Ballast",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15354",
+      "name": "The Ozone Generator 5,000 cu. ft.",
+      "category": "Odor Control",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15363",
+      "name": "Botanicare® Growilla Bud 2 - 5 - 4 & Veg 5 - 4 - 2",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15372",
+      "name": "Down To Earth Neem Seed Meal 6 - 1 - 2",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15376",
+      "name": "Down To Earth Granular Humic Acids",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15380",
+      "name": "Down To Earth Bone Meal 3 - 15 - 0",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15383",
+      "name": "Down To Earth Bone Meal - 25 lb",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15384",
+      "name": "Down To Earth Vegan Mix 3 - 2 - 2",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15385",
+      "name": "Down To Earth Vegan Mix - 6 lb",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15387",
+      "name": "Down To Earth Vegan Mix - 25 lb",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15388",
+      "name": "Down To Earth Kelp Meal 1 - 0.1 - 2",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15389",
+      "name": "Down To Earth Kelp Meal - 5 lb",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15391",
+      "name": "Down To Earth Kelp Meal - 20 lb",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15392",
+      "name": "Down To Earth Fish Bone Meal 3 - 16 - 0",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15393",
+      "name": "Down To Earth Fish Bone Meal - 6 lb",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15406",
+      "name": "Flora Bloom 15 gal",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15408",
+      "name": "FloraGro 15 gal",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15409",
+      "name": "FloraGro 55 gal",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15410",
+      "name": "FloraGro 275 gal",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15411",
+      "name": "Flora Bloom 275 gal",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15437",
+      "name": "CALNESIUM Deficiency Correction Supplement",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15456",
+      "name": "Stick Thrip Leafminer Trap 5/Pack",
+      "category": "Pest Control",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15503",
+      "name": "Carb O Naria 0-0-0.3",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15504",
+      "name": "CAR_BEAU_NARIA 0-0-.03  Qt. (12/cs)",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15508",
+      "name": "Car- Beau- Naria 0-0-0.3 , 5 Gall",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15543",
+      "name": "Eye Hortilux® CMH 315 Lamp",
+      "category": "Grow Lights Ballast",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "15549",
+      "name": "Ripen® 0.5-7-6 Quarts",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "16504",
+      "name": "Flashgro Roll",
+      "category": "Reflective Wall Fabric",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "16621",
+      "name": "Dyna-Gro Pro Tekt 1qt",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "16622",
+      "name": "Dyna-Gro Pro Tekt 1gal",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "16700",
+      "name": "Terpinator 0 - 0 - 4",
+      "category": "Nutrients & Supplements",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "32121",
+      "name": "TEAMING WITH FUNGI The Organic Growers Guide to Mycorrhizae",
+      "category": "Books",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "32124",
+      "name": "Teaming with Nutrients",
+      "category": "Books",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "61541",
+      "name": "Ed Rosenthal Marijuana Grower's Handbook",
+      "category": "Books",
+      "type": "grouped",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62384",
+      "name": "Plant Life Easy Grow Plus 500 gm",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62604",
+      "name": "Sun System RS 1850 LED",
+      "category": "Grow Lights Ballast, LED Lighting",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62610",
+      "name": "DLI-DIODE-Series-LED Toplighting LED Fixture (Long)",
+      "category": "LED Lighting",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62622",
+      "name": "Botanicare Organicare True Earth Potting Mix (O.M.R.I.)",
+      "category": "Growing Medium",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62641",
+      "name": "Athena Blended Line",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62645",
+      "name": "Athena Cleanse",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62649",
+      "name": "Athena CaMg",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62658",
+      "name": "Athena PK Bloom Booster-1 gallon",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62663",
+      "name": "Athena Grow A 1 Gallon",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62675",
+      "name": "Athena Grow B 1 Gallon",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62688",
+      "name": "Athena CaMg 1 Gallon",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62699",
+      "name": "Athena Bloom A 1- Gallon",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62703",
+      "name": "Athena Bloom B 1 Gallon",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62712",
+      "name": "Athena Stack 32 oz",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62719",
+      "name": "Athena Balance 1 Gallon",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62724",
+      "name": "Athena CaMg",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62726",
+      "name": "Athena Bloom A - 1 Gallon",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62784",
+      "name": "Athena Cuts Rooting Gel 7 oz.",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "62786",
+      "name": "Athena Cuts Rooting Gel Compound - 14oz",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "63059",
+      "name": "Teaming with Bacteria: The Organic Gardener’s Guide to Endophytic Bacteria and the Rhizophagy Cycle",
+      "category": "Books",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "63252",
+      "name": "Dutch Lighting Innovations APEX-Series LED Toplight 800 FS-DC, 208-400V",
+      "category": "LED Lighting",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "63253",
+      "name": "Dutch Lighting Innovations Diode-Series LED Multilayer 600 FS-DC, 208-400V",
+      "category": "LED Lighting",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "63528",
+      "name": "Scietetics Ful V Tech Element Transfer System Quart",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "63547",
+      "name": "MAKE AMERICA GROW AGAIN",
+      "category": "pH/EC/TDS Meters & Solutions",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "63673",
+      "name": "B'cuzZ Roxx Rooting Blocks 4 x 4 x 4 --Cs/24 strips @6 per strip",
+      "category": "Growing Medium",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "63789",
+      "name": "CLOUDRAY S9, Gen 2 Grow Tent Clip Fan 9”",
+      "category": "Uncategorized",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "63843",
+      "name": "Scietetics MagCal",
+      "category": "Grow Tents AC INFINITY",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "63859",
+      "name": "Scietetics MagCal 15 Gallon",
+      "category": "Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "63890",
+      "name": "SCIETETICS COCO 8 BLOCK /1.5Gal",
+      "category": "Growing Medium, Nutrients & Supplements",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    },
+    {
+      "id": "63979",
+      "name": "Seeds",
+      "category": "Cannabis Seeds",
+      "type": "simple",
+      "canFix": false,
+      "enrichedWeight": "N/A"
+    }
+  ]
+}
