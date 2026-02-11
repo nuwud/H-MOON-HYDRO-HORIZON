@@ -11,7 +11,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 - Root `README.md` with project overview and data quality summary
 - `CHANGELOG.md` for tracking all changes
-- GitHub issue templates for migration tasks
+- GitHub Issues created for all pending tasks:
+  - #2 - [Migration] Import woocommerce_import_ready.csv to Production
+  - #3 - [Data] Fix 317 products missing brand information
+  - #4 - [Data] Fix 3,056 products missing weight information
+  - #5 - [Data] Fix 498 products missing images
 
 ### Changed
 - Updated `copilot-instructions.md` with Feb 11, 2026 accomplishments
