@@ -1,21 +1,30 @@
-# H-Moon Hydro: Product Data & WooCommerce Enhancement
+# H-Moon Hydro: WooCommerce Product Data Migration
 
-## 🚨 PROJECT STATUS UPDATE (January 2026)
+## 🚀 PROJECT STATUS UPDATE (February 11, 2026)
 
-**Shopify migration CANCELLED** - Staying on WooCommerce/WordPress/BeaverBuilder stack.
+**ACTIVE: WooCommerce Migration** - Ready to import 2,579 refined products with **100% SKUs, prices, and descriptions**.
+
+### ✅ Recent Accomplishments (Feb 11, 2026)
+- **Price Recovery**: Fixed 1,488 variations missing prices (parent inheritance)
+- **SKU Generation**: Generated 1,604 SKUs for products without them
+- **Data Validation**: All critical fields now at 100% coverage
+- **Import Ready**: `outputs/woocommerce_import_ready.csv` validated and ready
 
 ### Active Development Focus
-1. **WooCommerce Product Enhancement** - Apply Shopify-quality improvements to WooCommerce products
-2. **WordPress/BeaverBuilder Design** - Stack design improvements
-3. **ACH Payment Plugin** - Now in separate repo: https://github.com/nuwud/woo-ach-batch
-4. **Product Line Manager Plugin** - Now in separate repo: https://github.com/nuwud/woo-product-line-manager
+1. **WooCommerce Product Import** - Import `woocommerce_import_ready.csv` to production
+2. **WordPress/BeaverBuilder Design** - Theme and UX improvements
+3. **Post-Import Data Polish** - Fix weights, images, brands after import
+4. **ACH Payment Plugin** - Separate repo: https://github.com/nuwud/woo-ach-batch
+5. **Product Line Manager Plugin** - Separate repo: https://github.com/nuwud/woo-product-line-manager
 
-### Archived Components
+### Component Status
 | Component | Status | Notes |
 |-----------|--------|-------|
-| `hmoon-pipeline/` | 📦 ARCHIVED | Shopify TypeScript CLI - use data only |
-| Shopify Horizon Theme | 📦 ARCHIVED | Liquid templates not needed |
-| `hmoonhydro.com/` | 🔒 LOCAL ONLY | Not tracked (10k+ images) |
+| `outputs/woocommerce_import_ready.csv` | ✅ **IMPORT THIS** | 4,727 rows, 100% SKU/Price |
+| `CSVs/WooExport/` | ✅ ACTIVE | Dec 31, 2025 WooCommerce export |
+| `hmoonhydro.com/` | 🔒 LOCAL ONLY | WooCommerce site backup (10k+ images) |
+| `archive/shopify/` | 📦 ARCHIVED | Liquid templates, Shopify-specific files |
+| `hmoon-pipeline/` | 📦 ARCHIVED | Data outputs still useful |
 
 ---
 
@@ -33,22 +42,28 @@
 
 ---
 
-## 🎯 BEST CSV FOR WOOCOMMERCE UPDATES
+## 🎯 BEST CSV FOR WOOCOMMERCE IMPORT
 
-**USE:** `outputs/shopify_complete_import.csv` (rename/transform for WooCommerce)
+**PRIMARY:** `outputs/woocommerce_import_ready.csv` → **READY FOR IMPORT**
+**REFERENCE:** `CSVs/WooExport/Products-Export-2025-Dec-31-180709.csv` → Current WooCommerce schema
 
-| Metric | Value |
-|--------|-------|
-| Unique Products | 2,579 |
-| Total Rows | 4,727 (includes variants) |
-| Image Coverage | 87% (2,199 products) |
-| Description Coverage | 100% |
+| Metric | Import File | Current WooCommerce |
+|--------|-------------|---------------------|
+| Unique Products | 2,579 | 1,481 |
+| Total Rows | 4,727 (with variants) | 1,481 |
+| **SKU Coverage** | **100%** ✅ | ~88% |
+| **Price Coverage** | **100%** ✅ | ~70% |
+| **Description Coverage** | **100%** ✅ | ~20% |
+| Weight Coverage | ~30% | ~38% |
+| Image Coverage | 87% | varies |
+| Category Coverage | **100%** ✅ | partial |
 
-This data can be transformed to update WooCommerce products with:
-- Improved descriptions
-- Better categorization
-- Standardized SKUs
-- Brand normalization
+### Import Strategy
+1. Go to **WooCommerce > Products > Import**
+2. Upload `outputs/woocommerce_import_ready.csv`
+3. Map columns (most auto-map correctly)
+4. Select **"Update existing products"** (matches by SKU)
+5. Run import - expect ~2,087 new products, ~1,009 updates
 
 ---
 
@@ -89,29 +104,30 @@ const dryRun = args.includes('--dry-run') || !args.includes('--confirm');
 
 ---
 
-## 📚 Shopify Documentation Requirement
+## 📚 WooCommerce Documentation
 
-> ⚠️ **ARCHIVED SECTION** - Shopify migration cancelled. Kept for reference if needed.
-
-### ⚠️ ALWAYS CHECK OFFICIAL DOCS BEFORE API WORK
-
-**Shopify's GraphQL API changes frequently.** Verify against official documentation:
-
+### Official Resources
 | Resource | URL |
 |----------|-----|
-| Product API | https://shopify.dev/docs/api/admin-graphql/latest/mutations/productCreate |
-| Bulk Operations | https://shopify.dev/docs/api/usage/bulk-operations |
-| Rate Limits | https://shopify.dev/docs/api/usage/rate-limits |
-| CSV Import | https://help.shopify.com/en/manual/products/import-export |
+| WooCommerce REST API | https://woocommerce.github.io/woocommerce-rest-api-docs/ |
+| Product CSV Import | https://woocommerce.com/document/product-csv-importer-exporter/ |
+| Variable Products | https://woocommerce.com/document/variable-product/ |
+| WP-CLI WooCommerce | https://github.com/woocommerce/woocommerce/wiki/WC-CLI |
 
-### API Version: `2024-01`
-
-### Known API Changes (Jan 2026)
-| Old (Deprecated) | New (Current) |
-|------------------|---------------|
-| `productCreate(input:)` | `productCreate(product:)` |
-| `ProductInput.variants` | `productVariantsBulkCreate` after product |
-| `variant.sku` | `variant.inventoryItem.sku` |
+### WooCommerce Import CSV Columns
+| Column | Required | Notes |
+|--------|----------|-------|
+| `ID` | No | Leave blank for new products |
+| `Type` | Yes | `simple`, `variable`, `variation` |
+| `SKU` | Yes | Used for matching existing products |
+| `Name` | Yes | Product title |
+| `Description` | No | Full HTML description |
+| `Short description` | No | Summary text |
+| `Regular price` | Yes | Base price |
+| `Categories` | No | Pipe-delimited: `Cat1 > SubCat \| Cat2` |
+| `Images` | No | Comma-separated URLs |
+| `Attribute 1 name` | For variants | e.g., "Size" |
+| `Attribute 1 value(s)` | For variants | Pipe-delimited values |
 
 ---
 

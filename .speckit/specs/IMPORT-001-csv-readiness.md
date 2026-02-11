@@ -1,9 +1,12 @@
 # SPEC: IMPORT-001 — CSV Import Readiness
 
-## Status: ✅ COMPLETE
+## Status: 📦 ARCHIVED (Shopify Context)
+
+> **Note**: This spec was for the cancelled Shopify migration. The data cleaning work remains valuable.
+> For active WooCommerce import, see [WOOCOMMERCE-IMPORT-001.md](WOOCOMMERCE-IMPORT-001.md).
 
 ## Overview
-Comprehensive CSV validation, cleaning, and preparation for Shopify bulk product import.
+Comprehensive CSV validation, cleaning, and preparation for Shopify bulk product import (archived).
 
 ---
 

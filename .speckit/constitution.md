@@ -3,25 +3,51 @@
 ## Project Identity
 
 **Name**: H-Moon Hydro  
-**Type**: Shopify Hydroponics eCommerce + WooCommerce Migration Pipeline  
-**Primary Languages**: TypeScript, Liquid, JavaScript, Python  
-**Package Manager**: npm (for hmoon-pipeline)  
+**Type**: WooCommerce Hydroponics eCommerce  
+**Primary Languages**: PHP, JavaScript, Python  
+**Package Manager**: Composer (WordPress/WooCommerce), npm (build tools)  
 **GitHub Repository**: nuwud/H-MOON-HYDRO-HORIZON
+
+---
+
+## Current Status (Updated Feb 11, 2026)
+
+### ✅ Import Ready
+- **File**: `outputs/woocommerce_import_ready.csv`
+- **Products**: 2,579 unique (4,727 total with variations)
+- **Critical Data**: 100% SKUs, 100% Prices, 100% Descriptions
+
+### Recent Work (Feb 11, 2026)
+| Task | Status | Commit Reference |
+|------|--------|------------------|
+| Price recovery for 1,488 variations | ✅ Complete | See `enhanced_price_recovery.js` |
+| SKU generation for 1,604 products | ✅ Complete | See `fix_remaining_skus.js` |
+| Data quality validation | ✅ Complete | See `final_quality_report.js` |
+| Documentation updates | ✅ Complete | README.md, copilot-instructions.md |
+
+### Post-Import Tasks (Pending)
+- [ ] Fix missing brands (317 products)
+- [ ] Fix missing weights (3,056 products)
+- [ ] Fix missing images (498 products)
+
+---
 
 ## Architecture Overview
 
 ### Core Components
-1. **Shopify Horizon Theme** (`/` root): Liquid templates, sections, snippets, assets
-2. **HMoon Pipeline** (`hmoon-pipeline/`): TypeScript CLI for product auditing, category building, Shopify GraphQL sync
-3. **Legacy WooCommerce** (`hmoonhydro.com/`): WordPress site + SQL dump for data archaeology (NOT uploaded to GitHub)
+1. **WooCommerce Site** (`hmoonhydro.com/`): WordPress + WooCommerce + BeaverBuilder (LOCAL ONLY - not tracked)
+2. **Product Data** (`outputs/`, `CSVs/`): Refined product catalog with 2,579 products
+3. **Custom Plugins** (`wp-plugins/`): UPS shipping, analytics, security hardening
+4. **Data Pipeline** (`hmoon-pipeline/`): ARCHIVED - data outputs still useful
+5. **Shopify Theme** (`archive/shopify/`): ARCHIVED - Liquid templates preserved
 
 ### Custom Agents
 Located in `agents/` — invoke before taking action:
 - `@repo-archeologist` — Search existing scripts before creating new ones
-- `@shopify-compliance-auditor` — Validate changes before deploy
-- `@safe-shopify-operator` — Ensure dry-run guardrails for API mutations
+- `@woocommerce-import-validator` — Validate CSV before WooCommerce import
 - `@brand-normalizer` — Use 250+ brand registry
 - `@category-classifier` — Handle category priority conflicts
+- `@variant-consolidator` — Group products with size/color variants
 
 ---
 
@@ -44,61 +70,60 @@ Located in `agents/` — invoke before taking action:
 
 ---
 
-## Shopify API Documentation Requirements
+## WooCommerce Documentation Requirements
 
-### ⚠️ CRITICAL: Always Verify Against Official Docs
-**Shopify's GraphQL API changes frequently.** Before writing or modifying ANY Shopify API code:
+### Official Resources
+| Resource | URL |
+|----------|-----|
+| WooCommerce REST API | https://woocommerce.github.io/woocommerce-rest-api-docs/ |
+| Product CSV Import | https://woocommerce.com/document/product-csv-importer-exporter/ |
+| Variable Products | https://woocommerce.com/document/variable-product/ |
+| WP-CLI WooCommerce | https://github.com/woocommerce/woocommerce/wiki/WC-CLI |
+| WordPress Coding Standards | https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/ |
 
-### 1. Consult Official Documentation First
-- Product API: https://shopify.dev/docs/api/admin-graphql/latest/mutations/productCreate
-- Bulk Operations: https://shopify.dev/docs/api/usage/bulk-operations
-- Rate Limits: https://shopify.dev/docs/api/usage/rate-limits
-- CSV Import: https://help.shopify.com/en/manual/products/import-export
+### WooCommerce Product Types
+| Type | Use Case |
+|------|----------|
+| `simple` | Single product, no variations |
+| `variable` | Parent product with size/color options |
+| `variation` | Child of variable product |
+| `grouped` | Collection of related products |
+| `external` | Affiliate/external products |
 
-### 2. Check API Version Compatibility
-- Current project version: `2024-01`
-- Verify mutations/queries exist in target version
-- Note deprecated fields before using
-
-### 3. Common Pitfalls (Updated Jan 2026)
-
-| Old Way (Deprecated) | New Way (Current) |
-|---------------------|-------------------|
-| `productCreate(input: ProductInput!)` | `productCreate(product: ProductCreateInput!)` |
-| `ProductInput.options` (string array) | `ProductCreateInput.productOptions` (with values) |
-| `ProductInput.variants` | Use `productVariantsBulkCreate` after product creation |
-| `variant.sku` directly | `variant.inventoryItem.sku` |
-
-### 4. Documentation Reference Before API Work
-
-| Task | Must Check |
-|------|-----------|
-| Creating products | `productCreate` mutation schema |
-| Updating variants | `productVariantsBulkUpdate` schema |
-| Bulk operations | Bulk operations documentation |
-| Rate limiting | Current rate limit thresholds |
+### CSV Import Column Mapping
+| Column | Required | Notes |
+|--------|----------|-------|
+| `ID` | No | Leave blank for new products |
+| `Type` | Yes | `simple`, `variable`, `variation` |
+| `SKU` | Yes | Used for matching existing products |
+| `Name` | Yes | Product title |
+| `Description` | No | Full HTML description |
+| `Regular price` | Yes | Base price |
+| `Categories` | No | Pipe-delimited: `Cat1 > SubCat \| Cat2` |
+| `Images` | No | Comma-separated URLs |
+| `Attribute 1 name` | For variants | e.g., "Size" |
 
 ---
 
 ## Technical Standards
 
-### TypeScript/Node.js Patterns
+### PHP/WordPress Patterns
+- **WordPress Coding Standards**: Follow WPCS for all PHP code
+- **Escaping Output**: Always escape with `esc_html()`, `esc_attr()`, `esc_url()`
+- **Sanitizing Input**: Use `sanitize_text_field()`, `absint()`, etc.
+- **Nonces**: Include nonce verification for all form submissions
+
+### JavaScript/Node.js Patterns
 - **Dry-Run Default**: All CLI scripts must default to dry-run mode
-  ```typescript
+  ```javascript
   const dryRun = args.includes('--dry-run') || !args.includes('--confirm');
   ```
-- **Rate Limiting**: Use 200-500ms pause between Shopify mutations
 - **Error Handling**: Always wrap API calls in try/catch with meaningful error messages
-
-### Liquid Theme Standards
-- Internal blocks prefixed with `_` (e.g., `_product-details.liquid`)
-- Use `{% content_for 'block' %}` for block references
-- Template JSON files are auto-generated — never manually edit
 
 ### Data Conventions
 - **SKU Format**: `HMH-{CATEGORY_CODE}-{HASH}` (e.g., `HMH-NUT-A3F2B1`)
 - **Category Codes**: NUT, GRO, IRR, PHM, LIT, HID, AIR, ODR, POT, PRO, SED, HAR, TRM, PES, CO2, BOK
-- **Weight Unit**: Convert WooCommerce lbs → Shopify grams (×453.592)
+- **Weight Unit**: Keep as lbs for WooCommerce (source data in grams ÷ 453.592)
 
 ---
 
@@ -106,9 +131,11 @@ Located in `agents/` — invoke before taking action:
 
 | File | Purpose |
 |------|---------|
-| `products_export_1.csv` | Canonical Shopify export |
-| `pos_shopify_alignment.csv` | Manual SKU mappings (review edits preserved) |
-| `HMoonHydro_Inventory.csv` | POS source of truth |
+| `outputs/woocommerce_import_ready.csv` | **IMPORT THIS** - Ready for WooCommerce (4,727 rows) |
+| `outputs/shopify_complete_import_enriched.csv` | Source data with 100% descriptions |
+| `CSVs/WooExport/Products-Export-*.csv` | Current WooCommerce exports |
+| `CSVs/HMoonHydro_Inventory.csv` | POS source of truth |
+| `outputs/pos_shopify_alignment.csv` | Manual SKU mappings (review edits preserved) |
 
 ---
 
@@ -144,9 +171,10 @@ Fixes #123
 
 ## Testing Requirements
 
-- All scripts touching Shopify API must have `--dry-run` mode
-- POS alignment changes must be tested against `pos_shopify_alignment.csv`
-- CSV imports must validate against 32-column Shopify header format
+- All destructive scripts must have `--dry-run` mode
+- Test WooCommerce imports on staging before production
+- CSV imports must validate against WooCommerce column format
+- POS alignment changes must be tested against alignment file
 
 ---
 
@@ -161,11 +189,11 @@ Fixes #123
 
 ## Deployment Guardrails
 
-1. Always run `@shopify-compliance-auditor` before merge
-2. Never run `wipeShopifyStore.ts` without typing domain confirmation
-3. Backup `products_export_1.csv` before any bulk import
+1. Always validate CSV format before WooCommerce import
+2. Backup current WooCommerce products before bulk import
+3. Test on staging environment first
 4. Create GitHub Issue before starting any migration phase
-5. Verify Shopify API documentation before any API code changes
+5. Verify WooCommerce documentation before API code changes
 
 ---
 
