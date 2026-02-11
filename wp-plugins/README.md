@@ -10,6 +10,7 @@ Custom-built plugins to replace expensive premium alternatives. Save **$150-400/
 | [hmoon-analytics](#analytics) | MonsterInsights/GA plugins ($50-200/yr) | $50+ |
 | [hmoon-security-hardening](#security) | Premium security plugins ($0-100/yr) | $0-100 |
 | [hmoon-wc-optimizer](#wc-optimizer) | Multiple optimization plugins | Performance |
+| [hmoon-product-enricher](#product-enricher) | Manual data entry | Time savings |
 
 ---
 
@@ -131,6 +132,34 @@ See [hmoon-ups-shipping/README.md](hmoon-ups-shipping/README.md) for detailed se
 
 ---
 
+### Product Enricher
+
+**Location:** `hmoon-product-enricher/`
+
+**Replaces:** Manual data entry, product scraping tools
+
+**Features:**
+- Product editor metabox for one-click enrichment
+- Auto-detect manufacturer from product name/brand
+- Pre-configured manufacturer sites:
+  - Advanced Nutrients, General Hydroponics, Fox Farm, Botanicare
+  - AC Infinity, Spider Farmer, Hydrofarm, Gorilla Grow Tent
+- Retailer fallbacks (HTG Supply, Growershouse, Hydrobuilder)
+- Extracts images, weights, descriptions, dimensions
+- Weight unit conversion (kg/g/oz → lbs)
+- Activity logging
+
+**Usage:**
+1. Edit any WooCommerce product
+2. Find "🔍 Product Data Enricher" in sidebar
+3. Click "Search for Product Data"
+4. Review found data or use search links
+5. Click "Apply Selected Updates"
+
+See [hmoon-product-enricher/README.md](hmoon-product-enricher/README.md) for detailed usage.
+
+---
+
 ## Deployment Checklist
 
 ### Before Installing
@@ -176,6 +205,7 @@ These plugins are purpose-built for H-Moon Hydro. To customize:
 ## Changelog
 
 ### 2026-02-11
+- Added H-Moon Product Enricher plugin
 - Initial release of all plugins
 - UPS REST API integration
 - GA4 + Facebook Pixel tracking
