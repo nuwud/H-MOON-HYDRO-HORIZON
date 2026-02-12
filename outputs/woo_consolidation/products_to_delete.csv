@@ -1,0 +1,358 @@
+ID,SKU,Name,Type,Action,Reason,New Parent SKU
+63530,,Scietetics Ful V Tech Element Transfer System 15 Gallon,simple,DELETE,Consolidated into 'Scietetics Ful V Tech Element Transfer System' as variant,HMH-SCIETETICS-FUL-V-TECH-ELE-40FC
+63532,,Scietetics Ful V Tech Element Transfer System 55 Gallon,simple,DELETE,Consolidated into 'Scietetics Ful V Tech Element Transfer System' as variant,HMH-SCIETETICS-FUL-V-TECH-ELE-40FC
+63533,,Scietetics Ful V Tech Element Transfer System 2.5 Gallon,simple,DELETE,Consolidated into 'Scietetics Ful V Tech Element Transfer System' as variant,HMH-SCIETETICS-FUL-V-TECH-ELE-40FC
+63534,,Scietetics Ful V Tech Element Transfer System 5 Gallon,simple,DELETE,Consolidated into 'Scietetics Ful V Tech Element Transfer System' as variant,HMH-SCIETETICS-FUL-V-TECH-ELE-40FC
+63535,,Scietetics Ful V Tech Element Transfer System 255 Gallon,simple,DELETE,Consolidated into 'Scietetics Ful V Tech Element Transfer System' as variant,HMH-SCIETETICS-FUL-V-TECH-ELE-40FC
+70423,HMH-NUT-BCUG9V,Scietetics Ful V Tech Element Transfer System 15,simple,DELETE,Consolidated into 'Scietetics Ful V Tech Element Transfer System' as variant,HMH-SCIETETICS-FUL-V-TECH-ELE-40FC
+70424,HMH-NUT-33C8RQ,Scietetics Ful V Tech Element Transfer System 2.5,simple,DELETE,Consolidated into 'Scietetics Ful V Tech Element Transfer System' as variant,HMH-SCIETETICS-FUL-V-TECH-ELE-40FC
+70425,HMH-NUT-33C8LP,Scietetics Ful V Tech Element Transfer System 255,simple,DELETE,Consolidated into 'Scietetics Ful V Tech Element Transfer System' as variant,HMH-SCIETETICS-FUL-V-TECH-ELE-40FC
+70426,HMH-NUT-OU69GQ,Scietetics Ful V Tech Element Transfer System 5,simple,DELETE,Consolidated into 'Scietetics Ful V Tech Element Transfer System' as variant,HMH-SCIETETICS-FUL-V-TECH-ELE-40FC
+70427,HMH-NUT-BCUGDB,Scietetics Ful V Tech Element Transfer System 55,simple,DELETE,Consolidated into 'Scietetics Ful V Tech Element Transfer System' as variant,HMH-SCIETETICS-FUL-V-TECH-ELE-40FC
+71135,1692,Y-Connector 10x8x8,simple,DELETE,Consolidated into 'Y-Connector' as variant,HMH-Y-CONNECTOR-E07E
+71136,1694,Y-Connector 12x10x10,simple,DELETE,Consolidated into 'Y-Connector' as variant,HMH-Y-CONNECTOR-E07E
+71137,1693,Y-Connector 12x12x12,simple,DELETE,Consolidated into 'Y-Connector' as variant,HMH-Y-CONNECTOR-E07E
+71138,1687,Y-Connector 4x4x4,simple,DELETE,Consolidated into 'Y-Connector' as variant,HMH-Y-CONNECTOR-E07E
+71142,1688,Y-Connector 6x4x4,simple,DELETE,Consolidated into 'Y-Connector' as variant,HMH-Y-CONNECTOR-E07E
+71143,1689,Y-Connector 6x6x6,simple,DELETE,Consolidated into 'Y-Connector' as variant,HMH-Y-CONNECTOR-E07E
+71144,1690,Y-Connector 8x6x6,simple,DELETE,Consolidated into 'Y-Connector' as variant,HMH-Y-CONNECTOR-E07E
+71145,1691,Y-Connector 8x8x8,simple,DELETE,Consolidated into 'Y-Connector' as variant,HMH-Y-CONNECTOR-E07E
+67827,958,Classic 2000,simple,DELETE,Consolidated into 'Classic' as variant,HMH-CLASSIC-D35B
+67830,951,Classic 300,simple,DELETE,Consolidated into 'Classic' as variant,HMH-CLASSIC-D35B
+67831,952,Classic 350,simple,DELETE,Consolidated into 'Classic' as variant,HMH-CLASSIC-D35B
+67832,953,Classic 400,simple,DELETE,Consolidated into 'Classic' as variant,HMH-CLASSIC-D35B
+67835,954,Classic 600,simple,DELETE,Consolidated into 'Classic' as variant,HMH-CLASSIC-D35B
+67836,955,Classic 900,simple,DELETE,Consolidated into 'Classic' as variant,HMH-CLASSIC-D35B
+14671,hmh01261,EcoPlus 185 GPH,simple,DELETE,Consolidated into 'EcoPlus' as variant,HMH-ECOPLUS-51E5
+14673,hmh01262,EcoPlus 264 GPH,simple,DELETE,Consolidated into 'EcoPlus' as variant,HMH-ECOPLUS-51E5
+14674,hmh01263,EcoPlus 396 GPH,simple,DELETE,Consolidated into 'EcoPlus' as variant,HMH-ECOPLUS-51E5
+14675,hmh01264,EcoPlus 633 GPH,simple,DELETE,Consolidated into 'EcoPlus' as variant,HMH-ECOPLUS-51E5
+68258,914,EcoPlus 264 GPH,simple,DELETE,Consolidated into 'EcoPlus' as variant,HMH-ECOPLUS-51E5
+71114,1126,Worm Gear Clamp 10,simple,DELETE,Consolidated into 'Worm Gear Clamp' as variant,HMH-WORM-GEAR-CLAMP-CD7A
+71115,1125,Worm Gear Clamp 12,simple,DELETE,Consolidated into 'Worm Gear Clamp' as variant,HMH-WORM-GEAR-CLAMP-CD7A
+71116,707,Worm Gear Clamp 4,simple,DELETE,Consolidated into 'Worm Gear Clamp' as variant,HMH-WORM-GEAR-CLAMP-CD7A
+71117,708,Worm Gear Clamp 6,simple,DELETE,Consolidated into 'Worm Gear Clamp' as variant,HMH-WORM-GEAR-CLAMP-CD7A
+71118,709,Worm Gear Clamp 8,simple,DELETE,Consolidated into 'Worm Gear Clamp' as variant,HMH-WORM-GEAR-CLAMP-CD7A
+14032,hmh00745,Pre-Filter for Model Pro 50,simple,DELETE,Consolidated into 'Pre-Filter for Model Pro' as variant,HMH-PRE-FILTER-FOR-MODEL-PRO-F422
+14034,hmh00747,Pre-Filter for Model Pro 75,simple,DELETE,Consolidated into 'Pre-Filter for Model Pro' as variant,HMH-PRE-FILTER-FOR-MODEL-PRO-F422
+14035,hmh00748,Pre-Filter for Model Pro 100,simple,DELETE,Consolidated into 'Pre-Filter for Model Pro' as variant,HMH-PRE-FILTER-FOR-MODEL-PRO-F422
+14036,hmh00749,Pre-Filter for Model Pro 125,simple,DELETE,Consolidated into 'Pre-Filter for Model Pro' as variant,HMH-PRE-FILTER-FOR-MODEL-PRO-F422
+14092,hmh00792,Can-Fan high output 178 CFM,simple,DELETE,Consolidated into 'Can-Fan high output' as variant,HMH-CAN-FAN-HIGH-OUTPUT-BD75
+14094,hmh00794,Can-Fan high output 440 CFM,simple,DELETE,Consolidated into 'Can-Fan high output' as variant,HMH-CAN-FAN-HIGH-OUTPUT-BD75
+14096,hmh00796,Can-Fan high output 781 CFM,simple,DELETE,Consolidated into 'Can-Fan high output' as variant,HMH-CAN-FAN-HIGH-OUTPUT-BD75
+14097,hmh00797,Can-Fan high output 971 CFM,simple,DELETE,Consolidated into 'Can-Fan high output' as variant,HMH-CAN-FAN-HIGH-OUTPUT-BD75
+15095,hmh01584,UNO-2 Speed in line Blower 190 cfm,simple,DELETE,Consolidated into 'UNO-2 Speed in line Blower' as variant,HMH-UNO-2-SPEED-IN-LINE-BLOWE-A77B
+15097,hmh01585,UNO-2 Speed in line Blower 440 cfm,simple,DELETE,Consolidated into 'UNO-2 Speed in line Blower' as variant,HMH-UNO-2-SPEED-IN-LINE-BLOWE-A77B
+15098,hmh01586,UNO-2 Speed in line Blower 750 cfm,simple,DELETE,Consolidated into 'UNO-2 Speed in line Blower' as variant,HMH-UNO-2-SPEED-IN-LINE-BLOWE-A77B
+15099,hmh01587,UNO-2 Speed in line Blower 845 cfm,simple,DELETE,Consolidated into 'UNO-2 Speed in line Blower' as variant,HMH-UNO-2-SPEED-IN-LINE-BLOWE-A77B
+63858,,Scietetics MagCal 5 Gallon,simple,DELETE,Consolidated into 'Scietetics MagCal' as variant,HMH-SCIETETICS-MAGCAL-6C33
+63859,,Scietetics MagCal 15 Gallon,simple,DELETE,Consolidated into 'Scietetics MagCal' as variant,HMH-SCIETETICS-MAGCAL-6C33
+70438,HMH-NUT-1P7TJF,Scietetics MagCal 15,simple,DELETE,Consolidated into 'Scietetics MagCal' as variant,HMH-SCIETETICS-MAGCAL-6C33
+70439,HMH-NUT-MUWES2,Scietetics MagCal 5,simple,DELETE,Consolidated into 'Scietetics MagCal' as variant,HMH-SCIETETICS-MAGCAL-6C33
+67276,718,Backdraft Damper 10,simple,DELETE,Consolidated into 'Backdraft Damper' as variant,HMH-BACKDRAFT-DAMPER-D317
+67277,715,Backdraft Damper 4,simple,DELETE,Consolidated into 'Backdraft Damper' as variant,HMH-BACKDRAFT-DAMPER-D317
+67278,716,Backdraft Damper 6,simple,DELETE,Consolidated into 'Backdraft Damper' as variant,HMH-BACKDRAFT-DAMPER-D317
+67279,717,Backdraft Damper 8,simple,DELETE,Consolidated into 'Backdraft Damper' as variant,HMH-BACKDRAFT-DAMPER-D317
+13372,hmh00203,FloraDuo A 16,simple,DELETE,Consolidated into 'FloraDuo A' as variant,HMH-FLORADUO-A-45D0
+13376,hmh00206,FloraDuo A 2.5,simple,DELETE,Consolidated into 'FloraDuo A' as variant,HMH-FLORADUO-A-45D0
+13377,hmh00207,FloraDuo A 6,simple,DELETE,Consolidated into 'FloraDuo A' as variant,HMH-FLORADUO-A-45D0
+13378,hmh00208,FloraDuo B 16,simple,DELETE,Consolidated into 'FloraDuo B' as variant,HMH-FLORADUO-B-1C3D
+13381,hmh00211,FloraDuo B 2.5,simple,DELETE,Consolidated into 'FloraDuo B' as variant,HMH-FLORADUO-B-1C3D
+13382,hmh00212,FloraDuo B 6,simple,DELETE,Consolidated into 'FloraDuo B' as variant,HMH-FLORADUO-B-1C3D
+13481,hmh00286,Holland Secret Micro 4L,simple,DELETE,Consolidated into 'Holland Secret Micro' as variant,HMH-HOLLAND-SECRET-MICRO-F97E
+13482,hmh00287,Holland Secret Micro 10L,simple,DELETE,Consolidated into 'Holland Secret Micro' as variant,HMH-HOLLAND-SECRET-MICRO-F97E
+13483,hmh00288,Holland Secret Micro 23L,simple,DELETE,Consolidated into 'Holland Secret Micro' as variant,HMH-HOLLAND-SECRET-MICRO-F97E
+13489,hmh00293,Holland Secret Grow 4L,simple,DELETE,Consolidated into 'Holland Secret Grow' as variant,HMH-HOLLAND-SECRET-GROW-C4E7
+13490,hmh00294,Holland Secret Grow 10L,simple,DELETE,Consolidated into 'Holland Secret Grow' as variant,HMH-HOLLAND-SECRET-GROW-C4E7
+13491,hmh00295,Holland Secret Grow 23L,simple,DELETE,Consolidated into 'Holland Secret Grow' as variant,HMH-HOLLAND-SECRET-GROW-C4E7
+13494,hmh00297,Holland Secret Bloom 4L,simple,DELETE,Consolidated into 'Holland Secret Bloom' as variant,HMH-HOLLAND-SECRET-BLOOM-CB9A
+13495,hmh00298,Holland Secret Bloom 10L,simple,DELETE,Consolidated into 'Holland Secret Bloom' as variant,HMH-HOLLAND-SECRET-BLOOM-CB9A
+13496,hmh00299,Holland Secret Bloom 23L,simple,DELETE,Consolidated into 'Holland Secret Bloom' as variant,HMH-HOLLAND-SECRET-BLOOM-CB9A
+14091,hmh00791,Can-Fan standard output 142 CFM,simple,DELETE,Consolidated into 'Can-Fan standard output' as variant,HMH-CAN-FAN-STANDARD-OUTPUT-3470
+14093,hmh00793,Can-Fan standard output 270 CFM,simple,DELETE,Consolidated into 'Can-Fan standard output' as variant,HMH-CAN-FAN-STANDARD-OUTPUT-3470
+14095,hmh00795,Can-Fan standard output 493 CFM,simple,DELETE,Consolidated into 'Can-Fan standard output' as variant,HMH-CAN-FAN-STANDARD-OUTPUT-3470
+13485,hmh00290,Holland Secret Micro H.W 4L,simple,DELETE,Consolidated into 'Holland Secret Micro H.W' as variant,HMH-HOLLAND-SECRET-MICRO-H-W-4D2B
+13486,hmh00291,Holland Secret Micro H.W 10L,simple,DELETE,Consolidated into 'Holland Secret Micro H.W' as variant,HMH-HOLLAND-SECRET-MICRO-H-W-4D2B
+14187,hmh00872,"Plantmax 430W. HPS High Output 58,000 lumens",simple,DELETE,Consolidated into 'Plantmax' as variant,HMH-PLANTMAX-A27B
+14190,hmh00875,"Plantmax 220W. HPS Conversion 25,000 lumens",simple,DELETE,Consolidated into 'Plantmax' as variant,HMH-PLANTMAX-A27B
+14191,hmh00876,"Plantmax 360W. HPS Conversion 45,000 lumens",simple,DELETE,Consolidated into 'Plantmax' as variant,HMH-PLANTMAX-A27B
+14506,hmh01124,"Plantmax 750W. HPS High Output 106,000 lumens",simple,DELETE,Consolidated into 'Plantmax' as variant,HMH-PLANTMAX-A27B
+14507,hmh01125,"Plantmax 940W. HPS Conversion 130,000 lumens",simple,DELETE,Consolidated into 'Plantmax' as variant,HMH-PLANTMAX-A27B
+15286,hmh01733,"Plantmax 1000W. 72K MH High Output 90,000 lumens",simple,DELETE,Consolidated into 'Plantmax' as variant,HMH-PLANTMAX-A27B
+70049,1505,"Plantmax 220W. HPS Conversion 25,000 lumens",simple,DELETE,Consolidated into 'Plantmax' as variant,HMH-PLANTMAX-A27B
+70050,1506,"Plantmax 360W. HPS Conversion 45,000 lumens",simple,DELETE,Consolidated into 'Plantmax' as variant,HMH-PLANTMAX-A27B
+14509,hmh01127,The Root Pouch 1 Gallon,simple,DELETE,Consolidated into 'The Root Pouch' as variant,HMH-THE-ROOT-POUCH-8ED9
+14511,hmh01128,The Root Pouch 2 Gallon,simple,DELETE,Consolidated into 'The Root Pouch' as variant,HMH-THE-ROOT-POUCH-8ED9
+14512,hmh01129,The Root Pouch 3 Gallon,simple,DELETE,Consolidated into 'The Root Pouch' as variant,HMH-THE-ROOT-POUCH-8ED9
+14514,hmh01131,The Root Pouch 7 Gallon,simple,DELETE,Consolidated into 'The Root Pouch' as variant,HMH-THE-ROOT-POUCH-8ED9
+14515,hmh01132,The Root Pouch 10 Gallon,simple,DELETE,Consolidated into 'The Root Pouch' as variant,HMH-THE-ROOT-POUCH-8ED9
+13407,hmh00232,FloraKleen 1,simple,DELETE,Consolidated into 'FloraKleen' as variant,HMH-FLORAKLEEN-0625
+13408,hmh00233,FloraKleen 2.5,simple,DELETE,Consolidated into 'FloraKleen' as variant,HMH-FLORAKLEEN-0625
+13409,hmh00234,FloraKleen 6,simple,DELETE,Consolidated into 'FloraKleen' as variant,HMH-FLORAKLEEN-0625
+13632,hmh00404,Bloom Natural 2.5,simple,DELETE,Consolidated into 'Bloom Natural' as variant,HMH-BLOOM-NATURAL-348C
+13633,hmh00405,Bloom Natural 5,simple,DELETE,Consolidated into 'Bloom Natural' as variant,HMH-BLOOM-NATURAL-348C
+13634,hmh00406,Bloom Natural 15,simple,DELETE,Consolidated into 'Bloom Natural' as variant,HMH-BLOOM-NATURAL-348C
+13646,hmh00416,Mayan Microzyme 4,simple,DELETE,Consolidated into 'Mayan Microzyme' as variant,HMH-MAYAN-MICROZYME-1CE0
+13647,hmh00417,Mayan Microzyme 8,simple,DELETE,Consolidated into 'Mayan Microzyme' as variant,HMH-MAYAN-MICROZYME-1CE0
+13648,hmh00418,Mayan Microzyme 16,simple,DELETE,Consolidated into 'Mayan Microzyme' as variant,HMH-MAYAN-MICROZYME-1CE0
+14107,hmh00806,"Max-Fan, 675 CFM",simple,DELETE,"Consolidated into 'Max-Fan,' as variant",HMH-MAX-FAN-D943
+14109,hmh00807,"Max-Fan, 1023 CFM",simple,DELETE,"Consolidated into 'Max-Fan,' as variant",HMH-MAX-FAN-D943
+14110,hmh00808,"Max-Fan, 1709 CFM",simple,DELETE,"Consolidated into 'Max-Fan,' as variant",HMH-MAX-FAN-D943
+14327,hmh00979,pH-Up 8 oz,simple,DELETE,Consolidated into 'pH-Up' as variant,HMH-PH-UP-D827
+14329,hmh00980,pH-Up 1 qt,simple,DELETE,Consolidated into 'pH-Up' as variant,HMH-PH-UP-D827
+14330,hmh00981,pH-Up 1 gal,simple,DELETE,Consolidated into 'pH-Up' as variant,HMH-PH-UP-D827
+14372,hmh01021,B-52 Vitamin (1 lt),simple,DELETE,Consolidated into 'B-52 Vitamin' as variant,HMH-B-52-VITAMIN-B305
+14374,hmh01022,B-52 Vitamin (1 ),simple,DELETE,Consolidated into 'B-52 Vitamin' as variant,HMH-B-52-VITAMIN-B305
+14375,hmh01023,B-52 Vitamin (2.5 ),simple,DELETE,Consolidated into 'B-52 Vitamin' as variant,HMH-B-52-VITAMIN-B305
+14379,hmh01026,Big Bud Bloom Booster (1 lt),simple,DELETE,Consolidated into 'Big Bud Bloom Booster' as variant,HMH-BIG-BUD-BLOOM-BOOSTER-7892
+14380,hmh01027,Big Bud Bloom Booster (1 ),simple,DELETE,Consolidated into 'Big Bud Bloom Booster' as variant,HMH-BIG-BUD-BLOOM-BOOSTER-7892
+14381,hmh01028,Big Bud Bloom Booster (2.5 ),simple,DELETE,Consolidated into 'Big Bud Bloom Booster' as variant,HMH-BIG-BUD-BLOOM-BOOSTER-7892
+14424,hmh01060,Sensizym (1 lt),simple,DELETE,Consolidated into 'Sensizym' as variant,HMH-SENSIZYM-88DD
+14426,hmh01061,Sensizym (1 ),simple,DELETE,Consolidated into 'Sensizym' as variant,HMH-SENSIZYM-88DD
+14427,hmh01062,Sensizym (2.5 ),simple,DELETE,Consolidated into 'Sensizym' as variant,HMH-SENSIZYM-88DD
+14590,hmh01191,Mondi Super Saucer 10,simple,DELETE,Consolidated into 'Mondi Super Saucer' as variant,HMH-MONDI-SUPER-SAUCER-55FB
+14591,hmh01192,Mondi Super Saucer 12,simple,DELETE,Consolidated into 'Mondi Super Saucer' as variant,HMH-MONDI-SUPER-SAUCER-55FB
+14592,hmh01193,Mondi Super Saucer 14,simple,DELETE,Consolidated into 'Mondi Super Saucer' as variant,HMH-MONDI-SUPER-SAUCER-55FB
+14614,hmh01212,pH Perfect Sensi Bloom part A (1 lt),simple,DELETE,Consolidated into 'pH Perfect Sensi Bloom part A' as variant,HMH-PH-PERFECT-SENSI-BLOOM-PA-9A91
+14615,hmh01213,pH Perfect Sensi Bloom part A (1 gal),simple,DELETE,Consolidated into 'pH Perfect Sensi Bloom part A' as variant,HMH-PH-PERFECT-SENSI-BLOOM-PA-9A91
+14616,hmh01214,pH Perfect Sensi Bloom part A (2.5 gal),simple,DELETE,Consolidated into 'pH Perfect Sensi Bloom part A' as variant,HMH-PH-PERFECT-SENSI-BLOOM-PA-9A91
+14617,hmh01215,pH Perfect Sensi Bloom part B (1 lt),simple,DELETE,Consolidated into 'pH Perfect Sensi Bloom part B' as variant,HMH-PH-PERFECT-SENSI-BLOOM-PA-F404
+14618,hmh01216,pH Perfect Sensi Bloom part B (1 gal),simple,DELETE,Consolidated into 'pH Perfect Sensi Bloom part B' as variant,HMH-PH-PERFECT-SENSI-BLOOM-PA-F404
+14619,hmh01217,pH Perfect Sensi Bloom part B (2.5 gal),simple,DELETE,Consolidated into 'pH Perfect Sensi Bloom part B' as variant,HMH-PH-PERFECT-SENSI-BLOOM-PA-F404
+14620,hmh01218,pH Perfect Sensi Grow part A (1 lt),simple,DELETE,Consolidated into 'pH Perfect Sensi Grow part A' as variant,HMH-PH-PERFECT-SENSI-GROW-PAR-EE8D
+14622,hmh01219,pH Perfect Sensi Grow part A (1 gal),simple,DELETE,Consolidated into 'pH Perfect Sensi Grow part A' as variant,HMH-PH-PERFECT-SENSI-GROW-PAR-EE8D
+14623,hmh01220,pH Perfect Sensi Grow part A (2.5 gal),simple,DELETE,Consolidated into 'pH Perfect Sensi Grow part A' as variant,HMH-PH-PERFECT-SENSI-GROW-PAR-EE8D
+14624,hmh01221,pH Perfect Sensi Grow part B (1 lt),simple,DELETE,Consolidated into 'pH Perfect Sensi Grow part B' as variant,HMH-PH-PERFECT-SENSI-GROW-PAR-7B35
+14625,hmh01222,pH Perfect Sensi Grow part B (1 gal),simple,DELETE,Consolidated into 'pH Perfect Sensi Grow part B' as variant,HMH-PH-PERFECT-SENSI-GROW-PAR-7B35
+14626,hmh01223,pH Perfect Sensi Grow part B (2.5 gal),simple,DELETE,Consolidated into 'pH Perfect Sensi Grow part B' as variant,HMH-PH-PERFECT-SENSI-GROW-PAR-7B35
+14905,hmh01439,SunBlaster 25 watt green Visual lamp-standard socket,simple,DELETE,Consolidated into 'SunBlaster' as variant,HMH-SUNBLASTER-2C0E
+15254,hmh01704,Sunblaster 125W CF 2500k,simple,DELETE,Consolidated into 'SunBlaster' as variant,HMH-SUNBLASTER-2C0E
+15255,hmh01705,Sunblaster 200W CF 6400k,simple,DELETE,Consolidated into 'SunBlaster' as variant,HMH-SUNBLASTER-2C0E
+69772,2575,Noise Reduction Clamp 4,simple,DELETE,Consolidated into 'Noise Reduction Clamp' as variant,HMH-NOISE-REDUCTION-CLAMP-7E6C
+69776,2576,Noise Reduction Clamp 6,simple,DELETE,Consolidated into 'Noise Reduction Clamp' as variant,HMH-NOISE-REDUCTION-CLAMP-7E6C
+69777,2577,Noise Reduction Clamp 8,simple,DELETE,Consolidated into 'Noise Reduction Clamp' as variant,HMH-NOISE-REDUCTION-CLAMP-7E6C
+70122,1144,Pre-Filter PRO 100,simple,DELETE,Consolidated into 'Pre-Filter PRO' as variant,HMH-PRE-FILTER-PRO-CFA6
+70123,1145,Pre-Filter PRO 125,simple,DELETE,Consolidated into 'Pre-Filter PRO' as variant,HMH-PRE-FILTER-PRO-CFA6
+70124,1146,Pre-Filter PRO 150,simple,DELETE,Consolidated into 'Pre-Filter PRO' as variant,HMH-PRE-FILTER-PRO-CFA6
+70146,1137,PRO Filter 100,simple,DELETE,Consolidated into 'PRO Filter' as variant,HMH-PRO-FILTER-BACC
+70147,1138,PRO Filter 125,simple,DELETE,Consolidated into 'PRO Filter' as variant,HMH-PRO-FILTER-BACC
+70148,1139,PRO Filter 150,simple,DELETE,Consolidated into 'PRO Filter' as variant,HMH-PRO-FILTER-BACC
+13328,hmh00162,BioThrive Grow 2.5,simple,DELETE,Consolidated into 'BioThrive Grow' as variant,HMH-BIOTHRIVE-GROW-7D72
+13951,hmh00672,BioThrive Grow 6,simple,DELETE,Consolidated into 'BioThrive Grow' as variant,HMH-BIOTHRIVE-GROW-7D72
+13335,hmh00168,Hard Water Flora Micro 2.5,simple,DELETE,Consolidated into 'Hard Water Flora Micro' as variant,HMH-HARD-WATER-FLORA-MICRO-B6FF
+13336,hmh00169,Hard Water Flora Micro 6,simple,DELETE,Consolidated into 'Hard Water Flora Micro' as variant,HMH-HARD-WATER-FLORA-MICRO-B6FF
+13572,hmh00356,Humboldt Big Up Powder 5 lbs,simple,DELETE,Consolidated into 'Humboldt Big Up Powder' as variant,HMH-HUMBOLDT-BIG-UP-POWDER-CB25
+13573,hmh00357,Humboldt Big Up Powder 10 lbs,simple,DELETE,Consolidated into 'Humboldt Big Up Powder' as variant,HMH-HUMBOLDT-BIG-UP-POWDER-CB25
+13589,hmh00370,Humboldt Master B 2.5,simple,DELETE,Consolidated into 'Humboldt Master B' as variant,HMH-HUMBOLDT-MASTER-B-8C7F
+13590,hmh00371,Humboldt Master B 5,simple,DELETE,Consolidated into 'Humboldt Master B' as variant,HMH-HUMBOLDT-MASTER-B-8C7F
+13641,hmh00412,Flavor-Ful 2.5,simple,DELETE,Consolidated into 'Flavor-Ful' as variant,HMH-FLAVOR-FUL-2D4C
+13642,hmh00413,Flavor-Ful 5,simple,DELETE,Consolidated into 'Flavor-Ful' as variant,HMH-FLAVOR-FUL-2D4C
+13659,hmh00427,Myco Maximum Granular 8,simple,DELETE,Consolidated into 'Myco Maximum Granular' as variant,HMH-MYCO-MAXIMUM-GRANULAR-C43A
+13662,hmh00429,Myco Maximum Granular 5 lbs,simple,DELETE,Consolidated into 'Myco Maximum Granular' as variant,HMH-MYCO-MAXIMUM-GRANULAR-C43A
+13678,hmh00442,Humboldt Sticky Foliar Feed 16,simple,DELETE,Consolidated into 'Humboldt Sticky Foliar Feed' as variant,HMH-HUMBOLDT-STICKY-FOLIAR-FE-E93F
+13680,hmh00443,Humboldt Sticky Foliar Feed 1,simple,DELETE,Consolidated into 'Humboldt Sticky Foliar Feed' as variant,HMH-HUMBOLDT-STICKY-FOLIAR-FE-E93F
+13699,hmh00459,CalCarb Calcium Carbonate Foliar Spray 6,simple,DELETE,Consolidated into 'CalCarb Calcium Carbonate Foliar Spray' as variant,HMH-CALCARB-CALCIUM-CARBONATE-B133
+13701,hmh00460,CalCarb Calcium Carbonate Foliar Spray 12,simple,DELETE,Consolidated into 'CalCarb Calcium Carbonate Foliar Spray' as variant,HMH-CALCARB-CALCIUM-CARBONATE-B133
+13839,hmh00563,Garden Fungicide 32,simple,DELETE,Consolidated into 'Garden Fungicide' as variant,HMH-GARDEN-FUNGICIDE-D1BA
+13841,hmh00564,Garden Fungicide 1,simple,DELETE,Consolidated into 'Garden Fungicide' as variant,HMH-GARDEN-FUNGICIDE-D1BA
+13953,hmh00674,BioBud 2.5,simple,DELETE,Consolidated into 'BioBud' as variant,HMH-BIOBUD-AECB
+13954,hmh00675,BioBud 6,simple,DELETE,Consolidated into 'BioBud' as variant,HMH-BIOBUD-AECB
+13955,hmh00676,BioMarine 2.5,simple,DELETE,Consolidated into 'BioMarine' as variant,HMH-BIOMARINE-21A1
+13956,hmh00677,BioMarine 6,simple,DELETE,Consolidated into 'BioMarine' as variant,HMH-BIOMARINE-21A1
+13957,hmh00678,BioRoot 2.5,simple,DELETE,Consolidated into 'BioRoot' as variant,HMH-BIOROOT-D76A
+13958,hmh00679,BioRoot 6,simple,DELETE,Consolidated into 'BioRoot' as variant,HMH-BIOROOT-D76A
+13959,hmh00680,BioWeed 2.5,simple,DELETE,Consolidated into 'BioWeed' as variant,HMH-BIOWEED-2476
+13960,hmh00681,BioWeed 6,simple,DELETE,Consolidated into 'BioWeed' as variant,HMH-BIOWEED-2476
+13961,hmh00682,CaMg+ 2.5,simple,DELETE,Consolidated into 'CaMg+' as variant,HMH-CAMG-0591
+13962,hmh00683,CaMg+ 6,simple,DELETE,Consolidated into 'CaMg+' as variant,HMH-CAMG-0591
+13966,hmh00687,Rare Earth 1.5,simple,DELETE,Consolidated into 'Rare Earth' as variant,HMH-RARE-EARTH-CCEF
+13969,hmh00689,Rare Earth 16,simple,DELETE,Consolidated into 'Rare Earth' as variant,HMH-RARE-EARTH-CCEF
+14148,hmh00839,Screen Fitting (bag of 10),simple,DELETE,Consolidated into 'Screen Fitting' as variant,HMH-SCREEN-FITTING-FC56
+70443,823,Screen Fitting (bag of 10),simple,DELETE,Consolidated into 'Screen Fitting' as variant,HMH-SCREEN-FITTING-FC56
+14195,hmh00880,"T5 CFL Plantmax Warm 24W 3000K tube 2,280 lumens",simple,DELETE,Consolidated into 'T5 CFL Plantmax Warm' as variant,HMH-T5-CFL-PLANTMAX-WARM-5A4C
+14198,hmh00882,T5 CFL Plantmax Warm 54W. 3000K tube 4800 lumens,simple,DELETE,Consolidated into 'T5 CFL Plantmax Warm' as variant,HMH-T5-CFL-PLANTMAX-WARM-5A4C
+14233,hmh00910,Add a Lamp Hardware Kit (Trolley and mounting hardware),simple,DELETE,Consolidated into 'Add a Lamp Hardware Kit' as variant,HMH-ADD-A-LAMP-HARDWARE-KIT-A0E7
+66946,895,Add a Lamp Hardware Kit (Trolley and mounting hardware),simple,DELETE,Consolidated into 'Add a Lamp Hardware Kit' as variant,HMH-ADD-A-LAMP-HARDWARE-KIT-A0E7
+14266,hmh00934,4 Light Timer (120 V.),simple,DELETE,Consolidated into '4 Light Timer' as variant,HMH-4-LIGHT-TIMER-32A5
+14268,hmh00935,4 Light timer (240 V.),simple,DELETE,Consolidated into '4 Light Timer' as variant,HMH-4-LIGHT-TIMER-32A5
+14313,hmh00970,PPM-1500 TDS / 2.142 ms 8,simple,DELETE,Consolidated into 'PPM-1500 TDS / 2.142 ms' as variant,HMH-PPM-1500-TDS-2-142-MS-5FDD
+14314,hmh00971,PPM-1500 TDS / 2.142 ms 16,simple,DELETE,Consolidated into 'PPM-1500 TDS / 2.142 ms' as variant,HMH-PPM-1500-TDS-2-142-MS-5FDD
+14331,hmh00982,pH Up Dry 1.5 lb,simple,DELETE,Consolidated into 'pH Up Dry' as variant,HMH-PH-UP-DRY-98F9
+14333,hmh00984,pH Up Dry 16 lb,simple,DELETE,Consolidated into 'pH Up Dry' as variant,HMH-PH-UP-DRY-98F9
+14335,hmh00986,pH Down 1 qt,simple,DELETE,Consolidated into 'pH Down' as variant,HMH-PH-DOWN-99CA
+14336,hmh00987,pH Down 1 gal,simple,DELETE,Consolidated into 'pH Down' as variant,HMH-PH-DOWN-99CA
+14385,hmh01031,Bud Candy (1 lt),simple,DELETE,Consolidated into 'Bud Candy' as variant,HMH-BUD-CANDY-2AAA
+14388,hmh01033,Bud Candy (2.5 ),simple,DELETE,Consolidated into 'Bud Candy' as variant,HMH-BUD-CANDY-2AAA
+14392,hmh01036,CarboLoad (1 lt),simple,DELETE,Consolidated into 'CarboLoad' as variant,HMH-CARBOLOAD-A2BA
+14394,hmh01037,CarboLoad (1 ),simple,DELETE,Consolidated into 'CarboLoad' as variant,HMH-CARBOLOAD-A2BA
+14395,hmh01038,Final Phase (1 lt),simple,DELETE,Consolidated into 'Final Phase' as variant,HMH-FINAL-PHASE-0C29
+14397,hmh01039,Final Phase (1 ),simple,DELETE,Consolidated into 'Final Phase' as variant,HMH-FINAL-PHASE-0C29
+14415,hmh01052,Sensi Bloom part A (1 ),simple,DELETE,Consolidated into 'Sensi Bloom part A' as variant,HMH-SENSI-BLOOM-PART-A-B469
+14416,hmh01053,Sensi Bloom part A (2.5 ),simple,DELETE,Consolidated into 'Sensi Bloom part A' as variant,HMH-SENSI-BLOOM-PART-A-B469
+14431,hmh01065,Ultra-premium Connoisseur Part-A (1 lt),simple,DELETE,Consolidated into 'Ultra-premium Connoisseur Part-A' as variant,HMH-ULTRA-PREMIUM-CONNOISSEUR-5235
+14433,hmh01066,Ultra-premium Connoisseur Part-A (1 ),simple,DELETE,Consolidated into 'Ultra-premium Connoisseur Part-A' as variant,HMH-ULTRA-PREMIUM-CONNOISSEUR-5235
+14434,hmh01067,Ultra-premium Connoisseur Part-B (1 lt),simple,DELETE,Consolidated into 'Ultra-premium Connoisseur Part-B' as variant,HMH-ULTRA-PREMIUM-CONNOISSEUR-C386
+14435,hmh01068,Ultra-premium Connoisseur Part-B (1 ),simple,DELETE,Consolidated into 'Ultra-premium Connoisseur Part-B' as variant,HMH-ULTRA-PREMIUM-CONNOISSEUR-C386
+14539,hmh01152,FloraNectar Natural Sugar 1,simple,DELETE,Consolidated into 'FloraNectar Natural Sugar' as variant,HMH-FLORANECTAR-NATURAL-SUGAR-6EF1
+14540,hmh01153,FloraNectar Natural Sugar 2.5,simple,DELETE,Consolidated into 'FloraNectar Natural Sugar' as variant,HMH-FLORANECTAR-NATURAL-SUGAR-6EF1
+14609,hmh01208,pH Perfect Connoisseur part A (1 lt),simple,DELETE,Consolidated into 'pH Perfect Connoisseur part A' as variant,HMH-PH-PERFECT-CONNOISSEUR-PA-149E
+14611,hmh01209,pH Perfect Connoisseur part A (1 gal),simple,DELETE,Consolidated into 'pH Perfect Connoisseur part A' as variant,HMH-PH-PERFECT-CONNOISSEUR-PA-149E
+14612,hmh01210,pH Perfect Connoisseur part B (1 lt),simple,DELETE,Consolidated into 'pH Perfect Connoisseur part B' as variant,HMH-PH-PERFECT-CONNOISSEUR-PA-1F21
+14613,hmh01211,pH Perfect Connoisseur part B (1 gal),simple,DELETE,Consolidated into 'pH Perfect Connoisseur part B' as variant,HMH-PH-PERFECT-CONNOISSEUR-PA-1F21
+15112,hmh01596,Accurate pH 4 w/remote probe,simple,DELETE,Consolidated into 'Accurate pH' as variant,HMH-ACCURATE-PH-490D
+15113,hmh01597,Accurate pH 4 w/remote probe,simple,DELETE,Consolidated into 'Accurate pH' as variant,HMH-ACCURATE-PH-490D
+15385,hmh01808,Down To Earth Vegan Mix - 6,simple,DELETE,Consolidated into 'Down To Earth Vegan Mix' as variant,HMH-DOWN-TO-EARTH-VEGAN-MIX-B67E
+15387,hmh01809,Down To Earth Vegan Mix - 25,simple,DELETE,Consolidated into 'Down To Earth Vegan Mix' as variant,HMH-DOWN-TO-EARTH-VEGAN-MIX-B67E
+15389,hmh01811,Down To Earth Kelp Meal - 5,simple,DELETE,Consolidated into 'Down To Earth Kelp Meal' as variant,HMH-DOWN-TO-EARTH-KELP-MEAL-B48D
+15391,hmh01812,Down To Earth Kelp Meal - 20,simple,DELETE,Consolidated into 'Down To Earth Kelp Meal' as variant,HMH-DOWN-TO-EARTH-KELP-MEAL-B48D
+16621,hmh2011,Dyna-Gro Pro Tekt 1qt,simple,DELETE,Consolidated into 'Dyna-Gro Pro Tekt' as variant,HMH-DYNA-GRO-PRO-TEKT-EAE7
+16622,hmh2012,Dyna-Gro Pro Tekt 1gal,simple,DELETE,Consolidated into 'Dyna-Gro Pro Tekt' as variant,HMH-DYNA-GRO-PRO-TEKT-EAE7
+62610,,DLI-DIODE-Series-LED Toplighting LED Fixture (Long),simple,DELETE,Consolidated into 'DLI-DIODE-Series-LED Toplighting LED Fixture' as variant,HMH-DLI-DIODE-SERIES-LED-TOPL-4155
+68055,HMH-LIT-HTZKKT,DLI-DIODE-Series-LED Toplighting LED Fixture (Long),simple,DELETE,Consolidated into 'DLI-DIODE-Series-LED Toplighting LED Fixture' as variant,HMH-DLI-DIODE-SERIES-LED-TOPL-4155
+62622,,Botanicare Organicare True Earth Potting Mix (O.M.R.I.),simple,DELETE,Consolidated into 'Botanicare Organicare True Earth Potting Mix' as variant,HMH-BOTANICARE-ORGANICARE-TRU-A0C4
+67499,HMH-GRO-8AOLV0,Botanicare Organicare True Earth Potting Mix (O.M.R.I.),simple,DELETE,Consolidated into 'Botanicare Organicare True Earth Potting Mix' as variant,HMH-BOTANICARE-ORGANICARE-TRU-A0C4
+62703,,Athena Bloom B 1 Gallon,simple,DELETE,Consolidated into 'Athena Bloom B' as variant,HMH-ATHENA-BLOOM-B-61E0
+67056,HMH-NUT-A5YX6V,Athena Bloom B 1,simple,DELETE,Consolidated into 'Athena Bloom B' as variant,HMH-ATHENA-BLOOM-B-61E0
+62712,,Athena Stack 32 oz,simple,DELETE,Consolidated into 'Athena Stack' as variant,HMH-ATHENA-STACK-3628
+67168,HMH-NUT-YBAWYC,Athena Stack 32,simple,DELETE,Consolidated into 'Athena Stack' as variant,HMH-ATHENA-STACK-3628
+62719,,Athena Balance 1 Gallon,simple,DELETE,Consolidated into 'Athena Balance' as variant,HMH-ATHENA-BALANCE-8F68
+67037,HMH-NUT-MOC4I8,Athena Balance 1,simple,DELETE,Consolidated into 'Athena Balance' as variant,HMH-ATHENA-BALANCE-8F68
+62786,,Athena Cuts Rooting Gel Compound - 14oz,simple,DELETE,Consolidated into 'Athena Cuts Rooting Gel Compound' as variant,HMH-ATHENA-CUTS-ROOTING-GEL-C-7492
+67099,HMH-PRO-H7RVU6,Athena Cuts Rooting Gel Compound - 14oz,simple,DELETE,Consolidated into 'Athena Cuts Rooting Gel Compound' as variant,HMH-ATHENA-CUTS-ROOTING-GEL-C-7492
+63040,,E-Papillon 630 Watt LED,simple,DELETE,Consolidated into 'E-Papillon' as variant,HMH-E-PAPILLON-98C7
+68202,HMH-LIT-IM94UN,E-Papillon 630 Watt LED,simple,DELETE,Consolidated into 'E-Papillon' as variant,HMH-E-PAPILLON-98C7
+63074,,Spray-N-Grow Micronutrients 8 oz,simple,DELETE,Consolidated into 'Spray-N-Grow Micronutrients' as variant,HMH-SPRAY-N-GROW-MICRONUTRIEN-6B66
+70582,HMH-NUT-O642LQ,Spray-N-Grow Micronutrients 8,simple,DELETE,Consolidated into 'Spray-N-Grow Micronutrients' as variant,HMH-SPRAY-N-GROW-MICRONUTRIEN-6B66
+63373,,Silicium Bloom 500 ML,simple,DELETE,Consolidated into 'Silicium Bloom' as variant,HMH-SILICIUM-BLOOM-62EE
+63374,,Silicium Bloom 250 ML,simple,DELETE,Consolidated into 'Silicium Bloom' as variant,HMH-SILICIUM-BLOOM-62EE
+63866,,SiLICIUM mono si 250 ml,simple,DELETE,Consolidated into 'SiLICIUM mono si' as variant,HMH-SILICIUM-MONO-SI-D5FB
+63867,,SiLICIUM mono si 500 ml,simple,DELETE,Consolidated into 'SiLICIUM mono si' as variant,HMH-SILICIUM-MONO-SI-D5FB
+63885,,Multi 8 oz,simple,DELETE,Consolidated into 'Multi' as variant,HMH-MULTI-CE78
+69669,HMH-NUT-K8L91R,Multi 8,simple,DELETE,Consolidated into 'Multi' as variant,HMH-MULTI-CE78
+63901,,Block Cocos Nucifera 1 GAL,simple,DELETE,Consolidated into 'Block Cocos Nucifera' as variant,HMH-BLOCK-COCOS-NUCIFERA-C61A
+67418,HMH-NUT-DZYP24,Block Cocos Nucifera 1,simple,DELETE,Consolidated into 'Block Cocos Nucifera' as variant,HMH-BLOCK-COCOS-NUCIFERA-C61A
+63907,,Agrowlyte Stop PM 5 Gallon,simple,DELETE,Consolidated into 'Agrowlyte Stop PM' as variant,HMH-AGROWLYTE-STOP-PM-482E
+66978,HMH-NUT-U1Y8EA,Agrowlyte Stop PM 5,simple,DELETE,Consolidated into 'Agrowlyte Stop PM' as variant,HMH-AGROWLYTE-STOP-PM-482E
+66332,3015,D.T.E. LIQUID BLOOM 2-6-4 1GAL,simple,DELETE,Consolidated into 'D.T.E. LIQUID BLOOM 2-6-4' as variant,HMH-D-T-E-LIQUID-BLOOM-2-6-4-94CC
+67937,3014,D.T.E. LIQUID BLOOM 2-6-4 1QT,simple,DELETE,Consolidated into 'D.T.E. LIQUID BLOOM 2-6-4' as variant,HMH-D-T-E-LIQUID-BLOOM-2-6-4-94CC
+66377,3648,GREASE yellow Finisher 1 liter,simple,DELETE,Consolidated into 'GREASE yellow Finisher' as variant,HMH-GREASE-YELLOW-FINISHER-AFF3
+68816,3621,GREASE Yellow FINISHER 500,simple,DELETE,Consolidated into 'GREASE yellow Finisher' as variant,HMH-GREASE-YELLOW-FINISHER-AFF3
+66982,2302,Air Stone (FHD),simple,DELETE,Consolidated into 'Air Stone' as variant,HMH-AIR-STONE-EC47
+66983,907,Air Stone 4,simple,DELETE,Consolidated into 'Air Stone' as variant,HMH-AIR-STONE-EC47
+67891,2258,Covert Tank 33,simple,DELETE,Consolidated into 'Covert Tank' as variant,HMH-COVERT-TANK-A322
+67892,2259,Covert Tank 66,simple,DELETE,Consolidated into 'Covert Tank' as variant,HMH-COVERT-TANK-A322
+69742,3195,Netafim 2 Way Dripper Stake 48,simple,DELETE,Consolidated into 'Netafim' as variant,HMH-NETAFIM-61A5
+69743,3460,Netafim 4 Way 48 Drippes 25/pk,simple,DELETE,Consolidated into 'Netafim' as variant,HMH-NETAFIM-61A5
+69770,2527,NODOR Puck 6,simple,DELETE,Consolidated into 'NODOR Puck' as variant,HMH-NODOR-PUCK-9E23
+69771,2528,NODOR Puck 8,simple,DELETE,Consolidated into 'NODOR Puck' as variant,HMH-NODOR-PUCK-9E23
+69868,883,One Shot amendment 12,simple,DELETE,Consolidated into 'One Shot amendment' as variant,HMH-ONE-SHOT-AMENDMENT-613A
+69869,882,One Shot amendment 4,simple,DELETE,Consolidated into 'One Shot amendment' as variant,HMH-ONE-SHOT-AMENDMENT-613A
+70305,1369,Reservoir Heater 200w,simple,DELETE,Consolidated into 'Reservoir Heater' as variant,HMH-RESERVOIR-HEATER-4D5D
+70306,1370,Reservoir Heater 300w,simple,DELETE,Consolidated into 'Reservoir Heater' as variant,HMH-RESERVOIR-HEATER-4D5D
+70719,3032,SunBlaster/LED Strip Lights 24,simple,DELETE,Consolidated into 'SunBlaster/LED Strip Lights' as variant,HMH-SUNBLASTER-LED-STRIP-LIGH-CA01
+70720,3033,SunBlaster/LED Strip Lights 48,simple,DELETE,Consolidated into 'SunBlaster/LED Strip Lights' as variant,HMH-SUNBLASTER-LED-STRIP-LIGH-CA01
+70956,2626,UNO 2 speed fan 440CFM,simple,DELETE,Consolidated into 'UNO 2 speed fan' as variant,HMH-UNO-2-SPEED-FAN-3DE8
+70961,2623,UNO 2 speed Fan 845cfm,simple,DELETE,Consolidated into 'UNO 2 speed fan' as variant,HMH-UNO-2-SPEED-FAN-3DE8
+13172,hmh00010,FloraBlend,grouped,DELETE,Grouped product merged into variable,
+13178,hmh00015,BioThrive,grouped,DELETE,Grouped product merged into variable,
+13182,hmh00019,BioBud,grouped,DELETE,Grouped product merged into variable,
+13183,hmh00020,BioMarine,grouped,DELETE,Grouped product merged into variable,
+13185,hmh00022,BioWeed,grouped,DELETE,Grouped product merged into variable,
+13186,hmh00023,CaMg+,grouped,DELETE,Grouped product merged into variable,
+13187,hmh00024,Diamond Black,grouped,DELETE,Grouped product merged into variable,
+13188,hmh00025,Diamond Nectar,grouped,DELETE,Grouped product merged into variable,
+13191,hmh00028,Floralicious Plus,grouped,DELETE,Grouped product merged into variable,
+13192,hmh00029,FloraNectar,grouped,DELETE,Grouped product merged into variable,
+13193,hmh00030,Flora Shield,grouped,DELETE,Grouped product merged into variable,
+13194,hmh00031,FloraKleen,grouped,DELETE,Grouped product merged into variable,
+13195,hmh00032,KoolBloom,grouped,DELETE,Grouped product merged into variable,
+13197,hmh00034,Rapid Start,grouped,DELETE,Grouped product merged into variable,
+13210,hmh00047,B'Cuzz Growth Stimulator,grouped,DELETE,Grouped product merged into variable,
+13213,hmh00050,B'Cuzz Root Stimulator,grouped,DELETE,Grouped product merged into variable,
+13217,hmh00054,Royal Black,grouped,DELETE,Grouped product merged into variable,
+13218,hmh00055,Royal Gold,grouped,DELETE,Grouped product merged into variable,
+13220,hmh00057,Bud Boom,grouped,DELETE,Grouped product merged into variable,
+13221,hmh00058,Bud Start,grouped,DELETE,Grouped product merged into variable,
+13222,hmh00059,Carbo Blast,grouped,DELETE,Grouped product merged into variable,
+13227,hmh00064,Suck it Up,grouped,DELETE,Grouped product merged into variable,
+13229,hmh00066,Ton O Bud 0-10-6,grouped,DELETE,Grouped product merged into variable,
+13234,hmh00071,Big Up Powder 0-33-23,grouped,DELETE,Grouped product merged into variable,
+13235,hmh00072,Sea Cal 3-2-8,grouped,DELETE,Grouped product merged into variable,
+13236,hmh00073,Sea Mag 0.2-0.2-3,grouped,DELETE,Grouped product merged into variable,
+13237,hmh00074,Master A,grouped,DELETE,Grouped product merged into variable,
+13238,hmh00075,Master B,grouped,DELETE,Grouped product merged into variable,
+13241,hmh00078,Equilibrium Natural,grouped,DELETE,Grouped product merged into variable,
+13242,hmh00079,Hydro-Deuce,grouped,DELETE,Grouped product merged into variable,
+13243,hmh00080,Royal Flush,grouped,DELETE,Grouped product merged into variable,
+13244,hmh00081,Ginormous,grouped,DELETE,Grouped product merged into variable,
+13245,hmh00082,Grow Natural,grouped,DELETE,Grouped product merged into variable,
+13246,hmh00083,Bloom Natural,grouped,DELETE,Grouped product merged into variable,
+13247,hmh00084,Hum-Bolt,grouped,DELETE,Grouped product merged into variable,
+13248,hmh00085,Flavor-Ful,grouped,DELETE,Grouped product merged into variable,
+13249,hmh00086,Verde Growth Catalyst,grouped,DELETE,Grouped product merged into variable,
+13250,hmh00087,Oneness 5-9-4,grouped,DELETE,Grouped product merged into variable,
+13251,hmh00088,Mayan Microzyme,grouped,DELETE,Grouped product merged into variable,
+13252,hmh00089,Prozyme,grouped,DELETE,Grouped product merged into variable,
+13253,hmh00090,Myco Madness Soluble,grouped,DELETE,Grouped product merged into variable,
+13254,hmh00091,Myco Maximum Granular,grouped,DELETE,Grouped product merged into variable,
+13255,hmh00092,Humboldt Honey Hydro Carbs,grouped,DELETE,Grouped product merged into variable,
+13309,hmh00144,ONA Liquid,grouped,DELETE,Grouped product merged into variable,
+13310,hmh00145,ONA Gel,grouped,DELETE,Grouped product merged into variable,
+13317,hmh00152,Plantacillin,grouped,DELETE,Grouped product merged into variable,
+13888,hmh00609,Light Rail 5,grouped,DELETE,Grouped product merged into variable,
+13905,hmh00626,Site Plugs,grouped,DELETE,Grouped product merged into variable,
+13929,hmh00650,Max-Fan,grouped,DELETE,Grouped product merged into variable,
+13965,hmh00686,Rare Earth,grouped,DELETE,Grouped product merged into variable,
+14348,hmh00998,Can-Lite Filters,grouped,DELETE,Grouped product merged into variable,
+14357,hmh01006,Bud Candy,grouped,DELETE,Grouped product merged into variable,
+14358,hmh01007,Bud Factor X,grouped,DELETE,Grouped product merged into variable,
+14359,hmh01008,CarboLoad,grouped,DELETE,Grouped product merged into variable,
+14360,hmh01009,Final Phase,grouped,DELETE,Grouped product merged into variable,
+14363,hmh01012,Nirvana,grouped,DELETE,Grouped product merged into variable,
+14364,hmh01013,Overdrive,grouped,DELETE,Grouped product merged into variable,
+14366,hmh01015,Rhino Skin,grouped,DELETE,Grouped product merged into variable,
+14368,hmh01017,Sensizym,grouped,DELETE,Grouped product merged into variable,
+14441,hmh01073,Grow Big Liquid Plant Food (6-4-4),grouped,DELETE,Grouped product merged into variable,
+14442,hmh01074,Tiger Bloom Liquid Plant Food (2-8-4),grouped,DELETE,Grouped product merged into variable,
+14508,hmh01126,Root Pouch,grouped,DELETE,Grouped product merged into variable,
+14541,hmh01154,CALiMAGic,grouped,DELETE,Grouped product merged into variable,
+14547,hmh01159,Pure Blend Pro Grow,grouped,DELETE,Grouped product merged into variable,
+14548,hmh01160,Pure Blend Pro Bloom,grouped,DELETE,Grouped product merged into variable,
+14549,hmh01161,Pure Blend Pro Soil,grouped,DELETE,Grouped product merged into variable,
+14550,hmh01162,Hydroplex,grouped,DELETE,Grouped product merged into variable,
+14551,hmh01163,Liquid Karma,grouped,DELETE,Grouped product merged into variable,
+14552,hmh01164,AquaShield,grouped,DELETE,Grouped product merged into variable,
+14553,hmh01165,Cal-Mag Plus,grouped,DELETE,Grouped product merged into variable,
+14554,hmh01166,Clearex,grouped,DELETE,Grouped product merged into variable,
+14555,hmh01167,Silica Blast,grouped,DELETE,Grouped product merged into variable,
+14696,hmh01280,Dyna-Gro Pro Tekt,grouped,DELETE,Grouped product merged into variable,
+14788,hmh01352,ONA Spray,grouped,DELETE,Grouped product merged into variable,
+14802,hmh01362,Vitamino,grouped,DELETE,Grouped product merged into variable,
+14814,hmh01371,Aphrodite's Extraction,grouped,DELETE,Grouped product merged into variable,
+14818,hmh01374,Athena's Aminas,grouped,DELETE,Grouped product merged into variable,
+14831,hmh01383,Bloom Khaos,grouped,DELETE,Grouped product merged into variable,
+14835,hmh01386,Demeter's Destiny,grouped,DELETE,Grouped product merged into variable,
+14839,hmh01389,Gaia Mania,grouped,DELETE,Grouped product merged into variable,
+14844,hmh01393,Herculean Harvest,grouped,DELETE,Grouped product merged into variable,
+14849,hmh01397,Hygeia's Hydration,grouped,DELETE,Grouped product merged into variable,
+14853,hmh01400,Medusa's Magic,grouped,DELETE,Grouped product merged into variable,
+14858,hmh01404,Mega Morpheus,grouped,DELETE,Grouped product merged into variable,
+14862,hmh01407,Pegasus Potion,grouped,DELETE,Grouped product merged into variable,
+14869,hmh01412,Tritan's Trawl,grouped,DELETE,Grouped product merged into variable,
+14875,hmh01416,Super Sprouter Heat Mat,grouped,DELETE,Grouped product merged into variable,
+14913,hmh01445,Decision,grouped,DELETE,Grouped product merged into variable,
+14918,hmh01449,Equinox,grouped,DELETE,Grouped product merged into variable,
+14925,hmh01453,Lightning Start,grouped,DELETE,Grouped product merged into variable,
+14930,hmh01457,Ruby Ful#$%,grouped,DELETE,Grouped product merged into variable,
+14935,hmh01461,Spring,grouped,DELETE,Grouped product merged into variable,
+14940,hmh01465,Summer,grouped,DELETE,Grouped product merged into variable,
+14946,hmh01470,Autumn,grouped,DELETE,Grouped product merged into variable,
+14951,hmh01474,Winter Frost,grouped,DELETE,Grouped product merged into variable,
+15022,hmh01527,PK APATITE,grouped,DELETE,Grouped product merged into variable,
+15124,hmh01605,HydroDynamics Ionic® Grow 3 - 1 - 5 Premium Plant Nutrient,grouped,DELETE,Grouped product merged into variable,
+15170,hmh01640,Green Sensation,grouped,DELETE,Grouped product merged into variable,
+15195,hmh01658,Humboldt Nutrients S.I. Structural Integrity,grouped,DELETE,Grouped product merged into variable,
+15233,hmh01688,plagron Hydro A&B,grouped,DELETE,Grouped product merged into variable,
+15321,hmh01761,SiLICIUM,grouped,DELETE,Grouped product merged into variable,
+15455,hmh01869,Sticky Thrip Leafminer Traps,grouped,DELETE,Grouped product merged into variable,
+16700,HMH2080,Terpinator 0 - 0 - 4,grouped,DELETE,Grouped product merged into variable,

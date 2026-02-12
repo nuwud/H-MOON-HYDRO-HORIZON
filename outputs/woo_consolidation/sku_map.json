@@ -1,0 +1,1162 @@
+{
+  "HMH-NUT-BCUG9V": {
+    "parent_sku": "HMH-SCIETETICS-FUL-V-TECH-ELE-40FC",
+    "base_name": "Scietetics Ful V Tech Element Transfer System",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-NUT-33C8RQ": {
+    "parent_sku": "HMH-SCIETETICS-FUL-V-TECH-ELE-40FC",
+    "base_name": "Scietetics Ful V Tech Element Transfer System",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-NUT-33C8LP": {
+    "parent_sku": "HMH-SCIETETICS-FUL-V-TECH-ELE-40FC",
+    "base_name": "Scietetics Ful V Tech Element Transfer System",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-NUT-OU69GQ": {
+    "parent_sku": "HMH-SCIETETICS-FUL-V-TECH-ELE-40FC",
+    "base_name": "Scietetics Ful V Tech Element Transfer System",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-NUT-BCUGDB": {
+    "parent_sku": "HMH-SCIETETICS-FUL-V-TECH-ELE-40FC",
+    "base_name": "Scietetics Ful V Tech Element Transfer System",
+    "action": "consolidated_to_variation"
+  },
+  "1692": {
+    "parent_sku": "HMH-Y-CONNECTOR-E07E",
+    "base_name": "Y-Connector",
+    "action": "consolidated_to_variation"
+  },
+  "1694": {
+    "parent_sku": "HMH-Y-CONNECTOR-E07E",
+    "base_name": "Y-Connector",
+    "action": "consolidated_to_variation"
+  },
+  "1693": {
+    "parent_sku": "HMH-Y-CONNECTOR-E07E",
+    "base_name": "Y-Connector",
+    "action": "consolidated_to_variation"
+  },
+  "1687": {
+    "parent_sku": "HMH-Y-CONNECTOR-E07E",
+    "base_name": "Y-Connector",
+    "action": "consolidated_to_variation"
+  },
+  "1688": {
+    "parent_sku": "HMH-Y-CONNECTOR-E07E",
+    "base_name": "Y-Connector",
+    "action": "consolidated_to_variation"
+  },
+  "1689": {
+    "parent_sku": "HMH-Y-CONNECTOR-E07E",
+    "base_name": "Y-Connector",
+    "action": "consolidated_to_variation"
+  },
+  "1690": {
+    "parent_sku": "HMH-Y-CONNECTOR-E07E",
+    "base_name": "Y-Connector",
+    "action": "consolidated_to_variation"
+  },
+  "1691": {
+    "parent_sku": "HMH-Y-CONNECTOR-E07E",
+    "base_name": "Y-Connector",
+    "action": "consolidated_to_variation"
+  },
+  "958": {
+    "parent_sku": "HMH-CLASSIC-D35B",
+    "base_name": "Classic",
+    "action": "consolidated_to_variation"
+  },
+  "951": {
+    "parent_sku": "HMH-CLASSIC-D35B",
+    "base_name": "Classic",
+    "action": "consolidated_to_variation"
+  },
+  "952": {
+    "parent_sku": "HMH-CLASSIC-D35B",
+    "base_name": "Classic",
+    "action": "consolidated_to_variation"
+  },
+  "953": {
+    "parent_sku": "HMH-CLASSIC-D35B",
+    "base_name": "Classic",
+    "action": "consolidated_to_variation"
+  },
+  "954": {
+    "parent_sku": "HMH-CLASSIC-D35B",
+    "base_name": "Classic",
+    "action": "consolidated_to_variation"
+  },
+  "955": {
+    "parent_sku": "HMH-CLASSIC-D35B",
+    "base_name": "Classic",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01261": {
+    "parent_sku": "HMH-ECOPLUS-51E5",
+    "base_name": "EcoPlus",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01262": {
+    "parent_sku": "HMH-ECOPLUS-51E5",
+    "base_name": "EcoPlus",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01263": {
+    "parent_sku": "HMH-ECOPLUS-51E5",
+    "base_name": "EcoPlus",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01264": {
+    "parent_sku": "HMH-ECOPLUS-51E5",
+    "base_name": "EcoPlus",
+    "action": "consolidated_to_variation"
+  },
+  "914": {
+    "parent_sku": "HMH-ECOPLUS-51E5",
+    "base_name": "EcoPlus",
+    "action": "consolidated_to_variation"
+  },
+  "1126": {
+    "parent_sku": "HMH-WORM-GEAR-CLAMP-CD7A",
+    "base_name": "Worm Gear Clamp",
+    "action": "consolidated_to_variation"
+  },
+  "1125": {
+    "parent_sku": "HMH-WORM-GEAR-CLAMP-CD7A",
+    "base_name": "Worm Gear Clamp",
+    "action": "consolidated_to_variation"
+  },
+  "707": {
+    "parent_sku": "HMH-WORM-GEAR-CLAMP-CD7A",
+    "base_name": "Worm Gear Clamp",
+    "action": "consolidated_to_variation"
+  },
+  "708": {
+    "parent_sku": "HMH-WORM-GEAR-CLAMP-CD7A",
+    "base_name": "Worm Gear Clamp",
+    "action": "consolidated_to_variation"
+  },
+  "709": {
+    "parent_sku": "HMH-WORM-GEAR-CLAMP-CD7A",
+    "base_name": "Worm Gear Clamp",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00745": {
+    "parent_sku": "HMH-PRE-FILTER-FOR-MODEL-PRO-F422",
+    "base_name": "Pre-Filter for Model Pro",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00747": {
+    "parent_sku": "HMH-PRE-FILTER-FOR-MODEL-PRO-F422",
+    "base_name": "Pre-Filter for Model Pro",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00748": {
+    "parent_sku": "HMH-PRE-FILTER-FOR-MODEL-PRO-F422",
+    "base_name": "Pre-Filter for Model Pro",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00749": {
+    "parent_sku": "HMH-PRE-FILTER-FOR-MODEL-PRO-F422",
+    "base_name": "Pre-Filter for Model Pro",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00792": {
+    "parent_sku": "HMH-CAN-FAN-HIGH-OUTPUT-BD75",
+    "base_name": "Can-Fan high output",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00794": {
+    "parent_sku": "HMH-CAN-FAN-HIGH-OUTPUT-BD75",
+    "base_name": "Can-Fan high output",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00796": {
+    "parent_sku": "HMH-CAN-FAN-HIGH-OUTPUT-BD75",
+    "base_name": "Can-Fan high output",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00797": {
+    "parent_sku": "HMH-CAN-FAN-HIGH-OUTPUT-BD75",
+    "base_name": "Can-Fan high output",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01584": {
+    "parent_sku": "HMH-UNO-2-SPEED-IN-LINE-BLOWE-A77B",
+    "base_name": "UNO-2 Speed in line Blower",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01585": {
+    "parent_sku": "HMH-UNO-2-SPEED-IN-LINE-BLOWE-A77B",
+    "base_name": "UNO-2 Speed in line Blower",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01586": {
+    "parent_sku": "HMH-UNO-2-SPEED-IN-LINE-BLOWE-A77B",
+    "base_name": "UNO-2 Speed in line Blower",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01587": {
+    "parent_sku": "HMH-UNO-2-SPEED-IN-LINE-BLOWE-A77B",
+    "base_name": "UNO-2 Speed in line Blower",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-NUT-1P7TJF": {
+    "parent_sku": "HMH-SCIETETICS-MAGCAL-6C33",
+    "base_name": "Scietetics MagCal",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-NUT-MUWES2": {
+    "parent_sku": "HMH-SCIETETICS-MAGCAL-6C33",
+    "base_name": "Scietetics MagCal",
+    "action": "consolidated_to_variation"
+  },
+  "718": {
+    "parent_sku": "HMH-BACKDRAFT-DAMPER-D317",
+    "base_name": "Backdraft Damper",
+    "action": "consolidated_to_variation"
+  },
+  "715": {
+    "parent_sku": "HMH-BACKDRAFT-DAMPER-D317",
+    "base_name": "Backdraft Damper",
+    "action": "consolidated_to_variation"
+  },
+  "716": {
+    "parent_sku": "HMH-BACKDRAFT-DAMPER-D317",
+    "base_name": "Backdraft Damper",
+    "action": "consolidated_to_variation"
+  },
+  "717": {
+    "parent_sku": "HMH-BACKDRAFT-DAMPER-D317",
+    "base_name": "Backdraft Damper",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00203": {
+    "parent_sku": "HMH-FLORADUO-A-45D0",
+    "base_name": "FloraDuo A",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00206": {
+    "parent_sku": "HMH-FLORADUO-A-45D0",
+    "base_name": "FloraDuo A",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00207": {
+    "parent_sku": "HMH-FLORADUO-A-45D0",
+    "base_name": "FloraDuo A",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00208": {
+    "parent_sku": "HMH-FLORADUO-B-1C3D",
+    "base_name": "FloraDuo B",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00211": {
+    "parent_sku": "HMH-FLORADUO-B-1C3D",
+    "base_name": "FloraDuo B",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00212": {
+    "parent_sku": "HMH-FLORADUO-B-1C3D",
+    "base_name": "FloraDuo B",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00286": {
+    "parent_sku": "HMH-HOLLAND-SECRET-MICRO-F97E",
+    "base_name": "Holland Secret Micro",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00287": {
+    "parent_sku": "HMH-HOLLAND-SECRET-MICRO-F97E",
+    "base_name": "Holland Secret Micro",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00288": {
+    "parent_sku": "HMH-HOLLAND-SECRET-MICRO-F97E",
+    "base_name": "Holland Secret Micro",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00293": {
+    "parent_sku": "HMH-HOLLAND-SECRET-GROW-C4E7",
+    "base_name": "Holland Secret Grow",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00294": {
+    "parent_sku": "HMH-HOLLAND-SECRET-GROW-C4E7",
+    "base_name": "Holland Secret Grow",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00295": {
+    "parent_sku": "HMH-HOLLAND-SECRET-GROW-C4E7",
+    "base_name": "Holland Secret Grow",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00297": {
+    "parent_sku": "HMH-HOLLAND-SECRET-BLOOM-CB9A",
+    "base_name": "Holland Secret Bloom",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00298": {
+    "parent_sku": "HMH-HOLLAND-SECRET-BLOOM-CB9A",
+    "base_name": "Holland Secret Bloom",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00299": {
+    "parent_sku": "HMH-HOLLAND-SECRET-BLOOM-CB9A",
+    "base_name": "Holland Secret Bloom",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00791": {
+    "parent_sku": "HMH-CAN-FAN-STANDARD-OUTPUT-3470",
+    "base_name": "Can-Fan standard output",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00793": {
+    "parent_sku": "HMH-CAN-FAN-STANDARD-OUTPUT-3470",
+    "base_name": "Can-Fan standard output",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00795": {
+    "parent_sku": "HMH-CAN-FAN-STANDARD-OUTPUT-3470",
+    "base_name": "Can-Fan standard output",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00290": {
+    "parent_sku": "HMH-HOLLAND-SECRET-MICRO-H-W-4D2B",
+    "base_name": "Holland Secret Micro H.W",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00291": {
+    "parent_sku": "HMH-HOLLAND-SECRET-MICRO-H-W-4D2B",
+    "base_name": "Holland Secret Micro H.W",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00872": {
+    "parent_sku": "HMH-PLANTMAX-A27B",
+    "base_name": "Plantmax",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00875": {
+    "parent_sku": "HMH-PLANTMAX-A27B",
+    "base_name": "Plantmax",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00876": {
+    "parent_sku": "HMH-PLANTMAX-A27B",
+    "base_name": "Plantmax",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01124": {
+    "parent_sku": "HMH-PLANTMAX-A27B",
+    "base_name": "Plantmax",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01125": {
+    "parent_sku": "HMH-PLANTMAX-A27B",
+    "base_name": "Plantmax",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01733": {
+    "parent_sku": "HMH-PLANTMAX-A27B",
+    "base_name": "Plantmax",
+    "action": "consolidated_to_variation"
+  },
+  "1505": {
+    "parent_sku": "HMH-PLANTMAX-A27B",
+    "base_name": "Plantmax",
+    "action": "consolidated_to_variation"
+  },
+  "1506": {
+    "parent_sku": "HMH-PLANTMAX-A27B",
+    "base_name": "Plantmax",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01127": {
+    "parent_sku": "HMH-THE-ROOT-POUCH-8ED9",
+    "base_name": "The Root Pouch",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01128": {
+    "parent_sku": "HMH-THE-ROOT-POUCH-8ED9",
+    "base_name": "The Root Pouch",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01129": {
+    "parent_sku": "HMH-THE-ROOT-POUCH-8ED9",
+    "base_name": "The Root Pouch",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01131": {
+    "parent_sku": "HMH-THE-ROOT-POUCH-8ED9",
+    "base_name": "The Root Pouch",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01132": {
+    "parent_sku": "HMH-THE-ROOT-POUCH-8ED9",
+    "base_name": "The Root Pouch",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00232": {
+    "parent_sku": "HMH-FLORAKLEEN-0625",
+    "base_name": "FloraKleen",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00233": {
+    "parent_sku": "HMH-FLORAKLEEN-0625",
+    "base_name": "FloraKleen",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00234": {
+    "parent_sku": "HMH-FLORAKLEEN-0625",
+    "base_name": "FloraKleen",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00404": {
+    "parent_sku": "HMH-BLOOM-NATURAL-348C",
+    "base_name": "Bloom Natural",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00405": {
+    "parent_sku": "HMH-BLOOM-NATURAL-348C",
+    "base_name": "Bloom Natural",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00406": {
+    "parent_sku": "HMH-BLOOM-NATURAL-348C",
+    "base_name": "Bloom Natural",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00416": {
+    "parent_sku": "HMH-MAYAN-MICROZYME-1CE0",
+    "base_name": "Mayan Microzyme",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00417": {
+    "parent_sku": "HMH-MAYAN-MICROZYME-1CE0",
+    "base_name": "Mayan Microzyme",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00418": {
+    "parent_sku": "HMH-MAYAN-MICROZYME-1CE0",
+    "base_name": "Mayan Microzyme",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00806": {
+    "parent_sku": "HMH-MAX-FAN-D943",
+    "base_name": "Max-Fan,",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00807": {
+    "parent_sku": "HMH-MAX-FAN-D943",
+    "base_name": "Max-Fan,",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00808": {
+    "parent_sku": "HMH-MAX-FAN-D943",
+    "base_name": "Max-Fan,",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00979": {
+    "parent_sku": "HMH-PH-UP-D827",
+    "base_name": "pH-Up",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00980": {
+    "parent_sku": "HMH-PH-UP-D827",
+    "base_name": "pH-Up",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00981": {
+    "parent_sku": "HMH-PH-UP-D827",
+    "base_name": "pH-Up",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01021": {
+    "parent_sku": "HMH-B-52-VITAMIN-B305",
+    "base_name": "B-52 Vitamin",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01022": {
+    "parent_sku": "HMH-B-52-VITAMIN-B305",
+    "base_name": "B-52 Vitamin",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01023": {
+    "parent_sku": "HMH-B-52-VITAMIN-B305",
+    "base_name": "B-52 Vitamin",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01026": {
+    "parent_sku": "HMH-BIG-BUD-BLOOM-BOOSTER-7892",
+    "base_name": "Big Bud Bloom Booster",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01027": {
+    "parent_sku": "HMH-BIG-BUD-BLOOM-BOOSTER-7892",
+    "base_name": "Big Bud Bloom Booster",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01028": {
+    "parent_sku": "HMH-BIG-BUD-BLOOM-BOOSTER-7892",
+    "base_name": "Big Bud Bloom Booster",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01060": {
+    "parent_sku": "HMH-SENSIZYM-88DD",
+    "base_name": "Sensizym",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01061": {
+    "parent_sku": "HMH-SENSIZYM-88DD",
+    "base_name": "Sensizym",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01062": {
+    "parent_sku": "HMH-SENSIZYM-88DD",
+    "base_name": "Sensizym",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01191": {
+    "parent_sku": "HMH-MONDI-SUPER-SAUCER-55FB",
+    "base_name": "Mondi Super Saucer",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01192": {
+    "parent_sku": "HMH-MONDI-SUPER-SAUCER-55FB",
+    "base_name": "Mondi Super Saucer",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01193": {
+    "parent_sku": "HMH-MONDI-SUPER-SAUCER-55FB",
+    "base_name": "Mondi Super Saucer",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01212": {
+    "parent_sku": "HMH-PH-PERFECT-SENSI-BLOOM-PA-9A91",
+    "base_name": "pH Perfect Sensi Bloom part A",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01213": {
+    "parent_sku": "HMH-PH-PERFECT-SENSI-BLOOM-PA-9A91",
+    "base_name": "pH Perfect Sensi Bloom part A",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01214": {
+    "parent_sku": "HMH-PH-PERFECT-SENSI-BLOOM-PA-9A91",
+    "base_name": "pH Perfect Sensi Bloom part A",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01215": {
+    "parent_sku": "HMH-PH-PERFECT-SENSI-BLOOM-PA-F404",
+    "base_name": "pH Perfect Sensi Bloom part B",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01216": {
+    "parent_sku": "HMH-PH-PERFECT-SENSI-BLOOM-PA-F404",
+    "base_name": "pH Perfect Sensi Bloom part B",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01217": {
+    "parent_sku": "HMH-PH-PERFECT-SENSI-BLOOM-PA-F404",
+    "base_name": "pH Perfect Sensi Bloom part B",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01218": {
+    "parent_sku": "HMH-PH-PERFECT-SENSI-GROW-PAR-EE8D",
+    "base_name": "pH Perfect Sensi Grow part A",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01219": {
+    "parent_sku": "HMH-PH-PERFECT-SENSI-GROW-PAR-EE8D",
+    "base_name": "pH Perfect Sensi Grow part A",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01220": {
+    "parent_sku": "HMH-PH-PERFECT-SENSI-GROW-PAR-EE8D",
+    "base_name": "pH Perfect Sensi Grow part A",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01221": {
+    "parent_sku": "HMH-PH-PERFECT-SENSI-GROW-PAR-7B35",
+    "base_name": "pH Perfect Sensi Grow part B",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01222": {
+    "parent_sku": "HMH-PH-PERFECT-SENSI-GROW-PAR-7B35",
+    "base_name": "pH Perfect Sensi Grow part B",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01223": {
+    "parent_sku": "HMH-PH-PERFECT-SENSI-GROW-PAR-7B35",
+    "base_name": "pH Perfect Sensi Grow part B",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01439": {
+    "parent_sku": "HMH-SUNBLASTER-2C0E",
+    "base_name": "SunBlaster",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01704": {
+    "parent_sku": "HMH-SUNBLASTER-2C0E",
+    "base_name": "SunBlaster",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01705": {
+    "parent_sku": "HMH-SUNBLASTER-2C0E",
+    "base_name": "SunBlaster",
+    "action": "consolidated_to_variation"
+  },
+  "2575": {
+    "parent_sku": "HMH-NOISE-REDUCTION-CLAMP-7E6C",
+    "base_name": "Noise Reduction Clamp",
+    "action": "consolidated_to_variation"
+  },
+  "2576": {
+    "parent_sku": "HMH-NOISE-REDUCTION-CLAMP-7E6C",
+    "base_name": "Noise Reduction Clamp",
+    "action": "consolidated_to_variation"
+  },
+  "2577": {
+    "parent_sku": "HMH-NOISE-REDUCTION-CLAMP-7E6C",
+    "base_name": "Noise Reduction Clamp",
+    "action": "consolidated_to_variation"
+  },
+  "1144": {
+    "parent_sku": "HMH-PRE-FILTER-PRO-CFA6",
+    "base_name": "Pre-Filter PRO",
+    "action": "consolidated_to_variation"
+  },
+  "1145": {
+    "parent_sku": "HMH-PRE-FILTER-PRO-CFA6",
+    "base_name": "Pre-Filter PRO",
+    "action": "consolidated_to_variation"
+  },
+  "1146": {
+    "parent_sku": "HMH-PRE-FILTER-PRO-CFA6",
+    "base_name": "Pre-Filter PRO",
+    "action": "consolidated_to_variation"
+  },
+  "1137": {
+    "parent_sku": "HMH-PRO-FILTER-BACC",
+    "base_name": "PRO Filter",
+    "action": "consolidated_to_variation"
+  },
+  "1138": {
+    "parent_sku": "HMH-PRO-FILTER-BACC",
+    "base_name": "PRO Filter",
+    "action": "consolidated_to_variation"
+  },
+  "1139": {
+    "parent_sku": "HMH-PRO-FILTER-BACC",
+    "base_name": "PRO Filter",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00162": {
+    "parent_sku": "HMH-BIOTHRIVE-GROW-7D72",
+    "base_name": "BioThrive Grow",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00672": {
+    "parent_sku": "HMH-BIOTHRIVE-GROW-7D72",
+    "base_name": "BioThrive Grow",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00168": {
+    "parent_sku": "HMH-HARD-WATER-FLORA-MICRO-B6FF",
+    "base_name": "Hard Water Flora Micro",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00169": {
+    "parent_sku": "HMH-HARD-WATER-FLORA-MICRO-B6FF",
+    "base_name": "Hard Water Flora Micro",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00356": {
+    "parent_sku": "HMH-HUMBOLDT-BIG-UP-POWDER-CB25",
+    "base_name": "Humboldt Big Up Powder",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00357": {
+    "parent_sku": "HMH-HUMBOLDT-BIG-UP-POWDER-CB25",
+    "base_name": "Humboldt Big Up Powder",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00370": {
+    "parent_sku": "HMH-HUMBOLDT-MASTER-B-8C7F",
+    "base_name": "Humboldt Master B",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00371": {
+    "parent_sku": "HMH-HUMBOLDT-MASTER-B-8C7F",
+    "base_name": "Humboldt Master B",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00412": {
+    "parent_sku": "HMH-FLAVOR-FUL-2D4C",
+    "base_name": "Flavor-Ful",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00413": {
+    "parent_sku": "HMH-FLAVOR-FUL-2D4C",
+    "base_name": "Flavor-Ful",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00427": {
+    "parent_sku": "HMH-MYCO-MAXIMUM-GRANULAR-C43A",
+    "base_name": "Myco Maximum Granular",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00429": {
+    "parent_sku": "HMH-MYCO-MAXIMUM-GRANULAR-C43A",
+    "base_name": "Myco Maximum Granular",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00442": {
+    "parent_sku": "HMH-HUMBOLDT-STICKY-FOLIAR-FE-E93F",
+    "base_name": "Humboldt Sticky Foliar Feed",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00443": {
+    "parent_sku": "HMH-HUMBOLDT-STICKY-FOLIAR-FE-E93F",
+    "base_name": "Humboldt Sticky Foliar Feed",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00459": {
+    "parent_sku": "HMH-CALCARB-CALCIUM-CARBONATE-B133",
+    "base_name": "CalCarb Calcium Carbonate Foliar Spray",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00460": {
+    "parent_sku": "HMH-CALCARB-CALCIUM-CARBONATE-B133",
+    "base_name": "CalCarb Calcium Carbonate Foliar Spray",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00563": {
+    "parent_sku": "HMH-GARDEN-FUNGICIDE-D1BA",
+    "base_name": "Garden Fungicide",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00564": {
+    "parent_sku": "HMH-GARDEN-FUNGICIDE-D1BA",
+    "base_name": "Garden Fungicide",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00674": {
+    "parent_sku": "HMH-BIOBUD-AECB",
+    "base_name": "BioBud",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00675": {
+    "parent_sku": "HMH-BIOBUD-AECB",
+    "base_name": "BioBud",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00676": {
+    "parent_sku": "HMH-BIOMARINE-21A1",
+    "base_name": "BioMarine",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00677": {
+    "parent_sku": "HMH-BIOMARINE-21A1",
+    "base_name": "BioMarine",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00678": {
+    "parent_sku": "HMH-BIOROOT-D76A",
+    "base_name": "BioRoot",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00679": {
+    "parent_sku": "HMH-BIOROOT-D76A",
+    "base_name": "BioRoot",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00680": {
+    "parent_sku": "HMH-BIOWEED-2476",
+    "base_name": "BioWeed",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00681": {
+    "parent_sku": "HMH-BIOWEED-2476",
+    "base_name": "BioWeed",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00682": {
+    "parent_sku": "HMH-CAMG-0591",
+    "base_name": "CaMg+",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00683": {
+    "parent_sku": "HMH-CAMG-0591",
+    "base_name": "CaMg+",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00687": {
+    "parent_sku": "HMH-RARE-EARTH-CCEF",
+    "base_name": "Rare Earth",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00689": {
+    "parent_sku": "HMH-RARE-EARTH-CCEF",
+    "base_name": "Rare Earth",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00839": {
+    "parent_sku": "HMH-SCREEN-FITTING-FC56",
+    "base_name": "Screen Fitting",
+    "action": "consolidated_to_variation"
+  },
+  "823": {
+    "parent_sku": "HMH-SCREEN-FITTING-FC56",
+    "base_name": "Screen Fitting",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00880": {
+    "parent_sku": "HMH-T5-CFL-PLANTMAX-WARM-5A4C",
+    "base_name": "T5 CFL Plantmax Warm",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00882": {
+    "parent_sku": "HMH-T5-CFL-PLANTMAX-WARM-5A4C",
+    "base_name": "T5 CFL Plantmax Warm",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00910": {
+    "parent_sku": "HMH-ADD-A-LAMP-HARDWARE-KIT-A0E7",
+    "base_name": "Add a Lamp Hardware Kit",
+    "action": "consolidated_to_variation"
+  },
+  "895": {
+    "parent_sku": "HMH-ADD-A-LAMP-HARDWARE-KIT-A0E7",
+    "base_name": "Add a Lamp Hardware Kit",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00934": {
+    "parent_sku": "HMH-4-LIGHT-TIMER-32A5",
+    "base_name": "4 Light Timer",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00935": {
+    "parent_sku": "HMH-4-LIGHT-TIMER-32A5",
+    "base_name": "4 Light Timer",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00970": {
+    "parent_sku": "HMH-PPM-1500-TDS-2-142-MS-5FDD",
+    "base_name": "PPM-1500 TDS / 2.142 ms",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00971": {
+    "parent_sku": "HMH-PPM-1500-TDS-2-142-MS-5FDD",
+    "base_name": "PPM-1500 TDS / 2.142 ms",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00982": {
+    "parent_sku": "HMH-PH-UP-DRY-98F9",
+    "base_name": "pH Up Dry",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00984": {
+    "parent_sku": "HMH-PH-UP-DRY-98F9",
+    "base_name": "pH Up Dry",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00986": {
+    "parent_sku": "HMH-PH-DOWN-99CA",
+    "base_name": "pH Down",
+    "action": "consolidated_to_variation"
+  },
+  "hmh00987": {
+    "parent_sku": "HMH-PH-DOWN-99CA",
+    "base_name": "pH Down",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01031": {
+    "parent_sku": "HMH-BUD-CANDY-2AAA",
+    "base_name": "Bud Candy",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01033": {
+    "parent_sku": "HMH-BUD-CANDY-2AAA",
+    "base_name": "Bud Candy",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01036": {
+    "parent_sku": "HMH-CARBOLOAD-A2BA",
+    "base_name": "CarboLoad",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01037": {
+    "parent_sku": "HMH-CARBOLOAD-A2BA",
+    "base_name": "CarboLoad",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01038": {
+    "parent_sku": "HMH-FINAL-PHASE-0C29",
+    "base_name": "Final Phase",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01039": {
+    "parent_sku": "HMH-FINAL-PHASE-0C29",
+    "base_name": "Final Phase",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01052": {
+    "parent_sku": "HMH-SENSI-BLOOM-PART-A-B469",
+    "base_name": "Sensi Bloom part A",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01053": {
+    "parent_sku": "HMH-SENSI-BLOOM-PART-A-B469",
+    "base_name": "Sensi Bloom part A",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01065": {
+    "parent_sku": "HMH-ULTRA-PREMIUM-CONNOISSEUR-5235",
+    "base_name": "Ultra-premium Connoisseur Part-A",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01066": {
+    "parent_sku": "HMH-ULTRA-PREMIUM-CONNOISSEUR-5235",
+    "base_name": "Ultra-premium Connoisseur Part-A",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01067": {
+    "parent_sku": "HMH-ULTRA-PREMIUM-CONNOISSEUR-C386",
+    "base_name": "Ultra-premium Connoisseur Part-B",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01068": {
+    "parent_sku": "HMH-ULTRA-PREMIUM-CONNOISSEUR-C386",
+    "base_name": "Ultra-premium Connoisseur Part-B",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01152": {
+    "parent_sku": "HMH-FLORANECTAR-NATURAL-SUGAR-6EF1",
+    "base_name": "FloraNectar Natural Sugar",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01153": {
+    "parent_sku": "HMH-FLORANECTAR-NATURAL-SUGAR-6EF1",
+    "base_name": "FloraNectar Natural Sugar",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01208": {
+    "parent_sku": "HMH-PH-PERFECT-CONNOISSEUR-PA-149E",
+    "base_name": "pH Perfect Connoisseur part A",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01209": {
+    "parent_sku": "HMH-PH-PERFECT-CONNOISSEUR-PA-149E",
+    "base_name": "pH Perfect Connoisseur part A",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01210": {
+    "parent_sku": "HMH-PH-PERFECT-CONNOISSEUR-PA-1F21",
+    "base_name": "pH Perfect Connoisseur part B",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01211": {
+    "parent_sku": "HMH-PH-PERFECT-CONNOISSEUR-PA-1F21",
+    "base_name": "pH Perfect Connoisseur part B",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01596": {
+    "parent_sku": "HMH-ACCURATE-PH-490D",
+    "base_name": "Accurate pH",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01597": {
+    "parent_sku": "HMH-ACCURATE-PH-490D",
+    "base_name": "Accurate pH",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01808": {
+    "parent_sku": "HMH-DOWN-TO-EARTH-VEGAN-MIX-B67E",
+    "base_name": "Down To Earth Vegan Mix",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01809": {
+    "parent_sku": "HMH-DOWN-TO-EARTH-VEGAN-MIX-B67E",
+    "base_name": "Down To Earth Vegan Mix",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01811": {
+    "parent_sku": "HMH-DOWN-TO-EARTH-KELP-MEAL-B48D",
+    "base_name": "Down To Earth Kelp Meal",
+    "action": "consolidated_to_variation"
+  },
+  "hmh01812": {
+    "parent_sku": "HMH-DOWN-TO-EARTH-KELP-MEAL-B48D",
+    "base_name": "Down To Earth Kelp Meal",
+    "action": "consolidated_to_variation"
+  },
+  "hmh2011": {
+    "parent_sku": "HMH-DYNA-GRO-PRO-TEKT-EAE7",
+    "base_name": "Dyna-Gro Pro Tekt",
+    "action": "consolidated_to_variation"
+  },
+  "hmh2012": {
+    "parent_sku": "HMH-DYNA-GRO-PRO-TEKT-EAE7",
+    "base_name": "Dyna-Gro Pro Tekt",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-LIT-HTZKKT": {
+    "parent_sku": "HMH-DLI-DIODE-SERIES-LED-TOPL-4155",
+    "base_name": "DLI-DIODE-Series-LED Toplighting LED Fixture",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-GRO-8AOLV0": {
+    "parent_sku": "HMH-BOTANICARE-ORGANICARE-TRU-A0C4",
+    "base_name": "Botanicare Organicare True Earth Potting Mix",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-NUT-A5YX6V": {
+    "parent_sku": "HMH-ATHENA-BLOOM-B-61E0",
+    "base_name": "Athena Bloom B",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-NUT-YBAWYC": {
+    "parent_sku": "HMH-ATHENA-STACK-3628",
+    "base_name": "Athena Stack",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-NUT-MOC4I8": {
+    "parent_sku": "HMH-ATHENA-BALANCE-8F68",
+    "base_name": "Athena Balance",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-PRO-H7RVU6": {
+    "parent_sku": "HMH-ATHENA-CUTS-ROOTING-GEL-C-7492",
+    "base_name": "Athena Cuts Rooting Gel Compound",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-LIT-IM94UN": {
+    "parent_sku": "HMH-E-PAPILLON-98C7",
+    "base_name": "E-Papillon",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-NUT-O642LQ": {
+    "parent_sku": "HMH-SPRAY-N-GROW-MICRONUTRIEN-6B66",
+    "base_name": "Spray-N-Grow Micronutrients",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-NUT-K8L91R": {
+    "parent_sku": "HMH-MULTI-CE78",
+    "base_name": "Multi",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-NUT-DZYP24": {
+    "parent_sku": "HMH-BLOCK-COCOS-NUCIFERA-C61A",
+    "base_name": "Block Cocos Nucifera",
+    "action": "consolidated_to_variation"
+  },
+  "HMH-NUT-U1Y8EA": {
+    "parent_sku": "HMH-AGROWLYTE-STOP-PM-482E",
+    "base_name": "Agrowlyte Stop PM",
+    "action": "consolidated_to_variation"
+  },
+  "3015": {
+    "parent_sku": "HMH-D-T-E-LIQUID-BLOOM-2-6-4-94CC",
+    "base_name": "D.T.E. LIQUID BLOOM 2-6-4",
+    "action": "consolidated_to_variation"
+  },
+  "3014": {
+    "parent_sku": "HMH-D-T-E-LIQUID-BLOOM-2-6-4-94CC",
+    "base_name": "D.T.E. LIQUID BLOOM 2-6-4",
+    "action": "consolidated_to_variation"
+  },
+  "3648": {
+    "parent_sku": "HMH-GREASE-YELLOW-FINISHER-AFF3",
+    "base_name": "GREASE yellow Finisher",
+    "action": "consolidated_to_variation"
+  },
+  "3621": {
+    "parent_sku": "HMH-GREASE-YELLOW-FINISHER-AFF3",
+    "base_name": "GREASE yellow Finisher",
+    "action": "consolidated_to_variation"
+  },
+  "2302": {
+    "parent_sku": "HMH-AIR-STONE-EC47",
+    "base_name": "Air Stone",
+    "action": "consolidated_to_variation"
+  },
+  "907": {
+    "parent_sku": "HMH-AIR-STONE-EC47",
+    "base_name": "Air Stone",
+    "action": "consolidated_to_variation"
+  },
+  "2258": {
+    "parent_sku": "HMH-COVERT-TANK-A322",
+    "base_name": "Covert Tank",
+    "action": "consolidated_to_variation"
+  },
+  "2259": {
+    "parent_sku": "HMH-COVERT-TANK-A322",
+    "base_name": "Covert Tank",
+    "action": "consolidated_to_variation"
+  },
+  "3195": {
+    "parent_sku": "HMH-NETAFIM-61A5",
+    "base_name": "Netafim",
+    "action": "consolidated_to_variation"
+  },
+  "3460": {
+    "parent_sku": "HMH-NETAFIM-61A5",
+    "base_name": "Netafim",
+    "action": "consolidated_to_variation"
+  },
+  "2527": {
+    "parent_sku": "HMH-NODOR-PUCK-9E23",
+    "base_name": "NODOR Puck",
+    "action": "consolidated_to_variation"
+  },
+  "2528": {
+    "parent_sku": "HMH-NODOR-PUCK-9E23",
+    "base_name": "NODOR Puck",
+    "action": "consolidated_to_variation"
+  },
+  "883": {
+    "parent_sku": "HMH-ONE-SHOT-AMENDMENT-613A",
+    "base_name": "One Shot amendment",
+    "action": "consolidated_to_variation"
+  },
+  "882": {
+    "parent_sku": "HMH-ONE-SHOT-AMENDMENT-613A",
+    "base_name": "One Shot amendment",
+    "action": "consolidated_to_variation"
+  },
+  "1369": {
+    "parent_sku": "HMH-RESERVOIR-HEATER-4D5D",
+    "base_name": "Reservoir Heater",
+    "action": "consolidated_to_variation"
+  },
+  "1370": {
+    "parent_sku": "HMH-RESERVOIR-HEATER-4D5D",
+    "base_name": "Reservoir Heater",
+    "action": "consolidated_to_variation"
+  },
+  "3032": {
+    "parent_sku": "HMH-SUNBLASTER-LED-STRIP-LIGH-CA01",
+    "base_name": "SunBlaster/LED Strip Lights",
+    "action": "consolidated_to_variation"
+  },
+  "3033": {
+    "parent_sku": "HMH-SUNBLASTER-LED-STRIP-LIGH-CA01",
+    "base_name": "SunBlaster/LED Strip Lights",
+    "action": "consolidated_to_variation"
+  },
+  "2626": {
+    "parent_sku": "HMH-UNO-2-SPEED-FAN-3DE8",
+    "base_name": "UNO 2 speed fan",
+    "action": "consolidated_to_variation"
+  },
+  "2623": {
+    "parent_sku": "HMH-UNO-2-SPEED-FAN-3DE8",
+    "base_name": "UNO 2 speed fan",
+    "action": "consolidated_to_variation"
+  }
+}

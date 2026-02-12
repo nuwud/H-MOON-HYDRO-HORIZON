@@ -1,0 +1,36 @@
+# WooCommerce ACH Batch Payment Plugin - .gitignore
+
+# Dependencies
+vendor/
+node_modules/
+
+# Build artifacts
+*.zip
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Test coverage
+coverage/
+.phpunit.result.cache
+
+# Composer
+composer.lock
