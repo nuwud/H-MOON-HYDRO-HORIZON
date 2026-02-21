@@ -91,6 +91,7 @@ outputs/*.csv
 outputs/*.json
 outputs/*.html
 outputs/*.txt
+outputs/*.php
 !outputs/*.md
 outputs/audit/
 outputs/image_sourcing/
@@ -126,6 +127,7 @@ IMPORT_STATUS_REPORT.md
 # ==========================
 reports/*.md
 reports/*.json
+reports/*.txt
 reports/archive/
 
 # ==========================
@@ -157,6 +159,19 @@ logs/
 backups/
 **/backup/
 **/bak/
+
+# ==========================
+# LOCAL DATA DUMPS / SCRATCH NOISE
+# ==========================
+hydroponics_assets/
+postmeta
+posts
+
+# malformed scratch artifacts observed in workspace
+0
+3
+cnt}x
+thumb_id}
 
 # ==========================
 # EXTENSION BUILD OUTPUT
