@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>H-Moon Hydro — Product Curation</title>
+<style>
+:root {
+  --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #c9d1d9;
+  --text-muted: #8b949e; --accent: #58a6ff; --green: #3fb950; --red: #f85149;
+  --orange: #d29922; --purple: #bc8cff;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:14px; }
+a { color:var(--accent); text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+/* Header */
+.header { background:var(--surface); border-bottom:1px solid var(--border); padding:12px 24px; display:flex; align-items:center; gap:16px; position:sticky; top:0; z-index:100; }
+.header h1 { font-size:18px; font-weight:600; color:#fff; flex-shrink:0; }
+.header .stats { display:flex; gap:12px; font-size:13px; color:var(--text-muted); }
+.header .stat { background:var(--bg); padding:4px 10px; border-radius:12px; }
+.header .stat b { color:var(--text); }
+.header .actions { margin-left:auto; display:flex; gap:8px; }
+
+/* Tabs */
+.tabs { display:flex; gap:2px; padding:8px 24px; background:var(--surface); border-bottom:1px solid var(--border); flex-wrap:wrap; }
+.tab { padding:6px 16px; border-radius:6px; cursor:pointer; font-size:13px; color:var(--text-muted); transition:.15s; }
+.tab:hover { background:var(--border); color:var(--text); }
+.tab.active { background:var(--accent); color:#fff; font-weight:600; }
+.tab .badge { background:rgba(255,255,255,.15); padding:1px 6px; border-radius:10px; font-size:11px; margin-left:4px; }
+.tab.active .badge { background:rgba(255,255,255,.3); }
+
+/* Layout */
+.main { display:flex; height:calc(100vh - 100px); }
+.product-list { width:420px; min-width:350px; border-right:1px solid var(--border); overflow-y:auto; }
+.detail-panel { flex:1; overflow-y:auto; padding:20px 24px; }
+
+/* Search bar */
+.search-bar { padding:12px 16px; border-bottom:1px solid var(--border); position:sticky; top:0; background:var(--bg); z-index:10; }
+.search-bar input { width:100%; padding:8px 12px; background:var(--surface); border:1px solid var(--border); border-radius:6px; color:var(--text); font-size:13px; outline:none; }
+.search-bar input:focus { border-color:var(--accent); }
+
+/* Product cards */
+.product-card { padding:12px 16px; border-bottom:1px solid var(--border); cursor:pointer; transition:.1s; display:flex; gap:10px; align-items:flex-start; }
+.product-card:hover { background:var(--surface); }
+.product-card.selected { background:#1c2333; border-left:3px solid var(--accent); }
+.product-card.queued { border-left:3px solid var(--green); }
+.product-card .thumb { width:48px; height:48px; border-radius:4px; object-fit:cover; background:var(--surface); flex-shrink:0; }
+.product-card .thumb.empty { display:flex; align-items:center; justify-content:center; font-size:20px; color:var(--border); }
+.product-card .info { flex:1; min-width:0; }
+.product-card .title { font-size:13px; font-weight:500; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.product-card .meta { font-size:11px; color:var(--text-muted); margin-top:2px; }
+.product-card .tags { display:flex; gap:4px; margin-top:4px; flex-wrap:wrap; }
+.tag { font-size:10px; padding:1px 6px; border-radius:3px; }
+.tag.missing { background:#3d1f1f; color:var(--red); }
+.tag.matched { background:#1b3a1b; color:var(--green); }
+.tag.queued-tag { background:#2d2000; color:var(--orange); }
+.tag.candidates { background:#1b2a3a; color:var(--accent); }
+
+/* Detail panel */
+.detail-empty { display:flex; align-items:center; justify-content:center; height:100%; color:var(--text-muted); font-size:16px; }
+.detail-header { margin-bottom:20px; }
+.detail-header h2 { font-size:18px; margin-bottom:4px; }
+.detail-header .id-brand { font-size:13px; color:var(--text-muted); }
+
+.section { background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:16px; margin-bottom:16px; }
+.section h3 { font-size:14px; font-weight:600; margin-bottom:10px; color:var(--accent); }
+.section .row { display:flex; gap:8px; margin-bottom:8px; align-items:center; }
+.section label { font-size:12px; color:var(--text-muted); min-width:80px; }
+
+/* Candidate card */
+.candidate-card { border:1px solid var(--border); border-radius:8px; margin-bottom:12px; overflow:hidden; transition:.15s; }
+.candidate-card:hover { border-color:var(--accent); }
+.candidate-card .cc-header { display:flex; gap:12px; padding:12px; align-items:flex-start; }
+.candidate-card .cc-images { display:flex; gap:6px; flex-wrap:wrap; padding:0 12px 12px; }
+.candidate-card .cc-images img { width:80px; height:80px; object-fit:cover; border-radius:4px; border:2px solid transparent; cursor:pointer; transition:.15s; }
+.candidate-card .cc-images img:hover { border-color:var(--accent); transform:scale(1.08); }
+.candidate-card .cc-images img.picked { border-color:var(--green); box-shadow:0 0 6px rgba(63,185,80,.5); }
+.candidate-card .cc-main-img { width:90px; height:90px; object-fit:cover; border-radius:6px; flex-shrink:0; cursor:pointer; }
+.candidate-card .cc-info { flex:1; min-width:0; }
+.candidate-card .cc-title { font-size:14px; font-weight:500; margin-bottom:4px; }
+.candidate-card .cc-meta { font-size:12px; color:var(--text-muted); margin-bottom:6px; }
+.candidate-card .cc-desc { font-size:12px; color:var(--text-muted); max-height:60px; overflow:hidden; margin-bottom:6px; }
+.candidate-card .cc-actions { display:flex; gap:6px; flex-wrap:wrap; }
+.candidate-card .cc-desc-full { font-size:12px; color:var(--text); max-height:200px; overflow-y:auto; background:var(--bg); margin:0 12px 12px; border-radius:6px; padding:10px; display:none; }
+.candidate-card .cc-desc-full.visible { display:block; }
+
+/* Score badge */
+.score-badge { display:inline-block; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600; }
+.score-high { background:#1b3a1b; color:var(--green); }
+.score-med { background:#2d2500; color:var(--orange); }
+.score-low { background:#2a1a1a; color:var(--text-muted); }
+
+/* All-images lightbox view */
+.all-images-grid { display:flex; flex-wrap:wrap; gap:6px; }
+.all-images-grid img { width:90px; height:90px; object-fit:cover; border-radius:4px; border:2px solid transparent; cursor:pointer; transition:.15s; }
+.all-images-grid img:hover { border-color:var(--accent); transform:scale(1.05); }
+.all-images-grid img.picked { border-color:var(--green); box-shadow:0 0 6px rgba(63,185,80,.5); }
+
+/* Image preview overlay */
+.img-preview { position:fixed; inset:0; background:rgba(0,0,0,.85); display:none; z-index:300; align-items:center; justify-content:center; cursor:zoom-out; }
+.img-preview.visible { display:flex; }
+.img-preview img { max-width:90vw; max-height:90vh; border-radius:8px; }
+
+/* Filter bar */
+.filter-bar { display:flex; gap:8px; align-items:center; margin-bottom:16px; flex-wrap:wrap; }
+.filter-bar select, .filter-bar input { padding:6px 10px; background:var(--bg); border:1px solid var(--border); border-radius:6px; color:var(--text); font-size:13px; }
+
+/* Retailer search */
+.retailer-search { display:flex; gap:8px; margin-bottom:12px; }
+.retailer-search input { flex:1; padding:8px 12px; background:var(--bg); border:1px solid var(--border); border-radius:6px; color:var(--text); font-size:13px; }
+.retailer-search select { padding:8px; background:var(--bg); border:1px solid var(--border); border-radius:6px; color:var(--text); font-size:13px; }
+
+/* Buttons */
+.btn { padding:6px 14px; border-radius:6px; border:1px solid var(--border); background:var(--surface); color:var(--text); font-size:13px; cursor:pointer; transition:.15s; }
+.btn:hover { background:var(--border); }
+.btn-primary { background:var(--accent); color:#fff; border-color:var(--accent); }
+.btn-primary:hover { background:#4090e0; }
+.btn-success { background:var(--green); color:#fff; border-color:var(--green); }
+.btn-success:hover { background:#2ea043; }
+.btn-danger { background:var(--red); color:#fff; border-color:var(--red); }
+.btn-danger:hover { background:#d73a42; }
+.btn-sm { padding:3px 10px; font-size:12px; }
+.btn:disabled { opacity:.5; cursor:not-allowed; }
+
+/* Forms */
+input[type="text"], input[type="number"], textarea, select {
+  background:var(--bg); border:1px solid var(--border); color:var(--text); border-radius:6px; padding:8px 10px; font-size:13px; width:100%;
+}
+textarea { font-family:inherit; resize:vertical; min-height:80px; }
+
+/* Queue panel */
+.queue-panel { position:fixed; bottom:0; left:0; right:0; background:var(--surface); border-top:2px solid var(--accent); padding:10px 24px; display:none; z-index:90; }
+.queue-panel.visible { display:flex; align-items:center; gap:16px; }
+.queue-panel .queue-info { flex:1; font-size:13px; }
+.queue-panel .queue-info b { color:var(--accent); }
+
+/* Modal */
+.modal-overlay { position:fixed; inset:0; background:rgba(0,0,0,.6); display:none; z-index:200; align-items:center; justify-content:center; }
+.modal-overlay.visible { display:flex; }
+.modal { background:var(--surface); border:1px solid var(--border); border-radius:12px; width:700px; max-height:80vh; overflow-y:auto; padding:20px; }
+.modal h3 { margin-bottom:12px; }
+.modal pre { background:var(--bg); padding:12px; border-radius:6px; font-size:12px; white-space:pre-wrap; max-height:400px; overflow-y:auto; }
+.modal .modal-actions { margin-top:16px; display:flex; gap:8px; justify-content:flex-end; }
+
+/* Loading */
+.spinner { display:inline-block; width:16px; height:16px; border:2px solid var(--border); border-top-color:var(--accent); border-radius:50%; animation:spin .6s linear infinite; }
+@keyframes spin { to { transform:rotate(360deg); } }
+
+/* Pagination */
+.pagination { padding:12px 16px; display:flex; gap:8px; justify-content:center; align-items:center; font-size:13px; }
+
+/* Detail sub-tabs */
+.detail-tabs { display:flex; gap:2px; margin-bottom:16px; }
+.detail-tab { padding:6px 14px; border-radius:6px; cursor:pointer; font-size:13px; color:var(--text-muted); transition:.15s; border:1px solid var(--border); }
+.detail-tab:hover { background:var(--border); color:var(--text); }
+.detail-tab.active { background:var(--accent); color:#fff; border-color:var(--accent); }
+
+/* Retailer result card */
+.retailer-result { display:flex; gap:10px; padding:10px; border:1px solid var(--border); border-radius:6px; margin-bottom:8px; }
+.retailer-result img { width:70px; height:70px; object-fit:cover; border-radius:4px; }
+.retailer-result .rr-info { flex:1; }
+.retailer-result .rr-title { font-size:13px; font-weight:500; }
+.retailer-result .rr-meta { font-size:11px; color:var(--text-muted); margin-top:2px; }
+.retailer-result .rr-actions { display:flex; gap:4px; margin-top:6px; flex-wrap:wrap; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>H-Moon Hydro Curation</h1>
+  <div class="stats" id="headerStats"></div>
+  <div class="actions">
+    <button class="btn btn-sm" onclick="refreshManifest()">Refresh from Server</button>
+    <button class="btn btn-sm" onclick="showQueue()">Queue (<span id="queueCount">0</span>)</button>
+  </div>
+</div>
+
+<div class="tabs" id="tabs"></div>
+
+<div class="main">
+  <div class="product-list">
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search products..." oninput="debounceSearch()">
+    </div>
+    <div id="productList"></div>
+    <div class="pagination" id="pagination"></div>
+  </div>
+  <div class="detail-panel" id="detailPanel">
+    <div class="detail-empty">Select a product to browse candidates</div>
+  </div>
+</div>
+
+<div class="queue-panel" id="queuePanel">
+  <div class="queue-info"><b id="queuePanelCount">0</b> changes queued</div>
+  <button class="btn btn-sm" onclick="applyQueue(true)">Dry Run</button>
+  <button class="btn btn-sm btn-success" onclick="applyQueue(false)">Apply LIVE</button>
+  <button class="btn btn-sm btn-danger" onclick="clearQueue()">Clear</button>
+</div>
+
+<div class="img-preview" id="imgPreview" onclick="closePreview()">
+  <img id="previewImg" src="">
+</div>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <h3 id="modalTitle">Output</h3>
+    <pre id="modalContent"></pre>
+    <div class="modal-actions">
+      <button class="btn" onclick="closeModal()">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── State ─────────────────────────────────────────────────────────────
+let state = {
+  gap: 'all',
+  page: 1,
+  query: '',
+  selectedId: null,
+  detailTab: 'candidates',
+  summary: {},
+  brands: [],
+  candidateStats: {},
+  currentProduct: null,
+  currentCandidates: null,
+};
+const API = '';
+
+// ── Init ──────────────────────────────────────────────────────────────
+async function init() {
+  try {
+    const [summary, brands, cstats] = await Promise.all([
+      fetchJSON('/api/summary'),
+      fetchJSON('/api/brands'),
+      fetchJSON('/api/candidates/stats').catch(() => ({ products_with_candidates:0, total_candidates:0, total_images:0, retailers:[] })),
+    ]);
+    state.summary = summary;
+    state.brands = brands;
+    state.candidateStats = cstats;
+  } catch(e) {
+    console.error('Init error:', e);
+    state.summary = { total:0, gaps:{} };
+    state.brands = [];
+    state.candidateStats = {};
+  }
+  renderHeader();
+  renderTabs();
+  loadProducts();
+  updateQueueBadge();
+}
+
+async function fetchJSON(url, opts) {
+  const r = await fetch(API + url, opts);
+  return r.json();
+}
+
+// ── Header ────────────────────────────────────────────────────────────
+function renderHeader() {
+  const s = state.summary;
+  const cs = state.candidateStats;
+  document.getElementById('headerStats').innerHTML = `
+    <span class="stat"><b>${s.total || 0}</b> products</span>
+    <span class="stat"><b>${cs.products_with_candidates || 0}</b> with candidates</span>
+    <span class="stat"><b>${(cs.total_images || 0).toLocaleString()}</b> candidate images</span>
+    <span class="stat"><b>${s.brands || 0}</b> brands</span>
+  `;
+}
+
+// ── Tabs ──────────────────────────────────────────────────────────────
+const TAB_ORDER = ['all','image','brand','price','short_description','description','gallery','weight','queue'];
+const TAB_LABELS = {all:'All Products',image:'No Image',brand:'No Brand',price:'No Price',short_description:'No Short Desc',description:'No Description',gallery:'No Gallery',weight:'No Weight',queue:'Queue'};
+
+function renderTabs() {
+  const gaps = state.summary.gaps || {};
+  document.getElementById('tabs').innerHTML = TAB_ORDER.map(t => {
+    const count = t === 'all' ? state.summary.total : (t === 'queue' ? state.summary.queued : (gaps[t] || 0));
+    const active = state.gap === t ? 'active' : '';
+    return `<div class="tab ${active}" onclick="switchTab('${t}')">${TAB_LABELS[t]}<span class="badge">${count || 0}</span></div>`;
+  }).join('');
+}
+
+function switchTab(tab) {
+  state.gap = tab;
+  state.page = 1;
+  state.selectedId = null;
+  renderTabs();
+  if (tab === 'queue') { renderQueueView(); return; }
+  loadProducts();
+  document.getElementById('detailPanel').innerHTML = '<div class="detail-empty">Select a product to browse candidates</div>';
+}
+
+// ── Product List ──────────────────────────────────────────────────────
+let searchTimer;
+function debounceSearch() {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => { state.query = document.getElementById('searchInput').value; state.page = 1; loadProducts(); }, 300);
+}
+
+async function loadProducts() {
+  const gap = state.gap === 'all' ? '' : state.gap;
+  const params = new URLSearchParams({ gap, page: state.page, limit: 50, q: state.query });
+  const data = await fetchJSON(`/api/products?${params}`);
+  renderProductList(data);
+}
+
+function renderProductList(data) {
+  const container = document.getElementById('productList');
+  if (!data.products || !data.products.length) {
+    container.innerHTML = '<div style="padding:40px;text-align:center;color:var(--text-muted)">No products found</div>';
+    document.getElementById('pagination').innerHTML = '';
+    return;
+  }
+
+  container.innerHTML = data.products.map(p => {
+    const sel = p.id === state.selectedId ? 'selected' : '';
+    const q = p.queued ? 'queued' : '';
+    const thumb = p.thumb || (p.match && p.match.image);
+    const missing = (p.missing || []).slice(0, 3);
+
+    return `<div class="product-card ${sel} ${q}" onclick="selectProduct(${p.id})">
+      ${thumb ? `<img class="thumb" src="${thumb}" alt="" onerror="this.outerHTML='<div class=\\'thumb empty\\'>?</div>'">` : `<div class="thumb empty">?</div>`}
+      <div class="info">
+        <div class="title" title="${esc(p.title)}">${esc(p.title)}</div>
+        <div class="meta">#${p.id} ${p.brand ? '· '+esc(p.brand) : ''} ${p.sku ? '· '+esc(p.sku) : ''}</div>
+        <div class="tags">
+          ${missing.map(m => `<span class="tag missing">${m}</span>`).join('')}
+          ${p.queued ? '<span class="tag queued-tag">queued</span>' : ''}
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+
+  const pag = document.getElementById('pagination');
+  if (data.pages > 1) {
+    let html = '';
+    if (data.page > 1) html += `<button class="btn btn-sm" onclick="goPage(${data.page-1})">Prev</button>`;
+    html += `<span>Page ${data.page} of ${data.pages} (${data.total})</span>`;
+    if (data.page < data.pages) html += `<button class="btn btn-sm" onclick="goPage(${data.page+1})">Next</button>`;
+    pag.innerHTML = html;
+  } else {
+    pag.innerHTML = `<span style="color:var(--text-muted)">${data.total} items</span>`;
+  }
+}
+
+function goPage(p) { state.page = p; loadProducts(); }
+
+// ── Product Detail ───────────────────────────────────────────────────
+async function selectProduct(pid) {
+  state.selectedId = pid;
+  state.detailTab = 'candidates';
+  loadProducts();
+
+  const panel = document.getElementById('detailPanel');
+  panel.innerHTML = '<div style="padding:40px;text-align:center"><div class="spinner"></div> Loading candidates...</div>';
+
+  const [detail, candidates] = await Promise.all([
+    fetchJSON(`/api/product/${pid}`),
+    fetchJSON(`/api/candidates/${pid}`).catch(() => ({ candidates:[], total_images:0 })),
+  ]);
+
+  state.currentProduct = detail;
+  state.currentCandidates = candidates;
+  renderDetailWithCandidates(detail, candidates);
+}
+
+function renderDetailWithCandidates(p, cdata) {
+  const panel = document.getElementById('detailPanel');
+  const candidates = cdata.candidates || [];
+
+  let html = `
+    <div class="detail-header">
+      <h2>${esc(p.title)}</h2>
+      <div class="id-brand">
+        #${p.id} · SKU: ${esc(p.sku||'—')} · Brand: ${esc(p.brand||'none')} · Price: ${p.price ? '$'+p.price : 'none'}
+        ${p.thumb ? ` · <img src="${p.thumb}" style="height:24px;vertical-align:middle;border-radius:3px">` : ' · No image'}
+        ${(p.queued_changes && p.queued_changes.length) ? ` · <span class="tag queued-tag">${p.queued_changes.length} queued</span>` : ''}
+      </div>
+    </div>
+
+    <div class="detail-tabs">
+      <div class="detail-tab ${state.detailTab==='candidates'?'active':''}" onclick="switchDetailTab('candidates')">
+        Candidates (${candidates.length})
+      </div>
+      <div class="detail-tab ${state.detailTab==='all-images'?'active':''}" onclick="switchDetailTab('all-images')">
+        All Images (${cdata.total_images||0})
+      </div>
+      <div class="detail-tab ${state.detailTab==='search'?'active':''}" onclick="switchDetailTab('search')">
+        Search Retailers
+      </div>
+      <div class="detail-tab ${state.detailTab==='curate'?'active':''}" onclick="switchDetailTab('curate')">
+        Manual Entry
+      </div>
+    </div>
+
+    <div id="detailContent"></div>
+  `;
+
+  panel.innerHTML = html;
+  renderDetailContent();
+}
+
+function switchDetailTab(tab) {
+  state.detailTab = tab;
+  document.querySelectorAll('.detail-tab').forEach((el, i) => {
+    const tabs = ['candidates','all-images','search','curate'];
+    el.classList.toggle('active', tabs[i] === tab);
+  });
+  renderDetailContent();
+}
+
+function renderDetailContent() {
+  const container = document.getElementById('detailContent');
+  if (!container) return;
+  const p = state.currentProduct;
+  const cdata = state.currentCandidates;
+  if (!p) return;
+
+  switch (state.detailTab) {
+    case 'candidates': renderCandidatesView(container, p, cdata); break;
+    case 'all-images': renderAllImagesView(container, p, cdata); break;
+    case 'search': renderSearchView(container, p); break;
+    case 'curate': renderManualView(container, p); break;
+  }
+}
+
+// ── Candidates View ─────────────────────────────────────────────────
+function renderCandidatesView(container, p, cdata) {
+  const candidates = cdata.candidates || [];
+
+  if (!candidates.length) {
+    container.innerHTML = '<div style="padding:40px;text-align:center;color:var(--text-muted)">No candidates found in retailer catalogs. Try the Search tab.</div>';
+    return;
+  }
+
+  const retailers = [...new Set(candidates.map(c => c.retailer))].sort();
+  let html = `
+    <div class="filter-bar">
+      <select id="filterRetailer" onchange="filterCandidates()">
+        <option value="">All retailers (${retailers.length})</option>
+        ${retailers.map(r => `<option value="${r}">${r} (${candidates.filter(c=>c.retailer===r).length})</option>`).join('')}
+      </select>
+      <select id="filterMinScore" onchange="filterCandidates()">
+        <option value="0">Show all</option>
+        <option value="25">Score >= 25%</option>
+        <option value="40">Score >= 40%</option>
+        <option value="50" selected>Score >= 50%</option>
+        <option value="70">Score >= 70%</option>
+      </select>
+      <span style="color:var(--text-muted);font-size:12px">${candidates.length} candidates, ${cdata.total_images||0} images</span>
+    </div>
+    <div id="candidatesList"></div>
+  `;
+
+  container.innerHTML = html;
+  filterCandidates();
+}
+
+function filterCandidates() {
+  const retailer = document.getElementById('filterRetailer') ? document.getElementById('filterRetailer').value : '';
+  const minScore = parseFloat((document.getElementById('filterMinScore') ? document.getElementById('filterMinScore').value : '0'));
+  const all = (state.currentCandidates && state.currentCandidates.candidates) || [];
+  const candidates = all.filter(c => (!retailer || c.retailer === retailer) && c.score >= minScore);
+
+  const list = document.getElementById('candidatesList');
+  if (!list) return;
+
+  if (!candidates.length) {
+    list.innerHTML = '<div style="padding:20px;color:var(--text-muted)">No candidates match filters. Try lowering the score threshold.</div>';
+    return;
+  }
+
+  const pid = state.currentProduct.id;
+
+  list.innerHTML = candidates.map((c, i) => {
+    const scoreClass = c.score >= 70 ? 'score-high' : c.score >= 50 ? 'score-med' : 'score-low';
+    const mainImg = (c.images && c.images.length) ? c.images[0] : '';
+    const allImgs = c.images || [];
+    const descPreview = c.description_text ? c.description_text.substring(0,150) + (c.description_text.length>150 ? '...' : '') : '';
+    const imgJson = JSON.stringify(allImgs).replace(/'/g, '&#39;').replace(/"/g, '&quot;');
+
+    return `
+      <div class="candidate-card" id="cc_${i}">
+        <div class="cc-header">
+          ${mainImg ? `<img class="cc-main-img" src="${mainImg}" onclick="previewImage(this.src)" onerror="this.style.display='none'">` : ''}
+          <div class="cc-info">
+            <div class="cc-title">${esc(c.title)}</div>
+            <div class="cc-meta">
+              <span class="score-badge ${scoreClass}">${c.score.toFixed(0)}% match</span>
+              &middot; ${esc(c.retailer)}
+              ${c.vendor ? ' &middot; '+esc(c.vendor) : ''}
+              ${c.price ? ' &middot; $'+c.price.toFixed(2) : ''}
+              ${c.weight ? ' &middot; '+c.weight+' '+(c.weight_unit||'lbs') : ''}
+              &middot; ${c.image_count || allImgs.length} image${(c.image_count||allImgs.length)!==1?'s':''}
+            </div>
+            ${descPreview ? `<div class="cc-desc">${esc(descPreview)}</div>` : ''}
+            <div class="cc-actions">
+              ${mainImg ? `<button class="btn btn-sm btn-primary" onclick="queueImageURL(${pid},'${safeStr(mainImg)}')">Use as Thumbnail</button>` : ''}
+              ${allImgs.length > 1 ? `<button class="btn btn-sm" onclick="queueGalleryArr(${pid},${i})">Gallery (${allImgs.length})</button>` : ''}
+              ${c.vendor ? `<button class="btn btn-sm" onclick="queueBrandDirect(${pid},'${safeStr(c.vendor)}')">Brand: ${esc(c.vendor)}</button>` : ''}
+              ${c.price ? `<button class="btn btn-sm" onclick="queuePriceDirect(${pid},${c.price})">$${c.price.toFixed(2)}</button>` : ''}
+              ${c.description_text ? `<button class="btn btn-sm" onclick="queueDescFromCandidate(${pid},${i})">Use Description</button>` : ''}
+              ${c.description_text ? `<button class="btn btn-sm" onclick="toggleDesc(${i})">Show Desc</button>` : ''}
+              ${c.product_url ? `<a class="btn btn-sm" href="${c.product_url}" target="_blank" rel="noopener">View Source</a>` : ''}
+            </div>
+          </div>
+        </div>
+        ${allImgs.length > 1 ? `
+          <div class="cc-images">
+            ${allImgs.slice(0,12).map(url => `<img src="${url}" onclick="previewImage(this.src)" onerror="this.style.display='none'">`).join('')}
+            ${allImgs.length > 12 ? `<div style="display:flex;align-items:center;color:var(--text-muted);font-size:12px;padding:0 8px">+${allImgs.length-12} more</div>` : ''}
+          </div>
+        ` : ''}
+        ${c.description_html ? `<div class="cc-desc-full" id="desc_${i}">${c.description_html}</div>` : ''}
+      </div>
+    `;
+  }).join('');
+}
+
+function toggleDesc(i) {
+  const el = document.getElementById('desc_' + i);
+  if (el) el.classList.toggle('visible');
+}
+
+// ── All Images View ─────────────────────────────────────────────────
+async function renderAllImagesView(container, p, cdata) {
+  container.innerHTML = '<div style="padding:20px"><div class="spinner"></div> Loading all images...</div>';
+
+  let data;
+  try {
+    data = await fetchJSON('/api/candidates/' + p.id + '/images');
+  } catch(e) {
+    container.innerHTML = '<div style="padding:20px;color:var(--text-muted)">Could not load images.</div>';
+    return;
+  }
+  const images = data.images || [];
+
+  if (!images.length) {
+    container.innerHTML = '<div style="padding:40px;text-align:center;color:var(--text-muted)">No images found.</div>';
+    return;
+  }
+
+  // Group by retailer
+  const byRetailer = {};
+  images.forEach(img => {
+    const r = img.retailer || 'unknown';
+    if (!byRetailer[r]) byRetailer[r] = [];
+    byRetailer[r].push(img);
+  });
+
+  let html = `
+    <p style="color:var(--text-muted);margin-bottom:16px;font-size:13px">
+      ${images.length} unique images across ${Object.keys(byRetailer).length} retailers.
+      Click to select, double-click to preview.
+    </p>
+    <div style="margin-bottom:16px;display:flex;gap:8px;flex-wrap:wrap">
+      <button class="btn btn-sm btn-primary" id="setThumbBtn" onclick="setSelectedAsThumb(${p.id})" disabled>Set Selected as Thumbnail</button>
+      <button class="btn btn-sm btn-success" id="addGalleryBtn" onclick="addSelectedToGallery(${p.id})" disabled>Add Selected to Gallery</button>
+      <span style="color:var(--text-muted);font-size:12px;padding:6px" id="selectedCount">0 selected</span>
+    </div>
+  `;
+
+  for (const [retailer, rimgs] of Object.entries(byRetailer)) {
+    html += `<div class="section">
+      <h3>${esc(retailer)} (${rimgs.length} images)</h3>
+      <div class="all-images-grid">
+        ${rimgs.map(img => `
+          <img src="${img.url}"
+               data-url="${esc(img.url)}"
+               title="${esc(img.match_title||'')} (${(img.match_score||0).toFixed(0)}%)"
+               onclick="toggleImageSelect(this)"
+               ondblclick="previewImage(this.src)"
+               onerror="this.style.display='none'">
+        `).join('')}
+      </div>
+    </div>`;
+  }
+
+  container.innerHTML = html;
+}
+
+function toggleImageSelect(el) {
+  el.classList.toggle('picked');
+  const count = document.querySelectorAll('.all-images-grid img.picked').length;
+  const countEl = document.getElementById('selectedCount');
+  if (countEl) countEl.textContent = count + ' selected';
+  const thumbBtn = document.getElementById('setThumbBtn');
+  const galBtn = document.getElementById('addGalleryBtn');
+  if (thumbBtn) thumbBtn.disabled = count === 0;
+  if (galBtn) galBtn.disabled = count === 0;
+}
+
+function setSelectedAsThumb(pid) {
+  const picked = document.querySelectorAll('.all-images-grid img.picked');
+  if (!picked.length) return;
+  const url = picked[0].dataset.url || picked[0].src;
+  queueImageURL(pid, url);
+}
+
+function addSelectedToGallery(pid) {
+  const picked = document.querySelectorAll('.all-images-grid img.picked');
+  if (!picked.length) return;
+  const urls = Array.from(picked).map(el => el.dataset.url || el.src);
+  queueGalleryFromArr(pid, urls);
+}
+
+// ── Search Retailers View ───────────────────────────────────────────
+function renderSearchView(container, p) {
+  const searchTerms = p.title.replace(/[-\u2013()\[\]\/]/g, ' ').replace(/\d+(\.\d+)?\s*(lt?|gal|oz|ml|qt|lb|kg|g|pack|cs)\b/gi, '').replace(/\s+/g,' ').trim();
+  container.innerHTML = `
+    <div class="retailer-search">
+      <input type="text" id="retailerSearchInput" value="${esc(searchTerms)}" placeholder="Search terms...">
+      <select id="retailerSource">
+        <option value="">All retailers</option>
+        <option value="hydrobuilder">HydroBuilder (18.9K)</option>
+        <option value="growershouse">GrowersHouse (4.2K)</option>
+        <option value="zenhydro">ZenHydro (5K)</option>
+        <option value="growace">GrowAce (2.1K)</option>
+        <option value="bluelab">Bluelab (79)</option>
+        <option value="humboldtnutrients">Humboldt (27)</option>
+        <option value="futureharvest">Future Harvest (64)</option>
+      </select>
+      <button class="btn btn-sm btn-primary" onclick="searchRetailer()">Search</button>
+    </div>
+    <div id="retailerResults"></div>
+  `;
+}
+
+async function searchRetailer() {
+  const q = document.getElementById('retailerSearchInput').value;
+  const retailer = document.getElementById('retailerSource').value;
+  const container = document.getElementById('retailerResults');
+  const pid = state.currentProduct.id;
+  container.innerHTML = '<div class="spinner"></div> Searching...';
+
+  const data = await fetchJSON('/api/search?q=' + encodeURIComponent(q) + '&retailer=' + retailer + '&limit=30');
+  if (!data.results || !data.results.length) {
+    container.innerHTML = '<div style="padding:12px;color:var(--text-muted)">No results. Try different search terms.</div>';
+    return;
+  }
+
+  container.innerHTML = data.results.map(r => {
+    const imgJson = JSON.stringify(r.images || []).replace(/'/g, '&#39;').replace(/"/g, '&quot;');
+    return `
+    <div class="retailer-result">
+      ${r.image ? `<img src="${r.image}" alt="" onclick="previewImage(this.src)" style="cursor:zoom-in" onerror="this.style.display='none'">` : ''}
+      <div class="rr-info">
+        <div class="rr-title">${esc(r.title)}</div>
+        <div class="rr-meta">${esc(r.retailer)} &middot; ${esc(r.vendor||'')} ${r.price ? '&middot; $'+r.price : ''} ${r.weight ? '&middot; '+r.weight+' '+(r.weight_unit||'') : ''} &middot; ${r.image_count||0} imgs</div>
+        ${r.body_html_preview ? `<div style="font-size:11px;color:var(--text-muted);margin-top:3px;max-height:40px;overflow:hidden">${r.body_html_preview}</div>` : ''}
+        <div class="rr-actions">
+          ${r.image ? `<button class="btn btn-sm btn-primary" onclick="queueImageURL(${pid},'${safeStr(r.image)}')">Thumbnail</button>` : ''}
+          ${(r.image_count||0) > 1 ? `<button class="btn btn-sm" onclick="queueGalleryFromSearch(${pid}, '${safeStr(imgJson)}')">Gallery (${r.image_count})</button>` : ''}
+          ${r.vendor ? `<button class="btn btn-sm" onclick="queueBrandDirect(${pid},'${safeStr(r.vendor)}')">Brand: ${esc(r.vendor)}</button>` : ''}
+          ${r.weight ? `<button class="btn btn-sm" onclick="queueWeightDirect(${pid},${r.weight})">Weight: ${r.weight}</button>` : ''}
+          ${r.price ? `<button class="btn btn-sm" onclick="queuePriceDirect(${pid},${r.price})">$${r.price}</button>` : ''}
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ── Manual Entry View ───────────────────────────────────────────────
+function renderManualView(container, p) {
+  let html = '';
+
+  html += `<div class="section"><h3>Set Image by URL</h3>
+    <div style="display:flex;gap:8px">
+      <input type="text" id="manualImageUrl" placeholder="Paste image URL...">
+      <button class="btn btn-sm btn-primary" onclick="queueImageManual(${p.id})">Set Thumbnail</button>
+    </div></div>`;
+
+  html += `<div class="section"><h3>Set Brand</h3>
+    <div style="display:flex;gap:8px">
+      <input type="text" id="manualBrand" value="${esc(p.brand||'')}" placeholder="Brand name" list="brandList">
+      <button class="btn btn-sm btn-primary" onclick="queueBrandManual(${p.id})">Set Brand</button>
+    </div>
+    <datalist id="brandList">${state.brands.map(b => '<option value="'+esc(b)+'">').join('')}</datalist>
+  </div>`;
+
+  html += `<div class="section"><h3>Set Price</h3>
+    <div style="display:flex;gap:8px;align-items:center">
+      <span>$</span><input type="number" id="manualPrice" value="${p.price||''}" step="0.01" placeholder="Regular price" style="width:150px">
+      <button class="btn btn-sm btn-primary" onclick="queuePriceManual(${p.id})">Set Price</button>
+    </div></div>`;
+
+  html += `<div class="section"><h3>Short Description</h3>
+    <textarea id="manualShortDesc" rows="3" placeholder="Enter short description">${esc(p.short_desc_text||'')}</textarea>
+    <div style="margin-top:8px"><button class="btn btn-sm btn-primary" onclick="queueShortDescManual(${p.id})">Set Short Desc</button></div>
+  </div>`;
+
+  html += `<div class="section"><h3>Full Description</h3>
+    <textarea id="manualDesc" rows="6" placeholder="Enter HTML or plain text description">${esc(p.desc_text||'')}</textarea>
+    <div style="margin-top:8px"><button class="btn btn-sm btn-primary" onclick="queueDescManual(${p.id})">Set Description</button></div>
+  </div>`;
+
+  html += `<div class="section"><h3>Weight</h3>
+    <div style="display:flex;gap:8px;align-items:center">
+      <input type="number" id="manualWeight" value="${p.weight||''}" step="0.1" placeholder="Weight" style="width:150px">
+      <span style="color:var(--text-muted)">lbs</span>
+      <button class="btn btn-sm btn-primary" onclick="queueWeightManual(${p.id})">Set Weight</button>
+    </div></div>`;
+
+  container.innerHTML = html;
+}
+
+// ── Image Preview ───────────────────────────────────────────────────
+function previewImage(url) {
+  document.getElementById('previewImg').src = url;
+  document.getElementById('imgPreview').classList.add('visible');
+}
+function closePreview() {
+  document.getElementById('imgPreview').classList.remove('visible');
+}
+
+// ── Queue Actions ───────────────────────────────────────────────────
+async function queueImageURL(pid, url) {
+  if (!url) return;
+  await postJSON('/api/queue', { id: pid, action: 'set_image', data: { url: url } });
+  updateQueueBadge();
+  notify('Thumbnail queued');
+}
+
+function queueImageManual(pid) {
+  const input = document.getElementById('manualImageUrl');
+  if (input && input.value.trim()) queueImageURL(pid, input.value.trim());
+}
+
+async function queueGalleryFromArr(pid, urls) {
+  if (!urls || !urls.length) return;
+  await postJSON('/api/queue', { id: pid, action: 'set_gallery', data: { urls: urls } });
+  updateQueueBadge();
+  notify('Gallery queued (' + urls.length + ' images)');
+}
+
+function queueGalleryArr(pid, candidateIdx) {
+  const c = (state.currentCandidates && state.currentCandidates.candidates) ? state.currentCandidates.candidates[candidateIdx] : null;
+  if (c && c.images) queueGalleryFromArr(pid, c.images);
+}
+
+function queueGalleryFromSearch(pid, jsonStr) {
+  try {
+    const urls = JSON.parse(jsonStr.replace(/&quot;/g, '"').replace(/&#39;/g, "'"));
+    queueGalleryFromArr(pid, urls);
+  } catch(e) { console.error('Gallery parse error', e); }
+}
+
+async function queueBrandDirect(pid, brand) {
+  if (!brand) return;
+  await postJSON('/api/queue', { id: pid, action: 'set_brand', data: { brand: brand } });
+  updateQueueBadge();
+  notify('Brand queued: ' + brand);
+}
+
+function queueBrandManual(pid) {
+  const input = document.getElementById('manualBrand');
+  if (input && input.value.trim()) queueBrandDirect(pid, input.value.trim());
+}
+
+async function queuePriceDirect(pid, price) {
+  await postJSON('/api/queue', { id: pid, action: 'set_price', data: { price: price } });
+  updateQueueBadge();
+  notify('Price queued: $' + price);
+}
+
+function queuePriceManual(pid) {
+  const price = parseFloat(document.getElementById('manualPrice') ? document.getElementById('manualPrice').value : '');
+  if (price && price > 0) queuePriceDirect(pid, price);
+}
+
+async function queueWeightDirect(pid, weight) {
+  await postJSON('/api/queue', { id: pid, action: 'set_weight', data: { weight: weight } });
+  updateQueueBadge();
+  notify('Weight queued: ' + weight + ' lbs');
+}
+
+function queueWeightManual(pid) {
+  const w = parseFloat(document.getElementById('manualWeight') ? document.getElementById('manualWeight').value : '');
+  if (w && w > 0) queueWeightDirect(pid, w);
+}
+
+function queueShortDescManual(pid) {
+  const text = document.getElementById('manualShortDesc') ? document.getElementById('manualShortDesc').value.trim() : '';
+  if (!text) return;
+  postJSON('/api/queue', { id: pid, action: 'set_short_desc', data: { text: text } }).then(function() { updateQueueBadge(); notify('Short desc queued'); });
+}
+
+function queueDescManual(pid) {
+  const html = document.getElementById('manualDesc') ? document.getElementById('manualDesc').value.trim() : '';
+  if (!html) return;
+  postJSON('/api/queue', { id: pid, action: 'set_description', data: { html: html } }).then(function() { updateQueueBadge(); notify('Description queued'); });
+}
+
+function queueDescFromCandidate(pid, candidateIdx) {
+  const c = (state.currentCandidates && state.currentCandidates.candidates) ? state.currentCandidates.candidates[candidateIdx] : null;
+  if (!c) return;
+  const html = c.description_html || c.description_text || '';
+  if (!html) return;
+  postJSON('/api/queue', { id: pid, action: 'set_description', data: { html: html } }).then(function() { updateQueueBadge(); notify('Description queued from candidate'); });
+}
+
+// ── Toast notification ──────────────────────────────────────────────
+function notify(msg) {
+  const toast = document.createElement('div');
+  toast.style.cssText = 'position:fixed;top:20px;right:20px;background:var(--green);color:#fff;padding:8px 16px;border-radius:8px;font-size:13px;z-index:999;transition:opacity .3s';
+  toast.textContent = msg;
+  document.body.appendChild(toast);
+  setTimeout(function() { toast.style.opacity = '0'; setTimeout(function() { toast.remove(); }, 300); }, 2500);
+}
+
+// ── Queue UI ──────────────────────────────────────────────────────────
+async function updateQueueBadge() {
+  try {
+    const data = await fetchJSON('/api/queue');
+    const count = data.count || 0;
+    document.getElementById('queueCount').textContent = count;
+    document.getElementById('queuePanelCount').textContent = count;
+    document.getElementById('queuePanel').classList.toggle('visible', count > 0);
+  } catch(e) {}
+}
+
+function showQueue() { switchTab('queue'); }
+
+async function renderQueueView() {
+  const data = await fetchJSON('/api/queue');
+  const panel = document.getElementById('detailPanel');
+  const list = document.getElementById('productList');
+  list.innerHTML = '';
+
+  if (!data.queue || !data.queue.length) {
+    panel.innerHTML = '<div class="detail-empty">Queue is empty</div>';
+    return;
+  }
+
+  const byProduct = {};
+  data.queue.forEach(function(c) {
+    if (!byProduct[c.id]) byProduct[c.id] = { title: c.title||'', changes: [] };
+    byProduct[c.id].changes.push(c);
+  });
+
+  let html = '<div class="detail-header"><h2>Curation Queue</h2><p style="color:var(--text-muted)">' + data.queue.length + ' changes for ' + Object.keys(byProduct).length + ' products</p></div>';
+
+  for (const [pid, info] of Object.entries(byProduct)) {
+    html += '<div class="section"><h3>#' + pid + ' — ' + esc(info.title) + '</h3>';
+    info.changes.forEach(function(c) {
+      html += '<div class="row" style="justify-content:space-between"><span>' + esc(c.action) +
+        (c.data && c.data.brand ? ': '+esc(c.data.brand) : '') +
+        (c.data && c.data.weight ? ': '+c.data.weight+' lbs' : '') +
+        (c.data && c.data.price ? ': $'+c.data.price : '') +
+        '</span><button class="btn btn-sm btn-danger" onclick="removeFromQueue('+pid+',\''+c.action+'\')">Remove</button></div>';
+    });
+    html += '</div>';
+  }
+
+  html += '<div style="display:flex;gap:8px;margin-top:16px">' +
+    '<button class="btn btn-primary" onclick="applyQueue(true)">Dry Run All</button>' +
+    '<button class="btn btn-success" onclick="applyQueue(false)">Apply LIVE</button>' +
+    '<button class="btn btn-danger" onclick="clearQueue()">Clear All</button></div>';
+
+  panel.innerHTML = html;
+}
+
+async function removeFromQueue(pid, action) {
+  await fetch('/api/queue/' + pid + '?action=' + action, { method: 'DELETE' });
+  updateQueueBadge();
+  if (state.gap === 'queue') renderQueueView();
+}
+
+async function clearQueue() {
+  if (!confirm('Clear entire queue?')) return;
+  await postJSON('/api/queue/clear', {});
+  updateQueueBadge();
+  if (state.gap === 'queue') renderQueueView();
+}
+
+async function applyQueue(dryRun) {
+  const label = dryRun ? 'Dry Run' : 'LIVE APPLY';
+  if (!dryRun && !confirm('Apply ALL queued changes to the live site?')) return;
+  showModal(label, '<div class="spinner"></div> Executing on server...');
+  try {
+    const data = await postJSON('/api/apply', { dry_run: dryRun });
+    if (data.error) {
+      showModal('Error', esc(data.error));
+    } else {
+      showModal(label + ' Results', '<pre>' + esc(data.output || 'Done') + '</pre>');
+      if (!dryRun) {
+        await postJSON('/api/queue/clear', {});
+        updateQueueBadge();
+      }
+    }
+  } catch(e) {
+    showModal('Error', 'Request failed: ' + e.message);
+  }
+}
+
+// ── Refresh ───────────────────────────────────────────────────────────
+async function refreshManifest() {
+  showModal('Refreshing', '<div class="spinner"></div> Exporting manifest from server...');
+  try {
+    const data = await postJSON('/api/refresh', {});
+    closeModal();
+    if (data.ok) { alert('Refreshed: ' + data.total + ' products'); location.reload(); }
+    else alert('Error: ' + (data.error || 'unknown'));
+  } catch(e) {
+    closeModal();
+    alert('Refresh failed: ' + e.message);
+  }
+}
+
+// ── Modal ─────────────────────────────────────────────────────────────
+function showModal(title, content) {
+  document.getElementById('modalTitle').textContent = title;
+  document.getElementById('modalContent').innerHTML = content;
+  document.getElementById('modalOverlay').classList.add('visible');
+}
+function closeModal() { document.getElementById('modalOverlay').classList.remove('visible'); }
+
+// ── Helpers ───────────────────────────────────────────────────────────
+function esc(s) {
+  if (!s) return '';
+  var d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+function safeStr(s) {
+  return (s||'').replace(/\\/g,'\\\\').replace(/'/g, "\\'");
+}
+async function postJSON(url, body) {
+  const r = await fetch(API + url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+  return r.json();
+}
+
+// Keyboard shortcuts
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') { closePreview(); closeModal(); }
+});
+
+// ── Boot ──────────────────────────────────────────────────────────────
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>H-Moon Hydro — Product Curation</title>
+<style>
+:root {
+  --bg: #0d1117; --surface: #161b22; --border: #30363d; --text: #c9d1d9;
+  --text-muted: #8b949e; --accent: #58a6ff; --green: #3fb950; --red: #f85149;
+  --orange: #d29922; --purple: #bc8cff;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; font-size:14px; }
+a { color:var(--accent); text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+/* Header */
+.header { background:var(--surface); border-bottom:1px solid var(--border); padding:12px 24px; display:flex; align-items:center; gap:16px; position:sticky; top:0; z-index:100; }
+.header h1 { font-size:18px; font-weight:600; color:#fff; flex-shrink:0; }
+.header .stats { display:flex; gap:12px; font-size:13px; color:var(--text-muted); }
+.header .stat { background:var(--bg); padding:4px 10px; border-radius:12px; }
+.header .stat b { color:var(--text); }
+.header .actions { margin-left:auto; display:flex; gap:8px; }
+
+/* Tabs */
+.tabs { display:flex; gap:2px; padding:8px 24px; background:var(--surface); border-bottom:1px solid var(--border); flex-wrap:wrap; }
+.tab { padding:6px 16px; border-radius:6px; cursor:pointer; font-size:13px; color:var(--text-muted); transition:.15s; }
+.tab:hover { background:var(--border); color:var(--text); }
+.tab.active { background:var(--accent); color:#fff; font-weight:600; }
+.tab .badge { background:rgba(255,255,255,.15); padding:1px 6px; border-radius:10px; font-size:11px; margin-left:4px; }
+.tab.active .badge { background:rgba(255,255,255,.3); }
+
+/* Layout */
+.main { display:flex; height:calc(100vh - 100px); }
+.product-list { width:420px; min-width:350px; border-right:1px solid var(--border); overflow-y:auto; }
+.detail-panel { flex:1; overflow-y:auto; padding:20px 24px; }
+
+/* Search bar */
+.search-bar { padding:12px 16px; border-bottom:1px solid var(--border); position:sticky; top:0; background:var(--bg); z-index:10; }
+.search-bar input { width:100%; padding:8px 12px; background:var(--surface); border:1px solid var(--border); border-radius:6px; color:var(--text); font-size:13px; outline:none; }
+.search-bar input:focus { border-color:var(--accent); }
+
+/* Product cards */
+.product-card { padding:12px 16px; border-bottom:1px solid var(--border); cursor:pointer; transition:.1s; display:flex; gap:10px; align-items:flex-start; }
+.product-card:hover { background:var(--surface); }
+.product-card.selected { background:#1c2333; border-left:3px solid var(--accent); }
+.product-card.queued { border-left:3px solid var(--green); }
+.product-card .thumb { width:48px; height:48px; border-radius:4px; object-fit:cover; background:var(--surface); flex-shrink:0; }
+.product-card .thumb.empty { display:flex; align-items:center; justify-content:center; font-size:20px; color:var(--border); }
+.product-card .info { flex:1; min-width:0; }
+.product-card .title { font-size:13px; font-weight:500; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.product-card .meta { font-size:11px; color:var(--text-muted); margin-top:2px; }
+.product-card .tags { display:flex; gap:4px; margin-top:4px; flex-wrap:wrap; }
+.tag { font-size:10px; padding:1px 6px; border-radius:3px; }
+.tag.missing { background:#3d1f1f; color:var(--red); }
+.tag.matched { background:#1b3a1b; color:var(--green); }
+.tag.queued-tag { background:#2d2000; color:var(--orange); }
+
+/* Detail panel */
+.detail-empty { display:flex; align-items:center; justify-content:center; height:100%; color:var(--text-muted); font-size:16px; }
+.detail-header { margin-bottom:20px; }
+.detail-header h2 { font-size:18px; margin-bottom:4px; }
+.detail-header .id-brand { font-size:13px; color:var(--text-muted); }
+
+.section { background:var(--surface); border:1px solid var(--border); border-radius:8px; padding:16px; margin-bottom:16px; }
+.section h3 { font-size:14px; font-weight:600; margin-bottom:10px; color:var(--accent); }
+.section .row { display:flex; gap:8px; margin-bottom:8px; align-items:center; }
+.section label { font-size:12px; color:var(--text-muted); min-width:80px; }
+
+/* Image grid */
+.image-grid { display:flex; gap:8px; flex-wrap:wrap; }
+.image-grid img { width:100px; height:100px; object-fit:cover; border-radius:6px; border:2px solid transparent; cursor:pointer; transition:.15s; }
+.image-grid img:hover { border-color:var(--accent); transform:scale(1.05); }
+.image-grid img.selected-img { border-color:var(--green); box-shadow:0 0 8px rgba(63,185,80,.4); }
+
+/* Retailer search */
+.retailer-search { display:flex; gap:8px; margin-bottom:12px; }
+.retailer-search input { flex:1; padding:8px 12px; background:var(--bg); border:1px solid var(--border); border-radius:6px; color:var(--text); font-size:13px; }
+.retailer-search select { padding:8px; background:var(--bg); border:1px solid var(--border); border-radius:6px; color:var(--text); font-size:13px; }
+
+/* Buttons */
+.btn { padding:6px 14px; border-radius:6px; border:1px solid var(--border); background:var(--surface); color:var(--text); font-size:13px; cursor:pointer; transition:.15s; }
+.btn:hover { background:var(--border); }
+.btn-primary { background:var(--accent); color:#fff; border-color:var(--accent); }
+.btn-primary:hover { background:#4090e0; }
+.btn-success { background:var(--green); color:#fff; border-color:var(--green); }
+.btn-success:hover { background:#2ea043; }
+.btn-danger { background:var(--red); color:#fff; border-color:var(--red); }
+.btn-danger:hover { background:#d73a42; }
+.btn-sm { padding:3px 10px; font-size:12px; }
+.btn:disabled { opacity:.5; cursor:not-allowed; }
+
+/* Forms */
+input[type="text"], input[type="number"], textarea, select {
+  background:var(--bg); border:1px solid var(--border); color:var(--text); border-radius:6px; padding:8px 10px; font-size:13px; width:100%;
+}
+textarea { font-family:inherit; resize:vertical; min-height:80px; }
+
+/* Queue panel */
+.queue-panel { position:fixed; bottom:0; left:0; right:0; background:var(--surface); border-top:2px solid var(--accent); padding:10px 24px; display:none; z-index:90; }
+.queue-panel.visible { display:flex; align-items:center; gap:16px; }
+.queue-panel .queue-info { flex:1; font-size:13px; }
+.queue-panel .queue-info b { color:var(--accent); }
+
+/* Output modal */
+.modal-overlay { position:fixed; inset:0; background:rgba(0,0,0,.6); display:none; z-index:200; align-items:center; justify-content:center; }
+.modal-overlay.visible { display:flex; }
+.modal { background:var(--surface); border:1px solid var(--border); border-radius:12px; width:700px; max-height:80vh; overflow-y:auto; padding:20px; }
+.modal h3 { margin-bottom:12px; }
+.modal pre { background:var(--bg); padding:12px; border-radius:6px; font-size:12px; white-space:pre-wrap; max-height:400px; overflow-y:auto; }
+.modal .modal-actions { margin-top:16px; display:flex; gap:8px; justify-content:flex-end; }
+
+/* Loading */
+.spinner { display:inline-block; width:16px; height:16px; border:2px solid var(--border); border-top-color:var(--accent); border-radius:50%; animation:spin .6s linear infinite; }
+@keyframes spin { to { transform:rotate(360deg); } }
+
+/* Pagination */
+.pagination { padding:12px 16px; display:flex; gap:8px; justify-content:center; align-items:center; font-size:13px; }
+
+/* Retailer result card */
+.retailer-result { display:flex; gap:10px; padding:10px; border:1px solid var(--border); border-radius:6px; margin-bottom:8px; }
+.retailer-result img { width:70px; height:70px; object-fit:cover; border-radius:4px; }
+.retailer-result .rr-info { flex:1; }
+.retailer-result .rr-title { font-size:13px; font-weight:500; }
+.retailer-result .rr-meta { font-size:11px; color:var(--text-muted); margin-top:2px; }
+.retailer-result .rr-actions { display:flex; gap:4px; margin-top:6px; flex-wrap:wrap; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>H-Moon Hydro Curation</h1>
+  <div class="stats" id="headerStats"></div>
+  <div class="actions">
+    <button class="btn btn-sm" onclick="refreshManifest()">Refresh from Server</button>
+    <button class="btn btn-sm" onclick="showQueue()">Queue (<span id="queueCount">0</span>)</button>
+  </div>
+</div>
+
+<div class="tabs" id="tabs"></div>
+
+<div class="main">
+  <div class="product-list">
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search products..." oninput="debounceSearch()">
+    </div>
+    <div id="productList"></div>
+    <div class="pagination" id="pagination"></div>
+  </div>
+  <div class="detail-panel" id="detailPanel">
+    <div class="detail-empty">Select a product to curate</div>
+  </div>
+</div>
+
+<div class="queue-panel" id="queuePanel">
+  <div class="queue-info"><b id="queuePanelCount">0</b> changes queued</div>
+  <button class="btn btn-sm" onclick="applyQueue(true)">Dry Run</button>
+  <button class="btn btn-sm btn-success" onclick="applyQueue(false)">Apply LIVE</button>
+  <button class="btn btn-sm btn-danger" onclick="clearQueue()">Clear</button>
+</div>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <h3 id="modalTitle">Output</h3>
+    <pre id="modalContent"></pre>
+    <div class="modal-actions">
+      <button class="btn" onclick="closeModal()">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── State ─────────────────────────────────────────────────────────────
+let state = {
+  gap: 'image',
+  page: 1,
+  query: '',
+  selectedId: null,
+  summary: {},
+  brands: [],
+};
+const API = '';
+
+// ── Init ──────────────────────────────────────────────────────────────
+async function init() {
+  const [summary, brands] = await Promise.all([
+    fetchJSON('/api/summary'),
+    fetchJSON('/api/brands'),
+  ]);
+  state.summary = summary;
+  state.brands = brands;
+  renderHeader();
+  renderTabs();
+  loadProducts();
+  updateQueueBadge();
+}
+
+async function fetchJSON(url, opts) {
+  const r = await fetch(API + url, opts);
+  return r.json();
+}
+
+// ── Header ────────────────────────────────────────────────────────────
+function renderHeader() {
+  const s = state.summary;
+  document.getElementById('headerStats').innerHTML = `
+    <span class="stat"><b>${s.total || 0}</b> products</span>
+    <span class="stat"><b>${s.matched || 0}</b> matched</span>
+    <span class="stat"><b>${s.brands || 0}</b> brands</span>
+  `;
+}
+
+// ── Tabs ──────────────────────────────────────────────────────────────
+const TAB_ORDER = ['image','gallery','brand','weight','short_description','description','price','all','queue'];
+const TAB_LABELS = {image:'Images',gallery:'Gallery',brand:'Brands',weight:'Weight',short_description:'Short Desc',description:'Description',price:'Price',all:'All Products',queue:'Queue'};
+
+function renderTabs() {
+  const gaps = state.summary.gaps || {};
+  document.getElementById('tabs').innerHTML = TAB_ORDER.map(t => {
+    const count = t === 'all' ? state.summary.total : (t === 'queue' ? state.summary.queued : (gaps[t] || 0));
+    const active = state.gap === t ? 'active' : '';
+    return `<div class="tab ${active}" onclick="switchTab('${t}')">${TAB_LABELS[t]}<span class="badge">${count || 0}</span></div>`;
+  }).join('');
+}
+
+function switchTab(tab) {
+  state.gap = tab;
+  state.page = 1;
+  state.selectedId = null;
+  renderTabs();
+  if (tab === 'queue') { renderQueueView(); return; }
+  loadProducts();
+  document.getElementById('detailPanel').innerHTML = '<div class="detail-empty">Select a product to curate</div>';
+}
+
+// ── Product List ──────────────────────────────────────────────────────
+let searchTimer;
+function debounceSearch() {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => { state.query = document.getElementById('searchInput').value; state.page = 1; loadProducts(); }, 300);
+}
+
+async function loadProducts() {
+  const gap = state.gap === 'all' ? '' : state.gap;
+  const params = new URLSearchParams({ gap, page: state.page, limit: 50, q: state.query });
+  const data = await fetchJSON(`/api/products?${params}`);
+  renderProductList(data);
+}
+
+function renderProductList(data) {
+  const container = document.getElementById('productList');
+  if (!data.products.length) {
+    container.innerHTML = '<div style="padding:40px;text-align:center;color:var(--text-muted)">No products found</div>';
+    document.getElementById('pagination').innerHTML = '';
+    return;
+  }
+
+  container.innerHTML = data.products.map(p => {
+    const sel = p.id === state.selectedId ? 'selected' : '';
+    const q = p.queued ? 'queued' : '';
+    const matchImg = p.match?.image;
+    const missing = (p.missing || []).slice(0, 3);
+
+    return `<div class="product-card ${sel} ${q}" onclick="selectProduct(${p.id})">
+      ${matchImg ? `<img class="thumb" src="${matchImg}" alt="">` : `<div class="thumb empty">?</div>`}
+      <div class="info">
+        <div class="title" title="${esc(p.title)}">${esc(p.title)}</div>
+        <div class="meta">#${p.id} ${p.brand ? '· '+esc(p.brand) : ''} ${p.match ? `· match ${(p.match.score*100).toFixed(0)}%` : ''}</div>
+        <div class="tags">
+          ${missing.map(m => `<span class="tag missing">${m}</span>`).join('')}
+          ${p.match ? '<span class="tag matched">matched</span>' : ''}
+          ${p.queued ? '<span class="tag queued-tag">queued</span>' : ''}
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+
+  // Pagination
+  const pag = document.getElementById('pagination');
+  if (data.pages > 1) {
+    let html = '';
+    if (data.page > 1) html += `<button class="btn btn-sm" onclick="goPage(${data.page-1})">Prev</button>`;
+    html += `<span>Page ${data.page} of ${data.pages} (${data.total} items)</span>`;
+    if (data.page < data.pages) html += `<button class="btn btn-sm" onclick="goPage(${data.page+1})">Next</button>`;
+    pag.innerHTML = html;
+  } else {
+    pag.innerHTML = `<span style="color:var(--text-muted)">${data.total} items</span>`;
+  }
+}
+
+function goPage(p) { state.page = p; loadProducts(); }
+
+// ── Product Detail ────────────────────────────────────────────────────
+async function selectProduct(pid) {
+  state.selectedId = pid;
+  loadProducts(); // refresh highlights
+  const detail = await fetchJSON(`/api/product/${pid}`);
+  renderDetail(detail);
+}
+
+function renderDetail(p) {
+  const panel = document.getElementById('detailPanel');
+  const e = p.enrichment;
+  const missing = new Set(p.missing || []);
+
+  let html = `
+    <div class="detail-header">
+      <h2>${esc(p.title)}</h2>
+      <div class="id-brand">
+        #${p.id} · SKU: ${esc(p.sku||'—')} · Brand: ${esc(p.brand||'none')} · ${esc(p.category||'')}
+        ${p.queued_changes?.length ? `<span class="tag queued-tag">${p.queued_changes.length} queued</span>` : ''}
+      </div>
+    </div>
+  `;
+
+  // ── Image section ──
+  if (missing.has('image')) {
+    html += `<div class="section"><h3>Missing Thumbnail</h3>`;
+    if (e?.images?.length) {
+      html += `<p style="margin-bottom:8px;font-size:12px;color:var(--text-muted)">From ${esc(e.retailer||'')} (${(e.match_score*100).toFixed(0)}% match to "${esc(e.matched_title)}")</p>`;
+      html += `<div class="image-grid">`;
+      e.images.forEach((img, i) => {
+        html += `<img src="${img.url}" onclick="queueImage(${p.id}, '${esc(p.title)}', '${escAttr(img.url)}')" title="Click to use as thumbnail">`;
+      });
+      html += `</div>`;
+    }
+    html += `<div style="margin-top:10px"><p style="font-size:12px;color:var(--text-muted)">Or search retailers:</p></div>`;
+    html += retailerSearchHTML(p.id, p.title);
+    html += `</div>`;
+  }
+
+  // ── Gallery section ──
+  if (missing.has('gallery') && e?.images?.length > 1) {
+    html += `<div class="section"><h3>Gallery Images Available (${e.images.length})</h3>`;
+    html += `<div class="image-grid">`;
+    e.images.forEach(img => { html += `<img src="${img.url}" title="${esc(img.alt||'')}">`; });
+    html += `</div>`;
+    html += `<div style="margin-top:10px"><button class="btn btn-sm btn-primary" onclick="queueGallery(${p.id}, '${esc(p.title)}')">Queue all as gallery</button></div>`;
+    html += `</div>`;
+  }
+
+  // ── Brand section ──
+  if (missing.has('brand')) {
+    const sugBrand = e?.vendor || '';
+    html += `<div class="section"><h3>Missing Brand</h3>`;
+    if (sugBrand) html += `<p style="margin-bottom:8px;font-size:12px;color:var(--text-muted)">Retailer vendor: <b>${esc(sugBrand)}</b></p>`;
+    html += `<div style="display:flex;gap:8px">
+      <input type="text" id="brandInput_${p.id}" value="${esc(sugBrand)}" placeholder="Enter brand name" list="brandList">
+      <button class="btn btn-sm btn-primary" onclick="queueBrand(${p.id}, '${esc(p.title)}')">Set Brand</button>
+    </div>`;
+    html += `<datalist id="brandList">${state.brands.map(b => `<option value="${esc(b)}">`).join('')}</datalist>`;
+    html += `</div>`;
+  }
+
+  // ── Weight section ──
+  if (missing.has('weight')) {
+    const sugWeight = e?.weight || '';
+    html += `<div class="section"><h3>Missing Weight</h3>`;
+    if (sugWeight) html += `<p style="margin-bottom:8px;font-size:12px;">Retailer weight: <b>${sugWeight} ${e?.weight_unit||'lb'}</b></p>`;
+    html += `<div style="display:flex;gap:8px;align-items:center">
+      <input type="number" id="weightInput_${p.id}" value="${sugWeight}" step="0.1" placeholder="Weight in lbs" style="width:150px">
+      <span style="color:var(--text-muted);font-size:12px">lbs</span>
+      <button class="btn btn-sm btn-primary" onclick="queueWeight(${p.id}, '${esc(p.title)}')">Set Weight</button>
+    </div></div>`;
+  }
+
+  // ── Short description section ──
+  if (missing.has('short_description')) {
+    let sugDesc = '';
+    if (e?.description_text) {
+      sugDesc = e.description_text.substring(0, 250);
+      const dot = sugDesc.lastIndexOf('.');
+      if (dot > 50) sugDesc = sugDesc.substring(0, dot + 1);
+    }
+    html += `<div class="section"><h3>Missing Short Description</h3>`;
+    html += `<textarea id="shortDescInput_${p.id}" rows="3" placeholder="Enter short description">${esc(sugDesc)}</textarea>`;
+    html += `<div style="margin-top:8px"><button class="btn btn-sm btn-primary" onclick="queueShortDesc(${p.id}, '${esc(p.title)}')">Set Short Desc</button></div>`;
+    html += `</div>`;
+  }
+
+  // ── Description section ──
+  if (missing.has('description') && e?.description_html) {
+    html += `<div class="section"><h3>Description from Retailer</h3>`;
+    html += `<div style="max-height:200px;overflow-y:auto;font-size:13px;padding:8px;background:var(--bg);border-radius:6px">${e.description_html}</div>`;
+    html += `<div style="margin-top:8px"><button class="btn btn-sm btn-primary" onclick="queueDescription(${p.id}, '${esc(p.title)}')">Use this description</button></div>`;
+    html += `</div>`;
+  }
+
+  // ── Retailer search (always available) ──
+  if (!missing.has('image')) {  // If image section didn't already add search
+    html += `<div class="section"><h3>Search Retailer Catalogs</h3>`;
+    html += retailerSearchHTML(p.id, p.title);
+    html += `</div>`;
+  }
+
+  // ── Match info ──
+  if (e) {
+    html += `<div class="section"><h3>Match Details</h3>
+      <div class="row"><label>Retailer</label><span>${esc(e.retailer||'')}</span></div>
+      <div class="row"><label>Matched as</label><span>${esc(e.matched_title||'')}</span></div>
+      <div class="row"><label>Score</label><span>${((e.match_score||0)*100).toFixed(1)}%</span></div>
+      <div class="row"><label>Source</label><a href="${e.source_url||'#'}" target="_blank">${esc(e.source_url||'')}</a></div>
+      ${e.vendor ? `<div class="row"><label>Vendor</label><span>${esc(e.vendor)}</span></div>` : ''}
+      ${e.product_type ? `<div class="row"><label>Type</label><span>${esc(e.product_type)}</span></div>` : ''}
+      ${e.features ? `<div class="row"><label>Features</label><ul style="font-size:12px;padding-left:16px">${e.features.slice(0,8).map(f => `<li>${esc(f)}</li>`).join('')}</ul></div>` : ''}
+    </div>`;
+  }
+
+  panel.innerHTML = html;
+}
+
+function retailerSearchHTML(pid, title) {
+  const searchTerms = title.replace(/[-–()\[\]]/g, ' ').replace(/\d+(\.?\d+)?\s*(lt?|gal|oz|ml|qt|lb|kg|g|pack)\b/gi, '').trim();
+  return `<div class="retailer-search">
+    <input type="text" id="retailerSearch_${pid}" value="${esc(searchTerms)}" placeholder="Search terms...">
+    <select id="retailerSource_${pid}">
+      <option value="">All retailers</option>
+      <option value="hydrobuilder">HydroBuilder</option>
+      <option value="growershouse">GrowersHouse</option>
+      <option value="humboldtnutrients">Humboldt</option>
+      <option value="bluelab">Bluelab</option>
+    </select>
+    <button class="btn btn-sm btn-primary" onclick="searchRetailer(${pid})">Search</button>
+  </div>
+  <div id="retailerResults_${pid}"></div>`;
+}
+
+// ── Retailer Search ───────────────────────────────────────────────────
+async function searchRetailer(pid) {
+  const q = document.getElementById(`retailerSearch_${pid}`).value;
+  const retailer = document.getElementById(`retailerSource_${pid}`).value;
+  const container = document.getElementById(`retailerResults_${pid}`);
+  container.innerHTML = '<div class="spinner"></div>';
+
+  const data = await fetchJSON(`/api/search?q=${encodeURIComponent(q)}&retailer=${retailer}&limit=20`);
+  if (!data.results.length) {
+    container.innerHTML = '<div style="padding:12px;color:var(--text-muted)">No results found. Try different search terms.</div>';
+    return;
+  }
+
+  container.innerHTML = data.results.map(r => `
+    <div class="retailer-result">
+      ${r.image ? `<img src="${r.image}" alt="">` : ''}
+      <div class="rr-info">
+        <div class="rr-title">${esc(r.title)}</div>
+        <div class="rr-meta">${esc(r.retailer)} · ${esc(r.vendor||'')} ${r.price ? '· $'+r.price : ''} ${r.weight ? '· '+r.weight+' '+r.weight_unit : ''}</div>
+        <div class="rr-actions">
+          ${r.image ? `<button class="btn btn-sm" onclick="queueImage(${pid}, '', '${escAttr(r.image)}')">Use as thumbnail</button>` : ''}
+          ${r.image_count > 1 ? `<button class="btn btn-sm" onclick="queueGalleryFromSearch(${pid}, ${JSON.stringify(r.images).replace(/"/g, '&quot;')})">Gallery (${r.image_count})</button>` : ''}
+          ${r.vendor ? `<button class="btn btn-sm" onclick="fillBrand(${pid}, '${escAttr(r.vendor)}')">Brand: ${esc(r.vendor)}</button>` : ''}
+          ${r.weight ? `<button class="btn btn-sm" onclick="fillWeight(${pid}, ${r.weight})">Weight: ${r.weight}</button>` : ''}
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ── Queue actions ─────────────────────────────────────────────────────
+async function queueImage(pid, title, url) {
+  await postJSON('/api/queue', { id: pid, title, action: 'set_image', data: { url } });
+  updateQueueBadge();
+  if (state.selectedId === pid) selectProduct(pid);
+  else loadProducts();
+}
+
+async function queueGallery(pid, title) {
+  const detail = await fetchJSON(`/api/product/${pid}`);
+  if (!detail.enrichment?.images) return;
+  const urls = detail.enrichment.images.map(i => i.url);
+  await postJSON('/api/queue', { id: pid, title, action: 'set_gallery', data: { urls } });
+  updateQueueBadge();
+}
+
+async function queueGalleryFromSearch(pid, images) {
+  await postJSON('/api/queue', { id: pid, action: 'set_gallery', data: { urls: images } });
+  updateQueueBadge();
+}
+
+async function queueBrand(pid, title) {
+  const brand = document.getElementById(`brandInput_${pid}`).value.trim();
+  if (!brand) return;
+  await postJSON('/api/queue', { id: pid, title, action: 'set_brand', data: { brand } });
+  updateQueueBadge();
+}
+
+function fillBrand(pid, brand) {
+  const input = document.getElementById(`brandInput_${pid}`);
+  if (input) input.value = brand;
+}
+
+async function queueWeight(pid, title) {
+  const w = parseFloat(document.getElementById(`weightInput_${pid}`).value);
+  if (!w || w <= 0) return;
+  await postJSON('/api/queue', { id: pid, title, action: 'set_weight', data: { weight: w } });
+  updateQueueBadge();
+}
+
+function fillWeight(pid, w) {
+  const input = document.getElementById(`weightInput_${pid}`);
+  if (input) input.value = w;
+}
+
+async function queueShortDesc(pid, title) {
+  const text = document.getElementById(`shortDescInput_${pid}`).value.trim();
+  if (!text) return;
+  await postJSON('/api/queue', { id: pid, title, action: 'set_short_desc', data: { text } });
+  updateQueueBadge();
+}
+
+async function queueDescription(pid, title) {
+  const detail = await fetchJSON(`/api/product/${pid}`);
+  if (!detail.enrichment?.description_html) return;
+  await postJSON('/api/queue', { id: pid, title, action: 'set_description', data: { html: detail.enrichment.description_html } });
+  updateQueueBadge();
+}
+
+// ── Queue UI ──────────────────────────────────────────────────────────
+async function updateQueueBadge() {
+  const data = await fetchJSON('/api/queue');
+  const count = data.count || 0;
+  document.getElementById('queueCount').textContent = count;
+  document.getElementById('queuePanelCount').textContent = count;
+  document.getElementById('queuePanel').classList.toggle('visible', count > 0);
+}
+
+function showQueue() { switchTab('queue'); }
+
+async function renderQueueView() {
+  const data = await fetchJSON('/api/queue');
+  const panel = document.getElementById('detailPanel');
+  const list = document.getElementById('productList');
+
+  list.innerHTML = '';
+
+  if (!data.queue.length) {
+    panel.innerHTML = '<div class="detail-empty">Queue is empty</div>';
+    return;
+  }
+
+  let html = `<div class="detail-header"><h2>Curation Queue</h2><p style="color:var(--text-muted)">${data.queue.length} changes pending</p></div>`;
+
+  // Group by product
+  const byProduct = {};
+  data.queue.forEach(c => {
+    if (!byProduct[c.id]) byProduct[c.id] = { title: c.title, changes: [] };
+    byProduct[c.id].changes.push(c);
+  });
+
+  for (const [pid, info] of Object.entries(byProduct)) {
+    html += `<div class="section">
+      <h3>#${pid} — ${esc(info.title)}</h3>
+      ${info.changes.map(c => `
+        <div class="row" style="justify-content:space-between">
+          <span>${esc(c.action)} ${c.action === 'set_brand' ? ': '+esc(c.data.brand||'') : ''} ${c.action === 'set_weight' ? ': '+c.data.weight+' lbs' : ''}</span>
+          <button class="btn btn-sm btn-danger" onclick="removeFromQueue(${pid}, '${c.action}')">Remove</button>
+        </div>
+      `).join('')}
+    </div>`;
+  }
+
+  html += `<div style="display:flex;gap:8px;margin-top:16px">
+    <button class="btn btn-primary" onclick="applyQueue(true)">Dry Run All</button>
+    <button class="btn btn-success" onclick="applyQueue(false)">Apply LIVE</button>
+    <button class="btn btn-danger" onclick="clearQueue()">Clear All</button>
+  </div>`;
+
+  panel.innerHTML = html;
+}
+
+async function removeFromQueue(pid, action) {
+  await fetch(`/api/queue/${pid}?action=${action}`, { method: 'DELETE' });
+  updateQueueBadge();
+  if (state.gap === 'queue') renderQueueView();
+}
+
+async function clearQueue() {
+  if (!confirm('Clear entire queue?')) return;
+  await postJSON('/api/queue/clear', {});
+  updateQueueBadge();
+  if (state.gap === 'queue') renderQueueView();
+}
+
+async function applyQueue(dryRun) {
+  const label = dryRun ? 'Dry Run' : 'LIVE APPLY';
+  if (!dryRun && !confirm('Apply ALL queued changes to the live site?')) return;
+
+  showModal(label, '<div class="spinner"></div> Executing on server...');
+  const data = await postJSON('/api/apply', { dry_run: dryRun });
+
+  if (data.error) {
+    showModal('Error', data.error);
+  } else {
+    showModal(label + ' — Results', data.output || 'Done');
+    if (!dryRun) {
+      // Clear applied changes
+      await postJSON('/api/queue/clear', {});
+      updateQueueBadge();
+    }
+  }
+}
+
+// ── Apply Single ──────────────────────────────────────────────────────
+async function applySingle(pid, action, data, dryRun) {
+  showModal(dryRun ? 'Dry Run' : 'Apply', '<div class="spinner"></div> Executing...');
+  const result = await postJSON('/api/apply/single', { id: pid, action, data, dry_run: dryRun });
+  showModal(dryRun ? 'Dry Run' : 'Applied', result.output || result.error || 'Done');
+}
+
+// ── Refresh ───────────────────────────────────────────────────────────
+async function refreshManifest() {
+  showModal('Refreshing', '<div class="spinner"></div> Exporting manifest from server...');
+  const data = await postJSON('/api/refresh', {});
+  closeModal();
+  if (data.ok) {
+    alert(`Manifest refreshed: ${data.total} products`);
+    location.reload();
+  } else {
+    alert('Error: ' + (data.error || 'unknown'));
+  }
+}
+
+// ── Modal ─────────────────────────────────────────────────────────────
+function showModal(title, content) {
+  document.getElementById('modalTitle').textContent = title;
+  document.getElementById('modalContent').innerHTML = content;
+  document.getElementById('modalOverlay').classList.add('visible');
+}
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('visible');
+}
+
+// ── Helpers ───────────────────────────────────────────────────────────
+function esc(s) { const d = document.createElement('div'); d.textContent = s||''; return d.innerHTML; }
+function escAttr(s) { return (s||'').replace(/'/g, "\\'").replace(/"/g, '&quot;'); }
+
+async function postJSON(url, body) {
+  const r = await fetch(API + url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+  return r.json();
+}
+
+// ── Boot ──────────────────────────────────────────────────────────────
+init();
+</script>
+</body>
+</html>
