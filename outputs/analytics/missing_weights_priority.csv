@@ -1,0 +1,2975 @@
+priority,unitsSold,hasSizeToken,sizeToken,hasLiquidHint,liquidCategory,nonLiquidCategory,blockedByNameTerm,Type,SKU,Name,Brands,Categories
+1,27.0,no,,no,no,yes,no,simple,hmh01759,Standard Black Bucket lid,Standard Black,containers_pots
+2,0,no,,no,yes,no,no,simple,2473,ZeroTol HC fungicide Algaecide,BFG,pest_control
+3,0,no,,no,yes,no,no,simple,221,Zero Tolerance Pesticide,Nickel City Wholesale Garden Supply,pest_control
+4,0,no,,yes,yes,no,no,simple,hmh00056,Yield Up 9-47-9,Nickel City Wholesale Garden Supply,nutrients
+5,0,no,,no,yes,no,no,simple,3559,Yellow Sensor cards 3x4.5-30 pk,BFG,pest_control
+6,0,no,,no,no,no,no,simple,1691,Y-Connector 8x8x8,NGW,irrigation
+7,0,no,,no,no,no,no,simple,1690,Y-Connector 8x6x6,NGW,irrigation
+8,0,no,,no,no,no,no,simple,1689,Y-Connector 6x6x6,NGW,irrigation
+9,0,no,,no,no,no,no,simple,1688,Y-Connector 6x4x4,NGW,irrigation
+10,0,no,,no,no,no,no,simple,1687,Y-Connector 4x4x4,NGW,irrigation
+11,0,no,,no,no,no,no,simple,1693,Y-Connector 12x12x12,NGW,irrigation
+12,0,no,,no,no,no,no,simple,1694,Y-Connector 12x10x10,NGW,irrigation
+13,0,no,,no,no,no,no,simple,1692,Y-Connector 10x8x8,NGW,irrigation
+14,0,no,,yes,yes,no,no,simple,3271,Xtreme Gardening Azos 2,Hawthorne Hydoponics LLC,nutrients
+15,0,no,,no,no,no,no,simple,3611,Wormganic OMIR Worm Castings1ft,BFG,grow_media
+16,0,no,,no,no,yes,no,simple,709,Worm Gear Clamp 8,Nickel City Wholesale Garden Supply,Accessories
+17,0,no,,no,no,yes,no,simple,708,Worm Gear Clamp 6,Nickel City Wholesale Garden Supply,Accessories
+18,0,no,,no,no,yes,no,simple,707,Worm Gear Clamp 4,Nickel City Wholesale Garden Supply,Accessories
+19,0,no,,no,no,yes,no,simple,1125,Worm Gear Clamp 12,Nickel City Wholesale Garden Supply,Accessories
+20,0,no,,no,no,yes,no,simple,1126,Worm Gear Clamp 10,Nickel City Wholesale Garden Supply,Accessories
+21,0,no,,no,no,no,no,simple,2113,White CO2 Washer,Nickel City Wholesale Garden Supply,co2
+22,0,no,,no,no,no,no,simple,2149,Waterpower Pump Filter,Nickel City Wholesale Garden Supply,irrigation
+23,0,no,,no,no,no,no,simple,807,Watering Wand w/ Thumb Slide,Nickel City Wholesale Garden Supply,irrigation
+24,0,no,,no,no,yes,no,simple,2146,Waterfarm Outer Bucket,Nickel City Wholesale Garden Supply,containers_pots
+25,0,no,,no,no,yes,no,simple,2145,Waterfarm Inner Bucket,Nickel City Wholesale Garden Supply,containers_pots
+26,0,no,,no,no,no,no,simple,832,WaterPower 120 Pump,Nickel City Wholesale Garden Supply,irrigation
+27,0,no,,no,no,no,no,simple,1453,Water purfication filter Tap,,water_filtration
+28,0,no,,no,no,no,no,simple,2881,Water Catalytic Carbon Filter,Sunlight Supply inc.,water_filtration
+29,0,no,,no,no,no,no,simple,3467,Wachsen Rolling Bench 10'-13,D.L. Wholesale,Hydroponics Components
+30,0,no,,no,no,yes,no,simple,3473,Wachsen Bud Sorter Blue Trellis,D.L. Wholesale,Accessories
+31,0,no,,no,no,no,no,simple,3646,Wachsen 5' Rolling Bench 10'-13,D.L. Wholesale,irrigation
+32,0,no,,no,no,no,no,simple,3493,Wachs4'RollingBench13.5-19.5trl,D.L. Wholesale,Hydroponics Components
+33,0,no,,no,no,yes,no,simple,2958,Vortex Powerfans,Nickel City Wholesale Garden Supply,airflow
+34,0,no,,no,no,no,no,simple,721,Vortex 16XL V-Series Inline,Nickel City Wholesale Garden Supply,irrigation
+35,0,no,,yes,yes,no,no,simple,hmh01020,VooDoo Juice Root Booster,Voodoo Juice,nutrients
+36,0,no,,no,no,no,no,simple,3250,Voltage Converter inverter5000W,Amazon,Lighting Equipment
+37,0,no,,no,no,yes,no,simple,3440,Voltage Converter inverter3000W,Amazon,Accessories
+38,0,no,,no,no,no,no,simple,3287,Voltage Converter inverter1000W,@Flowers-HEMP,Lighting Equipment
+39,0,no,,no,no,yes,no,simple,1082,Vine Clip,NGW,Accessories
+40,0,no,,no,no,yes,no,simple,2049,Velcro Plant Ties,NGW,Accessories
+41,0,no,,yes,yes,no,no,simple,3321,Vegan Mix 3-2-2 - - OMRI,BFG,nutrients
+42,0,no,,no,no,no,no,simple,3362,VP DOME 48x18x72,Athena,propagation
+43,0,no,,no,no,no,no,simple,hmh00607,VEGETATIVE - MH Ballast,,grow_lights
+44,0,no,,no,no,no,no,simple,hmh00606,VEGETATIVE - HPS Ballast,,grow_lights
+45,0,no,,yes,yes,no,no,simple,3062,VC- PKBoost SuperFlower1-13-6,Sunlight Supply inc.,nutrients
+46,0,no,,no,no,yes,no,simple,1766,Uv Sterilizer Kit,Nickel City Wholesale Garden Supply,Environment Control
+47,0,no,,yes,no,no,no,simple,1444,Upgrade Kit SB-Stealth RO100,Nickel City Wholesale Garden Supply,water_filtration
+48,0,no,,no,no,yes,no,simple,1445,Upgrade Kit R0100 to RO200,Nickel City Wholesale Garden Supply,Environment Control
+49,0,no,,yes,no,no,no,simple,1863,Ultragrow Re-Cool Tube 6,Nickel City Wholesale Garden Supply,Lighting Equipment
+50,0,no,,yes,no,no,no,simple,752,Ultragrow Cool Tube,Nickel City Wholesale Garden Supply,grow_lights
+51,0,no,,no,no,no,no,simple,757,Ultragrow A/C . with saftey glass & socket set w/ 15 ft cord,Nickel City Wholesale Garden Supply,hid_bulbs
+52,0,no,,yes,no,no,no,simple,1299,Ultragrow 4'-8 Tube T5 Fixture,Nickel City Wholesale Garden Supply,grow_lights
+53,0,no,,no,no,no,no,simple,3659,UltraGrow 6 lamp T5 /4ft,Nickel City Wholesale Garden Supply,grow_lights
+54,0,no,,no,no,yes,no,simple,2667,UltraGrow 240v Mechanical Timer,Nickel City Wholesale Garden Supply,controllers_timers
+55,0,no,,no,no,yes,no,simple,2706,UltraGrow 24 Hour Timer 120V,Nickel City Wholesale Garden Supply,controllers_timers
+56,0,no,,yes,yes,no,no,simple,hmh01019,Ultra-premium Connoisseur,Advanced Nutrients,nutrients
+57,0,no,,no,no,yes,no,simple,1956,Ultimate Plant Cage,NGW,Accessories
+58,0,no,,no,no,yes,no,simple,1651,UV Bulb 5000 Replacement,NGW,accessories
+59,0,no,,no,no,yes,no,simple,1650,UV Bulb 3000 Replacement,NGW,accessories
+60,0,no,,no,no,yes,no,simple,hmh01583,UNO-2 Speed Controled in line blowers,,airflow
+61,0,no,,no,no,no,no,simple,1985,UNO Tube & Scoket set,Nickel City Wholesale Garden Supply,Lighting Equipment
+62,0,no,,no,no,yes,no,simple,hmh01298,UNO Rope Ratchets,Nickel City Wholesale Garden Supply,accessories
+63,0,no,,no,no,no,no,simple,2379,UNO Little Sun Reflector,Nickel City Wholesale Garden Supply,grow_lights
+64,0,no,,no,no,no,no,simple,hmh01318,UNO Grow Tents,UNO,grow_tents
+65,0,no,,no,no,yes,no,simple,2626,UNO 2 speed fan 440CFM,Nickel City Wholesale Garden Supply,Environment Control
+66,0,no,,no,no,yes,no,simple,2623,UNO 2 speed Fan 845cfm,Nickel City Wholesale Garden Supply,Environment Control
+67,0,no,,no,no,yes,no,simple,2803,Twist Tie 164ft,Nickel City Wholesale Garden Supply,Accessories
+68,0,no,,no,no,yes,no,simple,3566,TurtleTaffy 75 day 20%Sat/80%In,@Flowers-HEMP,Accessories
+69,0,no,,yes,no,no,no,simple,3009,TurboKloneT24 ClonerTurbo &Dome,Sunlight Supply inc.,propagation
+70,0,no,,no,no,no,no,simple,3010,TurboKlone T48 Klone & Dome,Sunlight Supply inc.,propagation
+71,0,no,,no,no,no,no,simple,3011,TurboKlone Klone Collars-1.6,Sunlight Supply inc.,propagation
+72,0,no,,no,no,no,no,simple,1545,TurboClone Collas-52,Hawthorne Hydoponics LLC,Hydroponics Components
+73,0,no,,no,no,no,no,simple,2895,Tru Hole1 1/8-1 1/Fitting,Nickel City Wholesale Garden Supply,irrigation
+74,0,no,,no,no,yes,no,simple,815,Triming Bin Filter,Sunlight Supply inc.,Accessories
+75,0,no,,no,no,no,no,simple,828,Trickel Stake & Line 12,NGW,Components
+76,0,no,,no,no,yes,no,simple,2804,Trellis Netting 5x15 w/3.5 hole,Sunlight Supply inc.,Accessories
+77,0,no,,no,no,yes,no,simple,2957,Trellis Netting 5`X30` (mesh),Nickel City Wholesale Garden Supply,Accessories
+78,0,no,,no,no,yes,no,simple,2846,Titan Hercules 3 HI TEMP OFF,Sunlight Supply inc.,Environment Control
+79,0,no,,no,yes,no,no,simple,998,Timemist Dispenser,NGW,pest_control
+80,0,no,,yes,yes,no,no,simple,hmh00156,TimeMist Plus Programmable Dispenser,TimeMist,pest_control
+81,0,no,,no,no,no,no,simple,1835,Time Mist Programmable,NGW,odor_control
+82,0,no,,no,no,yes,no,simple,2531,Tight Vac Set of 5 (Black),Nickel City Wholesale Garden Supply,Accessories
+83,0,no,,no,no,yes,no,simple,2516,Tight Vac 3oz NCWGS,Nickel City Wholesale Garden Supply,Accessories
+84,0,no,,no,no,no,no,simple,hmh00640,Thermostatically Controlled Centrifugal Fans,Thermostatically Controlled,catalog_index
+85,0,no,,no,no,no,no,simple,490,Texas Controller 16 units,Nickel City Wholesale Garden Supply,irrigation
+86,0,no,,yes,yes,no,no,simple,3317,Terpify Essential Oil Intensifi,BFG,nutrients
+87,0,no,,no,no,yes,no,simple,3436,TerpLock Original Pouch- cs,BFG,Accessories
+88,0,no,,no,no,yes,no,simple,3435,TerpLoc Original Pouch - ea,BFG,Accessories
+89,0,no,,no,no,yes,no,simple,3430,Terp Lock 62% 1/8,groVE BAG,Accessories
+90,0,no,,no,no,yes,no,simple,3431,Terp Lock 62% 1/4,groVE BAG,Accessories
+91,0,no,,no,no,yes,no,simple,3432,Terp Lock 62% 1/2 pound,groVE BAG,Accessories
+92,0,no,,no,no,no,no,simple,783,Tee 1/4,NGW,irrigation
+93,0,no,,no,no,yes,no,simple,858,Tarp Zip Up,NGW,Accessories
+94,0,no,,yes,yes,no,no,simple,2776,"Tarantula Liquid Fertilizer,Qts",Advanced Nutrients,nutrients
+95,0,no,,yes,yes,no,no,simple,hmh01018,Tarantula Beneficial Bacteria,Tarantula Beneficial,nutrients
+96,0,no,,no,no,no,no,simple,452,TallBoy Green CocoCarbon Filter,Nickel City Wholesale Garden Supply,Hydroponics Components
+97,0,no,,no,no,no,no,simple,1669,Tall Boy™ with KDF85 Catalytic,Nickel City Wholesale Garden Supply,odor_control
+98,0,no,,no,no,no,no,simple,1439,Tall Boy Upgraded w/ KDF85,Nickel City Wholesale Garden Supply,odor_control
+99,0,no,,no,no,no,no,simple,298,Tall Boy De-Chlor & Sediment,NGW,odor_control
+100,0,no,,no,no,yes,no,simple,1283,TV2 Thermostatic Fan Control,Nickel City Wholesale Garden Supply,Environment Control
+101,0,no,,no,no,yes,no,simple,1282,TV1 Thermostatic Fan Control,Nickel City Wholesale Garden Supply,Environment Control
+102,0,no,,no,no,yes,no,simple,hmh01255,TRIMPRO UNPLUGGED,Nickel City Wholesale Garden Supply,Accessories
+103,0,no,,no,no,no,no,simple,2347,TRIMPRO ROTOR,Nickel City Wholesale Garden Supply,trimming
+104,0,no,,no,no,yes,no,simple,1277,TP3 High Temp Shut-Off,Hawthorne Hydoponics LLC,Environment Control
+105,0,no,,no,no,yes,no,simple,1276,TP2 Adjustable Tempstat,Nickel City Wholesale Garden Supply,Environment Control
+106,0,no,,no,no,yes,no,simple,1275,TP1 Day/Night Tempstat,Nickel City Wholesale Garden Supply,Environment Control
+107,0,no,,no,no,no,no,simple,hmh00572,TNC Water Pump,Nickel City Wholesale Garden Supply,irrigation
+108,0,no,,no,no,no,no,simple,1975,TNB Trimming Shears 2,BFG,harvesting
+109,0,no,,no,no,no,no,simple,2014,TNB Trimming Curved blade,BFG,trimming
+110,0,no,,no,no,yes,no,simple,1266,THC-1 Total Humidity Controller,Nickel City Wholesale Garden Supply,controllers_timers
+111,0,no,,yes,no,yes,no,simple,3071,TEAMING WITH FUNGI The Organic Growers Guide to Mycorrhizae,Nickel City Wholesale Garden Supply,books
+112,0,no,,yes,no,yes,no,simple,hmh00582,TDS Monitor DM-2 Industrial Dual TDS Monitor,,ph_meters
+113,0,no,,no,no,yes,no,simple,1436,TDS Monitor 1/in/out,Nickel City Wholesale Garden Supply,ph_meters
+114,0,no,,no,no,no,no,simple,2252,T5/24 Sunlite 865 K lamp HO,Nickel City Wholesale Garden Supply,grow_lights
+115,0,no,,no,no,no,no,simple,1826,T5 Tripho Bulbs 8pk(Red),Nickel City Wholesale Garden Supply,grow_lights
+116,0,no,,no,no,no,no,simple,2006,T5 3' Replacement Bulb 65K,Nickel City Wholesale Garden Supply,grow_lights
+117,0,no,,no,no,no,no,simple,2919,T5 3' Replacement Bulb 29K,Nickel City Wholesale Garden Supply,grow_lights
+118,0,no,,no,no,yes,no,simple,1264,T12VDC 12v DC Transformer,Nickel City Wholesale Garden Supply,Environment Control
+119,0,no,,no,no,yes,no,simple,3309,T.O. Plastics Press Fill Carry,BFG,Accessories
+120,0,no,,no,no,no,no,simple,349,Syringe 100cc,NGW,irrigation
+121,0,no,,yes,yes,no,no,simple,3406,Syngerite Bonzi Groth Hormone q,BFG,nutrients
+122,0,no,,no,no,no,no,simple,1724,Sylvania 750w HPS,NGW,grow_lights
+123,0,no,,no,no,yes,no,simple,207,Sure Shot Measurer,NGW,Accessories
+124,0,no,,no,no,no,no,simple,1362,Supreme Air pump-3 1030 GPH,Sunlight Supply inc.,irrigation
+125,0,no,,no,no,no,no,simple,1463,Supreme Air Pump 1 Outlet 29 GP,Hawthorne Hydoponics LLC,irrigation
+126,0,no,,no,no,no,no,simple,1552,Support Stakes 4,NGW,Components
+127,0,no,,no,no,no,no,simple,3024,SuperSprout Neo Insert2orange,Sunlight Supply inc.,Hydroponics Components
+128,0,no,,no,no,no,no,simple,3377,SuperSpore Mushroom Grain Bag 4,D.L. Wholesale,grow_media
+129,0,no,,no,no,no,no,simple,3023,Super Sprout Neop Insert blue,Sunlight Supply inc.,Hydroponics Components
+130,0,no,,no,no,no,no,simple,362,Super Spreader Large,NGW,Lighting Equipment
+131,0,no,,yes,yes,no,no,simple,1676,Super PHOS Rock 0-9-0/3,BFG,nutrients
+132,0,no,,no,no,no,no,simple,1419,Sunmaster MH Warm Deluxe,NGW,grow_lights
+133,0,no,,no,no,no,no,simple,1520,Sunmaster MH Neutral,NGW,grow_lights
+134,0,no,,no,no,no,no,simple,1517,Sunmaster MH Cool Deluxe,NGW,grow_lights
+135,0,no,,no,no,no,no,simple,1519,Sunmaster MH Conversion,NGW,grow_lights
+136,0,no,,no,no,no,no,simple,hmh01705,Sunblaster 200W CF 6400k,Nickel City Wholesale Garden Supply,hid_bulbs
+137,0,no,,no,no,no,no,simple,hmh01704,Sunblaster 125W CF 2500k,Nickel City Wholesale Garden Supply,hid_bulbs
+138,0,no,,no,no,no,no,simple,hmh00513,SunSoaker Parabolic Reflector w/ Horizonal Socket bracket,Sunsoaker,grow_lights
+139,0,no,,no,no,no,no,simple,3033,SunBlaster/LED Strip Lights 48,Nickel City Wholesale Garden Supply,grow_lights
+140,0,no,,no,no,no,no,simple,3032,SunBlaster/LED Strip Lights 24,Nickel City Wholesale Garden Supply,grow_lights
+141,0,no,,no,no,no,no,simple,hmh01439,SunBlaster 25 watt green Visual lamp-standard socket,Sunblaster,hid_bulbs
+142,0,no,,no,no,no,no,simple,1168,SunB NanoTech T5 HO 3` fixture,Nickel City Wholesale Garden Supply,grow_lights
+143,0,no,,no,no,no,no,simple,HMH-LIT-RKHL2N,Sun System RS 1850 LED,Hawthorne Hydoponics LLC,grow_lights
+144,0,no,,no,no,no,no,simple,760,Sun Soaker 48 Parabolic,Nickel City Wholesale Garden Supply,Lighting Equipment
+145,0,no,,no,yes,no,no,simple,3500,Sulfur Dust 4,BFG,pest_control
+146,0,no,,yes,yes,no,no,simple,685,SubcultureB 0.1 - 0.04 - 0 300,Nickel City Wholesale Garden Supply,nutrients
+147,0,no,,yes,yes,no,no,simple,107,Sub Culture-B 150gm,Nickel City Wholesale Garden Supply,nutrients
+148,0,no,,no,no,no,no,simple,3083,Strawberry Fields,Nickel City Wholesale Garden Supply,grow_media
+149,0,no,,no,no,no,no,simple,3117,Stonewool Grow-Cubes 2 cubic ft,Sunlight Supply inc.,grow_media
+150,0,no,,no,yes,no,no,simple,296,Sticky Trap Yellow,NGW,pest_control
+151,0,no,,no,yes,no,no,simple,295,Sticky Trap Blue,NGW,pest_control
+152,0,no,,no,yes,no,no,simple,hmh01870,Stick Thrip Leafminer Trap 5/Pack,Stick Thrip,pest_control
+153,0,no,,no,no,no,no,simple,2651,Sterile Disposable Scalpel,Sunlight Supply inc.,propagation
+154,0,no,,yes,no,no,no,simple,460,Stealth RO150/300 RO Membrane,Nickel City Wholesale Garden Supply,water_filtration
+155,0,no,,yes,no,no,no,simple,300,Stealth RO 300 Customized Reverse Osmosis filter,Nickel City Wholesale Garden Supply,water_filtration
+156,0,no,,yes,no,no,no,simple,1004,Stealth KDF85 Carbon Filter,Nickel City Wholesale Garden Supply,water_filtration
+157,0,no,,no,no,no,no,simple,396,Starter Tray 50 Cell & Plugs,Nickel City Wholesale Garden Supply,propagation
+158,0,no,,no,no,no,no,simple,3067,Stainless Steel Bonsai Scissor,Nickel City Wholesale Garden Supply,harvesting
+159,0,no,,no,no,no,no,simple,511,Square Coco RootPots 12ct,NGW,grow_media
+160,0,no,,no,no,no,no,simple,2051,Spinpro Replacement Wires,Nickel City Wholesale Garden Supply,trimming
+161,0,no,,yes,yes,no,no,simple,hmh00617,Spigot for 6 container,Nickel City Wholesale Garden Supply,nutrients
+162,0,no,,no,no,yes,no,simple,1113,Source Extracter,Nickel City Wholesale Garden Supply,Accessories
+163,0,no,,no,no,no,no,simple,3613,SolarNOON UV-Seires Lamp 150D/E,Phive8,Bulbs
+164,0,no,,no,no,yes,no,simple,3394,Soil pH Tester - Test pH levels,BFG,ph_meters
+165,0,no,,no,no,yes,no,simple,hmh01141,Socket Sets,Socket,electrical_supplies
+166,0,no,,no,no,no,no,simple,hmh00627,Snapture SnapStand,Snapture,grow_lights
+167,0,no,,no,no,no,no,simple,493,SnapStand Dovetail 90 Degree,Nickel City Wholesale Garden Supply,grow_lights
+168,0,no,,no,no,yes,no,simple,881,Smokus Focus STASH,Sunlight Supply inc.,Accessories
+169,0,no,,no,no,yes,no,simple,884,Smokus Focus Middleman,Sunlight Supply inc.,Accessories
+170,0,no,,no,no,no,no,simple,910,Small Round Air Stone,NGW,irrigation
+171,0,no,,no,no,no,no,simple,1438,Small Boy w/ Upgrade KDF85,Nickel City Wholesale Garden Supply,odor_control
+172,0,no,,no,no,yes,no,simple,2746,Slide Nut W/Thumb Screw,Nickel City Wholesale Garden Supply,Accessories
+173,0,no,,yes,yes,no,no,simple,hmh01103,SledgeHammer (1 ),,nutrients
+174,0,no,,no,no,yes,no,simple,3332,Single-Use 6 in FloraCap®,Hawthorne Hydoponics LLC,Accessories
+175,0,no,,yes,no,yes,no,simple,1653,Single Micro-Pore,NGW,Accessories
+176,0,no,,yes,yes,no,no,simple,3289,Silica diatomite stone BULK Ton,Nickel City Wholesale Garden Supply,nutrients
+177,0,no,,no,no,no,no,simple,1546,Short Tub Outlet Fitting 1/2,NGW,irrigation
+178,0,no,,no,no,no,no,simple,2896,ShearPerfectionSteel Bonsai 60m,Sunlight Supply inc.,harvesting
+179,0,no,,no,no,no,no,simple,3028,ShearPerfectionShear - curve,Sunlight Supply inc.,harvesting
+180,0,no,,no,no,no,no,simple,2963,Shear Perfection Curver,Sunlight Supply inc.,harvesting
+181,0,no,,no,no,yes,no,simple,2714,Shear Perfection Curved Trimm,Sunlight Supply inc.,Accessories
+182,0,no,,yes,yes,no,no,simple,979,Serenade Garden Concentrate,NGW,pest_control
+183,0,no,,yes,yes,no,no,simple,hmh01016,Sensi Grow Two-part,Advanced Nutrients,nutrients
+184,0,no,,yes,yes,no,no,simple,2169,Sensi Grow A/ liter,Advanced Nutrients,nutrients
+185,0,no,,yes,yes,no,no,simple,2788,Sensi Cal-Mag Xtra liter,Advanced Nutrients,nutrients
+186,0,no,,no,no,no,no,simple,1037,Seedling Heat Mat - 4 Tray,Sunlight Supply inc.,propagation
+187,0,no,,no,no,no,no,simple,1036,Seedling Heat Mat - 2 Tray,Sunlight Supply inc.,propagation
+188,0,no,,no,no,yes,no,simple,1050,Sediment Pre-Filter Merlin GP,Nickel City Wholesale Garden Supply,Accessories
+189,0,no,,yes,yes,no,no,simple,1930,Seaweed Extract 1Lt,Advanced Nutrients,nutrients
+190,0,no,,yes,yes,no,no,simple,256,Scorpion Juice Lt,Advanced Nutrients,nutrients
+191,0,no,,yes,yes,no,no,simple,HMH-NUT-1P7TJF,Scietetics MagCal 15,Scietetics,nutrients
+192,0,no,,yes,yes,no,no,simple,3655,Scietetics GrowPowder9.0-4.0-12,Nickel City Wholesale Garden Supply,nutrients
+193,0,no,,yes,yes,no,no,simple,3654,Scietetics BloomPowder4.0-14-12,Nickel City Wholesale Garden Supply,nutrients
+194,0,no,,yes,yes,no,no,simple,980,Safer 3-in-1 Garden Spray RTU,NGW,nutrients
+195,0,no,,yes,yes,no,no,simple,1799,SURGE PLUS 350 Gm,Nickel City Wholesale Garden Supply,nutrients
+196,0,no,,no,no,no,no,simple,3590,SUNPACK® T5 HO-18,BFG,grow_lights
+197,0,no,,no,yes,no,no,simple,1406,SULFUR POWDER BAG,Nickel City Wholesale Garden Supply,pest_control
+198,0,no,,no,no,no,no,simple,3272,STEP/DOWN-power inverter 2000W,@Flowers-HEMP,Lighting Equipment
+199,0,no,,yes,yes,no,no,simple,2430,SNS 604A Roots Veg,Nickel City Wholesale Garden Supply,nutrients
+200,0,no,,yes,yes,no,no,simple,407,SNS 217C™ Mite Control,Sunlight Supply inc.,pest_control
+201,0,no,,yes,yes,no,no,simple,2910,"SNS 217C spidermite con. ,",Sunlight Supply inc.,pest_control
+202,0,no,,yes,yes,no,no,simple,100213,SNS 203 soil drench,Sunlight Supply inc.,pest_control
+203,0,no,,no,yes,no,no,simple,3612,SHOT GUN® Repels-All,BFG,pest_control
+204,0,no,,no,no,no,no,simple,1524,SE600W Ceramic HPS lamp Kit,Hortilux,grow_lights
+205,0,no,,no,no,yes,no,simple,1281,SCO2R HTC Climate Control,Nickel City Wholesale Garden Supply,Environment Control
+206,0,no,,no,no,yes,no,simple,3392,SANIDATE Cleansor,BFG,Environment Control
+207,0,no,,yes,yes,no,no,simple,3264,Royal Gold,Nickel City Wholesale Garden Supply,nutrients
+208,0,no,,no,no,yes,no,simple,379,Roxx Maxi-Plug Mat 98ct,Nickel City Wholesale Garden Supply,electrical_supplies
+209,0,no,,no,no,no,no,simple,391,Roxx HydroGro,Nickel City Wholesale Garden Supply,Media
+210,0,no,,no,no,no,no,simple,336,Roxx Big Dutch 6,Nickel City Wholesale Garden Supply,Media
+211,0,no,,no,no,no,no,simple,385,Roxx 4x4x4 (No Hole) 6ct,Nickel City Wholesale Garden Supply,Media
+212,0,no,,no,no,no,no,simple,383,Roxx 4x4x2.5 6ct,Nickel City Wholesale Garden Supply,Media
+213,0,no,,no,no,no,no,simple,390,Roxx 3x3x4 8ct,Nickel City Wholesale Garden Supply,Media
+214,0,no,,no,no,no,no,simple,381,Roxx 3x3x2.5 8ct,Nickel City Wholesale Garden Supply,Media
+215,0,no,,no,no,no,no,simple,382,Roxx 3x3x2.5 (No Hole) 8ct,Nickel City Wholesale Garden Supply,Media
+216,0,no,,no,no,yes,no,simple,3231,Round Plant Dollys 16,,accessories
+217,0,no,,no,no,no,no,simple,3393,Root Cleaner 8 ./ 16Gal,BFG,misc. charges
+218,0,no,,no,no,no,no,simple,3480,RollingBench 10'-13' L.w/trl,D.L. Wholesale,irrigation
+219,0,no,,yes,yes,no,no,simple,1884,Rockwool Conditioner,NGW,nutrients
+220,0,no,,yes,yes,no,no,simple,1184,Rock Phosphate 0 - 3 - 0 /,Sunlight Supply inc.,nutrients
+221,0,no,,yes,yes,no,no,simple,3629,Roase and Flower 5 4-8-4,BFG,nutrients
+222,0,no,,yes,yes,no,no,simple,hmh01938,Ripen® 0.5-7-6 Quarts,General Hydroponics,nutrients
+223,0,no,,yes,yes,no,no,simple,3510,Rhizium1.6-0.7-4.5,Phive8,nutrients
+224,0,no,,yes,yes,no,no,simple,3511,Rhizium element tranferr 2.5Ga,Phive8,nutrients
+225,0,no,,yes,yes,no,no,simple,255,Revive Lt,Advanced Nutrients,nutrients
+226,0,no,,no,no,no,no,simple,1370,Reservoir Heater 300w,NGW,irrigation
+227,0,no,,no,no,no,no,simple,1369,Reservoir Heater 200w,NGW,irrigation
+228,0,no,,no,no,yes,no,simple,hmh00978,Replacemnt probe for Control Wizard Accurate pH3 Meter,Replacemnt,ph_meters
+229,0,no,,no,no,no,no,simple,443,Reflector Hardware (Pair),NGW,grow_lights
+230,0,no,,no,no,no,no,simple,hmh00575,Reflective Mylar Rolls,Reflective Mylar,grow_tents
+231,0,no,,no,no,no,no,simple,2869,Reducer Tee 1/to 3/8,Sunlight Supply inc.,irrigation
+232,0,no,,no,no,no,no,simple,2610,Reducer Fitting 1/to 3/8,Sunlight Supply inc.,irrigation
+233,0,no,,no,no,yes,no,simple,1971,Rapitest 4-Way Soil Analyzer,NGW,Accessories
+234,0,no,,no,no,yes,no,simple,1855,Rapidtest Digital Soil pH,NGW,Accessories
+235,0,no,,yes,no,no,no,simple,1774,Rainmaker® Trigger Sprayer,Hawthorne Hydoponics LLC,irrigation
+236,0,no,,no,no,yes,no,simple,3227,Rainmaker Deep Cover Mister,Hawthorne Hydoponics LLC,Accessories
+237,0,no,,no,no,no,no,simple,3241,Rainmaker 4 way hose,Hawthorne Hydoponics LLC,irrigation
+238,0,no,,no,no,yes,no,simple,3462,Rainmaker 2 (8 Liter),Hawthorne Hydoponics LLC,Accessories
+239,0,no,,yes,no,no,no,simple,494,RainForest Vortex Sprayer,Nickel City Wholesale Garden Supply,irrigation
+240,0,no,,no,no,no,no,simple,498,RainForest 66 Lid Insert Kit,Nickel City Wholesale Garden Supply,irrigation
+241,0,no,,no,no,no,no,simple,499,RainForest 318 Lid Insert Kit,Nickel City Wholesale Garden Supply,irrigation
+242,0,no,,no,no,no,no,simple,500,RainForest 236 Lid Insert Kit,Nickel City Wholesale Garden Supply,irrigation
+243,0,no,,no,no,no,no,simple,1829,Rain Forest 36 insert Lid Kit,NGW,irrigation
+244,0,no,,yes,no,no,no,simple,2688,RX Green Cloning solutions,Nickel City Wholesale Garden Supply,propagation
+245,0,no,,no,no,no,no,simple,3228,ROXwoolMacro plugs 50 bag-35/cs,BFG,grow_media
+246,0,no,,no,no,yes,no,simple,3041,ROSIN PRESS Pneumatic05 X8,Nickel City Wholesale Garden Supply,books
+247,0,no,,no,no,yes,no,simple,3044,ROSIN PRESS EL Automatic X8,Nickel City Wholesale Garden Supply,books
+248,0,no,,no,no,no,no,simple,3054,ROSIN Filter bags Mixed 24ct,Nickel City Wholesale Garden Supply,harvesting
+249,0,no,,no,no,yes,no,simple,1265,RHC-R Humidity w/ Remote Sensor,Nickel City Wholesale Garden Supply,Environment Control
+250,0,no,,no,no,yes,no,simple,1251,RHC-1 Humidity Controller,Nickel City Wholesale Garden Supply,controllers_timers
+251,0,no,,no,no,no,no,simple,3115,REVOLT dimmable digital,Nickel City Wholesale Garden Supply,grow_lights
+252,0,no,,no,no,yes,no,simple,3012,RAW Adjustable Measuring Spoon,Sunlight Supply inc.,Accessories
+253,0,no,,no,no,yes,no,simple,1979,RAINDRIP 1 GPH emmiter/10pk,BFG,Accessories
+254,0,no,,no,no,no,no,simple,1176,Quick Connect with Adapter Set,Sunlight Supply inc.,irrigation
+255,0,no,,no,no,no,no,simple,3464,Quest replacment air filter,Hawthorne Hydoponics LLC,odor_control
+256,0,no,,no,yes,no,no,simple,993,Pyrethrum,NGW,pest_control
+257,0,no,,no,no,no,no,simple,3319,Pure Worm Castings Organic,BFG,grow_media
+258,0,no,,yes,yes,no,no,simple,2560,Pure Enzym Lt,Nickel City Wholesale Garden Supply,nutrients
+259,0,no,,yes,yes,no,no,simple,hmh01674,Pure Clean Natural Enzymes,Pure Clean,nutrients
+260,0,no,,no,no,no,no,simple,2749,Pump Dispenser For,Sunlight Supply inc.,irrigation
+261,0,no,,no,no,no,no,simple,3233,Psycloner 24 Site D.W.C,D.L. Wholesale,propagation
+262,0,no,,no,no,yes,no,simple,1786,Psilocybin Mushroom Handbook,Nickel City Wholesale Garden Supply,Accessories
+263,0,no,,no,yes,no,no,simple,976,Prozap Insect Guard !,NGW,pest_control
+264,0,no,,no,no,no,no,simple,2593,Prop.Kit with 7 Dome w/T5light,Hawthorne Hydoponics LLC,propagation
+265,0,no,,yes,yes,no,no,simple,hmh00060,Prop-O-Gator Plant Food,FoxFarm,nutrients
+266,0,no,,no,no,yes,no,simple,1206,Professional Hole Punch,NGW,Accessories
+267,0,no,,no,no,yes,no,simple,1040,Probe Replacement pH-51,NGW,ph_meters
+268,0,no,,no,no,no,no,simple,1625,Pro-Mix HP Mycorrhizae 2.8 ct,Hawthorne Hydoponics LLC,grow_media
+269,0,no,,no,no,no,no,simple,3665,Pro-Mix BX Mycorrhizae 2.8 ct,BFG,grow_media
+270,0,no,,no,no,no,no,simple,1402,Pro mix 3.8 mycorrhizae,Hawthorne Hydoponics LLC,grow_media
+271,0,no,,no,no,no,no,simple,1135,Pro Filter 70s,Nickel City Wholesale Garden Supply,water_filtration
+272,0,no,,no,no,no,no,simple,3168,Preset CO2 Mointer Control,Hawthorne Hydoponics LLC,co2
+273,0,no,,no,no,no,no,simple,1232,Premium Watering Can 3.2 GL,BFG,irrigation
+274,0,no,,no,no,no,no,simple,3445,PreEvolution High Pre filters,Hawthorne Hydoponics LLC,Hydroponics Components
+275,0,no,,no,no,yes,no,simple,1449,Pre-Filter Evolution KDF85,Nickel City Wholesale Garden Supply,Accessories
+276,0,no,,no,no,no,no,simple,1441,Pre-Evolution Pre-Filter for EV,Nickel City Wholesale Garden Supply,odor_control
+277,0,no,,no,yes,no,no,simple,1671,Praying Mantis Egg 2ct - SO,System,pest_control
+278,0,no,,no,no,no,no,simple,744,Power Cloner 70 Site,NGW,propagation
+279,0,no,,no,no,no,no,simple,743,Power Cloner 45 Site,NGW,propagation
+280,0,no,,yes,yes,no,no,simple,301,Power Clone Gel,NGW,nutrients
+281,0,no,,yes,yes,no,no,simple,1715,Powder Soil Moist,Nickel City Wholesale Garden Supply,nutrients
+282,0,no,,no,no,yes,no,simple,3101,Powder Free Nitrile Gloves /100,lDL Wholesale,Accessories
+283,0,no,,no,no,no,no,simple,2814,PondMaster 8W Sterilizer,Nickel City Wholesale Garden Supply,Hydroponics Components
+284,0,no,,no,no,no,no,simple,2829,Poly Tubing Black 3/8 in 50 ft,Sunlight Supply inc.,grow_room_materials
+285,0,no,,no,no,no,no,simple,2828,Poly Tubing Black 1/4 in 50 ft,Sunlight Supply inc.,grow_room_materials
+286,0,no,,no,no,yes,no,simple,3147,Poly B&W 50 ft.x10ft,Nickel City Wholesale Garden Supply,Accessories
+287,0,no,,no,no,no,no,simple,3506,Poly B&W 25 ft.x10ft,Nickel City Wholesale Garden Supply,Hydroponics Components
+288,0,no,,no,yes,no,no,simple,3606,Poddy Mouth 32% 1/40z,,pest_control
+289,0,no,,no,no,yes,no,simple,2000,Plastic “T” Label - 13in - 5pk,,accessories
+290,0,no,,no,no,no,no,simple,hmh00601,Plantmax SUPER High Pressure Sodium,GH,grow_lights
+291,0,no,,yes,no,no,no,simple,2658,Plantmax Pulse Start Metal Halide Lamps,Nickel City Wholesale Garden Supply,hid_bulbs
+292,0,no,,no,no,no,no,simple,hmh00603,Plantmax MH Conversion (HPS Ballast),Nickel City Wholesale Garden Supply,grow_lights
+293,0,no,,no,no,yes,no,simple,856,Plant Support Yo-Yo,Nickel City Wholesale Garden Supply,accessories
+294,0,no,,yes,yes,no,no,simple,3089,Plant Success Mike O'Rizey 4,Sunlight Supply inc.,nutrients
+295,0,no,,no,no,yes,no,simple,3286,Plant Stake Labels Multicolored,Hawthorne Hydoponics LLC,Accessories
+296,0,no,,yes,no,no,no,simple,HMH-GRO-DESOPZ,Plant Life Easy Grow Plus 500 gm,Plant Life,grow_media
+297,0,no,,no,no,yes,no,simple,3232,Plant Dolly Black 24 in w hydro,Hawthorne Hydoponics LLC,accessories
+298,0,no,,no,no,yes,no,simple,3224,Plant Dolly Black 16 in Round,Nickel City Wholesale Garden Supply,accessories
+299,0,no,,yes,yes,no,no,simple,hmh01624,Plagron Terra Bloom & Grow,Nickel City Wholesale Garden Supply,nutrients
+300,0,no,,yes,yes,no,no,simple,hmh01677,Plagron Royal Rush,Plagron,nutrients
+301,0,no,,yes,yes,no,no,simple,2980,"Plagron Prue clean ,",Phive8,nutrients
+302,0,no,,yes,yes,no,no,simple,hmh01680,Plagron Power Roots,Nickel City Wholesale Garden Supply,nutrients
+303,0,no,,yes,yes,no,no,simple,2974,Plagron Hydro B Set Lt,Plagron,nutrients
+304,0,no,,yes,yes,no,no,simple,hmh01014,Piranha Beneficial Fungi,Piranha Beneficial,nutrients
+305,0,no,,no,yes,no,no,simple,2900,Physan 20™ 16,Sunlight Supply inc.,pest_control
+306,0,no,,no,no,no,no,simple,1493,Phillips Agrolite XT,Nickel City Wholesale Garden Supply,Lighting Equipment
+307,0,no,,no,no,no,no,simple,3031,Phillips 1000 WD/E GreenpowerEL,Nickel City Wholesale Garden Supply,Bulbs
+308,0,no,,no,no,no,no,simple,3165,Philip Mastercolor CDM 315 lamp,Hawthorne Hydoponics LLC,Bulbs
+309,0,no,,no,no,yes,no,simple,3594,Ph Up 2.5,Hawthorne Hydoponics LLC,ph_meters
+310,0,no,,no,yes,no,no,simple,3351,"Pesticide, Nematicide,Fungicide",Nickel City Wholesale Garden Supply,pest_control
+311,0,no,,yes,yes,no,no,simple,1818,Personal GROW BOX/ 8 liters,Nickel City Wholesale Garden Supply,nutrients
+312,0,no,,yes,yes,no,no,simple,1706,Payload Pressing Screen,NGW,nutrients
+313,0,no,,no,no,no,no,simple,2586,Par Wing Reflector Double ended,Sunlight Supply inc.,grow_lights
+314,0,no,,no,no,no,no,simple,1378,Panda Film 100' Roll,Sunlight Supply inc.,grow_room_materials
+315,0,no,,no,no,no,no,simple,1216,PS-1 Day/Night Photo Switch,Nickel City Wholesale Garden Supply,Lighting Equipment
+316,0,no,,no,no,yes,no,simple,hmh00661,PROfilter reversible carbon filters,Profilter,airflow
+317,0,no,,no,no,yes,no,simple,1885,PRO REPLACMENT charcoal,Nickel City Wholesale Garden Supply,Environment Control
+318,0,no,,no,no,yes,no,simple,1133,PRO Filter 45s,Nickel City Wholesale Garden Supply,Environment Control
+319,0,no,,yes,no,no,no,simple,1139,PRO Filter 150,Nickel City Wholesale Garden Supply,water_filtration
+320,0,no,,no,no,yes,no,simple,1138,PRO Filter 125,Nickel City Wholesale Garden Supply,Environment Control
+321,0,no,,no,no,yes,no,simple,1137,PRO Filter 100,Nickel City Wholesale Garden Supply,Environment Control
+322,0,no,,no,no,yes,no,simple,1318,PPM-2a Fuzzy Logic,Nickel City Wholesale Garden Supply,Environment Control
+323,0,no,,yes,yes,no,no,simple,3628,POTASIUM SULFATE 5 /0-0-50,BFG,nutrients
+324,0,no,,no,no,no,no,simple,1983,PLANT MAX 600 3K,,grow_lights
+325,0,no,,yes,no,yes,no,simple,hmh00592,PH-200: Waterproof pH Meter,Nickel City Wholesale Garden Supply,ph_meters
+326,0,no,,yes,yes,no,no,simple,hmh01205,PH Perfect Ultra-premium Connoisseur,Advanced Nutrients,nutrients
+327,0,no,,yes,no,yes,no,simple,hmh00593,PH / Calibration Solutions,,ph_meters
+328,0,no,,no,no,no,no,simple,3434,"PARAGRO Jumbo, x 6x4",Hawthorne Hydoponics LLC,grow_media
+329,0,no,,no,no,no,no,simple,3047,"Ozone Generator 5,500 cu.Ft",Nickel City Wholesale Garden Supply,odor_control
+330,0,no,,no,no,yes,no,simple,167,Ozium Time Mist Kit,NGW,Accessories
+331,0,no,,no,no,yes,no,simple,473,Outer Bucket Replacement,Nickel City Wholesale Garden Supply,containers_pots
+332,0,no,,no,no,yes,no,simple,409,Osillating wall fan,Sunlight Supply inc.,Environment Control
+333,0,no,,no,no,yes,no,simple,hmh00645,Original Can Fans,Original Can,airflow
+334,0,no,,no,no,no,no,simple,3470,Organik & Mycos premier 3.8,BFG,grow_media
+335,0,no,,no,no,no,no,simple,3471,Organik & Mycos 2.8,BFG,grow_media
+336,0,no,,no,no,no,no,simple,2209,Organicare True Earth PotMix1.7,Hawthorne Hydoponics LLC,grow_media
+337,0,no,,yes,yes,no,no,simple,3174,Organicare Grow 7-6-9 /,Hawthorne Hydoponics LLC,nutrients
+338,0,no,,yes,yes,no,no,simple,3173,Organicare Bloom 5-7-10/,Hawthorne Hydoponics LLC,nutrients
+339,0,no,,yes,yes,no,no,simple,3229,Orca® Liquid Mycorrhizae 16,Hawthorne Hydoponics LLC,nutrients
+340,0,no,,no,yes,no,no,simple,986,Orange Guard,NGW,pest_control
+341,0,no,,no,no,yes,no,simple,3226,One Touch™ Rain Wand - 16in L,BFG,Accessories
+342,0,no,,no,no,no,no,simple,882,One Shot amendment 4,Sunlight Supply inc.,grow_media
+343,0,no,,no,no,no,no,simple,883,One Shot amendment 12,Sunlight Supply inc.,grow_media
+344,0,no,,no,no,no,no,simple,467,Ocean Forest 1.5cf,NGW,Media
+345,0,no,,no,no,no,no,simple,2195,Oasis Rootcubes Sheet,NGW,propagation
+346,0,no,,no,no,no,no,simple,2196,Oasis Rootcubes 1.5 Sheet,NGW,propagation
+347,0,no,,no,no,yes,no,simple,512,Oasis 102ct Wedge Tray,NGW,containers_pots
+348,0,no,,no,no,no,no,simple,513,Oasis 1 1/Sheet 50ct,NGW,Media
+349,0,no,,no,no,yes,no,simple,2099,OXO Big Scoop,,accessories
+350,0,no,,no,no,yes,no,simple,1285,OSW On/Off Switch,Nickel City Wholesale Garden Supply,Environment Control
+351,0,no,,yes,no,no,no,simple,1861,ONA Mist,NGW,odor_control
+352,0,no,,yes,yes,no,no,simple,3373,OG Organics™ BigMike’s OG Tea,Advanced Nutrients,nutrients
+353,0,no,,yes,yes,no,no,simple,3661,OG Oganics Bud Candy liter,Advanced Nutrients,nutrients
+354,0,no,,no,no,yes,no,simple,3111,"Nursery Pot, 20",,containers_pots
+355,0,no,,no,yes,no,no,simple,2067,Nuke Em insecticide & Fungicide,Hawthorne Hydoponics LLC,pest_control
+356,0,no,,no,no,yes,no,simple,2577,Noise Reduction Clamp 8,Sunlight Supply inc.,Environment Control
+357,0,no,,no,no,yes,no,simple,2576,Noise Reduction Clamp 6,Sunlight Supply inc.,Environment Control
+358,0,no,,no,no,yes,no,simple,2575,Noise Reduction Clamp 4,Sunlight Supply inc.,Environment Control
+359,0,no,,no,no,yes,no,simple,3390,Nitrile Gloves 4mil 100 Pack sm,BFG,Accessories
+360,0,no,,no,no,yes,no,simple,3358,"Nitrile Gloves -Powder-Free,4ml",@Flowers-HEMP,Accessories
+361,0,no,,yes,yes,no,no,simple,2789,New Millenium Pep Pack,Nickel City Wholesale Garden Supply,nutrients
+362,0,no,,no,no,no,no,simple,hmh00625,Netpots,,propagation
+363,0,no,,no,no,no,no,simple,3457,Netafim2 Wa. DripperStake 48cs,Hawthorne Hydoponics LLC,Hydroponics Components
+364,0,no,,no,no,no,no,simple,2475,Netafim Angle Barbed Stake,Hawthorne Hydoponics LLC,irrigation
+365,0,no,,no,no,no,no,simple,3460,Netafim 4 Way 48 Drippes 25/pk,Hawthorne Hydoponics LLC,Hydroponics Components
+366,0,no,,no,no,no,no,simple,3195,Netafim 2 Way Dripper Stake 48,Hawthorne Hydoponics LLC,Hydroponics Components
+367,0,no,,yes,yes,no,no,simple,1366,Neptune's Fish 2 - 4 -1,BFG,nutrients
+368,0,no,,no,no,yes,no,simple,818,Neoprene (Thick),Nickel City Wholesale Garden Supply,Accessories
+369,0,no,,yes,yes,no,no,simple,3045,Nectar For The Gods Olympus Up,Sunlight Supply inc.,nutrients
+370,0,no,,no,no,no,no,simple,2109,Nano Dome 7 Vented sunblaster,Nickel City Wholesale Garden Supply,propagation
+371,0,no,,no,no,yes,no,simple,1895,NX Level Pot Elevator - 18.5 in,Hawthorne Hydoponics LLC,containers_pots
+372,0,no,,no,no,yes,no,simple,1851,NX Level Pot Elevator - 16 in,Hawthorne Hydoponics LLC,containers_pots
+373,0,no,,no,no,yes,no,simple,1850,NX Level Pot Elevator - 13 in,Hawthorne Hydoponics Llc,containers_pots
+374,0,no,,yes,yes,no,no,simple,1158,NSR Root Juice,Nickel City Wholesale Garden Supply,nutrients
+375,0,no,,no,no,yes,no,simple,2528,NODOR Puck 8,Nickel City Wholesale Garden Supply,Environment Control
+376,0,no,,no,no,yes,no,simple,2527,NODOR Puck 6,Nickel City Wholesale Garden Supply,Environment Control
+377,0,no,,no,no,no,no,simple,3179,NG Generator CO2 4 burner,Nickel City Wholesale Garden Supply,co2
+378,0,no,,no,no,yes,no,simple,3616,NETAFIM hole plug,Hawthorne Hydoponics LLC,electrical_supplies
+379,0,no,,no,no,no,no,simple,3463,NANOLUX Dimmable 8/cs,Nickel City Wholesale Garden Supply,grow_lights
+380,0,no,,yes,yes,no,no,simple,3352,N.M.Sciententics Cali Mag+,Phive8,nutrients
+381,0,no,,yes,yes,no,no,simple,3607,N.C.R. GROW Juice 2.5,BFG,nutrients
+382,0,no,,yes,yes,no,no,simple,2870,Mykos Drops Root Paks 10 gm,Nickel City Wholesale Garden Supply,nutrients
+383,0,no,,yes,yes,no,no,simple,hmh00101,Mykos - Mycorrhizal Inoculant Granular,Mykos,nutrients
+384,0,no,,no,yes,no,no,simple,3356,"Multi Aphids,mites,nats 8",,pest_control
+385,0,no,,yes,yes,no,no,simple,hmh01011,Mother Earth Organic Super Tea,Mother Earth,nutrients
+386,0,no,,no,no,no,no,simple,1644,Mother Earth Coco + Perlite Mix,Hawthorne Hydoponics LLC,grow_media
+387,0,no,,no,yes,no,no,simple,3474,Monterey B.t. biological,BFG,pest_control
+388,0,no,,no,no,yes,no,simple,1939,Monster Outer Bucket,Nickel City Wholesale Garden Supply,containers_pots
+389,0,no,,no,no,yes,no,simple,1938,Monster Inner Bucket,Nickel City Wholesale Garden Supply,containers_pots
+390,0,no,,no,no,no,no,simple,1936,Monster Expansion Kit,NGW,irrigation
+391,0,no,,no,no,yes,no,simple,3315,Monkey fan 16W steel ball beari,D.L. Wholesale,Accessories
+392,0,no,,no,no,yes,no,simple,2160,Mondi Thermo-Hygrometer,System,Environment Control
+393,0,no,,no,no,yes,no,simple,hmh01189,Mondi Super Saucers,Mondi Super,containers_pots
+394,0,no,,yes,no,no,no,simple,hmh00612,Mondi Mist & Spray Premium Compression Sprayer 1.5,Mondi Mist,irrigation
+395,0,no,,yes,no,no,no,simple,hmh00613,Mondi Mist & Spray Delux Compression Sprayer 1.2,Mondi Mist,irrigation
+396,0,no,,no,no,yes,no,simple,1869,Miwaukee PPM Probe Replacement,NGW,accessories
+397,0,no,,no,no,no,no,simple,380,Mini-Blocks 1.5x1.5x1.5 / 48ct,Nickel City Wholesale Garden Supply,Media
+398,0,no,,no,no,no,no,simple,761,Mini Sun Soaker 24 Paraboic,Nickel City Wholesale Garden Supply,Lighting Equipment
+399,0,no,,no,no,yes,no,simple,331,Mini Soil Scoop,System,accessories
+400,0,no,,no,no,yes,no,simple,222,Mini Angled Measuring Cup,Nickel City Wholesale Garden Supply,Accessories
+401,0,no,,yes,no,yes,no,simple,1652,Micro-Pore Single XL,NGW,Accessories
+402,0,no,,yes,no,no,no,simple,339,Micro Irrigation Kit,NGW,irrigation
+403,0,no,,no,no,no,no,simple,1946,Merlin GP Float Valve Kit,Nickel City Wholesale Garden Supply,irrigation
+404,0,no,,no,no,yes,no,simple,1434,Merlin GP Carbon Pre-Filter,Nickel City Wholesale Garden Supply,Accessories
+405,0,no,,yes,no,no,no,simple,1008,Membrane for Stealth 100/200,Nickel City Wholesale Garden Supply,irrigation
+406,0,no,,no,no,no,no,simple,1020,Membrane for Merlin GP,NGW,water_filtration
+407,0,no,,no,no,no,no,simple,1450,Membrane Evolution,Nickel City Wholesale Garden Supply,water_filtration
+408,0,no,,no,no,no,no,simple,487,Megafarm Complete,Nickel City Wholesale Garden Supply,irrigation
+409,0,no,,no,no,no,no,simple,2384,Medium Bat Wing Reflector,Nickel City Wholesale Garden Supply,grow_lights
+410,0,no,,yes,yes,no,no,simple,2964,MaxiCrop liquid fish 5-1-1,Sunlight Supply inc.,nutrients
+411,0,no,,no,no,no,no,simple,415,Maxi-Jet Water Pump 295 gph,Sunlight Supply inc.,irrigation
+412,0,no,,no,no,no,no,simple,1912,Maxi-Jet 900 Pump,NGW,irrigation
+413,0,no,,no,no,no,no,simple,1784,Maxi-Jet 750-230GPH Pump,NGW,irrigation
+414,0,no,,no,no,no,no,simple,1686,Maxi-Jet 500-132GPH Pump,NGW,irrigation
+415,0,no,,yes,yes,no,no,simple,hmh00018,Maxi Series,Maxi,nutrients
+416,0,no,,no,no,yes,no,simple,2134,Maxell LR1130 Battery,,accessories
+417,0,no,,no,no,yes,no,simple,2131,Master® Garden Syringes 60 ml,Hawthorne Hydoponics LLC,Accessories
+418,0,no,,no,no,no,no,simple,1522,Master Green 120 / 240,Hawthorne Hydoponics LLC,Lighting Equipment
+419,0,no,,no,no,no,no,simple,937,Magnum XXXL A/C Hood,NGW,Lighting Equipment
+420,0,no,,no,no,no,no,simple,hmh00573,Mag Drive Pumps,Mag Drive,irrigation
+421,0,no,,no,no,no,no,simple,3404,Macroplugs 1.5 Roundx1.57 Box,BFG,grow_media
+422,0,no,,no,no,yes,no,simple,1049,MW-802 Combo Meter,NGW,ph_meters
+423,0,no,,no,yes,no,no,simple,1894,MAMMOTH® CANNCONTROL,growcentia,pest_control
+424,0,no,,no,no,yes,no,simple,HMH-GEN-32X7HL,MAKE AMERICA GROW AGAIN,Nickel City Wholesale Garden Supply,Accessories
+425,0,no,,no,no,yes,no,simple,1870,MA850 Probe Replacement,NGW,ph_meters
+426,0,no,,yes,yes,no,no,simple,2844,M.E.- Sugar Load Heavy Brix Mol,,nutrients
+427,0,no,,yes,yes,no,no,simple,2845,M.E. Sugar Load Heavy Brix Gall,Sunlight Supply inc.,nutrients
+428,0,no,,no,no,yes,no,simple,3306,Luster leaf plant clips-15pk,BFG,Accessories
+429,0,no,,no,no,yes,no,simple,3555,Luster Leaf Digital Ph meter,BFG,ph_meters
+430,0,no,,no,yes,no,no,simple,3365,Lost Coast plant- ins/fung,BFG,pest_control
+431,0,no,,yes,yes,no,no,simple,162,Liquified Seaweed +Iron Lt,NGW,nutrients
+432,0,no,,yes,yes,no,no,simple,2808,Liquid Seaweed plus iron,Sunlight Supply inc.,nutrients
+433,0,no,,yes,yes,no,no,simple,hmh00033,Liquid KoolBloom™ 0 - 10 - 10,Liquid,nutrients
+434,0,no,,no,no,yes,no,simple,2833,Lightrail 4.0 Drive Motor Only,Nickel City Wholesale Garden Supply,Accessories
+435,0,no,,no,no,yes,no,simple,2917,LightRail Hanging Bracket tents,Sunlight Supply inc.,Accessories
+436,0,no,,no,no,yes,no,simple,2983,Light control 8 light 120/240,Nickel City Wholesale Garden Supply,Environment Control
+437,0,no,,no,no,yes,no,simple,hmh00611,Light Rail Accessories,GH,electrical_supplies
+438,0,no,,no,no,yes,no,simple,335,Light Intensity Meter,NGW,Accessories
+439,0,no,,no,no,yes,no,simple,3053,Light Control/4Outlets w/trigge,Nickel City Wholesale Garden Supply,Accessories
+440,0,no,,no,no,yes,no,simple,3052,Light Control / 8 Outlets W/12,Nickel City Wholesale Garden Supply,Accessories
+441,0,no,,no,no,yes,no,simple,1801,Large T-Labels 10pk,,accessories
+442,0,no,,no,no,yes,no,simple,974,Large Square Pot,NGW,containers_pots
+443,0,no,,no,no,no,no,simple,912,Large Round Air Stone,NGW,irrigation
+444,0,no,,no,no,no,no,simple,2385,Large Bat Wing Reflector,Nickel City Wholesale Garden Supply,grow_lights
+445,0,no,,yes,yes,no,no,simple,2822,Langbeinite (Sul-Po-Mag) 0-0-22,Sunlight Supply inc.,nutrients
+446,0,no,,no,no,yes,no,simple,1218,LT4-240-LTO 4 Light Timer,Nickel City Wholesale Garden Supply,controllers_timers
+447,0,no,,no,no,yes,no,simple,1219,LT4-240 4 Light Timer,Nickel City Wholesale Garden Supply,controllers_timers
+448,0,no,,no,no,yes,no,simple,1222,LT4-120-B 4 Light Timer,Nickel City Wholesale Garden Supply,controllers_timers
+449,0,no,,no,no,yes,no,simple,1214,LT4-120 4 Light Timer,Nickel City Wholesale Garden Supply,controllers_timers
+450,0,no,,no,no,yes,no,simple,hmh00633,LT4 - 4 Light Timer (120 or 240 V),Nickel City Wholesale Garden Supply,controllers_timers
+451,0,no,,no,no,yes,no,simple,1290,LS3 Light/High Load Switch,Nickel City Wholesale Garden Supply,Environment Control
+452,0,no,,no,no,yes,no,simple,1289,LS2 Light/High Load Switch,Nickel City Wholesale Garden Supply,Environment Control
+453,0,no,,no,no,yes,no,simple,1288,LS1 Light/High Load Switch,Nickel City Wholesale Garden Supply,Environment Control
+454,0,no,,no,no,yes,no,simple,hmh00635,LS Series Light and High Load Switcher,GH,controllers_timers
+455,0,no,,no,no,no,no,simple,1258,LPREG-1 Propane Gas Regulator,Nickel City Wholesale Garden Supply,co2
+456,0,no,,no,no,no,no,simple,1257,LPCV-1 Propane Crossover Valve,Nickel City Wholesale Garden Supply,irrigation
+457,0,no,,no,no,no,no,simple,1286,LP5 Co2 Generator 5-Burner,Nickel City Wholesale Garden Supply,co2
+458,0,no,,no,no,no,no,simple,1287,LP10 Co2 Generator 10-Burner,Nickel City Wholesale Garden Supply,co2
+459,0,no,,no,no,yes,no,simple,1361,LG.Through Grid Plant Support,Sunlight Supply inc.,accessories
+460,0,no,,no,no,no,no,simple,hmh01600,LEC 315 240V,Lec,grow_lights
+461,0,no,,yes,yes,no,no,simple,hmh00053,Jungle Green 17-15-17,Nickel City Wholesale Garden Supply,nutrients
+462,0,no,,no,no,no,no,simple,1719,Jet Stream 500GPH Pump,System,irrigation
+463,0,no,,no,no,yes,no,simple,3478,Jain Dan Mini Sprinkle,BFG,Accessories
+464,0,no,,no,no,no,no,simple,2470,Irrigation Riser Assembly/W-Tee,Hawthorne Hydoponics LLC,irrigation
+465,0,no,,no,no,no,no,simple,2157,Irrigation Octa-Bubbler 2gph ea,Hawthorne Hydoponics LLC,irrigation
+466,0,no,,yes,yes,no,no,simple,hmh01604,Ionic® Bloom 3-2-6 Premium Plant Nutrient 2.5,Ionic,nutrients
+467,0,no,,yes,yes,no,no,simple,2452,Ionic Soil/Coco Grow Qt3-1-5,Nickel City Wholesale Garden Supply,nutrients
+468,0,no,,yes,yes,no,no,simple,2454,Ionic Soil/Coco Grow . 3-1-5,Nickel City Wholesale Garden Supply,nutrients
+469,0,no,,yes,yes,no,no,simple,3357,Ionic PK Boost 2.5,Nickel City Wholesale Garden Supply,nutrients
+470,0,no,,no,yes,no,no,simple,1044,Insect Frass™ 2 - 2 - 2,,pest_control
+471,0,no,,no,no,yes,no,simple,472,Inner Bucket Replacement,Nickel City Wholesale Garden Supply,containers_pots
+472,0,no,,no,no,yes,no,simple,3495,IndustrialGradeHumidifier 200pt,Hawthorne Hydoponics LLC,Environment Control
+473,0,no,,no,no,no,no,simple,3087,In-Line Irrigation Valve 3/16,,irrigation
+474,0,no,,no,no,yes,no,simple,1839,Impeller Replacement #3-5,NGW,accessories
+475,0,no,,yes,no,no,no,simple,518,Illuminated Microscope 60-100x,NGW,irrigation
+476,0,no,,yes,yes,no,no,simple,2777,Iguana Juice Bloom Organic Fer,Advanced Nutrients,nutrients
+477,0,no,,no,no,yes,no,simple,1229,IR-2 Interfacing Relay/Dual Pow,Nickel City Wholesale Garden Supply,controllers_timers
+478,0,no,,no,no,yes,no,simple,1228,IR-1 Interfacing Relay,Nickel City Wholesale Garden Supply,controllers_timers
+479,0,no,,no,no,no,no,simple,3256,Hydroton Original 25 Liter,Hawthorne Hydoponics LLC,grow_media
+480,0,no,,no,no,yes,no,simple,1928,Hydroponics Basics,Nickel City Wholesale Garden Supply,Accessories
+481,0,no,,no,no,no,no,simple,1022,Hydrologic Black Tubing 3/8,Nickel City Wholesale Garden Supply,irrigation
+482,0,no,,yes,yes,no,no,simple,2210,Hydroguard Root Protection/,Hawthorne Hydoponics LLC,nutrients
+483,0,no,,yes,yes,no,no,simple,hmh01615,Hydrodynamics int. Coco/Soil Grow & Bloom,Hydrodynamics,nutrients
+484,0,no,,yes,no,no,no,simple,hmh01358,Hydrodyamics Clonex Mist,Nickel City Wholesale Garden Supply,propagation
+485,0,no,,yes,yes,no,no,simple,hmh01611,HydroDynamics Ionic® PK Boost 0-5-6 Premium Plant Nutrient,Ionic,nutrients
+486,0,no,,yes,yes,no,no,simple,hmh01608,HydroDynamics Ionic® Grow 3-1-5 Premium Plant Nutrient 2.5,Ionic,nutrients
+487,0,no,,no,no,no,no,simple,2859,Hydro Flow EZ Pull End Cap 3/8,Sunlight Supply inc.,irrigation
+488,0,no,,no,no,no,no,simple,2984,Hydro Flow EZ Pull End Cap 1/2,Sunlight Supply inc.,irrigation
+489,0,no,,yes,yes,no,no,simple,hmh00096,Humboldt Sticky Foliar Feed,Humboldt Sticky,nutrients
+490,0,no,,yes,yes,no,no,simple,hmh00094,Humboldt Roots,NGW,nutrients
+491,0,no,,yes,yes,no,no,simple,hmh00069,Humboldt Micro 5-0-1,Humboldt Micro,nutrients
+492,0,no,,yes,yes,no,no,simple,hmh00068,Humboldt Grow 2-1-6,Humboldt Grow,nutrients
+493,0,no,,no,no,yes,no,simple,3564,Huckleberry Pie F-65 day,@Flowers-HEMP,Accessories
+494,0,no,,no,no,no,no,simple,2645,Hortilux400WHPS Enhanced Specs,,hid_bulbs
+495,0,no,,no,no,no,no,simple,hmh01519,Hortilux-Blue Daylight Metal Halide Lamps,GH,grow_lights
+496,0,no,,no,no,no,no,simple,3202,Hortilux Silver 600 E Ballast,Nickel City Wholesale Garden Supply,grow_lights
+497,0,no,,no,no,no,no,simple,768,Hortilux CMH 315 Grow Sys,Nickel City Wholesale Garden Supply,grow_lights
+498,0,no,,no,no,no,no,simple,2646,Hortilux Blue MH Lamp - 600 Wat,Nickel City Wholesale Garden Supply,grow_lights
+499,0,no,,no,no,no,no,simple,2647,Hortilux Ballast and Lamp Kit,Nickel City Wholesale Garden Supply,grow_lights
+500,0,no,,yes,yes,no,no,simple,1620,HollandSecret Micro HW Lt.5-0-2,Nickel City Wholesale Garden Supply,nutrients
+501,0,no,,yes,yes,no,no,simple,1841,Holland Secret Grow-Micro-Bloom,Nickel City Wholesale Garden Supply,nutrients
+502,0,no,,yes,yes,no,no,simple,2142,Himalaya 110w XHO Bloom T5 Bulb,Nickel City Wholesale Garden Supply,nutrients
+503,0,no,,no,no,no,no,simple,2596,Heated Prop. Kit w/7dome/light,Hawthorne Hydoponics LLC,propagation
+504,0,no,,no,no,no,no,simple,hmh01417,Heat Mat Single Tray,Sunlight Supply inc.,propagation
+505,0,no,,no,no,no,no,simple,2699,Harvest More® TrimBin - Black,BFG,harvesting
+506,0,no,,no,no,no,no,simple,3158,Harvest More® Scissor Scrubber,BFG,harvesting
+507,0,no,,yes,yes,no,no,simple,1714,Harvest Moon-All Purpose,Nickel City Wholesale Garden Supply,nutrients
+508,0,no,,no,no,yes,no,simple,1888,Hanna Combo Meter (Black),NGW,ph_meters
+509,0,no,,no,no,yes,no,simple,1960,Hanna 1382 ppm Packet,,ph_meters
+510,0,no,,no,no,no,no,simple,332,Handy Craft Scissors,System,harvesting
+511,0,no,,yes,yes,no,no,simple,2070,Hammerhead pk 4/10 Lt,Advanced Nutrients,nutrients
+512,0,no,,yes,yes,no,no,simple,3483,HYSHIELD boosts the plant,D.L. Wholesale,nutrients
+513,0,no,,yes,yes,no,no,simple,3487,HYCLEAN Line & Equipment Cleane,D.L. Wholesale,nutrients
+514,0,no,,no,no,no,no,simple,1769,HO Tripho T5 Bulb (red),Nickel City Wholesale Garden Supply,grow_lights
+515,0,no,,no,no,yes,no,simple,2041,HM pH-80 Meter,NGW,Accessories
+516,0,no,,no,no,yes,no,simple,2073,HM pH-200 Probe Replacement,NGW,ph_meters
+517,0,no,,yes,no,yes,no,simple,1046,HM pH-200 Meter,Nickel City Wholesale Garden Supply,ph_meters
+518,0,no,,no,no,yes,no,simple,1227,HF-1 Relay w/ Humidistat,Nickel City Wholesale Garden Supply,controllers_timers
+519,0,no,,no,no,no,no,simple,1180,HARVEST MOON tee shirt,Nickel City Wholesale Garden Supply,irrigation
+520,0,no,,no,no,yes,no,simple,1226,HAR-1 High Amerage Relay,Nickel City Wholesale Garden Supply,controllers_timers
+521,0,no,,no,no,no,no,simple,810,H2O - air disc,Nickel City Wholesale Garden Supply,irrigation
+522,0,no,,yes,yes,no,no,simple,286,H-2 Lt,Advanced Nutrients,nutrients
+523,0,no,,no,no,no,no,simple,1417,Gypsum 6,,grow_media
+524,0,no,,yes,yes,no,no,simple,2952,Guano Washing machine 20,Nickel City Wholesale Garden Supply,nutrients
+525,0,no,,no,no,yes,no,simple,515,Guano Filter Mini-Washer 5,Nickel City Wholesale Garden Supply,Accessories
+526,0,no,,no,no,no,no,simple,1889,Grubbycup's Simple Hydro,System,irrigation
+527,0,no,,no,no,yes,no,simple,2767,Grozone SCC1 Controller,Sunlight Supply inc.,controllers_timers
+528,0,no,,yes,yes,no,no,simple,3098,GrowBig FoxFarm 6 - 4 - 4 2.5Ga,Sunlight Supply inc.,nutrients
+529,0,no,,no,no,no,no,simple,3308,Grow-Cubes Bulk Loose Box 5.7cf,Hawthorne Hydoponics LLC,grow_media
+530,0,no,,no,no,no,no,simple,3160,Grow-Cubes Bulk Box 5.7 cf,Hawthorne Hydoponics LLC,grow_media
+531,0,no,,no,no,no,no,simple,2080,Grow Force Air Pump,Nickel City Wholesale Garden Supply,irrigation
+532,0,no,,no,no,yes,no,simple,1924,Grow Bag 25Pk,NGW,containers_pots
+533,0,no,,no,no,yes,no,simple,3596,Grove TERP LOCK 1/2 0z,groVE BAG,Accessories
+534,0,no,,no,no,no,no,simple,1447,Groundswell™ Performance Soil,Hawthorne Hydoponics LLC,grow_media
+535,0,no,,yes,yes,no,no,simple,3274,Grotek™ Bloom Pack™,BFG,nutrients
+536,0,no,,yes,yes,no,no,simple,2798,Grotek Bloom BOSTER 130 gm,Sunlight Supply inc.,nutrients
+537,0,no,,no,no,no,no,simple,hmh00616,Grommets,,irrigation
+538,0,no,,no,no,no,no,simple,3114,Grodon start plugs R/W 50 plugs,Nickel City Wholesale Garden Supply,grow_media
+539,0,no,,no,no,no,no,simple,3456,Grodon Hugo 6/Cs.- 64,Hawthorne Hydoponics LLC,grow_media
+540,0,no,,no,no,no,no,simple,2831,Grodon Bulk Grow cubes Case,Sunlight Supply inc.,grow_media
+541,0,no,,no,no,no,no,simple,3558,Grodan® Grow-Cubes lose,BFG,grow_media
+542,0,no,,no,no,no,no,simple,3288,Grodan Improved cubes /24,Hawthorne Hydoponics LLC,grow_media
+543,0,no,,no,no,no,no,simple,2830,Grodan Growcubes Box,Sunlight Supply inc.,grow_media
+544,0,no,,no,no,no,no,simple,1460,Grodan Gro 6x6x4 Jumbo,Hawthorne Hydoponics LLC,grow_media
+545,0,no,,no,no,no,no,simple,1459,Grodan Gro 6 x 6 x 6 HUGO,Hawthorne Hydoponics LLC,grow_media
+546,0,no,,no,no,no,no,simple,2391,Grodan A-Ok Starters 1,Sunlight Supply inc.,grow_media
+547,0,no,,yes,no,yes,no,simple,2796,Gro Pro® Root Master Pots,Gro,containers_pots
+548,0,no,,no,no,yes,no,simple,887,Gringo Rasta® Rhize Mycorrh,Sunlight Supply inc.,Accessories
+549,0,no,,no,no,yes,no,simple,1198,Green Eye L.E.D Flashlight,NGW,Accessories
+550,0,no,,yes,no,yes,no,simple,hmh00589,Green Air Genesis Calibration Solutions,Green Air,ph_meters
+551,0,no,,yes,yes,no,no,simple,3615,Grase Liquid Bison Extract,GREASE,nutrients
+552,0,no,,yes,yes,no,no,simple,1995,Granular Root Zone,BFG,nutrients
+553,0,no,,no,no,no,no,simple,413,Granular Mycorrhizae 3 - 1 - 2,,grow_media
+554,0,no,,no,no,yes,no,simple,2048,Graduated Cylinder 500 ml,Hawthorne Hydoponics LLC,Accessories
+555,0,no,,no,no,no,no,simple,503,Gold label Hydroton 50L Large,Nickel City Wholesale Garden Supply,grow_media
+556,0,no,,yes,yes,no,no,simple,1210,Genesis pH7.01 Buffer Solution,System,nutrients
+557,0,no,,yes,yes,no,no,simple,1209,Genesis 1413/1500 Solutions,System,nutrients
+558,0,no,,yes,yes,no,no,simple,hmh01555,General Hydroponics® CocoTek® Grow - A 3 - 0 - 1 & B 1 - 2 - 4,General Hydroponics,nutrients
+559,0,no,,no,no,no,no,simple,1919,Gavita Pro 900e LED 120-277V,Hawthorne Hydoponics LLC,grow_lights
+560,0,no,,no,no,no,no,simple,2406,Gavita Pro . 400 V EL D/E,Hawthorne Hydoponics LLC,grow_lights
+561,0,no,,no,no,no,no,simple,3503,Gavita Master Controller EL2,Hawthorne Hydoponics LLC,grow_lights
+562,0,no,,no,no,no,no,simple,1670,Gavita 6/750watt 400 V. EL DE,Hawthorne Hydoponics LLC,grow_lights
+563,0,no,,no,no,no,no,simple,HMH-SED-KJME4C,Garlic Jam @ Flowers,@Flowers-HEMP,seeds
+564,0,no,,no,no,yes,no,simple,2805,Gardeneer Trellis Netting 5x30,Sunlight Supply inc.,Accessories
+565,0,no,,no,yes,no,no,simple,hmh00563,Garden Fungicide 32,Garden Fungicide,pest_control
+566,0,no,,no,yes,no,no,simple,hmh00564,Garden Fungicide 1,Garden Fungicide,pest_control
+567,0,no,,no,no,no,no,simple,2335,Galaxy Select-A-Watt Ballast,Nickel City Wholesale Garden Supply,grow_lights
+568,0,no,,no,no,no,no,simple,2592,Galaxy Grow Amp - 240V,Nickel City Wholesale Garden Supply,Lighting Equipment
+569,0,no,,no,no,no,no,simple,2551,Galaxy D/E Dimmable 600/1150 W,Hawthorne Hydoponics LLC,Lighting Equipment
+570,0,no,,no,no,no,no,simple,hmh01779,GREENPOWERLUMINAIRES 630 Remote,Nickel City Wholesale Garden Supply,grow_lights
+571,0,no,,yes,yes,no,no,simple,3621,GREASE Yellow FINISHER 500,GREASE,nutrients
+572,0,no,,yes,yes,no,no,simple,3605,GREASE Fermented Cannabis Kit,GEASE,nutrients
+573,0,no,,yes,yes,no,no,simple,3645,GREASE CannaGrow Ferminated500m,GREASE,nutrients
+574,0,no,,yes,yes,no,no,simple,3617,GREASE CannaGrow Ferminated 250,GREASE,nutrients
+575,0,no,,yes,yes,no,no,simple,3542,GREASE CANNABLOOM FERMENTED 250,GEASE,nutrients
+576,0,no,,no,no,no,no,simple,440,GH Farm Kit,Nickel City Wholesale Garden Supply,irrigation
+577,0,no,,no,no,no,no,simple,1308,GEN-2eNG Nat. Gas Co2 Generator,Nickel City Wholesale Garden Supply,co2
+578,0,no,,no,no,no,no,simple,1306,GEN-2eLP Propane Co2 Generator,Nickel City Wholesale Garden Supply,co2
+579,0,no,,no,no,no,no,simple,1307,GEN-1eNG Nat. Gas Co2 Generator,Nickel City Wholesale Garden Supply,co2
+580,0,no,,no,no,no,no,simple,1305,GEN-1eLP Propane Co2 Generator,Nickel City Wholesale Garden Supply,co2
+581,0,no,,no,no,yes,no,simple,3571,GELATO #41 @Flowers 32%,@Flowers-HEMP,Accessories
+582,0,no,,no,no,yes,no,simple,3517,GARLIC JAM/auto 34%,@Flowers-HEMP,Accessories
+583,0,no,,no,no,yes,no,simple,2960,G.P.Premium Nursery Pots 3,Sunlight Supply inc.,Pots/Containers
+584,0,no,,no,no,yes,no,simple,3257,G.M.O. Auto OG,@Flowers-HEMP,Accessories
+585,0,no,,yes,yes,no,no,simple,2948,G.H. MAXI BLOOM dry 4,Nickel City Wholesale Garden Supply,nutrients
+586,0,no,,no,no,no,no,simple,2388,G.H. Black 1/Drip Line 100',Nickel City Wholesale Garden Supply,irrigation
+587,0,no,,no,no,yes,no,simple,726,G.H. 3x6 Grow Tray,Nickel City Wholesale Garden Supply,containers_pots
+588,0,no,,no,no,no,no,simple,729,G.H. 20Gal Reservoir Only,Nickel City Wholesale Garden Supply,irrigation
+589,0,no,,no,no,yes,no,simple,730,G.H. 20Gal Lid Only,Nickel City Wholesale Garden Supply,accessories
+590,0,no,,no,yes,no,no,simple,3239,G.H T.S./Isecticide/Mites/Fung,Hawthorne Hydoponics LLC,pest_control
+591,0,no,,yes,yes,no,no,simple,3505,Ful acidsVtype fulvics acids,Phive8,nutrients
+592,0,no,,yes,yes,no,no,simple,3610,Ful acidsVTECH fulvic acids,Phive8,nutrients
+593,0,no,,no,no,no,no,simple,3554,Froot by Foot Auto 36.1%,@Flowers-HEMP,seeds
+594,0,no,,yes,yes,no,no,simple,3205,FoxFarm® Liquid Nutrient Trio,BFG,nutrients
+595,0,no,,yes,yes,no,no,simple,316,FoxFarm Microbe Brew,NGW,nutrients
+596,0,no,,yes,yes,no,no,simple,319,FoxFarm Kangaroots,NGW,nutrients
+597,0,no,,yes,yes,no,no,simple,2518,FoxFarm Flowers Kiss,Sunlight Supply inc.,nutrients
+598,0,no,,yes,yes,no,no,simple,826,FoxFarm Beastie Bloomz 6,Sunlight Supply inc.,nutrients
+599,0,no,,yes,yes,no,no,simple,3099,FoxF Rasta Funky 0-5-4,Sunlight Supply inc.,nutrients
+600,0,no,,yes,yes,no,no,simple,944,Fox Farm planting mix,Sunlight Supply inc.,nutrients
+601,0,no,,yes,yes,no,no,simple,1499,Fox Farm Tiger Bloom,growcentia,nutrients
+602,0,no,,yes,yes,no,no,simple,2039,"Formula 420 3-in-1 Spray, 1",Nickel City Wholesale Garden Supply,pest_control
+603,0,no,,no,no,yes,no,simple,3565,Fog Dog 65-70 Day 29%-35%,@Flowers-HEMP,Accessories
+604,0,no,,no,no,yes,no,simple,hmh00583,Flowmaster - Meter 3/8 in,Flowmaster,accessories
+605,0,no,,yes,yes,no,no,simple,hmh00027,Floralicious Series,Floralicious,nutrients
+606,0,no,,yes,yes,no,no,simple,3201,FloraPro™ Calcium + Micros,Hawthorne Hydoponics LLC,nutrients
+607,0,no,,yes,yes,no,no,simple,3197,FloraPro® Grow 10-12-22/,Hawthorne Hydoponics LLC,nutrients
+608,0,no,,yes,yes,no,no,simple,3198,FloraPro® Bloom 7-12-27/,Hawthorne Hydoponics LLC,nutrients
+609,0,no,,yes,yes,no,no,simple,hmh00017,FloraNova Series,General Hydroponics,nutrients
+610,0,no,,yes,yes,no,no,simple,98,FloraMicro Micro Formula,Nickel City Wholesale Garden Supply,nutrients
+611,0,no,,yes,yes,no,no,simple,hmh01827,FloraGro 275,General Hydroponics,nutrients
+612,0,no,,no,no,no,no,simple,2549,FloraFlex FloraClip 2.0(1=12/pk,flora flex,irrigation
+613,0,no,,no,no,no,no,simple,2474,FloraFlex Air Bleed Valve 3/4,Hawthorne Hydoponics LLC,irrigation
+614,0,no,,no,no,no,no,simple,2548,FloraFlex 8 in FloraCap 2.0,FloraFlex,irrigation
+615,0,no,,no,no,no,no,simple,3169,FloraFlex 6 in PotPro Pot,Hawthorne Hydoponics LLC,irrigation
+616,0,no,,no,no,no,no,simple,2135,FloraFl Tubing 1/4 in OD 100`,Hawthorne Hydoponics LLC,irrigation
+617,0,no,,yes,yes,no,no,simple,hmh00026,FloraDuo Complete,General Hydroponics,nutrients
+618,0,no,,yes,yes,no,no,simple,hmh00016,Flora Series,Flora,nutrients
+619,0,no,,yes,yes,no,no,simple,hmh01828,Flora Bloom 275,Nickel City Wholesale Garden Supply,nutrients
+620,0,no,,yes,no,no,no,simple,1014,Float Valve 1/Stealth RO,Nickel City Wholesale Garden Supply,water_filtration
+621,0,no,,yes,no,no,no,simple,2124,Flo-N-Brew Tea Kit,NGW,irrigation
+622,0,no,,no,no,no,no,simple,hmh01970,Flashgro Roll,Flashgro,grow_room_materials
+623,0,no,,no,no,yes,no,simple,2382,Flash-Gro 25' Roll,Nickel City Wholesale Garden Supply,Accessories
+624,0,no,,no,no,no,no,simple,824,Fitting Washer,Nickel City Wholesale Garden Supply,irrigation
+625,0,no,,yes,no,no,no,simple,1827,Fiskars® Micro Tip Pruning Snip,BFG,harvesting
+626,0,no,,yes,yes,no,no,simple,3544,Fermented vegetative canna 250,GEASE,nutrients
+627,0,no,,yes,yes,no,no,simple,1814,FLOWER BOX F.H.D.4/qts,Nickel City Wholesale Garden Supply,nutrients
+628,0,no,,no,no,yes,no,simple,1331,FHD. 17 Heavy- saucers,Nickel City Wholesale Garden Supply,Accessories
+629,0,no,,no,no,yes,no,simple,896,FHD heavey duty Saucers,Nickel City Wholesale Garden Supply,Pots/Containers
+630,0,no,,no,no,yes,no,simple,911,FHD 14 Heavey duty Saucers,Nickel City Wholesale Garden Supply,Pots/Containers
+631,0,no,,no,no,yes,no,simple,1249,FF0-10 Flat Whisper Fan 10,System,Environment Control
+632,0,no,,yes,yes,no,no,simple,3291,FADE nitro-free finishing flush,Athena,nutrients
+633,0,no,,no,no,yes,no,simple,3530,FA5 Clear Housing for Filter,Hawthorne Hydoponics LLC,Pots/Containers
+634,0,no,,no,no,yes,no,simple,988,F.H.D.-1020 Duoble Xtra thick,Nickel City Wholesale Garden Supply,Pots/Containers
+635,0,no,,no,no,no,no,simple,3459,F.F. Air Bleed Valve 3/4 cs/6,Hawthorne Hydoponics LLC,irrigation
+636,0,no,,no,no,no,no,simple,2434,Ez Clone 32 Site,Sunlight Supply inc.,propagation
+637,0,no,,no,no,no,no,simple,2442,Ez Clone 16 Site,Sunlight Supply inc.,propagation
+638,0,no,,no,no,no,no,simple,hmh01934,Eye Hortilux® CMH 315 Lamp,Eye,grow_lights
+639,0,no,,no,no,yes,no,simple,3477,Evolution RO chlorashield,Hawthorne Hydoponics LLC,Environment Control
+640,0,no,,no,no,no,no,simple,1201,Elbow 3/4,NGW,irrigation
+641,0,no,,no,no,no,no,simple,782,Elbow 1/4,NGW,irrigation
+642,0,no,,no,yes,no,no,simple,hmh00155,Ed Rosenthal's Zero Tolerance Herbal Pesticide-Fungicide,Zero Tolerance,pest_control
+643,0,no,,no,no,no,no,simple,2078,Ecoplus 240 3/4HP Pump,Nickel City Wholesale Garden Supply,irrigation
+644,0,no,,no,no,no,no,simple,2077,Ecoplus 230 1/2HP Pump,Nickel City Wholesale Garden Supply,irrigation
+645,0,no,,no,no,no,no,simple,1806,EcoPlus Pump Fittings (Black),EcoPlus,irrigation
+646,0,no,,no,no,no,no,simple,hmh01308,EcoPlus Pump Filter Bags,EcoPlus,irrigation
+647,0,no,,no,no,no,no,simple,3423,EcoPlus Eco 100 pump,Hawthorne Hydoponics LLC,irrigation
+648,0,no,,no,no,no,no,simple,2250,EcoPlus Disc Air Stone,Sunlight Supply inc.,irrigation
+649,0,no,,no,no,no,no,simple,hmh01315,EcoPlus Commercial Air Pumps,Sunlight Supply inc.,irrigation
+650,0,no,,no,no,no,no,simple,2861,EcoPlus Commercial Air 7,Sunlight Supply inc.,irrigation
+651,0,no,,no,no,yes,no,simple,1923,EcoPlus 600 CFM Blower,Nickel City Wholesale Garden Supply,airflow
+652,0,no,,no,no,no,no,simple,683,EcoPlus 180 CFM Blower,NGW,irrigation
+653,0,no,,no,no,no,no,simple,1367,EcoPlus 132 GPH Pump,NGW,irrigation
+654,0,no,,no,no,no,no,simple,917,EcoPlus 1056 GPH Pump,NGW,irrigation
+655,0,no,,no,no,no,no,simple,906,Eco Air-8/380.4 gph,NGW,irrigation
+656,0,no,,no,no,no,no,simple,2190,Eco 633 Submersible/Pump 594GPH,Hawthorne Hydoponics LLC,irrigation
+657,0,no,,no,no,yes,no,simple,470,Ebb & Gro Controller Unit,Nickel City Wholesale Garden Supply,controllers_timers
+658,0,no,,no,no,no,no,simple,751,Earthshine Biochar Blend 5,Sunlight Supply inc.,grow_media
+659,0,no,,yes,yes,no,no,simple,2715,Earth Juice Rainbow Mix Grow,Sunlight Supply inc.,nutrients
+660,0,no,,no,no,yes,no,simple,2574,EZ storage 18,Hawthorne Hydoponics LLC,Pots/Containers
+661,0,no,,no,no,yes,no,simple,1711,EZ Stor™ Container 8,Hawthorne Hydoponics LLC,containers_pots
+662,0,no,,no,no,no,no,simple,1712,EZ Stor Lid for 8,Hawthorne Hydoponics LLC,irrigation
+663,0,no,,no,no,no,no,simple,2503,EZ Clone 64 Site,Sunlight Supply inc.,propagation
+664,0,no,,yes,no,no,no,simple,833,EZ Clone 360 Sprayer (Red),NGW,propagation
+665,0,no,,no,no,no,no,simple,710,EZ Clone 30 Site,NGW,propagation
+666,0,no,,no,no,no,no,simple,712,EZ Clone 128 Site,NGW,propagation
+667,0,no,,no,no,no,no,simple,1570,EYE 220w HPS Conevrsion,System,grow_lights
+668,0,no,,no,no,yes,no,simple,1326,EOS 1 Humidity Controller,NGW,controllers_timers
+669,0,no,,yes,yes,no,no,simple,1433,ECS-T8 Electrode Cleaner Pack,NGW,nutrients
+670,0,no,,no,yes,no,no,simple,3380,ECOWORKS EC® . OMRI,Nickel City Wholesale Garden Supply,pest_control
+671,0,no,,no,no,no,no,simple,3421,E-pap 660Watt LED diming 240V,Phive8,Lighting Equipment
+672,0,no,,no,no,no,no,simple,1925,E-Series LED Adapter - 120 - 2,Hawthorne Hydoponics LLC,Lighting Equipment
+673,0,no,,no,no,no,no,simple,hmh01633,E-Papillon 240V. W / Lamp,,grow_lights
+674,0,no,,no,no,no,no,simple,2511,E Papillon Lighting System 630,Nickel City Wholesale Garden Supply,Lighting Equipment
+675,0,no,,no,no,no,no,simple,hmh01636,D‐Papillon FULL SPECTRUM 240V,Nickel City Wholesale Garden Supply,grow_lights
+676,0,no,,yes,yes,no,no,simple,2324,Dyna-Gro Root Gel 40z,Nickel City Wholesale Garden Supply,nutrients
+677,0,no,,yes,yes,no,no,simple,44,Dyna-Gro Liquid Grow . 7-9-5,Dyna-Gro,nutrients
+678,0,no,,yes,yes,no,no,simple,1166,Dyna-Gro K-L-N Conc. Q,Sunlight Supply inc.,nutrients
+679,0,no,,yes,yes,no,no,simple,72,Dyna-Gro Grow,Dyna-Gro,nutrients
+680,0,no,,yes,yes,no,no,simple,1733,Dyna-Gro Bloom,NGW,nutrients
+681,0,no,,yes,yes,no,no,simple,3488,Dyna Mag-Pro 2-15-4/5,D.L. Wholesale,nutrients
+682,0,no,,no,no,yes,no,simple,3020,Duralastics Tray 2 ft x 4 ft ID,Sunlight Supply inc.,containers_pots
+683,0,no,,no,no,yes,no,simple,2773,Duralastics 4X4 ID tray Black,Sunlight Supply inc.,containers_pots
+684,0,no,,no,no,yes,no,simple,725,Duralastics 3x3 Grow Tray,Nickel City Wholesale Garden Supply,containers_pots
+685,0,no,,no,no,yes,no,simple,3112,"DuraBreeze Pedestal Fan, 18",,airflow
+686,0,no,,no,no,no,no,simple,3094,Duoble-Ended MH 10K,Nickel City Wholesale Garden Supply,Bulbs
+687,0,no,,yes,yes,no,no,simple,hmh00076,DueceDuece,,nutrients
+688,0,no,,no,no,no,no,simple,hmh00649,Ducting,,catalog_index
+689,0,no,,no,no,no,no,simple,hmh01592,Dual Lamp Fixture,Dual Lamp,grow_lights
+690,0,no,,no,no,no,no,simple,1544,Dual Diaphragm Rebuild Kit,Nickel City Wholesale Garden Supply,irrigation
+691,0,no,,no,no,no,no,simple,hmh00571,Dual Diaphragm Air Pump,Nickel City Wholesale Garden Supply,irrigation
+692,0,no,,no,no,no,no,simple,514,Drying Rack 4 Tier,Nickel City Wholesale Garden Supply,harvesting
+693,0,no,,no,no,yes,no,simple,2501,Dry Net 4 Tier,Nickel City Wholesale Garden Supply,Accessories
+694,0,no,,no,no,yes,no,simple,3513,Drop Air X Humidifiers 200 pts,lDL Wholesale,Environment Control
+695,0,no,,no,no,no,no,simple,1860,Drive Wheel Replacement,Nickel City Wholesale Garden Supply,trimming
+696,0,no,,no,no,no,no,simple,1530,Drive Trolley Wheel O-Ring,Nickel City Wholesale Garden Supply,grow_lights
+697,0,no,,yes,no,no,no,simple,2827,Down to earth Kelp Meal 0-0-1.5,Sunlight Supply inc.,seeds
+698,0,no,,yes,yes,no,no,simple,2824,Down To Earth™ Oyster Shell,Sunlight Supply inc.,nutrients
+699,0,no,,yes,yes,no,no,simple,749,Down To Earth™ Greensand 25,Sunlight Supply inc.,nutrients
+700,0,no,,yes,yes,no,no,simple,3625,Down To Earth Vegan Mix 3 - 2 - 2,BFG,nutrients
+701,0,no,,yes,yes,no,no,simple,hmh01808,Down To Earth Vegan Mix - 6,Down To,nutrients
+702,0,no,,yes,yes,no,no,simple,hmh01809,Down To Earth Vegan Mix - 25,Down To,nutrients
+703,0,no,,yes,no,no,no,simple,hmh01798,Down To Earth Neem Seed Meal 6 - 1 - 2,Down To,seeds
+704,0,no,,no,no,no,no,simple,hmh01810,Down To Earth Kelp Meal 1 - 0.1 - 2,Sunlight Supply inc.,seeds
+705,0,no,,no,no,no,no,simple,hmh01811,Down To Earth Kelp Meal - 5,Sunlight Supply inc.,seeds
+706,0,no,,no,no,no,no,simple,hmh01812,Down To Earth Kelp Meal - 20,Sunlight Supply inc.,seeds
+707,0,no,,yes,yes,no,no,simple,hmh01801,Down To Earth Granular Humic Acids,Down To,nutrients
+708,0,no,,yes,no,no,no,simple,hmh01813,Down To Earth Fish Bone Meal 3 - 16 - 0,Down To,seeds
+709,0,no,,no,no,no,no,simple,hmh01814,Down To Earth Fish Bone Meal - 6,Down To,seeds
+710,0,no,,no,no,no,no,simple,hmh01804,Down To Earth Bone Meal 3 - 15 - 0,Sunlight Supply inc.,seeds
+711,0,no,,yes,yes,no,no,simple,3211,Down To Earth Bio-Live - 50,Hawthorne Hydoponics LLC,nutrients
+712,0,no,,no,no,no,no,simple,2526,Double Thick Propagation Tray,Nickel City Wholesale Garden Supply,propagation
+713,0,no,,yes,yes,no,no,simple,hmh00065,Double Super B+ Extra Strength,Double Super,nutrients
+714,0,no,,no,no,no,no,simple,2595,Double Ended Socket Set,Sunlight Supply inc.,grow_lights
+715,0,no,,no,no,no,no,simple,2076,Dome for Cloner,Nickel City Wholesale Garden Supply,propagation
+716,0,no,,no,no,no,no,simple,1409,Dolly Bk 24 in Round w-Drain,Sunlight Supply inc.,irrigation
+717,0,no,,no,yes,no,no,simple,hmh00150,Doktor Doom Fogger,Doktor Doom,pest_control
+718,0,no,,no,yes,no,no,simple,1684,Doctor Zymes Eliminator,Hawthorne Hydoponics LLC,pest_control
+719,0,no,,no,no,yes,no,simple,3567,Dirty Laundry/GMO & Cookies,@Flowers-HEMP,Accessories
+720,0,no,,no,no,yes,no,simple,3489,Dirt Defense 6mil Nitrile Glove,D.L. Wholesale,accessories
+721,0,no,,no,no,yes,no,simple,3490,Dirt Defense 6mil Diamond Grip,D.L. Wholesale,Accessories
+722,0,no,,no,no,no,no,simple,946,Dio-Watt® 108 60W LED Rails,Sunlight Supply inc.,grow_lights
+723,0,no,,no,no,yes,no,simple,3305,Digital ph soil tester,BFG,ph_meters
+724,0,no,,no,no,yes,no,simple,302,Digital Temp & Humidity,NGW,Accessories
+725,0,no,,no,no,yes,no,simple,857,Digital Scale with 4L Bowl/w Bo,Sunlight Supply inc.,accessories
+726,0,no,,no,no,no,no,simple,hmh01538,Diamond Silver White Film,Nickel City Wholesale Garden Supply,grow_tents
+727,0,no,,no,no,no,no,simple,2635,Diamond Silver Film 6 ml. 25`,Nickel City Wholesale Garden Supply,grow_tents
+728,0,no,,no,no,no,no,simple,693,Dayton Axial Fan,NGW,irrigation
+729,0,no,,yes,yes,no,no,simple,3297,DTE- Insect Frass -3-1-1,BFG,nutrients
+730,0,no,,yes,yes,no,no,simple,3298,DTE Seabird Guano 0-11-0,Nickel City Wholesale Garden Supply,nutrients
+731,0,no,,yes,yes,no,no,simple,3017,DTE LIQUID KELP&POTASH 0-0-8 1G,Sunlight Supply inc.,nutrients
+732,0,no,,yes,yes,no,no,simple,3299,DTE Garden Gypsum Calcium,BFG,nutrients
+733,0,no,,yes,yes,no,no,simple,3528,DTE Feather Meal12 - 0 - 0/4,Hawthorne Hydoponics LLC,nutrients
+734,0,no,,yes,yes,no,no,simple,2821,DTE All Flower & bloom 2-6-4,Sunlight Supply inc.,nutrients
+735,0,no,,no,no,no,no,simple,1012,DM-2 Inline TDS Monitor,Nickel City Wholesale Garden Supply,irrigation
+736,0,no,,yes,no,no,no,simple,HMH-LIT-HTZKKT,DLI-DIODE-Series-LED Toplighting LED Fixture (Long),GH,grow_lights
+737,0,no,,no,no,no,no,simple,2620,DLI JOULE-Series 400V D/E,Nickel City Wholesale Garden Supply,grow_lights
+738,0,no,,no,no,yes,no,simple,1284,DIM-1 Fan Speed Dimmer,Nickel City Wholesale Garden Supply,Environment Control
+739,0,no,,yes,yes,no,no,simple,3587,D.T.E.Starter Mix 3-3-3,BFG,nutrients
+740,0,no,,yes,yes,no,no,simple,3316,D.T.E.Liquid Fish & Kelp,BFG,nutrients
+741,0,no,,yes,yes,no,no,simple,1556,D.T.E.High Nitrogen Bat 25,BFG,nutrients
+742,0,no,,yes,yes,no,no,simple,3007,D.T.E.Granular Humic Acids,dte,nutrients
+743,0,no,,yes,no,no,no,simple,2823,D.T.E. Neem Seed Meal 6-1-2/,Sunlight Supply inc.,seeds
+744,0,no,,yes,yes,no,no,simple,3013,D.T.E. Kelp Meal 1-01.-1,Sunlight Supply inc.,nutrients
+745,0,no,,yes,yes,no,no,simple,3190,D.T.E. Kelp Meal - 20,Hawthorne Hydoponics LLC,nutrients
+746,0,no,,yes,yes,no,no,simple,2015,D.T.E. Bio-Fish 7-7-2/,,nutrients
+747,0,no,,yes,yes,no,no,simple,3417,D.T.E. Acid Mix 4 - 3 - 6/5,Hawthorne Hydoponics LLC,nutrients
+748,0,no,,yes,yes,no,no,simple,2826,D.T.E Neem Seed Meal-20,Sunlight Supply inc.,nutrients
+749,0,no,,yes,yes,no,no,simple,2835,D.T.E Fish Bone Meal3-16-0,Sunlight Supply inc.,nutrients
+750,0,no,,yes,yes,no,no,simple,3364,CycoDr.Repair(3-0-0)treat chlor,BFG,nutrients
+751,0,no,,no,no,yes,no,simple,HMH-GEN-UG004A,Curved Trimmers,Nickel City Wholesale Garden Supply,Accessories
+752,0,no,,yes,yes,no,no,simple,2205,Crab Meal 4-3-0 /,Hawthorne Hydoponics LLC,nutrients
+753,0,no,,no,no,no,no,simple,1188,Cow Pot 4 /12 per,BFG,grow_media
+754,0,no,,no,no,no,no,simple,2259,Covert Tank 66,Nickel City Wholesale Garden Supply,irrigation
+755,0,no,,no,no,no,no,simple,2258,Covert Tank 33,Nickel City Wholesale Garden Supply,irrigation
+756,0,no,,yes,no,yes,no,simple,hmh00595,Control Wizard Accurate pH3,Control Wizard,ph_meters
+757,0,no,,no,no,yes,no,simple,hmh00977,Control Wizard Accurate Handheld pH3 Meter,Control Wizard,ph_meters
+758,0,no,,yes,yes,no,no,simple,1901,Connoisseur Grow B Lt pHP,Advanced Nutrients,nutrients
+759,0,no,,yes,yes,no,no,simple,1897,Connoisseur Bloom B Lt pHP,Advanced Nutrients,nutrients
+760,0,no,,yes,yes,no,no,simple,2179,Connoisseur Bloom A Lt pHP,Advanced Nutrients,nutrients
+761,0,no,,yes,yes,no,no,simple,2740,Cocotek Bloom B Qts,Nickel City Wholesale Garden Supply,nutrients
+762,0,no,,yes,yes,no,no,simple,hmh01683,Cocos A & B,Cocos,nutrients
+763,0,no,,yes,yes,no,no,simple,2735,CocoTek grow A Qts,Nickel City Wholesale Garden Supply,nutrients
+764,0,no,,no,no,no,no,simple,405,CocoTek Mat 4x4,Nickel City Wholesale Garden Supply,grow_media
+765,0,no,,no,no,no,no,simple,hmh00113,CocoTek Liners,,grow_media
+766,0,no,,no,no,no,no,simple,hmh00112,CocoTek Caps,,grow_media
+767,0,no,,yes,yes,no,no,simple,hmh01558,CocoTek Bloom A Qts,Nickel City Wholesale Garden Supply,nutrients
+768,0,no,,no,no,no,no,simple,656,CocoTek Basket Liner,System,grow_media
+769,0,no,,no,no,no,no,simple,657,CocoTek Basket Cap,Nickel City Wholesale Garden Supply,grow_media
+770,0,no,,no,no,no,no,simple,1741,Co2 Tank Refill,System,co2
+771,0,no,,no,no,no,no,simple,1742,Co2 Tank Purchase,,co2
+772,0,no,,no,no,no,no,simple,1713,Co2 Detector Tube,NGW,co2
+773,0,no,,yes,yes,no,no,simple,3003,Clonex Root Maximizer sol,Nickel City Wholesale Garden Supply,nutrients
+774,0,no,,yes,yes,no,no,simple,hmh01751,Clonex Root Maximizer Mycorrhizae-Soluble for Hydro,Clonex Root,nutrients
+775,0,no,,yes,no,no,no,simple,hmh01748,Clonex Root Maximizer - Granular/ for soil applications,Clonex Root,propagation
+776,0,no,,yes,yes,no,no,simple,hmh01750,Clonex Mycorrhizae Root Maximizer 8 Soluble,Clonex Mycorrhizae,nutrients
+777,0,no,,yes,yes,no,no,simple,hmh01754,Clonex Mycorrhizae Root Maximizer 1 pound Soluble,Clonex Mycorrhizae,nutrients
+778,0,no,,yes,yes,no,no,simple,3599,Clonex Myco Root Maximizer,Nickel City Wholesale Garden Supply,nutrients
+779,0,no,,yes,no,no,no,simple,hmh01747,Clonex Mist Concentrate,Nickel City Wholesale Garden Supply,propagation
+780,0,no,,yes,yes,no,no,simple,hmh01355,Clonex Clone Solution,NGW,nutrients
+781,0,no,,yes,no,no,no,simple,3492,Clonex 32 gell,Nickel City Wholesale Garden Supply,propagation
+782,0,no,,yes,yes,no,no,simple,870,Clonex & Seedling Solution,NGW,nutrients
+783,0,no,,no,no,no,no,simple,793,Clear Tubing 1/4,Nickel City Wholesale Garden Supply,irrigation
+784,0,no,,no,no,yes,no,simple,1512,Clean Air Purge l 3,Nickel City Wholesale Garden Supply,Accessories
+785,0,no,,no,no,yes,no,simple,3583,Classis 2800/ 7,BFG,Pots/Containers
+786,0,no,,no,no,yes,no,simple,955,Classic 900,BFG,Pots/Containers
+787,0,no,,no,no,yes,no,simple,954,Classic 600,BFG,Pots/Containers
+788,0,no,,no,no,yes,no,simple,953,Classic 400,NGW,Pots/Containers
+789,0,no,,no,no,yes,no,simple,952,Classic 350,NGW,Pots/Containers
+790,0,no,,no,no,yes,no,simple,951,Classic 300,NGW,Pots/Containers
+791,0,no,,no,no,yes,no,simple,3585,Classic 2800 /7,BFG,Pots/Containers
+792,0,no,,no,no,yes,no,simple,2529,Classic 2100/ 5,BFG,Pots/Containers
+793,0,no,,no,no,yes,no,simple,958,Classic 2000,BFG,Pots/Containers
+794,0,no,,no,no,yes,no,simple,957,Classic 1200 /3Gal,BFG,Pots/Containers
+795,0,no,,no,no,no,no,simple,3344,Centurion Tabletop Pro,centurian,trimming
+796,0,no,,no,no,yes,no,simple,3345,Centurian Pro HYBRID MINI,@Flowers-HEMP,Accessories
+797,0,no,,yes,yes,no,no,simple,hmh01906,Carb O Naria 0-0-0.3,Carb,nutrients
+798,0,no,,yes,yes,no,no,simple,hmh01910,"Car- Beau- Naria 0-0-0.3 , 5 Gall",Nickel City Wholesale Garden Supply,nutrients
+799,0,no,,yes,yes,no,no,simple,1661,Canna-Pure 99% Isopropyl Alcoho,Nickel City Wholesale Garden Supply,nutrients
+800,0,no,,no,no,yes,no,simple,3249,CandyFlip 60%S/40%I-28%,@Flowers-HEMP,Accessories
+801,0,no,,no,no,yes,no,simple,435,CanFan TCL 6HO 120v,Nickel City Wholesale Garden Supply,airflow
+802,0,no,,no,no,yes,no,simple,433,Can-Fan TCL 4HO 120v,Nickel City Wholesale Garden Supply,Environment Control
+803,0,no,,no,no,no,no,simple,2444,Can Lite Mini 420 CFM,Nickel City Wholesale Garden Supply,odor_control
+804,0,no,,no,no,yes,no,simple,2119,Can Lite 225 cfm,Nickel City Wholesale Garden Supply,airflow
+805,0,no,,no,no,no,no,simple,hmh00646,Can Filters,Can,odor_control
+806,0,no,,no,no,yes,no,simple,hmh00647,Can Filter Pre-Filters,Nickel City Wholesale Garden Supply,airflow
+807,0,no,,no,no,yes,no,simple,hmh00648,Can Filter Flanges,NGW,airflow
+808,0,no,,yes,yes,no,no,simple,hmh00104,CalCarb Calcium Carbonate Foliar Spray,CalCarb,nutrients
+809,0,no,,yes,yes,no,no,simple,2248,CWP 1382 PPM Solution,Sunlight Supply inc.,nutrients
+810,0,no,,no,no,yes,no,simple,2222,CW495 pH MeterW/Remote Probe,Nickel City Wholesale Garden Supply,ph_meters
+811,0,no,,no,no,yes,no,simple,1253,CT-HT-2 Independent Thermostats,Nickel City Wholesale Garden Supply,Environment Control
+812,0,no,,no,no,yes,no,simple,1255,CT-DH-4P Multi w/ Photosensor,Nickel City Wholesale Garden Supply,controllers_timers
+813,0,no,,no,no,yes,no,simple,1254,CT-DH-4 Syncronized Multi-Funct,Nickel City Wholesale Garden Supply,Environment Control
+814,0,no,,no,no,yes,no,simple,1840,CT-DH-3X,Nickel City Wholesale Garden Supply,Environment Control
+815,0,no,,no,no,yes,no,simple,1263,CT-DH-3P w/ Photosensor,Nickel City Wholesale Garden Supply,controllers_timers
+816,0,no,,no,no,yes,no,simple,1262,CT-DH-3 Syncronized Therm/Dehum,Nickel City Wholesale Garden Supply,Environment Control
+817,0,no,,no,no,yes,no,simple,1261,CT-DH-2 Independent 4 Outlet,Nickel City Wholesale Garden Supply,electrical_supplies
+818,0,no,,no,no,yes,no,simple,1260,CT-DH-1 Thermostat & Dehumid,Nickel City Wholesale Garden Supply,controllers_timers
+819,0,no,,no,no,yes,no,simple,1259,CT-CT-1P Day/Night w/ Photo,Nickel City Wholesale Garden Supply,Environment Control
+820,0,no,,no,no,no,no,simple,1225,CST-1P Chrono Seqential Photo,Nickel City Wholesale Garden Supply,Lighting Equipment
+821,0,no,,no,no,yes,no,simple,1224,CST-1 Chrono Sequential Timer,Nickel City Wholesale Garden Supply,controllers_timers
+822,0,no,,no,no,yes,no,simple,2986,COMBO Max 14 w/Can 150 & 14 Fl,Nickel City Wholesale Garden Supply,Environment Control
+823,0,no,,yes,no,yes,no,simple,hmh00591,COM-100: Waterproof EC / TDS / Temp Combo Meter,,ph_meters
+824,0,no,,no,no,yes,no,simple,1045,COM-100 Combo Meter,Nickel City Wholesale Garden Supply,ph_meters
+825,0,no,,no,no,yes,no,simple,1926,CO2R SCo2,Nickel City Wholesale Garden Supply,Accessories
+826,0,no,,no,no,no,no,simple,1279,CO2D Dual Co2 Controller,Nickel City Wholesale Garden Supply,catalog_index
+827,0,no,,no,no,no,no,simple,990,CO2 and Temperature Monitor,Sunlight Supply inc.,co2
+828,0,no,,no,no,no,no,simple,2092,CO2 Rain System,NGW,irrigation
+829,0,no,,no,no,yes,no,simple,1278,CO2 Controller w/ Remote Sensor,Nickel City Wholesale Garden Supply,controllers_timers
+830,0,no,,no,no,no,no,simple,HMH-GEN-J61AVY,"CLOUDRAY S9, Gen 2 Grow Tent Clip Fan 9”",,grow_tents
+831,0,no,,no,no,no,no,simple,HMH-PRO-WX9512,CLONES,@Flowers-HEMP,propagation
+832,0,no,,no,no,no,no,simple,2084,CFL Jumper Cord,Nickel City Wholesale Garden Supply,Lighting Equipment
+833,0,no,,no,no,no,no,simple,1248,CDM-6000 CO2 Monitor,Nickel City Wholesale Garden Supply,co2
+834,0,no,,no,no,no,no,simple,1245,CD-6NG Co2 Generator,Nickel City Wholesale Garden Supply,co2
+835,0,no,,no,no,no,no,simple,1241,CD-6LP Co2 Generator,Nickel City Wholesale Garden Supply,co2
+836,0,no,,no,no,no,no,simple,1271,CD-18NG Co2 Generator,System,co2
+837,0,no,,no,no,no,no,simple,1272,CD-18LP Co2 Generator,System,co2
+838,0,no,,no,no,no,no,simple,1242,CD-12LP Co2 Generator,Nickel City Wholesale Garden Supply,co2
+839,0,no,,yes,yes,no,no,simple,3339,CCG ph down 32,BFG,nutrients
+840,0,no,,no,no,no,no,simple,2281,CAN-Duct 18 Premium,Nickel City Wholesale Garden Supply,catalog_index
+841,0,no,,no,no,no,no,simple,2280,CAN-Duct 16 Premium,Nickel City Wholesale Garden Supply,catalog_index
+842,0,no,,yes,yes,no,no,simple,hmh01854,CALNESIUM Deficiency Correction Supplement,Calnesium,nutrients
+843,0,no,,no,no,no,no,simple,825,C.A.P. 1/Fill & DrainFitting,NGW,Components
+844,0,no,,no,no,no,no,simple,hmh00615,Bypass Hand Shears,Bypass Hand,harvesting
+845,0,no,,yes,yes,no,no,simple,hmh01005,Bud Blood Bloom Stimulator,Bud Blood,nutrients
+846,0,no,,no,no,no,no,simple,2201,Bucket Master Stand,Nickel City Wholesale Garden Supply,irrigation
+847,0,no,,no,no,yes,no,simple,2867,Bucket Lid 3.5 /5 . cont,Nickel City Wholesale Garden Supply,containers_pots
+848,0,no,,no,no,no,no,simple,1363,Bubble bucket kit,Nickel City Wholesale Garden Supply,irrigation
+849,0,no,,no,no,yes,no,simple,2264,Branding Buds with Cannabis,Nickel City Wholesale Garden Supply,Accessories
+850,0,no,,no,no,no,no,simple,3166,Bottom Draw Water Pump 730 GPH,Hawthorne Hydoponics LLC,irrigation
+851,0,no,,yes,yes,no,no,simple,hmh01791,Botanicare® Growilla Bud 2 - 5 - 4 & Veg 5 - 4 - 2,Botanicare,nutrients
+852,0,no,,yes,no,no,no,simple,HMH-GRO-8AOLV0,Botanicare Organicare True Earth Potting Mix (O.M.R.I.),Botanicare,grow_media
+853,0,no,,yes,yes,no,no,simple,1455,Botanicare OD Tray 4 ft x 4 ft,Hawthorne Hydoponics LLC,nutrients
+854,0,no,,yes,yes,no,no,simple,1359,Botanicare OD Tray 3 ft x 3 ft,Sunlight Supply inc.,nutrients
+855,0,no,,yes,yes,no,no,simple,1312,Botanicare ID Tray 4 ft x 4 ft,Hawthorne Hydoponics LLC,nutrients
+856,0,no,,yes,yes,no,no,simple,3181,Botanicare ID Tray 3 ft x 3 ft,Hawthorne Hydoponics LLC,nutrients
+857,0,no,,yes,yes,no,no,simple,2087,Botanicare Black 2x4 Grow Tray,NGW,nutrients
+858,0,no,,yes,yes,no,no,simple,3163,Botanicare 70 Reservoir,Hawthorne Hydoponics LLC,nutrients
+859,0,no,,yes,yes,no,no,simple,3162,"Botanicare 70 Ga. Res, cover",Hawthorne Hydoponics LLC,nutrients
+860,0,no,,yes,yes,no,no,simple,1426,Botanicare 4x8 White Grow Tray,NGW,nutrients
+861,0,no,,yes,yes,no,no,simple,1424,Botanicare 4x4 White Grow Tray,NGW,nutrients
+862,0,no,,yes,yes,no,no,simple,3188,Botanicare 40 Reservoir,Hawthorne Hydoponics LLC,nutrients
+863,0,no,,yes,yes,no,no,simple,3189,Botanicare 40 Lid,Hawthorne Hydoponics LLC,nutrients
+864,0,no,,yes,yes,no,no,simple,1425,Botanicare 3x6 White Grow tray,NGW,nutrients
+865,0,no,,yes,yes,no,no,simple,1958,Botanicare 3x6 Black Grow Tray,Nickel City Wholesale Garden Supply,nutrients
+866,0,no,,yes,yes,no,no,simple,1422,Botanicare 3x3 White Grow Tray,NGW,nutrients
+867,0,no,,no,no,no,no,simple,2004,Botanicare 2x8 Drip Tray,NGW,irrigation
+868,0,no,,yes,yes,no,no,simple,1423,Botanicare 2x4 White Grow Tray,NGW,nutrients
+869,0,no,,yes,yes,no,no,simple,1721,Botanicare 20 Reservoir,Hawthorne Hydoponics LLC,nutrients
+870,0,no,,yes,no,no,no,simple,1010,Booster Pump for Stealth RO,Nickel City Wholesale Garden Supply,water_filtration
+871,0,no,,no,no,no,no,simple,1009,Booster Pump for Merlin Garden,Nickel City Wholesale Garden Supply,irrigation
+872,0,no,,no,no,yes,no,simple,1883,Bonticare Lid Only,,accessories
+873,0,no,,no,no,yes,no,simple,1231,Bonide® Measuring Cup 4,BFG,Accessories
+874,0,no,,no,no,no,no,simple,1781,Bond x1 bamboo super pole,,grow_media
+875,0,no,,no,no,yes,no,simple,2091,Bond White Label Markers,NGW,Accessories
+876,0,no,,no,no,yes,no,simple,2334,Bond Precision Tip Pruner,Nickel City Wholesale Garden Supply,Accessories
+877,0,no,,no,no,yes,no,simple,1181,Bond Moisture,BFG,Accessories
+878,0,no,,no,no,yes,no,simple,2333,Bond Bypass Pruner,Nickel City Wholesale Garden Supply,Accessories
+879,0,no,,no,no,no,no,simple,1962,Bond Bamboo Stakes 2' (25PK),NGW,grow_media
+880,0,no,,no,no,no,no,simple,1791,Bond Bamboo 4 ft - 25/Bag,Hawthorne Hydoponics LLC,grow_media
+881,0,no,,no,no,yes,no,simple,hmh01300,Bond 3-Way Soil Meter,NGW,Accessories
+882,0,no,,no,no,yes,no,simple,2239,Blumat Patio & Deck Set,System,Accessories
+883,0,no,,no,no,yes,no,simple,1389,Blumat Auto watering soil #1,BFG,Accessories
+884,0,no,,no,no,yes,no,simple,1388,Blumat Auto Watering Soil 3pk,BFG,Accessories
+885,0,no,,no,no,yes,no,simple,2193,Blumat Auto Waterer,Nickel City Wholesale Garden Supply,Accessories
+886,0,no,,no,no,no,no,simple,hmh00159,Block-IR Infra-Red Barrier,,grow_room_materials
+887,0,no,,no,no,no,no,simple,3514,BlackVinyl Tubing I.D.1/2'' 50`,D.L. Wholesale,irrigation
+888,0,no,,no,no,no,no,simple,1025,Black Tubing 1/x3/16,Nickel City Wholesale Garden Supply,irrigation
+889,0,no,,yes,yes,no,no,simple,hmh01756,Black Plastic Buckets - 3 & 5,Black Plastic,nutrients
+890,0,no,,no,no,yes,no,simple,1429,Black ABS 4x4 Grow Tray,NGW,containers_pots
+891,0,no,,no,no,yes,no,simple,1428,Black ABS 2x4 Grow Tray,NGW,containers_pots
+892,0,no,,no,no,no,no,simple,hmh01537,Black & White Panda Film (poly),Black,grow_room_materials
+893,0,no,,yes,yes,no,no,simple,750,BioChar FlowerFinisher1-5-7/,Sunlight Supply inc.,nutrients
+894,0,no,,no,no,no,no,simple,387,Bimatrix Xtra-Long Slab,Nickel City Wholesale Garden Supply,Media
+895,0,no,,no,no,yes,no,simple,208,Big Shot Measuring Glass,Hawthorne Hydoponics LLC,Accessories
+896,0,no,,no,no,yes,no,simple,3552,Big Eas4.7 ft x 4.7 ft x 6.5 ft,Hawthorne Hydoponics LLC,Pots/Containers
+897,0,no,,yes,yes,no,no,simple,hmh01004,Big Bud Bloom Booster,Big Bud,nutrients
+898,0,no,,no,no,yes,no,simple,1405,Beyond Buds by Ed Rosenthal,Nickel City Wholesale Garden Supply,Accessories
+899,0,no,,no,no,yes,no,simple,959,Beldon Square Black Pot 5X5X6,NGW,containers_pots
+900,0,no,,no,no,yes,no,simple,2852,Beldon Jumbo Sq. 5.5x5.5x6,Nickel City Wholesale Garden Supply,Pots/Containers
+901,0,no,,no,no,no,no,simple,829,Basket Stake,NGW,irrigation
+902,0,no,,no,no,yes,no,simple,2005,Bamboo Stakes 4',NGW,Accessories
+903,0,no,,no,no,yes,no,simple,2329,Bamboo Stake 6',Nickel City Wholesale Garden Supply,Accessories
+904,0,no,,no,no,no,no,simple,775,BadBoy T5 4'-8 Fixture w/ bulbs,Nickel City Wholesale Garden Supply,grow_lights
+905,0,no,,no,no,no,no,simple,774,BadBoy T5 4'-6 Fixture w/ Bulbs,Nickel City Wholesale Garden Supply,grow_lights
+906,0,no,,no,no,no,no,simple,773,BadBoy T5 4'-4 Fixture w/ Bulbs,Nickel City Wholesale Garden Supply,grow_lights
+907,0,no,,no,no,no,no,simple,777,BadBoy T5 4'-16 Fixture w/ Bulb,Nickel City Wholesale Garden Supply,grow_lights
+908,0,no,,no,no,no,no,simple,776,BadBoy T5 4'-12 Fixture w/ bulb,Nickel City Wholesale Garden Supply,grow_lights
+909,0,no,,yes,yes,no,no,simple,hmh01709,BadBoy HO T-5 Triphosphor Bloom 54W 2900K,Plantmax,nutrients
+910,0,no,,no,no,no,no,simple,hmh00639,Backdraft Dampers,Backdraft,catalog_index
+911,0,no,,no,no,yes,no,simple,3598,BLOND / TriClone-HASH 10-Grams,@Flowers-HEMP,Accessories
+912,0,no,,yes,yes,no,no,simple,3622,BISONSEED COAT ENDOPHYTES1/,GREASE,nutrients
+913,0,no,,yes,yes,no,no,simple,3537,BISON EXTRACT LIQUIDCOMPOST 250,GEASE,nutrients
+914,0,no,,yes,yes,no,no,simple,3604,BISON COMPOST 4,GEASE,nutrients
+915,0,no,,no,no,yes,no,simple,hmh01765,BI-PIN Socket adpter for PGZX18,,electrical_supplies
+916,0,no,,no,no,no,no,simple,3354,BC-RB6 ROX 4x4x2.5/36 216 pices,Nickel City Wholesale Garden Supply,grow_media
+917,0,no,,no,no,no,no,simple,474,BC Bags smell proof bags sm-100,Nickel City Wholesale Garden Supply,odor_control
+918,0,no,,no,no,no,no,simple,465,BC Bags smell proof bags sm 25/,Nickel City Wholesale Garden Supply,odor_control
+919,0,no,,no,no,no,no,simple,477,BC Bags smell prof large-100 cs,Nickel City Wholesale Garden Supply,odor_control
+920,0,no,,no,no,no,no,simple,466,BC Bags smell prof large 25/pk,Nickel City Wholesale Garden Supply,odor_control
+921,0,no,,no,no,no,no,simple,hmh00118,BASIC Magnetic Ballast,,grow_lights
+922,0,no,,no,no,no,no,simple,hmh01700,BADBOY T5 lighting System,GH,grow_lights
+923,0,no,,no,no,no,no,simple,hmh00536,BADBOY T-5 4 ft - 16 Lamp Fixture 864 W,Badboy,grow_lights
+924,0,no,,no,no,no,no,simple,hmh00598,BADBOY HO Triphosphor Lamps,Plantmax,hid_bulbs
+925,0,no,,yes,yes,no,no,simple,hmh01003,B-52 Vitamin,Advanced Nutrients,nutrients
+926,0,no,,yes,yes,no,no,simple,1561,B-52 Lt,Advanced Nutrients,nutrients
+927,0,no,,no,no,no,no,simple,HMH-PRO-XVRPGD,B'cuzZ Roxx Rooting Blocks 4 x 4 x 4 --Cs/24 strips @6 per strip,Atami,propagation
+928,0,no,,no,no,no,no,simple,hmh00468,B'cuzZ Roxx Rooting Blocks,Atami,propagation
+929,0,no,,no,no,no,no,simple,hmh00463,B'cuzZ Roxx Propagation Trays and Matts,Atami,propagation
+930,0,no,,no,no,no,no,simple,hmh00474,B'cuzZ Roxx Bimatrix Growing Slabs,Atami,grow_media
+931,0,no,,yes,yes,no,no,simple,hmh01570,B'Cuzz® Blossom Builder 0 - 9 - 19,Nickel City Wholesale Garden Supply,nutrients
+932,0,no,,yes,yes,no,no,simple,1062,B'Cuzz Root Stimulator,Nickel City Wholesale Garden Supply,nutrients
+933,0,no,,yes,yes,no,no,simple,hmh00042,B'Cuzz Hydro Nutrients,Nickel City Wholesale Garden Supply,nutrients
+934,0,no,,yes,yes,no,no,simple,1059,B'Cuzz Bloom Stimulant,Nickel City Wholesale Garden Supply,nutrients
+935,0,no,,yes,yes,no,no,simple,hmh00041,B'Cuzz BIO-NRG Growth-C,Atami,nutrients
+936,0,no,,yes,yes,no,no,simple,hmh00040,B'Cuzz BIO-NRG Flavor,Atami,nutrients
+937,0,no,,yes,yes,no,no,simple,hmh00039,B'Cuzz BIO-NRG Bloom-C,Atami,nutrients
+938,0,no,,yes,yes,no,no,simple,hmh01225,B'CuzZ CoCo Nutrients,Nickel City Wholesale Garden Supply,nutrients
+939,0,no,,no,yes,no,no,simple,1079,AzaSol™ .75,,pest_control
+940,0,no,,no,no,yes,no,simple,3292,Autopot 4 pot /12 .res,BFG,containers_pots
+941,0,no,,no,no,yes,no,simple,1325,Atlas 1 Co2 Monitor/Controller,NGW,controllers_timers
+942,0,no,,yes,yes,no,no,simple,HMH-NUT-YBAWYC,Athena Stack 32,Athena,nutrients
+943,0,no,,yes,no,no,no,simple,HMH-PRO-59NBIL,Athena Cuts Rooting Gel 7,Athena,propagation
+944,0,no,,yes,yes,no,no,simple,HMH-NUT-A5YX6V,Athena Bloom B 1,Athena,nutrients
+945,0,no,,yes,yes,no,no,simple,HMH-NUT-MOC4I8,Athena Balance 1,Athena,nutrients
+946,0,no,,yes,yes,no,no,simple,hmh01430,Atami RootBlastic,Atami,nutrients
+947,0,no,,no,no,yes,no,simple,2381,Ask Ed Marijuana Success,Nickel City Wholesale Garden Supply,Accessories
+948,0,no,,yes,yes,no,no,simple,3499,Armory Beneficial,BFG,nutrients
+949,0,no,,no,no,no,no,simple,3485,AquaVita 925 Sump Pump,D.L. Wholesale,irrigation
+950,0,no,,no,no,no,no,simple,3486,AquaVita 1.5L/Min Air Pump,D.L. Wholesale,irrigation
+951,0,no,,no,no,yes,no,simple,2799,Apple Crumble 6oz,Sunlight Supply inc.,Environment Control
+952,0,no,,yes,yes,no,no,simple,3371,Ancient Earth Organic Fertilize,Advanced Nutrients,nutrients
+953,0,no,,yes,yes,no,no,simple,3584,All-Purpose Mix 4-6-2 omri,BFG,nutrients
+954,0,no,,no,no,no,no,simple,3446,Airstone med. round,Nickel City Wholesale Garden Supply,irrigation
+955,0,no,,no,no,no,no,simple,1951,AiroFlow Hood,Nickel City Wholesale Garden Supply,Lighting Equipment
+956,0,no,,no,no,no,no,simple,741,Air-Cool Fittings 2pc,Nickel City Wholesale Garden Supply,irrigation
+957,0,no,,no,no,no,no,simple,907,Air Stone 4,NGW,irrigation
+958,0,no,,no,no,no,no,simple,2302,Air Stone (FHD),Nickel City Wholesale Garden Supply,irrigation
+959,0,no,,no,no,no,no,simple,2588,Agrotech Magnum Double ended,Sunlight Supply inc.,grow_lights
+960,0,no,,no,no,no,no,simple,1568,Agromax MH Warm,System,grow_lights
+961,0,no,,no,no,no,no,simple,1942,AgroLED SunLED 48 Strip Light,Hawthorne Hydoponics LLC,Lighting Equipment
+962,0,no,,no,no,no,no,simple,3340,AgroLED Sun 28 & Sun 48 LED 65K,Hawthorne Hydoponics LLC,grow_lights
+963,0,no,,no,no,no,no,simple,1903,Agro LED 48 Srtip w/ ref,Hawthorne Hydoponics LLC,Lighting Equipment
+964,0,no,,no,no,no,no,simple,3484,Aeromixer Moves 1600GPH,D.L. Wholesale,Hydroponics Components
+965,0,no,,no,no,no,no,simple,1707,AeroFlo drain valve,Nickel City Wholesale Garden Supply,irrigation
+966,0,no,,yes,yes,no,no,simple,2019,Advanced Nutrients Starter Kit,Advanced Nutrients,nutrients
+967,0,no,,yes,yes,no,no,simple,1381,Advanced Nutrients Revive,Advanced Nutrients,nutrients
+968,0,no,,no,yes,no,no,simple,3065,Actinovate®L & G Fungicide,Sunlight Supply inc.,pest_control
+969,0,no,,yes,yes,no,no,simple,3626,Acid Mix 4-3-6 - - 3pk of,BFG,nutrients
+970,0,no,,yes,no,yes,no,simple,hmh01596,Accurate pH 4 w/remote probe,Nickel City Wholesale Garden Supply,ph_meters
+971,0,no,,no,no,yes,no,simple,2832,Accurate pH 4 replacement probe,Nickel City Wholesale Garden Supply,ph_meters
+972,0,no,,no,no,yes,no,simple,hmh01598,Accurate pH 4 replacement /remote probe,Nickel City Wholesale Garden Supply,accessories
+973,0,no,,no,no,yes,no,simple,hmh00584,Accessories & Components,Accessories,accessories
+974,0,no,,yes,yes,no,no,simple,3320,AZOMITE® SR Powder,BFG,nutrients
+975,0,no,,yes,no,no,no,simple,3662,ATami Growth GROWTH -C,Nickel City Wholesale Garden Supply,grow_media
+976,0,no,,no,no,no,no,simple,2607,APEX-DLI Toplighting LED,Nickel City Wholesale Garden Supply,grow_lights
+977,0,no,,no,no,no,no,simple,hmh00608,ALL PHASE High Output Metal Halide Horticultural Lamp,GH,hid_bulbs
+978,0,no,,no,no,yes,no,simple,2074,AGS 9 Square Pot 3gal,Nickel City Wholesale Garden Supply,containers_pots
+979,0,no,,no,no,yes,no,simple,2075,AGS 7 Square Pot 2gal,Nickel City Wholesale Garden Supply,containers_pots
+980,0,no,,no,no,no,no,simple,482,AEROFLO Float Valve,Nickel City Wholesale Garden Supply,water_filtration
+981,0,no,,yes,yes,no,no,simple,3627,ACID MIX 15 /4-3-6,BFG,nutrients
+982,0,no,,no,no,no,no,simple,3207,8ftPowerCord277-400V Gavita/Led,Hawthorne Hydoponics LLC,grow_lights
+983,0,no,,no,no,yes,no,simple,2621,8ft Power Cord110-120V Volt/led,Hawthorne Hydoponics LLC,electrical_supplies
+984,0,no,,no,no,yes,no,simple,2606,8ft Power Cord 208-240 Volt/led,,electrical_supplies
+985,0,no,,no,no,no,no,simple,1178,8 teri 24 drying rackZIPPERS,,harvesting
+986,0,no,,no,no,no,no,simple,2603,8 Valve Chrome Air Manifold,Sunlight Supply inc.,irrigation
+987,0,no,,yes,yes,no,no,simple,hmh01731,8 Pack of BadBoy HO T-5 4 ft Triphosphor Bloom,Plantmax,nutrients
+988,0,no,,no,no,yes,no,simple,3334,72 cell germanation Round Hole,Hawthorne Hydoponics LLC,Pots/Containers
+989,0,no,,no,no,no,no,simple,3235,70 Site Psycloner Aeroponic DWC,D.L. Wholesale,propagation
+990,0,no,,no,no,yes,no,simple,3556,7 clip fan 2 speed,BFG,Environment Control
+991,0,no,,no,no,no,no,simple,1809,6-Outlet Plastic Manifold,NGW,irrigation
+992,0,no,,no,no,yes,no,simple,2875,58 Mogal Socket H.I.D,Nickel City Wholesale Garden Supply,electrical_supplies
+993,0,no,,no,no,no,no,simple,376,55 cell propagation insert,Nickel City Wholesale Garden Supply,propagation
+994,0,no,,no,no,no,no,simple,2125,5/Shut Off Valve,Nickel City Wholesale Garden Supply,irrigation
+995,0,no,,no,no,yes,no,simple,2398,5 . Bucket,Sunlight Supply inc.,containers_pots
+996,0,no,,no,no,yes,no,simple,1992,4HO Thermo/Contolled 110V 3 sp,Nickel City Wholesale Garden Supply,Environment Control
+997,0,no,,no,no,no,no,simple,3331,"411 Veg LED Fixtures 6,500° K +",Hawthorne Hydoponics LLC,Lighting Equipment
+998,0,no,,no,no,no,no,simple,1467,40gal Reservoir Lid,NGW,irrigation
+999,0,no,,no,no,no,no,simple,1808,4-Outlet Plastic Manifold,NGW,irrigation
+1000,0,no,,no,no,no,no,simple,1989,4 x 4 jiffy pots (10/$3.00),Nickel City Wholesale Garden Supply,propagation
+1001,0,no,,no,no,yes,no,simple,2490,4 Way Dripper Stake Assembly 48,Hawthorne Hydoponics LLC,Accessories
+1002,0,no,,no,no,no,no,simple,2601,4 Valve Chrome Air Manifold,Sunlight Supply inc.,irrigation
+1003,0,no,,no,no,yes,no,simple,hmh00662,38-Special by Can-Filters,Nickel City Wholesale Garden Supply,airflow
+1004,0,no,,no,no,yes,no,simple,1109,38 special 100 /840cf. 8,Nickel City Wholesale Garden Supply,Environment Control
+1005,0,no,,no,no,no,no,simple,2112,38 Special 33 Carbon Filter,Nickel City Wholesale Garden Supply,water_filtration
+1006,0,no,,yes,no,no,no,simple,3068,360 Trigger Sprayer,Sunlight Supply inc.,irrigation
+1007,0,no,,yes,no,no,no,simple,1548,360 Spinner Sprayers,NGW,irrigation
+1008,0,no,,no,no,no,no,simple,3234,35 Site Psycloner Pro Aeroponic,D.L. Wholesale,propagation
+1009,0,no,,yes,no,yes,no,simple,397,32oz Bottle 360 Spray,NGW,Accessories
+1010,0,no,,no,no,no,no,simple,3258,315 Supreme-Lux Flower 4K lamp,lDL Wholesale,hid_bulbs
+1011,0,no,,no,no,yes,no,simple,2787,315 Socket set Adapter,Sunlight Supply inc.,electrical_supplies
+1012,0,no,,no,no,no,no,simple,hmh01766,315 Socket adapter for 38 mogal - 315 Socket Adapter for Lamp Base: PGZX18,,grow_lights
+1013,0,no,,no,no,no,no,simple,hmh01708,315 CHM 4K GREENPOWER LUMINAIRES,,grow_lights
+1014,0,no,,no,no,no,no,simple,hmh01717,315 CHM 3K GREENPOWER LUMINAIRES,,grow_lights
+1015,0,no,,no,no,no,no,simple,2611,3/to 1/Reducer Fitting,Sunlight Supply inc.,irrigation
+1016,0,no,,no,no,no,no,simple,3074,3/to 1/2/'compresion coupler,Nickel City Wholesale Garden Supply,irrigation
+1017,0,no,,no,no,no,no,simple,1032,3/inlet,,irrigation
+1018,0,no,,no,no,no,no,simple,827,3/Tub Outlet/in- let Fitting,NGW,irrigation
+1019,0,no,,no,no,no,no,simple,2115,3/Thru H0le,Nickel City Wholesale Garden Supply,Components
+1020,0,no,,no,no,no,no,simple,1982,3/4  tee,Hawthorne Hydoponics LLC,irrigation
+1021,0,no,,no,no,no,no,simple,1353,3.75 Neoprene Insert,Nickel City Wholesale Garden Supply,propagation
+1022,0,no,,no,no,yes,no,simple,hmh00997,3-pack 1.5 V batteries for HM Digital Meters,HM Digital,accessories
+1023,0,no,,no,no,yes,no,simple,1896,"3-Way Soil-pH,Temp.Fertility",BFG,Accessories
+1024,0,no,,no,no,no,no,simple,817,3 Neoprene Insert,Nickel City Wholesale Garden Supply,propagation
+1025,0,no,,no,no,no,no,simple,2874,25 mesh bubble bag 5,Nickel City Wholesale Garden Supply,extraction
+1026,0,no,,no,no,no,no,simple,hmh01595,240V.LEC®Emitting Ceramic® Fixture 630 Light,GH,grow_lights
+1027,0,no,,no,no,yes,no,simple,hmh00512,240 Volt Power cord 8 ft,,electrical_supplies
+1028,0,no,,no,no,no,no,simple,hmh00632,24-DT-1 -- 24 Hour Clock Timer,,catalog_index
+1029,0,no,,no,no,yes,no,simple,1053,24-7 pH Replacement Probe,Nickel City Wholesale Garden Supply,ph_meters
+1030,0,no,,no,no,yes,no,simple,1054,24-7 PPM Replacement Probe,Nickel City Wholesale Garden Supply,accessories
+1031,0,no,,yes,yes,no,no,simple,2272,220 Single Mesh extract,Nickel City Wholesale Garden Supply,nutrients
+1032,0,no,,no,no,no,no,simple,1465,20gal Reservoir Lid,NGW,irrigation
+1033,0,no,,no,no,no,no,simple,1464,20gal Reservoir Bottom,NGW,irrigation
+1034,0,no,,no,no,yes,no,simple,3420,20 ml syringe Sterile/clear,lDL Wholesale,accessories
+1035,0,no,,no,no,yes,no,simple,2893,20 double HEAVEY DUTY Saucers,Nickel City Wholesale Garden Supply,Accessories
+1036,0,no,,no,no,yes,no,simple,3531,2 plastic bags /25pk,Hawthorne Hydoponics LLC,Pots/Containers
+1037,0,no,,yes,no,no,no,simple,1547,180 Sprayer,NGW,irrigation
+1038,0,no,,no,no,yes,no,simple,2894,17 Double HEAVEY DUTY Saucers,Nickel City Wholesale Garden Supply,Accessories
+1039,0,no,,no,no,yes,no,simple,1418,16/ 9-Pattern Rain Wand,BFG,Accessories
+1040,0,no,,no,no,yes,no,simple,3624,16 Black Heavey Gage Vinyl s,BFG,Pots/Containers
+1041,0,no,,no,no,no,no,simple,2987,14 x 25' Can Duct w/ 2 clamps,Nickel City Wholesale Garden Supply,catalog_index
+1042,0,no,,no,no,yes,no,simple,3623,14 black heavey gage vinyl,BFG,Pots/Containers
+1043,0,no,,no,no,no,no,simple,3335,132 Bottom Draw pump132 GPH,Hawthorne Hydoponics LLC,irrigation
+1044,0,no,,no,no,no,no,simple,3660,125 watt Sunblaster CFL,Nickel City Wholesale Garden Supply,grow_lights
+1045,0,no,,no,no,no,no,simple,3508,115 Reservoir Lid - W,Hawthorne Hydoponics LLC,irrigation
+1046,0,no,,no,no,no,no,simple,3507,115 Reservoir - White,Hawthorne Hydoponics LLC,irrigation
+1047,0,no,,no,no,yes,no,simple,3642,10ft. Extention /DLI 240V Cord,Nickel City Wholesale Garden Supply,electrical_supplies
+1048,0,no,,no,no,no,no,simple,1811,10-Outlet Plastic Manifold,NGW,irrigation
+1049,0,no,,no,no,yes,no,simple,851,10 ml lock syringe,Nickel City Wholesale Garden Supply,accessories
+1050,0,no,,no,no,yes,no,simple,3055,10 ft. Lamp Extension Cords,,electrical_supplies
+1051,0,no,,no,no,no,no,simple,1408,1/inline valve,,irrigation
+1052,0,no,,no,no,no,no,simple,2997,1/hydrologic hose 50 ft,Hawthorne Hydoponics LLC,irrigation
+1053,0,no,,no,no,no,no,simple,3422,1/TUBING BARBED tee (100/pk),flora flex,irrigation
+1054,0,no,,no,no,no,no,simple,1390,1/Straight Connector-5pk,BFG,irrigation
+1055,0,no,,no,no,no,no,simple,hmh00623,1/Barb Connectors,,irrigation
+1056,0,no,,no,no,no,no,simple,hmh00620,1 1/drain overflow tube,Nickel City Wholesale Garden Supply,irrigation
+1057,0,no,,no,no,no,no,simple,1392,1 1/Tube Drain Bulk Head,,irrigation
+1058,0,no,,no,no,no,no,variation,hmh00783-V04,,,
+1059,0,no,,no,no,no,no,variation,hmh00831-V02,,,
+1060,0,no,,no,no,no,no,variation,2927-V01,,,
+1061,0,no,,no,no,no,no,variation,2932-V02,,,
+1062,0,no,,no,no,no,no,variation,2932-V03,,,
+1063,0,no,,no,no,no,no,variation,2932-V04,,,
+1064,0,no,,no,no,no,no,variation,2923,,,
+1065,0,no,,no,no,no,no,variation,2921,,,
+1066,0,no,,no,no,no,no,variation,2933-V02,,,
+1067,0,no,,no,no,no,no,variation,144-V01,,,
+1068,0,no,,no,no,no,no,variation,144-V02,,,
+1069,0,no,,no,no,no,no,variation,144-V03,,,
+1070,0,no,,no,no,no,no,variation,144-V04,,,
+1071,0,no,,no,no,no,no,variation,hmh01226-V02,,,
+1072,0,no,,no,no,no,no,variation,hmh01227-V02,,,
+1073,0,no,,no,no,no,no,variation,1202,,,
+1074,0,no,,no,no,no,no,variation,hmh00263-V03,,,
+1075,0,no,,no,no,no,no,variation,hmh00263-V04,,,
+1076,0,no,,no,no,no,no,variation,hmh00263-V05,,,
+1077,0,no,,no,no,no,no,variation,hmh00263-V06,,,
+1078,0,no,,no,no,no,no,variation,1203,,,
+1079,0,no,,no,no,no,no,variation,hmh00265-V03,,,
+1080,0,no,,no,no,no,no,variation,hmh00265-V04,,,
+1081,0,no,,no,no,no,no,variation,hmh00265-V05,,,
+1082,0,no,,no,no,no,no,variation,hmh00265-V06,,,
+1083,0,no,,no,no,no,no,variation,hmh00301-V02,,,
+1084,0,no,,no,no,no,no,variation,hmh00301-V03,,,
+1085,0,no,,no,no,no,no,variation,231,,,
+1086,0,no,,no,no,no,no,variation,232,,,
+1087,0,no,,no,no,no,no,variation,227-V03,,,
+1088,0,no,,no,no,no,no,variation,227-V04,,,
+1089,0,no,,no,no,no,no,variation,227-V05,,,
+1090,0,no,,no,no,no,no,variation,2263-V01,,,
+1091,0,no,,no,no,no,no,variation,2263-V02,,,
+1092,0,no,,no,no,no,no,variation,2263-V03,,,
+1093,0,no,,no,no,no,no,variation,3650,,,
+1094,0,no,,no,no,no,no,variation,230,,,
+1095,0,no,,no,no,no,no,variation,245-V02,,,
+1096,0,no,,no,no,no,no,variation,245-V03,,,
+1097,0,no,,no,no,no,no,variation,245-V04,,,
+1098,0,no,,no,no,no,no,variation,hmh01424-V02,,,
+1099,0,no,,no,no,no,no,variation,hmh01424-V03,,,
+1100,0,no,,no,no,no,no,variation,hmh01424-V04,,,
+1101,0,no,,no,no,no,no,variation,hmh01424-V05,,,
+1102,0,no,,no,no,no,no,variation,2079,,,
+1103,0,no,,no,no,no,no,variation,1615-V02,,,
+1104,0,no,,no,no,no,no,variation,145-V01,,,
+1105,0,no,,no,no,no,no,variation,145-V02,,,
+1106,0,no,,no,no,no,no,variation,3539-V01,,,
+1107,0,no,,no,no,no,no,variation,3539-V02,,,
+1108,0,no,,no,no,no,no,variation,3539-V03,,,
+1109,0,no,,no,no,no,no,variation,3539-V04,,,
+1110,0,no,,no,no,no,no,variation,hmh01351-V02,,,
+1111,0,no,,no,no,no,no,variation,hmh01351-V03,,,
+1112,0,no,,no,no,no,no,variation,869,,,
+1113,0,no,,no,no,no,no,variation,3520-V01,,,
+1114,0,no,,no,no,no,no,variation,238-V02,,,
+1115,0,no,,no,no,no,no,variation,1773-V01,,,
+1116,0,no,,no,no,no,no,variation,2181,,,
+1117,0,no,,no,no,no,no,variation,2182-V01,,,
+1118,0,no,,no,no,no,no,variation,hmh00329-V04,,,
+1119,0,no,,no,no,no,no,variation,3425-V01,,,
+1120,0,no,,no,no,no,no,variation,3425-V02,,,
+1121,0,no,,no,no,no,no,variation,3425-V03,,,
+1122,0,no,,no,no,no,no,variation,3425-V04,,,
+1123,0,no,,no,no,no,no,variation,2107-V01,,,
+1124,0,no,,no,no,no,no,variation,1779,,,
+1125,0,no,,no,no,no,no,variation,265,,,
+1126,0,no,,no,no,no,no,variation,1778-V03,,,
+1127,0,no,,no,no,no,no,variation,3342,,,
+1128,0,no,,no,no,no,no,variation,1952-V01,,,
+1129,0,no,,no,no,no,no,variation,1952-V02,,,
+1130,0,no,,no,no,no,no,variation,1952-V03,,,
+1131,0,no,,no,no,no,no,variation,1952-V04,,,
+1132,0,no,,no,no,no,no,variation,1576-V01,,,
+1133,0,no,,no,no,no,no,variation,1576-V02,,,
+1134,0,no,,no,no,no,no,variation,1576-V03,,,
+1135,0,no,,no,no,no,no,variation,hmh00438-V04,,,
+1136,0,no,,no,no,no,no,variation,hmh00438-V05,,,
+1137,0,no,,no,no,no,no,variation,hmh00438-V06,,,
+1138,0,no,,no,no,no,no,variation,hmh00438-V07,,,
+1139,0,no,,no,no,no,no,variation,2552-V01,,,
+1140,0,no,,no,no,no,no,variation,2552-V02,,,
+1141,0,no,,no,no,no,no,variation,2554,,,
+1142,0,no,,no,no,no,no,variation,2553-V02,,,
+1143,0,no,,no,no,no,no,variation,2553-V03,,,
+1144,0,no,,no,no,no,no,variation,187,,,
+1145,0,no,,no,no,no,no,variation,1161,,,
+1146,0,no,,no,no,no,no,variation,hmh00445-V06,,,
+1147,0,no,,no,no,no,no,variation,hmh00445-V07,,,
+1148,0,no,,no,no,no,no,variation,hmh00445-V08,,,
+1149,0,no,,no,no,no,no,variation,1617,,,
+1150,0,no,,no,no,no,no,variation,hmh00304-V03,,,
+1151,0,no,,no,no,no,no,variation,hmh00304-V04,,,
+1152,0,no,,no,no,no,no,variation,hmh01339-V04,,,
+1153,0,no,,no,no,no,no,variation,hmh01339-V05,,,
+1154,0,no,,no,no,no,no,variation,hmh01339-V06,,,
+1155,0,no,,no,no,no,no,variation,hmh01339-V07,,,
+1156,0,no,,no,no,no,no,variation,hmh01338-V04,,,
+1157,0,no,,no,no,no,no,variation,hmh01347-V03,,,
+1158,0,no,,no,no,no,no,variation,hmh01347-V04,,,
+1159,0,no,,no,no,no,no,variation,hmh01347-V05,,,
+1160,0,no,,no,no,no,no,variation,hmh01347-V06,,,
+1161,0,no,,no,no,no,no,variation,23-V01,,,
+1162,0,no,,no,no,no,no,variation,23-V02,,,
+1163,0,no,,no,no,no,no,variation,23-V03,,,
+1164,0,no,,no,no,no,no,variation,23-V04,,,
+1165,0,no,,no,no,no,no,variation,hmh01342-V04,,,
+1166,0,no,,no,no,no,no,variation,hmh01342-V05,,,
+1167,0,no,,no,no,no,no,variation,hmh01342-V06,,,
+1168,0,no,,no,no,no,no,variation,hmh01342-V07,,,
+1169,0,no,,no,no,no,no,variation,2597-V01,,,
+1170,0,no,,no,no,no,no,variation,2597-V02,,,
+1171,0,no,,no,no,no,no,variation,2597-V03,,,
+1172,0,no,,no,no,no,no,variation,2597-V04,,,
+1173,0,no,,no,no,no,no,variation,1872-V01,,,
+1174,0,no,,no,no,no,no,variation,1872-V02,,,
+1175,0,no,,no,no,no,no,variation,1872-V03,,,
+1176,0,no,,no,no,no,no,variation,1872-V04,,,
+1177,0,no,,no,no,no,no,variation,2547-V01,,,
+1178,0,no,,no,no,no,no,variation,2547-V02,,,
+1179,0,no,,no,no,no,no,variation,148-V01,,,
+1180,0,no,,no,no,no,no,variation,148-V02,,,
+1181,0,no,,no,no,no,no,variation,269,,,
+1182,0,no,,no,no,no,no,variation,244-V02,,,
+1183,0,no,,no,no,no,no,variation,2572-V01,,,
+1184,0,no,,no,no,no,no,variation,2572-V02,,,
+1185,0,no,,no,no,no,no,variation,hmh01686-V02,,,
+1186,0,no,,no,no,no,no,variation,hmh01690,,,
+1187,0,no,,no,no,no,no,variation,hmh01689-V02,,,
+1188,0,no,,no,no,no,no,variation,hmh01689-V03,,,
+1189,0,no,,no,no,no,no,variation,hmh01692,,,
+1190,0,no,,no,no,no,no,variation,hmh01691-V02,,,
+1191,0,no,,no,no,no,no,variation,hmh01691-V03,,,
+1192,0,no,,no,no,no,no,variation,hmh01681-V02,,,
+1193,0,no,,no,no,no,no,variation,hmh01678-V02,,,
+1194,0,no,,no,no,no,no,variation,1601,,,
+1195,0,no,,no,no,no,no,variation,1602,,,
+1196,0,no,,no,no,no,no,variation,2570,,,
+1197,0,no,,no,no,no,no,variation,2569-V02,,,
+1198,0,no,,no,no,no,no,variation,2569-V03,,,
+1199,0,no,,no,no,no,no,variation,2569-V04,,,
+1200,0,no,,no,no,no,no,variation,2569-V05,,,
+1201,0,no,,no,no,no,no,variation,2975-V01,,,
+1202,0,no,,no,no,no,no,variation,1856-V05,,,
+1203,0,no,,no,no,no,no,variation,1856-V06,,,
+1204,0,no,,no,no,no,no,variation,1856-V07,,,
+1205,0,no,,no,no,no,no,variation,454-V01,,,
+1206,0,no,,no,no,no,no,variation,hmh00241-V02,,,
+1207,0,no,,no,no,no,no,variation,hmh00241-V03,,,
+1208,0,no,,no,no,no,no,variation,hmh00241-V04,,,
+1209,0,no,,no,no,no,no,variation,hmh01423-V01,,,
+1210,0,no,,no,no,no,no,variation,2310,,,
+1211,0,no,,no,no,no,no,variation,2312,,,
+1212,0,no,,no,no,no,no,variation,2313-V02,,,
+1213,0,no,,no,no,no,no,variation,2404,,,
+1214,0,no,,no,no,no,no,variation,hmh00306-V02,,,
+1215,0,no,,no,no,no,no,variation,hmh00306-V03,,,
+1216,0,no,,no,no,no,no,variation,hmh00306-V04,,,
+1217,0,no,,no,no,no,no,variation,hmh00308-V02,,,
+1218,0,no,,no,no,no,no,variation,hmh00308-V03,,,
+1219,0,no,,no,no,no,no,variation,hmh00308-V04,,,
+1220,0,no,,no,no,no,no,variation,hmh01054-V03,,,
+1221,0,no,,no,no,no,no,variation,hmh01054-V04,,,
+1222,0,no,,no,no,no,no,variation,2175,,,
+1223,0,no,,no,no,no,no,variation,2176,,,
+1224,0,no,,no,no,no,no,variation,249,,,
+1225,0,no,,no,no,no,no,variation,2177,,,
+1226,0,no,,no,no,no,no,variation,2174,,,
+1227,0,no,,no,no,no,no,variation,2178,,,
+1228,0,no,,no,no,no,no,variation,HMH-NUT-D4DFVL-V01,,,
+1229,0,no,,no,no,no,no,variation,HMH-NUT-D4DFVL-V02,,,
+1230,0,no,,no,no,no,no,variation,HMH-NUT-D4DFVL-V03,,,
+1231,0,no,,no,no,no,no,variation,HMH-NUT-D4DFVL-V04,,,
+1232,0,no,,no,no,no,no,variation,HMH-NUT-GKZ3Z8-V03,,,
+1233,0,no,,no,no,no,no,variation,HMH-NUT-GKZ3Z8-V04,,,
+1234,0,no,,no,no,no,no,variation,HMH-NUT-G7LP4K-V02,,,
+1235,0,no,,no,no,no,no,variation,HMH-NUT-G7LP4K-V03,,,
+1236,0,no,,no,no,no,no,variation,HMH-NUT-G7LP4K-V04,,,
+1237,0,no,,no,no,no,no,variation,HMH-NUT-G7LP4K-V05,,,
+1238,0,no,,no,no,no,no,variation,hmh00326-V03,,,
+1239,0,no,,no,no,no,no,variation,hmh00326-V04,,,
+1240,0,no,,no,no,no,no,variation,2563-V01,,,
+1241,0,no,,no,no,no,no,variation,2563-V02,,,
+1242,0,no,,no,no,no,no,variation,2563-V03,,,
+1243,0,no,,no,no,no,no,variation,1586-V04,,,
+1244,0,no,,no,no,no,no,variation,1586-V05,,,
+1245,0,no,,no,no,no,no,variation,2711,,,
+1246,0,no,,no,no,no,no,variation,2712,,,
+1247,0,no,,no,no,no,no,variation,229,,,
+1248,0,no,,no,no,no,no,variation,3261,,,
+1249,0,no,,no,no,no,no,variation,1607-V02,,,
+1250,0,no,,no,no,no,no,variation,1607-V03,,,
+1251,0,no,,no,no,no,no,variation,1607-V04,,,
+1252,0,no,,no,no,no,no,variation,262,,,
+1253,0,no,,no,no,no,no,variation,2565,,,
+1254,0,no,,no,no,no,no,variation,2566,,,
+1255,0,no,,no,no,no,no,variation,2002,,,
+1256,0,no,,no,no,no,no,variation,1559,,,
+1257,0,no,,no,no,no,no,variation,1558,,,
+1258,0,no,,no,no,no,no,variation,2001-V04,,,
+1259,0,no,,no,no,no,no,variation,1619,,,
+1260,0,no,,no,no,no,no,variation,2847,,,
+1261,0,no,,no,no,no,no,variation,1618-V03,,,
+1262,0,no,,no,no,no,no,variation,1618-V04,,,
+1263,0,no,,no,no,no,no,variation,hmh00311-V02,,,
+1264,0,no,,no,no,no,no,variation,HMH-LIT-UYMT2O-V01,,,
+1265,0,no,,no,no,no,no,variation,HMH-LIT-UYMT2O-V02,,,
+1266,0,no,,no,no,no,no,variation,HMH-LIT-UYMT2O-V03,,,
+1267,0,no,,no,no,no,no,variation,HMH-LIT-UYMT2O-V04,,,
+1268,0,no,,no,no,no,no,variation,1640-V01,,,
+1269,0,no,,no,no,no,no,variation,1640-V02,,,
+1270,0,no,,no,no,no,no,variation,1640-V03,,,
+1271,0,no,,no,no,no,no,variation,1018-V01,,,
+1272,0,no,,no,no,no,no,variation,1018-V02,,,
+1273,0,no,,no,no,no,no,variation,1018-V03,,,
+1274,0,no,,no,no,no,no,variation,304,,,
+1275,0,no,,no,no,no,no,variation,2216-V01,,,
+1276,0,no,,no,no,no,no,variation,2216-V02,,,
+1277,0,no,,no,no,no,no,variation,2216-V03,,,
+1278,0,no,,no,no,no,no,variation,3081-V01,,,
+1279,0,no,,no,no,no,no,variation,3081-V02,,,
+1280,0,no,,no,no,no,no,variation,3637-V01,,,
+1281,0,no,,no,no,no,no,variation,3637-V02,,,
+1282,0,no,,no,no,no,no,variation,1016-V01,,,
+1283,0,no,,no,no,no,no,variation,1016-V02,,,
+1284,0,no,,no,no,no,no,variation,1016-V03,,,
+1285,0,no,,no,no,no,no,variation,1016-V04,,,
+1286,0,no,,no,no,no,no,variation,3183-V01,,,
+1287,0,no,,no,no,no,no,variation,3183-V02,,,
+1288,0,no,,no,no,no,no,variation,3183-V03,,,
+1289,0,no,,no,no,no,no,variation,3183-V04,,,
+1290,0,no,,no,no,no,no,variation,2397-V01,,,
+1291,0,no,,no,no,no,no,variation,2873-V01,,,
+1292,0,no,,no,no,no,no,variation,2873-V02,,,
+1293,0,no,,no,no,no,no,variation,2873-V03,,,
+1294,0,no,,no,no,no,no,variation,hmh00901-V01,,,
+1295,0,no,,no,no,no,no,variation,hmh00901-V02,,,
+1296,0,no,,no,no,no,no,variation,2008-V01,,,
+1297,0,no,,no,no,no,no,variation,2008-V02,,,
+1298,0,no,,no,no,no,no,variation,2008-V03,,,
+1299,0,no,,no,no,no,no,variation,1567,,,
+1300,0,no,,no,no,no,no,variation,3657-V01,,,
+1301,0,no,,no,no,no,no,variation,3657-V02,,,
+1302,0,no,,no,no,no,no,variation,3657-V03,,,
+1303,0,no,,no,no,no,no,variation,3657-V04,,,
+1304,0,no,,no,no,no,no,variation,3658-V01,,,
+1305,0,no,,no,no,no,no,variation,3658-V02,,,
+1306,0,no,,no,no,no,no,variation,3658-V03,,,
+1307,0,no,,no,no,no,no,variation,3658-V04,,,
+1308,0,no,,no,no,no,no,variation,HMH-PES-V66G15-V01,,,
+1309,0,no,,no,no,no,no,variation,HMH-PES-V66G15-V02,,,
+1310,0,no,,no,no,no,no,variation,HMH-PES-V66G15-V03,,,
+1311,0,no,,no,no,no,no,variation,HMH-PES-V66G15-V04,,,
+1312,0,no,,no,no,no,no,variation,HMH-PES-269VOY-V02,,,
+1313,0,no,,no,no,no,no,variation,HMH-PES-269VOY-V03,,,
+1314,0,no,,no,no,no,no,variation,HMH-PES-269VOY-V04,,,
+1315,0,no,,no,no,no,no,variation,HMH-PES-269VOY-V05,,,
+1316,0,no,,no,no,no,no,variation,HMH-PES-6WDHJF-V01,,,
+1317,0,no,,no,no,no,no,variation,HMH-PES-6WDHJF-V02,,,
+1318,0,no,,no,no,no,no,variation,HMH-PES-6WDHJF-V03,,,
+1319,0,no,,no,no,no,no,variation,HMH-PES-6WDHJF-V04,,,
+1320,0,no,,no,no,no,no,variation,2257,,,
+1321,0,no,,no,no,no,no,variation,2260-V02,,,
+1322,0,no,,no,no,no,no,variation,14,,,
+1323,0,no,,no,no,no,no,variation,2513,,,
+1324,0,no,,no,no,no,no,variation,2515,,,
+1325,0,no,,no,no,no,no,variation,2514-V03,,,
+1326,0,no,,no,no,no,no,variation,3152-V01,,,
+1327,0,no,,no,no,no,no,variation,3152-V02,,,
+1328,0,no,,no,no,no,no,variation,3152-V03,,,
+1329,0,no,,no,no,no,no,variation,3152-V04,,,
+1330,0,no,,no,no,no,no,variation,HMH-NUT-3ZSAW8-V01,,,
+1331,0,no,,no,no,no,no,variation,HMH-NUT-3ZSAW8-V02,,,
+1332,0,no,,no,no,no,no,variation,HMH-NUT-3ZSAW8-V03,,,
+1333,0,no,,no,no,no,no,variation,HMH-NUT-3ZSAW8-V04,,,
+1334,0,no,,no,no,no,no,variation,3136-V01,,,
+1335,0,no,,no,no,no,no,variation,3136-V02,,,
+1336,0,no,,no,no,no,no,variation,3136-V03,,,
+1337,0,no,,no,no,no,no,variation,3136-V04,,,
+1338,0,no,,no,no,no,no,variation,3281-V01,,,
+1339,0,no,,no,no,no,no,variation,3281-V02,,,
+1340,0,no,,no,no,no,no,variation,3281-V03,,,
+1341,0,no,,no,no,no,no,variation,3281-V04,,,
+1342,0,no,,no,no,no,no,variation,3137-V01,,,
+1343,0,no,,no,no,no,no,variation,3137-V02,,,
+1344,0,no,,no,no,no,no,variation,3137-V03,,,
+1345,0,no,,no,no,no,no,variation,3137-V04,,,
+1346,0,no,,no,no,no,no,variation,3282-V01,,,
+1347,0,no,,no,no,no,no,variation,3282-V02,,,
+1348,0,no,,no,no,no,no,variation,3282-V03,,,
+1349,0,no,,no,no,no,no,variation,3282-V04,,,
+1350,0,no,,no,no,no,no,variation,3134-V01,,,
+1351,0,no,,no,no,no,no,variation,3134-V02,,,
+1352,0,no,,no,no,no,no,variation,3134-V03,,,
+1353,0,no,,no,no,no,no,variation,3134-V04,,,
+1354,0,no,,no,no,no,no,variation,HMH-NUT-42I6YY-V01,,,
+1355,0,no,,no,no,no,no,variation,HMH-NUT-42I6YY-V02,,,
+1356,0,no,,no,no,no,no,variation,HMH-NUT-42I6YY-V03,,,
+1357,0,no,,no,no,no,no,variation,HMH-NUT-42I6YY-V04,,,
+1358,0,no,,no,no,no,no,variation,3213-V01,,,
+1359,0,no,,no,no,no,no,variation,3213-V02,,,
+1360,0,no,,no,no,no,no,variation,3213-V03,,,
+1361,0,no,,no,no,no,no,variation,3213-V04,,,
+1362,0,no,,no,no,no,no,variation,3217-V01,,,
+1363,0,no,,no,no,no,no,variation,3217-V02,,,
+1364,0,no,,no,no,no,no,variation,3217-V03,,,
+1365,0,no,,no,no,no,no,variation,3217-V04,,,
+1366,0,no,,no,no,no,no,variation,3006-V01,,,
+1367,0,no,,no,no,no,no,variation,3006-V02,,,
+1368,0,no,,no,no,no,no,variation,3006-V03,,,
+1369,0,no,,no,no,no,no,variation,3006-V04,,,
+1370,0,no,,no,no,no,no,variation,3150-V01,,,
+1371,0,no,,no,no,no,no,variation,3150-V02,,,
+1372,0,no,,no,no,no,no,variation,3150-V03,,,
+1373,0,no,,no,no,no,no,variation,3150-V04,,,
+1374,0,no,,no,no,no,no,variation,HMH-NUT-RJEH8Y-V01,,,
+1375,0,no,,no,no,no,no,variation,HMH-NUT-RJEH8Y-V02,,,
+1376,0,no,,no,no,no,no,variation,HMH-NUT-RJEH8Y-V03,,,
+1377,0,no,,no,no,no,no,variation,HMH-NUT-RJEH8Y-V04,,,
+1378,0,no,,no,no,no,no,variation,3138-V01,,,
+1379,0,no,,no,no,no,no,variation,3138-V02,,,
+1380,0,no,,no,no,no,no,variation,3138-V03,,,
+1381,0,no,,no,no,no,no,variation,3138-V04,,,
+1382,0,no,,no,no,no,no,variation,HMH-NUT-MOPU1F-V01,,,
+1383,0,no,,no,no,no,no,variation,HMH-NUT-MOPU1F-V02,,,
+1384,0,no,,no,no,no,no,variation,HMH-NUT-MOPU1F-V03,,,
+1385,0,no,,no,no,no,no,variation,HMH-NUT-MOPU1F-V04,,,
+1386,0,no,,no,no,no,no,variation,3411-V01,,,
+1387,0,no,,no,no,no,no,variation,3411-V02,,,
+1388,0,no,,no,no,no,no,variation,3411-V03,,,
+1389,0,no,,no,no,no,no,variation,3411-V04,,,
+1390,0,no,,no,no,no,no,variation,HMH-NUT-IUFNDY-V01,,,
+1391,0,no,,no,no,no,no,variation,HMH-NUT-IUFNDY-V02,,,
+1392,0,no,,no,no,no,no,variation,HMH-NUT-IUFNDY-V03,,,
+1393,0,no,,no,no,no,no,variation,HMH-NUT-IUFNDY-V04,,,
+1394,0,no,,no,no,no,no,variation,HMH-NUT-JG0R6N-V01,,,
+1395,0,no,,no,no,no,no,variation,HMH-NUT-JG0R6N-V02,,,
+1396,0,no,,no,no,no,no,variation,HMH-NUT-JG0R6N-V03,,,
+1397,0,no,,no,no,no,no,variation,HMH-NUT-JG0R6N-V04,,,
+1398,0,no,,no,no,no,no,variation,3397-V01,,,
+1399,0,no,,no,no,no,no,variation,3397-V02,,,
+1400,0,no,,no,no,no,no,variation,3397-V03,,,
+1401,0,no,,no,no,no,no,variation,3397-V04,,,
+1402,0,no,,no,no,no,no,variation,3142-V01,,,
+1403,0,no,,no,no,no,no,variation,3142-V02,,,
+1404,0,no,,no,no,no,no,variation,3142-V03,,,
+1405,0,no,,no,no,no,no,variation,3142-V04,,,
+1406,0,no,,no,no,no,no,variation,HMH-NUT-LSYWMK-V01,,,
+1407,0,no,,no,no,no,no,variation,HMH-NUT-LSYWMK-V02,,,
+1408,0,no,,no,no,no,no,variation,HMH-NUT-LSYWMK-V03,,,
+1409,0,no,,no,no,no,no,variation,HMH-NUT-LSYWMK-V04,,,
+1410,0,no,,no,no,no,no,variation,3409-V01,,,
+1411,0,no,,no,no,no,no,variation,3409-V02,,,
+1412,0,no,,no,no,no,no,variation,3409-V03,,,
+1413,0,no,,no,no,no,no,variation,3409-V04,,,
+1414,0,no,,no,no,no,no,variation,3408-V01,,,
+1415,0,no,,no,no,no,no,variation,3408-V02,,,
+1416,0,no,,no,no,no,no,variation,3408-V03,,,
+1417,0,no,,no,no,no,no,variation,3408-V04,,,
+1418,0,no,,no,no,no,no,variation,3218-V01,,,
+1419,0,no,,no,no,no,no,variation,3218-V02,,,
+1420,0,no,,no,no,no,no,variation,3218-V03,,,
+1421,0,no,,no,no,no,no,variation,3218-V04,,,
+1422,0,no,,no,no,no,no,variation,3216-V01,,,
+1423,0,no,,no,no,no,no,variation,3216-V02,,,
+1424,0,no,,no,no,no,no,variation,3216-V03,,,
+1425,0,no,,no,no,no,no,variation,3216-V04,,,
+1426,0,no,,no,no,no,no,variation,3214-V01,,,
+1427,0,no,,no,no,no,no,variation,3214-V02,,,
+1428,0,no,,no,no,no,no,variation,3214-V03,,,
+1429,0,no,,no,no,no,no,variation,3214-V04,,,
+1430,0,no,,no,no,no,no,variation,3562-V01,,,
+1431,0,no,,no,no,no,no,variation,3562-V02,,,
+1432,0,no,,no,no,no,no,variation,3562-V03,,,
+1433,0,no,,no,no,no,no,variation,3562-V04,,,
+1434,0,no,,no,no,no,no,variation,3578-V01,,,
+1435,0,no,,no,no,no,no,variation,1531-V01,,,
+1436,0,no,,no,no,no,no,variation,1531-V02,,,
+1437,0,no,,no,no,no,no,variation,359-V01,,,
+1438,0,no,,no,no,no,no,variation,359-V02,,,
+1439,0,no,,no,no,no,no,variation,2939,,,
+1440,0,no,,no,no,no,no,variation,2909-V01,,,
+1441,0,no,,no,no,no,no,variation,2909-V02,,,
+1442,0,no,,no,no,no,no,variation,2243,,,
+1443,0,no,,no,no,no,no,variation,1068-V02,,,
+1444,0,no,,no,no,no,no,variation,1068-V03,,,
+1445,0,no,,no,no,no,no,variation,1068-V04,,,
+1446,0,no,,no,no,no,no,variation,1068-V05,,,
+1447,0,no,,no,no,no,no,variation,2244,,,
+1448,0,no,,no,no,no,no,variation,1069-V02,,,
+1449,0,no,,no,no,no,no,variation,1069-V03,,,
+1450,0,no,,no,no,no,no,variation,1069-V04,,,
+1451,0,no,,no,no,no,no,variation,1069-V05,,,
+1452,0,no,,no,no,no,no,variation,1057,,,
+1453,0,no,,no,no,no,no,variation,2242,,,
+1454,0,no,,no,no,no,no,variation,1350-V02,,,
+1455,0,no,,no,no,no,no,variation,1350-V03,,,
+1456,0,no,,no,no,no,no,variation,1350-V04,,,
+1457,0,no,,no,no,no,no,variation,1350-V05,,,
+1458,0,no,,no,no,no,no,variation,1072,,,
+1459,0,no,,no,no,no,no,variation,1073,,,
+1460,0,no,,no,no,no,no,variation,hmh00043-V01,,,
+1461,0,no,,no,no,no,no,variation,hmh00043-V02,,,
+1462,0,no,,no,no,no,no,variation,hmh00043-V03,,,
+1463,0,no,,no,no,no,no,variation,861,,,
+1464,0,no,,no,no,no,no,variation,863,,,
+1465,0,no,,no,no,no,no,variation,1076,,,
+1466,0,no,,no,no,no,no,variation,1077,,,
+1467,0,no,,no,no,no,no,variation,1066-V01,,,
+1468,0,no,,no,no,no,no,variation,1066-V02,,,
+1469,0,no,,no,no,no,no,variation,1066-V03,,,
+1470,0,no,,no,no,no,no,variation,1066-V04,,,
+1471,0,no,,no,no,no,no,variation,3341-V01,,,
+1472,0,no,,no,no,no,no,variation,310,,,
+1473,0,no,,no,no,no,no,variation,hmh00052-V01,,,
+1474,0,no,,no,no,no,no,variation,hmh00052-V02,,,
+1475,0,no,,no,no,no,no,variation,hmh01084,,,
+1476,0,no,,no,no,no,no,variation,1674,,,
+1477,0,no,,no,no,no,no,variation,2215-V05,,,
+1478,0,no,,no,no,no,no,variation,hmh00960-V01,,,
+1479,0,no,,no,no,no,no,variation,2938,,,
+1480,0,no,,no,no,no,no,variation,3595-V01,,,
+1481,0,no,,no,no,no,no,variation,3595-V02,,,
+1482,0,no,,no,no,no,no,variation,678,,,
+1483,0,no,,no,no,no,no,variation,679,,,
+1484,0,no,,no,no,no,no,variation,1751,,,
+1485,0,no,,no,no,no,no,variation,389,,,
+1486,0,no,,no,no,no,no,variation,3557,,,
+1487,0,no,,no,no,no,no,variation,HMH-GRO-WYS1LK-V01,,,
+1488,0,no,,no,no,no,no,variation,HMH-GRO-WYS1LK-V02,,,
+1489,0,no,,no,no,no,no,variation,HMH-GRO-WYS1LK-V03,,,
+1490,0,no,,no,no,no,no,variation,HMH-GRO-WYS1LK-V04,,,
+1491,0,no,,no,no,no,no,variation,285,,,
+1492,0,no,,no,no,no,no,variation,1978,,,
+1493,0,no,,no,no,no,no,variation,1981,,,
+1494,0,no,,no,no,no,no,variation,1980,,,
+1495,0,no,,no,no,no,no,variation,1986,,,
+1496,0,no,,no,no,no,no,variation,hmh00249-V03,,,
+1497,0,no,,no,no,no,no,variation,hmh00249-V04,,,
+1498,0,no,,no,no,no,no,variation,hmh00249-V05,,,
+1499,0,no,,no,no,no,no,variation,327,,,
+1500,0,no,,no,no,no,no,variation,2254,,,
+1501,0,no,,no,no,no,no,variation,282-V03,,,
+1502,0,no,,no,no,no,no,variation,282-V04,,,
+1503,0,no,,no,no,no,no,variation,282-V05,,,
+1504,0,no,,no,no,no,no,variation,hmh00165-V01,,,
+1505,0,no,,no,no,no,no,variation,hmh00165-V02,,,
+1506,0,no,,no,no,no,no,variation,hmh00165-V03,,,
+1507,0,no,,no,no,no,no,variation,271,,,
+1508,0,no,,no,no,no,no,variation,1984,,,
+1509,0,no,,no,no,no,no,variation,792-V01,,,
+1510,0,no,,no,no,no,no,variation,792-V02,,,
+1511,0,no,,no,no,no,no,variation,792-V03,,,
+1512,0,no,,no,no,no,no,variation,792-V04,,,
+1513,0,no,,no,no,no,no,variation,1641-V01,,,
+1514,0,no,,no,no,no,no,variation,1641-V02,,,
+1515,0,no,,no,no,no,no,variation,1641-V03,,,
+1516,0,no,,no,no,no,no,variation,1641-V04,,,
+1517,0,no,,no,no,no,no,variation,2129-V01,,,
+1518,0,no,,no,no,no,no,variation,2129-V02,,,
+1519,0,no,,no,no,no,no,variation,2129-V03,,,
+1520,0,no,,no,no,no,no,variation,2129-V04,,,
+1521,0,no,,no,no,no,no,variation,608,,,
+1522,0,no,,no,no,no,no,variation,609,,,
+1523,0,no,,no,no,no,no,variation,610,,,
+1524,0,no,,no,no,no,no,variation,607-V04,,,
+1525,0,no,,no,no,no,no,variation,607-V05,,,
+1526,0,no,,no,no,no,no,variation,607-V06,,,
+1527,0,no,,no,no,no,no,variation,607-V07,,,
+1528,0,no,,no,no,no,no,variation,616,,,
+1529,0,no,,no,no,no,no,variation,617,,,
+1530,0,no,,no,no,no,no,variation,618,,,
+1531,0,no,,no,no,no,no,variation,791-V01,,,
+1532,0,no,,no,no,no,no,variation,1987-V01,,,
+1533,0,no,,no,no,no,no,variation,1987-V02,,,
+1534,0,no,,no,no,no,no,variation,1987-V03,,,
+1535,0,no,,no,no,no,no,variation,1987-V04,,,
+1536,0,no,,no,no,no,no,variation,1358-V01,,,
+1537,0,no,,no,no,no,no,variation,2642,,,
+1538,0,no,,no,no,no,no,variation,820,,,
+1539,0,no,,no,no,no,no,variation,812-V01,,,
+1540,0,no,,no,no,no,no,variation,3536-V01,,,
+1541,0,no,,no,no,no,no,variation,2321-V01,,,
+1542,0,no,,no,no,no,no,variation,2200-V01,,,
+1543,0,no,,no,no,no,no,variation,2200-V02,,,
+1544,0,no,,no,no,no,no,variation,2200-V03,,,
+1545,0,no,,no,no,no,no,variation,1660,,,
+1546,0,no,,no,no,no,no,variation,2298,,,
+1547,0,no,,no,no,no,no,variation,1613,,,
+1548,0,no,,no,no,no,no,variation,2286-V04,,,
+1549,0,no,,no,no,no,no,variation,2286-V05,,,
+1550,0,no,,no,no,no,no,variation,2286-V06,,,
+1551,0,no,,no,no,no,no,variation,2286-V07,,,
+1552,0,no,,no,no,no,no,variation,223,,,
+1553,0,no,,no,no,no,no,variation,224,,,
+1554,0,no,,no,no,no,no,variation,2121,,,
+1555,0,no,,no,no,no,no,variation,2922,,,
+1556,0,no,,no,no,no,no,variation,2934,,,
+1557,0,no,,no,no,no,no,variation,hmh01032-V01,,,
+1558,0,no,,no,no,no,no,variation,hmh01032-V02,,,
+1559,0,no,,no,no,no,no,variation,hmh01032-V03,,,
+1560,0,no,,no,no,no,no,variation,264,,,
+1561,0,no,,no,no,no,no,variation,2931,,,
+1562,0,no,,no,no,no,no,variation,1591,,,
+1563,0,no,,no,no,no,no,variation,3262,,,
+1564,0,no,,no,no,no,no,variation,2283-V03,,,
+1565,0,no,,no,no,no,no,variation,2283-V04,,,
+1566,0,no,,no,no,no,no,variation,2283-V05,,,
+1567,0,no,,no,no,no,no,variation,2283-V06,,,
+1568,0,no,,no,no,no,no,variation,2065,,,
+1569,0,no,,no,no,no,no,variation,2066,,,
+1570,0,no,,no,no,no,no,variation,hmh01832-V01,,,
+1571,0,no,,no,no,no,no,variation,hmh01832-V02,,,
+1572,0,no,,no,no,no,no,variation,hmh01832-V03,,,
+1573,0,no,,no,no,no,no,variation,hmh01832-V04,,,
+1574,0,no,,no,no,no,no,variation,3091,,,
+1575,0,no,,no,no,no,no,variation,1539,,,
+1576,0,no,,no,no,no,no,variation,273,,,
+1577,0,no,,no,no,no,no,variation,1988,,,
+1578,0,no,,no,no,no,no,variation,hmh00253-V02,,,
+1579,0,no,,no,no,no,no,variation,hmh00253-V03,,,
+1580,0,no,,no,no,no,no,variation,hmh00253-V04,,,
+1581,0,no,,no,no,no,no,variation,hmh00253-V05,,,
+1582,0,no,,no,no,no,no,variation,1116,,,
+1583,0,no,,no,no,no,no,variation,1115,,,
+1584,0,no,,no,no,no,no,variation,1114-V01,,,
+1585,0,no,,no,no,no,no,variation,1114-V02,,,
+1586,0,no,,no,no,no,no,variation,1114-V03,,,
+1587,0,no,,no,no,no,no,variation,1120,,,
+1588,0,no,,no,no,no,no,variation,hmh00716-V01,,,
+1589,0,no,,no,no,no,no,variation,hmh00716-V02,,,
+1590,0,no,,no,no,no,no,variation,hmh00716-V03,,,
+1591,0,no,,no,no,no,no,variation,1110-V01,,,
+1592,0,no,,no,no,no,no,variation,1110-V02,,,
+1593,0,no,,no,no,no,no,variation,1110-V03,,,
+1594,0,no,,no,no,no,no,variation,1107-V01,,,
+1595,0,no,,no,no,no,no,variation,1107-V02,,,
+1596,0,no,,no,no,no,no,variation,1107-V03,,,
+1597,0,no,,no,no,no,no,variation,1108-V01,,,
+1598,0,no,,no,no,no,no,variation,1108-V02,,,
+1599,0,no,,no,no,no,no,variation,1108-V03,,,
+1600,0,no,,no,no,no,no,variation,1119,,,
+1601,0,no,,no,no,no,no,variation,hmh00717-V01,,,
+1602,0,no,,no,no,no,no,variation,hmh00717-V02,,,
+1603,0,no,,no,no,no,no,variation,hmh00717-V03,,,
+1604,0,no,,no,no,no,no,variation,1118,,,
+1605,0,no,,no,no,no,no,variation,hmh00718-V01,,,
+1606,0,no,,no,no,no,no,variation,hmh00718-V02,,,
+1607,0,no,,no,no,no,no,variation,hmh00718-V03,,,
+1608,0,no,,no,no,no,no,variation,1117,,,
+1609,0,no,,no,no,no,no,variation,hmh00719-V01,,,
+1610,0,no,,no,no,no,no,variation,hmh00719-V02,,,
+1611,0,no,,no,no,no,no,variation,hmh00719-V03,,,
+1612,0,no,,no,no,no,no,variation,1915-V01,,,
+1613,0,no,,no,no,no,no,variation,1915-V02,,,
+1614,0,no,,no,no,no,no,variation,1915-V03,,,
+1615,0,no,,no,no,no,no,variation,1915-V04,,,
+1616,0,no,,no,no,no,no,variation,1099-V01,,,
+1617,0,no,,no,no,no,no,variation,1099-V02,,,
+1618,0,no,,no,no,no,no,variation,1099-V03,,,
+1619,0,no,,no,no,no,no,variation,1947-V01,,,
+1620,0,no,,no,no,no,no,variation,1947-V02,,,
+1621,0,no,,no,no,no,no,variation,1087-V01,,,
+1622,0,no,,no,no,no,no,variation,1087-V02,,,
+1623,0,no,,no,no,no,no,variation,1087-V03,,,
+1624,0,no,,no,no,no,no,variation,1086-V01,,,
+1625,0,no,,no,no,no,no,variation,1086-V02,,,
+1626,0,no,,no,no,no,no,variation,1086-V03,,,
+1627,0,no,,no,no,no,no,variation,1085-V01,,,
+1628,0,no,,no,no,no,no,variation,1085-V02,,,
+1629,0,no,,no,no,no,no,variation,1085-V03,,,
+1630,0,no,,no,no,no,no,variation,1092-V01,,,
+1631,0,no,,no,no,no,no,variation,1092-V02,,,
+1632,0,no,,no,no,no,no,variation,1092-V03,,,
+1633,0,no,,no,no,no,no,variation,1091-V01,,,
+1634,0,no,,no,no,no,no,variation,1091-V02,,,
+1635,0,no,,no,no,no,no,variation,1091-V03,,,
+1636,0,no,,no,no,no,no,variation,1089-V01,,,
+1637,0,no,,no,no,no,no,variation,1089-V02,,,
+1638,0,no,,no,no,no,no,variation,1089-V03,,,
+1639,0,no,,no,no,no,no,variation,1090-V01,,,
+1640,0,no,,no,no,no,no,variation,1090-V02,,,
+1641,0,no,,no,no,no,no,variation,1090-V03,,,
+1642,0,no,,no,no,no,no,variation,1088-V01,,,
+1643,0,no,,no,no,no,no,variation,1088-V02,,,
+1644,0,no,,no,no,no,no,variation,1088-V03,,,
+1645,0,no,,no,no,no,no,variation,2439-V01,,,
+1646,0,no,,no,no,no,no,variation,2439-V02,,,
+1647,0,no,,no,no,no,no,variation,2439-V03,,,
+1648,0,no,,no,no,no,no,variation,2439-V04,,,
+1649,0,no,,no,no,no,no,variation,2295-V01,,,
+1650,0,no,,no,no,no,no,variation,2295-V02,,,
+1651,0,no,,no,no,no,no,variation,2295-V03,,,
+1652,0,no,,no,no,no,no,variation,3367,,,
+1653,0,no,,no,no,no,no,variation,1101-V02,,,
+1654,0,no,,no,no,no,no,variation,1101-V03,,,
+1655,0,no,,no,no,no,no,variation,1101-V04,,,
+1656,0,no,,no,no,no,no,variation,1103-V01,,,
+1657,0,no,,no,no,no,no,variation,1103-V02,,,
+1658,0,no,,no,no,no,no,variation,1103-V03,,,
+1659,0,no,,no,no,no,no,variation,1102,,,
+1660,0,no,,no,no,no,no,variation,1104,,,
+1661,0,no,,no,no,no,no,variation,1105,,,
+1662,0,no,,no,no,no,no,variation,1106,,,
+1663,0,no,,no,no,no,no,variation,1100-V05,,,
+1664,0,no,,no,no,no,no,variation,1100-V06,,,
+1665,0,no,,no,no,no,no,variation,1997,,,
+1666,0,no,,no,no,no,no,variation,1998,,,
+1667,0,no,,no,no,no,no,variation,1999,,,
+1668,0,no,,no,no,no,no,variation,399-V01,,,
+1669,0,no,,no,no,no,no,variation,399-V02,,,
+1670,0,no,,no,no,no,no,variation,399-V03,,,
+1671,0,no,,no,no,no,no,variation,399-V04,,,
+1672,0,no,,no,no,no,no,variation,2482-V01,,,
+1673,0,no,,no,no,no,no,variation,2481,,,
+1674,0,no,,no,no,no,no,variation,3086-V02,,,
+1675,0,no,,no,no,no,no,variation,3086-V03,,,
+1676,0,no,,no,no,no,no,variation,3086-V04,,,
+1677,0,no,,no,no,no,no,variation,3086-V05,,,
+1678,0,no,,no,no,no,no,variation,HMH-SED-MHH6B1-V01,,,
+1679,0,no,,no,no,no,no,variation,427,,,
+1680,0,no,,no,no,no,no,variation,1764-V01,,,
+1681,0,no,,no,no,no,no,variation,1764-V02,,,
+1682,0,no,,no,no,no,no,variation,2293,,,
+1683,0,no,,no,no,no,no,variation,3259,,,
+1684,0,no,,no,no,no,no,variation,2292-V03,,,
+1685,0,no,,no,no,no,no,variation,2292-V04,,,
+1686,0,no,,no,no,no,no,variation,1853,,,
+1687,0,no,,no,no,no,no,variation,2042,,,
+1688,0,no,,no,no,no,no,variation,257,,,
+1689,0,no,,no,no,no,no,variation,1023-V01,,,
+1690,0,no,,no,no,no,no,variation,1929-V01,,,
+1691,0,no,,no,no,no,no,variation,1929-V02,,,
+1692,0,no,,no,no,no,no,variation,1929-V03,,,
+1693,0,no,,no,no,no,no,variation,1929-V04,,,
+1694,0,no,,no,no,no,no,variation,3203-V01,,,
+1695,0,no,,no,no,no,no,variation,3203-V02,,,
+1696,0,no,,no,no,no,no,variation,3203-V03,,,
+1697,0,no,,no,no,no,no,variation,3203-V04,,,
+1698,0,no,,no,no,no,no,variation,309,,,
+1699,0,no,,no,no,no,no,variation,949,,,
+1700,0,no,,no,no,no,no,variation,2486,,,
+1701,0,no,,no,no,no,no,variation,18,,,
+1702,0,no,,no,no,no,no,variation,2484-V01,,,
+1703,0,no,,no,no,no,no,variation,2484-V02,,,
+1704,0,no,,no,no,no,no,variation,2992,,,
+1705,0,no,,no,no,no,no,variation,hmh01562-V01,,,
+1706,0,no,,no,no,no,no,variation,hmh01562-V02,,,
+1707,0,no,,no,no,no,no,variation,hmh01563-V01,,,
+1708,0,no,,no,no,no,no,variation,hmh01563-V02,,,
+1709,0,no,,no,no,no,no,variation,hmh01560-V01,,,
+1710,0,no,,no,no,no,no,variation,hmh01561-V01,,,
+1711,0,no,,no,no,no,no,variation,HMH-LIT-NIDNJ2-V01,,,
+1712,0,no,,no,no,no,no,variation,1927-V01,,,
+1713,0,no,,no,no,no,no,variation,1048-V01,,,
+1714,0,no,,no,no,no,no,variation,2886-V01,,,
+1715,0,no,,no,no,no,no,variation,2903-V01,,,
+1716,0,no,,no,no,no,no,variation,2904-V01,,,
+1717,0,no,,no,no,no,no,variation,2904-V02,,,
+1718,0,no,,no,no,no,no,variation,3527-V01,,,
+1719,0,no,,no,no,no,no,variation,2967,,,
+1720,0,no,,no,no,no,no,variation,2836,,,
+1721,0,no,,no,no,no,no,variation,2906-V02,,,
+1722,0,no,,no,no,no,no,variation,2906-V03,,,
+1723,0,no,,no,no,no,no,variation,2907-V01,,,
+1724,0,no,,no,no,no,no,variation,2907-V02,,,
+1725,0,no,,no,no,no,no,variation,2691-V01,,,
+1726,0,no,,no,no,no,no,variation,695-V01,,,
+1727,0,no,,no,no,no,no,variation,1523-V01,,,
+1728,0,no,,no,no,no,no,variation,1523-V02,,,
+1729,0,no,,no,no,no,no,variation,1523-V03,,,
+1730,0,no,,no,no,no,no,variation,1523-V04,,,
+1731,0,no,,no,no,no,no,variation,hmh01448-V01,,,
+1732,0,no,,no,no,no,no,variation,hmh01448-V02,,,
+1733,0,no,,no,no,no,no,variation,541,,,
+1734,0,no,,no,no,no,no,variation,540-V02,,,
+1735,0,no,,no,no,no,no,variation,540-V03,,,
+1736,0,no,,no,no,no,no,variation,540-V04,,,
+1737,0,no,,no,no,no,no,variation,540-V05,,,
+1738,0,no,,no,no,no,no,variation,275,,,
+1739,0,no,,no,no,no,no,variation,hmh00255-V02,,,
+1740,0,no,,no,no,no,no,variation,hmh00255-V03,,,
+1741,0,no,,no,no,no,no,variation,hmh00255-V04,,,
+1742,0,no,,no,no,no,no,variation,hmh00255-V05,,,
+1743,0,no,,no,no,no,no,variation,hmh00684-V01,,,
+1744,0,no,,no,no,no,no,variation,hmh00684-V02,,,
+1745,0,no,,no,no,no,no,variation,hmh00684-V03,,,
+1746,0,no,,no,no,no,no,variation,hmh00684-V04,,,
+1747,0,no,,no,no,no,no,variation,hmh00685-V01,,,
+1748,0,no,,no,no,no,no,variation,hmh00685-V02,,,
+1749,0,no,,no,no,no,no,variation,hmh00685-V03,,,
+1750,0,no,,no,no,no,no,variation,hmh00685-V04,,,
+1751,0,no,,no,no,no,no,variation,189,,,
+1752,0,no,,no,no,no,no,variation,190,,,
+1753,0,no,,no,no,no,no,variation,188-V03,,,
+1754,0,no,,no,no,no,no,variation,188-V04,,,
+1755,0,no,,no,no,no,no,variation,hmh00199-V02,,,
+1756,0,no,,no,no,no,no,variation,hmh00199-V03,,,
+1757,0,no,,no,no,no,no,variation,hmh00201-V01,,,
+1758,0,no,,no,no,no,no,variation,hmh00201-V02,,,
+1759,0,no,,no,no,no,no,variation,hmh00202-V01,,,
+1760,0,no,,no,no,no,no,variation,hmh00202-V02,,,
+1761,0,no,,no,no,no,no,variation,HMH-LIT-JNTEGA-V01,,,
+1762,0,no,,no,no,no,no,variation,3328-V01,,,
+1763,0,no,,no,no,no,no,variation,3328-V02,,,
+1764,0,no,,no,no,no,no,variation,343-V01,,,
+1765,0,no,,no,no,no,no,variation,343-V02,,,
+1766,0,no,,no,no,no,no,variation,343-V03,,,
+1767,0,no,,no,no,no,no,variation,342-V01,,,
+1768,0,no,,no,no,no,no,variation,342-V02,,,
+1769,0,no,,no,no,no,no,variation,342-V03,,,
+1770,0,no,,no,no,no,no,variation,hmh01806-V01,,,
+1771,0,no,,no,no,no,no,variation,hmh01805-V01,,,
+1772,0,no,,no,no,no,no,variation,hmh01797-V01,,,
+1773,0,no,,no,no,no,no,variation,2638-V01,,,
+1774,0,no,,no,no,no,no,variation,2639-V01,,,
+1775,0,no,,no,no,no,no,variation,hmh00819-V01,,,
+1776,0,no,,no,no,no,no,variation,1421-V01,,,
+1777,0,no,,no,no,no,no,variation,3191-V01,,,
+1778,0,no,,no,no,no,no,variation,3586,,,
+1779,0,no,,no,no,no,no,variation,2211-V02,,,
+1780,0,no,,no,no,no,no,variation,2211-V03,,,
+1781,0,no,,no,no,no,no,variation,3192,,,
+1782,0,no,,no,no,no,no,variation,3034,,,
+1783,0,no,,no,no,no,no,variation,1697-V01,,,
+1784,0,no,,no,no,no,no,variation,1695-V01,,,
+1785,0,no,,no,no,no,no,variation,HMH-LIT-83Y301-V01,,,
+1786,0,no,,no,no,no,no,variation,HMH-LIT-83Y301-V02,,,
+1787,0,no,,no,no,no,no,variation,HMH-LIT-83Y301-V03,,,
+1788,0,no,,no,no,no,no,variation,HMH-LIT-83Y301-V04,,,
+1789,0,no,,no,no,no,no,variation,3368-V01,,,
+1790,0,no,,no,no,no,no,variation,3368-V02,,,
+1791,0,no,,no,no,no,no,variation,3368-V03,,,
+1792,0,no,,no,no,no,no,variation,3368-V04,,,
+1793,0,no,,no,no,no,no,variation,3465-V01,,,
+1794,0,no,,no,no,no,no,variation,3465-V02,,,
+1795,0,no,,no,no,no,no,variation,3465-V03,,,
+1796,0,no,,no,no,no,no,variation,3465-V04,,,
+1797,0,no,,no,no,no,no,variation,hmh01277-V02,,,
+1798,0,no,,no,no,no,no,variation,hmh01277-V03,,,
+1799,0,no,,no,no,no,no,variation,1382-V03,,,
+1800,0,no,,no,no,no,no,variation,1382-V04,,,
+1801,0,no,,no,no,no,no,variation,1382-V05,,,
+1802,0,no,,no,no,no,no,variation,3515,,,
+1803,0,no,,no,no,no,no,variation,3427-V02,,,
+1804,0,no,,no,no,no,no,variation,3427-V03,,,
+1805,0,no,,no,no,no,no,variation,3427-V04,,,
+1806,0,no,,no,no,no,no,variation,3427-V05,,,
+1807,0,no,,no,no,no,no,variation,2317,,,
+1808,0,no,,no,no,no,no,variation,2320,,,
+1809,0,no,,no,no,no,no,variation,46,,,
+1810,0,no,,no,no,no,no,variation,60-V01,,,
+1811,0,no,,no,no,no,no,variation,60-V02,,,
+1812,0,no,,no,no,no,no,variation,134,,,
+1813,0,no,,no,no,no,no,variation,1329,,,
+1814,0,no,,no,no,no,no,variation,754-V01,,,
+1815,0,no,,no,no,no,no,variation,hmh00508-V01,,,
+1816,0,no,,no,no,no,no,variation,hmh00508-V02,,,
+1817,0,no,,no,no,no,no,variation,hmh00508-V03,,,
+1818,0,no,,no,no,no,no,variation,471-V01,,,
+1819,0,no,,no,no,no,no,variation,471-V02,,,
+1820,0,no,,no,no,no,no,variation,471-V03,,,
+1821,0,no,,no,no,no,no,variation,471-V04,,,
+1822,0,no,,no,no,no,no,variation,2088-V01,,,
+1823,0,no,,no,no,no,no,variation,2088-V02,,,
+1824,0,no,,no,no,no,no,variation,913-V01,,,
+1825,0,no,,no,no,no,no,variation,913-V02,,,
+1826,0,no,,no,no,no,no,variation,915-V01,,,
+1827,0,no,,no,no,no,no,variation,915-V02,,,
+1828,0,no,,no,no,no,no,variation,916-V01,,,
+1829,0,no,,no,no,no,no,variation,916-V02,,,
+1830,0,no,,no,no,no,no,variation,687-V01,,,
+1831,0,no,,no,no,no,no,variation,687-V02,,,
+1832,0,no,,no,no,no,no,variation,686-V01,,,
+1833,0,no,,no,no,no,no,variation,686-V02,,,
+1834,0,no,,no,no,no,no,variation,686-V03,,,
+1835,0,no,,no,no,no,no,variation,1400,,,
+1836,0,no,,no,no,no,no,variation,1401,,,
+1837,0,no,,no,no,no,no,variation,hmh01309-V01,,,
+1838,0,no,,no,no,no,no,variation,hmh01309-V02,,,
+1839,0,no,,no,no,no,no,variation,hmh01309-V03,,,
+1840,0,no,,no,no,no,no,variation,hmh01309-V04,,,
+1841,0,no,,no,no,no,no,variation,2247-V01,,,
+1842,0,no,,no,no,no,no,variation,2247-V02,,,
+1843,0,no,,no,no,no,no,variation,2247-V03,,,
+1844,0,no,,no,no,no,no,variation,2247-V04,,,
+1845,0,no,,no,no,no,no,variation,2068,,,
+1846,0,no,,no,no,no,no,variation,784-V01,,,
+1847,0,no,,no,no,no,no,variation,601,,,
+1848,0,no,,no,no,no,no,variation,602,,,
+1849,0,no,,no,no,no,no,variation,600-V03,,,
+1850,0,no,,no,no,no,no,variation,600-V04,,,
+1851,0,no,,no,no,no,no,variation,600-V05,,,
+1852,0,no,,no,no,no,no,variation,hmh00386-V01,,,
+1853,0,no,,no,no,no,no,variation,hmh00386-V02,,,
+1854,0,no,,no,no,no,no,variation,2410,,,
+1855,0,no,,no,no,no,no,variation,hmh01452-V01,,,
+1856,0,no,,no,no,no,no,variation,hmh01452-V02,,,
+1857,0,no,,no,no,no,no,variation,hmh01452-V03,,,
+1858,0,no,,no,no,no,no,variation,2118,,,
+1859,0,no,,no,no,no,no,variation,2017-V02,,,
+1860,0,no,,no,no,no,no,variation,2017-V03,,,
+1861,0,no,,no,no,no,no,variation,266,,,
+1862,0,no,,no,no,no,no,variation,2834-V01,,,
+1863,0,no,,no,no,no,no,variation,696,,,
+1864,0,no,,no,no,no,no,variation,575,,,
+1865,0,no,,no,no,no,no,variation,576,,,
+1866,0,no,,no,no,no,no,variation,577,,,
+1867,0,no,,no,no,no,no,variation,574-V04,,,
+1868,0,no,,no,no,no,no,variation,574-V05,,,
+1869,0,no,,no,no,no,no,variation,574-V06,,,
+1870,0,no,,no,no,no,no,variation,574-V07,,,
+1871,0,no,,no,no,no,no,variation,703,,,
+1872,0,no,,no,no,no,no,variation,704,,,
+1873,0,no,,no,no,no,no,variation,705,,,
+1874,0,no,,no,no,no,no,variation,706,,,
+1875,0,no,,no,no,no,no,variation,hmh00181-V02,,,
+1876,0,no,,no,no,no,no,variation,hmh00181-V03,,,
+1877,0,no,,no,no,no,no,variation,hmh01823-V01,,,
+1878,0,no,,no,no,no,no,variation,hmh01823-V02,,,
+1879,0,no,,no,no,no,no,variation,95,,,
+1880,0,no,,no,no,no,no,variation,96,,,
+1881,0,no,,no,no,no,no,variation,629,,,
+1882,0,no,,no,no,no,no,variation,131,,,
+1883,0,no,,no,no,no,no,variation,130,,,
+1884,0,no,,no,no,no,no,variation,hmh00180-V06,,,
+1885,0,no,,no,no,no,no,variation,hmh00180-V07,,,
+1886,0,no,,no,no,no,no,variation,hmh00183-V01,,,
+1887,0,no,,no,no,no,no,variation,hmh00183-V02,,,
+1888,0,no,,no,no,no,no,variation,hmh00184-V01,,,
+1889,0,no,,no,no,no,no,variation,hmh00184-V02,,,
+1890,0,no,,no,no,no,no,variation,hmh00171-V02,,,
+1891,0,no,,no,no,no,no,variation,hmh00171-V03,,,
+1892,0,no,,no,no,no,no,variation,hmh00171-V04,,,
+1893,0,no,,no,no,no,no,variation,hmh01829-V01,,,
+1894,0,no,,no,no,no,no,variation,hmh01829-V02,,,
+1895,0,no,,no,no,no,no,variation,hmh01829-V03,,,
+1896,0,no,,no,no,no,no,variation,hmh00170-V01,,,
+1897,0,no,,no,no,no,no,variation,hmh00170-V02,,,
+1898,0,no,,no,no,no,no,variation,hmh00170-V03,,,
+1899,0,no,,no,no,no,no,variation,hmh00173-V01,,,
+1900,0,no,,no,no,no,no,variation,hmh00173-V02,,,
+1901,0,no,,no,no,no,no,variation,hmh00173-V03,,,
+1902,0,no,,no,no,no,no,variation,hmh01830-V01,,,
+1903,0,no,,no,no,no,no,variation,hmh01830-V02,,,
+1904,0,no,,no,no,no,no,variation,hmh01830-V03,,,
+1905,0,no,,no,no,no,no,variation,hmh00174-V01,,,
+1906,0,no,,no,no,no,no,variation,hmh00174-V02,,,
+1907,0,no,,no,no,no,no,variation,hmh00174-V03,,,
+1908,0,no,,no,no,no,no,variation,117,,,
+1909,0,no,,no,no,no,no,variation,345,,,
+1910,0,no,,no,no,no,no,variation,116-V03,,,
+1911,0,no,,no,no,no,no,variation,hmh00228-V03,,,
+1912,0,no,,no,no,no,no,variation,639,,,
+1913,0,no,,no,no,no,no,variation,hmh00011-V03,,,
+1914,0,no,,no,no,no,no,variation,hmh00011-V04,,,
+1915,0,no,,no,no,no,no,variation,hmh00011-V05,,,
+1916,0,no,,no,no,no,no,variation,hmh00013-V01,,,
+1917,0,no,,no,no,no,no,variation,hmh00013-V02,,,
+1918,0,no,,no,no,no,no,variation,hmh00013-V03,,,
+1919,0,no,,no,no,no,no,variation,hmh00013-V04,,,
+1920,0,no,,no,no,no,no,variation,hmh00014-V01,,,
+1921,0,no,,no,no,no,no,variation,hmh00014-V02,,,
+1922,0,no,,no,no,no,no,variation,hmh00014-V03,,,
+1923,0,no,,no,no,no,no,variation,hmh00014-V04,,,
+1924,0,no,,no,no,no,no,variation,195,,,
+1925,0,no,,no,no,no,no,variation,197,,,
+1926,0,no,,no,no,no,no,variation,198,,,
+1927,0,no,,no,no,no,no,variation,1917,,,
+1928,0,no,,no,no,no,no,variation,193,,,
+1929,0,no,,no,no,no,no,variation,196,,,
+1930,0,no,,no,no,no,no,variation,199,,,
+1931,0,no,,no,no,no,no,variation,1916,,,
+1932,0,no,,no,no,no,no,variation,hmh00176-V02,,,
+1933,0,no,,no,no,no,no,variation,hmh00176-V03,,,
+1934,0,no,,no,no,no,no,variation,hmh01825-V01,,,
+1935,0,no,,no,no,no,no,variation,hmh01825-V02,,,
+1936,0,no,,no,no,no,no,variation,93,,,
+1937,0,no,,no,no,no,no,variation,94,,,
+1938,0,no,,no,no,no,no,variation,126,,,
+1939,0,no,,no,no,no,no,variation,hmh00175-V05,,,
+1940,0,no,,no,no,no,no,variation,hmh00175-V06,,,
+1941,0,no,,no,no,no,no,variation,hmh00178-V01,,,
+1942,0,no,,no,no,no,no,variation,hmh00178-V02,,,
+1943,0,no,,no,no,no,no,variation,hmh01826-V01,,,
+1944,0,no,,no,no,no,no,variation,hmh01826-V02,,,
+1945,0,no,,no,no,no,no,variation,hmh00179-V01,,,
+1946,0,no,,no,no,no,no,variation,hmh00179-V02,,,
+1947,0,no,,no,no,no,no,variation,123,,,
+1948,0,no,,no,no,no,no,variation,133,,,
+1949,0,no,,no,no,no,no,variation,122-V03,,,
+1950,0,no,,no,no,no,no,variation,122-V04,,,
+1951,0,no,,no,no,no,no,variation,645,,,
+1952,0,no,,no,no,no,no,variation,hmh00213-V03,,,
+1953,0,no,,no,no,no,no,variation,hmh00213-V04,,,
+1954,0,no,,no,no,no,no,variation,hmh00215-V01,,,
+1955,0,no,,no,no,no,no,variation,hmh00215-V02,,,
+1956,0,no,,no,no,no,no,variation,646,,,
+1957,0,no,,no,no,no,no,variation,hmh00216-V03,,,
+1958,0,no,,no,no,no,no,variation,hmh00218-V01,,,
+1959,0,no,,no,no,no,no,variation,hmh00218-V02,,,
+1960,0,no,,no,no,no,no,variation,647,,,
+1961,0,no,,no,no,no,no,variation,114,,,
+1962,0,no,,no,no,no,no,variation,3444,,,
+1963,0,no,,no,no,no,no,variation,648,,,
+1964,0,no,,no,no,no,no,variation,2728-V05,,,
+1965,0,no,,no,no,no,no,variation,hmh00222-V01,,,
+1966,0,no,,no,no,no,no,variation,hmh00220-V01,,,
+1967,0,no,,no,no,no,no,variation,hmh00221-V01,,,
+1968,0,no,,no,no,no,no,variation,hmh00219-V01,,,
+1969,0,no,,no,no,no,no,variation,739,,,
+1970,0,no,,no,no,no,no,variation,740,,,
+1971,0,no,,no,no,no,no,variation,738-V02,,,
+1972,0,no,,no,no,no,no,variation,101,,,
+1973,0,no,,no,no,no,no,variation,102,,,
+1974,0,no,,no,no,no,no,variation,132,,,
+1975,0,no,,no,no,no,no,variation,628,,,
+1976,0,no,,no,no,no,no,variation,100-V05,,,
+1977,0,no,,no,no,no,no,variation,2054,,,
+1978,0,no,,no,no,no,no,variation,2058,,,
+1979,0,no,,no,no,no,no,variation,2061,,,
+1980,0,no,,no,no,no,no,variation,2059,,,
+1981,0,no,,no,no,no,no,variation,2055-V05,,,
+1982,0,no,,no,no,no,no,variation,2055-V06,,,
+1983,0,no,,no,no,no,no,variation,hmh01148-V02,,,
+1984,0,no,,no,no,no,no,variation,hmh01150-V01,,,
+1985,0,no,,no,no,no,no,variation,hmh00223-V02,,,
+1986,0,no,,no,no,no,no,variation,hmh00225-V01,,,
+1987,0,no,,no,no,no,no,variation,hmh00225-V02,,,
+1988,0,no,,no,no,no,no,variation,hmh00226-V02,,,
+1989,0,no,,no,no,no,no,variation,hmh00226-V03,,,
+1990,0,no,,no,no,no,no,variation,hmh00190-V02,,,
+1991,0,no,,no,no,no,no,variation,68,,,
+1992,0,no,,no,no,no,no,variation,69,,,
+1993,0,no,,no,no,no,no,variation,70,,,
+1994,0,no,,no,no,no,no,variation,71,,,
+1995,0,no,,no,no,no,no,variation,hmh00189-V05,,,
+1996,0,no,,no,no,no,no,variation,hmh00189-V06,,,
+1997,0,no,,no,no,no,no,variation,hmh00192-V01,,,
+1998,0,no,,no,no,no,no,variation,hmh00186-V02,,,
+1999,0,no,,no,no,no,no,variation,64,,,
+2000,0,no,,no,no,no,no,variation,65,,,
+2001,0,no,,no,no,no,no,variation,66,,,
+2002,0,no,,no,no,no,no,variation,67,,,
+2003,0,no,,no,no,no,no,variation,hmh00185-V05,,,
+2004,0,no,,no,no,no,no,variation,hmh00188-V01,,,
+2005,0,no,,no,no,no,no,variation,2825-V01,,,
+2006,0,no,,no,no,no,no,variation,HMH-SED-2H4YKJ-V01,,,
+2007,0,no,,no,no,no,no,variation,HMH-SED-2H4YKJ-V02,,,
+2008,0,no,,no,no,no,no,variation,HMH-SED-2H4YKJ-V03,,,
+2009,0,no,,no,no,no,no,variation,HMH-SED-2H4YKJ-V04,,,
+2010,0,no,,no,no,no,no,variation,1435-V01,,,
+2011,0,no,,no,no,no,no,variation,1435-V02,,,
+2012,0,no,,no,no,no,no,variation,1011-V01,,,
+2013,0,no,,no,no,no,no,variation,1011-V02,,,
+2014,0,no,,no,no,no,no,variation,3097,,,
+2015,0,no,,no,no,no,no,variation,1675,,,
+2016,0,no,,no,no,no,no,variation,3370,,,
+2017,0,no,,no,no,no,no,variation,321,,,
+2018,0,no,,no,no,no,no,variation,3496-V01,,,
+2019,0,no,,no,no,no,no,variation,3496-V02,,,
+2020,0,no,,no,no,no,no,variation,1822,,,
+2021,0,no,,no,no,no,no,variation,2866-V01,,,
+2022,0,no,,no,no,no,no,variation,2866-V02,,,
+2023,0,no,,no,no,no,no,variation,2866-V03,,,
+2024,0,no,,no,no,no,no,variation,30,,,
+2025,0,no,,no,no,no,no,variation,2858,,,
+2026,0,no,,no,no,no,no,variation,649-V01,,,
+2027,0,no,,no,no,no,no,variation,649-V02,,,
+2028,0,no,,no,no,no,no,variation,728,,,
+2029,0,no,,no,no,no,no,variation,790-V01,,,
+2030,0,no,,no,no,no,no,variation,1685,,,
+2031,0,no,,no,no,no,no,variation,2350,,,
+2032,0,no,,no,no,no,no,variation,2393,,,
+2033,0,no,,no,no,no,no,variation,212-V01,,,
+2034,0,no,,no,no,no,no,variation,212-V02,,,
+2035,0,no,,no,no,no,no,variation,211-V01,,,
+2036,0,no,,no,no,no,no,variation,211-V02,,,
+2037,0,no,,no,no,no,no,variation,533-V01,,,
+2038,0,no,,no,no,no,no,variation,210-V01,,,
+2039,0,no,,no,no,no,no,variation,209-V01,,,
+2040,0,no,,no,no,no,no,variation,209-V02,,,
+2041,0,no,,no,no,no,no,variation,hmh00009-V01,,,
+2042,0,no,,no,no,no,no,variation,hmh00009-V02,,,
+2043,0,no,,no,no,no,no,variation,1213,,,
+2044,0,no,,no,no,no,no,variation,1211,,,
+2045,0,no,,no,no,no,no,variation,1252-V01,,,
+2046,0,no,,no,no,no,no,variation,554,,,
+2047,0,no,,no,no,no,no,variation,555,,,
+2048,0,no,,no,no,no,no,variation,556,,,
+2049,0,no,,no,no,no,no,variation,557,,,
+2050,0,no,,no,no,no,no,variation,553-V05,,,
+2051,0,no,,no,no,no,no,variation,553-V06,,,
+2052,0,no,,no,no,no,no,variation,553-V07,,,
+2053,0,no,,no,no,no,no,variation,553-V08,,,
+2054,0,no,,no,no,no,no,variation,hmh00395-V01,,,
+2055,0,no,,no,no,no,no,variation,hmh00395-V02,,,
+2056,0,no,,no,no,no,no,variation,1346,,,
+2057,0,no,,no,no,no,no,variation,1347,,,
+2058,0,no,,no,no,no,no,variation,3638,,,
+2059,0,no,,no,no,no,no,variation,3639-V02,,,
+2060,0,no,,no,no,no,no,variation,3639-V03,,,
+2061,0,no,,no,no,no,no,variation,3639-V04,,,
+2062,0,no,,no,no,no,no,variation,3639-V05,,,
+2063,0,no,,no,no,no,no,variation,2559,,,
+2064,0,no,,no,no,no,no,variation,3521,,,
+2065,0,no,,no,no,no,no,variation,216,,,
+2066,0,no,,no,no,no,no,variation,217,,,
+2067,0,no,,no,no,no,no,variation,hmh01760-V01,,,
+2068,0,no,,no,no,no,no,variation,hmh01760-V02,,,
+2069,0,no,,no,no,no,no,variation,hmh01760-V03,,,
+2070,0,no,,no,no,no,no,variation,hmh01760-V04,,,
+2071,0,no,,no,no,no,no,variation,2795-V01,,,
+2072,0,no,,no,no,no,no,variation,2795-V02,,,
+2073,0,no,,no,no,no,no,variation,2795-V03,,,
+2074,0,no,,no,no,no,no,variation,2795-V04,,,
+2075,0,no,,no,no,no,no,variation,2837-V01,,,
+2076,0,no,,no,no,no,no,variation,2837-V02,,,
+2077,0,no,,no,no,no,no,variation,2837-V03,,,
+2078,0,no,,no,no,no,no,variation,2837-V04,,,
+2079,0,no,,no,no,no,no,variation,636-V01,,,
+2080,0,no,,no,no,no,no,variation,636-V02,,,
+2081,0,no,,no,no,no,no,variation,636-V03,,,
+2082,0,no,,no,no,no,no,variation,636-V04,,,
+2083,0,no,,no,no,no,no,variation,771-V01,,,
+2084,0,no,,no,no,no,no,variation,771-V02,,,
+2085,0,no,,no,no,no,no,variation,771-V03,,,
+2086,0,no,,no,no,no,no,variation,771-V04,,,
+2087,0,no,,no,no,no,no,variation,789-V01,,,
+2088,0,no,,no,no,no,no,variation,787-V01,,,
+2089,0,no,,no,no,no,no,variation,1846,,,
+2090,0,no,,no,no,no,no,variation,1563,,,
+2091,0,no,,no,no,no,no,variation,315,,,
+2092,0,no,,no,no,no,no,variation,hmh01088,,,
+2093,0,no,,no,no,no,no,variation,1678,,,
+2094,0,no,,no,no,no,no,variation,604,,,
+2095,0,no,,no,no,no,no,variation,605,,,
+2096,0,no,,no,no,no,no,variation,606,,,
+2097,0,no,,no,no,no,no,variation,603-V04,,,
+2098,0,no,,no,no,no,no,variation,603-V05,,,
+2099,0,no,,no,no,no,no,variation,603-V06,,,
+2100,0,no,,no,no,no,no,variation,2494-V01,,,
+2101,0,no,,no,no,no,no,variation,620,,,
+2102,0,no,,no,no,no,no,variation,621,,,
+2103,0,no,,no,no,no,no,variation,622,,,
+2104,0,no,,no,no,no,no,variation,619-V04,,,
+2105,0,no,,no,no,no,no,variation,619-V05,,,
+2106,0,no,,no,no,no,no,variation,hmh00397-V02,,,
+2107,0,no,,no,no,no,no,variation,hmh00397-V03,,,
+2108,0,no,,no,no,no,no,variation,hmh00399-V01,,,
+2109,0,no,,no,no,no,no,variation,hmh00399-V02,,,
+2110,0,no,,no,no,no,no,variation,hmh00400-V01,,,
+2111,0,no,,no,no,no,no,variation,hmh00400-V02,,,
+2112,0,no,,no,no,no,no,variation,2341-V01,,,
+2113,0,no,,no,no,no,no,variation,2341-V02,,,
+2114,0,no,,no,no,no,no,variation,2341-V03,,,
+2115,0,no,,no,no,no,no,variation,2341-V04,,,
+2116,0,no,,no,no,no,no,variation,129,,,
+2117,0,no,,no,no,no,no,variation,128,,,
+2118,0,no,,no,no,no,no,variation,1961-V01,,,
+2119,0,no,,no,no,no,no,variation,1961-V02,,,
+2120,0,no,,no,no,no,no,variation,1961-V03,,,
+2121,0,no,,no,no,no,no,variation,1961-V04,,,
+2122,0,no,,no,no,no,no,variation,1875-V01,,,
+2123,0,no,,no,no,no,no,variation,3070-V01,,,
+2124,0,no,,no,no,no,no,variation,2359,,,
+2125,0,no,,no,no,no,no,variation,559,,,
+2126,0,no,,no,no,no,no,variation,560,,,
+2127,0,no,,no,no,no,no,variation,561,,,
+2128,0,no,,no,no,no,no,variation,558-V04,,,
+2129,0,no,,no,no,no,no,variation,558-V05,,,
+2130,0,no,,no,no,no,no,variation,558-V06,,,
+2131,0,no,,no,no,no,no,variation,1736-V01,,,
+2132,0,no,,no,no,no,no,variation,1736-V02,,,
+2133,0,no,,no,no,no,no,variation,1736-V03,,,
+2134,0,no,,no,no,no,no,variation,1736-V04,,,
+2135,0,no,,no,no,no,no,variation,3512-V01,,,
+2136,0,no,,no,no,no,no,variation,3512-V02,,,
+2137,0,no,,no,no,no,no,variation,3512-V03,,,
+2138,0,no,,no,no,no,no,variation,3512-V04,,,
+2139,0,no,,no,no,no,no,variation,1380-V01,,,
+2140,0,no,,no,no,no,no,variation,1380-V02,,,
+2141,0,no,,no,no,no,no,variation,1380-V03,,,
+2142,0,no,,no,no,no,no,variation,1380-V04,,,
+2143,0,no,,no,no,no,no,variation,1414,,,
+2144,0,no,,no,no,no,no,variation,1413-V02,,,
+2145,0,no,,no,no,no,no,variation,1413-V03,,,
+2146,0,no,,no,no,no,no,variation,1413-V04,,,
+2147,0,no,,no,no,no,no,variation,1413-V05,,,
+2148,0,no,,no,no,no,no,variation,hmh01518-V01,,,
+2149,0,no,,no,no,no,no,variation,hmh01518-V02,,,
+2150,0,no,,no,no,no,no,variation,hmh01518-V03,,,
+2151,0,no,,no,no,no,no,variation,hmh01518-V04,,,
+2152,0,no,,no,no,no,no,variation,1416-V01,,,
+2153,0,no,,no,no,no,no,variation,1416-V02,,,
+2154,0,no,,no,no,no,no,variation,1416-V03,,,
+2155,0,no,,no,no,no,no,variation,1416-V04,,,
+2156,0,no,,no,no,no,no,variation,3037-V01,,,
+2157,0,no,,no,no,no,no,variation,3037-V02,,,
+2158,0,no,,no,no,no,no,variation,3037-V03,,,
+2159,0,no,,no,no,no,no,variation,3037-V04,,,
+2160,0,no,,no,no,no,no,variation,hmh01520-V01,,,
+2161,0,no,,no,no,no,no,variation,hmh01520-V02,,,
+2162,0,no,,no,no,no,no,variation,1280-V01,,,
+2163,0,no,,no,no,no,no,variation,1280-V02,,,
+2164,0,no,,no,no,no,no,variation,1280-V03,,,
+2165,0,no,,no,no,no,no,variation,1280-V04,,,
+2166,0,no,,no,no,no,no,variation,579,,,
+2167,0,no,,no,no,no,no,variation,580,,,
+2168,0,no,,no,no,no,no,variation,578-V03,,,
+2169,0,no,,no,no,no,no,variation,578-V04,,,
+2170,0,no,,no,no,no,no,variation,578-V05,,,
+2171,0,no,,no,no,no,no,variation,578-V06,,,
+2172,0,no,,no,no,no,no,variation,hmh00407-V02,,,
+2173,0,no,,no,no,no,no,variation,hmh00409-V01,,,
+2174,0,no,,no,no,no,no,variation,hmh00070-V01,,,
+2175,0,no,,no,no,no,no,variation,hmh00070-V02,,,
+2176,0,no,,no,no,no,no,variation,hmh00070-V03,,,
+2177,0,no,,no,no,no,no,variation,hmh00350-V02,,,
+2178,0,no,,no,no,no,no,variation,hmh00350-V03,,,
+2179,0,no,,no,no,no,no,variation,hmh00350-V04,,,
+2180,0,no,,no,no,no,no,variation,hmh00352-V01,,,
+2181,0,no,,no,no,no,no,variation,hmh00352-V02,,,
+2182,0,no,,no,no,no,no,variation,hmh00352-V03,,,
+2183,0,no,,no,no,no,no,variation,hmh00353-V01,,,
+2184,0,no,,no,no,no,no,variation,hmh00353-V02,,,
+2185,0,no,,no,no,no,no,variation,hmh00353-V03,,,
+2186,0,no,,no,no,no,no,variation,2945,,,
+2187,0,no,,no,no,no,no,variation,hmh00372-V02,,,
+2188,0,no,,no,no,no,no,variation,hmh00372-V03,,,
+2189,0,no,,no,no,no,no,variation,hmh00372-V04,,,
+2190,0,no,,no,no,no,no,variation,hmh00372-V05,,,
+2191,0,no,,no,no,no,no,variation,hmh00341-V02,,,
+2192,0,no,,no,no,no,no,variation,hmh00341-V03,,,
+2193,0,no,,no,no,no,no,variation,hmh00343-V01,,,
+2194,0,no,,no,no,no,no,variation,hmh00343-V02,,,
+2195,0,no,,no,no,no,no,variation,hmh00344-V01,,,
+2196,0,no,,no,no,no,no,variation,hmh00344-V02,,,
+2197,0,no,,no,no,no,no,variation,hmh00093-V01,,,
+2198,0,no,,no,no,no,no,variation,hmh00093-V02,,,
+2199,0,no,,no,no,no,no,variation,hmh00093-V03,,,
+2200,0,no,,no,no,no,no,variation,hmh00093-V04,,,
+2201,0,no,,no,no,no,no,variation,571,,,
+2202,0,no,,no,no,no,no,variation,572,,,
+2203,0,no,,no,no,no,no,variation,573,,,
+2204,0,no,,no,no,no,no,variation,570-V04,,,
+2205,0,no,,no,no,no,no,variation,hmh00364-V02,,,
+2206,0,no,,no,no,no,no,variation,hmh00364-V03,,,
+2207,0,no,,no,no,no,no,variation,hmh00364-V04,,,
+2208,0,no,,no,no,no,no,variation,hmh00364-V05,,,
+2209,0,no,,no,no,no,no,variation,hmh00366-V01,,,
+2210,0,no,,no,no,no,no,variation,hmh00366-V02,,,
+2211,0,no,,no,no,no,no,variation,hmh00366-V03,,,
+2212,0,no,,no,no,no,no,variation,hmh00366-V04,,,
+2213,0,no,,no,no,no,no,variation,hmh00367-V01,,,
+2214,0,no,,no,no,no,no,variation,hmh00367-V02,,,
+2215,0,no,,no,no,no,no,variation,hmh00367-V03,,,
+2216,0,no,,no,no,no,no,variation,hmh00367-V04,,,
+2217,0,no,,no,no,no,no,variation,hmh00368-V02,,,
+2218,0,no,,no,no,no,no,variation,hmh00368-V03,,,
+2219,0,no,,no,no,no,no,variation,hmh00368-V04,,,
+2220,0,no,,no,no,no,no,variation,hmh00368-V05,,,
+2221,0,no,,no,no,no,no,variation,hmh00345-V01,,,
+2222,0,no,,no,no,no,no,variation,hmh00345-V02,,,
+2223,0,no,,no,no,no,no,variation,hmh00345-V03,,,
+2224,0,no,,no,no,no,no,variation,hmh00345-V04,,,
+2225,0,no,,no,no,no,no,variation,hmh00348-V01,,,
+2226,0,no,,no,no,no,no,variation,hmh00348-V02,,,
+2227,0,no,,no,no,no,no,variation,hmh00348-V03,,,
+2228,0,no,,no,no,no,no,variation,hmh00348-V04,,,
+2229,0,no,,no,no,no,no,variation,hmh00349-V01,,,
+2230,0,no,,no,no,no,no,variation,hmh00349-V02,,,
+2231,0,no,,no,no,no,no,variation,hmh00349-V03,,,
+2232,0,no,,no,no,no,no,variation,hmh00349-V04,,,
+2233,0,no,,no,no,no,no,variation,hmh01663,,,
+2234,0,no,,no,no,no,no,variation,hmh00375-V02,,,
+2235,0,no,,no,no,no,no,variation,hmh00375-V03,,,
+2236,0,no,,no,no,no,no,variation,hmh00375-V04,,,
+2237,0,no,,no,no,no,no,variation,hmh00375-V05,,,
+2238,0,no,,no,no,no,no,variation,hmh00379-V01,,,
+2239,0,no,,no,no,no,no,variation,hmh00379-V02,,,
+2240,0,no,,no,no,no,no,variation,hmh00379-V03,,,
+2241,0,no,,no,no,no,no,variation,hmh00379-V04,,,
+2242,0,no,,no,no,no,no,variation,hmh00377-V01,,,
+2243,0,no,,no,no,no,no,variation,hmh00377-V02,,,
+2244,0,no,,no,no,no,no,variation,hmh00377-V03,,,
+2245,0,no,,no,no,no,no,variation,hmh00377-V04,,,
+2246,0,no,,no,no,no,no,variation,hmh00378-V01,,,
+2247,0,no,,no,no,no,no,variation,hmh00378-V02,,,
+2248,0,no,,no,no,no,no,variation,hmh00378-V03,,,
+2249,0,no,,no,no,no,no,variation,hmh00378-V04,,,
+2250,0,no,,no,no,no,no,variation,2942-V01,,,
+2251,0,no,,no,no,no,no,variation,2942-V02,,,
+2252,0,no,,no,no,no,no,variation,2942-V03,,,
+2253,0,no,,no,no,no,no,variation,2942-V04,,,
+2254,0,no,,no,no,no,no,variation,hmh00358-V02,,,
+2255,0,no,,no,no,no,no,variation,hmh00361-V02,,,
+2256,0,no,,no,no,no,no,variation,1760-V01,,,
+2257,0,no,,no,no,no,no,variation,1760-V02,,,
+2258,0,no,,no,no,no,no,variation,1760-V03,,,
+2259,0,no,,no,no,no,no,variation,1760-V04,,,
+2260,0,no,,no,no,no,no,variation,2517-V01,,,
+2261,0,no,,no,no,no,no,variation,2517-V02,,,
+2262,0,no,,no,no,no,no,variation,2517-V03,,,
+2263,0,no,,no,no,no,no,variation,2517-V04,,,
+2264,0,no,,no,no,no,no,variation,2147-V02,,,
+2265,0,no,,no,no,no,no,variation,2147-V03,,,
+2266,0,no,,no,no,no,no,variation,2147-V04,,,
+2267,0,no,,no,no,no,no,variation,2147-V05,,,
+2268,0,no,,no,no,no,no,variation,3443-V01,,,
+2269,0,no,,no,no,no,no,variation,3443-V02,,,
+2270,0,no,,no,no,no,no,variation,3443-V03,,,
+2271,0,no,,no,no,no,no,variation,3443-V04,,,
+2272,0,no,,no,no,no,no,variation,2151-V01,,,
+2273,0,no,,no,no,no,no,variation,595,,,
+2274,0,no,,no,no,no,no,variation,596,,,
+2275,0,no,,no,no,no,no,variation,hmh00388-V02,,,
+2276,0,no,,no,no,no,no,variation,hmh00387-V01,,,
+2277,0,no,,no,no,no,no,variation,3088-V01,,,
+2278,0,no,,no,no,no,no,variation,2508,,,
+2279,0,no,,no,no,no,no,variation,1941-V01,,,
+2280,0,no,,no,no,no,no,variation,1941-V02,,,
+2281,0,no,,no,no,no,no,variation,1941-V03,,,
+2282,0,no,,no,no,no,no,variation,1941-V04,,,
+2283,0,no,,no,no,no,no,variation,136,,,
+2284,0,no,,no,no,no,no,variation,3242-V02,,,
+2285,0,no,,no,no,no,no,variation,821-V01,,,
+2286,0,no,,no,no,no,no,variation,821-V02,,,
+2287,0,no,,no,no,no,no,variation,821-V03,,,
+2288,0,no,,no,no,no,no,variation,821-V04,,,
+2289,0,no,,no,no,no,no,variation,2450,,,
+2290,0,no,,no,no,no,no,variation,2447-V02,,,
+2291,0,no,,no,no,no,no,variation,2447-V03,,,
+2292,0,no,,no,no,no,no,variation,2447-V04,,,
+2293,0,no,,no,no,no,no,variation,hmh01618,,,
+2294,0,no,,no,no,no,no,variation,hmh01616-V02,,,
+2295,0,no,,no,no,no,no,variation,hmh01616-V03,,,
+2296,0,no,,no,no,no,no,variation,hmh01617-V02,,,
+2297,0,no,,no,no,no,no,variation,hmh01617-V03,,,
+2298,0,no,,no,no,no,no,variation,2225-V01,,,
+2299,0,no,,no,no,no,no,variation,2455,,,
+2300,0,no,,no,no,no,no,variation,hmh01603,,,
+2301,0,no,,no,no,no,no,variation,531-V01,,,
+2302,0,no,,no,no,no,no,variation,531-V02,,,
+2303,0,no,,no,no,no,no,variation,531-V03,,,
+2304,0,no,,no,no,no,no,variation,531-V04,,,
+2305,0,no,,no,no,no,no,variation,90,,,
+2306,0,no,,no,no,no,no,variation,91,,,
+2307,0,no,,no,no,no,no,variation,637,,,
+2308,0,no,,no,no,no,no,variation,105,,,
+2309,0,no,,no,no,no,no,variation,89,,,
+2310,0,no,,no,no,no,no,variation,hmh00237-V01,,,
+2311,0,no,,no,no,no,no,variation,hmh00236-V01,,,
+2312,0,no,,no,no,no,no,variation,hmh00235-V01,,,
+2313,0,no,,no,no,no,no,variation,901,,,
+2314,0,no,,no,no,no,no,variation,902,,,
+2315,0,no,,no,no,no,no,variation,hmh00894-V01,,,
+2316,0,no,,no,no,no,no,variation,hmh00894-V02,,,
+2317,0,no,,no,no,no,no,variation,2580-V01,,,
+2318,0,no,,no,no,no,no,variation,2580-V02,,,
+2319,0,no,,no,no,no,no,variation,2580-V03,,,
+2320,0,no,,no,no,no,no,variation,2580-V04,,,
+2321,0,no,,no,no,no,no,variation,2655,,,
+2322,0,no,,no,no,no,no,variation,3518-V02,,,
+2323,0,no,,no,no,no,no,variation,3518-V03,,,
+2324,0,no,,no,no,no,no,variation,3518-V04,,,
+2325,0,no,,no,no,no,no,variation,3518-V05,,,
+2326,0,no,,no,no,no,no,variation,hmh01456-V01,,,
+2327,0,no,,no,no,no,no,variation,hmh01456-V02,,,
+2328,0,no,,no,no,no,no,variation,hmh01456-V03,,,
+2329,0,no,,no,no,no,no,variation,hmh01456-V04,,,
+2330,0,no,,no,no,no,no,variation,1303,,,
+2331,0,no,,no,no,no,no,variation,1302,,,
+2332,0,no,,no,no,no,no,variation,hmh01844-V01,,,
+2333,0,no,,no,no,no,no,variation,hmh01844-V02,,,
+2334,0,no,,no,no,no,no,variation,hmh01844-V03,,,
+2335,0,no,,no,no,no,no,variation,hmh01844-V04,,,
+2336,0,no,,no,no,no,no,variation,hmh01845-V01,,,
+2337,0,no,,no,no,no,no,variation,hmh01845-V02,,,
+2338,0,no,,no,no,no,no,variation,hmh01845-V03,,,
+2339,0,no,,no,no,no,no,variation,hmh01845-V04,,,
+2340,0,no,,no,no,no,no,variation,hmh01847-V01,,,
+2341,0,no,,no,no,no,no,variation,hmh01847-V02,,,
+2342,0,no,,no,no,no,no,variation,hmh01847-V03,,,
+2343,0,no,,no,no,no,no,variation,hmh01847-V04,,,
+2344,0,no,,no,no,no,no,variation,hmh01861-V01,,,
+2345,0,no,,no,no,no,no,variation,hmh01861-V02,,,
+2346,0,no,,no,no,no,no,variation,hmh01861-V03,,,
+2347,0,no,,no,no,no,no,variation,hmh01861-V04,,,
+2348,0,no,,no,no,no,no,variation,hmh01862-V01,,,
+2349,0,no,,no,no,no,no,variation,hmh01862-V02,,,
+2350,0,no,,no,no,no,no,variation,hmh01862-V03,,,
+2351,0,no,,no,no,no,no,variation,hmh01862-V04,,,
+2352,0,no,,no,no,no,no,variation,2884,,,
+2353,0,no,,no,no,no,no,variation,2883-V02,,,
+2354,0,no,,no,no,no,no,variation,2883-V03,,,
+2355,0,no,,no,no,no,no,variation,2883-V04,,,
+2356,0,no,,no,no,no,no,variation,2883-V05,,,
+2357,0,no,,no,no,no,no,variation,hmh00238-V01,,,
+2358,0,no,,no,no,no,no,variation,hmh00238-V02,,,
+2359,0,no,,no,no,no,no,variation,hmh00238-V03,,,
+2360,0,no,,no,no,no,no,variation,hmh00238-V04,,,
+2361,0,no,,no,no,no,no,variation,hmh00239-V01,,,
+2362,0,no,,no,no,no,no,variation,hmh00239-V02,,,
+2363,0,no,,no,no,no,no,variation,hmh00239-V03,,,
+2364,0,no,,no,no,no,no,variation,hmh00239-V04,,,
+2365,0,no,,no,no,no,no,variation,hmh00240-V01,,,
+2366,0,no,,no,no,no,no,variation,hmh00240-V02,,,
+2367,0,no,,no,no,no,no,variation,hmh00240-V03,,,
+2368,0,no,,no,no,no,no,variation,hmh00240-V04,,,
+2369,0,no,,no,no,no,no,variation,160,,,
+2370,0,no,,no,no,no,no,variation,161-V02,,,
+2371,0,no,,no,no,no,no,variation,161-V03,,,
+2372,0,no,,no,no,no,no,variation,161-V04,,,
+2373,0,no,,no,no,no,no,variation,161-V05,,,
+2374,0,no,,no,no,no,no,variation,hmh01851-V01,,,
+2375,0,no,,no,no,no,no,variation,hmh01851-V02,,,
+2376,0,no,,no,no,no,no,variation,hmh01851-V03,,,
+2377,0,no,,no,no,no,no,variation,3311-V01,,,
+2378,0,no,,no,no,no,no,variation,3311-V02,,,
+2379,0,no,,no,no,no,no,variation,3311-V03,,,
+2380,0,no,,no,no,no,no,variation,1221-V01,,,
+2381,0,no,,no,no,no,no,variation,1221-V02,,,
+2382,0,no,,no,no,no,no,variation,2854-V01,,,
+2383,0,no,,no,no,no,no,variation,2853-V01,,,
+2384,0,no,,no,no,no,no,variation,1462-V01,,,
+2385,0,no,,no,no,no,no,variation,971-V01,,,
+2386,0,no,,no,no,no,no,variation,1543,,,
+2387,0,no,,no,no,no,no,variation,563,,,
+2388,0,no,,no,no,no,no,variation,564,,,
+2389,0,no,,no,no,no,no,variation,565,,,
+2390,0,no,,no,no,no,no,variation,562-V04,,,
+2391,0,no,,no,no,no,no,variation,562-V05,,,
+2392,0,no,,no,no,no,no,variation,562-V06,,,
+2393,0,no,,no,no,no,no,variation,562-V07,,,
+2394,0,no,,no,no,no,no,variation,567,,,
+2395,0,no,,no,no,no,no,variation,568,,,
+2396,0,no,,no,no,no,no,variation,569,,,
+2397,0,no,,no,no,no,no,variation,2396,,,
+2398,0,no,,no,no,no,no,variation,566-V05,,,
+2399,0,no,,no,no,no,no,variation,566-V06,,,
+2400,0,no,,no,no,no,no,variation,566-V07,,,
+2401,0,no,,no,no,no,no,variation,566-V08,,,
+2402,0,no,,no,no,no,no,variation,2697,,,
+2403,0,no,,no,no,no,no,variation,2278,,,
+2404,0,no,,no,no,no,no,variation,2279,,,
+2405,0,no,,no,no,no,no,variation,1847,,,
+2406,0,no,,no,no,no,no,variation,hmh00197-V01,,,
+2407,0,no,,no,no,no,no,variation,hmh00197-V02,,,
+2408,0,no,,no,no,no,no,variation,hmh00196-V01,,,
+2409,0,no,,no,no,no,no,variation,hmh00196-V02,,,
+2410,0,no,,no,no,no,no,variation,hmh00194-V01,,,
+2411,0,no,,no,no,no,no,variation,hmh00194-V02,,,
+2412,0,no,,no,no,no,no,variation,hmh00193-V01,,,
+2413,0,no,,no,no,no,no,variation,hmh00193-V02,,,
+2414,0,no,,no,no,no,no,variation,588,,,
+2415,0,no,,no,no,no,no,variation,589,,,
+2416,0,no,,no,no,no,no,variation,590,,,
+2417,0,no,,no,no,no,no,variation,591,,,
+2418,0,no,,no,no,no,no,variation,2353,,,
+2419,0,no,,no,no,no,no,variation,2202,,,
+2420,0,no,,no,no,no,no,variation,612,,,
+2421,0,no,,no,no,no,no,variation,613,,,
+2422,0,no,,no,no,no,no,variation,614,,,
+2423,0,no,,no,no,no,no,variation,611-V04,,,
+2424,0,no,,no,no,no,no,variation,611-V05,,,
+2425,0,no,,no,no,no,no,variation,611-V06,,,
+2426,0,no,,no,no,no,no,variation,2806,,,
+2427,0,no,,no,no,no,no,variation,2807,,,
+2428,0,no,,no,no,no,no,variation,2255-V03,,,
+2429,0,no,,no,no,no,no,variation,2255-V04,,,
+2430,0,no,,no,no,no,no,variation,2255-V05,,,
+2431,0,no,,no,no,no,no,variation,2255-V06,,,
+2432,0,no,,no,no,no,no,variation,1974-V01,,,
+2433,0,no,,no,no,no,no,variation,1990-V01,,,
+2434,0,no,,no,no,no,no,variation,1662-V01,,,
+2435,0,no,,no,no,no,no,variation,hmh01194-V01,,,
+2436,0,no,,no,no,no,no,variation,1976-V03,,,
+2437,0,no,,no,no,no,no,variation,1663-V01,,,
+2438,0,no,,no,no,no,no,variation,1937-V01,,,
+2439,0,no,,no,no,no,no,variation,1937-V02,,,
+2440,0,no,,no,no,no,no,variation,1937-V03,,,
+2441,0,no,,no,no,no,no,variation,1937-V04,,,
+2442,0,no,,no,no,no,no,variation,2101-V01,,,
+2443,0,no,,no,no,no,no,variation,2101-V02,,,
+2444,0,no,,no,no,no,no,variation,2101-V03,,,
+2445,0,no,,no,no,no,no,variation,2101-V04,,,
+2446,0,no,,no,no,no,no,variation,218,,,
+2447,0,no,,no,no,no,no,variation,219,,,
+2448,0,no,,no,no,no,no,variation,670,,,
+2449,0,no,,no,no,no,no,variation,672,,,
+2450,0,no,,no,no,no,no,variation,hmh00423-V01,,,
+2451,0,no,,no,no,no,no,variation,hmh00424-V01,,,
+2452,0,no,,no,no,no,no,variation,674,,,
+2453,0,no,,no,no,no,no,variation,676,,,
+2454,0,no,,no,no,no,no,variation,673-V04,,,
+2455,0,no,,no,no,no,no,variation,1849-V01,,,
+2456,0,no,,no,no,no,no,variation,1849-V02,,,
+2457,0,no,,no,no,no,no,variation,1849-V03,,,
+2458,0,no,,no,no,no,no,variation,147-V01,,,
+2459,0,no,,no,no,no,no,variation,147-V02,,,
+2460,0,no,,no,no,no,no,variation,147-V03,,,
+2461,0,no,,no,no,no,no,variation,147-V04,,,
+2462,0,no,,no,no,no,no,variation,458,,,
+2463,0,no,,no,no,no,no,variation,152,,,
+2464,0,no,,no,no,no,no,variation,146-V03,,,
+2465,0,no,,no,no,no,no,variation,146-V04,,,
+2466,0,no,,no,no,no,no,variation,146-V05,,,
+2467,0,no,,no,no,no,no,variation,2138-V01,,,
+2468,0,no,,no,no,no,no,variation,2138-V02,,,
+2469,0,no,,no,no,no,no,variation,3501-V01,,,
+2470,0,no,,no,no,no,no,variation,3502-V01,,,
+2471,0,no,,no,no,no,no,variation,434-V01,,,
+2472,0,no,,no,no,no,no,variation,434-V02,,,
+2473,0,no,,no,no,no,no,variation,436-V01,,,
+2474,0,no,,no,no,no,no,variation,3569,,,
+2475,0,no,,no,no,no,no,variation,3647,,,
+2476,0,no,,no,no,no,no,variation,2326,,,
+2477,0,no,,no,no,no,no,variation,1994-V03,,,
+2478,0,no,,no,no,no,no,variation,1994-V04,,,
+2479,0,no,,no,no,no,no,variation,813,,,
+2480,0,no,,no,no,no,no,variation,267,,,
+2481,0,no,,no,no,no,no,variation,2924,,,
+2482,0,no,,no,no,no,no,variation,2936,,,
+2483,0,no,,no,no,no,no,variation,hmh01045-V01,,,
+2484,0,no,,no,no,no,no,variation,2262-V01,,,
+2485,0,no,,no,no,no,no,variation,176,,,
+2486,0,no,,no,no,no,no,variation,177,,,
+2487,0,no,,no,no,no,no,variation,2314,,,
+2488,0,no,,no,no,no,no,variation,1731-V01,,,
+2489,0,no,,no,no,no,no,variation,1731-V02,,,
+2490,0,no,,no,no,no,no,variation,1731-V03,,,
+2491,0,no,,no,no,no,no,variation,1731-V04,,,
+2492,0,no,,no,no,no,no,variation,2394,,,
+2493,0,no,,no,no,no,no,variation,1031-V01,,,
+2494,0,no,,no,no,no,no,variation,1031-V02,,,
+2495,0,no,,no,no,no,no,variation,3148-V01,,,
+2496,0,no,,no,no,no,no,variation,3148-V02,,,
+2497,0,no,,no,no,no,no,variation,3148-V03,,,
+2498,0,no,,no,no,no,no,variation,3148-V04,,,
+2499,0,no,,no,no,no,no,variation,3187-V01,,,
+2500,0,no,,no,no,no,no,variation,3187-V02,,,
+2501,0,no,,no,no,no,no,variation,3187-V03,,,
+2502,0,no,,no,no,no,no,variation,3187-V04,,,
+2503,0,no,,no,no,no,no,variation,873,,,
+2504,0,no,,no,no,no,no,variation,1322,,,
+2505,0,no,,no,no,no,no,variation,1862-V01,,,
+2506,0,no,,no,no,no,no,variation,169,,,
+2507,0,no,,no,no,no,no,variation,183,,,
+2508,0,no,,no,no,no,no,variation,1716,,,
+2509,0,no,,no,no,no,no,variation,hmh01112-V01,,,
+2510,0,no,,no,no,no,no,variation,1913,,,
+2511,0,no,,no,no,no,no,variation,182,,,
+2512,0,no,,no,no,no,no,variation,hmh01108-V02,,,
+2513,0,no,,no,no,no,no,variation,hmh01113-V02,,,
+2514,0,no,,no,no,no,no,variation,hmh01113-V03,,,
+2515,0,no,,no,no,no,no,variation,hmh01115-V01,,,
+2516,0,no,,no,no,no,no,variation,hmh01115-V02,,,
+2517,0,no,,no,no,no,no,variation,1876-V02,,,
+2518,0,no,,no,no,no,no,variation,2523-V01,,,
+2519,0,no,,no,no,no,no,variation,2523-V02,,,
+2520,0,no,,no,no,no,no,variation,2523-V03,,,
+2521,0,no,,no,no,no,no,variation,2523-V04,,,
+2522,0,no,,no,no,no,no,variation,hmh00147-V01,,,
+2523,0,no,,no,no,no,no,variation,hmh00147-V02,,,
+2524,0,no,,no,no,no,no,variation,hmh00147-V03,,,
+2525,0,no,,no,no,no,no,variation,hmh00147-V04,,,
+2526,0,no,,no,no,no,no,variation,549,,,
+2527,0,no,,no,no,no,no,variation,550,,,
+2528,0,no,,no,no,no,no,variation,551,,,
+2529,0,no,,no,no,no,no,variation,552,,,
+2530,0,no,,no,no,no,no,variation,548-V05,,,
+2531,0,no,,no,no,no,no,variation,311,,,
+2532,0,no,,no,no,no,no,variation,225,,,
+2533,0,no,,no,no,no,no,variation,226,,,
+2534,0,no,,no,no,no,no,variation,849,,,
+2535,0,no,,no,no,no,no,variation,2925,,,
+2536,0,no,,no,no,no,no,variation,2937,,,
+2537,0,no,,no,no,no,no,variation,hmh01047-V01,,,
+2538,0,no,,no,no,no,no,variation,hmh01048-V01,,,
+2539,0,no,,no,no,no,no,variation,289-V01,,,
+2540,0,no,,no,no,no,no,variation,289-V02,,,
+2541,0,no,,no,no,no,no,variation,289-V03,,,
+2542,0,no,,no,no,no,no,variation,289-V04,,,
+2543,0,no,,no,no,no,no,variation,288-V01,,,
+2544,0,no,,no,no,no,no,variation,288-V02,,,
+2545,0,no,,no,no,no,no,variation,288-V03,,,
+2546,0,no,,no,no,no,no,variation,288-V04,,,
+2547,0,no,,no,no,no,no,variation,2632-V01,,,
+2548,0,no,,no,no,no,no,variation,2633-V01,,,
+2549,0,no,,no,no,no,no,variation,2634-V01,,,
+2550,0,no,,no,no,no,no,variation,1551-V01,,,
+2551,0,no,,no,no,no,no,variation,2612-V01,,,
+2552,0,no,,no,no,no,no,variation,2612-V02,,,
+2553,0,no,,no,no,no,no,variation,2612-V03,,,
+2554,0,no,,no,no,no,no,variation,2612-V04,,,
+2555,0,no,,no,no,no,no,variation,hmh00596-V01,,,
+2556,0,no,,no,no,no,no,variation,hmh00596-V02,,,
+2557,0,no,,no,no,no,no,variation,hmh00596-V03,,,
+2558,0,no,,no,no,no,no,variation,hmh00596-V04,,,
+2559,0,no,,no,no,no,no,variation,1571-V01,,,
+2560,0,no,,no,no,no,no,variation,1571-V02,,,
+2561,0,no,,no,no,no,no,variation,1571-V03,,,
+2562,0,no,,no,no,no,no,variation,1571-V04,,,
+2563,0,no,,no,no,no,no,variation,1515,,,
+2564,0,no,,no,no,no,no,variation,1757-V01,,,
+2565,0,no,,no,no,no,no,variation,1757-V02,,,
+2566,0,no,,no,no,no,no,variation,hmh01526-V01,,,
+2567,0,no,,no,no,no,no,variation,hmh01526-V02,,,
+2568,0,no,,no,no,no,no,variation,hmh01626,,,
+2569,0,no,,no,no,no,no,variation,2543,,,
+2570,0,no,,no,no,no,no,variation,2544,,,
+2571,0,no,,no,no,no,no,variation,2545,,,
+2572,0,no,,no,no,no,no,variation,2546,,,
+2573,0,no,,no,no,no,no,variation,hmh01625-V06,,,
+2574,0,no,,no,no,no,no,variation,hmh01628,,,
+2575,0,no,,no,no,no,no,variation,2539,,,
+2576,0,no,,no,no,no,no,variation,2540,,,
+2577,0,no,,no,no,no,no,variation,2541,,,
+2578,0,no,,no,no,no,no,variation,2542,,,
+2579,0,no,,no,no,no,no,variation,hmh01627-V06,,,
+2580,0,no,,no,no,no,no,variation,1345-V01,,,
+2581,0,no,,no,no,no,no,variation,1345-V02,,,
+2582,0,no,,no,no,no,no,variation,1345-V03,,,
+2583,0,no,,no,no,no,no,variation,1345-V04,,,
+2584,0,no,,no,no,no,no,variation,2988-V01,,,
+2585,0,no,,no,no,no,no,variation,2988-V02,,,
+2586,0,no,,no,no,no,no,variation,2988-V03,,,
+2587,0,no,,no,no,no,no,variation,2988-V04,,,
+2588,0,no,,no,no,no,no,variation,1823,,,
+2589,0,no,,no,no,no,no,variation,1580,,,
+2590,0,no,,no,no,no,no,variation,1581,,,
+2591,0,no,,no,no,no,no,variation,2206,,,
+2592,0,no,,no,no,no,no,variation,1507,,,
+2593,0,no,,no,no,no,no,variation,1508,,,
+2594,0,no,,no,no,no,no,variation,1509,,,
+2595,0,no,,no,no,no,no,variation,hmh01188-V04,,,
+2596,0,no,,no,no,no,no,variation,hmh01188-V05,,,
+2597,0,no,,no,no,no,no,variation,hmh00867-V01,,,
+2598,0,no,,no,no,no,no,variation,hmh00867-V02,,,
+2599,0,no,,no,no,no,no,variation,hmh00867-V03,,,
+2600,0,no,,no,no,no,no,variation,hmh00867-V04,,,
+2601,0,no,,no,no,no,no,variation,hmh00865-V01,,,
+2602,0,no,,no,no,no,no,variation,hmh00865-V02,,,
+2603,0,no,,no,no,no,no,variation,hmh00865-V03,,,
+2604,0,no,,no,no,no,no,variation,hmh00865-V04,,,
+2605,0,no,,no,no,no,no,variation,hmh00866-V01,,,
+2606,0,no,,no,no,no,no,variation,hmh00866-V02,,,
+2607,0,no,,no,no,no,no,variation,hmh00866-V03,,,
+2608,0,no,,no,no,no,no,variation,hmh00866-V04,,,
+2609,0,no,,no,no,no,no,variation,1503,,,
+2610,0,no,,no,no,no,no,variation,1504,,,
+2611,0,no,,no,no,no,no,variation,2591-V01,,,
+2612,0,no,,no,no,no,no,variation,2591-V02,,,
+2613,0,no,,no,no,no,no,variation,2591-V03,,,
+2614,0,no,,no,no,no,no,variation,1498,,,
+2615,0,no,,no,no,no,no,variation,1496-V02,,,
+2616,0,no,,no,no,no,no,variation,1496-V03,,,
+2617,0,no,,no,no,no,no,variation,1496-V04,,,
+2618,0,no,,no,no,no,no,variation,1564,,,
+2619,0,no,,no,no,no,no,variation,1497-V02,,,
+2620,0,no,,no,no,no,no,variation,1497-V03,,,
+2621,0,no,,no,no,no,no,variation,1497-V04,,,
+2622,0,no,,no,no,no,no,variation,1364-V01,,,
+2623,0,no,,no,no,no,no,variation,hmh00600-V01,,,
+2624,0,no,,no,no,no,no,variation,hmh00600-V02,,,
+2625,0,no,,no,no,no,no,variation,hmh00600-V03,,,
+2626,0,no,,no,no,no,no,variation,2375,,,
+2627,0,no,,no,no,no,no,variation,hmh01410-V02,,,
+2628,0,no,,no,no,no,no,variation,354,,,
+2629,0,no,,no,no,no,no,variation,355,,,
+2630,0,no,,no,no,no,no,variation,356,,,
+2631,0,no,,no,no,no,no,variation,1813-V01,,,
+2632,0,no,,no,no,no,no,variation,1813-V02,,,
+2633,0,no,,no,no,no,no,variation,769-V01,,,
+2634,0,no,,no,no,no,no,variation,769-V02,,,
+2635,0,no,,no,no,no,no,variation,2152-V01,,,
+2636,0,no,,no,no,no,no,variation,2152-V02,,,
+2637,0,no,,no,no,no,no,variation,842-V01,,,
+2638,0,no,,no,no,no,no,variation,1142-V01,,,
+2639,0,no,,no,no,no,no,variation,1142-V02,,,
+2640,0,no,,no,no,no,no,variation,1142-V03,,,
+2641,0,no,,no,no,no,no,variation,1142-V04,,,
+2642,0,no,,no,no,no,no,variation,1141-V01,,,
+2643,0,no,,no,no,no,no,variation,1141-V02,,,
+2644,0,no,,no,no,no,no,variation,1141-V03,,,
+2645,0,no,,no,no,no,no,variation,1141-V04,,,
+2646,0,no,,no,no,no,no,variation,1134-V01,,,
+2647,0,no,,no,no,no,no,variation,1134-V02,,,
+2648,0,no,,no,no,no,no,variation,1134-V03,,,
+2649,0,no,,no,no,no,no,variation,1134-V04,,,
+2650,0,no,,no,no,no,no,variation,1136-V01,,,
+2651,0,no,,no,no,no,no,variation,1136-V02,,,
+2652,0,no,,no,no,no,no,variation,1136-V03,,,
+2653,0,no,,no,no,no,no,variation,1136-V04,,,
+2654,0,no,,no,no,no,no,variation,2429-V01,,,
+2655,0,no,,no,no,no,no,variation,545,,,
+2656,0,no,,no,no,no,no,variation,546,,,
+2657,0,no,,no,no,no,no,variation,547,,,
+2658,0,no,,no,no,no,no,variation,544-V04,,,
+2659,0,no,,no,no,no,no,variation,544-V05,,,
+2660,0,no,,no,no,no,no,variation,544-V06,,,
+2661,0,no,,no,no,no,no,variation,544-V07,,,
+2662,0,no,,no,no,no,no,variation,hmh00420-V01,,,
+2663,0,no,,no,no,no,no,variation,hmh00420-V02,,,
+2664,0,no,,no,no,no,no,variation,920-V01,,,
+2665,0,no,,no,no,no,no,variation,920-V02,,,
+2666,0,no,,no,no,no,no,variation,920-V03,,,
+2667,0,no,,no,no,no,no,variation,920-V04,,,
+2668,0,no,,no,no,no,no,variation,24,,,
+2669,0,no,,no,no,no,no,variation,26,,,
+2670,0,no,,no,no,no,no,variation,968,,,
+2671,0,no,,no,no,no,no,variation,1431,,,
+2672,0,no,,no,no,no,no,variation,hmh00323-V01,,,
+2673,0,no,,no,no,no,no,variation,hmh00324-V01,,,
+2674,0,no,,no,no,no,no,variation,hmh00325-V01,,,
+2675,0,no,,no,no,no,no,variation,1357-V01,,,
+2676,0,no,,no,no,no,no,variation,395-V01,,,
+2677,0,no,,no,no,no,no,variation,3636-V01,,,
+2678,0,no,,no,no,no,no,variation,1536,,,
+2679,0,no,,no,no,no,no,variation,hmh00243-V02,,,
+2680,0,no,,no,no,no,no,variation,hmh00243-V03,,,
+2681,0,no,,no,no,no,no,variation,hmh00243-V04,,,
+2682,0,no,,no,no,no,no,variation,hmh00243-V05,,,
+2683,0,no,,no,no,no,no,variation,664,,,
+2684,0,no,,no,no,no,no,variation,2915,,,
+2685,0,no,,no,no,no,no,variation,2199-V01,,,
+2686,0,no,,no,no,no,no,variation,1311-V01,,,
+2687,0,no,,no,no,no,no,variation,1311-V02,,,
+2688,0,no,,no,no,no,no,variation,1311-V03,,,
+2689,0,no,,no,no,no,no,variation,1311-V04,,,
+2690,0,no,,no,no,no,no,variation,1451-V01,,,
+2691,0,no,,no,no,no,no,variation,1451-V02,,,
+2692,0,no,,no,no,no,no,variation,1451-V03,,,
+2693,0,no,,no,no,no,no,variation,1451-V04,,,
+2694,0,no,,no,no,no,no,variation,2050-V01,,,
+2695,0,no,,no,no,no,no,variation,2050-V02,,,
+2696,0,no,,no,no,no,no,variation,2050-V03,,,
+2697,0,no,,no,no,no,no,variation,2050-V04,,,
+2698,0,no,,no,no,no,no,variation,364-V01,,,
+2699,0,no,,no,no,no,no,variation,364-V02,,,
+2700,0,no,,no,no,no,no,variation,1959-V01,,,
+2701,0,no,,no,no,no,no,variation,1959-V02,,,
+2702,0,no,,no,no,no,no,variation,2025,,,
+2703,0,no,,no,no,no,no,variation,2027,,,
+2704,0,no,,no,no,no,no,variation,2028,,,
+2705,0,no,,no,no,no,no,variation,2022,,,
+2706,0,no,,no,no,no,no,variation,1349-V01,,,
+2707,0,no,,no,no,no,no,variation,1349-V02,,,
+2708,0,no,,no,no,no,no,variation,1349-V03,,,
+2709,0,no,,no,no,no,no,variation,1349-V04,,,
+2710,0,no,,no,no,no,no,variation,1637,,,
+2711,0,no,,no,no,no,no,variation,1638,,,
+2712,0,no,,no,no,no,no,variation,3263,,,
+2713,0,no,,no,no,no,no,variation,3280,,,
+2714,0,no,,no,no,no,no,variation,1603-V03,,,
+2715,0,no,,no,no,no,no,variation,1603-V04,,,
+2716,0,no,,no,no,no,no,variation,1603-V05,,,
+2717,0,no,,no,no,no,no,variation,598,,,
+2718,0,no,,no,no,no,no,variation,599,,,
+2719,0,no,,no,no,no,no,variation,680,,,
+2720,0,no,,no,no,no,no,variation,681,,,
+2721,0,no,,no,no,no,no,variation,2562,,,
+2722,0,no,,no,no,no,no,variation,hmh00390-V01,,,
+2723,0,no,,no,no,no,no,variation,hmh00390-V02,,,
+2724,0,no,,no,no,no,no,variation,hmh00390-V03,,,
+2725,0,no,,no,no,no,no,variation,2420,,,
+2726,0,no,,no,no,no,no,variation,hmh01460-V01,,,
+2727,0,no,,no,no,no,no,variation,hmh01460-V02,,,
+2728,0,no,,no,no,no,no,variation,hmh01460-V03,,,
+2729,0,no,,no,no,no,no,variation,HMH-AIR-3QURYK-V01,,,
+2730,0,no,,no,no,no,no,variation,HMH-AIR-3QURYK-V02,,,
+2731,0,no,,no,no,no,no,variation,HMH-AIR-3QURYK-V03,,,
+2732,0,no,,no,no,no,no,variation,HMH-AIR-3QURYK-V04,,,
+2733,0,no,,no,no,no,no,variation,3355-V01,,,
+2734,0,no,,no,no,no,no,variation,3355-V02,,,
+2735,0,no,,no,no,no,no,variation,3355-V03,,,
+2736,0,no,,no,no,no,no,variation,2094,,,
+2737,0,no,,no,no,no,no,variation,2095-V02,,,
+2738,0,no,,no,no,no,no,variation,582,,,
+2739,0,no,,no,no,no,no,variation,583,,,
+2740,0,no,,no,no,no,no,variation,581-V03,,,
+2741,0,no,,no,no,no,no,variation,585,,,
+2742,0,no,,no,no,no,no,variation,586,,,
+2743,0,no,,no,no,no,no,variation,3172-V01,,,
+2744,0,no,,no,no,no,no,variation,3172-V02,,,
+2745,0,no,,no,no,no,no,variation,3170-V01,,,
+2746,0,no,,no,no,no,no,variation,1024-V01,,,
+2747,0,no,,no,no,no,no,variation,1024-V02,,,
+2748,0,no,,no,no,no,no,variation,259,,,
+2749,0,no,,no,no,no,no,variation,260,,,
+2750,0,no,,no,no,no,no,variation,2081,,,
+2751,0,no,,no,no,no,no,variation,234,,,
+2752,0,no,,no,no,no,no,variation,3475,,,
+2753,0,no,,no,no,no,no,variation,799,,,
+2754,0,no,,no,no,no,no,variation,hmh01529-V01,,,
+2755,0,no,,no,no,no,no,variation,hmh01529-V02,,,
+2756,0,no,,no,no,no,no,variation,hmh01529-V03,,,
+2757,0,no,,no,no,no,no,variation,hmh01529-V04,,,
+2758,0,no,,no,no,no,no,variation,hmh00955-V01,,,
+2759,0,no,,no,no,no,no,variation,hmh00955-V02,,,
+2760,0,no,,no,no,no,no,variation,hmh00955-V03,,,
+2761,0,no,,no,no,no,no,variation,hmh00954-V01,,,
+2762,0,no,,no,no,no,no,variation,hmh00954-V02,,,
+2763,0,no,,no,no,no,no,variation,hmh00954-V03,,,
+2764,0,no,,no,no,no,no,variation,2696-V01,,,
+2765,0,no,,no,no,no,no,variation,2696-V02,,,
+2766,0,no,,no,no,no,no,variation,2696-V03,,,
+2767,0,no,,no,no,no,no,variation,2696-V04,,,
+2768,0,no,,no,no,no,no,variation,1473,,,
+2769,0,no,,no,no,no,no,variation,1472,,,
+2770,0,no,,no,no,no,no,variation,1478,,,
+2771,0,no,,no,no,no,no,variation,1480,,,
+2772,0,no,,no,no,no,no,variation,1476,,,
+2773,0,no,,no,no,no,no,variation,1477,,,
+2774,0,no,,no,no,no,no,variation,1393-V01,,,
+2775,0,no,,no,no,no,no,variation,3301-V01,,,
+2776,0,no,,no,no,no,no,variation,3301-V02,,,
+2777,0,no,,no,no,no,no,variation,3301-V03,,,
+2778,0,no,,no,no,no,no,variation,855,,,
+2779,0,no,,no,no,no,no,variation,3302-V03,,,
+2780,0,no,,no,no,no,no,variation,3302-V04,,,
+2781,0,no,,no,no,no,no,variation,HMH-NUT-J2YYDL-V01,,,
+2782,0,no,,no,no,no,no,variation,HMH-NUT-J2YYDL-V02,,,
+2783,0,no,,no,no,no,no,variation,HMH-NUT-J2YYDL-V03,,,
+2784,0,no,,no,no,no,no,variation,hmh01464-V01,,,
+2785,0,no,,no,no,no,no,variation,786-V01,,,
+2786,0,no,,no,no,no,no,variation,352-V01,,,
+2787,0,no,,no,no,no,no,variation,352-V02,,,
+2788,0,no,,no,no,no,no,variation,1200-V01,,,
+2789,0,no,,no,no,no,no,variation,1200-V02,,,
+2790,0,no,,no,no,no,no,variation,374-V01,,,
+2791,0,no,,no,no,no,no,variation,375-V01,,,
+2792,0,no,,no,no,no,no,variation,1247,,,
+2793,0,no,,no,no,no,no,variation,1584,,,
+2794,0,no,,no,no,no,no,variation,1583-V02,,,
+2795,0,no,,no,no,no,no,variation,1583-V03,,,
+2796,0,no,,no,no,no,no,variation,hmh01469-V01,,,
+2797,0,no,,no,no,no,no,variation,1759-V01,,,
+2798,0,no,,no,no,no,no,variation,1759-V02,,,
+2799,0,no,,no,no,no,no,variation,1759-V03,,,
+2800,0,no,,no,no,no,no,variation,1759-V04,,,
+2801,0,no,,no,no,no,no,variation,2979-V01,,,
+2802,0,no,,no,no,no,no,variation,2979-V02,,,
+2803,0,no,,no,no,no,no,variation,2979-V03,,,
+2804,0,no,,no,no,no,no,variation,2979-V04,,,
+2805,0,no,,no,no,no,no,variation,1899-V01,,,
+2806,0,no,,no,no,no,no,variation,1899-V02,,,
+2807,0,no,,no,no,no,no,variation,1899-V03,,,
+2808,0,no,,no,no,no,no,variation,1292-V01,,,
+2809,0,no,,no,no,no,no,variation,1292-V02,,,
+2810,0,no,,no,no,no,no,variation,1292-V03,,,
+2811,0,no,,no,no,no,no,variation,1292-V04,,,
+2812,0,no,,no,no,no,no,variation,1735-V01,,,
+2813,0,no,,no,no,no,no,variation,1734-V01,,,
+2814,0,no,,no,no,no,no,variation,2492-V01,,,
+2815,0,no,,no,no,no,no,variation,2282-V01,,,
+2816,0,no,,no,no,no,no,variation,2282-V02,,,
+2817,0,no,,no,no,no,no,variation,3592-V01,,,
+2818,0,no,,no,no,no,no,variation,1898-V01,,,
+2819,0,no,,no,no,no,no,variation,1898-V02,,,
+2820,0,no,,no,no,no,no,variation,1033-V01,,,
+2821,0,no,,no,no,no,no,variation,2498,,,
+2822,0,no,,no,no,no,no,variation,1293-V01,,,
+2823,0,no,,no,no,no,no,variation,1293-V02,,,
+2824,0,no,,no,no,no,no,variation,1293-V03,,,
+2825,0,no,,no,no,no,no,variation,1293-V04,,,
+2826,0,no,,no,no,no,no,variation,1900-V01,,,
+2827,0,no,,no,no,no,no,variation,1900-V02,,,
+2828,0,no,,no,no,no,no,variation,1900-V03,,,
+2829,0,no,,no,no,no,no,variation,2322-V01,,,
+2830,0,no,,no,no,no,no,variation,2322-V02,,,
+2831,0,no,,no,no,no,no,variation,2495-V01,,,
+2832,0,no,,no,no,no,no,variation,1887-V01,,,
+2833,0,no,,no,no,no,no,variation,HMH-SED-127CBL-V01,,,
+2834,0,no,,no,no,no,no,variation,HMH-SED-127CBL-V02,,,
+2835,0,no,,no,no,no,no,variation,HMH-SED-127CBL-V03,,,
+2836,0,no,,no,no,no,no,variation,HMH-SED-127CBL-V04,,,
+2837,0,no,,no,no,no,no,variation,HMH-SED-NHIPTD-V01,,,
+2838,0,no,,no,no,no,no,variation,HMH-SED-NHIPTD-V02,,,
+2839,0,no,,no,no,no,no,variation,HMH-SED-NHIPTD-V03,,,
+2840,0,no,,no,no,no,no,variation,1396,,,
+2841,0,no,,no,no,no,no,variation,1397,,,
+2842,0,no,,no,no,no,no,variation,3597-V01,,,
+2843,0,no,,no,no,no,no,variation,3597-V02,,,
+2844,0,no,,no,no,no,no,variation,3597-V03,,,
+2845,0,no,,no,no,no,no,variation,3597-V04,,,
+2846,0,no,,no,no,no,no,variation,1006-V01,,,
+2847,0,no,,no,no,no,no,variation,1006-V02,,,
+2848,0,no,,no,no,no,no,variation,3304-V01,,,
+2849,0,no,,no,no,no,no,variation,3304-V02,,,
+2850,0,no,,no,no,no,no,variation,3304-V03,,,
+2851,0,no,,no,no,no,no,variation,HMH-GEN-V1Z4M5-V01,,,
+2852,0,no,,no,no,no,no,variation,HMH-GEN-V1Z4M5-V02,,,
+2853,0,no,,no,no,no,no,variation,HMH-GEN-V1Z4M5-V03,,,
+2854,0,no,,no,no,no,no,variation,HMH-GEN-V1Z4M5-V04,,,
+2855,0,no,,no,no,no,no,variation,785-V01,,,
+2856,0,no,,no,no,no,no,variation,hmh01652,,,
+2857,0,no,,no,no,no,no,variation,2412-V01,,,
+2858,0,no,,no,no,no,no,variation,2412-V02,,,
+2859,0,no,,no,no,no,no,variation,2412-V03,,,
+2860,0,no,,no,no,no,no,variation,hmh01092,,,
+2861,0,no,,no,no,no,no,variation,1681,,,
+2862,0,no,,no,no,no,no,variation,325,,,
+2863,0,no,,no,no,no,no,variation,3164-V01,,,
+2864,0,no,,no,no,no,no,variation,3164-V02,,,
+2865,0,no,,no,no,no,no,variation,3164-V03,,,
+2866,0,no,,no,no,no,no,variation,835-V01,,,
+2867,0,no,,no,no,no,no,variation,2290,,,
+2868,0,no,,no,no,no,no,variation,3396,,,
+2869,0,no,,no,no,no,no,variation,2111-V02,,,
+2870,0,no,,no,no,no,no,variation,2111-V03,,,
+2871,0,no,,no,no,no,no,variation,1628-V01,,,
+2872,0,no,,no,no,no,no,variation,430-V01,,,
+2873,0,no,,no,no,no,no,variation,430-V02,,,
+2874,0,no,,no,no,no,no,variation,hmh00761-V01,,,
+2875,0,no,,no,no,no,no,variation,hmh00761-V02,,,
+2876,0,no,,no,no,no,no,variation,hmh00761-V03,,,
+2877,0,no,,no,no,no,no,variation,hmh00761-V04,,,
+2878,0,no,,no,no,no,no,variation,422-V01,,,
+2879,0,no,,no,no,no,no,variation,424-V01,,,
+2880,0,no,,no,no,no,no,variation,424-V02,,,
+2881,0,no,,no,no,no,no,variation,424-V03,,,
+2882,0,no,,no,no,no,no,variation,424-V04,,,
+2883,0,no,,no,no,no,no,variation,2848-V01,,,
+2884,0,no,,no,no,no,no,variation,423-V01,,,
+2885,0,no,,no,no,no,no,variation,423-V02,,,
+2886,0,no,,no,no,no,no,variation,hmh00764-V01,,,
+2887,0,no,,no,no,no,no,variation,hmh00764-V02,,,
+2888,0,no,,no,no,no,no,variation,hmh00764-V03,,,
+2889,0,no,,no,no,no,no,variation,hmh00764-V04,,,
+2890,0,no,,no,no,no,no,variation,2372-V02,,,
+2891,0,no,,no,no,no,no,variation,HMH-SED-XL0TDC-V01,,,
+2892,0,no,,no,no,no,no,variation,HMH-SED-XL0TDC-V02,,,
+2893,0,no,,no,no,no,no,variation,1017-V01,,,
+2894,0,no,,no,no,no,no,variation,1017-V02,,,
+2895,0,no,,no,no,no,no,variation,1017-V03,,,
+2896,0,no,,no,no,no,no,variation,1017-V04,,,
+2897,0,no,,no,no,no,no,variation,442-V01,,,
+2898,0,no,,no,no,no,no,variation,442-V02,,,
+2899,0,no,,no,no,no,no,variation,442-V03,,,
+2900,0,no,,no,no,no,no,variation,442-V04,,,
+2901,0,no,,no,no,no,no,variation,2627-V01,,,
+2902,0,no,,no,no,no,no,variation,2627-V02,,,
+2903,0,no,,no,no,no,no,variation,2627-V03,,,
+2904,0,no,,no,no,no,no,variation,2625-V01,,,
+2905,0,no,,no,no,no,no,variation,2625-V02,,,
+2906,0,no,,no,no,no,no,variation,2625-V03,,,
+2907,0,no,,no,no,no,no,variation,2126,,,
+2908,0,no,,no,no,no,no,variation,3491,,,
+2909,0,no,,no,no,no,no,variation,hmh01268-V01,,,
+2910,0,no,,no,no,no,no,variation,2380-V01,,,
+2911,0,no,,no,no,no,no,variation,2380-V02,,,
+2912,0,no,,no,no,no,no,variation,2784-V01,,,
+2913,0,no,,no,no,no,no,variation,2784-V02,,,
+2914,0,no,,no,no,no,no,variation,2784-V03,,,
+2915,0,no,,no,no,no,no,variation,2784-V04,,,
+2916,0,no,,no,no,no,no,variation,2220-V01,,,
+2917,0,no,,no,no,no,no,variation,2220-V02,,,
+2918,0,no,,no,no,no,no,variation,2220-V03,,,
+2919,0,no,,no,no,no,no,variation,GEN-1eLP-V01,,,
+2920,0,no,,no,no,no,no,variation,GEN-1eLP-V02,,,
+2921,0,no,,no,no,no,no,variation,GEN-1eLP-V03,,,
+2922,0,no,,no,no,no,no,variation,GEN-1eLP-V04,,,
+2923,0,no,,no,no,no,no,variation,UNO GEN-1eNG-V01,,,
+2924,0,no,,no,no,no,no,variation,UNO GEN-1eNG-V02,,,
+2925,0,no,,no,no,no,no,variation,UNO GEN-1eNG-V03,,,
+2926,0,no,,no,no,no,no,variation,UNO GEN-1eNG-V04,,,
+2927,0,no,,no,no,no,no,variation,2217-V01,,,
+2928,0,no,,no,no,no,no,variation,2217-V02,,,
+2929,0,no,,no,no,no,no,variation,2217-V03,,,
+2930,0,no,,no,no,no,no,variation,2266,,,
+2931,0,no,,no,no,no,no,variation,2228-V01,,,
+2932,0,no,,no,no,no,no,variation,2228-V02,,,
+2933,0,no,,no,no,no,no,variation,2228-V03,,,
+2934,0,no,,no,no,no,no,variation,hmh01367-V01,,,
+2935,0,no,,no,no,no,no,variation,hmh01367-V02,,,
+2936,0,no,,no,no,no,no,variation,hmh01367-V03,,,
+2937,0,no,,no,no,no,no,variation,UNO-2eLP-G-V01,,,
+2938,0,no,,no,no,no,no,variation,UNO-2eLP-G-V02,,,
+2939,0,no,,no,no,no,no,variation,UNO-2eLP-G-V03,,,
+2940,0,no,,no,no,no,no,variation,UNO-2eLP-G-V04,,,
+2941,0,no,,no,no,no,no,variation,3366,,,
+2942,0,no,,no,no,no,no,variation,1572,,,
+2943,0,no,,no,no,no,no,variation,1726,,,
+2944,0,no,,no,no,no,no,variation,543,,,
+2945,0,no,,no,no,no,no,variation,623,,,
+2946,0,no,,no,no,no,no,variation,3022,,,
+2947,0,no,,no,no,no,no,variation,2306,,,
+2948,0,no,,no,no,no,no,variation,522-V04,,,
+2949,0,no,,no,no,no,no,variation,522-V05,,,
+2950,0,no,,no,no,no,no,variation,522-V06,,,
+2951,0,no,,no,no,no,no,variation,522-V07,,,
+2952,0,no,,no,no,no,no,variation,526-V01,,,
+2953,0,no,,no,no,no,no,variation,526-V02,,,
+2954,0,no,,no,no,no,no,variation,526-V03,,,
+2955,0,no,,no,no,no,no,variation,526-V04,,,
+2956,0,no,,no,no,no,no,variation,485-V01,,,
+2957,0,no,,no,no,no,no,variation,485-V02,,,
+2958,0,no,,no,no,no,no,variation,804-V01,,,
+2959,0,no,,no,no,no,no,variation,804-V02,,,
+2960,0,no,,no,no,no,no,variation,804-V03,,,
+2961,0,no,,no,no,no,no,variation,hmh00503-V01,,,
+2962,0,no,,no,no,no,no,variation,hmh00814-V01,,,
+2963,0,no,,no,no,no,no,variation,hmh00814-V02,,,
+2964,0,no,,no,no,no,no,variation,hmh00814-V03,,,
+2965,0,no,,no,no,no,no,variation,hmh00814-V04,,,
+2966,0,no,,no,no,no,no,variation,2644-V01,,,
+2967,0,no,,no,no,no,no,variation,2644-V02,,,
+2968,0,no,,no,no,no,no,variation,2644-V03,,,
+2969,0,no,,no,no,no,no,variation,2644-V04,,,
+2970,0,no,,no,no,no,no,variation,2192,,,
+2971,0,no,,no,no,no,no,variation,220,,,
+2972,0,no,,no,no,no,no,variation,1-V02,,,
+2973,0,no,,no,no,no,no,variation,2355,,,
+2974,0,no,,no,no,no,no,variation,2356,,,

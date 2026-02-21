@@ -1,0 +1,913 @@
+{
+  "generatedAt": "2026-02-21T00:15:42.306Z",
+  "sourceOrdersCsv": "C:\\Users\\Nuwud\\Projects\\theme_export__h-moon-hydro-myshopify-com-horizon__29OCT2025-1206pm\\CSVs\\WooExport\\Shop-Orders-Export-2025-Dec-31-180904.csv",
+  "sourceImportCsv": "C:\\Users\\Nuwud\\Projects\\theme_export__h-moon-hydro-myshopify-com-horizon__29OCT2025-1206pm\\outputs\\woocommerce_import_with_prices.csv",
+  "includeStatuses": [
+    "completed",
+    "processing"
+  ],
+  "totalRankedProducts": 925,
+  "topN": 100,
+  "top": [
+    {
+      "productName": "The Root Pouch 3 Gallon",
+      "unitsSold": 282,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "2030",
+      "brand": "NGW",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "The Root Pouch 2 Gallon",
+      "unitsSold": 280,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "2030",
+      "brand": "NGW",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "The Root Pouch 5 Gallon",
+      "unitsSold": 217,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "2030",
+      "brand": "NGW",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "The Root Pouch 1 Gallon",
+      "unitsSold": 209,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "2030",
+      "brand": "NGW",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "Mondi Super Saucer 14\"",
+      "unitsSold": 204,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01193",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "3\" Net Pot",
+      "unitsSold": 130,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01323",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "Holland Secret Bloom 4L",
+      "unitsSold": 85,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00296",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "Flashgro 50' Roll",
+      "unitsSold": 80,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01369",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "grow_room_materials"
+    },
+    {
+      "productName": "standard 3.5 gallon black bucket",
+      "unitsSold": 71,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01758",
+      "brand": "Standard",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "Mondi Super Saucer 10\"",
+      "unitsSold": 70,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01191",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "The Root Pouch 7 Gallon",
+      "unitsSold": 68,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "2030",
+      "brand": "NGW",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "Flashgro 25' Roll",
+      "unitsSold": 66,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01370",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "grow_room_materials"
+    },
+    {
+      "productName": "SNS Colloidal Shield Gallon",
+      "unitsSold": 52,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Royal Gold 4 liter",
+      "unitsSold": 50,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00308",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "Holland Secret Micro 4L",
+      "unitsSold": 47,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00285",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "DIGI LAMP 945 Watt C.M.H. D/E",
+      "unitsSold": 45,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Holland Secret Grow 4L",
+      "unitsSold": 44,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00292",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "Vortex Sprayer Boot",
+      "unitsSold": 42,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Flashgro 100' Roll",
+      "unitsSold": 42,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01370",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "grow_room_materials"
+    },
+    {
+      "productName": "Green Hornet LED night light",
+      "unitsSold": 41,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Excellofizz Co2 Puck",
+      "unitsSold": 40,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "CocoTek Block 5 kg",
+      "unitsSold": 40,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "3\" Net Pot||1 1/4\" drain overflow tube||6' Laser Sprayline",
+      "unitsSold": 40,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Himalaya™ VHO 4' T5 Triphosphor Grow 95W 6500K",
+      "unitsSold": 38,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Super B+ 4 liter",
+      "unitsSold": 37,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "B'cuzZ Roxx Rooting Blocks 3 x 3 x 2.5",
+      "unitsSold": 36,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "The Root Pouch 15 gallon w/ Handle",
+      "unitsSold": 36,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "WaterFarm Reservoir - 4 gal||WaterFarm Growing chamber - 2 gal||Farm Kit - drip ring column etc.",
+      "unitsSold": 36,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Autumn Gallon",
+      "unitsSold": 35,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01473",
+      "brand": "Autumn",
+      "category": "nutrients"
+    },
+    {
+      "productName": "Just Right Xtra All Organic Potting Mix",
+      "unitsSold": 33,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Mondi Super Saucer 12\"",
+      "unitsSold": 32,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01192",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "Big Bloom Liquid Plant Food (1 gal)",
+      "unitsSold": 31,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01083",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "B'cuzZ Roxx Rooting Blocks 4 x 4 x 4",
+      "unitsSold": 31,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "NSR Boost Juice 1 gal",
+      "unitsSold": 29,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "The Root Pouch 10 Gallon",
+      "unitsSold": 28,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "2030",
+      "brand": "NGW",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "Ocean Forest Potting Soil",
+      "unitsSold": 27,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Growforce Single Outlet",
+      "unitsSold": 27,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Royal Gold 1 liter",
+      "unitsSold": 27,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00308",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "NSR Bloom Juice 2-5-4/ 1 gal",
+      "unitsSold": 27,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Nutrilife SM-90-4liter",
+      "unitsSold": 27,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Plantmax 360W. HPS Conversion 45,000 lumens",
+      "unitsSold": 27,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "1506",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "grow_lights"
+    },
+    {
+      "productName": "standard 3.5 gallon black bucket||Standard Black Bucket lid",
+      "unitsSold": 27,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01759",
+      "brand": "Standard Black",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "NSR Bloom Juice 1 gal",
+      "unitsSold": 26,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "B'cuzZ Roxx Rooting Blocks 4 x 4 x 4 42/40mm hole (strip of 6)",
+      "unitsSold": 26,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00470",
+      "brand": "Atami",
+      "category": "propagation"
+    },
+    {
+      "productName": "TimeMist Purge I - 3.2 oz",
+      "unitsSold": 26,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00559",
+      "brand": "TimeMist",
+      "category": "pest_control"
+    },
+    {
+      "productName": "B'cuzz HydroGro Substrates - Absorbent Rockwool - 40 lbs. bag",
+      "unitsSold": 25,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Himalaya™ XHO 4' T5 Triphosphor Grow 110W 6500K",
+      "unitsSold": 25,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "F.H.D. Super Saucer 8\"",
+      "unitsSold": 25,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01190",
+      "brand": "FHD",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "Mondi Propagation Tray",
+      "unitsSold": 24,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "506",
+      "brand": "NGW",
+      "category": "propagation"
+    },
+    {
+      "productName": "Spin Pro Replacement Wires",
+      "unitsSold": 24,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "B'cuzZ Roxx Bimatrix Growing Slab 36 x 6 x 3||B'cuzZ Roxx Rooting Blocks 4 x 4 x 2.5, 42/40mm hole (strip of 6)",
+      "unitsSold": 24,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Grow Big Liquid Plant Food (1 gal)",
+      "unitsSold": 23,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "1679",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "Royal Black 4 liter",
+      "unitsSold": 23,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00306",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "4 ft laser Drilled Sprayline",
+      "unitsSold": 23,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00491",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "irrigation"
+    },
+    {
+      "productName": "Standard 5 Gallon Black Bucket",
+      "unitsSold": 23,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01758",
+      "brand": "Standard",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "Rapid Rooter replacement plugs 50 count",
+      "unitsSold": 22,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Tiger Bloom Liquid Plant Food (1 gal)",
+      "unitsSold": 22,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "1680",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "Ruby Ful#$% Gallon",
+      "unitsSold": 22,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01460",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "Better Bloom 500 gm",
+      "unitsSold": 21,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "1614",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "WaterFarm Growing chamber - 2 gal",
+      "unitsSold": 21,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00504",
+      "brand": "",
+      "category": "irrigation"
+    },
+    {
+      "productName": "Might Bomb 2 Gal. Conerntrate",
+      "unitsSold": 20,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Mondi Super Saucer 12\"||Mondi Super Saucer 10\"",
+      "unitsSold": 20,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01191",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "Doktor Doom Total Fogger 3 oz",
+      "unitsSold": 19,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00547",
+      "brand": "Doktor Doom",
+      "category": "pest_control"
+    },
+    {
+      "productName": "ONA Pro Block 6oz",
+      "unitsSold": 19,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01106",
+      "brand": "NGW",
+      "category": "odor_control"
+    },
+    {
+      "productName": "Prop-O-Gator 1 liter",
+      "unitsSold": 19,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "1856",
+      "brand": "System",
+      "category": "Nutrients"
+    },
+    {
+      "productName": "Lightning Start Quart",
+      "unitsSold": 19,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "4' Laser Sprayline",
+      "unitsSold": 19,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00825",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "irrigation"
+    },
+    {
+      "productName": "Flora Bloom 1 gal",
+      "unitsSold": 18,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00183",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "Equinox Gallon",
+      "unitsSold": 18,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01452",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "NSR Grow Juice 2-1-3/ 1 gal",
+      "unitsSold": 18,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "pH Down 1 qt",
+      "unitsSold": 17,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Flora Bloom 1 qt",
+      "unitsSold": 17,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00183",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "Doktor Doom Total Fogger 5.5 oz",
+      "unitsSold": 17,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00547",
+      "brand": "Doktor Doom",
+      "category": "pest_control"
+    },
+    {
+      "productName": "CocoTek Caps 6 in. Cap (10 per case)",
+      "unitsSold": 17,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Holland Secret Bloom 1 L",
+      "unitsSold": 16,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00296",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "Holland Secret Starter Pack",
+      "unitsSold": 16,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01486",
+      "brand": "Holland Secret",
+      "category": "nutrients"
+    },
+    {
+      "productName": "Liquid Ton-O-Bud 1L",
+      "unitsSold": 16,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01850",
+      "brand": "Liquid",
+      "category": "nutrients"
+    },
+    {
+      "productName": "Ton O Bud 1 kg",
+      "unitsSold": 16,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "2289",
+      "brand": "Ton",
+      "category": "nutrients"
+    },
+    {
+      "productName": "B'cuzZ Roxx Bimatrix Growing Slab 36 x 6 x 3",
+      "unitsSold": 16,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00475",
+      "brand": "Atami",
+      "category": "grow_media"
+    },
+    {
+      "productName": "B'cuzZ Roxx Bimatrix Growing Slab 36 x 6 x 3||B'cuzZ Roxx Rooting Blocks 4 x 4 x 4 42/40mm hole (strip of 6)",
+      "unitsSold": 16,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "B'cuzZ Roxx Bimatrix Growing Slab 40 x 6 x 3",
+      "unitsSold": 16,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00477",
+      "brand": "Atami",
+      "category": "grow_media"
+    },
+    {
+      "productName": "FloraGro 1 qt",
+      "unitsSold": 15,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00178",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "NSR Boost Juice 1 qt",
+      "unitsSold": 15,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Bud Candy (1 gal)",
+      "unitsSold": 15,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01031",
+      "brand": "Advanced Nutrients",
+      "category": "nutrients"
+    },
+    {
+      "productName": "Super B+ 1 liter",
+      "unitsSold": 15,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Jungle Green 500 gm",
+      "unitsSold": 15,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "1616",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "nutrients"
+    },
+    {
+      "productName": "Mini Blocks 1.5 x 1.5 x 1.5",
+      "unitsSold": 15,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "6\" Net Pot",
+      "unitsSold": 15,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01323",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "Energy Station Growing system 1000 W Digital D/E These ballasts",
+      "unitsSold": 15,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "6 ft laser Drilled Sprayline",
+      "unitsSold": 15,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00491",
+      "brand": "Nickel City Wholesale Garden Supply",
+      "category": "irrigation"
+    },
+    {
+      "productName": "BADBOY HO T-5 4 ft Triphosphor Grow 54 W, 6500 K",
+      "unitsSold": 15,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01730",
+      "brand": "Plantmax",
+      "category": "grow_lights"
+    },
+    {
+      "productName": "Standard Black Bucket lid",
+      "unitsSold": 15,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01759",
+      "brand": "Standard Black",
+      "category": "containers_pots"
+    },
+    {
+      "productName": "Miniblocks 1.5 x 1.5 x 1.5",
+      "unitsSold": 14,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Ton O Bud 100 gm",
+      "unitsSold": 14,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00336",
+      "brand": "Ton",
+      "category": "nutrients"
+    },
+    {
+      "productName": "EcoPlus 185 GPH",
+      "unitsSold": 14,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "913",
+      "brand": "NGW",
+      "category": "irrigation"
+    },
+    {
+      "productName": "Autumn Quart",
+      "unitsSold": 14,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Quick Roots Gel 2 oz",
+      "unitsSold": 13,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh00323",
+      "brand": "Quick Roots",
+      "category": "nutrients"
+    },
+    {
+      "productName": "Hydroton 9L Bag",
+      "unitsSold": 13,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "Clonex Clone Kit",
+      "unitsSold": 13,
+      "orderCount": 0,
+      "matchedToImport": false,
+      "sku": "",
+      "brand": "",
+      "category": ""
+    },
+    {
+      "productName": "AquaSpinners",
+      "unitsSold": 13,
+      "orderCount": 0,
+      "matchedToImport": true,
+      "sku": "hmh01199",
+      "brand": "",
+      "category": "irrigation"
+    }
+  ]
+}

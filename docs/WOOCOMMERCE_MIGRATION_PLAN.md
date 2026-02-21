@@ -24,13 +24,11 @@ Migrate refined product data from Shopify CSV format back to WooCommerce, preser
 
 ### Primary Source (Use This)
 ```
-outputs/MASTER_IMPORT.csv
+outputs/woocommerce_import_ready.csv
 ```
-- 4,727 rows (2,579 products + variants)
-- All enriched fields populated
-- AI-generated descriptions
-- Standardized weights
-- Proper category taxonomy
+- Active WooCommerce-ready export for current import workflow
+- Includes transformed data in WooCommerce import schema
+- See `docs/CANONICAL_PIPELINE.md` for end-to-end artifact sequence
 
 ### Reference (WooCommerce Schema)
 ```
@@ -158,7 +156,9 @@ These products will remain unchanged in WooCommerce after import.
 
 | File | Purpose |
 |------|---------|
-| `outputs/woocommerce_import_ready.csv` | Final import-ready CSV |
+| `outputs/woocommerce_import_ready.csv` | Base WooCommerce import CSV |
+| `outputs/woocommerce_import_with_prices.csv` | Price/SKU-recovered working CSV |
+| `outputs/woocommerce_FINAL_WITH_IMAGES.csv` | Final CSV after image enrichment |
 | `outputs/woocommerce_import_validation.json` | Validation report |
 | `outputs/woocommerce_category_mapping.csv` | Category taxonomy mapping |
 
@@ -180,9 +180,11 @@ node scripts/transform_to_woocommerce.js --confirm
 
 ### Validation Script
 ```
-scripts/validate_woocommerce_csv.js
+scripts/validate_import_csv.js
 ```
 Validates output CSV against WooCommerce requirements.
+
+See also: `docs/CANONICAL_PIPELINE.md` for canonical script order and hard gates.
 
 ---
 

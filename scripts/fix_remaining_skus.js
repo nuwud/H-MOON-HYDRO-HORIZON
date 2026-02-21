@@ -1,208 +1,224 @@
 /**
- * Fix remaining missing SKUs
- * 
- * Generates unique SKUs for products that don't have them
+ * Fix remaining SKUs (missing + placeholder + duplicates)
  */
 
 const fs = require('fs');
 const path = require('path');
+const { parse } = require('csv-parse/sync');
+const { stringify } = require('csv-stringify/sync');
 
-const BASE = 'c:/Users/Nuwud/Projects/theme_export__h-moon-hydro-myshopify-com-horizon__29OCT2025-1206pm';
+const BASE = path.join(__dirname, '..');
+const importFile = path.join(BASE, 'outputs', 'woocommerce_import_with_prices.csv');
 
-function parseCSVLine(line) {
-  const result = [];
-  let cell = '';
-  let inQuotes = false;
-  for (let i = 0; i < line.length; i++) {
-    const c = line[i];
-    if (c === '"') {
-      inQuotes = !inQuotes;
-    } else if (c === ',' && !inQuotes) {
-      result.push(cell);
-      cell = '';
-    } else {
-      cell += c;
-    }
-  }
-  result.push(cell);
-  return result;
+const CATEGORY_CODES = {
+  nutrients: 'NUT',
+  grow_media: 'GRO',
+  seeds: 'SED',
+  propagation: 'PRO',
+  irrigation: 'IRR',
+  ph_meters: 'PHM',
+  environmental_monitors: 'ENV',
+  controllers: 'CTL',
+  grow_lights: 'LIT',
+  hid_bulbs: 'HID',
+  airflow: 'AIR',
+  odor_control: 'ODR',
+  water_filtration: 'WTR',
+  containers: 'POT',
+  harvesting: 'HAR',
+  trimming: 'TRM',
+  pest_control: 'PES',
+  co2: 'CO2',
+  grow_room_materials: 'GRM',
+  books: 'BOK',
+  electrical_supplies: 'ELC',
+  extraction: 'EXT',
+};
+
+function normalizeHandle(text) {
+  return String(text || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
 }
 
-function escapeCSV(val) {
-  if (val === null || val === undefined) return '';
-  const str = String(val);
-  if (str.includes(',') || str.includes('"') || str.includes('\n')) {
-    return '"' + str.replace(/"/g, '""') + '"';
-  }
-  return str;
-}
-
-// Simple hash function for consistent SKU generation
 function hashString(str) {
   let hash = 0;
   for (let i = 0; i < str.length; i++) {
-    const char = str.charCodeAt(i);
-    hash = ((hash << 5) - hash) + char;
-    hash = hash & hash;
+    const c = str.charCodeAt(i);
+    hash = ((hash << 5) - hash) + c;
+    hash |= 0;
   }
-  return Math.abs(hash).toString(36).toUpperCase().substring(0, 6);
+  return Math.abs(hash).toString(36).toUpperCase().slice(0, 6);
 }
 
-// Category code lookup
-const CATEGORY_CODES = {
-  'nutrients': 'NUT',
-  'grow_media': 'GRO',
-  'seeds': 'SED',
-  'propagation': 'PRO',
-  'irrigation': 'IRR',
-  'ph_meters': 'PHM',
-  'environmental_monitors': 'ENV',
-  'controllers': 'CTL',
-  'grow_lights': 'LIT',
-  'hid_bulbs': 'HID',
-  'airflow': 'AIR',
-  'odor_control': 'ODR',
-  'water_filtration': 'WTR',
-  'containers': 'POT',
-  'harvesting': 'HAR',
-  'trimming': 'TRM',
-  'pest_control': 'PES',
-  'co2': 'CO2',
-  'grow_room_materials': 'GRM',
-  'books': 'BOK',
-  'electrical_supplies': 'ELC',
-  'extraction': 'EXT',
-};
-
 function getCategoryCode(categories) {
-  if (!categories) return 'GEN';
-  const cat = categories.toLowerCase();
+  const cat = String(categories || '').toLowerCase();
   for (const [key, code] of Object.entries(CATEGORY_CODES)) {
-    if (cat.includes(key.replace(/_/g, ' ')) || cat.includes(key)) {
-      return code;
-    }
+    if (cat.includes(key.replace(/_/g, ' ')) || cat.includes(key)) return code;
   }
   return 'GEN';
 }
 
-console.log('=== FIX MISSING SKUs ===\n');
-
-// Load import file
-const importFile = path.join(BASE, 'outputs/woocommerce_import_with_prices.csv');
-const importData = fs.readFileSync(importFile, 'utf-8');
-const importLines = importData.split('\n').filter(l => l.trim());
-const header = parseCSVLine(importLines[0]);
-
-const skuIdx = header.indexOf('SKU');
-const typeIdx = header.indexOf('Type');
-const nameIdx = header.indexOf('Name');
-const catIdx = header.indexOf('Categories');
-const parentIdx = header.indexOf('Parent');
-
-console.log(`Loaded ${importLines.length - 1} rows`);
-
-// Collect all existing SKUs to avoid duplicates
-const existingSKUs = new Set();
-for (let i = 1; i < importLines.length; i++) {
-  const row = parseCSVLine(importLines[i]);
-  const sku = row[skuIdx]?.trim();
-  if (sku) existingSKUs.add(sku.toLowerCase());
+function isPlaceholderSku(sku) {
+  const s = String(sku || '').trim().toUpperCase();
+  if (!s) return true;
+  if (/^HMH0+$/.test(s)) return true;
+  if (/^HMH0+-V\d+$/i.test(s)) return true;
+  if (/^HMH00000-V\d+$/i.test(s)) return true;
+  return false;
 }
 
-console.log(`Found ${existingSKUs.size} existing SKUs\n`);
+console.log('=== FIX REMAINING SKUs ===\n');
+console.log(`Input: ${importFile}`);
 
-// Fix missing SKUs
+const csv = fs.readFileSync(importFile, 'utf8');
+const rows = parse(csv, {
+  columns: true,
+  skip_empty_lines: true,
+  relax_quotes: true,
+  relax_column_count: true,
+});
+
+console.log(`Loaded ${rows.length} rows`);
+
+const skuFreq = new Map();
+for (const row of rows) {
+  const sku = String(row.SKU || '').trim();
+  if (!sku) continue;
+  skuFreq.set(sku.toLowerCase(), (skuFreq.get(sku.toLowerCase()) || 0) + 1);
+}
+
+const usedSkus = new Set();
+let sequence = 7000;
+const parentSlugToSku = new Map();
+const variationCounterByBase = new Map();
+
+function ensureUnique(candidate) {
+  let c = String(candidate || '').trim();
+  while (!c || usedSkus.has(c.toLowerCase())) {
+    c = `HMH-GEN-${String(sequence++).padStart(5, '0')}`;
+  }
+  usedSkus.add(c.toLowerCase());
+  return c;
+}
+
+function nextVariantSku(baseSku) {
+  const base = ensureUniqueBase(baseSku);
+  let n = (variationCounterByBase.get(base.toLowerCase()) || 0) + 1;
+  let candidate = `${base}-V${String(n).padStart(2, '0')}`;
+  while (usedSkus.has(candidate.toLowerCase())) {
+    n += 1;
+    candidate = `${base}-V${String(n).padStart(2, '0')}`;
+  }
+  variationCounterByBase.set(base.toLowerCase(), n);
+  usedSkus.add(candidate.toLowerCase());
+  return candidate;
+}
+
+function ensureUniqueBase(baseSku) {
+  let base = String(baseSku || '').trim();
+  if (!base) base = `HMH-GEN-${String(sequence++).padStart(5, '0')}`;
+  if (!usedSkus.has(base.toLowerCase())) {
+    usedSkus.add(base.toLowerCase());
+    return base;
+  }
+  // Keep existing base as-is if already used by the parent row itself.
+  return base;
+}
+
+function generateSimpleOrVariableSku(row) {
+  const catCode = getCategoryCode(row.Categories);
+  const seed = `${row.Name || ''}|${row.Categories || ''}`;
+  const hash = hashString(seed || String(Date.now()));
+  let candidate = `HMH-${catCode}-${hash}`;
+  if (usedSkus.has(candidate.toLowerCase())) {
+    candidate = `HMH-${catCode}-${String(sequence++).padStart(5, '0')}`;
+  }
+  return ensureUnique(candidate);
+}
+
 const stats = {
-  fixed: 0,
+  fixedMissing: 0,
+  fixedPlaceholder: 0,
+  fixedDuplicates: 0,
+  totalFixed: 0,
   samples: []
 };
 
-let skuCounter = 5000; // Start high to avoid conflicts
+let currentParentSku = '';
 
-const fixedRows = [];
-let currentParentSku = null;
-let variantCounter = 0;
+for (const row of rows) {
+  const type = String(row.Type || '').toLowerCase();
+  const oldSku = String(row.SKU || '').trim();
+  const isDuplicate = !!oldSku && (skuFreq.get(oldSku.toLowerCase()) || 0) > 1;
+  const missing = !oldSku;
+  const placeholder = isPlaceholderSku(oldSku);
+  const needsFix = missing || placeholder || (isDuplicate && type === 'variation');
 
-for (let i = 1; i < importLines.length; i++) {
-  const row = parseCSVLine(importLines[i]);
-  const type = row[typeIdx];
-  const sku = row[skuIdx]?.trim();
-  const name = row[nameIdx]?.trim() || '';
-  const categories = row[catIdx] || '';
-  
   if (type === 'simple' || type === 'variable') {
-    currentParentSku = sku;
-    variantCounter = 0;
-  }
-  
-  if (!sku && (type === 'simple' || type === 'variation')) {
-    let newSku;
-    
-    if (type === 'variation') {
-      // Generate variant SKU based on parent
-      variantCounter++;
-      const baseSku = currentParentSku || `HMH${String(skuCounter++).padStart(5, '0')}`;
-      newSku = `${baseSku}-V${String(variantCounter).padStart(2, '0')}`;
+    let newSku = oldSku;
+    if (needsFix) {
+      newSku = generateSimpleOrVariableSku(row);
+      row.SKU = newSku;
+      stats.totalFixed++;
+      if (missing) stats.fixedMissing++;
+      if (placeholder) stats.fixedPlaceholder++;
+      if (isDuplicate) stats.fixedDuplicates++;
     } else {
-      // Generate new unique SKU for simple products
-      const catCode = getCategoryCode(categories);
-      const hash = hashString(name || String(Date.now()));
-      newSku = `HMH-${catCode}-${hash}`;
-      
-      // Ensure uniqueness
-      while (existingSKUs.has(newSku.toLowerCase())) {
-        skuCounter++;
-        newSku = `HMH-${catCode}-${String(skuCounter).padStart(5, '0')}`;
+      if (!usedSkus.has(oldSku.toLowerCase())) usedSkus.add(oldSku.toLowerCase());
+    }
+
+    currentParentSku = String(row.SKU || '').trim();
+    const slug = normalizeHandle(row.Name);
+    if (slug && currentParentSku) parentSlugToSku.set(slug, currentParentSku);
+  } else if (type === 'variation') {
+    const parentSlug = String(row.Parent || '').trim().toLowerCase();
+    const parentSku = parentSlugToSku.get(parentSlug) || currentParentSku;
+
+    if (needsFix) {
+      const base = parentSku || `HMH-GEN-${String(sequence++).padStart(5, '0')}`;
+      const newSku = nextVariantSku(base);
+      row.SKU = newSku;
+      stats.totalFixed++;
+      if (missing) stats.fixedMissing++;
+      if (placeholder) stats.fixedPlaceholder++;
+      if (isDuplicate) stats.fixedDuplicates++;
+    } else {
+      if (!usedSkus.has(oldSku.toLowerCase())) usedSkus.add(oldSku.toLowerCase());
+      const base = parentSku || oldSku.replace(/-V\d+$/i, '');
+      const m = oldSku.match(/-V(\d+)$/i);
+      if (base && m) {
+        const n = Number(m[1]);
+        const k = base.toLowerCase();
+        variationCounterByBase.set(k, Math.max(variationCounterByBase.get(k) || 0, n));
       }
     }
-    
-    row[skuIdx] = newSku;
-    existingSKUs.add(newSku.toLowerCase());
-    stats.fixed++;
-    
-    if (stats.samples.length < 10) {
-      stats.samples.push({ type, name: name.substring(0, 40), newSku });
-    }
+  } else {
+    if (oldSku && !usedSkus.has(oldSku.toLowerCase())) usedSkus.add(oldSku.toLowerCase());
   }
-  
-  fixedRows.push(row);
+
+  if (needsFix && stats.samples.length < 12) {
+    stats.samples.push({
+      type,
+      parent: row.Parent || '',
+      name: String(row.Name || '').slice(0, 45),
+      oldSku,
+      newSku: row.SKU
+    });
+  }
 }
 
-console.log(`Generated ${stats.fixed} new SKUs\n`);
-console.log('Samples of generated SKUs:');
-stats.samples.forEach(s => {
-  console.log(`  [${s.type}] "${s.name}" -> ${s.newSku}`);
-});
+const out = stringify(rows, { header: true, columns: Object.keys(rows[0] || {}) });
+fs.writeFileSync(importFile, out, 'utf8');
 
-// Write output
-const outputLines = [
-  header.map(escapeCSV).join(','),
-  ...fixedRows.map(row => row.map(escapeCSV).join(','))
-];
+console.log(`\nFixed SKUs: ${stats.totalFixed}`);
+console.log(`  missing: ${stats.fixedMissing}`);
+console.log(`  placeholder: ${stats.fixedPlaceholder}`);
+console.log(`  duplicates: ${stats.fixedDuplicates}`);
+console.log('\nSample changes:');
+for (const s of stats.samples) {
+  console.log(`  [${s.type}] ${s.oldSku || '(blank)'} -> ${s.newSku} | ${s.parent || s.name}`);
+}
 
-fs.writeFileSync(importFile, outputLines.join('\n'), 'utf-8');
 console.log(`\nUpdated: ${importFile}`);
-
-// Final validation
-console.log('\n=== FINAL VALIDATION ===\n');
-let stillMissingSku = 0;
-let stillMissingPrice = 0;
-const priceIdx = header.indexOf('Regular price');
-
-for (const row of fixedRows) {
-  const type = row[typeIdx];
-  const sku = row[skuIdx]?.trim();
-  const price = row[priceIdx]?.trim();
-  
-  if ((type === 'simple' || type === 'variation') && !sku) stillMissingSku++;
-  if (type !== 'variable' && !price) stillMissingPrice++;
-}
-
-console.log(`Products without SKU: ${stillMissingSku}`);
-console.log(`Products without price: ${stillMissingPrice}`);
-
-if (stillMissingSku === 0 && stillMissingPrice === 0) {
-  console.log('\n✅ All products now have SKUs and prices!');
-} else {
-  console.log('\n⚠️ Still some issues to resolve');
-}

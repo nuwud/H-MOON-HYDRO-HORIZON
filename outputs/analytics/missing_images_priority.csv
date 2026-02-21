@@ -1,0 +1,345 @@
+#!/usr/bin/env node
+/**
+ * fill_missing_weights.js
+ *
+ * Conservative weight enrichment for WooCommerce import CSV.
+ *
+ * Rules:
+ *  1) Fill only missing/non-positive weights.
+ *  2) Parse explicit size token from Name (e.g. 500ml, 1 gal, 2 kg).
+ *  3) Always accept mass units (lb/lbs/kg).
+ *  4) Accept volume units (ml/l/liter/pt/qt/gal/oz) only in liquid-like context.
+ *
+ * Usage:
+ *   node scripts/fill_missing_weights.js            # dry-run
+ *   node scripts/fill_missing_weights.js --confirm  # apply changes
+ */
+
+const fs = require('fs');
+const path = require('path');
+const { parse } = require('csv-parse/sync');
+const { stringify } = require('csv-stringify/sync');
+
+const BASE = path.join(__dirname, '..');
+const INPUT = path.join(BASE, 'outputs', 'woocommerce_import_with_prices.csv');
+const dryRun = process.argv.includes('--dry-run') || !process.argv.includes('--confirm');
+
+// Approximate shipping weights in lbs.
+const UNIT_TO_LBS = {
+  lb: 1,
+  lbs: 1,
+  kg: 2.20462,
+  g: 0.00220462,
+  ml: 0.00220462,
+  l: 2.20462,
+  liter: 2.20462,
+  litre: 2.20462,
+  pt: 1.043,
+  pint: 1.043,
+  qt: 2.086,
+  quart: 2.086,
+  gal: 8.5,
+  gallon: 8.5,
+  oz: 0.065,
+};
+
+const MASS_UNITS = new Set(['lb', 'lbs', 'kg', 'g']);
+const VOLUME_UNITS = new Set(['ml', 'l', 'liter', 'litre', 'pt', 'pint', 'qt', 'quart', 'gal', 'gallon', 'oz']);
+
+const LIQUID_HINTS = /(nutrient|supplement|solution|liquid|bloom|micro|ph\b|cal[- ]?mag|silica|enzyme|additive|tea|spray|concentrate|rtu|clonex|floranova|floragro|floramicro|florabloom|pro[- ]?tekt|big\s*bud|azaguard|dead\s*bug|clean\s*leaf|sns|dyna[- ]?gro|fox\s*farm)/i;
+const LIQUID_CATEGORIES = /(nutrients?|supplements?|pest_control|pest control|ph\/?ec|ph meters|water treatment|solutions?)/i;
+const NON_LIQUID_CATEGORIES = /(accessories|environment|airflow|fan|electrical|grow\s*lights|meters?|timers?|books?|containers?|pots?)/i;
+const VOLUME_BLOCKLIST = /(\bl\s*\/\s*min\b|\bgph\b|\bcfm\b|\brpm\b|\bwatt\b|\bw\b|\bbowl\b|\bpump\b|\bfan\b|\bblower\b|\bfilter\b|\bclamp\b|\bscale\b|\bcontainer\b|\bbucket\b|\bpot\b)/i;
+
+function clean(s) {
+  return String(s || '').replace(/\s+/g, ' ').trim();
+}
+
+function isMissingWeight(row) {
+  const w = clean(row['Weight (lbs)']);
+  if (!w) return true;
+  const n = Number(w);
+  return !Number.isFinite(n) || n <= 0;
+}
+
+function extractSizeToken(name) {
+  const n = clean(name);
+  if (!n) return null;
+
+  const m = n.match(/(\d+(?:\.\d+)?)\s*(gal(?:lon)?|l(?:iter|itre)?|qt|quart|pt|pint|oz|ml|lb|lbs|kg|g)\b/i);
+  if (!m) return null;
+
+  return {
+    value: Number(m[1]),
+    unit: String(m[2]).toLowerCase(),
+    token: m[0],
+  };
+}
+
+function hasLiquidContext(row) {
+  const text = [row.Name, row.Categories, row.Tags, row['Short description'], row.Description]
+    .map(clean)
+    .join(' ');
+
+  const name = clean(row.Name);
+  const category = clean(row.Categories);
+  if (VOLUME_BLOCKLIST.test(name)) return false;
+
+  const hasStrongHint = LIQUID_HINTS.test(text);
+  const hasLiquidCategory = LIQUID_CATEGORIES.test(category);
+
+  if (!hasStrongHint && !hasLiquidCategory) return false;
+  if (NON_LIQUID_CATEGORIES.test(category) && !hasStrongHint) return false;
+
+  return true;
+}
+
+function estimateWeightLbs(row) {
+  const parsed = extractSizeToken(row.Name || '');
+  if (!parsed) return null;
+  if (!Number.isFinite(parsed.value) || parsed.value <= 0) return null;
+
+  let unit = parsed.unit;
+  if (unit === 'liter' || unit === 'litre') unit = 'l';
+  if (unit === 'gallon') unit = 'gal';
+  if (unit === 'quart') unit = 'qt';
+  if (unit === 'pint') unit = 'pt';
+
+  if (!(unit in UNIT_TO_LBS)) return null;
+
+  if (VOLUME_UNITS.has(unit) && !hasLiquidContext(row)) {
+    return null;
+  }
+
+  const estimate = parsed.value * UNIT_TO_LBS[unit];
+  if (!Number.isFinite(estimate) || estimate <= 0) return null;
+
+  // Guardrails: avoid absurd automated values.
+  if (estimate > 150) return null;
+
+  return {
+    lbs: Math.round(estimate * 100) / 100,
+    unit,
+    token: parsed.token,
+    confidence: MASS_UNITS.has(unit) ? 'high' : 'medium',
+  };
+}
+
+function main() {
+  console.log('=== FILL MISSING WEIGHTS (CONSERVATIVE) ===\n');
+  console.log(`Mode: ${dryRun ? 'DRY RUN' : 'APPLYING CHANGES'}`);
+  console.log(`Input: ${INPUT}`);
+
+  if (!fs.existsSync(INPUT)) {
+    console.error(`ERROR: Missing input file: ${INPUT}`);
+    process.exit(1);
+  }
+
+  const raw = fs.readFileSync(INPUT, 'utf8');
+  const rows = parse(raw, {
+    columns: true,
+    skip_empty_lines: true,
+    relax_quotes: true,
+    relax_column_count: true,
+  });
+
+  const stats = {
+    totalRows: rows.length,
+    targets: 0,
+    filled: 0,
+    highConfidence: 0,
+    mediumConfidence: 0,
+    skippedNoToken: 0,
+    skippedLowConfidence: 0,
+    unitCounts: {},
+    samples: [],
+  };
+
+  for (const row of rows) {
+    const type = clean(row.Type).toLowerCase();
+    if (type !== 'simple' && type !== 'variation') continue;
+
+    if (!isMissingWeight(row)) continue;
+    stats.targets++;
+
+    const parsed = extractSizeToken(row.Name || '');
+    if (!parsed) {
+      stats.skippedNoToken++;
+      continue;
+    }
+
+    const est = estimateWeightLbs(row);
+    if (!est) {
+      stats.skippedLowConfidence++;
+      continue;
+    }
+
+    stats.filled++;
+    if (est.confidence === 'high') stats.highConfidence++;
+    else stats.mediumConfidence++;
+
+    stats.unitCounts[est.unit] = (stats.unitCounts[est.unit] || 0) + 1;
+
+    if (stats.samples.length < 20) {
+      stats.samples.push({
+        sku: clean(row.SKU),
+        name: clean(row.Name).slice(0, 70),
+        token: est.token,
+        lbs: est.lbs,
+        confidence: est.confidence,
+      });
+    }
+
+    if (!dryRun) {
+      row['Weight (lbs)'] = String(est.lbs);
+    }
+  }
+
+  if (!dryRun) {
+    const out = stringify(rows, { header: true, columns: Object.keys(rows[0] || {}) });
+    fs.writeFileSync(INPUT, out, 'utf8');
+  }
+
+  console.log(`Rows: ${stats.totalRows}`);
+  console.log(`Missing-weight targets (simple+variation): ${stats.targets}`);
+  console.log(`Filled: ${stats.filled}`);
+  console.log(`  High confidence:   ${stats.highConfidence}`);
+  console.log(`  Medium confidence: ${stats.mediumConfidence}`);
+  console.log(`Skipped (no size token): ${stats.skippedNoToken}`);
+  console.log(`Skipped (low confidence): ${stats.skippedLowConfidence}`);
+  console.log(`Unit fills: ${JSON.stringify(stats.unitCounts)}`);
+
+  console.log('\nSamples:');
+  for (const s of stats.samples) {
+    console.log(`  [${s.confidence}] ${s.lbs} lbs (${s.token}) <- ${s.name} ${s.sku ? `[${s.sku}]` : ''}`);
+  }
+
+  if (dryRun) {
+    console.log('\nDRY RUN - No files modified');
+    console.log('Run with --confirm to apply');
+  } else {
+    console.log(`\nUpdated: ${INPUT}`);
+  }
+}
+
+main();
+225,0,simple,1711,EZ Stor™ Container 8,Hawthorne Hydoponics LLC,containers_pots
+226,0,simple,1570,EYE 220w HPS Conevrsion,System,grow_lights
+227,0,variable,hmh01287,EJ Meta K,NGW,nutrients
+228,0,simple,3380,ECOWORKS EC® . OMRI,Nickel City Wholesale Garden Supply,pest_control
+229,0,simple,3020,Duralastics Tray 2 ft x 4 ft ID,Sunlight Supply inc.,containers_pots
+230,0,simple,3112,"DuraBreeze Pedestal Fan, 18",,airflow
+231,0,simple,3094,Duoble-Ended MH 10K,Nickel City Wholesale Garden Supply,Bulbs
+232,0,simple,2501,Dry Net 4 Tier,Nickel City Wholesale Garden Supply,Accessories
+233,0,simple,3513,Drop Air X Humidifiers 200 pts,lDL Wholesale,Environment Control
+234,0,simple,1409,Dolly Bk 24 in Round w-Drain,Sunlight Supply inc.,irrigation
+235,0,simple,3567,Dirty Laundry/GMO & Cookies,@Flowers-HEMP,Accessories
+236,0,simple,3489,Dirt Defense 6mil Nitrile Glove,D.L. Wholesale,accessories
+237,0,simple,693,Dayton Axial Fan,NGW,irrigation
+238,0,simple,3297,DTE- Insect Frass -3-1-1,BFG,nutrients
+239,0,simple,3528,DTE Feather Meal12 - 0 - 0/4,Hawthorne Hydoponics LLC,nutrients
+240,0,simple,3364,CycoDr.Repair(3-0-0)treat chlor,BFG,nutrients
+241,0,simple,1188,Cow Pot 4 /12 per,BFG,grow_media
+242,0,simple,2259,Covert Tank 66,Nickel City Wholesale Garden Supply,irrigation
+243,0,simple,2258,Covert Tank 33,Nickel City Wholesale Garden Supply,irrigation
+244,0,simple,1741,Co2 Tank Refill,System,co2
+245,0,simple,1742,Co2 Tank Purchase,,co2
+246,0,simple,3040,Clonex propagation packet 20 mL,Nickel City Wholesale Garden Supply,propagation
+247,0,variable,2484,Clonex Gel,Nickel City Wholesale Garden Supply,propagation
+248,0,simple,3492,Clonex 32 gell,Nickel City Wholesale Garden Supply,propagation
+249,0,simple,854,Clonex 15ml Packet,Nickel City Wholesale Garden Supply,propagation
+250,0,simple,3583,Classis 2800/ 7,BFG,Pots/Containers
+251,0,simple,955,Classic 900,BFG,Pots/Containers
+252,0,simple,954,Classic 600,BFG,Pots/Containers
+253,0,simple,953,Classic 400,NGW,Pots/Containers
+254,0,simple,952,Classic 350,NGW,Pots/Containers
+255,0,simple,951,Classic 300,NGW,Pots/Containers
+256,0,simple,3585,Classic 2800 /7,BFG,Pots/Containers
+257,0,simple,957,Classic 1200 /3Gal,BFG,Pots/Containers
+258,0,variable,1824,Classic 100,NGW,Pots/Containers
+259,0,variable,307,Cha Ching 9 - 50 - 10,NGW,nutrients
+260,0,simple,3249,CandyFlip 60%S/40%I-28%,@Flowers-HEMP,Accessories
+261,0,simple,435,CanFan TCL 6HO 120v,Nickel City Wholesale Garden Supply,airflow
+262,0,simple,433,Can-Fan TCL 4HO 120v,Nickel City Wholesale Garden Supply,Environment Control
+263,0,variable,1615,Cal-Pow,Nickel City Wholesale Garden Supply,Nutrients
+264,0,simple,1253,CT-HT-2 Independent Thermostats,Nickel City Wholesale Garden Supply,Environment Control
+265,0,simple,1840,CT-DH-3X,Nickel City Wholesale Garden Supply,Environment Control
+266,0,simple,1263,CT-DH-3P w/ Photosensor,Nickel City Wholesale Garden Supply,controllers_timers
+267,0,simple,1262,CT-DH-3 Syncronized Therm/Dehum,Nickel City Wholesale Garden Supply,Environment Control
+268,0,simple,1261,CT-DH-2 Independent 4 Outlet,Nickel City Wholesale Garden Supply,electrical_supplies
+269,0,simple,1260,CT-DH-1 Thermostat & Dehumid,Nickel City Wholesale Garden Supply,controllers_timers
+270,0,variable,1927,CT-CT-3P,Nickel City Wholesale Garden Supply,Environment Control
+271,0,simple,1926,CO2R SCo2,Nickel City Wholesale Garden Supply,Accessories
+272,0,simple,990,CO2 and Temperature Monitor,Sunlight Supply inc.,co2
+273,0,simple,HMH-PRO-WX9512,CLONES,@Flowers-HEMP,propagation
+274,0,simple,1248,CDM-6000 CO2 Monitor,Nickel City Wholesale Garden Supply,co2
+275,0,simple,1245,CD-6NG Co2 Generator,Nickel City Wholesale Garden Supply,co2
+276,0,simple,1241,CD-6LP Co2 Generator,Nickel City Wholesale Garden Supply,co2
+277,0,simple,1271,CD-18NG Co2 Generator,System,co2
+278,0,simple,1272,CD-18LP Co2 Generator,System,co2
+279,0,simple,1242,CD-12LP Co2 Generator,Nickel City Wholesale Garden Supply,co2
+280,0,variable,1100,CAN-Fan HO,Nickel City Wholesale Garden Supply,Environment Control
+281,0,variable,1103,CAN-Fan 8,Nickel City Wholesale Garden Supply,Environment Control
+282,0,variable,1101,CAN-Fan 6,Nickel City Wholesale Garden Supply,Environment Control
+283,0,variable,1099,CAN Fan 4,Nickel City Wholesale Garden Supply,airflow
+284,0,simple,825,C.A.P. 1/Fill & DrainFitting,NGW,Components
+285,0,simple,638,Boveda 8g 2-Way Humidity 62%,Sunlight Supply inc.,harvesting
+286,0,variable,640,Boveda 67g 2-WayHumidity 62%,Sunlight Supply inc.,harvesting
+287,0,simple,1231,Bonide® Measuring Cup 4,BFG,Accessories
+288,0,simple,2334,Bond Precision Tip Pruner,Nickel City Wholesale Garden Supply,Accessories
+289,0,simple,1181,Bond Moisture,BFG,Accessories
+290,0,simple,1962,Bond Bamboo Stakes 2' (25PK),NGW,grow_media
+291,0,simple,1791,Bond Bamboo 4 ft - 25/Bag,Hawthorne Hydoponics LLC,grow_media
+292,0,simple,2239,Blumat Patio & Deck Set,System,Accessories
+293,0,variable,388,BiMatrix Slab,Nickel City Wholesale Garden Supply,Media
+294,0,simple,1405,Beyond Buds by Ed Rosenthal,Nickel City Wholesale Garden Supply,Accessories
+295,0,simple,2852,Beldon Jumbo Sq. 5.5x5.5x6,Nickel City Wholesale Garden Supply,Pots/Containers
+296,0,simple,2005,Bamboo Stakes 4',NGW,Accessories
+297,0,simple,2329,Bamboo Stake 6',Nickel City Wholesale Garden Supply,Accessories
+298,0,simple,3598,BLOND / TriClone-HASH 10-Grams,@Flowers-HEMP,Accessories
+299,0,simple,3622,BISONSEED COAT ENDOPHYTES1/,GREASE,nutrients
+300,0,simple,3537,BISON EXTRACT LIQUIDCOMPOST 250,GEASE,nutrients
+301,0,simple,3604,BISON COMPOST 4,GEASE,nutrients
+302,0,simple,3354,BC-RB6 ROX 4x4x2.5/36 216 pices,Nickel City Wholesale Garden Supply,grow_media
+303,0,simple,2344,Azaguard 32oz,Nickel City Wholesale Garden Supply,pest_control
+304,0,simple,1079,AzaSol™ .75,,pest_control
+305,0,variable,1531,Auxilary Trolly,Nickel City Wholesale Garden Supply,Accessories
+306,0,simple,3292,Autopot 4 pot /12 .res,BFG,containers_pots
+307,0,simple,3499,Armory Beneficial,BFG,nutrients
+308,0,simple,2799,Apple Crumble 6oz,Sunlight Supply inc.,Environment Control
+309,0,simple,3446,Airstone med. round,Nickel City Wholesale Garden Supply,irrigation
+310,0,simple,907,Air Stone 4,NGW,irrigation
+311,0,simple,2302,Air Stone (FHD),Nickel City Wholesale Garden Supply,irrigation
+312,0,simple,1568,Agromax MH Warm,System,grow_lights
+313,0,simple,3340,AgroLED Sun 28 & Sun 48 LED 65K,Hawthorne Hydoponics LLC,grow_lights
+314,0,simple,1903,Agro LED 48 Srtip w/ ref,Hawthorne Hydoponics LLC,Lighting Equipment
+315,0,simple,3484,Aeromixer Moves 1600GPH,D.L. Wholesale,Hydroponics Components
+316,0,simple,1707,AeroFlo drain valve,Nickel City Wholesale Garden Supply,irrigation
+317,0,simple,482,AEROFLO Float Valve,Nickel City Wholesale Garden Supply,water_filtration
+318,0,simple,3235,70 Site Psycloner Aeroponic DWC,D.L. Wholesale,propagation
+319,0,simple,1809,6-Outlet Plastic Manifold,NGW,irrigation
+320,0,simple,hmh01531,5 /3 Bag Kit,,extraction
+321,0,simple,1992,4HO Thermo/Contolled 110V 3 sp,Nickel City Wholesale Garden Supply,Environment Control
+322,0,variable,2873,45 mesh 5 bag,Nickel City Wholesale Garden Supply,extraction
+323,0,simple,1467,40gal Reservoir Lid,NGW,irrigation
+324,0,simple,1808,4-Outlet Plastic Manifold,NGW,irrigation
+325,0,simple,hmh00522,4 in. Air Cooled Fittings (2/pk),,irrigation
+326,0,simple,2490,4 Way Dripper Stake Assembly 48,Hawthorne Hydoponics LLC,Accessories
+327,0,simple,3290,4 TraySeedling Heat Mat 21/48,Hawthorne Hydoponics LLC,propagation
+328,0,simple,3234,35 Site Psycloner Pro Aeroponic,D.L. Wholesale,propagation
+329,0,simple,2611,3/to 1/Reducer Fitting,Sunlight Supply inc.,irrigation
+330,0,simple,3074,3/to 1/2/'compresion coupler,Nickel City Wholesale Garden Supply,irrigation
+331,0,simple,1032,3/inlet,,irrigation
+332,0,simple,827,3/Tub Outlet/in- let Fitting,NGW,irrigation
+333,0,simple,2115,3/Thru H0le,Nickel City Wholesale Garden Supply,Components
+334,0,simple,1982,3/4  tee,Hawthorne Hydoponics LLC,irrigation
+335,0,simple,2874,25 mesh bubble bag 5,Nickel City Wholesale Garden Supply,extraction
+336,0,simple,hmh00933,24 Hour Clock Timers,,catalog_index
+337,0,simple,2272,220 Single Mesh extract,Nickel City Wholesale Garden Supply,nutrients
+338,0,simple,1465,20gal Reservoir Lid,NGW,irrigation
+339,0,simple,1464,20gal Reservoir Bottom,NGW,irrigation
+340,0,simple,1418,16/ 9-Pattern Rain Wand,BFG,Accessories
+341,0,simple,3335,132 Bottom Draw pump132 GPH,Hawthorne Hydoponics LLC,irrigation
+342,0,simple,3508,115 Reservoir Lid - W,Hawthorne Hydoponics LLC,irrigation
+343,0,simple,1811,10-Outlet Plastic Manifold,NGW,irrigation
+344,0,simple,851,10 ml lock syringe,Nickel City Wholesale Garden Supply,accessories
