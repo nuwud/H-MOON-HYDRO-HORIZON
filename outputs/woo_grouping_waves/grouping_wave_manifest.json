@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-02-21T16:48:42.122457+00:00",
+  "source_csv": "C:\\Users\\Nuwud\\Projects\\theme_export__h-moon-hydro-myshopify-com-horizon__29OCT2025-1206pm\\CSVs\\WooExport\\Products-Export-2025-Dec-31-180709.csv",
+  "mode": "confirm",
+  "waves": [
+    {
+      "label": "Air & Filtration",
+      "slug": "air_filtration",
+      "stats": {
+        "grouped_parents_seen": 277,
+        "grouped_parents_selected": 7,
+        "grouped_parents_with_children": 7,
+        "grouped_parents_skipped_no_children": 0,
+        "resolved_children": 43,
+        "missing_children": 0
+      },
+      "output_csv": "C:\\Users\\Nuwud\\Projects\\theme_export__h-moon-hydro-myshopify-com-horizon__29OCT2025-1206pm\\outputs\\woo_grouping_waves\\grouping_wave_air_filtration_20260221_164842.csv",
+      "unresolved_csv": null
+    }
+  ]
+}

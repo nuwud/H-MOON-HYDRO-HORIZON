@@ -1,0 +1,6 @@
+﻿id,type,sku,name,sold_individually,attributes,upsell_ids,brand,grouped_products
+10,grouped,hmh00010,FloraBlend,1,,,General Hydroponics,"id:11,id:12,id:13,id:14"
+11,simple,hmh00011,FloraBlend qt,0,,,General Hydroponics,
+12,simple,hmh00012,FloraBlend gal,0,,,General Hydroponics,
+13,simple,hmh00013,FloraBlend 2.5 gal,0,,,General Hydroponics,
+14,simple,hmh00014,FloraBlend 6 gal,0,,,General Hydroponics,

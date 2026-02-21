@@ -3,39 +3,106 @@
 import_to_woocommerce.py — Upload CSV and import products via WP-CLI
 
 Usage:
-  python scripts/import_to_woocommerce.py              # Dry run (backup only)
-  python scripts/import_to_woocommerce.py --confirm    # Actually import
+    python scripts/import_to_woocommerce.py                                # Dry run (backup + upload only)
+    python scripts/import_to_woocommerce.py --confirm                      # Actually import
+    python scripts/import_to_woocommerce.py --csv outputs/woo_grouping_waves/grouping_wave_air_filtration_YYYYMMDD_HHMMSS.csv --label air_filtration_wave1
 """
 import sys
 import json
 import os
+import argparse
 from pathlib import Path
 from datetime import datetime
 import paramiko
 
 WORKSPACE = Path(__file__).parent.parent
+
+
+def load_env_file(env_path: Path) -> None:
+    """Load KEY=VALUE pairs from a .env file into process env if unset."""
+    if not env_path.exists():
+        return
+
+    for raw_line in env_path.read_text(encoding='utf-8').splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith('#') or '=' not in line:
+            continue
+        key, value = line.split('=', 1)
+        key = key.strip()
+        value = value.strip().strip('"').strip("'")
+        if key and key not in os.environ:
+            os.environ[key] = value
+
+
+load_env_file(WORKSPACE / '.env')
+
 HOST = os.getenv('HMOON_SSH_HOST')
 USER = os.getenv('HMOON_SSH_USER')
 PASS = os.getenv('HMOON_SSH_PASS')
 SITE_DIR = os.getenv('HMOON_SITE_DIR', '~/hmoonhydro.com')
 
-LOCAL_CSV = WORKSPACE / "outputs" / "woocommerce_FINAL_WITH_IMAGES.csv"
-REMOTE_CSV = f'{SITE_DIR}/wp-content/product_import.csv'
 BACKUP_DIR = f'{SITE_DIR}/wp-content/backups'
 
-confirm = '--confirm' in sys.argv
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Upload/import WooCommerce CSV via SSH + WP-CLI")
+    parser.add_argument(
+        "--csv",
+        default=str(WORKSPACE / "outputs" / "woocommerce_FINAL_WITH_IMAGES.csv"),
+        help="Local CSV path to upload/import (for grouped waves, use timestamped output from outputs/woo_grouping_waves)",
+    )
+    parser.add_argument(
+        "--label",
+        default="",
+        help="Optional short label appended to remote CSV and backup filenames (e.g. air_filtration_wave1)",
+    )
+    parser.add_argument(
+        "--confirm",
+        action="store_true",
+        help="Actually run import. Without this flag, script runs in dry-run mode.",
+    )
+    return parser.parse_args()
+
+
+args = parse_args()
+confirm = args.confirm
 timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+label = args.label.strip().replace(" ", "_")
+
+LOCAL_CSV = Path(args.csv).resolve()
+if not LOCAL_CSV.exists():
+    raise SystemExit(f"CSV file not found: {LOCAL_CSV}")
+
+remote_name = f"product_import_{label}.csv" if label else "product_import.csv"
+REMOTE_CSV = f"{SITE_DIR}/wp-content/{remote_name}"
 
 print("=" * 60)
 print("WOOCOMMERCE PRODUCT IMPORT")
 print("=" * 60)
 print(f"Mode: {'LIVE IMPORT' if confirm else 'DRY RUN (backup only)'}")
 print(f"CSV: {LOCAL_CSV}")
+if label:
+    print(f"Wave label: {label}")
 print(f"Target: {HOST}")
 print("")
 
 if not HOST or not USER or not PASS:
     raise SystemExit('Missing SSH env vars: HMOON_SSH_HOST, HMOON_SSH_USER, HMOON_SSH_PASS')
+
+placeholder_tokens = (
+    'example.com',
+    'your-ssh-host',
+    'your-ssh-user',
+    'your-ssh-pass',
+    'changeme',
+)
+
+if any(token in (HOST or '').lower() for token in placeholder_tokens):
+    raise SystemExit('HMOON_SSH_HOST appears to be a placeholder in .env. Set a real server host before running.')
+if any(token in (USER or '').lower() for token in placeholder_tokens):
+    raise SystemExit('HMOON_SSH_USER appears to be a placeholder in .env. Set a real SSH username before running.')
+if any(token in (PASS or '').lower() for token in placeholder_tokens):
+    raise SystemExit('HMOON_SSH_PASS appears to be a placeholder in .env. Set a real SSH password before running.')
 
 # Connect
 print("Connecting to server...")
@@ -61,12 +128,13 @@ run_cmd(f'mkdir -p {BACKUP_DIR}')
 
 # Step 2: Backup current products (via SQL export)
 print("[2/5] Backing up current products...")
-backup_file = f'{BACKUP_DIR}/products_backup_{timestamp}.sql'
+backup_suffix = f"_{label}" if label else ""
+backup_file = f'{BACKUP_DIR}/products_backup_{timestamp}{backup_suffix}.sql'
 out, err = run_cmd(f'cd {SITE_DIR} && wp db export {backup_file} --tables=wp_posts,wp_postmeta,wp_term_relationships --porcelain 2>&1 | head -5', timeout=120)
 if 'Error' in str(err) or 'error' in str(out):
     # Try simpler export
     print("  Using simple product export...")
-    backup_file = f'{BACKUP_DIR}/products_backup_{timestamp}.json'
+    backup_file = f'{BACKUP_DIR}/products_backup_{timestamp}{backup_suffix}.json'
     out, err = run_cmd(f'''cd {SITE_DIR} && wp post list --post_type=product --fields=ID,post_title,post_name --format=json > {backup_file}''', timeout=120)
 print(f"  ✓ Backup created: {backup_file}")
 
@@ -116,7 +184,7 @@ if confirm:
 // Direct DB import using WooCommerce importer class
 require_once ABSPATH . 'wp-content/plugins/woocommerce/includes/import/class-wc-product-csv-importer.php';
 
-$file = ABSPATH . 'wp-content/product_import.csv';
+$file = ABSPATH . 'wp-content/__REMOTE_NAME__';
 if (!file_exists($file)) {
     echo "CSV file not found\\n";
     exit(1);
@@ -144,6 +212,7 @@ if (!empty($data['failed'])) {
     }
 }
 '''
+        php_import = php_import.replace('__REMOTE_NAME__', remote_name)
         # Upload and run PHP import
         sftp2 = ssh.open_sftp()
         with sftp2.file(f'{SITE_DIR}/wp-content/csv_import.php', 'w') as f:
