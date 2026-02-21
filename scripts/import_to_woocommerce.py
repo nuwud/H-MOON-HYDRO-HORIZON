@@ -41,8 +41,6 @@ USER = os.getenv('HMOON_SSH_USER')
 PASS = os.getenv('HMOON_SSH_PASS')
 SITE_DIR = os.getenv('HMOON_SITE_DIR', '~/hmoonhydro.com')
 
-BACKUP_DIR = f'{SITE_DIR}/wp-content/backups'
-
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Upload/import WooCommerce CSV via SSH + WP-CLI")
@@ -114,6 +112,16 @@ except Exception as e:
     print(f"❌ Connection failed: {e}")
     sys.exit(1)
 print("✓ Connected")
+
+# Resolve SITE_DIR to an absolute path for SFTP compatibility.
+if SITE_DIR.startswith('~'):
+    out, err = ssh.exec_command('echo $HOME')[1:3]
+    remote_home = out.read().decode('utf-8', errors='replace').strip()
+    if remote_home:
+        SITE_DIR = SITE_DIR.replace('~', remote_home, 1)
+
+BACKUP_DIR = f'{SITE_DIR}/wp-content/backups'
+REMOTE_CSV = f"{SITE_DIR}/wp-content/{remote_name}"
 
 def run_cmd(cmd, timeout=300):
     """Run command and return output"""
