@@ -65,6 +65,20 @@ log = logging.getLogger("sourcing_tool")
 
 UPLOAD_CACHE.mkdir(parents=True, exist_ok=True)
 
+# ── Filename → local path index (built on startup for O(1) image serving) ────────────
+_THUMB_INDEX: dict[str, Path] = {}
+
+def _build_thumb_index():
+    uploads = WORKSPACE / "hmoonhydro.com" / "wp-content" / "uploads"
+    if not uploads.exists():
+        return
+    count = 0
+    for p in uploads.rglob("*"):
+        if p.is_file():
+            _THUMB_INDEX.setdefault(p.name, p)  # first match wins (prefer parent over thumbnails)
+            count += 1
+    log.info(f"Thumb index: {count} files indexed, {len(_THUMB_INDEX)} unique names")
+
 # ── Thread-safe state ─────────────────────────────────────────────────────────
 _state_lock = threading.Lock()
 _state: dict[str, dict] = {}   # keyed by sku: {status, attachment_id, applied_url, ts}
@@ -186,6 +200,8 @@ def safe_filename(product_name: str, sku: str, ext: str) -> str:
     return f"{base}{ext}"
 
 # ── Products loader ───────────────────────────────────────────────────────────
+import html as _html
+
 def load_products(csv_path: Path) -> list[dict]:
     products = []
     if not csv_path.exists():
@@ -193,7 +209,9 @@ def load_products(csv_path: Path) -> list[dict]:
     with open(csv_path, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            products.append(dict(row))
+            # Decode HTML entities left over from WooCommerce export (&amp; etc.)
+            clean = {k: _html.unescape(v) for k, v in row.items()}
+            products.append(clean)
     return products
 
 # ── Flask app ─────────────────────────────────────────────────────────────────
@@ -329,6 +347,82 @@ HTML_TEMPLATE = r"""
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>H-Moon Image Sourcing Tool</title>
+<style>
+  #chrome-notice {
+    background: linear-gradient(135deg, #1e3a8a, #312e81);
+    border-bottom: 1px solid #3730a3;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.82rem;
+    flex-wrap: wrap;
+  }
+  #chrome-notice.hidden { display: none; }
+  #chrome-notice b { color: #a5b4fc; }
+  #chrome-notice .cn-url {
+    background: #1e3a8a;
+    border: 1px solid #3730a3;
+    color: #93c5fd;
+    padding: 2px 10px;
+    border-radius: 6px;
+    font-family: monospace;
+    cursor: pointer;
+    font-size: 0.82rem;
+  }
+  #chrome-notice .cn-url:hover { background: #1d4ed8; }
+  #chrome-notice .cn-close {
+    margin-left: auto;
+    background: none;
+    border: 1px solid #3730a3;
+    color: #64748b;
+    border-radius: 4px;
+    padding: 2px 8px;
+    cursor: pointer;
+    font-size: 0.72rem;
+  }
+  .url-row {
+    display: flex;
+    gap: 5px;
+    margin: 0 10px 10px;
+    align-items: stretch;
+  }
+  .url-row input[type=url] {
+    flex: 1;
+    background: #22263a;
+    border: 1px solid #2e3350;
+    color: #e2e8f0;
+    padding: 5px 9px;
+    border-radius: 6px;
+    font-size: 0.72rem;
+    outline: none;
+    min-width: 0;
+  }
+  .url-row input[type=url]:focus { border-color: #4f8ef7; }
+  .url-row input[type=url]::placeholder { color: #64748b; }
+  .url-apply {
+    background: var(--accent);
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.72rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .url-apply:hover { filter: brightness(1.15); }
+  .file-lbl {
+    background: #22263a;
+    border: 1px solid #2e3350;
+    color: #64748b;
+    border-radius: 6px;
+    padding: 5px 8px;
+    cursor: pointer;
+    font-size: 0.72rem;
+  }
+  .file-lbl:hover { border-color: #4f8ef7; color: #e2e8f0; }
+</style>
 <style>
   :root {
     --bg: #0f1117;
@@ -602,6 +696,14 @@ HTML_TEMPLATE = r"""
 </head>
 <body>
 
+<div id="chrome-notice">
+  <span>⚠ <b>Open in Chrome or Edge</b> for drag-and-drop between windows to work.</span>
+  <button class="cn-url" onclick="navigator.clipboard.writeText('http://localhost:5001');this.textContent='Copied!';setTimeout(()=>this.textContent='http://localhost:5001',1500)">http://localhost:5001</button>
+  <span style="color:#64748b">You can also paste URLs directly into the box below each card, or use 📁 to pick a local file.</span>
+  <button class="cn-close" onclick="this.closest('#chrome-notice').classList.add('hidden');localStorage.setItem('cnDismissed','1')">✕</button>
+</div>
+<script>if(localStorage.getItem('cnDismissed'))document.getElementById('chrome-notice').classList.add('hidden');</script>
+
 <header>
   <h1>🌿 H-Moon Image Sourcing</h1>
   <div class="progress-wrap">
@@ -752,12 +854,29 @@ function cardHTML(p) {
     ? `<img class="card-img wrong" src="${imgUrl}" alt="${name}" onerror="this.parentNode.innerHTML='<div class=card-img-placeholder>current: ${escHtml(wrongImg.split('/').pop())}</div>'">`
     : `<div class="card-img-placeholder">No current image</div>`;
 
+  const urlInputId = 'url-' + sku.replace(/[^a-z0-9]/gi,'_');
+
   return `<div class="${cardClass}" id="card-${sku}">
     <span class="badge ${badgeClass}">${badgeLabel}</span>
     <button class="reset-btn" data-sku="${sku}" title="Reset to pending">↺</button>
     ${imgTag}
     <div class="drop-zone ${status === 'done' ? 'done-zone' : ''}" data-sku="${sku}">
       ${dropContent}
+    </div>
+    <div style="display:flex;gap:5px;margin:0 10px 10px;align-items:stretch">
+      <input id="${urlInputId}" type="url" placeholder="Paste image URL here…"
+        style="flex:1;background:#22263a;border:1px solid #2e3350;color:#e2e8f0;
+               padding:5px 9px;border-radius:6px;font-size:0.72rem;outline:none;min-width:0"
+        onkeydown="if(event.key==='Enter'){applyUrlInput('${escJs(sku)}','${urlInputId}')}">
+      <button onclick="applyUrlInput('${escJs(sku)}','${urlInputId}')"
+        style="background:var(--accent);border:none;color:#fff;border-radius:6px;
+               padding:5px 10px;cursor:pointer;font-size:0.72rem;font-weight:600;white-space:nowrap">Apply</button>
+      <label title="Browse local file"
+        style="background:#22263a;border:1px solid #2e3350;color:#64748b;
+               border-radius:6px;padding:5px 8px;cursor:pointer;font-size:0.72rem">
+        📁<input type="file" accept="image/*" style="display:none"
+            onchange="applyFileInput('${escJs(sku)}',this)">
+      </label>
     </div>
     <div class="card-body">
       <div class="card-name" onclick="openSearch('${escJs(name)}')">${escHtml(name)}</div>
@@ -770,6 +889,55 @@ function cardHTML(p) {
 function openSearch(name) {
   const q = encodeURIComponent(name + ' hydroponics');
   window.open(`https://www.google.com/search?tbm=isch&q=${q}`, '_blank');
+}
+
+function applyUrlInput(sku, inputId) {
+  const input = document.getElementById(inputId);
+  const url = (input && input.value || '').trim();
+  if (!url) { toast('⚠ Paste a URL first', 'Right-click image → "Copy image address", then paste in the box', false); return; }
+  const p = products.find(x => x.sku === sku);
+  if (!p) return;
+  p.status = 'processing';
+  renderGrid(); updateStats();
+  const fd = new FormData();
+  fd.append('product_id', p.product_id || '');
+  fd.append('sku', sku);
+  fd.append('product_name', p.product_name || p.name || sku);
+  fd.append('image_url', url);
+  submitImage(fd, p);
+}
+
+function applyFileInput(sku, fileInput) {
+  if (!fileInput.files || !fileInput.files[0]) return;
+  const file = fileInput.files[0];
+  const p = products.find(x => x.sku === sku);
+  if (!p) return;
+  p.status = 'processing';
+  renderGrid(); updateStats();
+  const fd = new FormData();
+  fd.append('product_id', p.product_id || '');
+  fd.append('sku', sku);
+  fd.append('product_name', p.product_name || p.name || sku);
+  fd.append('file', file);
+  submitImage(fd, p);
+}
+
+async function submitImage(fd, p) {
+  try {
+    const res = await fetch('/api/apply-image', { method: 'POST', body: fd });
+    const data = await res.json();
+    if (data.ok) {
+      p.status = 'done'; p.attachment_id = data.attachment_id;
+      toast(`✓ ${p.product_name || p.sku}`, `Attachment #${data.attachment_id}`, true);
+    } else {
+      p.status = 'error'; p.error = data.error || 'Unknown error';
+      toast(`⚠ ${p.product_name || p.sku}`, p.error.slice(0, 120), false);
+    }
+  } catch(e) {
+    p.status = 'error'; p.error = e.message;
+    toast('⚠ Network error', e.message, false);
+  }
+  renderGrid(); updateStats();
 }
 
 async function handleDrop(e, sku) {
@@ -816,32 +984,15 @@ async function handleDrop(e, sku) {
     } else if (url) {
       fd.append('image_url', url);
     } else {
-      toast('⚠ Could not extract image URL from drop', '', false);
+      toast('⚠ Could not extract image URL from drop',
+            'Try: right-click image → "Copy image address" → paste in the URL box below the card', false);
       p.status = 'pending';
       renderGrid(); updateStats();
       return;
     }
   }
 
-  try {
-    const res = await fetch('/api/apply-image', { method: 'POST', body: fd });
-    const data = await res.json();
-    if (data.ok) {
-      p.status = 'done';
-      p.attachment_id = data.attachment_id;
-      toast(`✓ ${p.product_name || sku}`, `Attachment #${data.attachment_id}`, true);
-    } else {
-      p.status = 'error';
-      p.error = data.error || 'Unknown error';
-      toast(`⚠ ${p.product_name || sku}`, p.error.slice(0, 120), false);
-    }
-  } catch(err) {
-    p.status = 'error';
-    p.error = err.message;
-    toast(`⚠ Network error`, err.message, false);
-  }
-
-  renderGrid(); updateStats();
+  submitImage(fd, p);
 }
 
 function toast(title, body, ok) {
@@ -886,28 +1037,72 @@ function escJs(s) {
   return (s||'').replace(/'/g,"\\'").replace(/\\/g,'\\\\');
 }
 
-// Auto-refresh every 3 seconds to catch server-side status updates
-setInterval(loadProducts, 3000);
+// Poll every 15 s; pause when tab is hidden to avoid flooding 404s
+let _pollTimer;
+function startPoll() { clearInterval(_pollTimer); _pollTimer = setInterval(loadProducts, 15000); }
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) { clearInterval(_pollTimer); } else { loadProducts(); startPoll(); }
+});
+startPoll();
 loadProducts();
 </script>
 </body>
 </html>
 """
 
-# ── Optional: serve the wrong image thumbnails from live site via proxy ────────
+# ── Serve wrong-image thumbnails: local-first, then live site proxy ────────────
+LIVE_SITE = "https://hmoonhydro.com"
+
 @app.route("/api/wrong-image")
 def wrong_image_proxy():
-    """Proxy the product's current (wrong) image from the live site."""
-    img_name = request.args.get("img", "")
+    """Proxy the product's current (wrong) image: checks local uploads, then fetches from live site."""
+    img_name = request.args.get("img", "").strip()
     if not img_name or "/" in img_name or ".." in img_name:
         return ("", 404)
-    # Try to serve from local uploads directory first
-    for year in ["2024", "2023", "2022", "2021", "2020", "2019"]:
-        for month in ["12","11","10","09","08","07","06","05","04","03","02","01"]:
-            candidate = WORKSPACE / "hmoonhydro.com" / "wp-content" / "uploads" / year / month / img_name
-            if candidate.exists():
-                from flask import send_file
-                return send_file(str(candidate))
+
+    # 1. Fast O(1) lookup in pre-built index
+    if img_name in _THUMB_INDEX:
+        from flask import send_file
+        return send_file(str(_THUMB_INDEX[img_name]))
+
+    # 2. Cached live-site fetch
+    cached = UPLOAD_CACHE / ("proxy__" + re.sub(r'[^a-z0-9._-]', '_', img_name.lower()))
+    if cached.exists():
+        from flask import send_file
+        return send_file(str(cached))
+
+    # 3. Fetch from live site — try year/month paths (recent first) + bare path
+    import datetime
+    now = datetime.date.today()
+    year_months = []
+    for delta in range(0, 18):  # last 18 months
+        d = datetime.date(now.year, now.month, 1)
+        for _ in range(delta):
+            if d.month == 1:
+                d = datetime.date(d.year - 1, 12, 1)
+            else:
+                d = datetime.date(d.year, d.month - 1, 1)
+        year_months.append(f"{d.year}/{d.month:02d}")
+
+    live_urls = [f"{LIVE_SITE}/wp-content/uploads/{ym}/{img_name}" for ym in year_months]
+    live_urls.append(f"{LIVE_SITE}/wp-content/uploads/{img_name}")
+
+    for live_url in live_urls:
+        try:
+            req = urllib.request.Request(live_url,
+                headers={"User-Agent": "Mozilla/5.0", "Referer": LIVE_SITE})
+            with urllib.request.urlopen(req, timeout=6) as resp:
+                if resp.status != 200:
+                    continue
+                data = resp.read()
+            if len(data) > 200:
+                cached.write_bytes(data)
+                mime = resp.headers.get("Content-Type", "image/png").split(";")[0]
+                from flask import Response
+                return Response(data, mimetype=mime)
+        except Exception:
+            continue
+
     return ("", 404)
 
 
@@ -931,18 +1126,17 @@ def main():
     PRODUCTS = load_products(CSV_PATH)
     _state = load_state()
 
-    done = sum(1 for s in _state.values() if s.get("status") == "done")
-    print(f"")
-    print(f"  🌿 H-Moon Image Sourcing Tool")
+    print(f"\n  🌿 H-Moon Image Sourcing Tool")
     print(f"  ─────────────────────────────")
-    print(f"  Products to source : {len(PRODUCTS)}")
-    print(f"  Already done       : {done}")
-    print(f"  Remaining          : {len(PRODUCTS) - done}")
-    print(f"")
-    print(f"  Open   : http://localhost:{args.port}")
-    print(f"  Tip    : Side-by-side with Google Images or any browser")
-    print(f"  Drag   : Any image from the web onto a product card")
-    print(f"")
+    print(f"  Building local image index…", flush=True, end="")
+    _build_thumb_index()
+    print(f" done ({len(_THUMB_INDEX)} files)")
+
+    done = sum(1 for s in _state.values() if s.get("status") == "done")
+    print(f"  Products : {len(PRODUCTS)}  |  Done : {done}  |  Remaining : {len(PRODUCTS) - done}")
+    print(f"\n  ⚠  Open in Chrome/Edge — NOT VS Code Simple Browser:")
+    print(f"     http://localhost:{args.port}")
+    print(f"     (drag images onto cards, or paste URLs into the box below each card)\n")
 
     app.run(host=args.host, port=args.port, debug=False, threaded=True)
 
