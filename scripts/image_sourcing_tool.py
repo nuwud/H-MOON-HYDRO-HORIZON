@@ -164,8 +164,9 @@ def save_base64_image(data_url: str, dest: str) -> tuple[bool, str]:
         return False, str(e)
 
 def sftp_upload_and_assign(product_id: str, sku: str, local_file: str,
-                            remote_name: str) -> tuple[str, str]:
-    """SFTP upload → wp media import → featured image. Returns (status, detail)."""
+                            remote_name: str) -> tuple[str, str, str]:
+    """SFTP upload → wp media import → featured image.
+    Returns (status, att_id, image_url) — image_url is the WordPress GUID URL on success."""
     remote_tmp = f"/tmp/hmoon_img_{remote_name}"
     ssh = get_ssh()
     try:
@@ -182,10 +183,63 @@ def sftp_upload_and_assign(product_id: str, sku: str, local_file: str,
 
         if result.strip().isdigit():
             att_id = result.strip()
+            # Get the public attachment URL (guid)
+            image_url = run_remote(
+                ssh,
+                f"cd {SITE_DIR} && wp post get {att_id} --field=guid --allow-root 2>/dev/null"
+            )
+            image_url = image_url.strip() if not image_url.startswith("ERR:") else ""
             # Flush object cache
             run_remote(ssh, f"cd {SITE_DIR} && wp cache flush --allow-root 2>/dev/null")
-            return "OK", att_id
-        return "ERROR", result[:300]
+            return "OK", att_id, image_url
+        return "ERROR", result[:300], ""
+    finally:
+        release_ssh(ssh)
+
+
+def sftp_add_to_gallery(product_id: str, sku: str, local_file: str,
+                         remote_name: str) -> tuple[str, str, str]:
+    """SFTP upload → wp media import (not featured) → append to _product_image_gallery.
+    Returns (status, att_id, image_url)."""
+    remote_tmp = f"/tmp/hmoon_gal_{remote_name}"
+    ssh = get_ssh()
+    try:
+        sftp = ssh.open_sftp()
+        sftp.put(local_file, remote_tmp)
+        sftp.close()
+
+        result = run_remote(
+            ssh,
+            f"cd {SITE_DIR} && wp media import {remote_tmp} "
+            f"--post_id={product_id} --porcelain --allow-root 2>&1"
+        )
+        run_remote(ssh, f"rm -f {remote_tmp}")
+
+        if not result.strip().isdigit():
+            return "ERROR", result[:300], ""
+
+        att_id = result.strip()
+        image_url = run_remote(
+            ssh,
+            f"cd {SITE_DIR} && wp post get {att_id} --field=guid --allow-root 2>/dev/null"
+        )
+        image_url = image_url.strip() if not image_url.startswith("ERR:") else ""
+
+        # Append to existing gallery meta
+        existing = run_remote(
+            ssh,
+            f"cd {SITE_DIR} && wp post meta get {product_id} _product_image_gallery "
+            f"--allow-root 2>/dev/null"
+        )
+        existing = existing.strip() if (existing and not existing.startswith("ERR:")) else ""
+        new_gallery = ",".join(filter(None, [existing, att_id]))
+        run_remote(
+            ssh,
+            f"cd {SITE_DIR} && wp post meta update {product_id} _product_image_gallery "
+            f"'{new_gallery}' --allow-root 2>/dev/null"
+        )
+        run_remote(ssh, f"cd {SITE_DIR} && wp cache flush --allow-root 2>/dev/null")
+        return "OK", att_id, image_url
     finally:
         release_ssh(ssh)
 
@@ -237,6 +291,9 @@ def api_products():
                 "status": s.get("status", "pending"),
                 "attachment_id": s.get("attachment_id", ""),
                 "applied_url": s.get("applied_url", ""),
+                "image_url": s.get("image_url", ""),
+                "source_url": s.get("source_url", ""),
+                "gallery_ids": s.get("gallery_ids", []),
                 "ts": s.get("ts", ""),
             })
     return jsonify(result)
@@ -291,21 +348,28 @@ def api_apply_image():
 
             # ── Upload and assign ──────────────────────────────────────────────
             remote_name = safe_filename(name, sku, ext)
-            status, detail = sftp_upload_and_assign(product_id, sku, local_path, remote_name)
+            status, detail, image_url = sftp_upload_and_assign(product_id, sku, local_path, remote_name)
 
             if status == "OK":
                 with _state_lock:
+                    existing = _state.get(sku, {})
                     _state[sku] = {
                         "status": "done",
                         "attachment_id": detail,
+                        "image_url": image_url,
                         "applied_url": source_url,
+                        "source_url": existing.get("source_url", ""),
+                        "gallery_ids": existing.get("gallery_ids", []),
                         "ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
                     }
                     save_state()
-                return {"ok": True, "attachment_id": detail}
+                return {"ok": True, "attachment_id": detail, "image_url": image_url}
             else:
                 with _state_lock:
+                    prev = _state.get(sku, {})
                     _state[sku] = {"status": "error", "error": detail,
+                                   "source_url": prev.get("source_url", ""),
+                                   "gallery_ids": prev.get("gallery_ids", []),
                                    "ts": time.strftime("%Y-%m-%dT%H:%M:%S")}
                     save_state()
                 return {"ok": False, "error": detail}
@@ -329,6 +393,74 @@ def api_reset(sku: str):
             del _state[sku]
             save_state()
     return jsonify({"ok": True})
+
+@app.route("/api/save-source-url", methods=["POST"])
+def api_save_source_url():
+    """Save a reference URL (manufacturer/supplier page) for a product."""
+    data = request.get_json(force=True)
+    sku = (data.get("sku") or "").strip()
+    url = (data.get("url") or "").strip()
+    if not sku:
+        return jsonify({"ok": False, "error": "Missing sku"}), 400
+    with _state_lock:
+        if sku not in _state:
+            _state[sku] = {}
+        _state[sku]["source_url"] = url
+        save_state()
+    return jsonify({"ok": True})
+
+
+@app.route("/api/apply-gallery-image", methods=["POST"])
+def api_apply_gallery_image():
+    """Add an additional image to the product's WooCommerce gallery (not featured)."""
+    product_id = request.form.get("product_id", "").strip()
+    sku        = request.form.get("sku", "").strip()
+    name       = request.form.get("product_name", "").strip()
+    image_url  = request.form.get("image_url", "").strip()
+    data_url   = request.form.get("data_url", "").strip()
+
+    if not product_id:
+        return jsonify({"ok": False, "error": "Missing product_id"}), 400
+    try:
+        if "file" in request.files:
+            f = request.files["file"]
+            ext = Path(f.filename or "upload.jpg").suffix or ".jpg"
+            local_path = str(UPLOAD_CACHE / ("gal_" + safe_filename(name, sku, ext)))
+            f.save(local_path)
+        elif data_url.startswith("data:"):
+            mime = data_url.split(";")[0].split(":")[1]
+            ext = {"image/jpeg": ".jpg", "image/png": ".png",
+                   "image/webp": ".webp", "image/gif": ".gif"}.get(mime, ".jpg")
+            local_path = str(UPLOAD_CACHE / ("gal_" + safe_filename(name, sku, ext)))
+            ok, err = save_base64_image(data_url, local_path)
+            if not ok:
+                return jsonify({"ok": False, "error": f"Base64 decode failed: {err}"}), 400
+        elif image_url:
+            ext_guess = Path(re.sub(r"\?.*", "", image_url).split("/")[-1]).suffix
+            ext = ext_guess if ext_guess in (".jpg", ".jpeg", ".png", ".webp", ".gif") else ".jpg"
+            local_path = str(UPLOAD_CACHE / ("gal_" + safe_filename(name, sku, ext)))
+            ok, err = download_url(image_url, local_path)
+            if not ok:
+                return jsonify({"ok": False, "error": f"Download failed: {err}"}), 400
+        else:
+            return jsonify({"ok": False, "error": "No image source provided"}), 400
+
+        remote_name = "gal_" + safe_filename(name, sku, ext)
+        status, att_id, img_url = sftp_add_to_gallery(product_id, sku, local_path, remote_name)
+        if status == "OK":
+            with _state_lock:
+                if sku not in _state:
+                    _state[sku] = {}
+                gallery = list(_state[sku].get("gallery_ids", []))
+                gallery.append({"att_id": att_id, "image_url": img_url})
+                _state[sku]["gallery_ids"] = gallery
+                save_state()
+            return jsonify({"ok": True, "att_id": att_id, "image_url": img_url})
+        return jsonify({"ok": False, "error": att_id}), 500
+    except Exception as e:
+        log.exception("Gallery image error")
+        return jsonify({"ok": False, "error": str(e)}), 500
+
 
 @app.route("/api/stats")
 def api_stats():
@@ -422,6 +554,102 @@ HTML_TEMPLATE = r"""
     font-size: 0.72rem;
   }
   .file-lbl:hover { border-color: #4f8ef7; color: #e2e8f0; }
+
+  /* Applied image (shown after successful featured-image upload) */
+  .card-img.applied {
+    filter: none;
+    opacity: 1;
+    border-bottom: 2px solid var(--green);
+  }
+
+  /* Gallery section */
+  .gallery-section {
+    margin: 0 10px 8px;
+  }
+  .gallery-label {
+    font-size: 0.65rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 4px;
+  }
+  .gallery-zone {
+    border: 2px dashed #4b2d7a;
+    border-radius: 6px;
+    padding: 8px 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .2s;
+    font-size: 0.7rem;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    min-height: 36px;
+  }
+  .gallery-zone:hover, .gallery-zone.dragover {
+    border-color: var(--accent2);
+    background: rgba(124,58,237,0.12);
+    color: #c4b5fd;
+  }
+  .gallery-strip {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+  .gallery-thumb {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #4b2d7a;
+    cursor: pointer;
+  }
+  .gallery-thumb:hover { border-color: var(--accent2); transform: scale(1.05); }
+
+  /* Source URL reference field */
+  .source-url-row {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    margin: 4px 0 6px;
+  }
+  .source-url-row input {
+    flex: 1;
+    background: #1a1d27;
+    border: 1px solid transparent;
+    border-bottom-color: #2e3350;
+    color: #94a3b8;
+    padding: 2px 5px;
+    font-size: 0.65rem;
+    outline: none;
+    border-radius: 3px;
+    min-width: 0;
+  }
+  .source-url-row input:focus { border-color: #7c3aed; color: #e2e8f0; }
+  .source-url-row input::placeholder { color: #2e3350; font-style: italic; }
+  .source-url-row a {
+    font-size: 0.65rem;
+    color: #7c3aed;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 160px;
+    text-decoration: none;
+  }
+  .source-url-row a:hover { color: #a78bfa; text-decoration: underline; }
+  .src-save-btn {
+    background: none;
+    border: none;
+    color: #4b2d7a;
+    cursor: pointer;
+    font-size: 0.7rem;
+    padding: 0 3px;
+    flex-shrink: 0;
+  }
+  .src-save-btn:hover { color: #a78bfa; }
 </style>
 <style>
   :root {
@@ -804,6 +1032,25 @@ function renderGrid() {
     });
   });
 
+  // Gallery drop zones
+  grid.querySelectorAll('.gallery-zone').forEach(zone => {
+    const sku = zone.dataset.sku;
+    zone.addEventListener('dragover', e => {
+      e.preventDefault();
+      e.stopPropagation();
+      zone.classList.add('dragover');
+    });
+    zone.addEventListener('dragleave', () => zone.classList.remove('dragover'));
+    zone.addEventListener('drop', e => {
+      e.preventDefault();
+      e.stopPropagation();
+      zone.classList.remove('dragover');
+      handleGalleryDrop(e, sku);
+    });
+    // Prevent the click on the file input label from opening Google search
+    zone.addEventListener('click', e => e.stopPropagation());
+  });
+
   // Reset buttons
   grid.querySelectorAll('.reset-btn').forEach(btn => {
     btn.addEventListener('click', async e => {
@@ -850,11 +1097,43 @@ function cardHTML(p) {
       <div class="drop-text">Drag image here<br>or click to Google search</div>`;
   }
 
-  const imgTag = imgUrl
-    ? `<img class="card-img wrong" src="${imgUrl}" alt="${name}" onerror="this.parentNode.innerHTML='<div class=card-img-placeholder>current: ${escHtml(wrongImg.split('/').pop())}</div>'">`
-    : `<div class="card-img-placeholder">No current image</div>`;
+  // Applied image shows the actual image we uploaded; wrong image shows tinted placeholder
+  let imgTag;
+  if (status === 'done' && p.image_url) {
+    imgTag = `<img class="card-img applied" src="${escHtml(p.image_url)}" alt="${escHtml(name)}"
+      onerror="this.src='';this.style.display='none'">`;
+  } else if (imgUrl) {
+    imgTag = `<img class="card-img wrong" src="${imgUrl}" alt="${escHtml(name)}"
+      onerror="this.parentNode.innerHTML='<div class=card-img-placeholder>current: ${escHtml(wrongImg.split('/').pop())}</div>'">`;
+  } else {
+    imgTag = `<div class="card-img-placeholder">No current image</div>`;
+  }
 
   const urlInputId = 'url-' + sku.replace(/[^a-z0-9]/gi,'_');
+  const srcInputId = 'src-' + sku.replace(/[^a-z0-9]/gi,'_');
+
+  // Gallery thumbnails strip
+  const galIds = p.gallery_ids || [];
+  const galThumbs = galIds.length
+    ? `<div class="gallery-strip">${galIds.map(g =>
+        g.image_url
+          ? `<img class="gallery-thumb" src="${escHtml(g.image_url)}" title="ID ${escHtml(g.att_id)}">`
+          : `<div class="gallery-thumb" style="background:#1a1d27;display:flex;align-items:center;justify-content:center;color:#64748b;font-size:0.6rem">#${escHtml(g.att_id)}</div>`
+      ).join('')}</div>`
+    : '';
+
+  // Source URL row – shows link if set, otherwise shows editable input
+  const srcUrl = p.source_url || '';
+  const sourceRow = `<div class="source-url-row">
+    <span style="font-size:0.6rem;color:#4b2d7a;flex-shrink:0">🔗</span>
+    ${srcUrl
+      ? `<a href="${escHtml(srcUrl)}" target="_blank" title="${escHtml(srcUrl)}">${escHtml(srcUrl.replace(/^https?:\/\/(www\.)?/, '').slice(0,35))}</a>
+         <button class="src-save-btn" onclick="clearSourceUrl('${escJs(sku)}','${srcInputId}')" title="Edit">✎</button>`
+      : `<input id="${srcInputId}" type="url" placeholder="Source page URL (manufacturer/supplier)…"
+           onblur="saveSourceUrl('${escJs(sku)}',this)"
+           onkeydown="if(event.key==='Enter'){saveSourceUrl('${escJs(sku)}',this);this.blur()}">`
+    }
+  </div>`;
 
   return `<div class="${cardClass}" id="card-${sku}">
     <span class="badge ${badgeClass}">${badgeLabel}</span>
@@ -878,8 +1157,19 @@ function cardHTML(p) {
             onchange="applyFileInput('${escJs(sku)}',this)">
       </label>
     </div>
+    <div class="gallery-section">
+      <div class="gallery-zone" data-sku="${sku}" data-gallery="1">
+        📸 + Gallery image
+        <label style="margin-left:auto;cursor:pointer;font-size:0.65rem;color:#7c3aed" title="Browse gallery file">
+          📁<input type="file" accept="image/*" style="display:none"
+              onchange="applyGalleryFile('${escJs(sku)}',this)">
+        </label>
+      </div>
+      ${galThumbs}
+    </div>
     <div class="card-body">
       <div class="card-name" onclick="openSearch('${escJs(name)}')">${escHtml(name)}</div>
+      ${sourceRow}
       <div class="card-sku">${escHtml(sku)} · ID ${escHtml(p.product_id || '')}</div>
       <div class="card-cats">${escHtml(cats.split('|').slice(0,2).join(' › '))}</div>
     </div>
@@ -928,6 +1218,7 @@ async function submitImage(fd, p) {
     const data = await res.json();
     if (data.ok) {
       p.status = 'done'; p.attachment_id = data.attachment_id;
+      p.image_url = data.image_url || '';   // store WP guid for display
       toast(`✓ ${p.product_name || p.sku}`, `Attachment #${data.attachment_id}`, true);
     } else {
       p.status = 'error'; p.error = data.error || 'Unknown error';
@@ -938,6 +1229,87 @@ async function submitImage(fd, p) {
     toast('⚠ Network error', e.message, false);
   }
   renderGrid(); updateStats();
+}
+
+// ── Source URL (reference link) helpers ───────────────────────────────────────
+async function saveSourceUrl(sku, inputOrEl) {
+  const url = (inputOrEl.value || '').trim();
+  const p = products.find(x => x.sku === sku);
+  if (!url) return;
+  try {
+    await fetch('/api/save-source-url', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({sku, url})
+    });
+    if (p) p.source_url = url;
+    renderGrid();
+  } catch(e) { /* silent */ }
+}
+
+function clearSourceUrl(sku, inputId) {
+  const p = products.find(x => x.sku === sku);
+  if (p) { p.source_url = ''; }
+  // Re-render to show input instead of link
+  renderGrid();
+}
+
+// ── Gallery helpers ───────────────────────────────────────────────────────────
+function applyGalleryFile(sku, fileInput) {
+  if (!fileInput.files || !fileInput.files[0]) return;
+  const file = fileInput.files[0];
+  const p = products.find(x => x.sku === sku);
+  if (!p) return;
+  const fd = new FormData();
+  fd.append('product_id', p.product_id || '');
+  fd.append('sku', sku);
+  fd.append('product_name', p.product_name || p.name || sku);
+  fd.append('file', file);
+  submitGalleryImage(fd, p);
+}
+
+async function handleGalleryDrop(e, sku) {
+  const p = products.find(x => x.sku === sku);
+  if (!p) return;
+  const dt = e.dataTransfer;
+  const fd = new FormData();
+  fd.append('product_id', p.product_id || '');
+  fd.append('sku', sku);
+  fd.append('product_name', p.product_name || p.name || sku);
+
+  if (dt.files && dt.files.length > 0) {
+    fd.append('file', dt.files[0]);
+  } else {
+    let url = dt.getData('text/uri-list');
+    if (url && url.startsWith('http')) url = url.split('\n')[0].trim();
+    if (!url) {
+      const html = dt.getData('text/html');
+      if (html) { const m = html.match(/src=["']([^"']+)["']/i); if (m) url = m[1]; }
+    }
+    if (!url) { const txt = dt.getData('text/plain'); if (txt && txt.startsWith('http')) url = txt.trim(); }
+    if (url && url.startsWith('data:')) fd.append('data_url', url);
+    else if (url) fd.append('image_url', url);
+    else { toast('⚠ Could not extract gallery image', 'Try using the 📁 button in the gallery zone', false); return; }
+  }
+  submitGalleryImage(fd, p);
+}
+
+async function submitGalleryImage(fd, p) {
+  toast(`📸 Uploading gallery…`, `${p.product_name || p.sku}`, true);
+  try {
+    const res = await fetch('/api/apply-gallery-image', {method: 'POST', body: fd});
+    const data = await res.json();
+    if (data.ok) {
+      if (!p.gallery_ids) p.gallery_ids = [];
+      p.gallery_ids.push({att_id: data.att_id, image_url: data.image_url || ''});
+      toast(`📸 Gallery added`, `${p.product_name || p.sku} · #${data.att_id}`, true);
+    } else {
+      toast(`⚠ Gallery error`, (data.error || 'Unknown').slice(0, 120), false);
+    }
+  } catch(e) {
+    toast('⚠ Gallery network error', e.message, false);
+  }
+  renderGrid();
 }
 
 async function handleDrop(e, sku) {
@@ -1126,17 +1498,21 @@ def main():
     PRODUCTS = load_products(CSV_PATH)
     _state = load_state()
 
-    print(f"\n  🌿 H-Moon Image Sourcing Tool")
-    print(f"  ─────────────────────────────")
-    print(f"  Building local image index…", flush=True, end="")
+    # Use utf-8 for stdout to handle emoji on Windows
+    import io as _io
+    if hasattr(sys.stdout, 'buffer'):
+        sys.stdout = _io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace', line_buffering=True)
+    print(f"\n  H-Moon Image Sourcing Tool")
+    print(f"  --------------------------")
+    print(f"  Building local image index...", flush=True, end="")
     _build_thumb_index()
     print(f" done ({len(_THUMB_INDEX)} files)")
 
     done = sum(1 for s in _state.values() if s.get("status") == "done")
     print(f"  Products : {len(PRODUCTS)}  |  Done : {done}  |  Remaining : {len(PRODUCTS) - done}")
-    print(f"\n  ⚠  Open in Chrome/Edge — NOT VS Code Simple Browser:")
+    print(f"\n  NOTE: Open in Chrome/Edge (not VS Code Simple Browser):")
     print(f"     http://localhost:{args.port}")
-    print(f"     (drag images onto cards, or paste URLs into the box below each card)\n")
+    print(f"     (drag images, paste URLs, or use file picker)\n")
 
     app.run(host=args.host, port=args.port, debug=False, threaded=True)
 
